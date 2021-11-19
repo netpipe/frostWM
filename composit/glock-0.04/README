@@ -1,0 +1,30 @@
+Glock - a simple analog clock using GTK+
+Copyright 2005, 2006 Eric L. Smith <eric@brouhaha.com>
+$Id: README 16 2006-02-21 00:08:20Z eric $
+
+Glock is a simple analog clock program using GTK+, and Cairo if it is
+available (GTK 2.8 or later).
+
+The original purpose of glock was to have a simple demo of an undecorated
+non-rectangular window using gtk_widget_shape_combine_mask(), moveable
+with the mouse using gtk_window_begin_move_drag().
+
+-----------------------------------------------------------------------------
+
+Notices:
+
+Glock is free software; you can redistribute it and/or modify it
+under the terms of the GNU General Public License version 2 as
+published by the Free Software Foundation.  Note that I am not
+granting permission to redistribute or modify Glock under the
+terms of any later version of the General Public License.
+
+Glock is distributed in the hope that it will be useful, but WITHOUT
+ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or
+FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License
+for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program (in the file "COPYING"); if not, write to the
+Free Software Foundation, Inc., 59 Temple Place - Suite 330, Boston,
+MA 02111, USA.

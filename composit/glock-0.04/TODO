@@ -1,0 +1,23 @@
+TODO list for Glock
+Copyright 2005 Eric L. Smith <eric@brouhaha.com>
+$Id: TODO 13 2005-02-24 06:53:46Z eric $
+
+
+Build process:
+
+  Create an RPM .spec file.
+
+
+User interface:
+
+  Left-handed mode.
+
+  Allow window to be resized (middle button? menu item?).
+
+  Use SVG graphics.
+    Possible libraries to use:
+      librsvg (uses libart):
+        http://librsvg.sourceforge.net/
+      libsvg, cairo:
+        http://cairographics.org/libsvg
+        http://cairographics.org/libsvg-cairo
