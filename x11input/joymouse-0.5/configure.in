@@ -1,0 +1,26 @@
+AC_INIT(joymouse,0.5,spam84@gmx.de)
+
+AM_CONFIG_HEADER(config.h)
+AM_INIT_AUTOMAKE()
+
+AC_LANG_C
+AC_PROG_CC
+AC_PROG_INSTALL
+
+AC_HEADER_STDC
+AC_CHECK_HEADERS([linux/joystick.h fcntl.h sys/ioctl.h errno.h signal.h math.h])
+
+AC_PATH_X
+AC_PATH_XTRA
+CPPFLAGS="${CPPFLAGS} ${X_CFLAGS}"
+LIBS="${LIBS} ${X_LIBS}"
+
+AC_CHECK_LIB([m],[pow])
+AC_CHECK_LIB([Xtst],[XTestFakeKeyEvent])
+AC_CHECK_LIB([X11],[XFlush])
+
+AC_MSG_CHECKING(if 1=2)
+AC_MSG_RESULT([no, thanks heaven])
+AC_CHECK_FUNCS([pow abs perror ioctl getopt usleep fork signal mkfifo XTestFakeKeyEvent XFlush])
+
+AC_OUTPUT(Makefile src/Makefile)

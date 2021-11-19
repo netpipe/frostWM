@@ -1,0 +1,258 @@
+.TH joymouse 1 "August 27, 2005" Linux "User Manuals"
+
+.SH NAME
+.B joymouse
+\- converts joystick data to mouse data
+
+.SH SYNOPSIS
+.B joymouse
+.BI "[-v] [-d] [-i " "input device" "] [-o " "output pipe" "] [-t " "type" "] [-M " "axis mapping" "] [-B " "button mapping" "]"
+
+.SH DESCRIPTION
+.B joymouse
+reads joystick data from the given device, and writes mouse data to the specified pipe. So you can use your joystick to control your mouse pointer in X or gpm or any other program that processes raw mouse data.
+
+.SH OPTIONS
+.TP
+.B \-h --help
+Display help message.
+.TP
+.B \-version
+Display program version and exit.
+.TP
+.B \-v --v
+verbose, more verbose
+.TP
+.BI \-i " input device"
+Uses given device as input device for joystick data. Default: 
+.B \-i /dev/input/js0
+.TP
+.BI \-o " output pipe"
+Sends all mouse data to the given output node. The program tries to create it, you can create the pipe yourself by using the
+.BR mkfifo (1)
+command. Make sure, you have permission to create the pipe in the directory, if it does not exist. Make sure you have write permissions to the file. Output is in
+.I ExplorerPS/2
+format. Default:
+.B -o /dev/joymouse
+.TP
+.B \-d
+Run in daemon mode. The program forks into background and keeps processing.
+.TP
+.BI \-t " [type]"
+Specifies the type of the axis. The first parameter applies to the first axis, the second to the second one and so forth. If only one type is supplied, it applies to the second axis as well.
+.br
+Valid values are: 
+.I joypad
+,
+.I joystick
+\.
+Default:
+.B -t joystick
+.TP
+.BI \-M " [axis mapping]"
+You can define the mapping of each axis of the device.
+.br
+Valid values are: 
+.B -
+(ignore),
+.B x
+,
+.B y
+,
+.B zx
+(horizontal scroll wheel),
+.B zy
+(vertical scroll wheel).
+.br
+Default: -M x -M y -M zx -M zy
+, which maps the first two axis to mouse movements, and the second two to the scroll wheel.
+.TP
+.BI -B " [button mapping]"
+Maps a button to another button or to an axis. Valid values are:
+.RS 5
+.B \-
+.RS 5
+ignore this button
+.RE
+.B "[0-31]"
+.RS 5
+map to this mouse button
+.RE
+.B x+
+.RS 5
+map to positive x-axis (right)
+.RE
+.B x-
+.RS 5
+map to negative x-axis (left)
+.RE
+.B y+
+.RS 5
+map to positive y-axis (down)
+.RE
+.B y-
+.RS 5
+map to negative y-axis (up)
+.RE
+.B zx+
+.RS 5
+map to 'scroll right' of the mouse wheel
+.RE
+.B zx-
+.RS 5
+map to 'scroll left' of the mouse wheel
+.RE
+.B zy+
+.RS 5
+map to 'scroll down' of the mouse wheel
+.RE
+.B zy-
+.RS 5
+map to 'scroll up' of the mouse wheel
+.RE
+.B m=[factor]
+.RS 5
+wenn pressed, multiply movement speed of cursor with this factor (<1.00 to slow down, >1.00 to speed up)
+.RE
+.B disable, disable-mouse, disable-keys
+.RS 5
+Pressing such a button will prevent joymouse from generating events, or only suppress mouse events or key events. Pressing the button again will enable it. That way you can still play games without the mouse pointer going nuts.
+.RE
+.B key=[key]
+.RS 5
+wenn pressed, a key event is simulated in X11. Therefore the DISPLAY variable has to be set on startup, and the user need to have access to the display, i.e. own it.
+For valid keys look in file
+.I /usr/include/X11/keysymdef.h
+.br
+.br
+This works only, if joymouse has access to the X-Server of the user.
+.br
+.br
+Example:
+.br
+.B key=a
+simulates an a
+.br
+.B key=space
+simulates pressing space
+.RE
+
+.br
+Default: -B0 -B1 -B2 -B3 -B4 -B5 -B6 ...
+.br
+Which maps each joystick button to the appropriate mouse button.
+
+.SH ADDITIONAL INFORMATION
+If everything is running fine, you are able to grab mouse data in
+.I ExplorerPS/2
+format on the specified pipe. The CPU usage should be decent, and zero when no joystick data is available. You can run multiple instances of the program, but you should use different input devices for each as well as different output pipes.
+.I joystick
+determines the speed of movement by looking at the amplitude, whereas
+.I joypad
+only knows left, center and right, so there is a smooth acceleration built in and the movement of the mouse is getting faster in time.
+
+.SH SETTING UP X.org
+Add these lines to your
+.I /etc/X11/xorg.conf
+:
+.RS 4
+Section "InputDevice"
+.RS 4
+Identifier   "Joystick"
+.br
+Driver      "mouse"
+.br
+Option      "Protocol"       "ExplorerPS/2"
+.br
+Option      "Device"         "/dev/joymouse"
+.br
+Option      "SendCoreEvents" "true"
+.br
+Option      "ZAxisMapping"       "4 5 6 7"
+.RE
+EndSection
+.RE
+
+In the "ServerLayout" section you should have 2 InputDevice lines, i.e.:
+
+    InputDevice "Mouse"      "CorePointer"
+    InputDevice "Joystick"
+
+This makes "Mouse" your regular mouse device, for example a real usb mouse, and "Joystick" your additional mouse. You can use both of them simultaneous. For more information see the 
+.BR xorg.conf (5)
+man page.
+
+The "Device" of Joystick (ie. 
+.I /dev/joymouse
+) must exist, otherwise a start of X will fail. 
+.B
+joymouse
+does not need to be running. 
+
+.SH SETTING UP GPM
+You may want to use your joystick-mouse in your console:
+For single joymouse device:
+.RS
+.nf
+gpm -m /dev/joymouse -t exps2
+.fi
+.RE
+Or for regulare mice along with a joymouse device:
+.RS
+.nf
+gpm -m /dev/input/mice -t imps2 -M -m /dev/joymouse -t exps2
+.fi
+.RE
+Or just tweak your gpm config file for this.
+
+.SH EXAMPLES
+.TP
+ordinary 2 axis 2 buttons joypad:
+.nf
+joymouse -i /dev/input/js0 -o /dev/joymouse -t joypad -M x -t joypad -M y -B 0 -B 1
+.fi
+.TP
+3 axis 4 buttons joystick/joypad, use first 2 buttons as vertical wheel:
+.nf
+joymouse -t joystick -Mx -t joystick -My -t joypad -Mzy -Bzy- -Bzy+ -B0 -B1
+.fi
+.TP
+4 axis 2 buttons, mapping first pad to scroll wheel, and second stick to movement, and swapping buttons:
+.nf
+joymouse -t joypad -M zx -t joypad -M zy -t joystick -M x -t joystick -M y -B1 -B0
+.fi
+.TP
+To use button 1 as speed accelerator, and button 2 to slow down for precise movement:
+.nf
+joymouse -B m=2.0 -B m=0.5
+.fi
+.TP
+Makes button 1 simulate a space-key, button 2 a return key, button 3 an escape key event and button 4 a simple 'a':
+.nf
+joymouse -B key=space -B key=Return -B key=Escape -B key=a
+.fi
+
+
+.SH BUGS
+X.org waits a few seconds when trying to acquire the
+.B joymouse
+device. It seems to wait for some data from it, I have no idea. But it works.
+.br
+
+.B joymouse
+is limited to 32 axis and 32 buttons, at the moment. This should be enough, since there are only 4 mouse axis and about 5 or 7 mouse buttons available. At the moment only 3 mouse buttons and 2 additional for the scroll wheel are supported.
+.br
+
+The movement speed of the different axis depend on each other, so you don't have independend speeds for scrolling and moving at the same time. Won't bother much either.
+
+.SH AUTHOR
+Sascha Hlusiak <spam84@gmx.de>
+.SH HOMEPAGE
+.B joymouse
+is hostet at sourceforge:
+.B "http://www.sourceforge.net/projects/joymouse-linux"
+
+.SH "SEE ALSO"
+.BR mkfifo (1),
+.BR gpm (8),
+.BR xorg.conf (5)

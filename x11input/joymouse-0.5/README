@@ -1,0 +1,159 @@
+JOYMOUSE
+========================
+Sascha Hlusiak <spam84@gmx.de>
+
+joymouse is a very simple program that reads joystick data and writes mouse data. 
+By default it opens the /dev/input/js0 device, and writes the converted data into a pipe node, which is by default /dev/joymouse.
+Now you can point your mouse device in your X configuration file to this pipe and you will be able to perform all mouse activities with your joystick.
+
+
+
+BUILD
+=====
+
+Read the 'INSTALL' file for more detailed directions.
+
+A simple ./configure ; make ; make install  should do the job. 
+
+
+
+RUN
+===
+
+Type 'joymouse --help' for a brief list of the supported parameters. 
+Default is joymouse -t joystick -i /dev/input/js0 -o /dev/joymouse
+
+Parameters:
+       -h --help
+              Display help message.
+
+       -version
+              Display program version and exit.
+
+       -v --v verbose, more verbose
+
+       -i input device
+              Uses given device as input device for joystick data. Default: -i /dev/input/js0
+
+       -o output pipe
+              Sends all mouse data to the given output node. The program tries to create it, you can  cre-
+              ate the pipe yourself by using the mkfifo(1) command. Make sure, you have permission to cre-
+              ate the pipe in the directory, if it does not exist. Make sure you have write permissions to
+              the file. Output is in ExplorerPS/2 format. Default: -o /dev/joymouse
+
+       -d     Run in daemon mode. The program forks into background and keeps processing.
+
+       -t [type]
+              Specifies the type of the axis. The first parameter applies to the first axis, the second to
+              the second one and so forth. If only one type is supplied, it applies to the second axis  as
+              well.
+              Valid values are: joypad , joystick Default: -t joystick
+
+       -M [axis mapping]
+              You can define the mapping of each axis of the device.
+              Valid  values  are:  -  (ignore),  x , y , zx (horizontal scroll wheel), zy (vertical scroll
+              wheel).
+              Default: -M x -M y -M zx -M zy , which maps the first two axis to mouse movements,  and  the
+              second two to the scroll wheel.
+
+       -B [button mapping]
+              Maps a button to another button or to an axis. Valid values are:
+            -
+                 ignore this button
+            [0-31]
+                 map to this mouse button
+            x+
+                 map to positive x-axis (right)
+            x-
+                 map to negative x-axis (left)
+            y+
+                 map to positive y-axis (down)
+            y-
+                 map to negative y-axis (up)
+            zx+
+                 map to 'scroll right' of the mouse wheel
+            zx-
+                 map to 'scroll left' of the mouse wheel
+            zy+
+                 map to 'scroll down' of the mouse wheel
+            zy-
+                 map to 'scroll up' of the mouse wheel
+            m=[factor]
+                 wenn pressed, multiply movement speed of cursor with this factor (<1.00 to slow down, >1.00 to speed up)
+
+
+            Default: -B0 -B1 -B2 -B3 -B4 -B5 -B6 ...
+            Which maps each joystick button to the appropriate mouse button.
+
+
+
+Joymouse tries to create a pipe file at the specified output location. You can create one manually by using the 'mkfifo' command. Make sure that joymouse has the rights to create this pipe if it does not exist, and to read and write this pipe. You may run the program with root privileges, but I advise you against it. 
+
+When the program is running, you should be able to grab ExplorerPS/2 mouse data on the specified pipe. 
+
+You can run multiple instances of the program, but you should use different input devices for each. 
+
+The CPU usage is very decent and is zero, when nothing happens to the joystick device. 
+
+
+
+Types
+=====
+
+You can choose two types, a joypad and a joystick. 
+
+Because a joypad only knows left, center, right, I have built in a smooth acceleration of the mouse data. Joysticks have no acceleration, you can control the speed by the amplitude. 
+
+
+
+X.org
+=======
+
+Add these lines to your /etc/X11/xorg.conf to make joymouse available in X11:
+    Section "InputDevice"
+        Identifier   "Joystick"
+        Driver      "mouse"
+        Option      "Protocol"       "ExplorerPS/2"
+        Option      "Device"         "/dev/joymouse"
+        Option      "SendCoreEvents" "true"
+        Option      "ZAxisMapping"       "4 5 6 7"
+    EndSection
+
+In the "ServerLayout" section you should have 2 InputDevice lines, i.e.:
+
+    InputDevice "Mouse"      "CorePointer"
+    InputDevice "Joystick"
+
+This makes "Mouse" your regular mouse device, for example a real usb  mouse,  and  "Joystick" your additional  mouse. You can use both of them simultaneous. For more information see the xorg.conf(5) man page.
+
+The "Device" of Joystick (ie.  /dev/joymouse ) must exist, otherwise a start of X will fail. joymouse does not need to be running.
+
+
+
+gpm
+===
+
+You may also want to use your joystick-mouse in your console:
+'gpm -m /dev/joymouse -t exps2' makes it, or just tweak your gpm config file. 
+
+For your regulare mice along with joymouse use:
+'gpm -m /dev/input/mice -t imps2 -M -m /dev/joymouse -t exps2'
+
+
+
+BUGS
+====
+
+This README is longer than the source. :)
+
+
+HOMEPAGE
+========
+
+joymouse is hostet at sourceforge:
+http://www.sourceforge.net/projects/joymouse-linux
+
+
+
+Regards,
+Sascha Hlusiak <Spam84@gmx.de>

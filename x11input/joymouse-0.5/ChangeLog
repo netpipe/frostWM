@@ -1,0 +1,22 @@
+2006-02-07  Sascha Hlusiak  <spam84@gmx.de>
+	* joymouse.c: added disable-mouse and disable-keys button mapping
+	* joymouse.1: modified man page
+	* joymouse.c: Slowed down speed of joystick a little
+
+2006-01-26  Sascha Hlusiak  <spam84@gmx.de>
+	* xkey.c/h: added extra files for sending X11 key events
+	* joymouse.c: added -B key=[keysym] button mapping for simulating key strokes with the joystick
+	* joymouse.1: Man page updated
+	* configure.in, Makefile.am: autotool files updated to X11 dependency
+
+2006-01-25  Sascha Hlusiak  <spam84@gmx.de>
+	* joymouse.c: added -B disable button mapping for temporarily disable joymouse functionality
+
+2005-09-02  Sascha Hlusiak  <spam84@gmx.de>
+	* joymouse.c: added -B m=[factor] button mapping for speed multiply
+	* joymouse.1: added documentation for this to man page and README
+
+2005-08-27  Sascha Hlusiak  <spam84@gmx.de>
+	* joymouse.*: Lots of cleanup
+	* joymouse.*: Rewrite of code, making joymouse aware of more than 2 axis, and added lots of configurability to map axis and buttons
+	* joymouse.1: Man page and README up to date
