@@ -5,14 +5,11 @@
 	Example	: ./scr_tool :0 /path/to/output.png
 
 	Author: S Bozdag <selcuk.bozdag@gmail.com>
-
-gcc cairo-test.cpp -o test -lX11 -lcairo
-
 */
 
 #include <assert.h>
 #include <stdio.h>
-#include <cairo/cairo.h>
+#include <cairo.h>
 #include <cairo-xlib.h>
 #include <X11/Xlib.h>
 
@@ -39,57 +36,8 @@ int main(int argc, char** argv) {
     surface = cairo_xlib_surface_create(disp, root, DefaultVisual(disp, scr),
                                                     DisplayWidth(disp, scr),
                                                     DisplayHeight(disp, scr));
-    XGrabPointer(display, root, False, ButtonPressMask, GrabModeAsync,
-         GrabModeAsync, None, None, CurrentTime);
-
-int button;
-int x=-1,y=-1;
-    XMapWindow(display, root);
-    XFlush(display);
-    XSelectInput(display, root, ExposureMask|KeyPressMask|ButtonPressMask);
-    while (1)  {
-        XNextEvent(display, &events);
-        //switch  (events.type) {
-
- //   XQueryPointer(display, DefaultRootWindow(display), &mainwindow, &mainwindow, &root_x, &root_y, &root_x, &root_y, &mask); //<--four
-   // printf("Mouse coordinates (X: %d, Y: %d)\n", root_x, root_y);
-
-
-	switch(events.type){
-	    case ButtonPress:
-		switch(events.xbutton.button){
-		    case Button1:
-		        x=events.xbutton.x;
-		        y=events.xbutton.y;
-		        button=Button1;
-			printf("button1\n");
-		        break;
-
-		    case Button3:
-		        x=events.xbutton.x;
-		        y=events.xbutton.y;
-		        button=Button3;
-			printf("button3\n");
-		        break;
-		    default:
-		        break;
-		}
-	}
-
-        if (events.type == KeyPress)
-        {
-            printf( "KeyPress: %x\n", events.xkey.keycode );
-            if ( events.xkey.keycode == 0x09 )
-                break;
-        }
-        else if (events.type == KeyRelease)
-        {
-            printf( "KeyRelease: %x\n", events.xkey.keycode );
-        }
-    }
-
     /* right now, the tool only outputs PNG images */
-  //  cairo_surface_write_to_png( surface, argv[2] );
+    cairo_surface_write_to_png( surface, argv[2] );
     /* free the memory*/
     cairo_surface_destroy(surface);
     /* return with success */

@@ -97,8 +97,17 @@ int main(int argc, char** argv) {
     XISetMask(mask, XI_Motion);
     XISetMask(mask, XI_KeyPress);
 
-    XISelectEvents(display, mainwindow, &eventmask, 1); 
+    XIEventMask eventmask2;
+    unsigned char mask2[1] = {0};
+    eventmask2.deviceid = 13;
+    eventmask2.mask_len = sizeof(mask2);
+    eventmask2.mask = mask2;
+    XISetMask(mask2, XI_ButtonPress);
+    XISetMask(mask2, XI_Motion);
+    XISetMask(mask2, XI_KeyPress);
 
+    XISelectEvents(display, mainwindow, &eventmask, 1); 
+//	XISelectEvents(display, mainwindow, &eventmask2, 1); 
     //XSelectInput(display, mainwindow, ExposureMask|KeyPressMask|ButtonPressMask);
     
     while (1)  {
