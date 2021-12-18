@@ -39,16 +39,16 @@ int main(int argc, char** argv) {
     surface = cairo_xlib_surface_create(disp, root, DefaultVisual(disp, scr),
                                                     DisplayWidth(disp, scr),
                                                     DisplayHeight(disp, scr));
-    XGrabPointer(display, root, False, ButtonPressMask, GrabModeAsync,
+    XGrabPointer(disp, root, False, ButtonPressMask, GrabModeAsync,
          GrabModeAsync, None, None, CurrentTime);
 
 int button;
 int x=-1,y=-1;
-    XMapWindow(display, root);
-    XFlush(display);
-    XSelectInput(display, root, ExposureMask|KeyPressMask|ButtonPressMask);
+    XMapWindow(disp, root);
+    XFlush(disp);
+    XSelectInput(disp, root, ExposureMask|KeyPressMask|ButtonPressMask);
     while (1)  {
-        XNextEvent(display, &events);
+        XNextEvent(disp, &events);
         //switch  (events.type) {
 
  //   XQueryPointer(display, DefaultRootWindow(display), &mainwindow, &mainwindow, &root_x, &root_y, &root_x, &root_y, &mask); //<--four
