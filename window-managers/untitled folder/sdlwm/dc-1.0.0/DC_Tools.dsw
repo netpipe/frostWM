@@ -1,0 +1,119 @@
+Microsoft Developer Studio Workspace File, Format Version 6.00
+# WARNUNG: DIESE ARBEITSBEREICHSDATEI DARF NICHT BEARBEITET ODER GELÖSCHT WERDEN!
+
+###############################################################################
+
+Project: "ZDC_BuCoKit"=.\zdc_bck\ZDC_BuCoKit.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name ZSDL_WM_LIB
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name ztar_module
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "ZLA_Module"=.\ZLA_Module\ZLA_Module.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "ZMOD_Test"=.\ZMOD_Test\ZMOD_Test.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "ZSDL_BitFont"=.\ZSDL_BitFont\ZSDL_BitFont.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "ZSDL_WM_LIB"=.\ZSDL_WM\ZSDL_WM_LIB.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name ZSDL_BitFont
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "Z_LightCatcher"=.\Z_LightCatcher\Z_LightCatcher.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name ZSDL_BitFont
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name ZSDL_WM_LIB
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name ztar_module
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "ztar_module"=.\ztar_module\ztar_module.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Global:
+
+Package=<5>
+{{{
+}}}
+
+Package=<3>
+{{{
+}}}
+
+###############################################################################
+

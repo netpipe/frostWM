@@ -1,0 +1,60 @@
+dnl Process this file with autoconf to produce a configure script.
+
+AC_INIT(ztar_module/ztar_module.h)
+
+AC_CANONICAL_HOST
+AC_CANONICAL_TARGET
+
+AM_INIT_AUTOMAKE(dc,1.0.0)
+AM_CONFIG_HEADER(config.h)
+
+dnl Checks for programs.
+
+AC_PROG_RANLIB
+AC_PROG_MAKE_SET
+AC_C_INLINE
+AC_C_CONST
+AC_PROG_CXX
+AC_PROG_INSTALL
+AC_FUNC_ALLOCA
+
+dnl Checks for libraries.
+AC_CHECK_LIB(SDL_image,IMG_Load)
+AC_CHECK_LIB(SDL_net,SDLNet_Init)
+AC_CHECK_LIB(SDL_mixer,Mix_OpenAudio)
+AC_CHECK_LIB(smpeg,SMPEG_new)
+AC_CHECK_LIB(GL,glClear)
+AC_CHECK_LIB(GLU,gluLookAt)
+
+dnl Checks for header files.
+AC_HEADER_STDC
+
+dnl Checks for typedefs, structures, and compiler characteristics.
+AC_C_CONST
+
+dnl Checks for library functions.
+
+dnl Check for SDL
+SDL_VERSION=1.2.4
+AM_PATH_SDL($SDL_VERSION,
+			:,
+			AC_MSG_ERROR([*** SDL version $SDL_VERSION not found!])
+)
+
+dnl Check for SMPEG
+SMPEG_VERSION=0.4.4
+AM_PATH_SMPEG($SMPEG_VERSION,
+			:,
+			AC_MSG_ERROR([*** SMPEG version $SMPEG_VERSION not found!])
+)
+
+AC_SUBST(ZWM_LIBS)
+ZWM_LIBS="../zsdl_wm/libZSDL_WM.a ../zsdl_bitfont/libZBitFont.a \
+    ../ztar_module/libZTar.a ../DCLib/libDCLib.a -lSDL_image -lGL "
+
+CXXFLAGS="$CXXFLAGS $SDL_CFLAGS $SMPEG_CFLAGS -I../DCLib"
+LIBS="$LIBS $SDL_LIBS $SMPEG_LIBS"
+
+AC_OUTPUT(Makefile Z_LightCatcher/Makefile \
+	ztar_module/Makefile zsdl_wm/Makefile \
+ 	zsdl_bitfont/Makefile DCLib/Makefile)

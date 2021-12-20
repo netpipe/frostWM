@@ -1,0 +1,56 @@
+#ifndef _ZLA_MATERIAL_H
+#define _ZLA_MATERIAL_H
+
+#include "ZLC_Color.h"
+#include "ZLA_Vector4.h"
+
+enum EZLA_MATERIAL_TYPE
+{
+	EZLAMT_NONE,
+	EZLAMT_COLOR,
+	EZLAMT_COLOR_AND_TEXTURE,
+	EZLAMT_TEXTURE
+};
+
+class CZLA_MATERIAL
+{
+public:
+	CZLA_MATERIAL();
+	CZLA_MATERIAL(CZLC_COLOR nNewCol);
+	virtual CZLC_COLOR GetColor(CZLA_VECTOR4 vP);
+
+	int			nType;
+	CZLC_COLOR	cCol;
+};
+
+class CZLA_MAT_STRIPE:public CZLA_MATERIAL
+{
+public:
+	CZLA_MAT_STRIPE(CZLC_COLOR c1,CZLC_COLOR c2,int nNewMSType,float fW);
+	
+	int			nMS_Type;
+	ZLA_FLOAT	fMS_W;
+	CZLC_COLOR	cMS_Col1,cMS_Col2;
+
+	CZLC_COLOR GetColor(CZLA_VECTOR4 vP);
+};
+
+class CZLA_MAT_SOLIDNOISE:public CZLA_MATERIAL
+{
+public:
+	CZLA_MAT_SOLIDNOISE(CZLC_COLOR c1,CZLC_COLOR c2,ZLA_FLOAT fS);
+
+	CZLA_VECTOR4	vRandUV[256];
+	int				nPermInt[256];
+
+	ZLA_FLOAT Omega(ZLA_FLOAT fT);
+	ZLA_FLOAT Ohm(ZLA_FLOAT fU,ZLA_FLOAT fV,ZLA_FLOAT fW,ZLA_FLOAT fI,ZLA_FLOAT fJ,ZLA_FLOAT fK);
+	int Phi(int nI);
+
+	CZLC_COLOR GetColor(CZLA_VECTOR4 vP);
+
+	CZLC_COLOR	cMSN_Col1,cMSN_Col2;
+	ZLA_FLOAT	fMSN_S;
+};
+
+#endif

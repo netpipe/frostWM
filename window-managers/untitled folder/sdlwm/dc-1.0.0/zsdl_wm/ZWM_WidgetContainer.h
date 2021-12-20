@@ -1,0 +1,16 @@
+#ifndef _ZWM_WIDGETCONTAINER_H
+#define _ZWM_WIDGETCONTAINER_H
+
+#include "ZWM_Window.h"
+
+class CZWM_WIDGETCONTAINER:public CZWM_WINDOW
+{
+public:
+	CZWM_WIDGETCONTAINER(ZWM_MSGCALLBACK lpCB);
+	~CZWM_WIDGETCONTAINER();
+	void Merge(CZWM_WINDOW* lpChild);
+
+	CZWM_WINDOW*	lpChildWidget;
+};
+
+#endif
