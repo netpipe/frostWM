@@ -1,0 +1,249 @@
+# translation of gnome-mag.HEAD.or.po to Oriya
+# Oriya translation of gnome-mag.HEAD.pot.
+# Copyright (C) 2004, 2007, Free Software Foundation, Inc.
+# This file is distributed under the same license as the gnome-mag package.
+# $Id: or.po,v 1.1 2004/08/12 20:24:01 gmohanty Exp $
+#
+# Gora Mohanty <gora_mohanty@yahoo.co.in>, 2004.
+# Subhransu Behera <arya_subhransu@yahoo.co.in>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-mag.HEAD.or\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2007-08-10 12:51+0100\n"
+"PO-Revision-Date: 2007-08-13 15:37+0530\n"
+"Last-Translator: Subhransu Behera <arya_subhransu@yahoo.co.in>\n"
+"Language-Team: Oriya <oriya-group@lists.sarovar.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: Plural-Forms: nplurals=2; plural=(n!=1);\n\n"
+"\n"
+
+#: ../colorblind/GNOME_Magnifier_ColorblindApplet.server.in.in.h:1
+msgid "Accessibility"
+msgstr "ଅଭିଗମ୍ଯତା"
+
+#: ../colorblind/GNOME_Magnifier_ColorblindApplet.server.in.in.h:2
+msgid "Colorblind applet"
+msgstr "ରଙ୍ଗବିହୀନ ଆପ୍ଲେଟ"
+
+#: ../colorblind/GNOME_Magnifier_ColorblindApplet.server.in.in.h:3
+msgid "Control the use of image filter for the colorblind"
+msgstr "ରଙ୍ଗବିହୀନ ପାଇଁ ପ୍ରତିଛବି ଫିଲଟରର ବ୍ଯବହାରକୁ ନିୟନ୍ତ୍ରଣ କରନ୍ତୁ"
+
+#: ../colorblind/data/Colorblind_Applet.xml.h:1
+#: ../colorblind/ui/WindowUI.py:40
+msgid "_About"
+msgstr "ବିବରଣୀ (_A)"
+
+#: ../colorblind/data/Colorblind_Applet.xml.h:2
+#: ../colorblind/ui/WindowUI.py:39
+msgid "_Preferences"
+msgstr "ପସନ୍ଦ (_P)"
+
+#: ../colorblind/data/colorblind-prefs.glade.h:1
+msgid "<b>Default Filter</b>"
+msgstr "<b>ପୂର୍ବନିର୍ଦ୍ଧାରିତ ଫିଲଟର</b>"
+
+#: ../colorblind/data/colorblind-prefs.glade.h:2
+msgid "<b>Filters</b>"
+msgstr "<b>ଫିଲଟର</b>"
+
+#: ../colorblind/data/colorblind-prefs.glade.h:3
+msgid "<b>Shortcut</b>"
+msgstr "<b>ସଂକ୍ଷିପ୍ତ ପଥ</b>"
+
+#: ../colorblind/data/colorblind-prefs.glade.h:4
+msgid ""
+"<i>This is the filter that will be used when enabling/disabling the filters."
+"</i>"
+msgstr "<i>ଏହା ସେହି ଫିଲଟର ଅଟେ ଯାହାକୁ ଫିଲଟର ମାନଙ୍କୁ ସକ୍ରିୟ/ନିଷ୍କ୍ରିୟ କରିବା ସମୟରେ ବ୍ଯବହାର କରାଯିବ।</i>"
+
+#: ../colorblind/data/colorblind-prefs.glade.h:5
+msgid "Colorblind Filters Preferences"
+msgstr "ରଙ୍ଗବିହୀନ ଫଲଟର ପସନ୍ଦ"
+
+#: ../colorblind/data/colorblind-prefs.glade.h:6
+msgid "Configure as default the filter being used, when the filters are disabled."
+msgstr "ଫିଲଟର ଗୁଡିକ ନିଷ୍କ୍ରିୟ ହୋଇଥିବା ସମୟରେ ବ୍ଯବହାର କରାଯିବା ପୂର୍ବନିର୍ଦ୍ଧାରିତ ଫିଲଟରକୁ ବିନ୍ଯାସ କରନ୍ତୁ।"
+
+#: ../colorblind/data/colorblind-prefs.glade.h:7
+msgid "Enable/Disable Filters:"
+msgstr "ଫିଲଟର ମାନଙ୍କୁ ସକ୍ରିୟ/ନିଷ୍କ୍ରିୟ କରନ୍ତୁ:"
+
+#: ../colorblind/data/colorblind-prefs.glade.h:8
+msgid "Filter:"
+msgstr "ଫିଲଟର:"
+
+#: ../colorblind/data/colorblind-prefs.glade.h:9
+#: ../colorblind/ui/ColorblindPreferencesUI.py:219
+msgid "Negative Hue Shift"
+msgstr "ଋଣାତ୍ମକ ରଙ୍ଗ ଗାଢତା ପରିବର୍ତ୍ତନ"
+
+#: ../colorblind/data/colorblind-prefs.glade.h:10
+#: ../colorblind/ui/ColorblindPreferencesUI.py:218
+msgid "Positive Hue Shift"
+msgstr "ଯୋଗାତ୍ମକ ରଙ୍ଗ ଗାଢତା ପରିବର୍ତ୍ତନ"
+
+#: ../colorblind/data/colorblind-prefs.glade.h:11
+msgid "Select Next Filter:"
+msgstr "ପରବର୍ତ୍ତୀ ଫିଲଟରକୁ ଚୟନ କରନ୍ତୁ: "
+
+#: ../colorblind/data/colorblind-prefs.glade.h:12
+#: ../colorblind/ui/ColorblindPreferencesUI.py:217
+msgid "Selective Blue Dessaturation"
+msgstr "ଚୟନାତ୍ମକ ନୀଳ ରଙ୍ଗୀୟ ଅପରିପୂର୍ଣ୍ଣତା"
+
+#: ../colorblind/data/colorblind-prefs.glade.h:13
+#: ../colorblind/ui/ColorblindPreferencesUI.py:214
+msgid "Selective Blue Saturation"
+msgstr "ଚୟନାତ୍ମକ ନୀଳ ରଙ୍ଗୀୟ ପରିପୂର୍ଣ୍ଣତା"
+
+#: ../colorblind/data/colorblind-prefs.glade.h:14
+#: ../colorblind/ui/ColorblindPreferencesUI.py:216
+msgid "Selective Green Dessaturation"
+msgstr "ଚୟନାତ୍ମକ ସବୁଜ ରଙ୍ଗୀୟ ଅପରିପୂର୍ଣ୍ଣତା"
+
+#: ../colorblind/data/colorblind-prefs.glade.h:15
+#: ../colorblind/ui/ColorblindPreferencesUI.py:213
+msgid "Selective Green Saturation"
+msgstr "ଚୟନାତ୍ମକ ସବୁଜ ରଙ୍ଗୀୟ ପରିପୂର୍ଣ୍ଣତା"
+
+#: ../colorblind/data/colorblind-prefs.glade.h:16
+#: ../colorblind/ui/ColorblindPreferencesUI.py:215
+msgid "Selective Red Dessaturation"
+msgstr "ଚୟନାତ୍ମକ ଲାଲ ରଙ୍ଗୀୟ ଅପରିପୂର୍ଣ୍ଣତା"
+
+#: ../colorblind/data/colorblind-prefs.glade.h:17
+#: ../colorblind/ui/ColorblindPreferencesUI.py:212
+msgid "Selective Red Saturation"
+msgstr "ଚୟନାତ୍ମକ ଲାଲ ରଙ୍ଗୀୟ ପରିପୂର୍ଣ୍ଣତା"
+
+#: ../colorblind/data/colorblind-prefs.glade.h:18
+msgid ""
+"This filter completely dessaturate the blue color when this is the "
+"predominant pixel color in the image."
+msgstr ""
+"ପ୍ରତିଛବିରେ ନୀଳ ପ୍ରମୂଖ ପିକ୍ସେଲ ରଙ୍ଗ ଥିବା ସମୟରେ ଏହି ଫିଲଟର ସମ୍ପୂର୍ଣ୍ଣ ରୂପେ ନୀଳ "
+"ରଙ୍ଗକୁ ଅପରିପୂର୍ଣ୍ଣ କରିଥାଏ।"
+
+#: ../colorblind/data/colorblind-prefs.glade.h:19
+msgid ""
+"This filter completely dessaturate the green color when this is the "
+"predominant pixel color in the image."
+msgstr ""
+"ପ୍ରତିଛବିରେ ସବୁଜ ପ୍ରମୂଖ ପିକ୍ସେଲ ରଙ୍ଗ ଥିବା ସମୟରେ ଏହି ଫିଲଟର ସମ୍ପୂର୍ଣ୍ଣ ରୂପେ ସବୁଜ "
+"ରଙ୍ଗକୁ ଅପରିପୂର୍ଣ୍ଣ କରିଥାଏ।"
+
+#: ../colorblind/data/colorblind-prefs.glade.h:20
+msgid ""
+"This filter completely dessaturate the red color when this is the "
+"predominant pixel color in the image."
+msgstr ""
+"ପ୍ରତିଛବିରେ ଲାଲ ପ୍ରମୂଖ ପିକ୍ସେଲ ରଙ୍ଗ ଥିବା ସମୟରେ ଏହି ଫିଲଟର ସମ୍ପୂର୍ଣ୍ଣ ରୂପେ ଲାଲ "
+"ରଙ୍ଗକୁ ଅପରିପୂର୍ଣ୍ଣ କରିଥାଏ।"
+
+#: ../colorblind/data/colorblind-prefs.glade.h:21
+msgid ""
+"This filter completely saturate the blue color when this is the predominant "
+"pixel color in the image."
+msgstr ""
+"ପ୍ରତିଛବିରେ ନୀଳ ପ୍ରମୂଖ ପିକ୍ସେଲ ରଙ୍ଗ ଥିବା ସମୟରେ ଏହି ଫିଲଟର ସମ୍ପୂର୍ଣ୍ଣ ରୂପେ ନୀଳ "
+"ରଙ୍ଗକୁ ପରିପୂର୍ଣ୍ଣ କରିଥାଏ।"
+
+#: ../colorblind/data/colorblind-prefs.glade.h:22
+msgid ""
+"This filter completely saturate the green color when this is the predominant "
+"pixel color in the image."
+msgstr ""
+"ପ୍ରତିଛବିରେ ସବୁଜ ପ୍ରମୂଖ ପିକ୍ସେଲ ରଙ୍ଗ ଥିବା ସମୟରେ ଏହି ଫିଲଟର ସମ୍ପୂର୍ଣ୍ଣ ରୂପେ ସବୁଜ "
+"ରଙ୍ଗକୁ ପରିପୂର୍ଣ୍ଣ କରିଥାଏ।"
+
+#: ../colorblind/data/colorblind-prefs.glade.h:23
+msgid ""
+"This filter completely saturate the red color when this is the predominant "
+"pixel color in the image."
+msgstr ""
+"ପ୍ରତିଛବିରେ ଲାଲ ପ୍ରମୂଖ ପିକ୍ସେଲ ରଙ୍ଗ ଥିବା ସମୟରେ ଏହି ଫିଲଟର ସମ୍ପୂର୍ଣ୍ଣ ରୂପେ ଲାଲ "
+"ରଙ୍ଗକୁ ପରିପୂର୍ଣ୍ଣ କରିଥାଏ।"
+
+#: ../colorblind/data/colorblind-prefs.glade.h:24
+msgid ""
+"Transform the colors Red to Blue, Green to Red and Blue to Green, carrying a "
+"potentially ambiguous set of colors to a different band of the specter."
+msgstr ""
+"ଗୋଟିଏ ଭିନ୍ନ ପ୍ରତିଛାୟା ପାଇଁ ପ୍ରଚ୍ଛନ୍ନଶକ୍ତି ବିଶିଷ୍ଟ ଅସ୍ପଷ୍ଟ ରଙ୍ଗ ମାନଙ୍କର ସମୂହକୁ ଧାରଣ କରିଥିବା ରଙ୍ଗ ମାନଙ୍କୁ "
+"ଲାଲରୁ ନୀଳକୁ, ସବୁଜରୁ ଲାଲକୁ ଏବଂ ନୀଳରୁ ସବୁଜକୁ ବଦଳାନ୍ତୁ।"
+
+#: ../colorblind/data/colorblind-prefs.glade.h:25
+msgid ""
+"Transform the colors Red to Green, Green to Blue and Blue to Red, carrying a "
+"potentially ambiguous set of colors to a different band of the specter."
+msgstr ""
+"ଗୋଟିଏ ଭିନ୍ନ ପ୍ରତିଛାୟା ପାଇଁ ପ୍ରଚ୍ଛନ୍ନଶକ୍ତି ବିଶିଷ୍ଟ ଅସ୍ପଷ୍ଟ ରଙ୍ଗ ମାନଙ୍କର ସମୂହକୁ ଧାରଣ କରିଥିବା ରଙ୍ଗ ମାନଙ୍କୁ "
+"ଲାଲରୁ ସବୁଜକୁ, ସବୁଜରୁ ନୀଳକୁ ଏବଂ ନୀଳରୁ ଲାଲକୁ ବଦଳାନ୍ତୁ।"
+
+#: ../colorblind/ui/WindowUI.py:36
+msgid "_File"
+msgstr "ଫାଇଲ (_F)"
+
+#: ../colorblind/ui/WindowUI.py:37
+msgid "_Quit"
+msgstr "ବନ୍ଦ କରନ୍ତୁ (_Q)"
+
+#: ../colorblind/ui/WindowUI.py:38
+msgid "_Edit"
+msgstr "ସମ୍ପାଦନ କରନ୍ତୁ (_E)"
+
+#: ../colorblind/ui/About.py:22
+msgid "Colorblind Applet"
+msgstr "ରଙ୍ଗବିହୀନ ଆପ୍ଲେଟ"
+
+#: ../colorblind/ui/About.py:25
+msgid ""
+"Image filters for the colorblind. This is applet is part of gnome-mag, a "
+"magnification service for GNOME."
+msgstr ""
+"ରଙ୍ଗବିହୀନ ପାଇଁ ପ୍ରତିଛବି ଫିଲଟର। ଏହି ଆପ୍ଲେଟ gnome-mag ର ଗୋଟିଏ ଅଂଶ ଅଟେ, ଯାହାକି "
+"ନୋମ ପାଇଁ ଗୋଟିଏ ଆବର୍ଧନ ସେବ ଅଟେ।"
+
+#: ../colorblind/ui/About.py:28
+msgid "gnome-mag website"
+msgstr "gnome-mag ୱେବସାଇଟ"
+
+#. about.set_documenters([])
+#. translators: These appear in the About dialog, usual format applies.
+#: ../colorblind/ui/About.py:36
+msgid "translator-credits"
+msgstr "ଶୁଭ୍ରାଂଶୁ ବେହେରା <arya_subhransu@yahoo.co.in>"
+
+#: ../colorblind/ui/ColorblindPreferencesUI.py:105
+msgid "New accelerator..."
+msgstr "ନୂଆ ତ୍ବରକ..."
+
+#: ../colorblind/ui/ColorblindPreferencesUI.py:157
+#, python-format
+msgid ""
+"The shortcut \"%s\" cannot be used because it will become unusable to type "
+"using this key.\n"
+"Please try with a key such as Control, Alt or Shift at the same time.\n"
+msgstr ""
+"\"%s\" ସଂକ୍ଷିପ୍ତଚିତ୍ରକୁ ବ୍ଯବହାର କରିହେବ ନାହିଁ କାରଣ ଏହି ଚାବିକୁ ବ୍ଯବହାର କରି ଟାଇପ କରିବା ଦ୍ବାରା "
+"ଏହା ଅବ୍ଯବହୃତ ହୋଇଯିବ।\n"
+"ଦୟାକରି ଏକ ସମୟରେ Control, Alt କିମ୍ବା Shift ଚାବିକୁ ଦବାଇବା ପରି କିଛି ଚାବକୁ ପ୍ରଚେଷ୍ଟା କରନ୍ତୁ।\n"
+
+#: ../magnifier/GNOME_Magnifier.server.in.in.h:1
+msgid "Magnifier"
+msgstr "ବୃଦ୍ଧକ"
+
+#: ../magnifier/GNOME_Magnifier.server.in.in.h:2
+msgid "Simple Screen Magnification Service"
+msgstr "ସରଳ ପରଦା ବୃଦ୍ଧି କରିବା ସେବା"
+
+#: ../magnifier/magnifier-main.c:402
+#, c-format
+msgid "Can't open display, DISPLAY is not set"
+msgstr "ପ୍ରଦର୍ଶନକୁ ଖୋଲିପାରିବ ନାହିଁ, DISPLAY ବିକଳ୍ପକୁ ବିନ୍ଯାସ କରାଯାଇ ନାହିଁ"
+

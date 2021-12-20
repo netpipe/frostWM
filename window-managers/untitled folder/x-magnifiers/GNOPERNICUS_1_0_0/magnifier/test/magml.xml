@@ -1,0 +1,76 @@
+<?xml version="1.0"?>
+
+<MAGOUT cursor ="yes" CursorName="default" CursorSize="-1"  CursorZoomFactor="5" clear ="0">
+<ZOOMER ID="magnifier1"
+	visible="true"
+	ROILeft="100"
+	ROITop="100"
+	ROIWidth="200"
+	ROIHeight="200"
+	ZPLeft="200"
+	ZPTop="200"
+	ZPWidth="400"
+	ZPHeight="400"
+	ZoomFactorX="3.0"
+	ZoomFactorY="3.0"
+	smoothing="bilinear"
+	invert="false"> 
+</ZOOMER>
+
+
+<ZOOMER ID="magnifier1"
+	visible="false"
+	ROILeft="200"
+	ROITop="200"
+	ROIWidth="400"
+	ROIHeight="400"
+	ZPHeight="300"
+	ZPWidth="300"
+	ZoomFactorX="3.0"
+	smoothing="bilinear"
+	invert="true"> 
+</ZOOMER>
+
+<ZOOMER ID="magnifier1"
+	visible="true"
+	ROILeft="0"
+	ROITop="0"
+	ROIWidth="100"
+	ROIHeight="100"
+	ZPHeight="300"
+	ZPWidth="600"
+	ZoomFactorY="4.0"
+	AlignmentX="1"
+	AlignmentY="1"
+	smoothing="bilinear"
+	BorderWidth ="50"
+	BorderColor ="1024"
+	invert="true"
+	contrast="0.5"> 
+</ZOOMER>
+
+<ZOOMER ID="magnifier1"
+	visible="true"
+	ROILeft="0"
+	ROITop="0"
+	ROIWidth="100"
+	ROIHeight="100"
+	ZPTop="0"
+	ZPLeft="0"
+	ZPHeight="200"
+	ZPWidth="200"
+	ZoomFactorY="4.0"
+	AlignmentX="0"
+	AlignmentY="0"
+	Tracking="mouse-centered"
+	smoothing="0"
+	BorderWidth ="2"
+	BorderColor ="1024"
+	invert="false"
+	contrast="0.5"> 
+</ZOOMER>
+
+</MAGOUT>
+
+
+

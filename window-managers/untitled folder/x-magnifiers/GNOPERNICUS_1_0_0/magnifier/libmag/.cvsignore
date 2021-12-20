@@ -1,0 +1,12 @@
+.deps
+.libs
+Makefile.in
+Makefile
+*.o
+GNOME_Magnifier.h
+GNOME_Magnifier-common.c
+GNOME_Magnifier-stubs.c
+GNOME_Magnifier-skels.c
+*.lo
+*.la
+

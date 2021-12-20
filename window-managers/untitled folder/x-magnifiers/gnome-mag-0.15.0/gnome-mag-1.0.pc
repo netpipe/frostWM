@@ -1,0 +1,13 @@
+prefix=/usr/local
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib64
+includedir=${prefix}/include
+datarootdir=${prefix}/share
+idldir=${datarootdir}/idl/gnome-mag-1.0
+
+Name: gnome-mag
+Description: Gnome Screen Magnifier
+Requires: libbonobo-2.0 gtk+-2.0
+Version: 0.15.0
+Libs: -L${libdir} -lgnome-mag
+Cflags: -I${includedir}/gnome-mag-1.0

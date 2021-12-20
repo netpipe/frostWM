@@ -1,0 +1,58 @@
+#!/bin/sh
+echo
+echo
+echo This program will install K Magnifier for you.
+echo Incase of errors, please check "install.log" file
+echo
+user=`whoami`;
+if test $user != "root"
+  then
+    echo You are logged in as $user
+    echo Please login as root to install this software. If you do not have
+    echo root access to the machine, or if you wish to install this software
+    echo as yourself, then please run the install-user command.
+    echo For more info and updates, please check http:\\\\kmag.sourceforge.net
+    echo
+    echo
+    exit 1;
+fi;
+echo [1/5] Checking system configuration ... 
+if test -e /etc/mandrake-release ; then  
+  echo --\> You are running : `cat /etc/mandrake-release` 
+fi;
+./configure --prefix=/usr >& install.log
+echo
+echo [2/5] Running make \(this might take a few minutes\) ...
+make >& install.log.tmp
+echo "----" >> install.log
+cat install.log.tmp >> install.log
+if ! test -e kmag/kmag ; then
+  echo 
+  echo Installtion was not successful. Please check the "install.log" file for errors.
+  echo Aborting the installtion.
+  echo 
+  exit 1;
+fi;
+echo
+echo [3/5] Installing the software \(K Magnifier\) ...
+make install >& install.log.tmp
+echo "----" >> install.log
+cat install.log.tmp >> install.log
+echo
+echo [4/5] Adding entry in the K -\> Applications -\> Accessibility menu ...
+if test -e /etc/mandrake-release ; then  
+  cp /usr/share/applnk/Applications/Accessibility/kmag.desktop /usr/share/applnk-mdk/Applications/Accessibility
+fi;
+echo
+echo [5/5] Cleaning up the temporary files ...
+make clean >& install.log.tmp
+echo "----" >> install.log
+cat install.log.tmp >> install.log
+\rm install.log.tmp
+echo
+echo Installation is DONE!
+echo You should now find KMagnifier in K -\> Applications -\> Accessibility
+echo Incase of errors, please check "install.log" file
+echo For more info and updates, please check http:\\\\kmag.sourceforge.net
+echo
+echo

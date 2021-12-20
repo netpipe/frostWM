@@ -1,0 +1,231 @@
+# translation of gnome-mag.HEAD.gu.po to Gujarati
+# MagNet <magnet@magnet-i.com>, 2004.
+# Ankit Patel <ankit@redhat.com>, 2004, 2006, 2007.
+# Copyright (C) 2004, 2006, 2007 Free Software Foundation, Inc.
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-mag.HEAD.gu\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2007-08-28 04:35+0100\n"
+"PO-Revision-Date: 2007-08-29 13:29+0530\n"
+"Last-Translator: Ankit Patel <ankit@redhat.com>\n"
+"Language-Team: Gujarati <fedora-trans-gu@redhat.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"<magnet@magnet-i.com>\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms:  nplurals=2; plural=(n!=1);\n\n"
+"\n"
+"\n"
+"\n"
+
+#: ../colorblind/GNOME_Magnifier_ColorblindApplet.server.in.in.h:1
+msgid "Accessibility"
+msgstr "સુલભતા"
+
+#: ../colorblind/GNOME_Magnifier_ColorblindApplet.server.in.in.h:2
+msgid "Colorblind applet"
+msgstr "રંગઅંધ એપ્લેટ"
+
+#: ../colorblind/GNOME_Magnifier_ColorblindApplet.server.in.in.h:3
+msgid "Controls image filters for colorblind people"
+msgstr "રંગઅંધ લોકો માટે ચિત્ર ગાળકો નિયંત્રિત કરે છે"
+
+#: ../colorblind/data/Colorblind_Applet.xml.h:1
+#: ../colorblind/ui/WindowUI.py:40
+msgid "_About"
+msgstr "વિશે (_A)"
+
+#: ../colorblind/data/Colorblind_Applet.xml.h:2
+#: ../colorblind/ui/WindowUI.py:39
+msgid "_Preferences"
+msgstr "પસંદગીઓ (_P)"
+
+#: ../colorblind/data/colorblind-prefs.glade.h:1
+msgid "<b>Default Filter</b>"
+msgstr "<b>મૂળભૂત ગાળક</b>"
+
+#: ../colorblind/data/colorblind-prefs.glade.h:2
+msgid "<b>Filters</b>"
+msgstr "<b>ગાળકો</b>"
+
+#: ../colorblind/data/colorblind-prefs.glade.h:3
+msgid "<b>Shortcut</b>"
+msgstr "<b>ટૂંકાણ</b>"
+
+#: ../colorblind/data/colorblind-prefs.glade.h:4
+msgid ""
+"<i>This is the filter that will be used when enabling/disabling the filters."
+"</i>"
+msgstr ""
+"<i>આ એ ગાળક છે કે જે જ્યારે ગાળકો સક્રિય/નિષ્ક્રિય કરી રહ્યા હોય ત્યારે વાપરવામાં આવશે.</"
+"i>"
+
+#: ../colorblind/data/colorblind-prefs.glade.h:5
+msgid "Colorblind Filters Preferences"
+msgstr "રંગઅંધ ગાળકો પસંદગીઓ"
+
+#: ../colorblind/data/colorblind-prefs.glade.h:6
+msgid "Configure the filter being used as default when the filters are disabled."
+msgstr "જ્યારે ગાળકો નિષ્ક્રિય કરવામાં આવેલ હોય ત્યારે વપરાઈ ગયેલ ગાળક રૂપરેખાંકિત કરો."
+
+#: ../colorblind/data/colorblind-prefs.glade.h:7
+msgid "Enable/Disable Filters:"
+msgstr "ગાળકો સક્રિય/નિષ્ક્રિય કરો:"
+
+#: ../colorblind/data/colorblind-prefs.glade.h:8
+msgid "Filter:"
+msgstr "ગાળક:"
+
+#: ../colorblind/data/colorblind-prefs.glade.h:9
+#: ../colorblind/ui/ColorblindPreferencesUI.py:219
+msgid "Negative Hue Shift"
+msgstr "ઋણ Hue Shift"
+
+#: ../colorblind/data/colorblind-prefs.glade.h:10
+#: ../colorblind/ui/ColorblindPreferencesUI.py:218
+msgid "Positive Hue Shift"
+msgstr "ધન Hue Shift"
+
+#: ../colorblind/data/colorblind-prefs.glade.h:11
+msgid "Select Next Filter:"
+msgstr "આગળનું ગાળક પસંદ કરો:"
+
+#: ../colorblind/data/colorblind-prefs.glade.h:12
+#: ../colorblind/ui/ColorblindPreferencesUI.py:217
+msgid "Selective Blue Desaturation"
+msgstr "પસંદિત ભૂરું Desaturation"
+
+#: ../colorblind/data/colorblind-prefs.glade.h:13
+#: ../colorblind/ui/ColorblindPreferencesUI.py:214
+msgid "Selective Blue Saturation"
+msgstr "પસંદિત ભૂરું Saturation"
+
+#: ../colorblind/data/colorblind-prefs.glade.h:14
+#: ../colorblind/ui/ColorblindPreferencesUI.py:216
+msgid "Selective Green Desaturation"
+msgstr "પસંદિત લીલું Desaturation"
+
+#: ../colorblind/data/colorblind-prefs.glade.h:15
+#: ../colorblind/ui/ColorblindPreferencesUI.py:213
+msgid "Selective Green Saturation"
+msgstr "પસંદિત લીલું Saturation"
+
+#: ../colorblind/data/colorblind-prefs.glade.h:16
+#: ../colorblind/ui/ColorblindPreferencesUI.py:215
+msgid "Selective Red Desaturation"
+msgstr "પસંદિત લાલ Desaturation"
+
+#: ../colorblind/data/colorblind-prefs.glade.h:17
+#: ../colorblind/ui/ColorblindPreferencesUI.py:212
+msgid "Selective Red Saturation"
+msgstr "પસંદિત લાલ Saturation"
+
+#: ../colorblind/data/colorblind-prefs.glade.h:18
+msgid ""
+"This filter completely desaturates the blue color when this is the "
+"predominant pixel color in the image."
+msgstr "આ ગાળક ભૂરા રંગને સંપૂર્ણપણે desaturate કરશે જ્યારે આ ચિત્રમાં પ્રિડોમીનન્ટ પિક્સેલ રંગ હોય."
+
+#: ../colorblind/data/colorblind-prefs.glade.h:19
+msgid ""
+"This filter completely desaturates the green color when this is the "
+"predominant pixel color in the image."
+msgstr "આ ગાળક લીલા રંગને સંપૂર્ણપણે desaturate કરશે જ્યારે આ ચિત્રમાં પ્રિડોમીનન્ટ પિક્સેલ રંગ હોય."
+
+#: ../colorblind/data/colorblind-prefs.glade.h:20
+msgid ""
+"This filter completely desaturates the red color when this is the "
+"predominant pixel color in the image."
+msgstr "આ ગાળક લાલ રંગને સંપૂર્ણપણે desaturate કરશે જ્યારે આ ચિત્રમાં પ્રિડોમીનન્ટ પિક્સેલ રંગ હોય."
+
+#: ../colorblind/data/colorblind-prefs.glade.h:21
+msgid ""
+"This filter completely saturates the blue color when this is the predominant "
+"pixel color in the image."
+msgstr "આ ગાળક ભૂરા રંગને સંપૂર્ણપણે saturate કરશે જ્યારે આ ચિત્રમાં પ્રિડોમીનન્ટ પિક્સેલ રંગ હોય."
+
+#: ../colorblind/data/colorblind-prefs.glade.h:22
+msgid ""
+"This filter completely saturates the green color when this is the "
+"predominant pixel color in the image."
+msgstr "આ ગાળક લીલા રંગને સંપૂર્ણપણે saturate કરશે જ્યારે આ ચિત્રમાં પ્રિડોમીનન્ટ પિક્સેલ રંગ હોય."
+
+#: ../colorblind/data/colorblind-prefs.glade.h:23
+msgid ""
+"This filter completely saturates the red color when this is the predominant "
+"pixel color in the image."
+msgstr "આ ગાળક લાલ રંગને સંપૂર્ણપણે saturate કરશે જ્યારે આ ચિત્રમાં પ્રિડોમીનન્ટ પિક્સેલ રંગ હોય."
+
+#: ../colorblind/data/colorblind-prefs.glade.h:24
+msgid ""
+"Transforms the colors Red to Blue, Green to Red and Blue to Green, carrying "
+"a potentially ambiguous set of colors to a different band of the spectrum."
+msgstr "લાલ રંગનું ભૂરામાં, લીલાનું લાલમાં અને ભૂરાનું લીલામાં પરિવર્તન કરો, સ્પેક્ટ્રમની અલગ બેન્ડના રંગોનો જટિલ સમૂહને સંભવિત રીતે લઈને."
+
+#: ../colorblind/data/colorblind-prefs.glade.h:25
+msgid ""
+"Transforms the colors Red to Green, Green to Blue and Blue to Red, carrying "
+"a potentially ambiguous set of colors to a different band of the spectrum."
+msgstr "લાલ રંગનું લીલામાં, લીલાનું ભૂરામાં અને ભૂરાનું લાલમાં પરિવર્તન કરો, સ્પેક્ટ્રમની અલગ બેન્ડના રંગોનો જટિલ સમૂહને સંભવિત રીતે લઈને."
+
+#: ../colorblind/ui/WindowUI.py:36
+msgid "_File"
+msgstr "ફાઈલ (_F)"
+
+#: ../colorblind/ui/WindowUI.py:37
+msgid "_Quit"
+msgstr "બહાર નીકળો (_Q)"
+
+#: ../colorblind/ui/WindowUI.py:38
+msgid "_Edit"
+msgstr "ફેરફાર (_E)"
+
+#: ../colorblind/ui/About.py:22
+msgid "Colorblind Applet"
+msgstr "રંગઅંધ એપ્લેટ"
+
+#: ../colorblind/ui/About.py:25
+msgid ""
+"Image filters for the colorblind. This is applet is part of gnome-mag, a "
+"magnification service for GNOME."
+msgstr "રંગઅંધ માટે ચિત્ર ગાળકો. આ એપ્લેટ gnome-mag નો ભાગ છે, જીનોમ માટે એક વિસ્તારક સેવા."
+
+#: ../colorblind/ui/About.py:28
+msgid "gnome-mag website"
+msgstr "gnome-mag વેબસાઈટ"
+
+#. about.set_documenters([])
+#. translators: These appear in the About dialog, usual format applies.
+#: ../colorblind/ui/About.py:36
+msgid "translator-credits"
+msgstr "અંકિત પટેલ <ankit644@yahoo.com>"
+
+#: ../colorblind/ui/ColorblindPreferencesUI.py:105
+msgid "New accelerator..."
+msgstr "નવો પ્રવેગક..."
+
+#: ../colorblind/ui/ColorblindPreferencesUI.py:157
+#, python-format
+msgid ""
+"The shortcut \"%s\" cannot be used because it will become impossible to type "
+"using this key.\n"
+"Please try with a key such as Control, Alt or Shift at the same time.\n"
+msgstr ""
+"ટૂંકાણ \"%s\" વાપરી શકાશે નહિં કારણ કે તે આ કી લખવામાં વાપરતી વખતે બિનઉપયોગી બની જશે.\n"
+"મહેરબાની કરીને Control, Alt અથવા Shift જેવી કી એક જ સમયે વાપરવાનો પ્રયાસ કરો.\n"
+
+#: ../magnifier/GNOME_Magnifier.server.in.in.h:1
+msgid "Magnifier"
+msgstr "વિસ્તૃત કરનાર"
+
+#: ../magnifier/GNOME_Magnifier.server.in.in.h:2
+msgid "Simple Screen Magnification Service"
+msgstr "સામાન્ય સ્ક્રીન વિસ્તૃતિકરણ સેવા"
+
+#: ../magnifier/magnifier-main.c:408
+#, c-format
+msgid "Can't open display: DISPLAY is not set"
+msgstr "ડિસ્પ્લે ખોલી શકતા નથી: DISPLAY સુયોજીત નથી"
+

@@ -1,0 +1,11 @@
+<SECTION>
+<FILE>SRL_init_term</FILE>
+<TITLE>SRL initialization</TITLE>
+H_SRL_CLIENT
+srl_init
+srl_terminate
+srl_add_client
+srl_remove_client
+</SECTION>
+
+

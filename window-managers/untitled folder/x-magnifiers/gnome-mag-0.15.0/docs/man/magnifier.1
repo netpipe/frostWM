@@ -1,0 +1,153 @@
+./" 
+./"  Copyright (C) 2006  IBM Corp.
+./"
+./"  GNU Free Documentation License (GFDL)
+./"  http://opensource.org/
+./" 
+./"  GNOME Magnifier
+./" 
+./"  file: magnifier.1.man
+./" 
+./"  George Kraft <gk4@austin.ibm.com>
+./" 
+.TH "magnifier" 1 
+.SH NAME
+magnifier \- GNOME Magnifier (gnome-mag)
+.SH SYNOPSIS
+.B magnifier
+[-vhmif?] [-t|--target-display STRING]
+[-s|--source-display STRING] [--cursor-set=STRING] [--cursor-size=INT]
+[--cursor-scale-factor=FLOAT] [--cursor-color=LONG] [-v|--vertical]
+[-h|--horizontal] [-m|--mouse-follow] [-r|--refresh-time INT]
+[--mouse-latency=INT] [-z|--zoom-factor FLOAT] [-i|--invert-image]
+[--no-initial-region] [--timing-iterations=INT] [--timing-output]
+[--timing-pan-rate=INT] [--timing-delta-x=INT] [--timing-delta-y=INT]
+[--smoothing-type=STRING] [-f|--fullscreen] [--smooth-scrolling]
+[-b|--border-size INT] [-c|--border-color LONG] [--use-test-pattern]
+[--override-redirect] [--ignore-damage]
+[-?|--help] [--usage]
+.SH AVAILABILITY
+The GNOME magnifier (gnome-mag) provides a command-line interface for 
+standalone use, although its primary goal is to provide a set of 
+magnification services for use by other client applications and assistive 
+technologies, like Gnopernicus, Orca or LSR.
+.P
+This magnifier is compatible with operating systems using X Window System,
+although the magnifier will have a better performance and functionality when
+the Damage and Fixes extensions are present.
+.SH DESCRIPTION
+A desktop screen magnifier.  If present, the Region Of Interest (ROI)
+for the magnifier can be driven by a screen reader via the 
+Assistive Technology Service Provider Interface (ATSPI); otherwise,
+the magnifier will be centered to the pointer position.
+.SH OPTIONS
+.TP
+.B \-t, \--target-display=STRING
+specify display on which to show magnified view
+.TP
+.B \-s, \--source-display=STRING
+specify display to magnify
+.TP
+.B \--cursor-set=STRING
+cursor set to use in target display
+.TP
+.B \--cursor-size=INT
+cursor size to use (overrides cursor-scale-factor)
+.TP
+.B \--cursor-scale-factor=FLOAT
+cursor scale factor
+.TP
+.B \--cursor-color=LONG
+cursor color (applied to 'black' pixels
+.TP
+.B \-v, \-vertical
+split screen vertically (if target display = source display)
+.TP
+.B \-h, \--horizontal                
+split screen horizontally (if target display = source display)
+.TP
+.B \-m, \--mouse-follow              
+track mouse movements
+.TP
+.B \-r, \--refresh-time=INT          
+minimum refresh time for idle, in ms
+.TP
+.B \--mouse-latency=INT             
+maximum mouse latency time, in ms
+.TP
+.B \-z, \--zoom-factor=FLOAT         
+zoom (scale) factor used to magnify source display
+.TP
+.B \-i, --invert-image              
+invert the image colormap
+.TP
+.B \--no-initial-region             
+don't create an initial zoom region
+.TP
+.B \--timing-iterations=INT         
+iterations to run timing benchmark test (0=continuous)
+.TP
+.B \--timing-output                 
+display performance ouput
+.TP
+.B \--timing-pan-rate=INT           
+timing pan rate in lines per frame
+.TP
+.B \--timing-delta-x=INT            
+pixels to pan in x-dimension each frame in timing update test
+.TP
+.B \--timing-delta-y=INT            
+pixels to pan in y-dimension each frame in timing update test
+.TP
+.B \--smoothing-type=STRING         
+image smoothing algorithm to apply (bilinear-interpolation | none)
+.TP
+.B \-f, \\--fullscreen                
+fullscreen magnification, covers entire target display 
+[REQUIRES \--source-display and --target-display]
+.TP
+.B \--smooth-scrolling              
+use smooth scrolling
+.TP
+.B \-b, \--border-size=INT           
+width of border
+.TP
+.B \-c, \--border-color=LONG         
+border color specified as (A)RGB 23-bit value, Alpha-MSB
+.TP
+.B \--use-test-pattern              
+use test pattern as source
+.TP
+.B \--override-redirect             
+make the magnifier window totally unmanaged by the window manager
+.TP
+.B \--ignore-damage                 
+ignore the X server DAMAGE extension, if present
+.TP
+.B \-?, \--help
+command line help
+.TP
+.B \--usage
+command line synopsis
+.SH FILES
+.TP
+.B /usr/share/gnome-mag/1_32/*.xpm
+.TP
+.B /usr/lib/bonobo/servers/GNOME_Magnifier.server
+.TP
+.B /usr/lib/libgnome-mag.so.2
+.SH BUGS
+See
+.I http://bugs.gnome.org
+.SH AUTHORS
+.TP
+Erwann Chenede <erwann.chenede@sun.com>
+.TP
+Bill Haneman <bill.haneman@sun.com>
+.SH LICENSE
+Licensed under the GNU Lesser Public License (LGPL) v2.1
+.SH "SEE ALSO"
+.I gnopernicus(1), 
+.I orca(1), 
+.I lsr(1),
+Bonobo, Assistive Technology Service Provider Interface (AT-SPI)

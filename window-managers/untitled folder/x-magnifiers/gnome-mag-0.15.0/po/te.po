@@ -1,0 +1,239 @@
+# Telugu translation of gnome-mag.
+# Copyright (C) Swecha Telugu Localisation Team <localisation@swecha.org>
+# This file is distributed under the same license as the gnome-mag package.
+# Pramod <pramod@swecha.net>, 2007.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-mag\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2007-08-21 12:08+0530\n"
+"PO-Revision-Date: 2007-08-21 12:09+0530\n"
+"Last-Translator: Pramod <pramod@swecha.net>\n"
+"Language-Team: Swecha Telugu Localisation Team <localisation@swecha.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../colorblind/GNOME_Magnifier_ColorblindApplet.server.in.in.h:1
+msgid "Accessibility"
+msgstr "అందుబాటు"
+
+#: ../colorblind/GNOME_Magnifier_ColorblindApplet.server.in.in.h:2
+msgid "Colorblind applet"
+msgstr "వర్ణాంధత ఆప్ లెట్"
+
+#: ../colorblind/GNOME_Magnifier_ColorblindApplet.server.in.in.h:3
+msgid "Control the use of image filter for the colorblind"
+msgstr "ప్రతిరూప వడపోత వాడుక యొక్క నియంత్రణ కొరకు వర్ణాందత"
+
+#: ../colorblind/data/Colorblind_Applet.xml.h:1
+#: ../colorblind/ui/WindowUI.py:40
+msgid "_About"
+msgstr "_గురించి"
+
+#: ../colorblind/data/Colorblind_Applet.xml.h:2
+#: ../colorblind/ui/WindowUI.py:39
+msgid "_Preferences"
+msgstr "_అభీష్టాలు"
+
+#: ../colorblind/data/colorblind-prefs.glade.h:1
+msgid "<b>Default Filter</b>"
+msgstr "<b>అప్రమేయ వడపోత</b>"
+
+#: ../colorblind/data/colorblind-prefs.glade.h:2
+msgid "<b>Filters</b>"
+msgstr "<b>వడపోతలు</b>"
+
+#: ../colorblind/data/colorblind-prefs.glade.h:3
+msgid "<b>Shortcut</b>"
+msgstr "<b>అడ్డదారి</b>"
+
+#: ../colorblind/data/colorblind-prefs.glade.h:4
+msgid ""
+"<i>This is the filter that will be used when enabling/disabling the filters."
+"</i>"
+msgstr "<i>ఈ వడపోత ఉపయోగించుటకు/నిరుపయోగించు వడపోతలకు వాడబడుతుంది.</i>"
+
+#: ../colorblind/data/colorblind-prefs.glade.h:5
+msgid "Colorblind Filters Preferences"
+msgstr "వర్ణాందత వడపోతల అభీష్టాలు"
+
+#: ../colorblind/data/colorblind-prefs.glade.h:6
+msgid ""
+"Configure as default the filter being used, when the filters are disabled."
+msgstr "అప్రమేయం లాగా రూపకరించుము వడపోత వాడబడినది, ఎప్పుడైతే వడపోతలు నిరుపయోగమో."
+
+#: ../colorblind/data/colorblind-prefs.glade.h:7
+msgid "Enable/Disable Filters:"
+msgstr "ఉపయోగించు/నిరుపయోగించు వడపోతలు:"
+
+#: ../colorblind/data/colorblind-prefs.glade.h:8
+msgid "Filter:"
+msgstr "వడపోత:"
+
+#: ../colorblind/data/colorblind-prefs.glade.h:9
+#: ../colorblind/ui/ColorblindPreferencesUI.py:219
+msgid "Negative Hue Shift"
+msgstr "వ్యతిరేకార్థకమైన వన్నె మార్పిడి"
+
+#: ../colorblind/data/colorblind-prefs.glade.h:10
+#: ../colorblind/ui/ColorblindPreferencesUI.py:218
+msgid "Positive Hue Shift"
+msgstr "భావార్థకమైన వన్నె మార్పిడి"
+
+#: ../colorblind/data/colorblind-prefs.glade.h:11
+msgid "Select Next Filter:"
+msgstr "తరువాతి వడపోత ఎంచుకొను:"
+
+#: ../colorblind/data/colorblind-prefs.glade.h:12
+#: ../colorblind/ui/ColorblindPreferencesUI.py:217
+msgid "Selective Blue Dessaturation"
+msgstr "ఎంచుకొనబడిన నీలం అసంతృప్తి"
+
+#: ../colorblind/data/colorblind-prefs.glade.h:13
+#: ../colorblind/ui/ColorblindPreferencesUI.py:214
+msgid "Selective Blue Saturation"
+msgstr "ఎంచుకొనబడిన నీలం సంతృప్తి"
+
+#: ../colorblind/data/colorblind-prefs.glade.h:14
+#: ../colorblind/ui/ColorblindPreferencesUI.py:216
+msgid "Selective Green Dessaturation"
+msgstr "ఎంచుకొనబడిన ఆకుపచ్చ అసంతృప్తి"
+
+#: ../colorblind/data/colorblind-prefs.glade.h:15
+#: ../colorblind/ui/ColorblindPreferencesUI.py:213
+msgid "Selective Green Saturation"
+msgstr "ఎంచుకొనబడిన నీలం సంతృప్తి"
+
+#: ../colorblind/data/colorblind-prefs.glade.h:16
+#: ../colorblind/ui/ColorblindPreferencesUI.py:215
+msgid "Selective Red Dessaturation"
+msgstr "ఎంచుకొనబడిన ఎరుపు అసంతృప్తి"
+
+#: ../colorblind/data/colorblind-prefs.glade.h:17
+#: ../colorblind/ui/ColorblindPreferencesUI.py:212
+msgid "Selective Red Saturation"
+msgstr "ఎంచుకొనబడిన ఎరుపు సంతృప్తి"
+
+#: ../colorblind/data/colorblind-prefs.glade.h:18
+msgid ""
+"This filter completely dessaturate the blue color when this is the "
+"predominant pixel color in the image."
+msgstr ""
+"ఈ వడపోత మొత్తంగా నీలం రంగును అసంపూర్ణముగా నింపును ఎప్పుడనగా ఇది ఆధిక్యమైనప్పుడు ప్రతిరూపంలో "
+"పిక్సెల్ వర్ణము."
+
+#: ../colorblind/data/colorblind-prefs.glade.h:19
+msgid ""
+"This filter completely dessaturate the green color when this is the "
+"predominant pixel color in the image."
+msgstr ""
+"ఈ వడపోత మొత్తంగా ఆకుపచ్చ రంగును అసంపూర్ణముగా నింపును ఎప్పుడనగా ఇది ఆధిక్యమైనప్పుడు ప్రతిరూపంలో "
+"పిక్సెల్ వర్ణము."
+
+#: ../colorblind/data/colorblind-prefs.glade.h:20
+msgid ""
+"This filter completely dessaturate the red color when this is the "
+"predominant pixel color in the image."
+msgstr ""
+"ఈ వడపోత మొత్తంగా ఎరుపు రంగును అసంపూర్ణముగా నింపును ఎప్పుడనగా ఇది ఆధిక్యమైనప్పుడు ప్రతిరూపంలో "
+"పిక్సెల్ వర్ణము."
+
+#: ../colorblind/data/colorblind-prefs.glade.h:21
+msgid ""
+"This filter completely saturate the blue color when this is the predominant "
+"pixel color in the image."
+msgstr ""
+"ఈ వడపోత మొత్తంగా నీలం రంగును పూర్ణముగా నింపును ఎప్పుడనగా ఇది ఆధిక్యమైనప్పుడు ప్రతిరూపంలో పిక్సెల్ "
+"వర్ణము."
+
+#: ../colorblind/data/colorblind-prefs.glade.h:22
+msgid ""
+"This filter completely saturate the green color when this is the predominant "
+"pixel color in the image."
+msgstr ""
+"ఈ వడపోత మొత్తంగా ఆకుపచ్చ రంగును పూర్ణముగా నింపును ఎప్పుడనగా ఇది ఆధిక్యమైనప్పుడు ప్రతిరూపంలో "
+"పిక్సెల్ వర్ణము."
+
+#: ../colorblind/data/colorblind-prefs.glade.h:23
+msgid ""
+"This filter completely saturate the red color when this is the predominant "
+"pixel color in the image."
+msgstr ""
+"ఈ వడపోత మొత్తంగా ఎరుపు రంగును పూర్ణముగా నింపును ఎప్పుడనగా ఇది ఆధిక్యమైనప్పుడు ప్రతిరూపంలో "
+"పిక్సెల్ వర్ణము."
+
+#: ../colorblind/data/colorblind-prefs.glade.h:24
+msgid ""
+"Transform the colors Red to Blue, Green to Red and Blue to Green, carrying a "
+"potentially ambiguous set of colors to a different band of the specter."
+msgstr ""
+"వర్ణముల రూపములను మార్చు ఎరుపు నుండి నీలం, ఆకుపచ్చ నుండి ఎరుపు మరియు నీలం నుండి ఆకుపచ్చ, "
+"మోయుచున్న ఒక సాధ్యత సందిగ్ధత యొక్క వర్ణములు అమర్చుటకు ఒక భేదమైన నాడ యొక్క దయ్యము."
+
+#: ../colorblind/data/colorblind-prefs.glade.h:25
+msgid ""
+"Transform the colors Red to Green, Green to Blue and Blue to Red, carrying a "
+"potentially ambiguous set of colors to a different band of the specter."
+msgstr ""
+"వర్ణముల రూపములను మార్చు ఎరుపు నుండి ఆకుపచ్చ, ఆకుపచ్చ నుండి నీలం  మరియు నీలం నుండి "
+"ఎరుపు, మోయుచున్న ఒక సాధ్యత సందిగ్ధత యొక్క వర్ణములు అమర్చుటకు ఒక భేదమైన నాడ యొక్క దయ్యము."
+
+#: ../colorblind/ui/WindowUI.py:36
+msgid "_File"
+msgstr "_దస్త్రం"
+
+#: ../colorblind/ui/WindowUI.py:37
+msgid "_Quit"
+msgstr "_త్యజించు"
+
+#: ../colorblind/ui/WindowUI.py:38
+msgid "_Edit"
+msgstr "_సరిచేయు"
+
+#: ../colorblind/ui/About.py:22
+msgid "Colorblind Applet"
+msgstr "వర్ణాందత ఆప్ లెట్"
+
+#: ../colorblind/ui/About.py:25
+msgid ""
+"Image filters for the colorblind. This is applet is part of gnome-mag, a "
+"magnification service for GNOME."
+msgstr ""
+"వర్ణాందత కొరకు ప్రతిరూప వడపోత. ఇది ఆప్ లెట్ ఇది గ్నోమ్-మాగ్ లో భాగము, ఒక గ్నోమ్ కొరకు ఆకారవృద్ది సేవ."
+
+#: ../colorblind/ui/About.py:28
+msgid "gnome-mag website"
+msgstr "గ్నో మ్-మాగ్ మహాతలప్రదేశం"
+
+#. about.set_documenters([])
+#. translators: These appear in the About dialog, usual format applies.
+#: ../colorblind/ui/About.py:36
+msgid "translator-credits"
+msgstr "Pramod <pramod@swecha.net>"
+
+#: ../colorblind/ui/ColorblindPreferencesUI.py:105
+msgid "New accelerator..."
+msgstr "కొత్త త్వరణసాధనం..."
+
+#: ../colorblind/ui/ColorblindPreferencesUI.py:157
+#, python-format
+msgid ""
+"The shortcut \"%s\" cannot be used because it will become unusable to type "
+"using this key.\n"
+"Please try with a key such as Control, Alt or Shift at the same time.\n"
+msgstr ""
+
+#: ../magnifier/GNOME_Magnifier.server.in.in.h:1
+msgid "Magnifier"
+msgstr "బృంహణ యంత్రము"
+
+#: ../magnifier/GNOME_Magnifier.server.in.in.h:2
+msgid "Simple Screen Magnification Service"
+msgstr "సాధారణ తెర ఆకారవృద్ది సేవ"
+
+#: ../magnifier/magnifier-main.c:402
+#, c-format
+msgid "Can't open display, DISPLAY is not set"
+msgstr "ప్రదర్శన తెరువలేము, ప్రదర్శన అమర్చబడలేదు"

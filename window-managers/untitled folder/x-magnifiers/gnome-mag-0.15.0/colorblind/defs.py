@@ -1,0 +1,5 @@
+DATA_DIR = ""
+LIB_DIR = ""
+VERSION = "0.15.0"
+PACKAGE = "gnome-mag"
+PYTHONDIR = ""

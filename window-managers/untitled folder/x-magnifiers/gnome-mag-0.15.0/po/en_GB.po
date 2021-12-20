@@ -1,0 +1,30 @@
+# English (British) translation.
+# Copyright (C) 2004 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the gnome-mag package.
+# Gareth Owen <gowen72@yahoo.com>, 2004.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-mag\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-12-29 18:30+0000\n"
+"PO-Revision-Date: 2006-12-29 18:31-0000\n"
+"Last-Translator: David Lodge <dave@cirt.net>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../magnifier/GNOME_Magnifier.server.in.in.h:1
+msgid "Magnifier"
+msgstr "Magnifier"
+
+#: ../magnifier/GNOME_Magnifier.server.in.in.h:2
+msgid "Simple Screen Magnification Service"
+msgstr "Simple Screen Magnification Service"
+
+#: ../magnifier/magnifier-main.c:385
+#, c-format
+msgid "Can't open display, DISPLAY is not set"
+msgstr "Can't open display, DISPLAY is not set"
+

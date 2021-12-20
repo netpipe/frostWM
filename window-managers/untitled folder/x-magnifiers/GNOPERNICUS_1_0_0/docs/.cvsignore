@@ -1,0 +1,16 @@
+Makefile.in
+Makefile
+srlow.args
+srlow.hierarchy
+srlow.signals
+srlow-decl.txt
+scan-build.stamp
+srlow-decl-list.txt
+tmpl.stamp
+srlow-unused.txt
+tmpl-build.stamp
+srlow-undocumented.txt
+sgml.stamp
+sgml-build.stamp
+html.stamp
+html-build.stamp

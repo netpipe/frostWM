@@ -1,0 +1,11 @@
+DynaMag 1.1.1 README
+====================
+
+Please issue the following commands at the prompt to build DynaMag. Make sure
+that you are in the directory where you extracted the archive.
+
+1) xmkmf
+2) make
+
+The DynaMag project is hosted at http://www.sf.net/projects/dynamag
+

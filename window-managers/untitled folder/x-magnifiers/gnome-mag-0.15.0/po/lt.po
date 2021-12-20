@@ -1,0 +1,251 @@
+# translation of gnome-mag.HEAD.lt.po to Lietuvių
+# Lithuanian translation of gnome-mag.
+# Copyright (C) 2003, 2007 Free Software Foundation, Inc.
+# This file is distributed under the same license as the gnome-mag package.
+#
+# Tomas Kuliavas <tokul@users.sourceforge.net>, 2003.
+# Gintautas Miliauskas <gintas@akl.lt>, 2007.
+# vt <punktyras@nkm.lt>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-mag.HEAD.lt\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2007-09-19 13:43+0300\n"
+"PO-Revision-Date: 2007-09-19 10:23+0300\n"
+"Last-Translator: vt <punktyras@nkm.lt>\n"
+"Language-Team: Lietuvių <lt@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms:  nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%"
+"100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: ../colorblind/GNOME_Magnifier_ColorblindApplet.server.in.in.h:1
+msgid "Accessibility"
+msgstr "Prieinamumas"
+
+#: ../colorblind/GNOME_Magnifier_ColorblindApplet.server.in.in.h:2
+msgid "Colorblind applet"
+msgstr "Įtaisas daltonikams"
+
+#: ../colorblind/GNOME_Magnifier_ColorblindApplet.server.in.in.h:3
+msgid "Controls image filters for colorblind people"
+msgstr "Kontroliuoja paveiksliuko filtrus daltonikams"
+
+#: ../colorblind/data/Colorblind_Applet.xml.h:1
+#: ../colorblind/ui/WindowUI.py:40
+msgid "_About"
+msgstr "_Apie"
+
+#: ../colorblind/data/Colorblind_Applet.xml.h:2
+#: ../colorblind/ui/WindowUI.py:39
+msgid "_Preferences"
+msgstr "_Nustatymai"
+
+#: ../colorblind/data/colorblind-prefs.glade.h:1
+msgid "<b>Default Filter</b>"
+msgstr "<b>Standartinis filtras</b>"
+
+#: ../colorblind/data/colorblind-prefs.glade.h:2
+msgid "<b>Filters</b>"
+msgstr "<b>Filtrai</b>"
+
+#: ../colorblind/data/colorblind-prefs.glade.h:3
+msgid "<b>Shortcut</b>"
+msgstr "<b>Santrumpa</b>"
+
+#: ../colorblind/data/colorblind-prefs.glade.h:4
+msgid ""
+"<i>This is the filter that will be used when enabling/disabling the filters."
+"</i>"
+msgstr "<i>Tai filtras, kuris bus naudojamas įjungiant/išjungiant filtrus.</i>"
+
+#: ../colorblind/data/colorblind-prefs.glade.h:5
+msgid "Colorblind Filters Preferences"
+msgstr "Daltonizmo filtrų nuostatos"
+
+#: ../colorblind/data/colorblind-prefs.glade.h:6
+msgid ""
+"Configure the filter being used as default when the filters are disabled."
+msgstr ""
+"Nustatykite filtrą, kuris bus naudojamas pagal nutylėjimą, kai kiti filtrai "
+"išjungti."
+
+#: ../colorblind/data/colorblind-prefs.glade.h:7
+msgid "Enable/Disable Filters:"
+msgstr "Įjungti/išjungti filtrus:"
+
+#: ../colorblind/data/colorblind-prefs.glade.h:8
+msgid "Filter:"
+msgstr "Filtras:"
+
+#: ../colorblind/data/colorblind-prefs.glade.h:9
+#: ../colorblind/ui/ColorblindPreferencesUI.py:219
+msgid "Negative Hue Shift"
+msgstr "Neigimas atspalvio poslinkis"
+
+#: ../colorblind/data/colorblind-prefs.glade.h:10
+#: ../colorblind/ui/ColorblindPreferencesUI.py:218
+msgid "Positive Hue Shift"
+msgstr "Teigiamas atspalvio poslinkis"
+
+#: ../colorblind/data/colorblind-prefs.glade.h:11
+msgid "Select Next Filter:"
+msgstr "Pasirinkite kitą filtrą:"
+
+#: ../colorblind/data/colorblind-prefs.glade.h:12
+#: ../colorblind/ui/ColorblindPreferencesUI.py:217
+msgid "Selective Blue Desaturation"
+msgstr "Pasirinktinis mėlynos spalvos blukinimas"
+
+#: ../colorblind/data/colorblind-prefs.glade.h:13
+#: ../colorblind/ui/ColorblindPreferencesUI.py:214
+msgid "Selective Blue Saturation"
+msgstr "Pasirinktinis mėlynos spalvos sodrinimas"
+
+#: ../colorblind/data/colorblind-prefs.glade.h:14
+#: ../colorblind/ui/ColorblindPreferencesUI.py:216
+msgid "Selective Green Desaturation"
+msgstr "Pasirinktinis žalios spalvos blukinimas"
+
+#: ../colorblind/data/colorblind-prefs.glade.h:15
+#: ../colorblind/ui/ColorblindPreferencesUI.py:213
+msgid "Selective Green Saturation"
+msgstr "Pasirinktinis žalios spalvos sodrinimas"
+
+#: ../colorblind/data/colorblind-prefs.glade.h:16
+#: ../colorblind/ui/ColorblindPreferencesUI.py:215
+msgid "Selective Red Desaturation"
+msgstr "Pasirinktinis raudonos spalvos blukinimas"
+
+#: ../colorblind/data/colorblind-prefs.glade.h:17
+#: ../colorblind/ui/ColorblindPreferencesUI.py:212
+msgid "Selective Red Saturation"
+msgstr "Pasirinktinis raudonos spalvos sodrinimas"
+
+#: ../colorblind/data/colorblind-prefs.glade.h:18
+msgid ""
+"This filter completely desaturates the blue color when this is the "
+"predominant pixel color in the image."
+msgstr ""
+"Šis filtras visiškai išblukina mėlyną spalvą, kai tai yra dominuojanti "
+"paveikslėlio spalva."
+
+#: ../colorblind/data/colorblind-prefs.glade.h:19
+msgid ""
+"This filter completely desaturates the green color when this is the "
+"predominant pixel color in the image."
+msgstr ""
+"Šis filtras visiškai išblukina žalią spalvą, kai tai yra dominuojanti "
+"paveikslėlio spalva."
+
+#: ../colorblind/data/colorblind-prefs.glade.h:20
+msgid ""
+"This filter completely desaturates the red color when this is the "
+"predominant pixel color in the image."
+msgstr ""
+"Šis filtras visiškai išblukina raudoną spalvą, kai tai yra dominuojanti "
+"paveikslėlio spalva."
+
+#: ../colorblind/data/colorblind-prefs.glade.h:21
+msgid ""
+"This filter completely saturates the blue color when this is the predominant "
+"pixel color in the image."
+msgstr ""
+"Šis filtras visiškai prisodrina mėlyną spalvą, kai tai yra dominuojanti "
+"paveikslėlio spalva"
+
+#: ../colorblind/data/colorblind-prefs.glade.h:22
+msgid ""
+"This filter completely saturates the green color when this is the "
+"predominant pixel color in the image."
+msgstr ""
+"Šis filtras visiškai prisodrina žalią spalvą, kai tai yra dominuojanti "
+"paveikslėlio spalva."
+
+#: ../colorblind/data/colorblind-prefs.glade.h:23
+msgid ""
+"This filter completely saturates the red color when this is the predominant "
+"pixel color in the image."
+msgstr ""
+"Šis filtras visiškai prisodrina raudoną spalvą, kai tai yra dominuojanti "
+"paveikslėlio spalva."
+
+#: ../colorblind/data/colorblind-prefs.glade.h:24
+msgid ""
+"Transforms the colors Red to Blue, Green to Red and Blue to Green, carrying "
+"a potentially ambiguous set of colors to a different band of the spectrum."
+msgstr ""
+"Pakeičia raudoną spalvą į mėlyną, žalią į raudoną ir mėlyną į žalią, taip "
+"paslenkant potencialiai neaiškius spalvų derinius į kitą spektro dalį."
+
+#: ../colorblind/data/colorblind-prefs.glade.h:25
+msgid ""
+"Transforms the colors Red to Green, Green to Blue and Blue to Red, carrying "
+"a potentially ambiguous set of colors to a different band of the spectrum."
+msgstr ""
+"Pakeičia raudoną spalvą į žalią, žalią į mėlyną ir mėlyną į raudoną, taip "
+"paslenkant potencialiai neaiškius spalvų derinius į kitą spektro dalį."
+
+#: ../colorblind/ui/WindowUI.py:36
+msgid "_File"
+msgstr "_Failas"
+
+#: ../colorblind/ui/WindowUI.py:37
+msgid "_Quit"
+msgstr "_Baigti"
+
+#: ../colorblind/ui/WindowUI.py:38
+msgid "_Edit"
+msgstr "_Keisti"
+
+#: ../colorblind/ui/About.py:22
+msgid "Colorblind Applet"
+msgstr "Įtaisas daltonikams"
+
+#: ../colorblind/ui/About.py:25
+msgid ""
+"Image filters for the colorblind. This is applet is part of gnome-mag, a "
+"magnification service for GNOME."
+msgstr ""
+"Vaizdo filtrai daltonikams. Šis įtaisas yra programa yra gnome-mag, GNOME "
+"vaizdo didinimo tarnybos, dalis"
+
+#: ../colorblind/ui/About.py:28
+msgid "gnome-mag website"
+msgstr "gnome-mag tinklalapis"
+
+#. about.set_documenters([])
+#. translators: These appear in the About dialog, usual format applies.
+#: ../colorblind/ui/About.py:36
+msgid "translator-credits"
+msgstr "vt <punktyras@nkm.lt>"
+
+#: ../colorblind/ui/ColorblindPreferencesUI.py:105
+msgid "New accelerator..."
+msgstr "Naujas greitasis klavišas..."
+
+#: ../colorblind/ui/ColorblindPreferencesUI.py:157
+#, python-format
+msgid ""
+"The shortcut \"%s\" cannot be used because it will become impossible to type "
+"using this key.\n"
+"Please try with a key such as Control, Alt or Shift at the same time.\n"
+msgstr ""
+"Trumpinys \"%s\" negali būti naudojamas, nes bus nebeįmanoma šiuo klavišu "
+"rinkti teksto.\n"
+"Pabandykite naudoti klavišų Vald, Alt ar Lyg2 paspaudimą vienu metu.\n"
+
+#: ../magnifier/GNOME_Magnifier.server.in.in.h:1
+msgid "Magnifier"
+msgstr "Lupa"
+
+#: ../magnifier/GNOME_Magnifier.server.in.in.h:2
+msgid "Simple Screen Magnification Service"
+msgstr "Paprastas ekrano didinimo įrankis"
+
+#: ../magnifier/magnifier-main.c:408
+#, c-format
+msgid "Can't open display: DISPLAY is not set"
+msgstr "Nepavyko atverti ekrano: DISPLAY nenustatytas"

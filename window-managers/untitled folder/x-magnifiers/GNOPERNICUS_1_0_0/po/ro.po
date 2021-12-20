@@ -1,0 +1,5143 @@
+# Romanian translation of gnopernicus.
+# Copyright (C) 2003-2004 Free Software Foundation, Inc.
+# This file is distributed under the same license as the gnopernicus package.
+# Paul-Dan Oprisa-Stanescu <dan_oprisa@hotmail.com>, 2004.
+# Ruşeţ Zeno <rzeno@cwazy.co.uk>, 2005
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Gnopernicus 0.8.0\n"
+"POT-Creation-Date: 2005-08-31 22:41+0000\n"
+"PO-Revision-Date: 2005-09-02 01:21+0300\n"
+"Last-Translator: Ruşeţ Zeno <rzeno@cwazy.co.uk>\n"
+"Language-Team: Romanian <gnomero@lists.sf.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Report-Msgid-Bugs-To: \n"
+"X-Generator: KBabel 0.9.5\n"
+"Plural-Forms: nplurals=3; plural=(n==1?0:(((n%100>19)||((n%100==0)&&(n!=0)))?"
+"2:1));\n"
+
+#: ../braille/libbrl/ttybrl.c:193
+#, c-format
+msgid "BRLTTY command code not bound to Gnopernicus key code: 0X%04X\n"
+msgstr "codul comenzii BRLTTY nu e legat de codul tastei Gnopernicus: 0X%04X\n"
+
+#: ../braille/libbrl/ttybrl.c:256
+msgid "Error opening brlapi connection"
+msgstr "Eroare la deschiderea conexiunii brlapi"
+
+#: ../braille/libbrl/ttybrl.c:257
+#, c-format
+msgid ""
+"Please check that\n"
+" - %s exists and contains some data\n"
+" - you have read permission on %s\n"
+" - BRLTTY is running\n"
+msgstr ""
+"Vă rugăm verificaţi că:\n"
+" - %s există şi conţine date\n"
+" - aveţi drept de citire pe %s\n"
+" - BRLTTY rulează\n"
+
+#: ../braille/libbrl/ttybrl.c:266
+msgid "Unable to get display size"
+msgstr "Eşec la preluarea dimensiunii afişajului"
+
+#: ../braille/libbrl/ttybrl.c:270
+#, c-format
+msgid "BrlAPI detected a %dx%d display\n"
+msgstr "BrlAPI a detectat un afişaj %dx%d\n"
+
+#: ../braille/libbrl/ttybrl.c:320
+#, c-format
+msgid "no XFree86_VT property\n"
+msgstr "nici o proprietate XFree86_VT\n"
+
+#: ../braille/libbrl/ttybrl.c:326
+#, c-format
+msgid "no item in XFree86_VT property\n"
+msgstr "nici un element în proprietatea XFree86_VT\n"
+
+#: ../braille/libbrl/ttybrl.c:340
+#, c-format
+msgid "Bad format for VT number\n"
+msgstr "Format greşit pentru numărul VT\n"
+
+#: ../braille/libbrl/ttybrl.c:344
+#, c-format
+msgid "Bad type for VT number\n"
+msgstr "Tip greşit pentru numărul VT\n"
+
+#: ../braille/libbrl/ttybrl.c:350
+msgid "Unable to get Tty"
+msgstr "Eşec la preluare Tty"
+
+#: ../braille/test/remote.c:545
+msgid "Braille remote"
+msgstr "Periferic Braille"
+
+#: ../brlmon/brlmon.c:196
+msgid "Braille monitor"
+msgstr "Monitor Braille"
+
+#: ../brlmon/brlmon.c:325 ../brlmon/brlmon.c:333
+#, c-format
+msgid "Invalid port number: %d."
+msgstr "Număr de port invalid: %d."
+
+#: ../brlmon/brlmon.c:326 ../brlmon/brlmon.c:334
+msgid "port_no = [1025 - 30000]."
+msgstr "port_no = [1025 - 30000]."
+
+#: ../brlmon/brlmon.c:520
+msgid "Can not open socket!"
+msgstr "Nu se poate deschide socket-ul!"
+
+#: ../brlmon/brlmon.c:543
+#, c-format
+msgid "Can not bind port number %d."
+msgstr "Nu se poate realiza legătura la portul %d."
+
+#: ../brlmon/brlmon.c:547
+#, c-format
+msgid "Waiting for data on port UDP %u."
+msgstr "Se aşteaptă date la portul UDP %u."
+
+#: ../brlmon/brlmonui.c:225 ../gnopi/gnopiconf.c:43
+msgid "Failed to init gconf client."
+msgstr "Eşec la iniţierea clientului gconf."
+
+#: ../brlmon/brlmonui.c:234 ../srconf/libsrconf/libsrconf.c:418
+msgid "Failed to add directory."
+msgstr "Eşec la adăugarea directorului."
+
+#: ../brlmon/brlmonui.c:246 ../gnopi/kbconf.c:79 ../gnopi/spconf.c:95
+#: ../srconf/libsrconf/libsrconf.c:431
+msgid "Failed to add notify."
+msgstr "Eşec la adăugarea notificării."
+
+#: ../brlmon/brlmonui.c:261 ../gnopi/gnopiconf.c:145
+#, c-format
+msgid "Expected key: %s"
+msgstr "Tasta aşteptată: %s"
+
+#: ../brlmon/brlmonui.c:301
+#, c-format
+msgid "Failed to set value: %d"
+msgstr "Eşec la iniţializarea valorii: %d"
+
+#: ../brlmon/brlmonui.c:342 ../brlmon/brlmonui.c:444 ../gnopi/gnopiconf.c:353
+#: ../gnopi/gnopiconf.c:407 ../gnopi/gnopiconf.c:558 ../gnopi/gnopiconf.c:731
+#, c-format
+msgid "Invalid type of key: %s."
+msgstr "Tip de tastă invalid: %s."
+
+#: ../brlmon/brlmonui.c:345 ../brlmon/brlmonui.c:364
+#, c-format
+msgid "Failed to set int value: %d."
+msgstr "Eşec la iniţializarea valorii întregi: %d."
+
+#: ../brlmon/brlmonui.c:358 ../brlmon/brlmonui.c:459
+#, c-format
+msgid "Failed to get value: %s."
+msgstr "Eşec la obţinerea valorii: %s."
+
+#: ../brlmon/brlmonui.c:403 ../gnopi/gnopiconf.c:355 ../gnopi/gnopiconf.c:373
+#: ../gnopi/gnopiconf.c:560 ../gnopi/gnopiconf.c:576
+#, c-format
+msgid "Failed to set value: %d."
+msgstr "Eşec la iniţializarea valorii: %d."
+
+#: ../brlmon/brlmonui.c:447 ../brlmon/brlmonui.c:462
+#, c-format
+msgid "Failed to set boolean value: %d."
+msgstr "Eşec la iniţializarea valorii booleene: %d."
+
+#: ../brlmon/brlmonui.c:501 ../gnopi/gnopiconf.c:494 ../gnopi/gnopiconf.c:507
+#, c-format
+msgid "Failed to set value: %s."
+msgstr "Eşec la iniţializarea valorii: %s."
+
+#: ../brlmon/brlmonui.c:535
+#, c-format
+msgid "Failed to get string value: %s."
+msgstr "Eşec la obţinerea valorii şirului: %s."
+
+#: ../brlmon/brlmonui.c:539 ../brlmon/brlmonui.c:549
+#, c-format
+msgid "Failed to set string value: %s."
+msgstr "Eşec la iniţializarea valorii şirului: %s."
+
+#: ../brlmon/brlmonui.c:583 ../gnopi/bmui.c:297
+#, c-format
+msgid "Invalid modetype: %s."
+msgstr "Tip de mod invalid: %s."
+
+#: ../brlmon/brlmonui.c:635
+#, c-format
+msgid "%s font not installed."
+msgstr "Fontul %s nu este instalat."
+
+#. *
+#. * bmui_load_colors
+#. *
+#. * Load text colors.
+#. *
+#. * returns:
+#. *
+#: ../brlmon/brlmonui.c:639 ../gnopi/bmui.c:251
+msgid "Can not parse color string."
+msgstr "Nu se poate analiza culoarea şirului."
+
+#: ../brlmon/brlmonui.c:1112
+msgid "Status"
+msgstr "Stare"
+
+#: ../brlmon/brlmonui.c:1319
+#, c-format
+msgid "Too many cells on display. [Max %d]"
+msgstr "Prea multe celule pe afişaj. [Max %d]"
+
+#: ../brlmon/brlmonui.c:1320
+#, c-format
+msgid "Load default display size. Line: %d Column: %d."
+msgstr "Încarcă mărimea de afişare implicită. Linia: %d Coloana: %d."
+
+#. unsupported attribute
+#: ../brlmon/brlmonxml.c:84
+#, c-format
+msgid "BRLOUT attribute %s is not supported."
+msgstr "Atributul BRLOUT %s nu este suportat."
+
+#. unsupported attribute
+#: ../brlmon/brlmonxml.c:218
+#, c-format
+msgid "TEXT attribute %s is not supported."
+msgstr "Atributul TEXT %s nu este suportat."
+
+#: ../gnopi/bmconf.c:318
+msgid "Failed to set display size."
+msgstr "Eşec la iniţializarea mărimii de afişare."
+
+#: ../gnopi/bmconf.c:336
+msgid "Failed to set display position."
+msgstr "Eşec la iniţializarea poziţiei de afişare."
+
+#: ../gnopi/bmconf.c:368
+msgid "Failed to set display mode."
+msgstr "Eşec la iniţializarea modului de afişare"
+
+#: ../gnopi/bmconf.c:392
+msgid "Failed to set dot type colors."
+msgstr "Eşec la iniţializarea culorii punctelor."
+
+#: ../gnopi/bmconf.c:409
+msgid "Failed to set font size."
+msgstr "Eşec la iniţializarea dimensiunii fontului."
+
+#: ../gnopi/bmui.c:328
+#, c-format
+msgid "Invalid position: %s."
+msgstr "Poziţie invalidă: %s."
+
+#: ../gnopi/brlconf.c:300 ../gnopi/cmdmapconf.c:237 ../gnopi/coreconf.c:140
+#: ../gnopi/kbconf.c:126 ../gnopi/magconf.c:226 ../gnopi/spconf.c:158
+#: ../gnopi/spconf.c:1247
+msgid "Unable to allocate memory."
+msgstr "Nu se poate aloca memorie."
+
+#: ../gnopi/brlconf.c:407
+#, c-format
+msgid "Failed to set braille style: %s."
+msgstr "Eşec la iniţializarea stilului Braille: %s."
+
+#: ../gnopi/brlconf.c:416
+#, c-format
+msgid "Failed to set braille cursor style: %s."
+msgstr "Eşec la iniţializarea stilului de cursor Braille: %s."
+
+#: ../gnopi/brlconf.c:425
+#, c-format
+msgid "Failed to set attribute settings: %d."
+msgstr "Eşec la iniţializarea configuraţiei atributelor: %d."
+
+#: ../gnopi/brlconf.c:434
+#, c-format
+msgid "Failed to set braille device: %s."
+msgstr "Eşec la iniţializarea dispozitivului Braille: %s."
+
+#: ../gnopi/brlconf.c:443
+#, c-format
+msgid "Failed to set fill character: %s."
+msgstr "Eşec la iniţializarea caracterului de umplere: %s."
+
+#: ../gnopi/brlconf.c:452
+#, c-format
+msgid "Failed to set serial port number: %d."
+msgstr "Eşec la iniţializarea numărului portului serial: %d."
+
+#: ../gnopi/brlconf.c:461
+#, c-format
+msgid "Failed to set serial port : %s."
+msgstr "Eşec la iniţializarea portului serial: %s."
+
+#: ../gnopi/brlconf.c:471
+#, c-format
+msgid "Failed to set translation table: %s."
+msgstr "Eşec la iniţializarea tabela translatare: %s."
+
+#: ../gnopi/brlconf.c:480
+#, c-format
+msgid "Failed to set optical sensor: %d."
+msgstr "Eşec la iniţializarea senzorului optic: %d."
+
+#: ../gnopi/brlconf.c:489
+#, c-format
+msgid "Failed to set position sensor: %d."
+msgstr "Eşec la iniţializarea poziţiei senzorului: %d."
+
+#: ../gnopi/brlconf.c:498
+#, c-format
+msgid "Failed to set status cell: %s."
+msgstr "Eşec la iniţializarea stării celulei: %s."
+
+#: ../gnopi/brlconf.c:584 ../gnopi/brlui.c:498 ../gnopi/brlui.c:546
+#: ../gnopi/brlui.c:559 ../gnopi/spvoiceui.c:613
+msgid "<none>"
+msgstr "<nimic>"
+
+#: ../gnopi/brlui.c:79
+msgid "American English"
+msgstr "Engleză americană"
+
+#: ../gnopi/brlui.c:80
+msgid "German"
+msgstr "Germană"
+
+#: ../gnopi/brlui.c:81
+msgid "Spanish"
+msgstr "Spaniolă"
+
+#: ../gnopi/brlui.c:82
+msgid "Swedish"
+msgstr "Suedeză"
+
+#. To translators: X = X Window System server
+#: ../gnopi/brlui.c:379
+msgid "X display's _terminal number:"
+msgstr "Numărul _terminalului ecranului X:"
+
+#: ../gnopi/brlui.c:385
+#: ../gnopi/gnopi_files/Braille_Settings/braille_device.glade2.h:6
+msgid "_Port:"
+msgstr "_Port:"
+
+#: ../gnopi/brlui.c:741
+msgid "Language"
+msgstr "Limbă"
+
+#: ../gnopi/brlui.c:1336 ../gnopi/cmdmapui.c:475
+msgid "No selected command!"
+msgstr "Nici o comandă selectată!"
+
+#: ../gnopi/brlui.c:1360
+msgid "Invalid device key!"
+msgstr "Tastă a dispozitivului invalidă!"
+
+#: ../gnopi/brlui.c:1595 ../gnopi/brlui.c:2018 ../gnopi/cmdmapui.c:717
+#: ../gnopi/cmdmapui.c:1568 ../gnopi/cmdmapui.c:1588
+msgid "Commands"
+msgstr "Comenzi"
+
+#: ../gnopi/brlui.c:1750 ../gnopi/cmdmapui.c:1186
+msgid "No selected item to modify!"
+msgstr "Nu este selectat nici un element de modificat!"
+
+#: ../gnopi/brlui.c:1762 ../gnopi/brlui.c:1842 ../gnopi/cmdmapui.c:1059
+#: ../gnopi/cmdmapui.c:1196
+msgid "Invalid selected item!"
+msgstr "Element selectat invalid!"
+
+#: ../gnopi/brlui.c:1830 ../gnopi/cmdmapui.c:1046
+msgid "No selected item to remove!"
+msgstr "Nu este selectat nici un element de eliminat!"
+
+#: ../gnopi/brlui.c:2012
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:9
+msgid "Braille Keys"
+msgstr "Taste Braille"
+
+#: ../gnopi/cmdmapconf.c:462 ../gnopi/cmdmapconf.c:503
+msgid "Change commit error."
+msgstr "Modificarea determină o eroare."
+
+#: ../gnopi/cmdmapui.c:45
+msgid "decrease y scale"
+msgstr "micşorează scara y"
+
+#: ../gnopi/cmdmapui.c:46
+msgid "decrease x scale"
+msgstr "micşorează scara x"
+
+#: ../gnopi/cmdmapui.c:47
+msgid "increase y scale"
+msgstr "măreşte scara y"
+
+#: ../gnopi/cmdmapui.c:48
+msgid "increase x scale"
+msgstr "măreşte scara x"
+
+#: ../gnopi/cmdmapui.c:49
+msgid "lock xy scale"
+msgstr "fixează scara xy"
+
+#: ../gnopi/cmdmapui.c:50
+msgid "smoothing toggle"
+msgstr "comută netezirea"
+
+#: ../gnopi/cmdmapui.c:51
+msgid "cursor toggle"
+msgstr "comută cursorul"
+
+#: ../gnopi/cmdmapui.c:52
+msgid "cursor on/off"
+msgstr "cu/fără cursor"
+
+#: ../gnopi/cmdmapui.c:53
+msgid "cursor magnification on/off"
+msgstr "cu/fără mărirea cursorului"
+
+#: ../gnopi/cmdmapui.c:54
+msgid "decrease cursor size"
+msgstr "micşorează cursorul"
+
+#: ../gnopi/cmdmapui.c:55
+msgid "increase cursor size"
+msgstr "măreşte cursorul"
+
+#: ../gnopi/cmdmapui.c:56
+msgid "invert on/off"
+msgstr "cu/fără inversare"
+
+#: ../gnopi/cmdmapui.c:57
+msgid "magnifier default"
+msgstr "lupa implicită"
+
+#: ../gnopi/cmdmapui.c:58
+msgid "crosshair on/off"
+msgstr "cu/fără reticul"
+
+#: ../gnopi/cmdmapui.c:59
+msgid "crosshair clip on/off"
+msgstr "cu/fără imagine reticulul"
+
+#: ../gnopi/cmdmapui.c:60
+msgid "decrease crosshair size"
+msgstr "micşorează reticulul"
+
+#: ../gnopi/cmdmapui.c:61
+msgid "increase crosshair size"
+msgstr "măreşte reticulul"
+
+#  panning = deplasare? hmm, te rog să pui un DICO pe ăsta
+#: ../gnopi/cmdmapui.c:62
+msgid "automatic panning on/off"
+msgstr "cu/fără deplasare automată"
+
+#: ../gnopi/cmdmapui.c:63
+msgid "mouse tracking toggle"
+msgstr "comută urmărire maus"
+
+#: ../gnopi/cmdmapui.c:64
+msgid "load magnifier defaults"
+msgstr "încarcă lupa implicită"
+
+#: ../gnopi/cmdmapui.c:66
+msgid "decrease pitch"
+msgstr "coboară tonalitatea"
+
+#: ../gnopi/cmdmapui.c:67
+msgid "increase pitch"
+msgstr "urcă tonalitatea"
+
+#: ../gnopi/cmdmapui.c:68
+msgid "default pitch"
+msgstr "tonalitatea implicita"
+
+#: ../gnopi/cmdmapui.c:69
+msgid "decrease rate"
+msgstr "micşorează cadenţa"
+
+#: ../gnopi/cmdmapui.c:70
+msgid "increase rate"
+msgstr "măreşte cadenţa"
+
+#: ../gnopi/cmdmapui.c:71
+msgid "default rate"
+msgstr "cadenţa implicită"
+
+#: ../gnopi/cmdmapui.c:72
+msgid "decrease volume"
+msgstr "micşorează volumul"
+
+#: ../gnopi/cmdmapui.c:73
+msgid "increase volume"
+msgstr "măreşte volumul"
+
+#: ../gnopi/cmdmapui.c:74
+msgid "default volume"
+msgstr "volumul implicit"
+
+#: ../gnopi/cmdmapui.c:75
+msgid "speech default"
+msgstr "rostirea implicita"
+
+#: ../gnopi/cmdmapui.c:77
+msgid "goto parent"
+msgstr "du-te la părinte"
+
+#: ../gnopi/cmdmapui.c:78
+msgid "goto child"
+msgstr "du-te descendent"
+
+#: ../gnopi/cmdmapui.c:79
+msgid "goto previous"
+msgstr "du-te la precedentul"
+
+#: ../gnopi/cmdmapui.c:80
+msgid "goto next"
+msgstr "du-te la următorul"
+
+#: ../gnopi/cmdmapui.c:81
+msgid "repeat last"
+msgstr "repetă ultima"
+
+#: ../gnopi/cmdmapui.c:82
+msgid "goto focus"
+msgstr "du-te la focalizare"
+
+#: ../gnopi/cmdmapui.c:83
+msgid "goto title"
+msgstr "du-te la titlu"
+
+#: ../gnopi/cmdmapui.c:84
+msgid "goto menu"
+msgstr "du-te la meniu"
+
+#: ../gnopi/cmdmapui.c:85
+msgid "goto toolbar"
+msgstr "du-te la bara cu unelte"
+
+#: ../gnopi/cmdmapui.c:86
+msgid "goto statusbar"
+msgstr "du-te la bara de stare"
+
+#  urăsc cuvântul ăsta, „widget”; nu se poate traduce?
+#: ../gnopi/cmdmapui.c:87
+msgid "widget surroundings"
+msgstr "împrejurimile widget-ului"
+
+#  sigur „caret”
+#: ../gnopi/cmdmapui.c:89
+msgid "goto caret"
+msgstr "du-te la caret"
+
+#: ../gnopi/cmdmapui.c:90
+msgid "goto first"
+msgstr "du-te la primul"
+
+#: ../gnopi/cmdmapui.c:91
+msgid "goto last"
+msgstr "du-te la ultimul"
+
+#: ../gnopi/cmdmapui.c:92
+msgid "change navigation mode"
+msgstr "schimbă modul de navigare"
+
+#: ../gnopi/cmdmapui.c:94
+msgid "toggle flat review/focus tracking mode"
+msgstr "comută modurile revizuire simplă/urmărire focalizare"
+
+#: ../gnopi/cmdmapui.c:95
+msgid "flat review"
+msgstr "revizuire simplă"
+
+#: ../gnopi/cmdmapui.c:96
+msgid "window hierarchy"
+msgstr "ierarhia ferestrelor"
+
+#: ../gnopi/cmdmapui.c:97
+msgid "read whole window"
+msgstr "citeşte întreaga fereastră"
+
+#: ../gnopi/cmdmapui.c:98
+msgid "detailed informations"
+msgstr "informaţii detaliate"
+
+#: ../gnopi/cmdmapui.c:99
+msgid "do default action"
+msgstr "execută acţiunea implicită"
+
+#: ../gnopi/cmdmapui.c:100
+msgid "window overview"
+msgstr "Lista ferestrelor"
+
+#: ../gnopi/cmdmapui.c:101
+msgid "find next"
+msgstr "caută următorul"
+
+#: ../gnopi/cmdmapui.c:102
+msgid "find set"
+msgstr "caută setul"
+
+#: ../gnopi/cmdmapui.c:103
+msgid "attributes at caret"
+msgstr "atribute la caret"
+
+#: ../gnopi/cmdmapui.c:104
+msgid "watch current object"
+msgstr "supraveghează obiectul curent"
+
+#: ../gnopi/cmdmapui.c:105 ../srcore/srctrl.c:1353
+msgid "unwatch all objects"
+msgstr "nu supraveghea nici un obiect"
+
+#: ../gnopi/cmdmapui.c:107
+msgid "mouse left press"
+msgstr "apăsare maus stânga"
+
+#: ../gnopi/cmdmapui.c:108
+msgid "mouse left click"
+msgstr "clic maus stânga"
+
+#: ../gnopi/cmdmapui.c:109
+msgid "mouse left release"
+msgstr "eliberare maus stânga"
+
+#: ../gnopi/cmdmapui.c:110
+msgid "mouse right press"
+msgstr "apăsare maus dreapta"
+
+#: ../gnopi/cmdmapui.c:111
+msgid "mouse right click"
+msgstr "clic maus dreapta"
+
+#: ../gnopi/cmdmapui.c:112
+msgid "mouse right release"
+msgstr "eliberare maus stânga"
+
+#: ../gnopi/cmdmapui.c:113
+msgid "mouse middle press"
+msgstr "apăsare maus mijloc"
+
+#: ../gnopi/cmdmapui.c:114
+msgid "mouse middle release"
+msgstr "eliberare maus mijloc"
+
+#: ../gnopi/cmdmapui.c:115
+msgid "mouse middle click"
+msgstr "clic maus mijloc"
+
+#: ../gnopi/cmdmapui.c:116
+msgid "mouse goto current"
+msgstr "deplasare maus la curent"
+
+#: ../gnopi/cmdmapui.c:118
+msgid "shutup"
+msgstr "tăcut"
+
+#: ../gnopi/cmdmapui.c:119
+msgid "pause/resume"
+msgstr "pauză/reluare"
+
+#: ../gnopi/cmdmapui.c:121
+msgid "char left"
+msgstr "caracter stânga"
+
+#: ../gnopi/cmdmapui.c:122
+msgid "char right"
+msgstr "caracter dreapta"
+
+#: ../gnopi/cmdmapui.c:123
+msgid "display left"
+msgstr "afişează stânga"
+
+#: ../gnopi/cmdmapui.c:124
+msgid "display right"
+msgstr "afişează dreapta"
+
+#: ../gnopi/cmdmapui.c:126
+msgid "braille on/off"
+msgstr "cu/fără Braille"
+
+#: ../gnopi/cmdmapui.c:127
+msgid "speech on/off"
+msgstr "cu/fără rostire"
+
+#: ../gnopi/cmdmapui.c:128
+msgid "magnifier on/off"
+msgstr "cu/fără lupă"
+
+#: ../gnopi/cmdmapui.c:129
+msgid "braille monitor on/off"
+msgstr "cu/fără monitor Braille"
+
+#: ../gnopi/cmdmapui.c:143
+msgid "A"
+msgstr "A"
+
+#: ../gnopi/cmdmapui.c:144
+msgid "B"
+msgstr "B"
+
+#: ../gnopi/cmdmapui.c:145
+msgid "C"
+msgstr "C"
+
+#: ../gnopi/cmdmapui.c:146
+msgid "D"
+msgstr "D"
+
+#: ../gnopi/cmdmapui.c:147
+msgid "E"
+msgstr "E"
+
+#: ../gnopi/cmdmapui.c:148
+msgid "F"
+msgstr "F"
+
+#: ../gnopi/cmdmapui.c:149
+msgid "G"
+msgstr "G"
+
+#: ../gnopi/cmdmapui.c:150
+msgid "H"
+msgstr "H"
+
+#: ../gnopi/cmdmapui.c:151
+msgid "I"
+msgstr "I"
+
+#: ../gnopi/cmdmapui.c:152
+msgid "J"
+msgstr "J"
+
+#: ../gnopi/cmdmapui.c:153
+msgid "K"
+msgstr "K"
+
+#: ../gnopi/cmdmapui.c:154
+msgid "L"
+msgstr "L"
+
+#: ../gnopi/cmdmapui.c:155
+msgid "M"
+msgstr "M"
+
+#: ../gnopi/cmdmapui.c:156
+msgid "N"
+msgstr "N"
+
+#: ../gnopi/cmdmapui.c:157
+msgid "O"
+msgstr "O"
+
+#: ../gnopi/cmdmapui.c:158
+msgid "P"
+msgstr "P"
+
+#: ../gnopi/cmdmapui.c:159
+msgid "Q"
+msgstr "Q"
+
+#: ../gnopi/cmdmapui.c:160
+msgid "R"
+msgstr "R"
+
+#: ../gnopi/cmdmapui.c:161
+msgid "S"
+msgstr "S"
+
+#: ../gnopi/cmdmapui.c:162
+msgid "T"
+msgstr "T"
+
+#: ../gnopi/cmdmapui.c:163
+msgid "U"
+msgstr "U"
+
+#: ../gnopi/cmdmapui.c:164
+msgid "V"
+msgstr "V"
+
+#: ../gnopi/cmdmapui.c:165
+msgid "W"
+msgstr "W"
+
+#: ../gnopi/cmdmapui.c:166
+msgid "X"
+msgstr "X"
+
+#: ../gnopi/cmdmapui.c:167
+msgid "Y"
+msgstr "Y"
+
+#: ../gnopi/cmdmapui.c:168
+msgid "Z"
+msgstr "Z"
+
+#: ../gnopi/cmdmapui.c:169
+msgid "F1"
+msgstr "F1"
+
+#: ../gnopi/cmdmapui.c:170
+msgid "F2"
+msgstr "F2"
+
+#: ../gnopi/cmdmapui.c:171
+msgid "F3"
+msgstr "F3"
+
+#: ../gnopi/cmdmapui.c:172
+msgid "F4"
+msgstr "F4"
+
+#: ../gnopi/cmdmapui.c:173
+msgid "F5"
+msgstr "F5"
+
+#: ../gnopi/cmdmapui.c:174
+msgid "F6"
+msgstr "F6"
+
+#: ../gnopi/cmdmapui.c:175
+msgid "F7"
+msgstr "F7"
+
+#: ../gnopi/cmdmapui.c:176
+msgid "F8"
+msgstr "F8"
+
+#: ../gnopi/cmdmapui.c:177
+msgid "F9"
+msgstr "F9"
+
+#: ../gnopi/cmdmapui.c:178
+msgid "F10"
+msgstr "F10"
+
+#: ../gnopi/cmdmapui.c:179
+msgid "F11"
+msgstr "F11"
+
+#: ../gnopi/cmdmapui.c:180
+msgid "F12"
+msgstr "F12"
+
+#: ../gnopi/cmdmapui.c:181
+msgid "0"
+msgstr "0"
+
+#: ../gnopi/cmdmapui.c:182
+msgid "1"
+msgstr "1"
+
+#: ../gnopi/cmdmapui.c:183
+msgid "2"
+msgstr "2"
+
+#: ../gnopi/cmdmapui.c:184
+msgid "3"
+msgstr "3"
+
+#: ../gnopi/cmdmapui.c:185
+msgid "4"
+msgstr "4"
+
+#: ../gnopi/cmdmapui.c:186
+msgid "5"
+msgstr "5"
+
+#: ../gnopi/cmdmapui.c:187
+msgid "6"
+msgstr "6"
+
+#: ../gnopi/cmdmapui.c:188
+msgid "7"
+msgstr "7"
+
+#: ../gnopi/cmdmapui.c:189
+msgid "8"
+msgstr "8"
+
+#: ../gnopi/cmdmapui.c:190
+msgid "9"
+msgstr "9"
+
+#: ../gnopi/cmdmapui.c:191
+msgid "apostrophe"
+msgstr "apostrof"
+
+#: ../gnopi/cmdmapui.c:192
+msgid "backslash"
+msgstr "backslash"
+
+#: ../gnopi/cmdmapui.c:193
+msgid "bracket left"
+msgstr "paranteză dreaptă deschisă"
+
+#: ../gnopi/cmdmapui.c:194
+msgid "bracket right"
+msgstr "paranteză dreaptă închisă"
+
+#: ../gnopi/cmdmapui.c:195
+msgid "comma"
+msgstr "virgulă"
+
+#: ../gnopi/cmdmapui.c:196
+msgid "equal"
+msgstr "egal"
+
+#: ../gnopi/cmdmapui.c:197
+msgid "grave"
+msgstr "grav"
+
+#: ../gnopi/cmdmapui.c:198
+msgid "minus"
+msgstr "minus"
+
+#: ../gnopi/cmdmapui.c:199
+msgid "period"
+msgstr "punct"
+
+#: ../gnopi/cmdmapui.c:200
+msgid "quote left"
+msgstr "ghilimele stânga"
+
+#: ../gnopi/cmdmapui.c:201
+msgid "semicolon"
+msgstr "punct şi virgulă"
+
+#: ../gnopi/cmdmapui.c:202
+msgid "slash"
+msgstr "slash"
+
+#: ../gnopi/cmdmapui.c:1133
+msgid "Invalid key or existent key."
+msgstr "Tastă invalidă sau existentă."
+
+#: ../gnopi/cmdmapui.c:1562
+msgid "Layer Keys"
+msgstr "Taste pe nivel"
+
+#: ../gnopi/cmdmapui.c:1582
+msgid "User Keys"
+msgstr "Taste utilizator"
+
+#: ../gnopi/coreconf.c:248
+#, c-format
+msgid "Failed to set exit val: %d."
+msgstr "Eşec la iniţializarea valorii de ieşire: %d."
+
+#: ../gnopi/coreconf.c:290
+#, c-format
+msgid "Failed to set move mouse: %d."
+msgstr "Eşec la iniţializarea mişcării mausului: %d."
+
+#: ../gnopi/coreconf.c:299
+#, c-format
+msgid "Failed to set simulate click: %d."
+msgstr "Eşec la iniţializarea simulării clicului: %d."
+
+#: ../gnopi/coreconf.c:308
+#, c-format
+msgid "Failed to set find text: %s."
+msgstr "Eşec la iniţializarea căutării textului: %s."
+
+#: ../gnopi/coreconf.c:318
+#, c-format
+msgid "Failed to set magnifier status: %d."
+msgstr "Eşec la iniţializarea stării lupei: %d."
+
+#: ../gnopi/coreconf.c:327
+#, c-format
+msgid "Failed to set speech status: %d."
+msgstr "Eşec la iniţializarea stării rostirii: %d."
+
+#: ../gnopi/coreconf.c:336
+#, c-format
+msgid "Failed to set braille status: %d."
+msgstr "Eşec la iniţializarea stării Braille: %d."
+
+#: ../gnopi/coreconf.c:345
+#, c-format
+msgid "Failed to set braille monitor status: %d."
+msgstr "Eşec la iniţializarea stării monitorului Braille: %d."
+
+#: ../gnopi/coreconf.c:354
+#, c-format
+msgid "Failed to set minimize flag: %d."
+msgstr "Eşec la iniţializarea fanionului minimizare: %d."
+
+#: ../gnopi/coreconf.c:363
+#, c-format
+msgid "Failed to set exit ack: %d."
+msgstr "Eşec la iniţializarea confirmării de ieşire: %d."
+
+#: ../gnopi/coreconf.c:372
+#, c-format
+msgid "Failed to set language: %s."
+msgstr "Eşec la iniţializarea limbii: %s."
+
+#: ../gnopi/coreconf.c:381
+#, c-format
+msgid "Failed to set screen review: %d."
+msgstr "Eşec la iniţializarea revizuirii ecranului: %d."
+
+#: ../gnopi/defui.c:73
+#, c-format
+msgid "Are you sure you want to load default values for %s?"
+msgstr "Sigur doriţi încărcarea valorilor implicite pentru %s?"
+
+#: ../gnopi/defui.c:100
+msgid "braille"
+msgstr "Braille"
+
+#: ../gnopi/defui.c:116
+msgid "Braille default setting loaded."
+msgstr "S-a încărcat configurarea implicită Braille."
+
+#: ../gnopi/defui.c:125
+msgid "speech"
+msgstr "rostire"
+
+#: ../gnopi/defui.c:133
+msgid "Speech default setting loaded."
+msgstr "S-a încărcat configurarea implicită a rostirii."
+
+#: ../gnopi/defui.c:142
+msgid "magnifier"
+msgstr "lupă"
+
+#: ../gnopi/defui.c:156
+msgid "Magnifier default setting loaded."
+msgstr "S-a încărcat configurarea implicită a lupei."
+
+#: ../gnopi/defui.c:165
+msgid "keyboard"
+msgstr "tastatură"
+
+#: ../gnopi/defui.c:173
+msgid "Keyboard default setting loaded."
+msgstr "S-a încărcat configurarea implicită a tastaturii."
+
+#: ../gnopi/defui.c:182
+msgid "braille monitor"
+msgstr "monitor Braille"
+
+#: ../gnopi/defui.c:189
+msgid "Braille monitor default setting loaded."
+msgstr "S-a încărcat configurarea implicită a monitorului Braille."
+
+#: ../gnopi/defui.c:198
+msgid "start up"
+msgstr "pornire"
+
+#: ../gnopi/defui.c:207
+msgid "Startup default setting loaded."
+msgstr "S-a încărcat configurarea implicită de pornire."
+
+#: ../gnopi/defui.c:217
+msgid "command map"
+msgstr "harta de comenzi"
+
+#: ../gnopi/defui.c:225
+msgid "Command map default setting loaded."
+msgstr "S-a încărcat configurarea implicită a hărţii de comenzi."
+
+#: ../gnopi/defui.c:235
+msgid "presentation"
+msgstr "prezentare"
+
+#: ../gnopi/defui.c:241
+msgid "Presentation default setting loaded."
+msgstr "S-a încărcat configurarea implicită a prezentării."
+
+#: ../gnopi/defui.c:250
+msgid "screen review"
+msgstr "revizuire ecran"
+
+#: ../gnopi/defui.c:256
+msgid "Screen review default setting loaded."
+msgstr "S-a încarcăt configurarea implicită a revizuirii ecranului."
+
+#: ../gnopi/defui.c:279
+msgid "all modules"
+msgstr "toate modulele"
+
+#: ../gnopi/defui.c:282
+msgid "All default settings loaded."
+msgstr "S-au încărcat toate configurările implicite."
+
+#: ../gnopi/genui.c:66
+#: ../gnopi/gnopi_files/General_Settings/general_settings.glade2.h:12
+msgid "_Braille"
+msgstr "_Braille"
+
+#: ../gnopi/genui.c:69
+msgid "_Braille (unavailable)"
+msgstr "_Braille (indisponibil)"
+
+#  nu îmi place soluţia asta... fă ceva ca la evolution exchange
+#  „l”, „u” sau „p”
+#: ../gnopi/genui.c:74
+#: ../gnopi/gnopi_files/General_Settings/general_settings.glade2.h:13
+msgid "_Magnifier"
+msgstr "_Lupă"
+
+#: ../gnopi/genui.c:77
+msgid "_Magnifier (unavailable)"
+msgstr "_M Lupă (indisponibilă)"
+
+#: ../gnopi/genui.c:82
+#: ../gnopi/gnopi_files/General_Settings/general_settings.glade2.h:14
+msgid "_Speech"
+msgstr "Ro_stire"
+
+#: ../gnopi/genui.c:85
+msgid "_Speech (unavailable)"
+msgstr "Ro_stire (indisponibilă)"
+
+#: ../gnopi/genui.c:90
+#: ../gnopi/gnopi_files/General_Settings/general_settings.glade2.h:4
+msgid "B_raille monitor"
+msgstr "Monitor B_raille"
+
+#: ../gnopi/genui.c:93
+msgid "B_raille monitor (unavailable)"
+msgstr "Monitor B_raille (indisponibil)"
+
+#: ../gnopi/gnopernicus.desktop.in.h:1
+msgid "Assistive Technologies for Blind and Visually Impaired"
+msgstr "Tehnologii de asistare a celor cu deficienţe de vedere"
+
+#: ../gnopi/gnopernicus.desktop.in.h:2
+msgid "Screen Reader and Magnifier"
+msgstr "Cititor de ecran şi lupă"
+
+#: ../gnopi/gnopi.c:302
+msgid "gnopernicus"
+msgstr "gnopernicus"
+
+#: ../gnopi/gnopi.c:309
+msgid "Gconf initialization failed."
+msgstr "Iniţializarea Gconf a eşuat."
+
+#: ../gnopi/gnopi.c:316
+msgid "Invalid parameters."
+msgstr "Parametri invalizi."
+
+#: ../gnopi/gnopi.c:322
+msgid "Multiple instances are NOT ALLOWED. This instance will end."
+msgstr "NU SUNT ADMISE instanţe multiple. Această instanţă va fi închisă."
+
+#: ../gnopi/gnopi.c:328
+msgid "GTK initialization failed."
+msgstr "Iniţializarea GTK a eşuat."
+
+#: ../gnopi/gnopi.c:334
+msgid "Can not create a new process."
+msgstr "Nu se poate crea un nou proces."
+
+#: ../gnopi/gnopi.c:344
+msgid "Exit gnopernicus."
+msgstr "Ieşire din gnopernicus."
+
+#: ../gnopi/gnopi.c:352
+msgid "Gnopernicus initialization failed."
+msgstr "Iniţializarea gnopernicus a eşuat."
+
+#: ../gnopi/gnopi.c:359
+msgid "Can not load .glade2 file"
+msgstr "Nu se poate încărca fişierul de tip .glade2"
+
+#. if (WIFSIGNALED (gn_srcore_status) != 0)
+#. sru_message ("signal no: %d", WTERMSIG (gn_srcore_status));
+#: ../gnopi/gnopi.c:666
+msgid "srcore exited."
+msgstr "s-a ieşit din srcore."
+
+#: ../gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:1
+msgid "<b>Color</b>"
+msgstr "<b>Culoare</b>"
+
+#: ../gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:2
+msgid "<b>Font</b>"
+msgstr "<b>Font</b>"
+
+#: ../gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:3
+msgid "<b>Mode Type</b>"
+msgstr "<b>Tip de mod</b>"
+
+#: ../gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:4
+msgid "<b>Position</b>"
+msgstr "<b>Poziţie</b>"
+
+#: ../gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:5
+msgid "<b>Size</b>"
+msgstr "<b>Mărime</b>"
+
+#: ../gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:6
+msgid "B_raille"
+msgstr "B_raille"
+
+#: ../gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:7
+msgid "Braille Monitor Preferences"
+msgstr "Preferinţe pentru monitorul Braille"
+
+#: ../gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:8
+msgid "Color selection for texts which use dot 7"
+msgstr "Selectare culoare pentru textele care folosesc 7 puncte"
+
+#: ../gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:9
+msgid "Color selection for texts which use dot 8"
+msgstr "Selectare culoare pentru textele care folosesc 8 puncte"
+
+#: ../gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:10
+msgid "Color selection for texts which use dots 7 and 8"
+msgstr "Selectare culoare pentru textele care folosesc 7 şi 8 puncte"
+
+#  am zis cumva, bleah? oricum, bleah; acceleratorul ăla e ca pasta acolo
+#: ../gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:11
+msgid "Colu_mns:"
+msgstr "Co_loane:"
+
+#: ../gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:12
+msgid "Display at bottom of screen"
+msgstr "Afişează în partea de jos a ecranului"
+
+#: ../gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:13
+msgid "Display on top of screen"
+msgstr "Afişează în partea de sus a ecranului"
+
+#: ../gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:14
+msgid "Display using braille font"
+msgstr "Afişează cu font Braille"
+
+#: ../gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:15
+msgid "Display using normal font"
+msgstr "Afişează cu font normal"
+
+#: ../gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:16
+msgid "Display with both fonts"
+msgstr "Afişează cu ambele fonturi"
+
+#: ../gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:17
+msgid "Dot 7:"
+msgstr "7 puncte:"
+
+#: ../gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:18
+msgid "Dot 8:"
+msgstr "8 puncte:"
+
+#: ../gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:19
+msgid "Dots 78:"
+msgstr "7 8 puncte:"
+
+#: ../gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:20
+msgid "Number of cell columns"
+msgstr "Numărul coloanelor de celule"
+
+#: ../gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:21
+msgid "Number of cell lines"
+msgstr "Numărul liniilor de celule"
+
+#: ../gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:22
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:43
+msgid "Pick a color"
+msgstr "Alege o culoare"
+
+#: ../gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:23
+msgid "Size of font"
+msgstr "Mărimea fontului"
+
+#: ../gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:24
+msgid "Use system theme colors"
+msgstr "Cu culorile temei sistem"
+
+#: ../gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:25
+msgid "Use theme _system colors"
+msgstr "Cu culorile temei _sistem"
+
+#: ../gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:26
+msgid "_Dual"
+msgstr "_Dual"
+
+#: ../gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:27
+msgid "_Lines:"
+msgstr "_Linii:"
+
+#: ../gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:28
+msgid "_Normal"
+msgstr "_Normal"
+
+#: ../gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:29
+msgid "_Size:"
+msgstr "Dimen_siune:"
+
+#: ../gnopi/gnopi_files/Braille_Settings/attribute_settings.glade2.h:1
+msgid "Attributes"
+msgstr "Atribute"
+
+#  acu' e tradus? :-/
+#: ../gnopi/gnopi_files/Braille_Settings/attribute_settings.glade2.h:2
+msgid "_1. Dot 8"
+msgstr "_1. 8 puncte"
+
+#  acu' e tradus? :-/
+#: ../gnopi/gnopi_files/Braille_Settings/attribute_settings.glade2.h:3
+msgid "_2. Dot 7"
+msgstr "_2. 7 puncte"
+
+#  acu' e tradus? :-/
+#: ../gnopi/gnopi_files/Braille_Settings/attribute_settings.glade2.h:4
+msgid "_3. Dot 8 or 7"
+msgstr "_3 8 sau 7 puncte"
+
+#: ../gnopi/gnopi_files/Braille_Settings/attribute_settings.glade2.h:5
+msgid "_4. Off"
+msgstr "_4. Fără"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_device.glade2.h:1
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:1
+#: ../gnopi/gnopi_files/Find/find.glade2.h:2
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:1
+#: ../gnopi/gnopi_files/Presentation/presentation.glade2.h:1
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:3
+#: ../gnopi/gnopi_files/User_Properties/user_properties.glade2.h:1
+msgid "*"
+msgstr "*"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_device.glade2.h:2
+msgid "Braille Device"
+msgstr "Dispozitiv Braille"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_device.glade2.h:3
+msgid "Braille devices list"
+msgstr "Lista dispozitivelor Braille"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_device.glade2.h:4
+msgid "Enter manually:"
+msgstr "Introducere manuală:"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_device.glade2.h:5
+msgid "_Device:"
+msgstr "_Dispozitiv:"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:2
+msgid "10 _Font size"
+msgstr "10 Dimensiune _font"
+
+#  aici nu e „activează ....”? (vezi mai jos)
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:3
+msgid "11 _Activate script function \"OnPosSwitch\""
+msgstr "11 _Activare funcţia script \"OnPosSwitch\""
+
+#  motiv fuzzy - vezi mai jos acelaşi mesaj fără acceleratori
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:4
+msgid "12 _Present attributes"
+msgstr "12 Atribute _prezente"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:5
+msgid "<b>_Braille keys list</b>"
+msgstr "<b>Lista tastelor _Braille</b>"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:6
+msgid "Activate script function \"OnPosSwitch\""
+msgstr "Activare funcţia script \"OnPosSwitch\""
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:7
+msgid "Add item in braille keys list"
+msgstr "Adaugă element în lista tastelor Braille"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:8
+msgid "Braille Display Key Mapping"
+msgstr "Dispunerea tastelor afişajlui Braille"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:10
+msgid "Braille device keys list"
+msgstr "Lista tastelor dispozitivelor Braille"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:11
+msgid "Braille keys list"
+msgstr "Lista tastelor Braille"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:12
+msgid "Command List"
+msgstr "Lista comenzilor"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:13
+msgid "Command list"
+msgstr "Lista comenzilor"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:14
+msgid "Font name"
+msgstr "Numele fontului"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:15
+msgid "Font size"
+msgstr "Dimensiunea fontului"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:16
+msgid "Font style"
+msgstr "Stilul fontului"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:17
+msgid "Modify selected item"
+msgstr "Modifică elementul selectat"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:18
+msgid "Move caret"
+msgstr "Mută caret-ul"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:19
+msgid "Move mouse and click left"
+msgstr "Mută mausul şi clic stânga"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:20
+msgid "Move mouse and click left and right"
+msgstr "Mută mausul şi clic stânga şi dreapta"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:21
+msgid "Move mouse and click right"
+msgstr "Mută mausul şi clic dreapta"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:22
+msgid "Only move mouse"
+msgstr "Doar mută mausul"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:23
+msgid "Optical Sensors"
+msgstr "Senzori optici"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:24
+msgid "Optical sensors off"
+msgstr "Senzori optici dezactivaţi"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:25
+msgid "Position Sensors"
+msgstr "Senzori de poziţie"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:26
+msgid "Position sensors off"
+msgstr "Senzori de poziţie dezactivaţi"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:27
+msgid "Present attributes"
+msgstr "Atribute prezente"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:28
+msgid "Remove selected item from braille keys list"
+msgstr "Elimină elementele selectate din lista tastelor Braille"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:29
+msgid "Show X coordinate"
+msgstr "Arată coordonata X"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:30
+msgid "Show Y coordinate"
+msgstr "Arată coordonata Y"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:31
+msgid "_0 Optical sensors off"
+msgstr "_0 Fără senzori optici"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:32
+msgid "_0 Position sensors off"
+msgstr "_0 Fără senzori de poziţie"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:33
+msgid "_1 Only move mouse"
+msgstr "_1 Doar mută mausul"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:34
+msgid "_2 Move mouse and click left"
+msgstr "_2 Mută mausul şi fă clic stânga"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:35
+msgid "_3 Move mouse and click right"
+msgstr "_3 Mută mausul şi fă clic dreapta"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:36
+msgid "_4 Move mouse and click left or right"
+msgstr "_4 Muta mausul şi fă clic stânga sau dreapta"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:37
+msgid "_5 Move caret"
+msgstr "_5 Mută caret-ul"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:38
+msgid "_6 Show X coordinate"
+msgstr "_6 Arată coordonata X"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:39
+msgid "_7 Show Y coordinate"
+msgstr "_7 Arată coordonata Y"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:40
+msgid "_8 Font style"
+msgstr "_8 Stilul fontului"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:41
+msgid "_9 Font name"
+msgstr "_9 Numele fontului"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:42
+msgid "_Commands:"
+msgstr "_Comenzi:"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:43
+msgid "_Device key:"
+msgstr "Tasta _dispozitivului:"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:44
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:85
+#: ../gnopi/gnopi_files/User_Properties/user_properties.glade2.h:28
+msgid "_Modify"
+msgstr "_Modifică"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_settings.glade2.h:1
+msgid "Braille Preferences"
+msgstr "Preferinţe Braille"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_settings.glade2.h:2
+msgid "Close braille settings"
+msgstr "Închide configurarea Braille"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_settings.glade2.h:3
+msgid "Map function for display keys"
+msgstr "Harta funcţiilor tastelor de afişare"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_settings.glade2.h:4
+msgid "Select braille device"
+msgstr "Selectare dispozitiv Braille"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_settings.glade2.h:5
+msgid "Select braille style 8/6 dots"
+msgstr "Selectare stil Braille 8/6 puncte"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_settings.glade2.h:6
+msgid "Select cursor setting FullCell/UnderLined/NoCursor"
+msgstr "Setare cursor Celulă/Subliniere/Fără_cursor"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_settings.glade2.h:7
+msgid "Select translation table for braille device"
+msgstr "Selectare tabelă de traducere pentru dispozitivul Braille"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_settings.glade2.h:8
+msgid "_1 Braille Device"
+msgstr "_1 Dispozitivul Braille"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_settings.glade2.h:9
+msgid "_2 Translation Table"
+msgstr "_2 Tabela de traducere"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_settings.glade2.h:10
+msgid "_3 Braille Style"
+msgstr "_3 Stilul Braille"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_settings.glade2.h:11
+msgid "_4 Cursor Preferences"
+msgstr "_4 Preferinţe pentru cursor"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_settings.glade2.h:12
+msgid "_5 Braille Key Mapping"
+msgstr "_5 Amplasarea tastelor Braille"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_style.glade2.h:1
+msgid "Braille Style"
+msgstr "Stilul Braille"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_style.glade2.h:2
+msgid "Use 6 dots"
+msgstr "Cu 6 puncte"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_style.glade2.h:3
+msgid "Use 8 dots"
+msgstr "Cu 8 puncte"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_style.glade2.h:4
+msgid "_6 Dot Braille"
+msgstr "Braille cu _6 puncte"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_style.glade2.h:5
+msgid "_8 Dot Braille"
+msgstr "Braille cu _8 puncte"
+
+#: ../gnopi/gnopi_files/Braille_Settings/cursor_settings.glade2.h:1
+msgid "Cursor Preferences"
+msgstr "Preferinţe pentru cursor"
+
+#: ../gnopi/gnopi_files/Braille_Settings/cursor_settings.glade2.h:2
+msgid "Cursor on braille display is a full cell"
+msgstr "Cursorul pe ecranul Braille este o celulă plină"
+
+#: ../gnopi/gnopi_files/Braille_Settings/cursor_settings.glade2.h:3
+msgid "Cursor on braille display is an underline"
+msgstr "Cursorul pe ecranul Braille este o subliniere"
+
+#: ../gnopi/gnopi_files/Braille_Settings/cursor_settings.glade2.h:4
+msgid "No cursor on braille display"
+msgstr "Fără cursor pe ecranul Braille"
+
+#: ../gnopi/gnopi_files/Braille_Settings/cursor_settings.glade2.h:5
+msgid "_Full cell cursor"
+msgstr "_F Cursor de tip celulă plină"
+
+#: ../gnopi/gnopi_files/Braille_Settings/cursor_settings.glade2.h:6
+msgid "_No cursor"
+msgstr "_N Fără cursor"
+
+#: ../gnopi/gnopi_files/Braille_Settings/cursor_settings.glade2.h:7
+msgid "_Underline cursor (dots 7 and 8)"
+msgstr "Cursor de tip s_ubliniere (la 7 şi 8 puncte)"
+
+#: ../gnopi/gnopi_files/Braille_Settings/translation_table.glade2.h:1
+msgid "Translation Table"
+msgstr "Tabela de traducere"
+
+#: ../gnopi/gnopi_files/Braille_Settings/translation_table.glade2.h:2
+msgid "Translation table list"
+msgstr "Lista tabelelor de traducere"
+
+#: ../gnopi/gnopi_files/Braille_Settings/translation_table.glade2.h:3
+msgid "_Select language:"
+msgstr "_Selectare limbă:"
+
+#: ../gnopi/gnopi_files/Find/find.glade2.h:1
+msgid "   "
+msgstr "   "
+
+#: ../gnopi/gnopi_files/Find/find.glade2.h:3
+msgid "<b>Fi_nd Text:</b>"
+msgstr "<b>_N Caută textul:</b>"
+
+#: ../gnopi/gnopi_files/Find/find.glade2.h:4
+msgid "<b>Find Attributes:</b>"
+msgstr "<b>Caută atributele:</b>"
+
+#: ../gnopi/gnopi_files/Find/find.glade2.h:5
+msgid "<b>Match</b>"
+msgstr "<b>Corespunzând</b>"
+
+#: ../gnopi/gnopi_files/Find/find.glade2.h:6
+msgid "<b>Scope</b>"
+msgstr "<b>Domeniu</b>"
+
+#: ../gnopi/gnopi_files/Find/find.glade2.h:7
+msgid "<b>Search For</b>"
+msgstr "<b>Căutare</b>"
+
+#: ../gnopi/gnopi_files/Find/find.glade2.h:8
+msgid "A_ll chosen attributes"
+msgstr "Toate atributele a_lese"
+
+#: ../gnopi/gnopi_files/Find/find.glade2.h:9
+msgid "A_ny chosen attributes"
+msgstr "Oricare di_ntre atributele alese"
+
+#: ../gnopi/gnopi_files/Find/find.glade2.h:10
+msgid "A_ttribute"
+msgstr "A_tribut"
+
+#: ../gnopi/gnopi_files/Find/find.glade2.h:11
+msgid "Bold"
+msgstr "Bold"
+
+#: ../gnopi/gnopi_files/Find/find.glade2.h:12
+msgid "Case _sensitive"
+msgstr "Maju_scule/minuscule"
+
+#: ../gnopi/gnopi_files/Find/find.glade2.h:13
+msgid "Case sensitive on/off"
+msgstr "Cu/fără majuscule/minuscule"
+
+#: ../gnopi/gnopi_files/Find/find.glade2.h:14
+msgid "Italic"
+msgstr "Italic"
+
+#: ../gnopi/gnopi_files/Find/find.glade2.h:15
+msgid "S_elected"
+msgstr "S_electat"
+
+#: ../gnopi/gnopi_files/Find/find.glade2.h:16
+msgid "Scope area is a desktop"
+msgstr "Domeniul este ecranul"
+
+#: ../gnopi/gnopi_files/Find/find.glade2.h:17
+msgid "Scope area is a window"
+msgstr "Domeniul este o fereastră"
+
+#: ../gnopi/gnopi_files/Find/find.glade2.h:18
+msgid "Scope area is an application"
+msgstr "Domeniul este o aplicaţie"
+
+#: ../gnopi/gnopi_files/Find/find.glade2.h:19
+msgid "Search Preferences"
+msgstr "Preferinţe de căutare"
+
+#: ../gnopi/gnopi_files/Find/find.glade2.h:20
+msgid "Search criteria is a graphics"
+msgstr "Criteriul de căutare este o grafică"
+
+#: ../gnopi/gnopi_files/Find/find.glade2.h:21
+msgid "Search criteria is a text"
+msgstr "Criteriul de căutare este un text"
+
+#: ../gnopi/gnopi_files/Find/find.glade2.h:22
+msgid "Search criteria is an attribute"
+msgstr "Criteriul de căutare este un atribut"
+
+#: ../gnopi/gnopi_files/Find/find.glade2.h:23
+msgid "Selected item"
+msgstr "Elementul selectat"
+
+# acceleratorul e ok, oare?
+#: ../gnopi/gnopi_files/Find/find.glade2.h:24
+msgid "Stri_kethrough"
+msgstr "_Tăiat"
+
+#: ../gnopi/gnopi_files/Find/find.glade2.h:25
+msgid "Strikethrough"
+msgstr "Tăiat"
+
+#: ../gnopi/gnopi_files/Find/find.glade2.h:26
+msgid "Te_xt"
+msgstr "Te_xt"
+
+#: ../gnopi/gnopi_files/Find/find.glade2.h:27
+msgid "Text to search"
+msgstr "Textul de căutat"
+
+#: ../gnopi/gnopi_files/Find/find.glade2.h:28
+msgid "Underline"
+msgstr "Subliniere"
+
+#: ../gnopi/gnopi_files/Find/find.glade2.h:29
+msgid "_Application"
+msgstr "_Aplicaţie"
+
+#: ../gnopi/gnopi_files/Find/find.glade2.h:30
+msgid "_Bold"
+msgstr "_Bold"
+
+# cum o fi acceleratorul? bun?
+#: ../gnopi/gnopi_files/Find/find.glade2.h:31
+msgid "_Desktop"
+msgstr "Ec_ran"
+
+#: ../gnopi/gnopi_files/Find/find.glade2.h:32
+msgid "_Graphics"
+msgstr "_Grafică"
+
+#: ../gnopi/gnopi_files/Find/find.glade2.h:33
+msgid "_Italic"
+msgstr "_Italic"
+
+#: ../gnopi/gnopi_files/Find/find.glade2.h:34
+msgid "_Underline"
+msgstr "S_ubliniat"
+
+# acceleratorul e ok, oare?
+#: ../gnopi/gnopi_files/Find/find.glade2.h:35
+msgid "_Window"
+msgstr "_Fereastră"
+
+#: ../gnopi/gnopi_files/General_Settings/general_settings.glade2.h:1
+msgid "    "
+msgstr "    "
+
+#: ../gnopi/gnopi_files/General_Settings/general_settings.glade2.h:2
+msgid "<b>Active Components</b>"
+msgstr "<b>Componente active</b>"
+
+#: ../gnopi/gnopi_files/General_Settings/general_settings.glade2.h:3
+msgid "<b>Startup</b>"
+msgstr "<b>Pornire</b>"
+
+#: ../gnopi/gnopi_files/General_Settings/general_settings.glade2.h:5
+msgid "Braille monitor on/off"
+msgstr "Cu/fără monitor Braille"
+
+#: ../gnopi/gnopi_files/General_Settings/general_settings.glade2.h:6
+msgid "Braille on/off"
+msgstr "Cu/fără Braille"
+
+#: ../gnopi/gnopi_files/General_Settings/general_settings.glade2.h:7
+msgid "Magnifier on/off"
+msgstr "Cu/fără lupă"
+
+#: ../gnopi/gnopi_files/General_Settings/general_settings.glade2.h:8
+msgid "Speech on/off"
+msgstr "Cu/fără rostire"
+
+#: ../gnopi/gnopi_files/General_Settings/general_settings.glade2.h:9
+msgid "Start gnopernicus minimized"
+msgstr "Start gnopernicus minimizat"
+
+#: ../gnopi/gnopi_files/General_Settings/general_settings.glade2.h:10
+msgid "Start m_inimized"
+msgstr "Start m_inimizat"
+
+#: ../gnopi/gnopi_files/General_Settings/general_settings.glade2.h:11
+msgid "Startup Mode"
+msgstr "Mod de start"
+
+#: ../gnopi/gnopi_files/Keyboard_Mouse_Settings/keyboard_mouse_settings.glade2.h:1
+msgid "Mouse Preferences"
+msgstr "Preferinţe maus"
+
+#: ../gnopi/gnopi_files/Keyboard_Mouse_Settings/keyboard_mouse_settings.glade2.h:2
+msgid "Simulate click on current object"
+msgstr "Simulare clic pe obiectul curent"
+
+#: ../gnopi/gnopi_files/Keyboard_Mouse_Settings/keyboard_mouse_settings.glade2.h:3
+msgid "Take mouse at current object"
+msgstr "Punere maus pe obiectul curent"
+
+#: ../gnopi/gnopi_files/Keyboard_Mouse_Settings/keyboard_mouse_settings.glade2.h:4
+msgid "_Simulate click on current object"
+msgstr "_Simulează clic pe obiectul curent"
+
+#: ../gnopi/gnopi_files/Keyboard_Mouse_Settings/keyboard_mouse_settings.glade2.h:5
+msgid "_Take mouse at current object"
+msgstr "Pune mausul pe obiec_tul curent"
+
+#: ../gnopi/gnopi_files/Load_Default/load_default.glade2.h:1
+msgid "Close \"Load Default Preferences\""
+msgstr "Închide \"Încarcă preferinţe implicite\""
+
+#: ../gnopi/gnopi_files/Load_Default/load_default.glade2.h:2
+msgid "Load Default Preferences"
+msgstr "Încarcă preferinţe implicite"
+
+#: ../gnopi/gnopi_files/Load_Default/load_default.glade2.h:3
+msgid "Load Default Settings"
+msgstr "Încarcă setări implicite"
+
+#: ../gnopi/gnopi_files/Load_Default/load_default.glade2.h:4
+msgid "Load all defaults"
+msgstr "Încarcă toate valorile implicite"
+
+#: ../gnopi/gnopi_files/Load_Default/load_default.glade2.h:5
+msgid "Load braille defaults"
+msgstr "Încarcă valorile implicite pentru Braille"
+
+#: ../gnopi/gnopi_files/Load_Default/load_default.glade2.h:6
+msgid "Load braille monitor defaults"
+msgstr "Încarcă valorile implicite pentru monitorul Braille"
+
+#: ../gnopi/gnopi_files/Load_Default/load_default.glade2.h:7
+msgid "Load command map defaults"
+msgstr "Încarcă amplasarea implicita a comenzilor"
+
+#: ../gnopi/gnopi_files/Load_Default/load_default.glade2.h:8
+msgid "Load magnifier defaults"
+msgstr "Încarcă valorile implicite ale lupei"
+
+#: ../gnopi/gnopi_files/Load_Default/load_default.glade2.h:9
+msgid "Load mouse defaults"
+msgstr "Încarcă valorile implicite ale mausului"
+
+#: ../gnopi/gnopi_files/Load_Default/load_default.glade2.h:10
+msgid "Load presentation defaults"
+msgstr "Încarcă valorile implicite ale prezentarii"
+
+#: ../gnopi/gnopi_files/Load_Default/load_default.glade2.h:11
+msgid "Load screen review defaults"
+msgstr "Încarcă valorile implicite ale revizuirii ecranului"
+
+#: ../gnopi/gnopi_files/Load_Default/load_default.glade2.h:12
+msgid "Load speech defaults"
+msgstr "Încarcă valorile implicite ale rostirii"
+
+#: ../gnopi/gnopi_files/Load_Default/load_default.glade2.h:13
+msgid "Load startup mode defaults"
+msgstr "Încarcă valorile implicite ale modului de pornire"
+
+#: ../gnopi/gnopi_files/Load_Default/load_default.glade2.h:14
+msgid "_0 All"
+msgstr "_0 Toate"
+
+#: ../gnopi/gnopi_files/Load_Default/load_default.glade2.h:15
+msgid "_1 Braille"
+msgstr "_1 Braille"
+
+#: ../gnopi/gnopi_files/Load_Default/load_default.glade2.h:16
+msgid "_2 Speech"
+msgstr "_2 Rostirea"
+
+#: ../gnopi/gnopi_files/Load_Default/load_default.glade2.h:17
+#: ../gnopi/gnopi_files/gnopi.glade2.h:33
+msgid "_3 Magnifier"
+msgstr "_3 Lupa"
+
+#: ../gnopi/gnopi_files/Load_Default/load_default.glade2.h:18
+msgid "_4 Keyboard"
+msgstr "_4 Tastatura"
+
+#: ../gnopi/gnopi_files/Load_Default/load_default.glade2.h:19
+#: ../gnopi/gnopi_files/gnopi.glade2.h:36
+msgid "_5 Braille Monitor"
+msgstr "_5 Monitorul Braille"
+
+#: ../gnopi/gnopi_files/Load_Default/load_default.glade2.h:20
+msgid "_6 Startup"
+msgstr "_6 Startul"
+
+#: ../gnopi/gnopi_files/Load_Default/load_default.glade2.h:21
+msgid "_7 Command Map"
+msgstr "_7 Amplasarea comenzilor"
+
+#: ../gnopi/gnopi_files/Load_Default/load_default.glade2.h:22
+msgid "_8 Presentation"
+msgstr "_8 Prezentarea"
+
+#: ../gnopi/gnopi_files/Load_Default/load_default.glade2.h:23
+msgid "_9 Screen Review"
+msgstr "_9 Revizuirea ecranului"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:2
+msgid "<b>Border settings</b>"
+msgstr "<b>Setare borduri</b>"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:3
+msgid "<b>Cross-hair</b>"
+msgstr "<b>Reticul</b>"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:4
+msgid "<b>Cursor setting</b>"
+msgstr "<b>Ajustare cursor</b>"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:5
+msgid "<b>Display screen</b>"
+msgstr "<b>Ecranul de afişare</b>"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:6
+msgid "<b>Focus tracking mode</b>"
+msgstr "<b>În mod de urmărire a focalizării</b>"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:7
+msgid "<b>Mo_use tracking mode</b>"
+msgstr "<b>În mod de urmărire a ma_usului</b>"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:8
+msgid "<b>S_moothing</b>"
+msgstr "<b>_M netezire</b>"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:9
+msgid "<b>Zoomer placement</b>"
+msgstr "<b>Amplasarea vizorului</b>"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:10
+msgid "<b>Zoomfactor</b>"
+msgstr "<b>Factorul de mărire al vizorului</b>"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:11
+msgid "<b>_Zoomer list</b>"
+msgstr "<b>Lista vi_zoarelor</b>"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:12
+msgid "Bor_der size:"
+msgstr "Mărime bor_dură:"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:13
+msgid "Border c_olor:"
+msgstr "Cul_oare bordură:"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:14
+msgid "Border color"
+msgstr "Culoare bordură"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:15
+msgid "Border size"
+msgstr "Marime bordură"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:16
+msgid "C_entered"
+msgstr "C_entrat"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:17
+msgid "C_ursor on/off"
+msgstr "C_u/fără cursor"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:18
+msgid "Cross-ha_ir size:"
+msgstr "Mărime ret_icul:"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:19
+msgid "Cross-hair c_lip on/off"
+msgstr "cu/fără se_lecţie cu reticulul"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:20
+msgid "Cross-hair colo_r:"
+msgstr "Culoare _reticul"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:21
+msgid "Cross-hair color in_verted"
+msgstr "Coloare reticul in_versată"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:22
+msgid "Cross-hair o_n/off"
+msgstr "Cu/fără _reticul"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:23
+msgid "Crosshair clip on/off"
+msgstr "cu/fără selecţie cu reticulul"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:24
+msgid "Crosshair color"
+msgstr "Culoare reticul"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:25
+msgid "Crosshair on/off"
+msgstr "Cu/fără reticul"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:26
+msgid "Crosshair size"
+msgstr "Dimensiune reticul"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:27
+msgid "Cursor _size:"
+msgstr "Dimen_siune cursor:"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:28
+msgid "Cursor c_olor:"
+msgstr "Cul_oare cursor:"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:29
+msgid "Cursor color"
+msgstr "Culoare cursor"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:30
+msgid "Cursor magnification"
+msgstr "Mărire cursor"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:31
+msgid "Cursor on/off"
+msgstr "Cu/fără cursor"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:32
+msgid "Cursor size"
+msgstr "Dimensiune cursor"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:33
+msgid "Display screen source"
+msgstr "Afişează sursa"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:34
+msgid "Display screen target"
+msgstr "Afişează ţinta"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:35
+msgid "Invert crosshair color"
+msgstr "Inversează culoarea reticulului"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:36
+msgid "Invert on/off"
+msgstr "Cu/fără inversare"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:37
+msgid "Lock zoom _factor"
+msgstr "Fixează _factorul de mărire"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:38
+msgid "Lock zoom factor"
+msgstr "Fixează factorul de mărire"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:39
+msgid "Magnifier Preferences"
+msgstr "Preferinţe lupă"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:40
+msgid "Magnifier settings"
+msgstr "Setări lupă"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:41
+msgid "Mouse tracking type"
+msgstr "Tip de urmărire maus"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:42
+msgid "Panning on/off"
+msgstr "Cu/fără defilare"
+
+# nu sunt sigur pe traducerea asta
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:44
+msgid "Set cursor separate from _magnification"
+msgstr "_Cursor ajustat separat de _mărire"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:45
+msgid "Smoothing type"
+msgstr "Tip de netezire"
+
+# acceleratorul trebuie verificat
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:46
+msgid "Tar_get:"
+msgstr "Ţin_ta:"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:47
+msgid "Zoom factor X"
+msgstr "Factor de mărire X"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:48
+msgid "Zoom factor Y"
+msgstr "Factor de mărire Y"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:49
+msgid "Zoom factor _X:"
+msgstr "Factorul de mărire _X:"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:50
+msgid "Zoom factor _Y:"
+msgstr "Factorul de mărire _Y:"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:51
+msgid "Zoomer Options"
+msgstr "Opţiuni vizor"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:52
+msgid "Zoomer placement bottom"
+msgstr "Vizor palsat jos"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:53
+msgid "Zoomer placement left"
+msgstr "Vizor plasat la stânga"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:54
+msgid "Zoomer placement right"
+msgstr "Vizor plasat la dreapta"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:55
+msgid "Zoomer placement top"
+msgstr "Vizor plasat sus"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:56
+msgid "Zoomers list"
+msgstr "Lista vizoarelor"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:57
+msgid "_Add/Modify"
+msgstr "_Adaugă/modifică"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:58
+msgid "_Auto"
+msgstr "_Automat"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:59
+msgid "_Bottom:"
+msgstr "_B jos:"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:60
+msgid "_Invert"
+msgstr "_Inversat"
+
+# acceleratorul e ok, oare?
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:61
+msgid "_Left:"
+msgstr "Stân_ga:"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:62
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:87
+msgid "_None"
+msgstr "_Nimic"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:63
+msgid "_Panning"
+msgstr "_P defilare"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:64
+msgid "_Remove"
+msgstr "Şte_rge"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:65
+msgid "_Right:"
+msgstr "D_reapta:"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:66
+msgid "_Source:"
+msgstr "_Sursa:"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:67
+msgid "_Top:"
+msgstr "_T sus:"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:68
+#: ../gnopi/magui.c:49
+msgid "bilinear"
+msgstr "biliniar"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:69
+#: ../gnopi/magui.c:61
+msgid "centered"
+msgstr "centrat"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:70
+#: ../gnopi/magui.c:48 ../gnopi/magui.c:63
+msgid "none"
+msgstr "nimic"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:71
+#: ../gnopi/magui.c:62
+msgid "proportional"
+msgstr "proporţional"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:72
+#: ../gnopi/magui.c:60
+msgid "push"
+msgstr "împinge"
+
+#: ../gnopi/gnopi_files/Presentation/presentation.glade2.h:2
+msgid "Expert"
+msgstr "Expert"
+
+#: ../gnopi/gnopi_files/Presentation/presentation.glade2.h:3
+msgid "Mode selected:"
+msgstr "Modul selectat:"
+
+#: ../gnopi/gnopi_files/Presentation/presentation.glade2.h:4
+msgid "Presentation"
+msgstr "Prezentare"
+
+#: ../gnopi/gnopi_files/Presentation/presentation.glade2.h:5
+#: ../srcore/default.xml.in.h:18 ../srcore/verbose.xml.in.h:18
+msgid "Verbose"
+msgstr "Cu vorbire"
+
+#: ../gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:1
+msgid "<b>Horizontal flags</b>"
+msgstr "<b>Indicatoare orizontale</b>"
+
+#: ../gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:2
+msgid "<b>Vertical flags</b>"
+msgstr "<b>Indicatoare verticale</b>"
+
+#: ../gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:3
+msgid "Add all empty lines"
+msgstr "Adaugă toate liniile goale"
+
+#: ../gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:4
+msgid "Add all spaces"
+msgstr "Adaugă toate spaţiile"
+
+#: ../gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:5
+msgid "Add all spaces and empty lines"
+msgstr "Adaugă toate spaţiile şi liniile goale"
+
+#: ../gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:6
+msgid "Add embedded empty lines"
+msgstr "Adaugă liniile goale intermediare"
+
+#: ../gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:7
+msgid "Add embedded spaces"
+msgstr "Adaugă spaţiile intermediare"
+
+#: ../gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:8
+msgid "Add leading empty lines"
+msgstr "Adaugă liniile goale de la început"
+
+#: ../gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:9
+msgid "Add leading spaces"
+msgstr "Adaugă spaţiile de la început"
+
+#: ../gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:10
+msgid "Add trailing empty lines"
+msgstr "Adaugă liniile goale de la sfârşit"
+
+#: ../gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:11
+msgid "Add trailing spaces"
+msgstr "Adaugă spaţiile de la sfârşit"
+
+# acceleratorul e ok, oare?
+#: ../gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:12
+msgid "All _horizontal"
+msgstr "Totul ori_zontal"
+
+#: ../gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:13
+msgid "All _vertical"
+msgstr "Totul _vertical"
+
+# acceleratorul e ok, oare?
+#: ../gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:14
+msgid "Count em_pty lines"
+msgstr "Numără liniile g_oale"
+
+#: ../gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:15
+msgid "Count empty lines"
+msgstr "Numărare linii goale"
+
+#: ../gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:16
+msgid "E_mbedded"
+msgstr "Inter_mediar"
+
+#: ../gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:17
+msgid "Lea_ding"
+msgstr "_De la început"
+
+#: ../gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:18
+msgid "Screen Review Preferences"
+msgstr "Preferinţe revizuire ecran"
+
+#: ../gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:19
+msgid "T_railing"
+msgstr "De la sfâ_rşit"
+
+#: ../gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:20
+msgid "_All flags"
+msgstr "To_ate indicatoarele"
+
+#: ../gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:21
+msgid "_Embedded"
+msgstr "Int_ermediare"
+
+#: ../gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:22
+msgid "_Leading"
+msgstr "De _la început"
+
+#: ../gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:23
+msgid "_Trailing"
+msgstr "De la sfârşi_t"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:2
+#, no-c-format
+msgid "%"
+msgstr "%"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:4
+msgid "<b><></b>"
+msgstr "<b><></b>"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:5
+msgid "<b>Absolute Value</b>"
+msgstr "<b>Valoare absolută</b>"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:6
+msgid "<b>Driver</b>"
+msgstr "<b>Driver</b>"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:7
+msgid "<b>Properties</b>"
+msgstr "<b>Proprietăţi</b>"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:8
+msgid "<b>Punctuation</b>"
+msgstr "<b>Punctuaţie</b>"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:9
+msgid "<b>Relative Values</b>"
+msgstr "<b>Valori relative</b>"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:10
+msgid "<b>Text Echo</b>"
+msgstr "<b>Ecou text</b>"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:11
+msgid "<b>Voice</b>"
+msgstr "<b>Voce</b>"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:12
+msgid "<b>_Dictionary</b>"
+msgstr "<b>_Dicţionar</b>"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:13
+msgid "<b>_Replacement:</b>"
+msgstr "<b>Înlocui_re:</b>"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:14
+msgid "<b>_Voice list</b>"
+msgstr "<b>Lista _vocilor</b>"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:15
+msgid "<b>_Word:</b>"
+msgstr "<b>_W cuvânt:</b>"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:16
+msgid "A_ll"
+msgstr "To_ate"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:17
+msgid "Activate pitch"
+msgstr "Activare tonalitate"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:18
+msgid "Activate rate"
+msgstr "Activare cadenţă"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:19
+msgid "Activate volume"
+msgstr "Activare volum"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:20
+msgid "Add / Modify Dictionary Entry"
+msgstr "Adaugă / modifică o intrare în dicţionar"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:21
+msgid "Add / Modify Voice"
+msgstr "Adaugă / modifică o voce"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:22
+msgid "Add new item in voices list"
+msgstr "Adaugă un element nou în lista vocilor"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:23
+msgid "Add new word in dictionary"
+msgstr "Adaugă un cuvânt nou în dicţionar"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:24
+msgid ""
+"Change for all voices the engine driver and the engine speaker with a "
+"selected driver and speaker"
+msgstr ""
+"Înlocuieşte driverul şi difuzorul fizic cu driverul şi difuzorul selectat"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:25
+msgid "Charac_ter"
+msgstr "Carac_ter"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:26
+msgid "Count sym_bols"
+msgstr "Numără sim_boluri"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:27
+msgid "Count symbols"
+msgstr "Numără simboluri"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:28
+msgid "Decrease pitch"
+msgstr "Coboară tonalitatea"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:29
+msgid "Decrease rate"
+msgstr "Micşorează cadenţa"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:30
+msgid "Decrease volume"
+msgstr "Micşorează volumul"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:31
+msgid "Dictionary"
+msgstr "Dicţionar"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:32
+msgid "Dictionary list"
+msgstr "Lista dicţioanarelor"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:33
+msgid "Do not speak text"
+msgstr "Nu pronunţa textul"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:34
+msgid "Edit A_bsolute..."
+msgstr "Editează a_bsolut..."
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:35
+msgid "Edit Absolute Voice Values"
+msgstr "Editează valorile absolute ale vocilor"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:36
+msgid "Edit R_elative..."
+msgstr "Editează r_elativ..."
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:37
+msgid "Edit Relative Voice Values"
+msgstr "Editează valorile relative ale vocilor"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:38
+msgid "Edit dictionary"
+msgstr "Editează dicţionarul"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:39
+msgid "Edit parameter values absolutely"
+msgstr "Editează valoarea parametrilor în mod absolut"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:40
+msgid "Edit parameter values relatively"
+msgstr "Editează valoarea parametrilor în mod relativ"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:41
+msgid "Engine _driver:"
+msgstr "_Driverul fizic:"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:42
+msgid "Engine _speaker:"
+msgstr "_S difuzorul fizic:"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:43
+msgid "Engine driver"
+msgstr "Driverul fizic"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:44
+msgid "Engine speaker"
+msgstr "Difuzorul fizic"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:45
+msgid "Gnopernicus system voice"
+msgstr "Sistemul vocal gnopernicus"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:46
+msgid "Hz"
+msgstr "Hz"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:47
+msgid "Ignore all punctuation"
+msgstr "Ignoră punctuaţia"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:48
+msgid "Increase pitch"
+msgstr "Ridică tonalitatea"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:49
+msgid "Increase rate"
+msgstr "Măreşte cadenţa"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:50
+msgid "Increase volume"
+msgstr "Măreşte volumul"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:51
+msgid "Made pitch sensitive for changing"
+msgstr "Fă tonalitatea sensibilă la schimbări"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:52
+msgid "Made rate sensitive for changing"
+msgstr "Fă cadenţa sensibilă la schimbări"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:53
+msgid "Made volume sensitive for changing"
+msgstr "Fă volumul sensibil la schimbări"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:54
+msgid "Modify selected voice"
+msgstr "Modifică vocea selectată"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:55
+msgid "Modify word"
+msgstr "Modifică cuvântul"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:56
+#: ../gnopi/spvoiceui.c:2076
+msgid "Pitch"
+msgstr "Tonalitatea"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:57
+#: ../gnopi/spvoiceui.c:2068
+msgid "Rate"
+msgstr "Cadenţa"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:58
+msgid "Remove selected voice from voices list"
+msgstr "Elimină vocea selectată din lista vocilor"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:59
+msgid "Remove word from dictionary"
+msgstr "Elimină cuvântul din dicţionar"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:60
+msgid "Replecement"
+msgstr "Înlocuire"
+
+# acceleratorul trebuie verificat
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:61
+msgid "Sa_y all navigation keys"
+msgstr "Pronunţă ta_stele de navigare"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:62
+msgid "Say all modi_fiers"
+msgstr "Pronunţă toate tastele de modi_ficare"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:63
+msgid "Say all modifiers"
+msgstr "Pronunţă toate tastele de modificare"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:64
+msgid "Say all navigation keys"
+msgstr "Pronunţă ta_stele de navigare"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:65
+msgid "Say all s_paces"
+msgstr "Pronunţă toate s_paţiile"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:66
+msgid "Say all spaces"
+msgstr "Pronunţă toate spaţiile"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:67
+msgid "Say text as character"
+msgstr "Pronunţă textul pe litere"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:68
+msgid "Say text as word"
+msgstr "Pronunţă textul pe cuvinte"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:69
+msgid "Set voices and the voice parameters"
+msgstr "Seteaza vocile şi parametrii lor"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:70
+msgid "Show all punctuation"
+msgstr "Cu toată punctuaţia"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:71
+msgid "Show most punctuation"
+msgstr "Cu multă punctuaţie"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:72
+msgid "Show some punctuation"
+msgstr "Cu ceva punctuaţie"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:73
+msgid "Speech Preferences"
+msgstr "Preferinţe rostire"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:74
+msgid "Test selected voice"
+msgstr "Testare voce selectata"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:75
+msgid "Use dictionary"
+msgstr "Cu dicţionar"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:76
+msgid "Voice _name:"
+msgstr "_Numele vocii:"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:77
+msgid "Voice list"
+msgstr "Lista vocilor"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:78
+msgid "Voices"
+msgstr "Voci"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:79
+#: ../gnopi/spvoiceui.c:2060
+msgid "Volume"
+msgstr "Volum"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:80
+msgid "Word to replace"
+msgstr "Cuvânt de înlocuit"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:81
+msgid "Word/Min"
+msgstr "Cuvinte/minut"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:82
+msgid "_Dictionary..."
+msgstr "_Dicţionar..."
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:83
+msgid "_Force All Voices to Selected Driver and Speaker"
+msgstr "_Forţează toate vocile la dispozitivul şi difuzorul selectat"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:84
+msgid "_Ignore"
+msgstr "_Ignoră"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:86
+msgid "_Most"
+msgstr "_Mult"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:88
+msgid "_Pitch (Hz)"
+msgstr "_P tonul (Hz)"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:89
+msgid "_Pitch:"
+msgstr "_P tonul:"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:90
+msgid "_Rate (words/min)"
+msgstr "_R cadenţa (cuvinte/minut)"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:91
+msgid "_Rate:"
+msgstr "_R cadenţa:"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:92
+msgid "_Some"
+msgstr "_S un pic"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:93
+msgid "_Test voice"
+msgstr "_Test voce"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:94
+msgid "_Use dictionary"
+msgstr "C_u dicţionar"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:95
+msgid "_Voices..."
+msgstr "_Voci..."
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:97
+#, no-c-format
+msgid "_Volume (%)"
+msgstr "_Volum (%)"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:98
+msgid "_Volume:"
+msgstr "_Volum:"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:99
+msgid "_Word"
+msgstr "_W cuvânt"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:100
+msgid "words/min"
+msgstr "cuvinte/minut"
+
+#: ../gnopi/gnopi_files/User_Properties/user_properties.glade2.h:2
+msgid "<b>_Commands list</b>"
+msgstr "<b>Lista _comenzilor</b>"
+
+#: ../gnopi/gnopi_files/User_Properties/user_properties.glade2.h:3
+msgid "<b>_Layers list</b>"
+msgstr "<b>Lista nive_lelor</b>"
+
+#: ../gnopi/gnopi_files/User_Properties/user_properties.glade2.h:4
+msgid "<b>_User defined list</b>"
+msgstr "<b>Lista definită de _utilizator</b>"
+
+#: ../gnopi/gnopi_files/User_Properties/user_properties.glade2.h:5
+msgid "Add Layer Key"
+msgstr "Adaugă o tasta pe nivel"
+
+#: ../gnopi/gnopi_files/User_Properties/user_properties.glade2.h:6
+msgid "Add User Defined Key"
+msgstr "Adaugă o tastă definită de utilizator"
+
+#: ../gnopi/gnopi_files/User_Properties/user_properties.glade2.h:7
+msgid "Add new item"
+msgstr "Adaugă un element nou"
+
+#: ../gnopi/gnopi_files/User_Properties/user_properties.glade2.h:8
+msgid "Alt modifier"
+msgstr "Tasta Alt"
+
+#: ../gnopi/gnopi_files/User_Properties/user_properties.glade2.h:9
+msgid "Command Mapping"
+msgstr "Amplasarea comenzilor"
+
+#: ../gnopi/gnopi_files/User_Properties/user_properties.glade2.h:10
+msgid "Commands List"
+msgstr "Lista comenzilor"
+
+#: ../gnopi/gnopi_files/User_Properties/user_properties.glade2.h:11
+msgid "Control modifier"
+msgstr "Tasta Control"
+
+#: ../gnopi/gnopi_files/User_Properties/user_properties.glade2.h:12
+msgid "Key number"
+msgstr "Numărul tastei"
+
+#: ../gnopi/gnopi_files/User_Properties/user_properties.glade2.h:13
+msgid "Keys list"
+msgstr "Lista tastelor"
+
+#: ../gnopi/gnopi_files/User_Properties/user_properties.glade2.h:14
+msgid "Layer command list"
+msgstr "Lista comenzilor pe nivel"
+
+#: ../gnopi/gnopi_files/User_Properties/user_properties.glade2.h:15
+msgid "Layer number"
+msgstr "Număr nivel"
+
+#: ../gnopi/gnopi_files/User_Properties/user_properties.glade2.h:16
+msgid "Layers"
+msgstr "Nivele"
+
+#: ../gnopi/gnopi_files/User_Properties/user_properties.glade2.h:17
+msgid "List of gnopernicus commands"
+msgstr "Lista comenzilor gnopernicus"
+
+#: ../gnopi/gnopi_files/User_Properties/user_properties.glade2.h:18
+msgid "Modify command for the selected item"
+msgstr "Modifică comanda pentru elementul selectat"
+
+#: ../gnopi/gnopi_files/User_Properties/user_properties.glade2.h:19
+msgid "Remove selected item"
+msgstr "Elimină elementul selectat"
+
+#: ../gnopi/gnopi_files/User_Properties/user_properties.glade2.h:20
+msgid "Shift modifier"
+msgstr "Tasta Shift"
+
+#: ../gnopi/gnopi_files/User_Properties/user_properties.glade2.h:21
+msgid "User Defined"
+msgstr "Definite de utilizator"
+
+#: ../gnopi/gnopi_files/User_Properties/user_properties.glade2.h:22
+msgid "User defined commands list."
+msgstr "Lista comenzilor definite de utilizator."
+
+#: ../gnopi/gnopi_files/User_Properties/user_properties.glade2.h:23
+msgid "_Alt"
+msgstr "_Alt"
+
+#: ../gnopi/gnopi_files/User_Properties/user_properties.glade2.h:24
+msgid "_Ctrl"
+msgstr "_Ctrl"
+
+#: ../gnopi/gnopi_files/User_Properties/user_properties.glade2.h:25
+msgid "_Key:"
+msgstr "_K Tasta:"
+
+#: ../gnopi/gnopi_files/User_Properties/user_properties.glade2.h:26
+msgid "_Layer:"
+msgstr "Nive_l:"
+
+#: ../gnopi/gnopi_files/User_Properties/user_properties.glade2.h:27
+msgid "_Modifier keys:"
+msgstr "Taste _modificatoare:"
+
+#: ../gnopi/gnopi_files/User_Properties/user_properties.glade2.h:29
+msgid "_Shift"
+msgstr "_Shift"
+
+#: ../gnopi/gnopi_files/about.glade2.h:1
+msgid "Screen Reader and Magnifier for the GNOME Desktop"
+msgstr "Cititor de ecran şi lupă pentru versiunea GNOME"
+
+#: ../gnopi/gnopi_files/about.glade2.h:2
+msgid "translator-credits"
+msgstr ""
+"Paul-Dan Oprisa-Stanescu <dan_oprisa@hotmail.com>\n"
+"Ruşeţ Zeno <rzeno@cwazy.co.uk>"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:1
+msgid ""
+"<b>Gnopernicus has detected that the assistive technology \n"
+"support is not enabled.</b>\n"
+msgstr ""
+"<b>Gnopernicus a detectat că tehnologia de asistenţă \n"
+"nu este activată.</b>\n"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:4
+msgid "About"
+msgstr "Despre"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:5 ../srcore/srpres.c:812
+msgid "Alert"
+msgstr "Alarmă"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:6
+msgid "Braille device preferences"
+msgstr "Preferinţe dispozitiv Braille"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:7
+msgid "Braille monitor preferences"
+msgstr "Preferinţe monitor Braille"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:8
+msgid "Close preferences"
+msgstr "Închide preferinţele"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:9
+msgid "Command mapping"
+msgstr "Amplasarea comenzilor"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:10
+msgid "Do you want to enable the assistive technology support?"
+msgstr "Doriti să activaţi tehnologia de asistenţă?"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:11
+msgid "Exit from gnopernicus"
+msgstr "Ieşire din Gnopernicus"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:12
+msgid "Find on screen"
+msgstr "Caută pe ecran"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:13
+msgid "Gnopernicus"
+msgstr "Gnopernicus"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:14
+msgid "Gnopernicus usage help"
+msgstr "Ajutor la folosirea gnopernicus"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:15
+msgid "Iconify menu"
+msgstr "Redu meniul la un icon"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:16
+msgid "Load default preferences"
+msgstr "Încarcă preferinţele implicite"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:17
+msgid "Magnifier preferences"
+msgstr "Preferinţe lupă"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:18
+msgid "Mouse preferences"
+msgstr "Preferinţe maus"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:19
+msgid "Preferences"
+msgstr "Preferinţe"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:20
+msgid "Preferences..."
+msgstr "Preferinţe..."
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:21 ../srcore/srspc.c:1042
+msgid "Question"
+msgstr "Semn de întrebare"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:22
+msgid "Role presentation"
+msgstr "Prezentare informaţii"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:23
+msgid "Screen review"
+msgstr "Revizuire ecran"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:24
+msgid "Speech preferences"
+msgstr "Preferinţe rostire"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:25
+msgid "Startup mode..."
+msgstr "Mod de start..."
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:26
+msgid ""
+"You will have to log out for the change to take effect.\n"
+"Do you want to log out now? "
+msgstr ""
+"Trebuie să faceţi log out pentru ca modificarea să aibă efect.\n"
+"Vreţi să faceţi log out acum?"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:28
+msgid "_1 Speech"
+msgstr "_1 Rostire"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:29
+msgid "_1 Startup Mode..."
+msgstr "_1 Mod de start..."
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:30
+msgid "_2 Braille"
+msgstr "_2 Braille"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:31
+msgid "_2 Preferences..."
+msgstr "_2 Preferinţe..."
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:32
+msgid "_3 Default Preferences..."
+msgstr "_3 Preferinţe implicite..."
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:34
+msgid "_4 Minimize"
+msgstr "_4 Minimizare"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:35
+msgid "_4 Mouse"
+msgstr "_4 Maus"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:37
+msgid "_5 Help"
+msgstr "_5 Ajutor"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:38
+msgid "_6 About"
+msgstr "_6 Despre"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:39
+msgid "_6 Command Mapping"
+msgstr "_6 Amplasare comenzi"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:40
+msgid "_7 Presentation"
+msgstr "_7 Prezentare"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:41
+msgid "_8 Screen Review"
+msgstr "_8 Revizuire ecran"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:42
+msgid "_9 Search"
+msgstr "_9 Căutare"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:43
+msgid "_Don't Enable Support"
+msgstr "_D Fără suport"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:44
+msgid "_Enable Support"
+msgstr "_E Cu suport"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:45
+msgid "_Quit"
+msgstr "_Q Ieşire"
+
+#: ../gnopi/gnopiconf.c:409 ../gnopi/gnopiconf.c:427
+#, c-format
+msgid "Failed to set value: %f."
+msgstr "Eşec la ajustarea valorii: %f."
+
+#: ../gnopi/gnopiconf.c:733
+msgid "Failed to set value."
+msgstr "Nu pot seta valoarea."
+
+#: ../gnopi/gnopiui.c:73 ../gnopi/gnopiui.c:87 ../gnopi/gnopiui.c:99
+#: ../gnopi/gnopiui.c:105
+msgid "We could not load the interface!"
+msgstr "Nu pot încărca interfaţa!"
+
+#: ../gnopi/magui.c:74
+msgid "default"
+msgstr "implicit"
+
+#: ../gnopi/magui.c:472
+msgid ""
+"Can NOT remove zoomer because multiple zoomers are not supported in this "
+"version."
+msgstr ""
+"NU pot elimina vizorul, deoarece în acestă versiune nu sunt admise mai multe "
+"vizoare."
+
+#: ../gnopi/magui.c:673
+msgid "Zoomers"
+msgstr "Vizoare"
+
+#: ../gnopi/magui.c:1604
+#, c-format
+msgid "Zoomer Options (%s)"
+msgstr "Optiuni vizor (%s)"
+
+#: ../gnopi/spconf.c:341
+msgid "Failed to set dictionary changes."
+msgstr "Nu pot seta modificările în dicţionar."
+
+#: ../gnopi/spconf.c:349
+msgid "Failed to set removed voice value."
+msgstr "Nu pot seta valoarea vocii eliminate."
+
+#: ../gnopi/spconf.c:359
+#, c-format
+msgid "Failed to set count: %s."
+msgstr "Nu pot seta contorul: %s."
+
+#: ../gnopi/spconf.c:368
+#, c-format
+msgid "Failed to set Punctuation: %s."
+msgstr "Nu pot seta punctuaţia: %s."
+
+#: ../gnopi/spconf.c:377
+#, c-format
+msgid "Failed to set text echo value: %s."
+msgstr "Nu pot seta valoarea textului ecou: %s."
+
+#: ../gnopi/spconf.c:386
+#, c-format
+msgid "Failed to set modifiers value: %s."
+msgstr "Nu pot seta valoarea modificatorului: %s."
+
+#: ../gnopi/spconf.c:395
+#, c-format
+msgid "Failed to set cursors value: %s."
+msgstr "Nu pot seta valoarea cursorului: %s."
+
+#: ../gnopi/spconf.c:404
+#, c-format
+msgid "Failed to set spaces value: %s."
+msgstr "Nu pot seta valoarea spaţiului: %s."
+
+#: ../gnopi/spconf.c:413
+#, c-format
+msgid "Failed to set dictionary value: %s."
+msgstr "Nu pot seta expresia de dicţionar: %s."
+
+#: ../gnopi/spconf.c:422
+#, c-format
+msgid "Failed to set testable voice %s."
+msgstr "Nu pot seta vocea de test %s."
+
+#: ../gnopi/spconf.c:614
+#, c-format
+msgid "%s no name"
+msgstr "%s n-are nume"
+
+#: ../gnopi/spdictui.c:79
+msgid "Invalid word or replacer!"
+msgstr "Cuvânt sau înlocuitor invalid!"
+
+#: ../gnopi/spdictui.c:85
+msgid "Word exists in dictionary!"
+msgstr "Cuvântul există în dicţionar!"
+
+#: ../gnopi/spdictui.c:271 ../gnopi/spdictui.c:324
+msgid "No selected word to modify!"
+msgstr "Nu este selectat nici un cuvânt de modificat!"
+
+#: ../gnopi/spdictui.c:298
+msgid "No selected word to remove!"
+msgstr "Nu este selectat nici un cuvânt de eliminat!"
+
+#: ../gnopi/spdictui.c:447
+msgid "Word"
+msgstr "Cuvânt"
+
+#: ../gnopi/spdictui.c:456
+msgid "Replacer"
+msgstr "Înlocuitor"
+
+#: ../gnopi/spvoiceui.c:32
+msgid "<all drivers>"
+msgstr "<toate driverele>"
+
+#: ../gnopi/spvoiceui.c:33
+msgid "<all voices>"
+msgstr "<toate vocile>"
+
+#: ../gnopi/spvoiceui.c:296
+msgid "Invalid voice!"
+msgstr "Voce invalida!"
+
+#: ../gnopi/spvoiceui.c:1217
+msgid "Invalid driver or voice!"
+msgstr "Driver de voce invalid!"
+
+#: ../gnopi/spvoiceui.c:1657
+msgid "No selected voice to modify!"
+msgstr "Nu este selectată nici o voce de modificat!"
+
+#: ../gnopi/spvoiceui.c:1716
+msgid "No selected voice to remove!"
+msgstr "Nu este selectată nici o voce de eliminat!"
+
+#: ../gnopi/spvoiceui.c:1793
+msgid "No selected voice to test!"
+msgstr "Nu este selectată nici o voce pentru test!"
+
+#: ../gnopi/spvoiceui.c:2034
+msgid "Voice"
+msgstr "Voce"
+
+#: ../gnopi/spvoiceui.c:2043
+msgid "Driver"
+msgstr "Driver"
+
+#: ../gnopi/spvoiceui.c:2052
+msgid "Speaker"
+msgstr "Difuzor"
+
+#. To translators: This is the military phonetic alphabet
+#. Be sure to remove "Phonetic|" from each string
+#: ../speech/libsrs/srs-speech.c:303
+msgid "Phonetic|Alpha"
+msgstr "Alpha"
+
+#: ../speech/libsrs/srs-speech.c:304
+msgid "Phonetic|Bravo"
+msgstr "Bravo"
+
+#: ../speech/libsrs/srs-speech.c:305
+msgid "Phonetic|Charlie"
+msgstr "Charlie"
+
+#: ../speech/libsrs/srs-speech.c:306
+msgid "Phonetic|Delta"
+msgstr "Delta"
+
+#: ../speech/libsrs/srs-speech.c:307
+msgid "Phonetic|Echo"
+msgstr "Echo"
+
+#: ../speech/libsrs/srs-speech.c:308
+msgid "Phonetic|Foxtrot"
+msgstr "Foxtrot"
+
+#: ../speech/libsrs/srs-speech.c:309
+msgid "Phonetic|Golf"
+msgstr "Golf"
+
+#: ../speech/libsrs/srs-speech.c:310
+msgid "Phonetic|Hotel"
+msgstr "Hotel"
+
+#: ../speech/libsrs/srs-speech.c:311
+msgid "Phonetic|India"
+msgstr "India"
+
+#: ../speech/libsrs/srs-speech.c:312
+msgid "Phonetic|Juliet"
+msgstr "Juliet"
+
+#: ../speech/libsrs/srs-speech.c:313
+msgid "Phonetic|Kilo"
+msgstr "Kilo"
+
+#: ../speech/libsrs/srs-speech.c:314
+msgid "Phonetic|Lima"
+msgstr "Lima"
+
+#: ../speech/libsrs/srs-speech.c:315
+msgid "Phonetic|Mike"
+msgstr "Mike"
+
+#: ../speech/libsrs/srs-speech.c:316
+msgid "Phonetic|November"
+msgstr "November"
+
+#: ../speech/libsrs/srs-speech.c:317
+msgid "Phonetic|Oscar"
+msgstr "Oscar"
+
+#: ../speech/libsrs/srs-speech.c:318
+msgid "Phonetic|Papa"
+msgstr "Papa"
+
+#: ../speech/libsrs/srs-speech.c:319
+msgid "Phonetic|Quebec"
+msgstr "Quebec"
+
+#: ../speech/libsrs/srs-speech.c:320
+msgid "Phonetic|Romeo"
+msgstr "Romeo"
+
+#: ../speech/libsrs/srs-speech.c:321
+msgid "Phonetic|Sierra"
+msgstr "Sierra"
+
+#: ../speech/libsrs/srs-speech.c:322
+msgid "Phonetic|Tango"
+msgstr "Tango"
+
+#: ../speech/libsrs/srs-speech.c:323
+msgid "Phonetic|Uniform"
+msgstr "Uniform"
+
+#: ../speech/libsrs/srs-speech.c:324
+msgid "Phonetic|Victor"
+msgstr "Victor"
+
+#: ../speech/libsrs/srs-speech.c:325
+msgid "Phonetic|Whiskey"
+msgstr "Whiskey"
+
+#: ../speech/libsrs/srs-speech.c:326
+msgid "Phonetic|Xray"
+msgstr "Xray"
+
+#: ../speech/libsrs/srs-speech.c:327
+msgid "Phonetic|Yankee"
+msgstr "Yankee"
+
+#: ../speech/libsrs/srs-speech.c:328
+msgid "Phonetic|Zulu"
+msgstr "Zulu"
+
+#: ../speech/libsrs/srs-speech.c:329 ../srcore/srspc.c:1822
+msgid "space"
+msgstr "spaţiu"
+
+#: ../speech/libsrs/srs-speech.c:330
+msgid "tab"
+msgstr "tabulator"
+
+#: ../speech/libsrs/srs-speech.c:331
+msgid "new line"
+msgstr "linie nouă"
+
+#: ../speech/libsrs/srs-speech.c:332
+msgid "dash"
+msgstr "linioară"
+
+#. To translators: this should be as short as possible
+#: ../speech/libsrs/srs-speech.c:384
+msgid "cap"
+msgstr "Mari"
+
+#: ../srconf/libsrconf/libsrconf.c:454
+#, c-format
+msgid "Failed to access configuration source(s): %s\n"
+msgstr "Nu pot accesa sursa/sursele de configurare: %s\n"
+
+#: ../srconf/libsrconf/libsrconf.c:467
+#, c-format
+msgid "Failed to add notify: %s"
+msgstr "Nu pot adăuga notificarea: %s"
+
+#: ../srconf/libsrconf/libsrconf.c:521
+msgid "Failed to remove directory."
+msgstr "Nu pot elimina directorul."
+
+#: ../srconf/libsrconf/libsrconf.c:865
+msgid "Failed to set configdata."
+msgstr "Nu pot seta configurarea datelor."
+
+#: ../srconf/libsrconf/libsrconf.c:939
+msgid "Failed set data."
+msgstr "Nu pot seta datele."
+
+#. translators: the letter ' ' (space), in parentheses.
+#: ../srcore/default.xml.in.h:2 ../srcore/verbose.xml.in.h:2
+msgid "( )"
+msgstr "( )"
+
+#. translators: the letter 'C' for "checked", in parentheses.
+#: ../srcore/default.xml.in.h:4 ../srcore/verbose.xml.in.h:4
+msgid "(C)"
+msgstr "(C)"
+
+#. translators: the letter 'E' for "expanded", in parentheses.
+#: ../srcore/default.xml.in.h:6 ../srcore/verbose.xml.in.h:6
+msgid "(E)"
+msgstr "(E)"
+
+#. translators: the letter 'P' for "[button] pressed", in parentheses.
+#: ../srcore/default.xml.in.h:8 ../srcore/verbose.xml.in.h:8
+msgid "(P)"
+msgstr "(P)"
+
+#. translators: the letter 'U', for "unavailable", in parentheses.
+#: ../srcore/default.xml.in.h:10 ../srcore/verbose.xml.in.h:10
+msgid "(U)"
+msgstr "(U)"
+
+#. translators: the letter 'c' for "collapsed", in parentheses.
+#: ../srcore/default.xml.in.h:12 ../srcore/verbose.xml.in.h:12
+msgid "(c)"
+msgstr "(c)"
+
+#. translators: the letter 'm' for "minimized", in parentheses.
+#: ../srcore/default.xml.in.h:14 ../srcore/verbose.xml.in.h:14
+msgid "(m)"
+msgstr "(m)"
+
+#. translators: the letter 'n' for "not minimized", in parentheses.
+#: ../srcore/default.xml.in.h:16 ../srcore/verbose.xml.in.h:16
+msgid "(n)"
+msgstr "(n)"
+
+#: ../srcore/default.xml.in.h:17 ../srcore/verbose.xml.in.h:17
+msgid "Give maximum speech and braille output."
+msgstr "Dă rostirea şi Braille la maxim."
+
+#. translators: 'keyboard accelerator'
+#: ../srcore/default.xml.in.h:20 ../srcore/verbose.xml.in.h:20
+msgid "accelerator"
+msgstr "accelerator"
+
+#: ../srcore/default.xml.in.h:21 ../srcore/verbose.xml.in.h:21
+msgid "available"
+msgstr "disponibil"
+
+#. translators: "checked" as in "checkbox is checked"
+#: ../srcore/default.xml.in.h:23 ../srcore/verbose.xml.in.h:23
+msgid "checked"
+msgstr "bifat"
+
+#  ceva în glosar pentru „tab”?
+#: ../srcore/default.xml.in.h:24 ../srcore/verbose.xml.in.h:24
+msgid "closing tab"
+msgstr "tabulator închis"
+
+#: ../srcore/default.xml.in.h:25 ../srcore/verbose.xml.in.h:25
+msgid "closing window"
+msgstr "închidere fereastră"
+
+#: ../srcore/default.xml.in.h:26 ../srcore/verbose.xml.in.h:26
+msgid "collapsed"
+msgstr "contractat"
+
+#: ../srcore/default.xml.in.h:27 ../srcore/verbose.xml.in.h:27
+msgid "column header"
+msgstr "antet coloană"
+
+#: ../srcore/default.xml.in.h:28 ../srcore/verbose.xml.in.h:28
+msgid "create tab"
+msgstr "crează tabulator"
+
+#: ../srcore/default.xml.in.h:29 ../srcore/verbose.xml.in.h:29
+msgid "create window"
+msgstr "crează fereastră"
+
+#: ../srcore/default.xml.in.h:30 ../srcore/verbose.xml.in.h:30
+msgid "current value"
+msgstr "cursorul curent este"
+
+#: ../srcore/default.xml.in.h:31 ../srcore/srctrl.c:2669
+#: ../srcore/verbose.xml.in.h:31
+msgid "empty line"
+msgstr "linie goală"
+
+#: ../srcore/default.xml.in.h:32 ../srcore/verbose.xml.in.h:32
+msgid "expanded"
+msgstr "expandat"
+
+#: ../srcore/default.xml.in.h:33 ../srcore/srctrl.c:2258
+#: ../srcore/srctrl.c:2409 ../srcore/verbose.xml.in.h:33
+msgid "item"
+msgid_plural "items"
+msgstr[0] "element"
+msgstr[1] "elemente"
+msgstr[2] "de elemente"
+
+#: ../srcore/default.xml.in.h:34 ../srcore/verbose.xml.in.h:34
+msgid "items"
+msgstr "elemente"
+
+#: ../srcore/default.xml.in.h:35 ../srcore/verbose.xml.in.h:35
+msgid "level"
+msgstr "nivel"
+
+#: ../srcore/default.xml.in.h:36 ../srcore/verbose.xml.in.h:36
+msgid "maximize window"
+msgstr "maximizarea fereastră"
+
+#: ../srcore/default.xml.in.h:37 ../srcore/verbose.xml.in.h:37
+msgid "minimize window"
+msgstr "minimizare fereastră"
+
+#: ../srcore/default.xml.in.h:38 ../srcore/verbose.xml.in.h:38
+msgid "minimized"
+msgstr "minimizat"
+
+#: ../srcore/default.xml.in.h:39 ../srcore/verbose.xml.in.h:39
+msgid "no selection anymore"
+msgstr "nu mai este nici o selecţie"
+
+#: ../srcore/default.xml.in.h:40 ../srcore/verbose.xml.in.h:40
+msgid "normal"
+msgstr "_Normal"
+
+#: ../srcore/default.xml.in.h:41 ../srcore/verbose.xml.in.h:41
+msgid "pressed"
+msgstr "apăsat"
+
+#: ../srcore/default.xml.in.h:42 ../srcore/verbose.xml.in.h:42
+msgid "rename window"
+msgstr "redenumire fereastră"
+
+#: ../srcore/default.xml.in.h:43 ../srcore/verbose.xml.in.h:43
+msgid "restore window"
+msgstr "restaurare fereastră"
+
+#: ../srcore/default.xml.in.h:44 ../srcore/verbose.xml.in.h:44
+msgid "row header"
+msgstr "antet linie"
+
+#: ../srcore/default.xml.in.h:45 ../srcore/verbose.xml.in.h:45
+msgid "selected"
+msgstr "selectat"
+
+#. translators: 'keyboard shortcut'
+#: ../srcore/default.xml.in.h:47 ../srcore/verbose.xml.in.h:47
+msgid "shortcut"
+msgstr "accelerator"
+
+#: ../srcore/default.xml.in.h:48 ../srcore/verbose.xml.in.h:48
+msgid "show tool tip"
+msgstr "afişează fereastră indicii"
+
+#: ../srcore/default.xml.in.h:49 ../srcore/verbose.xml.in.h:49
+msgid "switch tab"
+msgstr "comută tab"
+
+#: ../srcore/default.xml.in.h:50 ../srcore/verbose.xml.in.h:50
+msgid "switch to"
+msgstr "comută pe"
+
+#: ../srcore/default.xml.in.h:51 ../srcore/verbose.xml.in.h:51
+msgid "switch to window"
+msgstr "comută pe fereastră"
+
+#: ../srcore/default.xml.in.h:52 ../srcore/verbose.xml.in.h:52
+msgid "titleize window"
+msgstr "reduce fereastra la bara de titlu"
+
+#  indisponibil/indisponibilă/indisponibili/indisponibile :-/
+#: ../srcore/default.xml.in.h:53 ../srcore/verbose.xml.in.h:53
+msgid "unavailable"
+msgstr "indisponibil"
+
+#. translators: "checkbox is unchecked"
+#: ../srcore/default.xml.in.h:55 ../srcore/verbose.xml.in.h:55
+msgid "unchecked"
+msgstr "nebifat"
+
+#: ../srcore/default.xml.in.h:56 ../srcore/verbose.xml.in.h:56
+msgid "unpressed"
+msgstr "neapăsat"
+
+#: ../srcore/default.xml.in.h:57 ../srcore/verbose.xml.in.h:57
+msgid "unselected"
+msgstr "neselectat"
+
+#: ../srcore/srctrl.c:1012
+msgid "no parent"
+msgstr "fără părinte"
+
+#: ../srcore/srctrl.c:1036
+msgid "no children"
+msgstr "fără fii"
+
+#: ../srcore/srctrl.c:1069
+msgid "no next"
+msgstr "fără următor"
+
+#: ../srcore/srctrl.c:1185
+msgid "Cannot find next text!"
+msgstr "Nu se poate găsi textul urmator!"
+
+#: ../srcore/srctrl.c:1196
+msgid "Cannot find next image!"
+msgstr "Nu se poate găsi imaginea următoare!"
+
+#: ../srcore/srctrl.c:1207
+msgid "Cannot find next attributes!"
+msgstr "Nu se poate găsi atributul următor!"
+
+#: ../srcore/srctrl.c:1296
+msgid "no previous"
+msgstr "fără precedent"
+
+#: ../srcore/srctrl.c:1340
+msgid "added watch for current object"
+msgstr "urmărirea obiectului curent este adăugată"
+
+#: ../srcore/srctrl.c:1341
+msgid "cannot add watch for current object"
+msgstr "nu se poate adăuga urmărirea obiectului curent"
+
+#: ../srcore/srctrl.c:1366
+msgid "no caret"
+msgstr "fără caret"
+
+#: ../srcore/srctrl.c:1387
+msgid "already on first"
+msgstr "deja la primul"
+
+#: ../srcore/srctrl.c:1408
+msgid "already on last"
+msgstr "deja la ultimul"
+
+#: ../srcore/srctrl.c:1421
+msgid "now navigating in application"
+msgstr "se navighează în aplicaţie"
+
+#: ../srcore/srctrl.c:1425
+msgid "now navigating in desktop"
+msgstr "se navighează pe ecran"
+
+#: ../srcore/srctrl.c:1429
+msgid "now navigating in window"
+msgstr "se navighează în fereastră"
+
+#: ../srcore/srctrl.c:1522
+msgid "no focus"
+msgstr "fără focalizare"
+
+#: ../srcore/srctrl.c:1562
+msgid "no title"
+msgstr "fără titlu"
+
+#: ../srcore/srctrl.c:1583
+msgid "no menu bar"
+msgstr "fără bara de meniu"
+
+#: ../srcore/srctrl.c:1606
+msgid "no tool bar"
+msgstr "fără bară cu unelte"
+
+#: ../srcore/srctrl.c:1630
+msgid "no status bar"
+msgstr "fără bară de stare"
+
+#: ../srcore/srctrl.c:2214
+msgid "on"
+msgstr "pe"
+
+#: ../srcore/srctrl.c:2236 ../srcore/srctrl.c:2387
+msgid "from a"
+msgstr "de la"
+
+#: ../srcore/srctrl.c:2238 ../srcore/srctrl.c:2394
+msgid "with"
+msgstr "cu"
+
+#: ../srcore/srctrl.c:2269
+msgid "in a"
+msgstr "într-o"
+
+#: ../srcore/srctrl.c:2272
+msgid "named "
+msgstr "numit "
+
+#: ../srcore/srctrl.c:2274
+msgid "with no name"
+msgstr "fără nume"
+
+#: ../srcore/srctrl.c:2288
+msgid "of application"
+msgstr "a aplicaţiei"
+
+#: ../srcore/srctrl.c:2375
+msgid "on a"
+msgstr "pe un"
+
+#: ../srcore/srctrl.c:2629
+msgid "first line"
+msgstr "prima linie"
+
+#: ../srcore/srctrl.c:2636
+msgid "last line"
+msgstr "ultima linie"
+
+#: ../srcore/srctrl.c:2644 ../srcore/srctrl.c:2646
+msgid "[first line]"
+msgstr "[prima linie]"
+
+#: ../srcore/srctrl.c:2651 ../srcore/srctrl.c:2653
+msgid "[last line]"
+msgstr "[ultima linie]"
+
+#: ../srcore/srctrl.c:2676
+#, c-format
+msgid "%d empty line"
+msgid_plural "%d empty lines"
+msgstr[0] "%d linie goală"
+msgstr[1] "%d linii goale"
+msgstr[2] "%d de linii goale"
+
+#: ../srcore/srctrl.c:2697 ../srcore/srctrl.c:2699
+msgid "[empty line]"
+msgstr "[linie goală]"
+
+#: ../srcore/srctrl.c:2704
+#, c-format
+msgid "[%d empty line]"
+msgid_plural "[%d empty lines]"
+msgstr[0] "[%d linie goală]"
+msgstr[1] "[%d linii goale]"
+msgstr[2] "[%d de linii goale]"
+
+#: ../srcore/srctrl.c:2786 ../srcore/srctrl.c:2787 ../srcore/srctrl.c:2795
+#: ../srcore/srctrl.c:2950 ../srcore/srctrl.c:2951
+msgid "cannot make flat review for current window"
+msgstr "nu pot face o revizuire rapidă a ferestrei curente"
+
+#: ../srcore/srctrl.c:3022
+msgid "flat review mode"
+msgstr "în mod de revizuire rapidă"
+
+#: ../srcore/srctrl.c:3038
+msgid "focus tracking mode"
+msgstr "în mod de urmărire a focalizării"
+
+#: ../srcore/srctrl.c:3577
+#, c-format
+msgid "\"%s\" entry has invalid value at position %d."
+msgstr "intrarea \"%s\" are o valoare invalidă la poziţia %d."
+
+#: ../srcore/srctrl.c:3598
+#, c-format
+msgid "key \"%s\" has an invalid value at position %d."
+msgstr "tasta \"%s\" are o valoare invalidă la poziţia %d."
+
+#: ../srcore/srctrl.c:3634
+msgid "Can not get key pad commands mapping from gconf."
+msgstr "Nu pot obţine din gconf amplasarea comenzilor pe key pad."
+
+#: ../srcore/srctrl.c:3645
+msgid "Can not get braille display commands mapping from gconf."
+msgstr "Nu pot obţine din gconf amplasarea comenzilor ecranului Braille."
+
+#: ../srcore/srctrl.c:3656
+msgid "Can not get user defined commands mapping from gconf."
+msgstr "Nu pot obţine din gconf amplasarea comenzilor definite de utilizator"
+
+#: ../srcore/srctrl.c:3760
+msgid "no role available"
+msgstr "nu există funcţii disponibile"
+
+#: ../srcore/srmain.c:77 ../srcore/srmain.c:80
+msgid "No focus"
+msgstr "Fără focalizare"
+
+#: ../srcore/srmain.c:83
+msgid "No accessible object is focused"
+msgstr "Nu este focalizat nici un obiect accesibil"
+
+#: ../srcore/srmain.c:466
+msgid "unknown location"
+msgstr "locaţie necunoscută"
+
+#: ../srcore/srmain.c:503
+msgid "no details"
+msgstr "fără detalii"
+
+#: ../srcore/srmain.c:543
+msgid "layer"
+msgstr "nivel"
+
+#: ../srcore/srmain.c:564
+msgid "back to layer"
+msgstr "înapoi la nivel"
+
+#: ../srcore/srmain.c:936
+msgid "cursor on"
+msgstr "cu cursor"
+
+#: ../srcore/srmain.c:936
+msgid "cursor off"
+msgstr "fără cursor"
+
+#: ../srcore/srmain.c:954
+msgid "current cursor is"
+msgstr "cursorul curent este"
+
+#: ../srcore/srmain.c:972
+msgid "cursor size"
+msgstr "mărime cursor"
+
+#: ../srcore/srmain.c:989
+msgid "cursor magnification on"
+msgstr "cu mărirea cursorului"
+
+#: ../srcore/srmain.c:990
+msgid "cursor magnification off"
+msgstr "fără mărirea cursorului"
+
+#: ../srcore/srmain.c:1008
+msgid "cursor color"
+msgstr "culoarea cursorului"
+
+#: ../srcore/srmain.c:1025
+msgid "crosshair on"
+msgstr "cu reticul"
+
+#: ../srcore/srmain.c:1025
+msgid "crosshair off"
+msgstr "fără reticul"
+
+#: ../srcore/srmain.c:1042
+msgid "crosshair clip on"
+msgstr "cu selecţie cu reticulul"
+
+#: ../srcore/srmain.c:1043
+msgid "crosshair clip off"
+msgstr "fără selecţie cu reticulul"
+
+#: ../srcore/srmain.c:1061
+msgid "crosshair size"
+msgstr "mărime reticul"
+
+#: ../srcore/srmain.c:1079
+msgid "crosshair color"
+msgstr "culoare reticul"
+
+#: ../srcore/srmain.c:1097
+msgid "zoomer placement left"
+msgstr "amplasarea marginii din stânga a vizorului"
+
+#: ../srcore/srmain.c:1115
+msgid "zoomer placement top"
+msgstr "amplasarea marginii de sus a vizorului"
+
+#: ../srcore/srmain.c:1133
+msgid "zoomer placement width"
+msgstr "lătimea vizorului"
+
+#: ../srcore/srmain.c:1151
+msgid "zoomer placement height"
+msgstr "înăltimea vizorului"
+
+#: ../srcore/srmain.c:1181
+msgid "magnifier target"
+msgstr "ţinta lupei"
+
+#: ../srcore/srmain.c:1199
+msgid "magnifier source"
+msgstr "sursa lupei"
+
+#: ../srcore/srmain.c:1217
+msgid "zoom factor x"
+msgstr "factor de mărire x"
+
+#: ../srcore/srmain.c:1235
+msgid "zoom factor y"
+msgstr "factor de mărire y"
+
+#: ../srcore/srmain.c:1252
+msgid "zoom factor locked"
+msgstr "factorul de mărire blocat"
+
+#: ../srcore/srmain.c:1253
+msgid "zoom factor unlocked"
+msgstr "factorul de mărire deblocat"
+
+#: ../srcore/srmain.c:1270
+msgid "invert on"
+msgstr "cu inversiune"
+
+#: ../srcore/srmain.c:1270
+msgid "invert off"
+msgstr "fără inversiune"
+
+#: ../srcore/srmain.c:1288
+msgid "magnifier smoothing type"
+msgstr "tip de netezire lupă"
+
+#: ../srcore/srmain.c:1311
+msgid "mouse tracking mode"
+msgstr "în modul de urmărire a mausului"
+
+#: ../srcore/srmain.c:1333
+msgid "panning on"
+msgstr "cu defilare"
+
+#: ../srcore/srmain.c:1333
+msgid "panning off"
+msgstr "fără defilare"
+
+#: ../srcore/srmain.c:1705
+msgid "alt"
+msgstr "alt"
+
+#: ../srcore/srmain.c:1710
+msgid "control"
+msgstr "control"
+
+#: ../srcore/srmain.c:1715
+msgid "shift"
+msgstr "shift"
+
+#: ../srcore/srmain.c:1720 ../srcore/srpres.c:870
+msgid "Window"
+msgstr "Fereastră"
+
+#: ../srcore/srmain.c:1725 ../srcore/srmain.c:1800 ../srcore/srpres.c:836
+msgid "Menu"
+msgstr "Meniu"
+
+#: ../srcore/srmain.c:1730
+msgid "caps lock"
+msgstr "caps lock"
+
+#: ../srcore/srmain.c:1734
+msgid "num lock"
+msgstr "num lock"
+
+#: ../srcore/srmain.c:1742 ../srcore/srmain.c:1786
+msgid "right"
+msgstr "la dreapta"
+
+#: ../srcore/srmain.c:1744 ../srcore/srmain.c:1788
+msgid "left"
+msgstr "la stânga"
+
+#: ../srcore/srmain.c:1778
+msgid "home"
+msgstr "home"
+
+#: ../srcore/srmain.c:1780
+msgid "end"
+msgstr "end"
+
+#: ../srcore/srmain.c:1782
+msgid "page up"
+msgstr "page up"
+
+#: ../srcore/srmain.c:1784
+msgid "page down"
+msgstr "page down"
+
+#: ../srcore/srmain.c:1790
+msgid "down"
+msgstr "în jos"
+
+#: ../srcore/srmain.c:1792
+msgid "up"
+msgstr "în sus"
+
+#: ../srcore/srmain.c:1794
+msgid "backspace"
+msgstr "backspace"
+
+#: ../srcore/srmain.c:1796
+msgid "delete"
+msgstr "delete"
+
+#: ../srcore/srmain.c:1798
+msgid "escape"
+msgstr "escape"
+
+#: ../srcore/srmain.c:2362
+msgid "Welcome to Gnopernicus"
+msgstr "Bine aţi venit la Gnopernicus"
+
+#: ../srcore/srmain.c:2471
+msgid "braille device can not be initialized"
+msgstr "dispozitivul Braille nu poate fi iniţializat"
+
+#: ../srcore/srmain.c:2485
+msgid "Gnopernicus is now exiting. Have a nice day!"
+msgstr "Ieşire din Gnopernicus. Vă dorim o zi placută!"
+
+#: ../srcore/srmain.c:2764
+msgid "srcore"
+msgstr "srcore"
+
+#: ../srcore/srpres.c:810
+msgid "UNK"
+msgstr "NEC"
+
+#: ../srcore/srpres.c:810
+msgid "UNKNOWN"
+msgstr "NECUNOSCUT"
+
+#: ../srcore/srpres.c:810
+msgid "Unknown"
+msgstr "Necunoscut"
+
+#: ../srcore/srpres.c:811
+msgid "???"
+msgstr "???"
+
+#: ../srcore/srpres.c:811
+msgid "INVALID"
+msgstr "INVALID"
+
+#: ../srcore/srpres.c:811
+msgid "Invalid"
+msgstr "Invalid"
+
+#: ../srcore/srpres.c:812
+msgid "ALR"
+msgstr "ALR"
+
+#: ../srcore/srpres.c:812
+msgid "ALERT"
+msgstr "ALARMĂ"
+
+#: ../srcore/srpres.c:813
+msgid "CNV"
+msgstr "TBL"
+
+#: ../srcore/srpres.c:813
+msgid "CANVAS"
+msgstr "TABLOU"
+
+#: ../srcore/srpres.c:813
+msgid "Canvas"
+msgstr "Tablou"
+
+#: ../srcore/srpres.c:814
+msgid "CHK"
+msgstr "CDB"
+
+#: ../srcore/srpres.c:814
+msgid "CHECK_BOX"
+msgstr "CASETĂ_DE_BIFARE"
+
+#: ../srcore/srpres.c:814
+msgid "Check box"
+msgstr "Casetă de bifare"
+
+#: ../srcore/srpres.c:815 ../srcore/srpres.c:838 ../srcore/srpres.c:848
+msgid "MIT"
+msgstr "ELM"
+
+#: ../srcore/srpres.c:815 ../srcore/srpres.c:838 ../srcore/srpres.c:848
+msgid "MENU ITEM"
+msgstr "ELEMENT DE MENIU"
+
+#  poate e bifează
+#: ../srcore/srpres.c:815
+msgid "Check Menu item"
+msgstr "Element de meniu bifabil"
+
+#: ../srcore/srpres.c:816
+msgid "CCH"
+msgstr "SLC"
+
+#: ../srcore/srpres.c:816
+msgid "COLOR CHOOSER"
+msgstr "SELECTOR DE CULORI"
+
+#: ../srcore/srpres.c:816
+msgid "Color chooser"
+msgstr "Selector de culori"
+
+#: ../srcore/srpres.c:817
+msgid "CHD"
+msgstr "ATC"
+
+#: ../srcore/srpres.c:817
+msgid "COLUMN HEADER"
+msgstr "ANTET DE COLOANĂ"
+
+#: ../srcore/srpres.c:817
+msgid "Column header"
+msgstr "Antet de coloană"
+
+#: ../srcore/srpres.c:818
+msgid "CBO"
+msgstr "CDD"
+
+#: ../srcore/srpres.c:818
+msgid "COMBO BOX"
+msgstr "CASETĂ DE DERULARE"
+
+#: ../srcore/srpres.c:818
+msgid "Combo box"
+msgstr "Casetă de derulare"
+
+#: ../srcore/srpres.c:819
+msgid "DIC"
+msgstr "ICE"
+
+#: ../srcore/srpres.c:819
+msgid "DESKTOP ICON"
+msgstr "ICONIŢĂ DESKTOP"
+
+#: ../srcore/srpres.c:819
+msgid "Desktop icon"
+msgstr "Iconiţă desktop"
+
+#: ../srcore/srpres.c:820
+msgid "DFR"
+msgstr "CDE"
+
+#: ../srcore/srpres.c:820
+msgid "DESKTOP FRAME"
+msgstr "CADRU ECRAN"
+
+#: ../srcore/srpres.c:820
+msgid "Desktop frame"
+msgstr "Cadru ecran"
+
+#: ../srcore/srpres.c:821
+msgid "DLG"
+msgstr "DLG"
+
+#: ../srcore/srpres.c:821
+msgid "DIALOG"
+msgstr "DIALOG"
+
+#: ../srcore/srpres.c:821
+msgid "Dialog"
+msgstr "Dialog"
+
+#: ../srcore/srpres.c:822
+msgid "DIP"
+msgstr "PAD"
+
+#: ../srcore/srpres.c:822
+msgid "DIRECTORY PANE"
+msgstr "PANOUL DIRECTOARELOR"
+
+#: ../srcore/srpres.c:822
+msgid "Directory pane"
+msgstr "Panoul directoarelor"
+
+#: ../srcore/srpres.c:823
+msgid "FCH"
+msgstr "SLF"
+
+#: ../srcore/srpres.c:823
+msgid "FILE CHOOSER"
+msgstr "SELECTOR DE FIŞIERE"
+
+#: ../srcore/srpres.c:823
+msgid "File chooser"
+msgstr "Selector de fişiere"
+
+#: ../srcore/srpres.c:824
+msgid "FLR"
+msgstr "PDP"
+
+#: ../srcore/srpres.c:824
+msgid "FILLER"
+msgstr "PANOU DE POZIŢIONARE"
+
+#: ../srcore/srpres.c:824
+msgid "Filler"
+msgstr "Panou de poziţionare"
+
+#: ../srcore/srpres.c:825
+msgid "FRM"
+msgstr "CAD"
+
+#: ../srcore/srpres.c:825
+msgid "FRAME"
+msgstr "CADRU"
+
+#: ../srcore/srpres.c:825
+msgid "Frame"
+msgstr "Cadru"
+
+#: ../srcore/srpres.c:826
+msgid "GPN"
+msgstr "PNT"
+
+#: ../srcore/srpres.c:826
+msgid "GLASS PANE"
+msgstr "PANOU TRANSPARENT"
+
+#: ../srcore/srpres.c:826
+msgid "Glass pane"
+msgstr "Panou transparent"
+
+#: ../srcore/srpres.c:827
+msgid "HTM"
+msgstr "HTM"
+
+#: ../srcore/srpres.c:827
+msgid "HTML CONTAINER"
+msgstr "CONTAINER HTML"
+
+#: ../srcore/srpres.c:827
+msgid "H T M L container"
+msgstr "Container H T M L"
+
+#: ../srcore/srpres.c:828 ../srcore/srpres.c:833
+msgid "LNK"
+msgstr "LEG"
+
+#: ../srcore/srpres.c:828 ../srcore/srpres.c:833
+msgid "LINK"
+msgstr "LEGĂTURĂ"
+
+#: ../srcore/srpres.c:828 ../srcore/srpres.c:833
+msgid "link"
+msgstr "legătură"
+
+#: ../srcore/srpres.c:829
+msgid "ICO"
+msgstr "ICO"
+
+#: ../srcore/srpres.c:829
+msgid "ICON"
+msgstr "ICONIŢĂ"
+
+#: ../srcore/srpres.c:829
+msgid "Icon"
+msgstr "Iconiţă"
+
+#: ../srcore/srpres.c:830
+msgid "IFR"
+msgstr "CDI"
+
+#: ../srcore/srpres.c:830
+msgid "INTERNAL FRAME"
+msgstr "CADRU INTERN"
+
+#: ../srcore/srpres.c:830
+msgid "Internal frame"
+msgstr "Cadru intern"
+
+#: ../srcore/srpres.c:831
+msgid "LBL"
+msgstr "ETI"
+
+#: ../srcore/srpres.c:831
+msgid "LABEL"
+msgstr "ETICHETĂ"
+
+#: ../srcore/srpres.c:831
+msgid "Label"
+msgstr "Etichetă"
+
+#: ../srcore/srpres.c:832
+msgid "LPN"
+msgstr "PNS"
+
+#: ../srcore/srpres.c:832
+msgid "LAYERED PANE"
+msgstr "PANOU STRATIFICAT"
+
+#: ../srcore/srpres.c:832
+msgid "Layered pane"
+msgstr "Panou stratificat"
+
+#: ../srcore/srpres.c:834
+msgid "LST"
+msgstr "LST"
+
+#: ../srcore/srpres.c:834
+msgid "LIST"
+msgstr "LISTĂ"
+
+#: ../srcore/srpres.c:834
+msgid "List"
+msgstr "Listă"
+
+#: ../srcore/srpres.c:835
+msgid "LIT"
+msgstr "ELL"
+
+#: ../srcore/srpres.c:835
+msgid "LIST ITEM"
+msgstr "ELEMENT DE LISTĂ"
+
+#: ../srcore/srpres.c:835
+msgid "List item"
+msgstr "Element de listă"
+
+#: ../srcore/srpres.c:836
+msgid "MNU"
+msgstr "MNU"
+
+#: ../srcore/srpres.c:836
+msgid "MENU"
+msgstr "MENIU"
+
+#: ../srcore/srpres.c:837
+msgid "MBR"
+msgstr "BRM"
+
+#: ../srcore/srpres.c:837
+msgid "MENU BAR"
+msgstr "BARĂ DE MENIU"
+
+#: ../srcore/srpres.c:837
+msgid "Menu bar"
+msgstr "Bară de meniu"
+
+#: ../srcore/srpres.c:838
+msgid "Menu item"
+msgstr "Element de meniu"
+
+#: ../srcore/srpres.c:839
+msgid "OPN"
+msgstr "OPN"
+
+#: ../srcore/srpres.c:839
+msgid "OPTION PANE"
+msgstr "PANOU DE OPŢIUNI"
+
+#: ../srcore/srpres.c:839
+msgid "Option pane"
+msgstr "Panou de opţiuni"
+
+#: ../srcore/srpres.c:840
+msgid "PGT"
+msgstr "TAP"
+
+#: ../srcore/srpres.c:840
+msgid "PAGE TAB"
+msgstr "TAB PAGINĂ"
+
+#: ../srcore/srpres.c:840
+msgid "Page tab"
+msgstr "Tab pagină"
+
+#: ../srcore/srpres.c:841
+msgid "PTL"
+msgstr "LTP"
+
+#: ../srcore/srpres.c:841
+msgid "PAGE TAB LIST"
+msgstr "LISTĂ TABURI PAGINI"
+
+#: ../srcore/srpres.c:841
+msgid "Page tab list"
+msgstr "Listă taburi pagini"
+
+#: ../srcore/srpres.c:842
+msgid "PNL"
+msgstr "PNU"
+
+#: ../srcore/srpres.c:842
+msgid "PANEL"
+msgstr "PANOU"
+
+#: ../srcore/srpres.c:842
+msgid "Panel"
+msgstr "PANOU"
+
+#: ../srcore/srpres.c:843
+msgid "PWD"
+msgstr "PRL"
+
+#: ../srcore/srpres.c:843
+msgid "PASSWORD TEXT"
+msgstr "TEXT PAROLĂ"
+
+#: ../srcore/srpres.c:843
+msgid "Password text"
+msgstr "Text parolă"
+
+#: ../srcore/srpres.c:844
+msgid "PMN"
+msgstr "MNP"
+
+#: ../srcore/srpres.c:844
+msgid "POPUP MENU"
+msgstr "MENIU POPUP"
+
+#: ../srcore/srpres.c:844
+msgid "Popup menu"
+msgstr "meniu popup"
+
+#: ../srcore/srpres.c:845
+msgid "PRG"
+msgstr "BRP"
+
+#: ../srcore/srpres.c:845
+msgid "PROGRESS BAR"
+msgstr "BARĂ DE PROGRES"
+
+#: ../srcore/srpres.c:845
+msgid "Progress bar"
+msgstr "Bară de progres"
+
+#: ../srcore/srpres.c:846
+msgid "PBT"
+msgstr "BTN"
+
+#: ../srcore/srpres.c:846
+msgid "PUSH BUTTON"
+msgstr "BUTON"
+
+#: ../srcore/srpres.c:846
+msgid "Push button"
+msgstr "Buton"
+
+#: ../srcore/srpres.c:847
+msgid "RAD"
+msgstr "BTR"
+
+#: ../srcore/srpres.c:847
+msgid "RADIO BUTTON"
+msgstr "BUTON RADIO"
+
+#: ../srcore/srpres.c:847
+msgid "Radio button"
+msgstr "Buton radio"
+
+#: ../srcore/srpres.c:848
+msgid "Radio Menu item"
+msgstr "Element de meniu radio"
+
+#: ../srcore/srpres.c:849
+msgid "RPN"
+msgstr "PNR"
+
+#: ../srcore/srpres.c:849
+msgid "ROOT PANE"
+msgstr "PANOU RĂDĂCINĂ"
+
+#: ../srcore/srpres.c:849
+msgid "Root pane"
+msgstr "Panou rădăcină"
+
+#: ../srcore/srpres.c:850
+msgid "RHD"
+msgstr "ATL"
+
+#: ../srcore/srpres.c:850
+msgid "ROW HEADER"
+msgstr "ANTET DE LINIE"
+
+#: ../srcore/srpres.c:850
+msgid "Row header"
+msgstr "Antet de linie"
+
+#: ../srcore/srpres.c:851
+msgid "SCR"
+msgstr "BDD"
+
+#: ../srcore/srpres.c:851
+msgid "SCROLL BAR"
+msgstr "BARĂ DE DERULARE"
+
+#: ../srcore/srpres.c:851
+msgid "Scroll bar"
+msgstr "Bară de derulare"
+
+#: ../srcore/srpres.c:852 ../srcore/srpres.c:880
+msgid "SPN"
+msgstr "PCD"
+
+#: ../srcore/srpres.c:852
+msgid "SCROLL PANE"
+msgstr "PANOU CU DERULARE"
+
+#: ../srcore/srpres.c:852
+msgid "Scroll pane"
+msgstr "Panou cu derulare"
+
+#: ../srcore/srpres.c:853
+msgid "SEP"
+msgstr "SEP"
+
+#: ../srcore/srpres.c:853
+msgid "SEPARATOR"
+msgstr "SEPARATOR"
+
+#: ../srcore/srpres.c:853
+msgid "Separator"
+msgstr "Separator"
+
+#: ../srcore/srpres.c:854
+msgid "SLD"
+msgstr "GLI"
+
+#: ../srcore/srpres.c:854
+msgid "SLIDER"
+msgstr "GLISOR"
+
+#: ../srcore/srpres.c:854
+msgid "Slider"
+msgstr "Glisor"
+
+#: ../srcore/srpres.c:855
+msgid "SPP"
+msgstr "PND"
+
+#: ../srcore/srpres.c:855
+msgid "SPLIT PANE"
+msgstr "PANOU DESPĂRŢITOR"
+
+#: ../srcore/srpres.c:855
+msgid "Split pane"
+msgstr "Panou despărţitor"
+
+#: ../srcore/srpres.c:856
+msgid "STA"
+msgstr "STA"
+
+#: ../srcore/srpres.c:856
+msgid "STATUS BAR"
+msgstr "BARĂ DE STARE"
+
+#: ../srcore/srpres.c:856
+msgid "Status bar"
+msgstr "Bară de stare"
+
+#: ../srcore/srpres.c:857
+msgid "TAB"
+msgstr "TAB"
+
+#: ../srcore/srpres.c:857
+msgid "TABLE"
+msgstr "TABEL"
+
+#: ../srcore/srpres.c:857
+msgid "Table"
+msgstr "Tabel"
+
+#: ../srcore/srpres.c:858
+msgid "CEL"
+msgstr "CEL"
+
+#: ../srcore/srpres.c:858
+msgid "TABLE CELL"
+msgstr "CELULĂ TABEL"
+
+#: ../srcore/srpres.c:858
+msgid "Table cell"
+msgstr "Celulă tabel"
+
+#: ../srcore/srpres.c:859 ../srcore/srpres.c:884
+msgid "TCH"
+msgstr "ACT"
+
+#: ../srcore/srpres.c:859
+msgid "TABLE COLUMN HEADER"
+msgstr "ANTET COLOANE TABEL"
+
+#: ../srcore/srpres.c:859
+msgid "Table column header"
+msgstr "Antet coloane tabel"
+
+#: ../srcore/srpres.c:860
+msgid "TRH"
+msgstr "ALT"
+
+#: ../srcore/srpres.c:860
+msgid "TABLE ROW HEADER"
+msgstr "ANTET LINII TABEL"
+
+#: ../srcore/srpres.c:860
+msgid "Table row header"
+msgstr "Antet linii tabel"
+
+#: ../srcore/srpres.c:861 ../srcore/srpres.c:862
+msgid "TXT"
+msgstr "TXT"
+
+#: ../srcore/srpres.c:861
+msgid "MULTI LINE TEXT"
+msgstr "TEXT MULTILINIE"
+
+#: ../srcore/srpres.c:861
+msgid "Multi Line Text"
+msgstr "Text multilinie"
+
+#: ../srcore/srpres.c:862
+msgid "SINGLE LINE TEXT"
+msgstr "TEXT PE O LINIE"
+
+#: ../srcore/srpres.c:862
+msgid "Single Line Text"
+msgstr "Text pe o linie"
+
+#: ../srcore/srpres.c:863
+msgid "TOG"
+msgstr "CMT"
+
+#: ../srcore/srpres.c:863
+msgid "TOGGLE BUTTON"
+msgstr "BUTON COMUTATOR"
+
+#: ../srcore/srpres.c:863
+msgid "Toggle button"
+msgstr "Buton comutator"
+
+#: ../srcore/srpres.c:864
+msgid "TOL"
+msgstr "BRU"
+
+#: ../srcore/srpres.c:864
+msgid "TOOL BAR"
+msgstr "BARĂ DE UNELTE"
+
+#: ../srcore/srpres.c:864
+msgid "Tool bar"
+msgstr "Bară de unelte"
+
+#: ../srcore/srpres.c:865
+msgid "TIP"
+msgstr "IND"
+
+#: ../srcore/srpres.c:865
+msgid "TOOL TIP"
+msgstr "INDICIU"
+
+#: ../srcore/srpres.c:865
+msgid "Tool tip"
+msgstr "Indiciu"
+
+#: ../srcore/srpres.c:866
+msgid "TRE"
+msgstr "ARB"
+
+#: ../srcore/srpres.c:866
+msgid "TREE"
+msgstr "ARBORE"
+
+#: ../srcore/srpres.c:866
+msgid "Tree"
+msgstr "Arbore"
+
+#: ../srcore/srpres.c:867
+msgid "TRI"
+msgstr "EDA"
+
+#: ../srcore/srpres.c:867
+msgid "TREE ITEM"
+msgstr "ELEMENT DE ARBORE"
+
+#: ../srcore/srpres.c:867
+msgid "Tree item"
+msgstr "Element de arbore"
+
+#: ../srcore/srpres.c:868
+msgid "TRT"
+msgstr "TBA"
+
+#: ../srcore/srpres.c:868
+msgid "TREE TABLE"
+msgstr "TABELĂ ARBORE"
+
+#: ../srcore/srpres.c:868
+msgid "Tree table"
+msgstr "Tabelă arbore"
+
+#: ../srcore/srpres.c:869
+msgid "VWP"
+msgstr "VIZ"
+
+#: ../srcore/srpres.c:869
+msgid "VIEWPORT"
+msgstr "VIZOR"
+
+#: ../srcore/srpres.c:869
+msgid "Viewport"
+msgstr "Vizor"
+
+#: ../srcore/srpres.c:870
+msgid "WND"
+msgstr "FRS"
+
+#: ../srcore/srpres.c:870
+msgid "WINDOW"
+msgstr "FEREASTRĂ"
+
+#: ../srcore/srpres.c:871
+msgid "ACC"
+msgstr "ACC"
+
+#: ../srcore/srpres.c:871
+msgid "ACCELERATOR LABEL"
+msgstr "ETICHETĂ ACCELERATOR"
+
+#: ../srcore/srpres.c:871
+msgid "Accelerator label"
+msgstr "Etichetă accelerator"
+
+#: ../srcore/srpres.c:872
+msgid "ANI"
+msgstr "ANI"
+
+#: ../srcore/srpres.c:872
+msgid "ANIMATION"
+msgstr "ANIMAŢIE"
+
+#: ../srcore/srpres.c:872
+msgid "Animation"
+msgstr "Animaţie"
+
+#: ../srcore/srpres.c:873
+msgid "ARR"
+msgstr "SGT"
+
+#: ../srcore/srpres.c:873
+msgid "ARROW"
+msgstr "SĂGEATĂ"
+
+#: ../srcore/srpres.c:873
+msgid "Arrow"
+msgstr "Săgeată"
+
+#: ../srcore/srpres.c:874
+msgid "CAL"
+msgstr "CAL"
+
+#: ../srcore/srpres.c:874
+msgid "CALENDAR"
+msgstr "CALENDAR"
+
+#: ../srcore/srpres.c:874
+msgid "Calendar"
+msgstr "Calendar"
+
+#: ../srcore/srpres.c:875
+msgid "DAT"
+msgstr "DAT"
+
+#: ../srcore/srpres.c:875
+msgid "DATE EDITOR"
+msgstr "EDITOR DATĂ"
+
+#: ../srcore/srpres.c:875
+msgid "Date editor"
+msgstr "Editor dată"
+
+#: ../srcore/srpres.c:876
+msgid "DIL"
+msgstr "APL"
+
+#: ../srcore/srpres.c:876
+msgid "DIAL"
+msgstr "APEL"
+
+#: ../srcore/srpres.c:876
+msgid "Dial"
+msgstr "Apel"
+
+#: ../srcore/srpres.c:877
+msgid "DRW"
+msgstr "DSN"
+
+#: ../srcore/srpres.c:877
+msgid "DRAWING AREA"
+msgstr "SUPRAFAŢĂ DE DESENARE"
+
+#: ../srcore/srpres.c:877
+msgid "Drawing area"
+msgstr "Suprafaţă de desenare"
+
+#: ../srcore/srpres.c:878
+msgid "FNT"
+msgstr "FNT"
+
+#: ../srcore/srpres.c:878
+msgid "FONT CHOOSER"
+msgstr "SELECTOR DE FONTURI"
+
+#: ../srcore/srpres.c:878
+msgid "Font chooser"
+msgstr "Selector de fonturi"
+
+#: ../srcore/srpres.c:879
+msgid "IMG"
+msgstr "IMG"
+
+#: ../srcore/srpres.c:879
+msgid "IMAGE"
+msgstr "IMAGINE"
+
+#: ../srcore/srpres.c:879
+msgid "Image"
+msgstr "Imagine"
+
+#: ../srcore/srpres.c:880
+msgid "SPIN BUTTON"
+msgstr "BUTON INCREMENTAL"
+
+#: ../srcore/srpres.c:880
+msgid "Spin button"
+msgstr "Buton incremental"
+
+#: ../srcore/srpres.c:881
+msgid "TRM"
+msgstr "TRM"
+
+#: ../srcore/srpres.c:881
+msgid "TERMINAL"
+msgstr "TERMINAL"
+
+#: ../srcore/srpres.c:881
+msgid "Terminal"
+msgstr "Terminal"
+
+#: ../srcore/srpres.c:882
+msgid "EXT"
+msgstr "EXT"
+
+#: ../srcore/srpres.c:882
+msgid "EXTENDED"
+msgstr "EXTINS"
+
+#: ../srcore/srpres.c:882
+msgid "Extended"
+msgstr "Extins"
+
+#: ../srcore/srpres.c:883
+msgid "TLI"
+msgstr "LIT"
+
+#: ../srcore/srpres.c:883
+msgid "TABLE LINE"
+msgstr "LINIE DE TABEL"
+
+#: ../srcore/srpres.c:883
+msgid "Table line"
+msgstr "Linie de tabel"
+
+#: ../srcore/srpres.c:884
+msgid "TABLE COLUMNS HEADER"
+msgstr "ANTET COLOANE DE TABEL"
+
+#: ../srcore/srpres.c:884
+msgid "Table columns header"
+msgstr "Antet coloane de tabel"
+
+#: ../srcore/srpres.c:885
+msgid "TIT"
+msgstr "TIT"
+
+#: ../srcore/srpres.c:885
+msgid "TITLE BAR"
+msgstr "BARĂ DE TITLU"
+
+#: ../srcore/srpres.c:885
+msgid "Title bar"
+msgstr "Bară de titlu"
+
+#: ../srcore/srpres.c:886
+msgid "EDB"
+msgstr "BED"
+
+#: ../srcore/srpres.c:886
+msgid "EDIT BAR"
+msgstr "BARĂ DE EDITARE"
+
+#: ../srcore/srpres.c:886
+msgid "Edit bar"
+msgstr "Bară de editare"
+
+#: ../srcore/srspc.c:445
+#, c-format
+msgid "Incorrect parameters for voice \"%s%s\""
+msgstr "Parametrii vocii \"%s%s\" sunt incorecţi."
+
+#: ../srcore/srspc.c:490
+#, c-format
+msgid "failed to send to speech next string \"%s\""
+msgstr "eşec la trimitere la pronunţie şirul \"%s\""
+
+#: ../srcore/srspc.c:556
+#, c-format
+msgid "could not create/modify voice \"%s\""
+msgstr "nu s-a putut crea/modifica vocea \"%s\""
+
+#: ../srcore/srspc.c:717
+#, c-format
+msgid "voice \"%s\" will sound this way"
+msgstr "vocea \"%s\" va suna aşa"
+
+#: ../srcore/srspc.c:722
+#, c-format
+msgid "could not test voice \"%s\""
+msgstr "nu s-a putut testa vocea \"%s\""
+
+#: ../srcore/srspc.c:811
+#, c-format
+msgid "value not supported for speech count mode \"%s\""
+msgstr "valoare inacceptabilă pentru modul de numărare vocală \"%s\""
+
+#: ../srcore/srspc.c:847
+#, c-format
+msgid "value not supported for speech modifiers type \"%s\""
+msgstr "valoare inacceptabilă pentru rostirea tipului modificatorilor\"%s\""
+
+#: ../srcore/srspc.c:883
+#, c-format
+msgid "value not supported for speech cursors type \"%s\""
+msgstr "valoare inacceptabilă pentru rostirea tipului cursoarelor \"%s\""
+
+#: ../srcore/srspc.c:919
+#, c-format
+msgid "value not supported for speech spaces type \"%s\""
+msgstr "valoare inacceptabilă pentru rostirea tipului spaţiilor \"%s\""
+
+#: ../srcore/srspc.c:955
+#, c-format
+msgid "value not supported for speech dictionary type \"%s\""
+msgstr "valoare inacceptabilă pentru rostirea tipului dicţionarelor \"%s\""
+
+#: ../srcore/srspc.c:992
+#, c-format
+msgid "value not supported for speech text echo type \"%s\""
+msgstr "valoare inacceptabilă pentru rostirea tipului de text ecou \"%s\""
+
+#: ../srcore/srspc.c:1011
+msgid "Tilde"
+msgstr "Tilda"
+
+#: ../srcore/srspc.c:1011
+msgid "Tildaes"
+msgstr "Tilde"
+
+#: ../srcore/srspc.c:1012
+msgid "Exclamation"
+msgstr "Semn de exclamaţie"
+
+#: ../srcore/srspc.c:1012
+msgid "Exclamations"
+msgstr "Semne de exclamaţie"
+
+#: ../srcore/srspc.c:1013
+msgid "At"
+msgstr "La"
+
+#: ../srcore/srspc.c:1013
+msgid "Ats"
+msgstr "La-uri"
+
+#: ../srcore/srspc.c:1014
+msgid "Hash"
+msgstr "Diez"
+
+#: ../srcore/srspc.c:1014
+msgid "Hashes"
+msgstr "Diezi"
+
+#: ../srcore/srspc.c:1015
+msgid "Dollar"
+msgstr "Dolar"
+
+#: ../srcore/srspc.c:1015
+msgid "Dollars"
+msgstr "Dolari"
+
+#: ../srcore/srspc.c:1016
+msgid "Percent"
+msgstr "Procent"
+
+#: ../srcore/srspc.c:1016
+msgid "Percents"
+msgstr "Procente"
+
+#: ../srcore/srspc.c:1017
+msgid "Caret"
+msgstr "Caret"
+
+#: ../srcore/srspc.c:1017
+msgid "Carets"
+msgstr "Caret-uri"
+
+#: ../srcore/srspc.c:1018
+msgid "And"
+msgstr "Ampersand"
+
+#: ../srcore/srspc.c:1018
+msgid "Ands"
+msgstr "Ampersanduri"
+
+#: ../srcore/srspc.c:1019
+msgid "Asterisk"
+msgstr "Asterisc"
+
+#: ../srcore/srspc.c:1019
+msgid "Asterisks"
+msgstr "Asteriscuri"
+
+#: ../srcore/srspc.c:1020
+msgid "Left Paranthesis"
+msgstr "Panteză deschisă"
+
+#: ../srcore/srspc.c:1021
+msgid "Right Paranthesis"
+msgstr "Paranteză închisă"
+
+#: ../srcore/srspc.c:1022
+msgid "Underscore"
+msgstr "Linuţă de sublinere"
+
+#: ../srcore/srspc.c:1022
+msgid "Underscores"
+msgstr "Linuţe de subliniere"
+
+#: ../srcore/srspc.c:1023
+msgid "Plus"
+msgstr "Plus"
+
+#: ../srcore/srspc.c:1023
+msgid "Pluses"
+msgstr "Plusuri"
+
+#: ../srcore/srspc.c:1024
+msgid "Equal"
+msgstr "Egal"
+
+#: ../srcore/srspc.c:1024
+msgid "Equals"
+msgstr "Egaluri"
+
+#: ../srcore/srspc.c:1025
+msgid "Minus"
+msgstr "Minus"
+
+#: ../srcore/srspc.c:1025
+msgid "Minuses"
+msgstr "Minusuri"
+
+#: ../srcore/srspc.c:1026
+msgid "Quote"
+msgstr "Ghilimele simple"
+
+#: ../srcore/srspc.c:1026
+msgid "Quotes"
+msgstr "Mai multe ghilimele simple"
+
+#: ../srcore/srspc.c:1027
+msgid "Left Bracket"
+msgstr "Paranteză dreaptă deschisă"
+
+#: ../srcore/srspc.c:1027
+msgid "Left Brackets"
+msgstr "Paranteze drepte deschise"
+
+#: ../srcore/srspc.c:1028
+msgid "Right Bracket"
+msgstr "Paranteză dreaptă închisă"
+
+#: ../srcore/srspc.c:1028
+msgid "Right Brackets"
+msgstr "Paranteze drepte închise"
+
+#: ../srcore/srspc.c:1029
+msgid "Left Brace"
+msgstr "Acoladă deschisă"
+
+#: ../srcore/srspc.c:1029
+msgid "Left Braces"
+msgstr "Acolade deschise"
+
+#: ../srcore/srspc.c:1030
+msgid "Right Brace"
+msgstr "Acoladă închisă"
+
+#: ../srcore/srspc.c:1030
+msgid "Right Braces"
+msgstr "Acolade închise"
+
+#: ../srcore/srspc.c:1031
+msgid "Semicolon"
+msgstr "Punct şi virgulă"
+
+#: ../srcore/srspc.c:1031
+msgid "Semicolons"
+msgstr "Mai multe punct şi virgulă"
+
+#: ../srcore/srspc.c:1032
+msgid "Colon"
+msgstr "Două puncte"
+
+#: ../srcore/srspc.c:1032
+msgid "Colons"
+msgstr "Mai multe două puncte"
+
+#: ../srcore/srspc.c:1033
+msgid "Double quote"
+msgstr "Ghilimele duble"
+
+#: ../srcore/srspc.c:1033
+msgid "Double quotes"
+msgstr "Mai multe ghilimele duble"
+
+#: ../srcore/srspc.c:1034
+msgid "Apostrophe"
+msgstr "Apostrof"
+
+#: ../srcore/srspc.c:1034
+msgid "Apostrophes"
+msgstr "Apostrofuri"
+
+#: ../srcore/srspc.c:1035
+msgid "Back Slash"
+msgstr "Back slash"
+
+#: ../srcore/srspc.c:1035
+msgid "Back Slashes"
+msgstr "Back slash-uri"
+
+#: ../srcore/srspc.c:1036
+msgid "Bar"
+msgstr "Bară"
+
+#: ../srcore/srspc.c:1036
+msgid "Bars"
+msgstr "Bare"
+
+#: ../srcore/srspc.c:1037
+msgid "Greater"
+msgstr "Mai mare"
+
+#: ../srcore/srspc.c:1037
+msgid "Greaters"
+msgstr "Semne mai mare"
+
+#: ../srcore/srspc.c:1038
+msgid "Less"
+msgstr "Mai mic"
+
+#: ../srcore/srspc.c:1038
+msgid "Lesses"
+msgstr "Semne mai mic"
+
+#: ../srcore/srspc.c:1039
+msgid "Comma"
+msgstr "Virgulă"
+
+#: ../srcore/srspc.c:1039
+msgid "Commas"
+msgstr "Virgule"
+
+#: ../srcore/srspc.c:1040
+msgid "Dot"
+msgstr "Punct"
+
+#: ../srcore/srspc.c:1040
+msgid "Dots"
+msgstr "Puncte"
+
+#: ../srcore/srspc.c:1041
+msgid "Slash"
+msgstr "Slash"
+
+#: ../srcore/srspc.c:1041
+msgid "Slashes"
+msgstr "Slash-uri"
+
+#: ../srcore/srspc.c:1042
+msgid "Questions"
+msgstr "Semne de întrebare"
+
+#: ../srcore/srspc.c:1116
+#, c-format
+msgid "value not supported for speech punctuation type \"%s\""
+msgstr "valoare nesuportată pentru rostirea tipului punctuaţiei \"%s\""
+
+#: ../srcore/srspc.c:1382
+msgid "Unable to initialize hashtable"
+msgstr "Nu pot iniţializa tabela hash"
+
+#: ../srcore/srspc.c:1388
+msgid "Unable to load dictionary from gconf"
+msgstr "Nu se poate încărca dicţionarul din gconf"
+
+#: ../srcore/srspc.c:1619
+msgid "speech initialization succeded"
+msgstr "iniţializarea rostirii a reuşit"
+
+#: ../srcore/srspc.c:1621
+msgid "Speech restored"
+msgstr "Preferinţe rostire"
+
+#: ../srcore/srspc.c:1625
+msgid "speech initialization failed"
+msgstr "iniţializarea rostirii a eşuat"
+
+#: ../srcore/srspc.c:1824
+msgid "enter"
+msgstr "enter"
+
+#: ../srcore/srspc.c:1907
+#, c-format
+msgid "can not find \"%s\" voice. use default voice"
+msgstr "nu găsesc pronunţia pentru \"%s\"; voi folosi pronunţia implicită"
+
+#: ../srcore/srspc.c:1924
+msgid "voices pitch will be set to default value"
+msgstr "tonalitatea pronunţiei va fi cea implicită"
+
+#: ../srcore/srspc.c:1926
+msgid "voices pitch will be decreased"
+msgstr "tonalitatea pronunţiei va fi coborâtă"
+
+#: ../srcore/srspc.c:1928
+msgid "voices pitch will be increased"
+msgstr "tonalitatea pronunţiei va fi urcată"
+
+#: ../srcore/srspc.c:1972
+msgid "voices rate will be set to default value"
+msgstr "cadenţa pronunţiei va fi cea implicită"
+
+#: ../srcore/srspc.c:1974
+msgid "voices rate will be decreased"
+msgstr "cadenţa pronunţiei va fi micşorată"
+
+#: ../srcore/srspc.c:1976
+msgid "voices rate will be increased"
+msgstr "cadenţa pronunţiei va fi crescută"
+
+#: ../srcore/srspc.c:2021
+msgid "voices volume will be set to default value"
+msgstr "volumul pronunţiei va fi cel implicit"
+
+#: ../srcore/srspc.c:2023
+msgid "voices volume will be decreased"
+msgstr "volumul pronunţiei va fi scăzut"
+
+#: ../srcore/srspc.c:2025
+msgid "voices volume will be increased"
+msgstr "volumul pronunţiei va fi mărit"
+
+#: ../srcore/srspc.c:2151
+#, c-format
+msgid "no support for speech key \"%s\""
+msgstr "tasta de rostire \"%s\" nu este recunoscută"

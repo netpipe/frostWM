@@ -1,0 +1,59 @@
+<gconfschemafile>
+	<schemalist>
+		<schema>
+			<key>/schemas/apps/colorblind/keybinding_on_off</key>
+			<applyto>/apps/colorblind/keybinding_on_off</applyto>
+			<owner>colorblind</owner>
+			<type>string</type>
+			<default>&lt;Shift&gt;&lt;Control&gt;c</default>
+			<locale name="C">
+				<short>The key sequence will enable/disable the colorblind filter.</short>
+				<!-- <long></long> -->
+			</locale>
+		</schema>
+		<schema>
+			<key>/schemas/apps/colorblind/keybinding_switch</key>
+			<applyto>/apps/colorblind/keybinding_switch</applyto>
+			<owner>colorblind</owner>
+			<type>string</type>
+			<default>&lt;Shift&gt;&lt;Control&gt;n</default>
+			<locale name="C">
+				<short>The key sequence will select the next available colorblind filter and apply it.</short>
+				<!-- <long></long> -->
+			</locale>
+		</schema>
+		<schema>
+			<key>/schemas/apps/colorblind/colorblind_filter</key>
+			<applyto>/apps/colorblind/colorblind_filter</applyto>
+			<owner>colorblind</owner>
+			<type>int</type>
+			<default>7</default>
+			<locale name="C">
+				<short>The actual colorblind filter selected.</short>
+				<!-- <long></long> -->
+			</locale>
+		</schema>
+		<schema>
+			<key>/schemas/apps/colorblind/default_filter</key>
+			<applyto>/apps/colorblind/default_filter</applyto>
+			<owner>colorblind</owner>
+			<type>int</type>
+			<default>7</default>
+			<locale name="C">
+				<short>Default colorblind filter.</short>
+				<!-- <long></long> -->
+			</locale>
+		</schema>
+		<schema>
+			<key>/schemas/apps/colorblind/check_default</key>
+			<applyto>/apps/colorblind/check_default</applyto>
+			<owner>colorblind</owner>
+			<type>bool</type>
+			<default>FALSE</default>
+			<locale name="C">
+				<short>If TRUE make the actual colorblind filter become the default one when the filter is enabled/disabled.</short>
+				<!-- <long></long> -->
+			</locale>
+		</schema>
+	</schemalist>
+</gconfschemafile>

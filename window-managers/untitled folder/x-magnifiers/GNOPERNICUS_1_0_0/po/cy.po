@@ -1,0 +1,5327 @@
+# gnopernicus yn Gymraeg
+# This file is distributed under the same license as the gnopernicus package.
+# Dafydd Harries <daf@muse.19inch.net>, 2003.
+# Dafydd Tomos <i10n@da.fydd.org>, 2004.
+# Rhys Jones <rhys@sucs.org>, 2005.
+#
+# Nodiadau:
+# [rj] 'lleferydd' sy'n gywir yng nghyd-destun 'speech'
+# (e.e. text-to-speech => testun-i-leferydd)
+#
+# [rj] Wedi gyrru Cysill dros y cyfan.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnopernicus\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2005-09-03 07:32+0100\n"
+"PO-Revision-Date: 2005-09-03 06:52-0000\n"
+"Last-Translator: Rhys Jones <rhys@sucs.org>\n"
+"Language-Team: Cymraeg <gnome-cy@www.linux.org.uk>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n == 1) ? 0 : 1;\n"
+
+#: ../braille/libbrl/ttybrl.c:193
+#, c-format
+msgid "BRLTTY command code not bound to Gnopernicus key code: 0X%04X\n"
+msgstr "Cod gorchymyn BRLTTY heb ei rwymo i god allwedd Gnopernicus: 0X%04X\n"
+
+#: ../braille/libbrl/ttybrl.c:256
+msgid "Error opening brlapi connection"
+msgstr "Gwall wrth agor cysylltiad brlapi"
+
+#: ../braille/libbrl/ttybrl.c:257
+#, c-format
+msgid ""
+"Please check that\n"
+" - %s exists and contains some data\n"
+" - you have read permission on %s\n"
+" - BRLTTY is running\n"
+msgstr ""
+"Sicrhewch\n"
+" - fod %s yn bodoli ac yn cynnwys peth data\n"
+" - fod gennych ganiatâd i ddarllen %s\n"
+" - fod BRLTTY yn rhedeg\n"
+
+#: ../braille/libbrl/ttybrl.c:266
+msgid "Unable to get display size"
+msgstr "Methwyd canfod maint y dangosydd"
+
+#: ../braille/libbrl/ttybrl.c:270
+#, c-format
+msgid "BrlAPI detected a %dx%d display\n"
+msgstr "Gwnaeth BrlAPI ganfod dangosydd %dx%d\n"
+
+#: ../braille/libbrl/ttybrl.c:320
+#, c-format
+msgid "no XFree86_VT property\n"
+msgstr "dim priodwedd XFree86_VT\n"
+
+#: ../braille/libbrl/ttybrl.c:326
+#, c-format
+msgid "no item in XFree86_VT property\n"
+msgstr "dim eitem yn y briodwedd XFree86_VT\n"
+
+#: ../braille/libbrl/ttybrl.c:340
+#, c-format
+msgid "Bad format for VT number\n"
+msgstr "Ffurf anaddas i rif VT\n"
+
+#: ../braille/libbrl/ttybrl.c:344
+#, c-format
+msgid "Bad type for VT number\n"
+msgstr "Math gwael i rif VT\n"
+
+#: ../braille/libbrl/ttybrl.c:350
+msgid "Unable to get Tty"
+msgstr "Methwyd cael Tty"
+
+#: ../braille/test/remote.c:545
+msgid "Braille remote"
+msgstr "Braille pell"
+
+#: ../brlmon/brlmon.c:196
+msgid "Braille monitor"
+msgstr "Monitor Braille"
+
+#: ../brlmon/brlmon.c:325 ../brlmon/brlmon.c:333
+#, c-format
+msgid "Invalid port number: %d."
+msgstr "Rhif porth annilys: %d."
+
+#: ../brlmon/brlmon.c:326 ../brlmon/brlmon.c:334
+msgid "port_no = [1025 - 30000]."
+msgstr "port_no = [1025 - 30000]."
+
+#: ../brlmon/brlmon.c:520
+msgid "Can not open socket!"
+msgstr "Ni ellir agor soced!"
+
+#: ../brlmon/brlmon.c:543
+#, c-format
+msgid "Can not bind port number %d."
+msgstr "Ni ellir rhwymo rhif porth %d."
+
+#: ../brlmon/brlmon.c:547
+#, c-format
+msgid "Waiting for data on port UDP %u."
+msgstr "Yn aros am ddata ar borth UDP %u."
+
+#: ../brlmon/brlmonui.c:225 ../gnopi/gnopiconf.c:43
+msgid "Failed to init gconf client."
+msgstr "Methwyd cychwyn cleient gconf."
+
+#: ../brlmon/brlmonui.c:234 ../srconf/libsrconf/libsrconf.c:418
+msgid "Failed to add directory."
+msgstr "Methwyd ychwanegu cyfeiriadur."
+
+#: ../brlmon/brlmonui.c:246 ../gnopi/kbconf.c:79 ../gnopi/spconf.c:95
+#: ../srconf/libsrconf/libsrconf.c:431
+msgid "Failed to add notify."
+msgstr "Methwyd ychwanegu hysbysiad."
+
+#: ../brlmon/brlmonui.c:261 ../gnopi/gnopiconf.c:145
+#, c-format
+msgid "Expected key: %s"
+msgstr "Allwedd ddisgwyliedig: %s"
+
+#: ../brlmon/brlmonui.c:301
+#, c-format
+msgid "Failed to set value: %d"
+msgstr "Methwyd gosod gwerth: %d"
+
+#: ../brlmon/brlmonui.c:342 ../brlmon/brlmonui.c:444 ../gnopi/gnopiconf.c:353
+#: ../gnopi/gnopiconf.c:407 ../gnopi/gnopiconf.c:558 ../gnopi/gnopiconf.c:731
+#, c-format
+msgid "Invalid type of key: %s."
+msgstr "Math allwedd annilys: %s."
+
+#: ../brlmon/brlmonui.c:345 ../brlmon/brlmonui.c:364
+#, c-format
+msgid "Failed to set int value: %d."
+msgstr "Methwyd gosod gwerth int: %d."
+
+#: ../brlmon/brlmonui.c:358 ../brlmon/brlmonui.c:459
+#, c-format
+msgid "Failed to get value: %s."
+msgstr "Methwyd cyrchu gwerth: %s."
+
+#: ../brlmon/brlmonui.c:403 ../gnopi/gnopiconf.c:355 ../gnopi/gnopiconf.c:373
+#: ../gnopi/gnopiconf.c:560 ../gnopi/gnopiconf.c:576
+#, c-format
+msgid "Failed to set value: %d."
+msgstr "Methwyd gosod gwerth: %d."
+
+#: ../brlmon/brlmonui.c:447 ../brlmon/brlmonui.c:462
+#, c-format
+msgid "Failed to set boolean value: %d."
+msgstr "Methwyd gosod gwerth Boole: %d."
+
+#: ../brlmon/brlmonui.c:501 ../gnopi/gnopiconf.c:494 ../gnopi/gnopiconf.c:507
+#, c-format
+msgid "Failed to set value: %s."
+msgstr "Methwyd gosod gwerth: %s."
+
+#: ../brlmon/brlmonui.c:535
+#, c-format
+msgid "Failed to get string value: %s."
+msgstr "Methwyd cyrchu gwerth llinyn: %s."
+
+#: ../brlmon/brlmonui.c:539 ../brlmon/brlmonui.c:549
+#, c-format
+msgid "Failed to set string value: %s."
+msgstr "Methwyd gosod gwerth llinyn: %s."
+
+#: ../brlmon/brlmonui.c:583 ../gnopi/bmui.c:297
+#, c-format
+msgid "Invalid modetype: %s."
+msgstr "Math modd annilys: %s."
+
+#: ../brlmon/brlmonui.c:635
+#, c-format
+msgid "%s font not installed."
+msgstr "Ffont %s heb ei sefydlu."
+
+#. *
+#. * bmui_load_colors
+#. *
+#. * Load text colors.
+#. *
+#. * returns:
+#. *
+#: ../brlmon/brlmonui.c:639 ../gnopi/bmui.c:251
+msgid "Can not parse color string."
+msgstr "Ni ellir gramadegu'r llinyn lliw."
+
+#: ../brlmon/brlmonui.c:1112
+msgid "Status"
+msgstr "Cyflwr"
+
+#: ../brlmon/brlmonui.c:1319
+#, c-format
+msgid "Too many cells on display. [Max %d]"
+msgstr "Gormod o gelloedd ar ddangos. [Uchafrif %d]"
+
+#: ../brlmon/brlmonui.c:1320
+#, c-format
+msgid "Load default display size. Line: %d Column: %d."
+msgstr "Llwytho'r maint dangosydd rhagosod. Llinell: %d Colofn: %d."
+
+#. unsupported attribute
+#: ../brlmon/brlmonxml.c:84
+#, c-format
+msgid "BRLOUT attribute %s is not supported."
+msgstr "Ni chynhelir y briodwedd BRLOUT %s."
+
+#. unsupported attribute
+#: ../brlmon/brlmonxml.c:218
+#, c-format
+msgid "TEXT attribute %s is not supported."
+msgstr "Ni chynhelir y briodwedd TEXT %s."
+
+#: ../gnopi/bmconf.c:318
+msgid "Failed to set display size."
+msgstr "Methwyd gosod maint y dangosydd."
+
+#: ../gnopi/bmconf.c:336
+msgid "Failed to set display position."
+msgstr "Methwyd gosod safle'r dangosydd."
+
+#: ../gnopi/bmconf.c:368
+msgid "Failed to set display mode."
+msgstr "Methwyd gosod modd y dangosydd."
+
+#: ../gnopi/bmconf.c:392
+msgid "Failed to set dot type colors."
+msgstr "Methwyd gosod lliwiau math dot."
+
+#: ../gnopi/bmconf.c:409
+msgid "Failed to set font size."
+msgstr "Methwyd gosod maint y ffont."
+
+#: ../gnopi/bmui.c:328
+#, c-format
+msgid "Invalid position: %s."
+msgstr "Safle annilys: %s."
+
+#: ../gnopi/brlconf.c:300 ../gnopi/cmdmapconf.c:237 ../gnopi/coreconf.c:140
+#: ../gnopi/kbconf.c:126 ../gnopi/magconf.c:226 ../gnopi/spconf.c:158
+#: ../gnopi/spconf.c:1247
+msgid "Unable to allocate memory."
+msgstr "Methwyd neilltuo cof."
+
+#: ../gnopi/brlconf.c:407
+#, c-format
+msgid "Failed to set braille style: %s."
+msgstr "Methwyd gosod arddull braille: %s."
+
+#: ../gnopi/brlconf.c:416
+#, c-format
+msgid "Failed to set braille cursor style: %s."
+msgstr "Methwyd gosod arddull cyrchydd braille: %s."
+
+#: ../gnopi/brlconf.c:425
+#, c-format
+msgid "Failed to set attribute settings: %d."
+msgstr "Methwyd gosod gosodiadau priodwedd: %d."
+
+#: ../gnopi/brlconf.c:434
+#, c-format
+msgid "Failed to set braille device: %s."
+msgstr "Methwyd gosod dyfais braille: %s."
+
+#: ../gnopi/brlconf.c:443
+#, c-format
+msgid "Failed to set fill character: %s."
+msgstr "Methwyd gosod nod llenwi: %s."
+
+#: ../gnopi/brlconf.c:452
+#, c-format
+msgid "Failed to set serial port number: %d."
+msgstr "Methwyd gosod rhif y porth cyfresol: %d."
+
+#: ../gnopi/brlconf.c:461
+#, c-format
+msgid "Failed to set serial port : %s."
+msgstr "Methwyd gosod rhif y porth cyfresol: %s."
+
+#: ../gnopi/brlconf.c:471
+#, c-format
+msgid "Failed to set translation table: %s."
+msgstr "Methwyd gosod tabl cyfieithu: %s."
+
+#: ../gnopi/brlconf.c:480
+#, c-format
+msgid "Failed to set optical sensor: %d."
+msgstr "Methwyd gosod synhwyrydd optegol: %d."
+
+#: ../gnopi/brlconf.c:489
+#, c-format
+msgid "Failed to set position sensor: %d."
+msgstr "Methwyd gosod synhwyrydd safle: %d."
+
+#: ../gnopi/brlconf.c:498
+#, c-format
+msgid "Failed to set status cell: %s."
+msgstr "Methwyd gosod cell statws: %s."
+
+#: ../gnopi/brlconf.c:584 ../gnopi/brlui.c:498 ../gnopi/brlui.c:546
+#: ../gnopi/brlui.c:559 ../gnopi/spvoiceui.c:613
+msgid "<none>"
+msgstr "<dim>"
+
+#: ../gnopi/brlui.c:79
+msgid "American English"
+msgstr "Saesneg Americanaidd"
+
+#: ../gnopi/brlui.c:80
+msgid "German"
+msgstr "Almaeneg"
+
+#: ../gnopi/brlui.c:81
+msgid "Spanish"
+msgstr "Sbaeneg"
+
+#: ../gnopi/brlui.c:82
+msgid "Swedish"
+msgstr "Swedeg"
+
+#. To translators: X = X Window System server
+#: ../gnopi/brlui.c:379
+msgid "X display's _terminal number:"
+msgstr "Rhif _terfynell y dangosydd X:"
+
+#: ../gnopi/brlui.c:385
+#: ../gnopi/gnopi_files/Braille_Settings/braille_device.glade2.h:6
+msgid "_Port:"
+msgstr "_Porth:"
+
+#: ../gnopi/brlui.c:741
+msgid "Language"
+msgstr "Iaith"
+
+#: ../gnopi/brlui.c:1336 ../gnopi/cmdmapui.c:475
+msgid "No selected command!"
+msgstr "Dim gorchymyn dewisedig!"
+
+#: ../gnopi/brlui.c:1360
+msgid "Invalid device key!"
+msgstr "Bysell dyfais annilys!"
+
+#: ../gnopi/brlui.c:1595 ../gnopi/brlui.c:2018 ../gnopi/cmdmapui.c:717
+#: ../gnopi/cmdmapui.c:1568 ../gnopi/cmdmapui.c:1588
+msgid "Commands"
+msgstr "Gorchmynion"
+
+#: ../gnopi/brlui.c:1750 ../gnopi/cmdmapui.c:1186
+msgid "No selected item to modify!"
+msgstr "Dim eitem ddewisedig i'w newid!"
+
+#: ../gnopi/brlui.c:1762 ../gnopi/brlui.c:1842 ../gnopi/cmdmapui.c:1059
+#: ../gnopi/cmdmapui.c:1196
+msgid "Invalid selected item!"
+msgstr "Eitem ddewisedig annilys!"
+
+#: ../gnopi/brlui.c:1830 ../gnopi/cmdmapui.c:1046
+msgid "No selected item to remove!"
+msgstr "Dim eitem ddewisedig i'w dynnu!"
+
+#: ../gnopi/brlui.c:2012
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:9
+msgid "Braille Keys"
+msgstr "Bysellau Braille"
+
+#: ../gnopi/cmdmapconf.c:462 ../gnopi/cmdmapconf.c:503
+msgid "Change commit error."
+msgstr "Gwall cyflwyno newid."
+
+#: ../gnopi/cmdmapui.c:45
+msgid "decrease y scale"
+msgstr "lleihau graddfa y"
+
+#: ../gnopi/cmdmapui.c:46
+msgid "decrease x scale"
+msgstr "lleihau graddfa x"
+
+#: ../gnopi/cmdmapui.c:47
+msgid "increase y scale"
+msgstr "cynyddu graddfa y"
+
+#: ../gnopi/cmdmapui.c:48
+msgid "increase x scale"
+msgstr "cynyddu graddfa x"
+
+#: ../gnopi/cmdmapui.c:49
+msgid "lock xy scale"
+msgstr "cloi graddfa xy"
+
+#: ../gnopi/cmdmapui.c:50
+msgid "smoothing toggle"
+msgstr "toglu llyfnu"
+
+#: ../gnopi/cmdmapui.c:51
+msgid "cursor toggle"
+msgstr "toglu cyrchydd"
+
+#: ../gnopi/cmdmapui.c:52
+msgid "cursor on/off"
+msgstr "cyrchydd ymlaen/bant"
+
+#: ../gnopi/cmdmapui.c:53
+msgid "cursor magnification on/off"
+msgstr "chwyddo cyrchydd ymlaen/bant"
+
+#: ../gnopi/cmdmapui.c:54
+msgid "decrease cursor size"
+msgstr "lleihau maint y cyrchydd"
+
+#: ../gnopi/cmdmapui.c:55
+msgid "increase cursor size"
+msgstr "cynyddu maint y cyrchydd"
+
+#: ../gnopi/cmdmapui.c:56
+msgid "invert on/off"
+msgstr "gwrthdroi ymlaen/bant"
+
+#: ../gnopi/cmdmapui.c:57
+msgid "magnifier default"
+msgstr "rhagosodiad chwyddo"
+
+#: ../gnopi/cmdmapui.c:58
+msgid "crosshair on/off"
+msgstr "blewyn croes ymlaen/bant"
+
+#: ../gnopi/cmdmapui.c:59
+msgid "crosshair clip on/off"
+msgstr "clipio blewyn croes ymlaen/bant"
+
+#: ../gnopi/cmdmapui.c:60
+msgid "decrease crosshair size"
+msgstr "lleihau maint y blewyn croes"
+
+#: ../gnopi/cmdmapui.c:61
+msgid "increase crosshair size"
+msgstr "cynyddu maint y blewyn croes"
+
+#: ../gnopi/cmdmapui.c:62
+msgid "automatic panning on/off"
+msgstr "symud ochr awtomatig ymlaen/bant"
+
+#: ../gnopi/cmdmapui.c:63
+msgid "mouse tracking toggle"
+msgstr "toglu dilyn y llygoden"
+
+#: ../gnopi/cmdmapui.c:64
+msgid "load magnifier defaults"
+msgstr "llwytho rhagosodiadau'r chwyddwr"
+
+#: ../gnopi/cmdmapui.c:66
+msgid "decrease pitch"
+msgstr "lleihau'r traw"
+
+#: ../gnopi/cmdmapui.c:67
+msgid "increase pitch"
+msgstr "cynyddu'r traw"
+
+#: ../gnopi/cmdmapui.c:68
+msgid "default pitch"
+msgstr "y traw rhagosod"
+
+#: ../gnopi/cmdmapui.c:69
+msgid "decrease rate"
+msgstr "lleihau'r gyfradd"
+
+#: ../gnopi/cmdmapui.c:70
+msgid "increase rate"
+msgstr "cynyddu'r gyfradd"
+
+#: ../gnopi/cmdmapui.c:71
+msgid "default rate"
+msgstr "y gyfradd rhagosod"
+
+#: ../gnopi/cmdmapui.c:72
+msgid "decrease volume"
+msgstr "lleihau'r lefel sain"
+
+#: ../gnopi/cmdmapui.c:73
+msgid "increase volume"
+msgstr "cynyddu'r lefel sain"
+
+#: ../gnopi/cmdmapui.c:74
+msgid "default volume"
+msgstr "y lefel sain rhagosod"
+
+#: ../gnopi/cmdmapui.c:75
+msgid "speech default"
+msgstr "y rhagosodiad lleferydd"
+
+#: ../gnopi/cmdmapui.c:77
+msgid "goto parent"
+msgstr "mynd i riant"
+
+#: ../gnopi/cmdmapui.c:78
+msgid "goto child"
+msgstr "mynd i blentyn"
+
+#: ../gnopi/cmdmapui.c:79
+msgid "goto previous"
+msgstr "mynd i'r cynt"
+
+#: ../gnopi/cmdmapui.c:80
+msgid "goto next"
+msgstr "mynd i'r nesaf"
+
+#: ../gnopi/cmdmapui.c:81
+msgid "repeat last"
+msgstr "ailadrodd y diwethaf"
+
+#: ../gnopi/cmdmapui.c:82
+msgid "goto focus"
+msgstr "mynd i'r ffocws"
+
+#: ../gnopi/cmdmapui.c:83
+msgid "goto title"
+msgstr "mynd i'r teitl"
+
+#: ../gnopi/cmdmapui.c:84
+msgid "goto menu"
+msgstr "mynd i'r ddewislen"
+
+#: ../gnopi/cmdmapui.c:85
+msgid "goto toolbar"
+msgstr "mynd i'r bar offer"
+
+#: ../gnopi/cmdmapui.c:86
+msgid "goto statusbar"
+msgstr "mynd i'r bar cyflwr"
+
+#: ../gnopi/cmdmapui.c:87
+msgid "widget surroundings"
+msgstr "amgylchynau'r teclyn"
+
+#: ../gnopi/cmdmapui.c:89
+msgid "goto caret"
+msgstr "mynd i'r caret"
+
+#: ../gnopi/cmdmapui.c:90
+msgid "goto first"
+msgstr "mynd i'r cyntaf"
+
+#: ../gnopi/cmdmapui.c:91
+msgid "goto last"
+msgstr "mynd i'r olaf"
+
+#: ../gnopi/cmdmapui.c:92
+msgid "change navigation mode"
+msgstr "newid y modd llywio"
+
+#: ../gnopi/cmdmapui.c:94
+msgid "toggle flat review/focus tracking mode"
+msgstr "toglu'r modd adolygu fflat/dilyn ffocws"
+
+#: ../gnopi/cmdmapui.c:95
+msgid "flat review"
+msgstr "adolygiad fflat"
+
+#: ../gnopi/cmdmapui.c:96
+msgid "window hierarchy"
+msgstr "hierarchaeth ffenestri"
+
+#: ../gnopi/cmdmapui.c:97
+msgid "read whole window"
+msgstr "darllen y ffenest gyfan"
+
+#: ../gnopi/cmdmapui.c:98
+msgid "detailed informations"
+msgstr "gwybodaethau manwl"
+
+#: ../gnopi/cmdmapui.c:99
+msgid "do default action"
+msgstr "gwneud y weithred rhagosod"
+
+#: ../gnopi/cmdmapui.c:100
+msgid "window overview"
+msgstr "crynodeb ffenest"
+
+#: ../gnopi/cmdmapui.c:101
+msgid "find next"
+msgstr "canfod y nesaf"
+
+#: ../gnopi/cmdmapui.c:102
+msgid "find set"
+msgstr "canfod set"
+
+#: ../gnopi/cmdmapui.c:103
+msgid "attributes at caret"
+msgstr "priodweddau ger y caret"
+
+#: ../gnopi/cmdmapui.c:104
+msgid "watch current object"
+msgstr "gwylio'r gwrthrych presennol"
+
+#: ../gnopi/cmdmapui.c:105 ../srcore/srctrl.c:1353
+msgid "unwatch all objects"
+msgstr "peidio gwylio pob gwrthrych"
+
+#: ../gnopi/cmdmapui.c:107
+msgid "mouse left press"
+msgstr "gwasgiad botwm chwith"
+
+#: ../gnopi/cmdmapui.c:108
+msgid "mouse left click"
+msgstr "clic botwm chwith"
+
+#: ../gnopi/cmdmapui.c:109
+msgid "mouse left release"
+msgstr "rhyddhad botwm chwith"
+
+#: ../gnopi/cmdmapui.c:110
+msgid "mouse right press"
+msgstr "gwasgiad botwm de"
+
+#: ../gnopi/cmdmapui.c:111
+msgid "mouse right click"
+msgstr "clic botwm de"
+
+#: ../gnopi/cmdmapui.c:112
+msgid "mouse right release"
+msgstr "rhyddhad botwm de"
+
+#: ../gnopi/cmdmapui.c:113
+msgid "mouse middle press"
+msgstr "gwasgiad botwm canol"
+
+#: ../gnopi/cmdmapui.c:114
+msgid "mouse middle release"
+msgstr "rhyddhad botwm canol"
+
+#: ../gnopi/cmdmapui.c:115
+msgid "mouse middle click"
+msgstr "clic botwm canol"
+
+#: ../gnopi/cmdmapui.c:116
+msgid "mouse goto current"
+msgstr "llygoden mynd i'r presennol"
+
+#: ../gnopi/cmdmapui.c:118
+msgid "shutup"
+msgstr "distewi"
+
+#: ../gnopi/cmdmapui.c:119
+msgid "pause/resume"
+msgstr "atal/parhau"
+
+#: ../gnopi/cmdmapui.c:121
+msgid "char left"
+msgstr "nod chwith"
+
+#: ../gnopi/cmdmapui.c:122
+msgid "char right"
+msgstr "nod de"
+
+#: ../gnopi/cmdmapui.c:123
+msgid "display left"
+msgstr "dangos chwith"
+
+#: ../gnopi/cmdmapui.c:124
+msgid "display right"
+msgstr "dangos de"
+
+#: ../gnopi/cmdmapui.c:126
+msgid "braille on/off"
+msgstr "braille ymlaen / i ffwrdd"
+
+#: ../gnopi/cmdmapui.c:127
+msgid "speech on/off"
+msgstr "lleferydd ymlaen / i ffwrdd"
+
+#: ../gnopi/cmdmapui.c:128
+msgid "magnifier on/off"
+msgstr "chwyddwr ymlaen / i ffwrdd"
+
+#: ../gnopi/cmdmapui.c:129
+msgid "braille monitor on/off"
+msgstr "monitor braille ymlaen / i ffwrdd"
+
+#: ../gnopi/cmdmapui.c:143
+msgid "A"
+msgstr "A"
+
+#: ../gnopi/cmdmapui.c:144
+msgid "B"
+msgstr "B"
+
+#: ../gnopi/cmdmapui.c:145
+msgid "C"
+msgstr "C"
+
+#: ../gnopi/cmdmapui.c:146
+msgid "D"
+msgstr "D"
+
+#: ../gnopi/cmdmapui.c:147
+msgid "E"
+msgstr "E"
+
+#: ../gnopi/cmdmapui.c:148
+msgid "F"
+msgstr "F"
+
+#: ../gnopi/cmdmapui.c:149
+msgid "G"
+msgstr "G"
+
+#: ../gnopi/cmdmapui.c:150
+msgid "H"
+msgstr "H"
+
+#: ../gnopi/cmdmapui.c:151
+msgid "I"
+msgstr "I"
+
+#: ../gnopi/cmdmapui.c:152
+msgid "J"
+msgstr "J"
+
+#: ../gnopi/cmdmapui.c:153
+msgid "K"
+msgstr "K"
+
+#: ../gnopi/cmdmapui.c:154
+msgid "L"
+msgstr "L"
+
+#: ../gnopi/cmdmapui.c:155
+msgid "M"
+msgstr "M"
+
+#: ../gnopi/cmdmapui.c:156
+msgid "N"
+msgstr "N"
+
+#: ../gnopi/cmdmapui.c:157
+msgid "O"
+msgstr "O"
+
+#: ../gnopi/cmdmapui.c:158
+msgid "P"
+msgstr "P"
+
+#: ../gnopi/cmdmapui.c:159
+msgid "Q"
+msgstr "Q"
+
+#: ../gnopi/cmdmapui.c:160
+msgid "R"
+msgstr "R"
+
+#: ../gnopi/cmdmapui.c:161
+msgid "S"
+msgstr "S"
+
+#: ../gnopi/cmdmapui.c:162
+msgid "T"
+msgstr "T"
+
+#: ../gnopi/cmdmapui.c:163
+msgid "U"
+msgstr "U"
+
+#: ../gnopi/cmdmapui.c:164
+msgid "V"
+msgstr "V"
+
+#: ../gnopi/cmdmapui.c:165
+msgid "W"
+msgstr "W"
+
+#: ../gnopi/cmdmapui.c:166
+msgid "X"
+msgstr "X"
+
+#: ../gnopi/cmdmapui.c:167
+msgid "Y"
+msgstr "Y"
+
+#: ../gnopi/cmdmapui.c:168
+msgid "Z"
+msgstr "Z"
+
+#: ../gnopi/cmdmapui.c:169
+msgid "F1"
+msgstr "F1"
+
+#: ../gnopi/cmdmapui.c:170
+msgid "F2"
+msgstr "F2"
+
+#: ../gnopi/cmdmapui.c:171
+msgid "F3"
+msgstr "F3"
+
+#: ../gnopi/cmdmapui.c:172
+msgid "F4"
+msgstr "F4"
+
+#: ../gnopi/cmdmapui.c:173
+msgid "F5"
+msgstr "F5"
+
+#: ../gnopi/cmdmapui.c:174
+msgid "F6"
+msgstr "F6"
+
+#: ../gnopi/cmdmapui.c:175
+msgid "F7"
+msgstr "F7"
+
+#: ../gnopi/cmdmapui.c:176
+msgid "F8"
+msgstr "F8"
+
+#: ../gnopi/cmdmapui.c:177
+msgid "F9"
+msgstr "F9"
+
+#: ../gnopi/cmdmapui.c:178
+msgid "F10"
+msgstr "F10"
+
+#: ../gnopi/cmdmapui.c:179
+msgid "F11"
+msgstr "F11"
+
+#: ../gnopi/cmdmapui.c:180
+msgid "F12"
+msgstr "F12"
+
+#: ../gnopi/cmdmapui.c:181
+msgid "0"
+msgstr "0"
+
+#: ../gnopi/cmdmapui.c:182
+msgid "1"
+msgstr "1"
+
+#: ../gnopi/cmdmapui.c:183
+msgid "2"
+msgstr "2"
+
+#: ../gnopi/cmdmapui.c:184
+msgid "3"
+msgstr "3"
+
+#: ../gnopi/cmdmapui.c:185
+msgid "4"
+msgstr "4"
+
+#: ../gnopi/cmdmapui.c:186
+msgid "5"
+msgstr "5"
+
+#: ../gnopi/cmdmapui.c:187
+msgid "6"
+msgstr "6"
+
+#: ../gnopi/cmdmapui.c:188
+msgid "7"
+msgstr "7"
+
+#: ../gnopi/cmdmapui.c:189
+msgid "8"
+msgstr "8"
+
+#: ../gnopi/cmdmapui.c:190
+msgid "9"
+msgstr "9"
+
+#: ../gnopi/cmdmapui.c:191
+msgid "apostrophe"
+msgstr "collnod"
+
+#: ../gnopi/cmdmapui.c:192
+msgid "backslash"
+msgstr "slaes ôl"
+
+#: ../gnopi/cmdmapui.c:193
+msgid "bracket left"
+msgstr "braced chwith"
+
+#: ../gnopi/cmdmapui.c:194
+msgid "bracket right"
+msgstr "braced de"
+
+#: ../gnopi/cmdmapui.c:195
+msgid "comma"
+msgstr "coma"
+
+#: ../gnopi/cmdmapui.c:196
+msgid "equal"
+msgstr "hafal"
+
+#: ../gnopi/cmdmapui.c:197
+msgid "grave"
+msgstr "acen ddisgynedig"
+
+#: ../gnopi/cmdmapui.c:198
+msgid "minus"
+msgstr "minws"
+
+#: ../gnopi/cmdmapui.c:199
+msgid "period"
+msgstr "atalnod llawn"
+
+#: ../gnopi/cmdmapui.c:200
+msgid "quote left"
+msgstr "dyfynnod chwith"
+
+#: ../gnopi/cmdmapui.c:201
+msgid "semicolon"
+msgstr "gwahannod"
+
+#: ../gnopi/cmdmapui.c:202
+msgid "slash"
+msgstr "slaes"
+
+#: ../gnopi/cmdmapui.c:1133
+msgid "Invalid key or existent key."
+msgstr "Bysell annilys neu fysell sy'n bodoli."
+
+#: ../gnopi/cmdmapui.c:1562
+msgid "Layer Keys"
+msgstr "Bysellau Haen"
+
+#: ../gnopi/cmdmapui.c:1582
+msgid "User Keys"
+msgstr "Bysellau Defnyddiwr"
+
+#: ../gnopi/coreconf.c:248
+#, c-format
+msgid "Failed to set exit val: %d."
+msgstr "Methwyd gosod gwerth gadael: %d."
+
+#: ../gnopi/coreconf.c:290
+#, c-format
+msgid "Failed to set move mouse: %d."
+msgstr "Methwyd gosod symud llygoden: %d."
+
+#: ../gnopi/coreconf.c:299
+#, c-format
+msgid "Failed to set simulate click: %d."
+msgstr "Methwyd gosod clic efelychu: %d."
+
+#: ../gnopi/coreconf.c:308
+#, c-format
+msgid "Failed to set find text: %s."
+msgstr "Methwyd gosod canfod testun: %s."
+
+#: ../gnopi/coreconf.c:318
+#, c-format
+msgid "Failed to set magnifier status: %d."
+msgstr "Methwyd gosod statws chwyddo: %d."
+
+#: ../gnopi/coreconf.c:327
+#, c-format
+msgid "Failed to set speech status: %d."
+msgstr "Methwyd gosod statws lleferydd: %d."
+
+#: ../gnopi/coreconf.c:336
+#, c-format
+msgid "Failed to set braille status: %d."
+msgstr "Methwyd gosod statws braille: %d."
+
+#: ../gnopi/coreconf.c:345
+#, c-format
+msgid "Failed to set braille monitor status: %d."
+msgstr "Methwyd gosod statws monitor braille: %d."
+
+#: ../gnopi/coreconf.c:354
+#, c-format
+msgid "Failed to set minimize flag: %d."
+msgstr "Methwyd gosod banner lleihau: %d."
+
+#: ../gnopi/coreconf.c:363
+#, c-format
+msgid "Failed to set exit ack: %d."
+msgstr "Methwyd gosod ack gadael: %d."
+
+#: ../gnopi/coreconf.c:372
+#, c-format
+msgid "Failed to set language: %s."
+msgstr "Methwyd gosod yr iaith: %s."
+
+#: ../gnopi/coreconf.c:381
+#, c-format
+msgid "Failed to set screen review: %d."
+msgstr "Methwyd gosod adolygu sgrin: %d."
+
+#: ../gnopi/defui.c:73
+#, c-format
+msgid "Are you sure you want to load default values for %s?"
+msgstr "Ydych yn siŵr eich bod am lwytho'r gwerthoedd diofyn ar gyfer %s?"
+
+#: ../gnopi/defui.c:100
+msgid "braille"
+msgstr "braille"
+
+#: ../gnopi/defui.c:116
+msgid "Braille default setting loaded."
+msgstr "Llwythwyd gosodiad rhagosod Braille."
+
+#: ../gnopi/defui.c:125
+msgid "speech"
+msgstr "lleferydd"
+
+#: ../gnopi/defui.c:133
+msgid "Speech default setting loaded."
+msgstr "Llwythwyd rhagosodiad lleferydd."
+
+#: ../gnopi/defui.c:142
+msgid "magnifier"
+msgstr "chwyddwr"
+
+#: ../gnopi/defui.c:156
+msgid "Magnifier default setting loaded."
+msgstr "Llwythwyd gosodiad rhagosod chwyddo."
+
+#: ../gnopi/defui.c:165
+msgid "keyboard"
+msgstr "bysellfwrdd"
+
+#: ../gnopi/defui.c:173
+msgid "Keyboard default setting loaded."
+msgstr "Llwythwyd gosodiad rhagosod y bysellfwrdd."
+
+#: ../gnopi/defui.c:182
+msgid "braille monitor"
+msgstr "monitor braille"
+
+#: ../gnopi/defui.c:189
+msgid "Braille monitor default setting loaded."
+msgstr "Llwythwyd gosodiad rhagosod monitor Braille."
+
+#: ../gnopi/defui.c:198
+msgid "start up"
+msgstr "cychwyn"
+
+#: ../gnopi/defui.c:207
+msgid "Startup default setting loaded."
+msgstr "llwythwyd gosodiad rhagosod llafar."
+
+#: ../gnopi/defui.c:217
+msgid "command map"
+msgstr "map gorchmynion"
+
+#: ../gnopi/defui.c:225
+msgid "Command map default setting loaded."
+msgstr "Llwythwyd gosodiad rhagosod map gorchymyn."
+
+#: ../gnopi/defui.c:235
+msgid "presentation"
+msgstr "cyflwyniad"
+
+#: ../gnopi/defui.c:241
+msgid "Presentation default setting loaded."
+msgstr "Llwythwyd gosodiad rhagosod cyflwyniad."
+
+#: ../gnopi/defui.c:250
+msgid "screen review"
+msgstr "adolygiad sgrin"
+
+#: ../gnopi/defui.c:256
+msgid "Screen review default setting loaded."
+msgstr "Llwythwyd gosodiad rhagosod adolygu sgrin."
+
+#: ../gnopi/defui.c:279
+msgid "all modules"
+msgstr "pob modiwl"
+
+#: ../gnopi/defui.c:282
+msgid "All default settings loaded."
+msgstr "Llwythwyd rhagosodiad pob gosodiad."
+
+#: ../gnopi/genui.c:66
+#: ../gnopi/gnopi_files/General_Settings/general_settings.glade2.h:12
+msgid "_Braille"
+msgstr "_Braille"
+
+#: ../gnopi/genui.c:69
+msgid "_Braille (unavailable)"
+msgstr "_Braille (ddim ar gael)"
+
+#: ../gnopi/genui.c:74
+#: ../gnopi/gnopi_files/General_Settings/general_settings.glade2.h:13
+msgid "_Magnifier"
+msgstr "_Chwyddwr"
+
+#: ../gnopi/genui.c:77
+msgid "_Magnifier (unavailable)"
+msgstr "_Chwyddwr (ddim ar gael)"
+
+#: ../gnopi/genui.c:82
+#: ../gnopi/gnopi_files/General_Settings/general_settings.glade2.h:14
+msgid "_Speech"
+msgstr "_Lleferydd"
+
+#: ../gnopi/genui.c:85
+msgid "_Speech (unavailable)"
+msgstr "_Lleferydd (ddim ar gael)"
+
+#: ../gnopi/genui.c:90
+#: ../gnopi/gnopi_files/General_Settings/general_settings.glade2.h:4
+msgid "B_raille monitor"
+msgstr "_Monitor Braille"
+
+#: ../gnopi/genui.c:93
+msgid "B_raille monitor (unavailable)"
+msgstr "_Monitor Braille (ddim ar gael)"
+
+#: ../gnopi/gnopernicus.desktop.in.h:1
+msgid "Assistive Technologies for Blind and Visually Impaired"
+msgstr "Technoleg Gynorthwyol i'r Dall a'r Gwan eu Golwg"
+
+#: ../gnopi/gnopernicus.desktop.in.h:2
+msgid "Screen Reader and Magnifier"
+msgstr "Darllenwr a Chwyddwr Sgrin"
+
+#: ../gnopi/gnopi.c:302
+msgid "gnopernicus"
+msgstr "gnopernicus"
+
+#: ../gnopi/gnopi.c:309
+msgid "Gconf initialization failed."
+msgstr "Methwyd cychwyn GConf."
+
+#: ../gnopi/gnopi.c:316
+msgid "Invalid parameters."
+msgstr "Paramedrau annilys."
+
+#: ../gnopi/gnopi.c:322
+msgid "Multiple instances are NOT ALLOWED. This instance will end."
+msgstr ""
+"NI CHANIATEIR mwy nag un enghraifft. Fe fydd yr enghraifft hon yn gorffen."
+
+#: ../gnopi/gnopi.c:328
+msgid "GTK initialization failed."
+msgstr "Methwyd cychwyn GTK."
+
+#: ../gnopi/gnopi.c:334
+msgid "Can not create a new process."
+msgstr "Ni ellir creu proses newydd."
+
+#: ../gnopi/gnopi.c:344
+msgid "Exit gnopernicus."
+msgstr "Gadael gnopernicus."
+
+#: ../gnopi/gnopi.c:352
+msgid "Gnopernicus initialization failed."
+msgstr "Methwyd cychwyn Gnopernicus."
+
+#: ../gnopi/gnopi.c:359
+msgid "Can not load .glade2 file"
+msgstr "Methwyd llwytho ffeil .glade2"
+
+#. if (WIFSIGNALED (gn_srcore_status) != 0)
+#. sru_message ("signal no: %d", WTERMSIG (gn_srcore_status));
+#: ../gnopi/gnopi.c:666
+msgid "srcore exited."
+msgstr "gadawodd srcore."
+
+#: ../gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:1
+msgid "<b>Color</b>"
+msgstr "<b>Lliw</b>"
+
+#: ../gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:2
+msgid "<b>Font</b>"
+msgstr "<b>Ffont</b>"
+
+#: ../gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:3
+msgid "<b>Mode Type</b>"
+msgstr "<b>Math Modd</b>"
+
+#: ../gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:4
+msgid "<b>Position</b>"
+msgstr "<b>Safle</b>"
+
+#: ../gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:5
+msgid "<b>Size</b>"
+msgstr "<b>Maint</b>"
+
+#: ../gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:6
+msgid "B_raille"
+msgstr "B_raille"
+
+#: ../gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:7
+msgid "Braille Monitor Preferences"
+msgstr "Hoffterau Monitor Braille"
+
+#: ../gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:8
+msgid "Color selection for texts which use dot 7"
+msgstr "Dewisiad lliw ar gyfer testunau sy'n defnyddio dot 7"
+
+#: ../gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:9
+msgid "Color selection for texts which use dot 8"
+msgstr "Dewisiad lliw ar gyfer testunau sy'n defnyddio dot 8"
+
+#: ../gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:10
+msgid "Color selection for texts which use dots 7 and 8"
+msgstr "Dewisiad lliw ar gyfer testunau sy'n defnyddio dotiau 7 a 8"
+
+#: ../gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:11
+msgid "Colu_mns:"
+msgstr "_Colofnau:"
+
+#: ../gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:12
+msgid "Display at bottom of screen"
+msgstr "Dangos ar waelod y sgrin"
+
+#: ../gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:13
+msgid "Display on top of screen"
+msgstr "Dangos ar ben y sgrin"
+
+#: ../gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:14
+msgid "Display using braille font"
+msgstr "Dangos gan ddefnyddio ffont braille"
+
+#: ../gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:15
+msgid "Display using normal font"
+msgstr "Dangos gan ddefnyddio ffont arferol"
+
+#: ../gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:16
+msgid "Display with both fonts"
+msgstr "Dangos gyda'r ddwy ffont"
+
+#: ../gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:17
+msgid "Dot 7:"
+msgstr "Dot 7:"
+
+#: ../gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:18
+msgid "Dot 8:"
+msgstr "Dot 8:"
+
+#: ../gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:19
+msgid "Dots 78:"
+msgstr "Dotiau 78:"
+
+#: ../gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:20
+msgid "Number of cell columns"
+msgstr "Nifer o golofnau cell"
+
+#: ../gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:21
+msgid "Number of cell lines"
+msgstr "Nifer o linellau cell"
+
+#: ../gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:22
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:43
+msgid "Pick a color"
+msgstr "Dewiswch liw"
+
+#: ../gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:23
+msgid "Size of font"
+msgstr "Maint y ffont"
+
+#: ../gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:24
+msgid "Use system theme colors"
+msgstr "Defnyddio lliwiau thema'r system"
+
+#: ../gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:25
+msgid "Use theme _system colors"
+msgstr "Defnyddio lliwiau thema'r _system"
+
+#: ../gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:26
+msgid "_Dual"
+msgstr "_Deuol"
+
+#: ../gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:27
+msgid "_Lines:"
+msgstr "_Llinellau:"
+
+#: ../gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:28
+msgid "_Normal"
+msgstr "_Arferol"
+
+#: ../gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:29
+msgid "_Size:"
+msgstr "_Maint:"
+
+#: ../gnopi/gnopi_files/Braille_Settings/attribute_settings.glade2.h:1
+msgid "Attributes"
+msgstr "Priodweddau"
+
+#: ../gnopi/gnopi_files/Braille_Settings/attribute_settings.glade2.h:2
+msgid "_1. Dot 8"
+msgstr "_1. Dot 8"
+
+#: ../gnopi/gnopi_files/Braille_Settings/attribute_settings.glade2.h:3
+msgid "_2. Dot 7"
+msgstr "_2. Dot 7"
+
+#: ../gnopi/gnopi_files/Braille_Settings/attribute_settings.glade2.h:4
+msgid "_3. Dot 8 or 7"
+msgstr "_3. Dot 8 neu 7"
+
+#: ../gnopi/gnopi_files/Braille_Settings/attribute_settings.glade2.h:5
+msgid "_4. Off"
+msgstr "_4. Bant"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_device.glade2.h:1
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:1
+#: ../gnopi/gnopi_files/Find/find.glade2.h:2
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:1
+#: ../gnopi/gnopi_files/Presentation/presentation.glade2.h:1
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:3
+#: ../gnopi/gnopi_files/User_Properties/user_properties.glade2.h:1
+msgid "*"
+msgstr "*"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_device.glade2.h:2
+msgid "Braille Device"
+msgstr "Dyfais Braille"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_device.glade2.h:3
+msgid "Braille devices list"
+msgstr "Rhestr dyfeisiau Braille"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_device.glade2.h:4
+msgid "Enter manually:"
+msgstr "Rhowch â llaw:"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_device.glade2.h:5
+msgid "_Device:"
+msgstr "_Dyfais:"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:2
+msgid "10 _Font size"
+msgstr "10 _Maint ffont"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:3
+msgid "11 _Activate script function \"OnPosSwitch\""
+msgstr "11 _Gweithredu'r ffwythiant sgript \"OnPosSwitch\""
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:4
+msgid "12 _Present attributes"
+msgstr "12 _Priodweddau presennol"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:5
+msgid "<b>_Braille keys list</b>"
+msgstr "<b>Rhestr bysellau _Braille</b>"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:6
+msgid "Activate script function \"OnPosSwitch\""
+msgstr "Gweithredu'r ffwythiant sgript \"OnPosSwitch\""
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:7
+msgid "Add item in braille keys list"
+msgstr "Ychwanegu eitem yn y rhestr bysellau braille"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:8
+msgid "Braille Display Key Mapping"
+msgstr "Map Bysell Dangosydd Braille"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:10
+msgid "Braille device keys list"
+msgstr "Rhestr bysellau dyfais Braille"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:11
+msgid "Braille keys list"
+msgstr "Rhestr bysellau Braille"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:12
+msgid "Command List"
+msgstr "Rhestr Gorchmynion"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:13
+msgid "Command list"
+msgstr "Rhestr gorchmynion"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:14
+msgid "Font name"
+msgstr "Enw ffont"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:15
+msgid "Font size"
+msgstr "Maint ffont"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:16
+msgid "Font style"
+msgstr "Arddull ffont"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:17
+msgid "Modify selected item"
+msgstr "Newid yr eitem a ddewiswyd"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:18
+msgid "Move caret"
+msgstr "Symud y caret"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:19
+msgid "Move mouse and click left"
+msgstr "Symud y llygoden a chlic chwith"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:20
+msgid "Move mouse and click left and right"
+msgstr "Symud y llygoden a chlic chwith a de"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:21
+msgid "Move mouse and click right"
+msgstr "Symud y llygoden a chlic de"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:22
+msgid "Only move mouse"
+msgstr "Symud y llygoden yn unig"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:23
+msgid "Optical Sensors"
+msgstr "Synwyryddion Optegol"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:24
+msgid "Optical sensors off"
+msgstr "Synwyryddion optegol bant"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:25
+msgid "Position Sensors"
+msgstr "Synwyryddion Safle"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:26
+msgid "Position sensors off"
+msgstr "Synwyryddion safle bant"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:27
+msgid "Present attributes"
+msgstr "Priodweddau presennol"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:28
+msgid "Remove selected item from braille keys list"
+msgstr "Tynnu'r eitem ddewisedig o'r rhestr bysellau braille"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:29
+msgid "Show X coordinate"
+msgstr "Dangos cyfesuryn X"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:30
+msgid "Show Y coordinate"
+msgstr "Dangos cyfesuryn Y"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:31
+msgid "_0 Optical sensors off"
+msgstr "_0 Synwyryddion optegol bant"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:32
+msgid "_0 Position sensors off"
+msgstr "_0 Synwyryddion safle bant"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:33
+msgid "_1 Only move mouse"
+msgstr "_1 Symud y llygoden yn unig"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:34
+msgid "_2 Move mouse and click left"
+msgstr "_2 Symud y llygoden a chlic chwith"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:35
+msgid "_3 Move mouse and click right"
+msgstr "_3 Symud y llygoden a chlic de"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:36
+msgid "_4 Move mouse and click left or right"
+msgstr "_4 Symud y llygoden a chlic chwith neu de"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:37
+msgid "_5 Move caret"
+msgstr "_5 Symud y caret"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:38
+msgid "_6 Show X coordinate"
+msgstr "_6 Dangos cyfesuryn X"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:39
+msgid "_7 Show Y coordinate"
+msgstr "_7 Dangos cyfesuryn Y"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:40
+msgid "_8 Font style"
+msgstr "_8 Arddull ffont"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:41
+msgid "_9 Font name"
+msgstr "_9 Enw ffont"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:42
+msgid "_Commands:"
+msgstr "_Gorchmynion:"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:43
+msgid "_Device key:"
+msgstr "Bysell _dyfais:"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:44
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:85
+#: ../gnopi/gnopi_files/User_Properties/user_properties.glade2.h:28
+msgid "_Modify"
+msgstr "_Newid"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_settings.glade2.h:1
+msgid "Braille Preferences"
+msgstr "Hoffterau Braille"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_settings.glade2.h:2
+msgid "Close braille settings"
+msgstr "Cau'r gosodiadau braille"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_settings.glade2.h:3
+msgid "Map function for display keys"
+msgstr "Ffwythiant map ar gyfer bysellau dangos"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_settings.glade2.h:4
+msgid "Select braille device"
+msgstr "Dewis dyfais braille"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_settings.glade2.h:5
+msgid "Select braille style 8/6 dots"
+msgstr "Dewis arddull braille 8/6 dot"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_settings.glade2.h:6
+msgid "Select cursor setting FullCell/UnderLined/NoCursor"
+msgstr "Dewis gosodiad cyrchydd FullCell/UnderLined/NoCursor"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_settings.glade2.h:7
+msgid "Select translation table for braille device"
+msgstr "Dewis y tabl cyfieithu ar gyfer y ddyfais braille"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_settings.glade2.h:8
+msgid "_1 Braille Device"
+msgstr "_1 Dyfais Braille"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_settings.glade2.h:9
+msgid "_2 Translation Table"
+msgstr "_2 Tabl Cyfieithu"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_settings.glade2.h:10
+msgid "_3 Braille Style"
+msgstr "_3 Arddull Braille"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_settings.glade2.h:11
+msgid "_4 Cursor Preferences"
+msgstr "_4 Hoffterau Cyrchydd"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_settings.glade2.h:12
+msgid "_5 Braille Key Mapping"
+msgstr "_5 Map Bysell Braille"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_style.glade2.h:1
+msgid "Braille Style"
+msgstr "Arddull Braille"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_style.glade2.h:2
+msgid "Use 6 dots"
+msgstr "Defnyddio 6 dot"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_style.glade2.h:3
+msgid "Use 8 dots"
+msgstr "Defnyddio 8 dot"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_style.glade2.h:4
+msgid "_6 Dot Braille"
+msgstr "Braille _6 Dot"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_style.glade2.h:5
+msgid "_8 Dot Braille"
+msgstr "Braille _8 Dot"
+
+#: ../gnopi/gnopi_files/Braille_Settings/cursor_settings.glade2.h:1
+msgid "Cursor Preferences"
+msgstr "Hoffterau Cyrchydd"
+
+#: ../gnopi/gnopi_files/Braille_Settings/cursor_settings.glade2.h:2
+msgid "Cursor on braille display is a full cell"
+msgstr "Mae'r cyrchydd ar y dangosydd braille yn gell lawn"
+
+#: ../gnopi/gnopi_files/Braille_Settings/cursor_settings.glade2.h:3
+msgid "Cursor on braille display is an underline"
+msgstr "Mae'r cyrchydd ar y dangosydd braille yn danlinell"
+
+#: ../gnopi/gnopi_files/Braille_Settings/cursor_settings.glade2.h:4
+msgid "No cursor on braille display"
+msgstr "Dim cyrchydd ar y dangosydd braille"
+
+#: ../gnopi/gnopi_files/Braille_Settings/cursor_settings.glade2.h:5
+msgid "_Full cell cursor"
+msgstr "Cyrchydd cell _lawn"
+
+#: ../gnopi/gnopi_files/Braille_Settings/cursor_settings.glade2.h:6
+msgid "_No cursor"
+msgstr "_Dim cyrchydd"
+
+#: ../gnopi/gnopi_files/Braille_Settings/cursor_settings.glade2.h:7
+msgid "_Underline cursor (dots 7 and 8)"
+msgstr "_Cyrchydd tanlinell (dotiau 7 a 8)"
+
+#: ../gnopi/gnopi_files/Braille_Settings/translation_table.glade2.h:1
+msgid "Translation Table"
+msgstr "Tabl Cyfieithiad"
+
+#: ../gnopi/gnopi_files/Braille_Settings/translation_table.glade2.h:2
+msgid "Translation table list"
+msgstr "Rhestr tablau cyfieithu"
+
+#: ../gnopi/gnopi_files/Braille_Settings/translation_table.glade2.h:3
+msgid "_Select language:"
+msgstr "_Dewiswch iaith:"
+
+#: ../gnopi/gnopi_files/Find/find.glade2.h:1
+msgid "   "
+msgstr "   "
+
+#: ../gnopi/gnopi_files/Find/find.glade2.h:3
+msgid "<b>Fi_nd Text:</b>"
+msgstr "<b>_Canfod Testun:</b>"
+
+#: ../gnopi/gnopi_files/Find/find.glade2.h:4
+msgid "<b>Find Attributes:</b>"
+msgstr "<b>Canfod Priodwedd:</b>"
+
+#: ../gnopi/gnopi_files/Find/find.glade2.h:5
+msgid "<b>Match</b>"
+msgstr "<b>Cydweddu</b>"
+
+#: ../gnopi/gnopi_files/Find/find.glade2.h:6
+msgid "<b>Scope</b>"
+msgstr "<b>Cwmpas</b>"
+
+#: ../gnopi/gnopi_files/Find/find.glade2.h:7
+msgid "<b>Search For</b>"
+msgstr "<b>Chwilio Am</b>"
+
+#: ../gnopi/gnopi_files/Find/find.glade2.h:8
+msgid "A_ll chosen attributes"
+msgstr "P_ob priodwedd a ddewiswyd"
+
+#: ../gnopi/gnopi_files/Find/find.glade2.h:9
+msgid "A_ny chosen attributes"
+msgstr "_Unrhyw briodwedd a ddewiswyd"
+
+#: ../gnopi/gnopi_files/Find/find.glade2.h:10
+msgid "A_ttribute"
+msgstr "_Priodwedd"
+
+#: ../gnopi/gnopi_files/Find/find.glade2.h:11
+msgid "Bold"
+msgstr "Trwm"
+
+#: ../gnopi/gnopi_files/Find/find.glade2.h:12
+msgid "Case _sensitive"
+msgstr "Prif lythrennau o _bwys"
+
+#: ../gnopi/gnopi_files/Find/find.glade2.h:13
+msgid "Case sensitive on/off"
+msgstr "Prif lythrennau o bwys / ddim o bwys"
+
+#: ../gnopi/gnopi_files/Find/find.glade2.h:14
+msgid "Italic"
+msgstr "Italig"
+
+#: ../gnopi/gnopi_files/Find/find.glade2.h:15
+msgid "S_elected"
+msgstr "_Dewiswyd"
+
+#: ../gnopi/gnopi_files/Find/find.glade2.h:16
+msgid "Scope area is a desktop"
+msgstr "Yr ardal cwmpas yw'r penbwrdd"
+
+#: ../gnopi/gnopi_files/Find/find.glade2.h:17
+msgid "Scope area is a window"
+msgstr "Mae'r ardal cwmpas yn ffenest"
+
+#: ../gnopi/gnopi_files/Find/find.glade2.h:18
+msgid "Scope area is an application"
+msgstr "Mae'r ardal cwmpas yn rhaglen"
+
+#: ../gnopi/gnopi_files/Find/find.glade2.h:19
+msgid "Search Preferences"
+msgstr "Hoffterau Chwilio"
+
+#: ../gnopi/gnopi_files/Find/find.glade2.h:20
+msgid "Search criteria is a graphics"
+msgstr "Mae'r prawf chwilio yn raffig"
+
+#: ../gnopi/gnopi_files/Find/find.glade2.h:21
+msgid "Search criteria is a text"
+msgstr "Mae'r prawf chwilio yn destun"
+
+#: ../gnopi/gnopi_files/Find/find.glade2.h:22
+msgid "Search criteria is an attribute"
+msgstr "Mae'r prawf chwilio yn briodwedd"
+
+#: ../gnopi/gnopi_files/Find/find.glade2.h:23
+msgid "Selected item"
+msgstr "Eitem ddewisedig"
+
+#: ../gnopi/gnopi_files/Find/find.glade2.h:24
+msgid "Stri_kethrough"
+msgstr "_Taro allan"
+
+#: ../gnopi/gnopi_files/Find/find.glade2.h:25
+msgid "Strikethrough"
+msgstr "Taro allan"
+
+#: ../gnopi/gnopi_files/Find/find.glade2.h:26
+msgid "Te_xt"
+msgstr "_Testun"
+
+#: ../gnopi/gnopi_files/Find/find.glade2.h:27
+msgid "Text to search"
+msgstr "Y testun i'w chwilio"
+
+#: ../gnopi/gnopi_files/Find/find.glade2.h:28
+msgid "Underline"
+msgstr "Tanlinellu"
+
+#: ../gnopi/gnopi_files/Find/find.glade2.h:29
+msgid "_Application"
+msgstr "_Rhaglen"
+
+#: ../gnopi/gnopi_files/Find/find.glade2.h:30
+msgid "_Bold"
+msgstr "_Trwm"
+
+#: ../gnopi/gnopi_files/Find/find.glade2.h:31
+msgid "_Desktop"
+msgstr "_Penbwrdd"
+
+#: ../gnopi/gnopi_files/Find/find.glade2.h:32
+msgid "_Graphics"
+msgstr "_Graffigion"
+
+#: ../gnopi/gnopi_files/Find/find.glade2.h:33
+msgid "_Italic"
+msgstr "_Italig"
+
+#: ../gnopi/gnopi_files/Find/find.glade2.h:34
+msgid "_Underline"
+msgstr "_Tanlinellu"
+
+#: ../gnopi/gnopi_files/Find/find.glade2.h:35
+msgid "_Window"
+msgstr "_Ffenest"
+
+#: ../gnopi/gnopi_files/General_Settings/general_settings.glade2.h:1
+msgid "    "
+msgstr "   "
+
+#: ../gnopi/gnopi_files/General_Settings/general_settings.glade2.h:2
+msgid "<b>Active Components</b>"
+msgstr "<b>Cydrannau Gweithredol</b>"
+
+#: ../gnopi/gnopi_files/General_Settings/general_settings.glade2.h:3
+msgid "<b>Startup</b>"
+msgstr "<b>Cychwyn</b>"
+
+#: ../gnopi/gnopi_files/General_Settings/general_settings.glade2.h:5
+msgid "Braille monitor on/off"
+msgstr "Monitor Braille ymlaen / i ffwrdd"
+
+#: ../gnopi/gnopi_files/General_Settings/general_settings.glade2.h:6
+msgid "Braille on/off"
+msgstr "Braille ymlaen / i ffwrdd"
+
+#: ../gnopi/gnopi_files/General_Settings/general_settings.glade2.h:7
+msgid "Magnifier on/off"
+msgstr "Chwyddwr ymlaen / i ffwrdd"
+
+#: ../gnopi/gnopi_files/General_Settings/general_settings.glade2.h:8
+msgid "Speech on/off"
+msgstr "Lleferydd ymlaen / i ffwrdd"
+
+#: ../gnopi/gnopi_files/General_Settings/general_settings.glade2.h:9
+msgid "Start gnopernicus minimized"
+msgstr "Cychwyn gnopernicus wedi ei leihau"
+
+#: ../gnopi/gnopi_files/General_Settings/general_settings.glade2.h:10
+msgid "Start m_inimized"
+msgstr "Cychwyn wedi _lleihau"
+
+#: ../gnopi/gnopi_files/General_Settings/general_settings.glade2.h:11
+msgid "Startup Mode"
+msgstr "Modd Cychwyn"
+
+#: ../gnopi/gnopi_files/Keyboard_Mouse_Settings/keyboard_mouse_settings.glade2.h:1
+msgid "Mouse Preferences"
+msgstr "Hoffterau Llygoden"
+
+#: ../gnopi/gnopi_files/Keyboard_Mouse_Settings/keyboard_mouse_settings.glade2.h:2
+msgid "Simulate click on current object"
+msgstr "Efelychu clic ar y gwrthrych cyfredol"
+
+#: ../gnopi/gnopi_files/Keyboard_Mouse_Settings/keyboard_mouse_settings.glade2.h:3
+msgid "Take mouse at current object"
+msgstr "Cymryd y llygoden ger y gwrthrych cyfredol"
+
+#: ../gnopi/gnopi_files/Keyboard_Mouse_Settings/keyboard_mouse_settings.glade2.h:4
+msgid "_Simulate click on current object"
+msgstr "_Efelychu clic ar y gwrthrych cyfredol"
+
+#: ../gnopi/gnopi_files/Keyboard_Mouse_Settings/keyboard_mouse_settings.glade2.h:5
+msgid "_Take mouse at current object"
+msgstr "_Cymryd y llygoden at y gwrthrych cyfredol"
+
+#: ../gnopi/gnopi_files/Load_Default/load_default.glade2.h:1
+msgid "Close \"Load Default Preferences\""
+msgstr "Cau \"Llwytho Hoffterau Rhagosod\""
+
+#: ../gnopi/gnopi_files/Load_Default/load_default.glade2.h:2
+msgid "Load Default Preferences"
+msgstr "Llwytho Hoffterau Rhagosod"
+
+#: ../gnopi/gnopi_files/Load_Default/load_default.glade2.h:3
+msgid "Load Default Settings"
+msgstr "Llwytho Gosodiadau Rhagosod"
+
+#: ../gnopi/gnopi_files/Load_Default/load_default.glade2.h:4
+msgid "Load all defaults"
+msgstr "Llwytho pob rhagosodiad"
+
+#: ../gnopi/gnopi_files/Load_Default/load_default.glade2.h:5
+msgid "Load braille defaults"
+msgstr "Llwytho rhagosodiadau braille"
+
+#: ../gnopi/gnopi_files/Load_Default/load_default.glade2.h:6
+msgid "Load braille monitor defaults"
+msgstr "Llwytho rhagosodiadau monitor braille"
+
+#: ../gnopi/gnopi_files/Load_Default/load_default.glade2.h:7
+msgid "Load command map defaults"
+msgstr "Llwytho rhagosodiadau map gorchymyn"
+
+#: ../gnopi/gnopi_files/Load_Default/load_default.glade2.h:8
+msgid "Load magnifier defaults"
+msgstr "Llwytho rhagosodiadau chwyddwr"
+
+#: ../gnopi/gnopi_files/Load_Default/load_default.glade2.h:9
+msgid "Load mouse defaults"
+msgstr "Llwytho rhagosodiadau llygoden"
+
+#: ../gnopi/gnopi_files/Load_Default/load_default.glade2.h:10
+msgid "Load presentation defaults"
+msgstr "Llwytho rhagosodiadau cyflwyniad"
+
+#: ../gnopi/gnopi_files/Load_Default/load_default.glade2.h:11
+msgid "Load screen review defaults"
+msgstr "Llwytho rhagosodiadau adolygu sgrin"
+
+#: ../gnopi/gnopi_files/Load_Default/load_default.glade2.h:12
+msgid "Load speech defaults"
+msgstr "Llwytho rhagosodiadau lleferydd"
+
+#: ../gnopi/gnopi_files/Load_Default/load_default.glade2.h:13
+msgid "Load startup mode defaults"
+msgstr "Llwytho rhagosodiadau modd cychwyn"
+
+#: ../gnopi/gnopi_files/Load_Default/load_default.glade2.h:14
+msgid "_0 All"
+msgstr "_0 Pob un"
+
+#: ../gnopi/gnopi_files/Load_Default/load_default.glade2.h:15
+msgid "_1 Braille"
+msgstr "_1 Braille"
+
+#: ../gnopi/gnopi_files/Load_Default/load_default.glade2.h:16
+msgid "_2 Speech"
+msgstr "_2 Lleferydd"
+
+#: ../gnopi/gnopi_files/Load_Default/load_default.glade2.h:17
+#: ../gnopi/gnopi_files/gnopi.glade2.h:33
+msgid "_3 Magnifier"
+msgstr "_3 Chwyddwr"
+
+#: ../gnopi/gnopi_files/Load_Default/load_default.glade2.h:18
+msgid "_4 Keyboard"
+msgstr "_4 Bysellfwrdd"
+
+#: ../gnopi/gnopi_files/Load_Default/load_default.glade2.h:19
+#: ../gnopi/gnopi_files/gnopi.glade2.h:36
+msgid "_5 Braille Monitor"
+msgstr "_5 Monitor Braille"
+
+#: ../gnopi/gnopi_files/Load_Default/load_default.glade2.h:20
+msgid "_6 Startup"
+msgstr "_6 Cychwyn"
+
+#: ../gnopi/gnopi_files/Load_Default/load_default.glade2.h:21
+msgid "_7 Command Map"
+msgstr "_7 Map Gorchymyn"
+
+#: ../gnopi/gnopi_files/Load_Default/load_default.glade2.h:22
+msgid "_8 Presentation"
+msgstr "_8 Cyflwyniad"
+
+#: ../gnopi/gnopi_files/Load_Default/load_default.glade2.h:23
+msgid "_9 Screen Review"
+msgstr "_9 Adolygu Sgrin"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:2
+msgid "<b>Border settings</b>"
+msgstr "<b>Gosodiadau border</b>"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:3
+msgid "<b>Cross-hair</b>"
+msgstr "<b>Blewyn croes</b>"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:4
+msgid "<b>Cursor setting</b>"
+msgstr "<b>Gosodiad cyrchydd</b>"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:5
+msgid "<b>Display screen</b>"
+msgstr "<b>Sgrin ddangos</b>"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:6
+msgid "<b>Focus tracking mode</b>"
+msgstr "<b>Modd dilyn ffocws</b>"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:7
+msgid "<b>Mo_use tracking mode</b>"
+msgstr "<b>Modd _Dilyn llygoden</b>"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:8
+msgid "<b>S_moothing</b>"
+msgstr "<b>Ll_yfnu</b>"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:9
+msgid "<b>Zoomer placement</b>"
+msgstr "<b>Lleoli chwyddwr</b>"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:10
+msgid "<b>Zoomfactor</b>"
+msgstr "<b>Ffactor chwyddo</b>"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:11
+msgid "<b>_Zoomer list</b>"
+msgstr "<b>Rhestr _chwyddwyr</b>"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:12
+msgid "Bor_der size:"
+msgstr "_Maint border:"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:13
+msgid "Border c_olor:"
+msgstr "Ll_iw border:"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:14
+msgid "Border color"
+msgstr "Lliw border"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:15
+msgid "Border size"
+msgstr "Maint border"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:16
+msgid "C_entered"
+msgstr "_Canolwyd"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:17
+msgid "C_ursor on/off"
+msgstr "_Cyrchydd ymlaen / i fwrdd"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:18
+msgid "Cross-ha_ir size:"
+msgstr "M_aint blewyn croes:"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:19
+msgid "Cross-hair c_lip on/off"
+msgstr "Cli_pio blewyn croes ymlaen / i ffwrdd"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:20
+msgid "Cross-hair colo_r:"
+msgstr "_Lliw blewyn croes:"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:21
+msgid "Cross-hair color in_verted"
+msgstr "Lliw'r blewyn croes wedi _gwrthdroi"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:22
+msgid "Cross-hair o_n/off"
+msgstr "Blewyn croes _ymlaen/i ffwrdd"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:23
+msgid "Crosshair clip on/off"
+msgstr "Clip blewyn croes ymlaen / i ffwrdd"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:24
+msgid "Crosshair color"
+msgstr "Lliw blewyn croes"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:25
+msgid "Crosshair on/off"
+msgstr "Blewyn croes ymlaen / i ffwrdd"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:26
+msgid "Crosshair size"
+msgstr "Maint blewyn croes"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:27
+msgid "Cursor _size:"
+msgstr "Mai_nt cyrchydd:"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:28
+msgid "Cursor c_olor:"
+msgstr "Lliw cy_rchydd:"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:29
+msgid "Cursor color"
+msgstr "Lliw cyrchydd"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:30
+msgid "Cursor magnification"
+msgstr "Chwyddo cyrchydd"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:31
+msgid "Cursor on/off"
+msgstr "Cyrchydd ymlaen / i ffwrdd"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:32
+msgid "Cursor size"
+msgstr "Maint cyrchydd"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:33
+msgid "Display screen source"
+msgstr "Dangos ffynhonnell sgrin"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:34
+msgid "Display screen target"
+msgstr "Dangos targed sgrin"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:35
+msgid "Invert crosshair color"
+msgstr "Gwrthdroi lliw'r blewyn croes"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:36
+msgid "Invert on/off"
+msgstr "Gwrthdroi ymlaen / i ffwrdd"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:37
+msgid "Lock zoom _factor"
+msgstr "Cloi ffactor _chwyddo"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:38
+msgid "Lock zoom factor"
+msgstr "Cloi ffactor chwyddo"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:39
+msgid "Magnifier Preferences"
+msgstr "Hoffterau Chwyddwr"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:40
+msgid "Magnifier settings"
+msgstr "Gosodiadau chwyddwr"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:41
+msgid "Mouse tracking type"
+msgstr "Math dilyn llygoden"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:42
+msgid "Panning on/off"
+msgstr "Symud ochr ymlaen / i ffwrdd"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:44
+msgid "Set cursor separate from _magnification"
+msgstr "Gosod cyrchydd ar wahân i'r chwyddo"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:45
+msgid "Smoothing type"
+msgstr "Math llyfnu"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:46
+msgid "Tar_get:"
+msgstr "_Targed:"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:47
+msgid "Zoom factor X"
+msgstr "Ffactor chwyddo X"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:48
+msgid "Zoom factor Y"
+msgstr "Ffactor chwyddo Y"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:49
+msgid "Zoom factor _X:"
+msgstr "Ffactor chwyddo _X:"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:50
+msgid "Zoom factor _Y:"
+msgstr "Ffactor chwyddo _Y:"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:51
+msgid "Zoomer Options"
+msgstr "Opsiynau Chwyddwr"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:52
+msgid "Zoomer placement bottom"
+msgstr "Lleoli chwyddwr gwaelod"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:53
+msgid "Zoomer placement left"
+msgstr "Lleoli chwyddwr chwith"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:54
+msgid "Zoomer placement right"
+msgstr "Lleoli chwyddwr de"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:55
+msgid "Zoomer placement top"
+msgstr "Lleoli chwyddwr pen"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:56
+msgid "Zoomers list"
+msgstr "Rhestr chwyddwyr"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:57
+msgid "_Add/Modify"
+msgstr "_Ychwanegu/Newid"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:58
+msgid "_Auto"
+msgstr "_Awto"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:59
+msgid "_Bottom:"
+msgstr "_Gwaelod:"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:60
+msgid "_Invert"
+msgstr "_Gwrthdroi"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:61
+msgid "_Left:"
+msgstr "_Chwith:"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:62
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:87
+msgid "_None"
+msgstr "_Dim"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:63
+msgid "_Panning"
+msgstr "_Symud Ochr"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:64
+msgid "_Remove"
+msgstr "_Tynnu"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:65
+msgid "_Right:"
+msgstr "_De:"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:66
+msgid "_Source:"
+msgstr "_Ffynhonnell:"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:67
+msgid "_Top:"
+msgstr "_Pen:"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:68
+#: ../gnopi/magui.c:49
+msgid "bilinear"
+msgstr "deulinol"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:69
+#: ../gnopi/magui.c:61
+msgid "centered"
+msgstr "wedi canoli"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:70
+#: ../gnopi/magui.c:48 ../gnopi/magui.c:63
+msgid "none"
+msgstr "dim"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:71
+#: ../gnopi/magui.c:62
+msgid "proportional"
+msgstr "cymesurol"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:72
+#: ../gnopi/magui.c:60
+msgid "push"
+msgstr "gwthio"
+
+#: ../gnopi/gnopi_files/Presentation/presentation.glade2.h:2
+msgid "Expert"
+msgstr "Arbenigwr"
+
+#: ../gnopi/gnopi_files/Presentation/presentation.glade2.h:3
+msgid "Mode selected:"
+msgstr "Modd ddewiswyd:"
+
+#: ../gnopi/gnopi_files/Presentation/presentation.glade2.h:4
+msgid "Presentation"
+msgstr "Cyflwyniad"
+
+#: ../gnopi/gnopi_files/Presentation/presentation.glade2.h:5
+#: ../srcore/default.xml.in.h:19 ../srcore/verbose.xml.in.h:19
+msgid "Verbose"
+msgstr "Llafar"
+
+#: ../gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:1
+msgid "<b>Horizontal flags</b>"
+msgstr "<b>Baneri llorweddol</b>"
+
+#: ../gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:2
+msgid "<b>Vertical flags</b>"
+msgstr "<b>Baneri fertigol</b>"
+
+#: ../gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:3
+msgid "Add all empty lines"
+msgstr "Ychwanegu pob llinell wag"
+
+#: ../gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:4
+msgid "Add all spaces"
+msgstr "Ychwanegu pob bwlch"
+
+#: ../gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:5
+msgid "Add all spaces and empty lines"
+msgstr "Ychwanegu pob bwlch a llinell wag"
+
+#: ../gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:6
+msgid "Add embedded empty lines"
+msgstr "Ychwanegu llinellau gwag wedi'u mewnosod"
+
+#: ../gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:7
+msgid "Add embedded spaces"
+msgstr "Ychwanegu bylchau wedi'u mewnosod"
+
+#: ../gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:8
+msgid "Add leading empty lines"
+msgstr "Ychwanegu llinellau arweiniol gwag"
+
+#: ../gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:9
+msgid "Add leading spaces"
+msgstr "Ychwanegu bylchau arweiniol"
+
+#: ../gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:10
+msgid "Add trailing empty lines"
+msgstr "Ychwanegu llinellau gwag dilynol"
+
+#: ../gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:11
+msgid "Add trailing spaces"
+msgstr "Ychwanegu bylchau dilynol"
+
+#: ../gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:12
+msgid "All _horizontal"
+msgstr "Pob _llorweddol"
+
+#: ../gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:13
+msgid "All _vertical"
+msgstr "Pob _fertigol"
+
+#: ../gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:14
+msgid "Count em_pty lines"
+msgstr "Cyfri llinellau _gwag"
+
+#: ../gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:15
+msgid "Count empty lines"
+msgstr "Cyfri llinellau gwag"
+
+#: ../gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:16
+msgid "E_mbedded"
+msgstr "Wedi _Mewnosod"
+
+#: ../gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:17
+msgid "Lea_ding"
+msgstr "_Arweiniol"
+
+#: ../gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:18
+msgid "Screen Review Preferences"
+msgstr "Hoffterau Adolygu Sgrin"
+
+#: ../gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:19
+msgid "T_railing"
+msgstr "_Dilynol"
+
+#: ../gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:20
+msgid "_All flags"
+msgstr "_Pob baner"
+
+#: ../gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:21
+msgid "_Embedded"
+msgstr "Wedi'u _Mewnosod"
+
+#: ../gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:22
+msgid "_Leading"
+msgstr "_Arweiniol"
+
+#: ../gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:23
+msgid "_Trailing"
+msgstr "_Dilynol"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:2
+#, no-c-format
+msgid "%"
+msgstr "%"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:4
+msgid "<b><></b>"
+msgstr "<b><></b>"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:5
+msgid "<b>Absolute Value</b>"
+msgstr "<b>Gwerth Absoliwt</b>"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:6
+msgid "<b>Driver</b>"
+msgstr "<b>Gyrrydd</b>"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:7
+msgid "<b>Properties</b>"
+msgstr "<b>Priodweddau</b>"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:8
+msgid "<b>Punctuation</b>"
+msgstr "<b>Atalnodau</b>"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:9
+msgid "<b>Relative Values</b>"
+msgstr "<b>Gwerthoedd Cymharol</b>"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:10
+msgid "<b>Text Echo</b>"
+msgstr "<b>Adlais Testun</b>"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:11
+msgid "<b>Voice</b>"
+msgstr "<b>Llais</b>"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:12
+msgid "<b>_Dictionary</b>"
+msgstr "<b>_Geiriadur</b>"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:13
+msgid "<b>_Replacement:</b>"
+msgstr "<b>_Amnewidiad:</b>"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:14
+msgid "<b>_Voice list</b>"
+msgstr "<b>Rhestr _lleisiau</b>"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:15
+msgid "<b>_Word:</b>"
+msgstr "<b>_Gair:</b>"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:16
+msgid "A_ll"
+msgstr "_Pob"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:17
+msgid "Activate pitch"
+msgstr "Gweithredu traw"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:18
+msgid "Activate rate"
+msgstr "Gweithredu cyfradd"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:19
+msgid "Activate volume"
+msgstr "Gweithredu lefel sain"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:20
+msgid "Add / Modify Dictionary Entry"
+msgstr "Ychwanegu / Newid Cofnod Geiriadur"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:21
+msgid "Add / Modify Voice"
+msgstr "Ychwanegu / Newid Llais"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:22
+msgid "Add new item in voices list"
+msgstr "Ychwanegu eitem newydd yn y rhestr lleisiau"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:23
+msgid "Add new word in dictionary"
+msgstr "Ychwanegu gair newydd i'r geiriadur"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:24
+msgid ""
+"Change for all voices the engine driver and the engine speaker with a "
+"selected driver and speaker"
+msgstr ""
+"Newid, ar gyfer pob llais, y gyrrydd peiriant a'r seinydd peiriant efo "
+"gyrrydd a seinydd dewisedig"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:25
+msgid "Charac_ter"
+msgstr "_Nod"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:26
+msgid "Count sym_bols"
+msgstr "Cyfri _symbolau"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:27
+msgid "Count symbols"
+msgstr "Cyfri symbolau"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:28
+msgid "Decrease pitch"
+msgstr "Gostwng traw"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:29
+msgid "Decrease rate"
+msgstr "Gostwng cyfradd"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:30
+msgid "Decrease volume"
+msgstr "Gostwng lefel sain"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:31
+msgid "Dictionary"
+msgstr "Geiriadur"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:32
+msgid "Dictionary list"
+msgstr "Rhestr geiriaduron"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:33
+msgid "Do not speak text"
+msgstr "Peidio dweud testun"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:34
+msgid "Edit A_bsolute..."
+msgstr "Golygu A_bsoliwt..."
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:35
+msgid "Edit Absolute Voice Values"
+msgstr "Golygu Gwerthoedd Llais Absoliwt"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:36
+msgid "Edit R_elative..."
+msgstr "Golygu P_erthynol..."
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:37
+msgid "Edit Relative Voice Values"
+msgstr "Golygu Gwerthoedd Llais Perthynol"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:38
+msgid "Edit dictionary"
+msgstr "Golygu geiriadur"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:39
+msgid "Edit parameter values absolutely"
+msgstr "Golygu gwerthoedd paramedr yn absoliwt"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:40
+msgid "Edit parameter values relatively"
+msgstr "Golygu gwerthoedd paramedr yn berthynol"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:41
+msgid "Engine _driver:"
+msgstr "_Gyrrydd peiriant:"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:42
+msgid "Engine _speaker:"
+msgstr "_Seinydd peiriant:"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:43
+msgid "Engine driver"
+msgstr "Gyrrydd peiriant"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:44
+msgid "Engine speaker"
+msgstr "Seinydd peiriant"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:45
+msgid "Gnopernicus system voice"
+msgstr "Llais system Gnopernicus"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:46
+msgid "Hz"
+msgstr "Hz"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:47
+msgid "Ignore all punctuation"
+msgstr "Anwybyddu pob atalnod"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:48
+msgid "Increase pitch"
+msgstr "Cynyddu traw"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:49
+msgid "Increase rate"
+msgstr "Cynyddu cyfradd"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:50
+msgid "Increase volume"
+msgstr "Cynyddu lefel sain"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:51
+msgid "Made pitch sensitive for changing"
+msgstr "Wedi gwneud y traw yn sensitif i newid"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:52
+msgid "Made rate sensitive for changing"
+msgstr "Wedi gwneud y gyfradd yn sensitif i newid"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:53
+msgid "Made volume sensitive for changing"
+msgstr "Wedi gwneud y lefel sain yn sensitif i newid"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:54
+msgid "Modify selected voice"
+msgstr "Newid y llais dewisedig"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:55
+msgid "Modify word"
+msgstr "Newid y gair"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:56
+#: ../gnopi/spvoiceui.c:2076
+msgid "Pitch"
+msgstr "Traw"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:57
+#: ../gnopi/spvoiceui.c:2068
+msgid "Rate"
+msgstr "Cyfradd"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:58
+msgid "Remove selected voice from voices list"
+msgstr "Tynnu'r llais dewisedig o'r rhestr lleisiau"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:59
+msgid "Remove word from dictionary"
+msgstr "Tynnu'r gair o'r geiriadur"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:60
+msgid "Replecement"
+msgstr "Amnewidiad"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:61
+msgid "Sa_y all navigation keys"
+msgstr "_Dweud pob bysell llywio"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:62
+msgid "Say all modi_fiers"
+msgstr "Dweud pob _addasydd"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:63
+msgid "Say all modifiers"
+msgstr "Dweud pob addasydd"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:64
+msgid "Say all navigation keys"
+msgstr "Dweud pob bysell llywio"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:65
+msgid "Say all s_paces"
+msgstr "Dweud pob _bwlch"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:66
+msgid "Say all spaces"
+msgstr "Dweud pob bwlch"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:67
+msgid "Say text as character"
+msgstr "Dweud y testun fel nod"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:68
+msgid "Say text as word"
+msgstr "Dweud y testun fel gair"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:69
+msgid "Set voices and the voice parameters"
+msgstr "Gosod lleisiau a pharamedrau lleisiau"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:70
+msgid "Show all punctuation"
+msgstr "Dangos pob atalnod"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:71
+msgid "Show most punctuation"
+msgstr "Dangos y rhan fwyaf o atalnodau"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:72
+msgid "Show some punctuation"
+msgstr "Dangos dim atalnodau"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:73
+msgid "Speech Preferences"
+msgstr "Hoffterau Lleferydd"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:74
+msgid "Test selected voice"
+msgstr "Profi'r llais dewisedig"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:75
+msgid "Use dictionary"
+msgstr "Defnyddio geiriadur"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:76
+msgid "Voice _name:"
+msgstr "_Enw llais:"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:77
+msgid "Voice list"
+msgstr "Rhestr lleisiau"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:78
+msgid "Voices"
+msgstr "Lleisiau"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:79
+#: ../gnopi/spvoiceui.c:2060
+msgid "Volume"
+msgstr "Lefel sain"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:80
+msgid "Word to replace"
+msgstr "Y gair i'w amnewid"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:81
+msgid "Word/Min"
+msgstr "Geiriau/Munud"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:82
+msgid "_Dictionary..."
+msgstr "_Geiriadur..."
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:83
+msgid "_Force All Voices to Selected Driver and Speaker"
+msgstr "_Gorfodi Pob Llais i'r Gyrrydd a'r Seinydd Dewisedig"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:84
+msgid "_Ignore"
+msgstr "_Anwybyddu"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:86
+msgid "_Most"
+msgstr "_Rhan fwyaf"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:88
+msgid "_Pitch (Hz)"
+msgstr "_Traw (Hz)"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:89
+msgid "_Pitch:"
+msgstr "_Traw:"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:90
+msgid "_Rate (words/min)"
+msgstr "_Cyfradd (geiriau/munud)"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:91
+msgid "_Rate:"
+msgstr "_Cyfradd:"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:92
+msgid "_Some"
+msgstr "_Rhai"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:93
+msgid "_Test voice"
+msgstr "_Profi'r llais"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:94
+msgid "_Use dictionary"
+msgstr "_Defnyddio geiriadur"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:95
+msgid "_Voices..."
+msgstr "_Lleisiau..."
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:97
+#, no-c-format
+msgid "_Volume (%)"
+msgstr "_Lefel Sain (%)"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:98
+msgid "_Volume:"
+msgstr "_Lefel Sain:"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:99
+msgid "_Word"
+msgstr "_Gair"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:100
+msgid "words/min"
+msgstr "geiriau/munud"
+
+#: ../gnopi/gnopi_files/User_Properties/user_properties.glade2.h:2
+msgid "<b>_Commands list</b>"
+msgstr "<b>Rhestr _orchmynion</b>"
+
+#: ../gnopi/gnopi_files/User_Properties/user_properties.glade2.h:3
+msgid "<b>_Layers list</b>"
+msgstr "<b>Rhestr _haenau</b>"
+
+#: ../gnopi/gnopi_files/User_Properties/user_properties.glade2.h:4
+msgid "<b>_User defined list</b>"
+msgstr "<b>Rhestr wedi ei ddiffinio gan y _defnyddiwr</b>"
+
+#: ../gnopi/gnopi_files/User_Properties/user_properties.glade2.h:5
+msgid "Add Layer Key"
+msgstr "Ychwanegu Bysell Haen"
+
+#: ../gnopi/gnopi_files/User_Properties/user_properties.glade2.h:6
+msgid "Add User Defined Key"
+msgstr "Ychwanegu Bysell Wedi ei Ddiffinio gan y Defnyddiwr"
+
+#: ../gnopi/gnopi_files/User_Properties/user_properties.glade2.h:7
+msgid "Add new item"
+msgstr "Ychwanegu eitem newydd"
+
+#: ../gnopi/gnopi_files/User_Properties/user_properties.glade2.h:8
+msgid "Alt modifier"
+msgstr "Addasydd Alt"
+
+#: ../gnopi/gnopi_files/User_Properties/user_properties.glade2.h:9
+msgid "Command Mapping"
+msgstr "Map Gorchmynion"
+
+#: ../gnopi/gnopi_files/User_Properties/user_properties.glade2.h:10
+msgid "Commands List"
+msgstr "Rhestr Gorchmynion"
+
+#: ../gnopi/gnopi_files/User_Properties/user_properties.glade2.h:11
+msgid "Control modifier"
+msgstr "Addasydd Control"
+
+#: ../gnopi/gnopi_files/User_Properties/user_properties.glade2.h:12
+msgid "Key number"
+msgstr "Rhif bysell"
+
+#: ../gnopi/gnopi_files/User_Properties/user_properties.glade2.h:13
+msgid "Keys list"
+msgstr "Rhestr bysellau"
+
+#: ../gnopi/gnopi_files/User_Properties/user_properties.glade2.h:14
+msgid "Layer command list"
+msgstr "Rhestr gorchmynion haen"
+
+#: ../gnopi/gnopi_files/User_Properties/user_properties.glade2.h:15
+msgid "Layer number"
+msgstr "Rhif haen"
+
+#: ../gnopi/gnopi_files/User_Properties/user_properties.glade2.h:16
+msgid "Layers"
+msgstr "Haenau"
+
+#: ../gnopi/gnopi_files/User_Properties/user_properties.glade2.h:17
+msgid "List of gnopernicus commands"
+msgstr "Rhestr o orchmynion gnopernicus"
+
+#: ../gnopi/gnopi_files/User_Properties/user_properties.glade2.h:18
+msgid "Modify command for the selected item"
+msgstr "Addasu'r gorchymyn ar gyfer yr eitem ddewisedig"
+
+#: ../gnopi/gnopi_files/User_Properties/user_properties.glade2.h:19
+msgid "Remove selected item"
+msgstr "Tynnu'r eitem ddewisedig"
+
+#: ../gnopi/gnopi_files/User_Properties/user_properties.glade2.h:20
+msgid "Shift modifier"
+msgstr "Addasydd Shift"
+
+#: ../gnopi/gnopi_files/User_Properties/user_properties.glade2.h:21
+msgid "User Defined"
+msgstr "Diffiniwyd Gan y Defnyddiwr"
+
+#: ../gnopi/gnopi_files/User_Properties/user_properties.glade2.h:22
+msgid "User defined commands list."
+msgstr "Rhestr gorchmynion wedi ei ddiffinio gan y defnyddiwr."
+
+#: ../gnopi/gnopi_files/User_Properties/user_properties.glade2.h:23
+msgid "_Alt"
+msgstr "_Alt"
+
+#: ../gnopi/gnopi_files/User_Properties/user_properties.glade2.h:24
+msgid "_Ctrl"
+msgstr "_Ctrl"
+
+#: ../gnopi/gnopi_files/User_Properties/user_properties.glade2.h:25
+msgid "_Key:"
+msgstr "_Bysell:"
+
+#: ../gnopi/gnopi_files/User_Properties/user_properties.glade2.h:26
+msgid "_Layer:"
+msgstr "_Haen:"
+
+#: ../gnopi/gnopi_files/User_Properties/user_properties.glade2.h:27
+msgid "_Modifier keys:"
+msgstr "Bysellau _addasu:"
+
+#: ../gnopi/gnopi_files/User_Properties/user_properties.glade2.h:29
+msgid "_Shift"
+msgstr "_Shift"
+
+#: ../gnopi/gnopi_files/about.glade2.h:1
+msgid "Screen Reader and Magnifier for the GNOME Desktop"
+msgstr "Darllenwr a Chwyddwr Sgrin ar gyfer penbwrdd GNOME"
+
+#: ../gnopi/gnopi_files/about.glade2.h:2
+msgid "translator-credits"
+msgstr ""
+"Dafydd Tomos <l10n@da.fydd.org>\n"
+"Rhys Jones <rhys@sucs.org>"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:1
+msgid ""
+"<b>Gnopernicus has detected that the assistive technology \n"
+"support is not enabled.</b>\n"
+msgstr ""
+"<b>Mae Gnopernicus wedi synhwyro fod y technolegau cynorthwyol \n"
+"heb eu galluogi.</b>\n"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:4
+msgid "About"
+msgstr "Ynghylch"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:5 ../srcore/srpres.c:812
+msgid "Alert"
+msgstr "Rhybudd"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:6
+msgid "Braille device preferences"
+msgstr "Hoffterau dyfais Braille"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:7
+msgid "Braille monitor preferences"
+msgstr "Hoffterau monitor Braille"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:8
+msgid "Close preferences"
+msgstr "Cau hoffterau"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:9
+msgid "Command mapping"
+msgstr "Map gorchmynion"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:10
+msgid "Do you want to enable the assistive technology support?"
+msgstr "Ydych chi eisiau galluogi cynhaliaeth technoleg gynorthwyol?"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:11
+msgid "Exit from gnopernicus"
+msgstr "Gadael gnopernicus"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:12
+msgid "Find on screen"
+msgstr "Canfod ar y sgrin"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:13
+msgid "Gnopernicus"
+msgstr "Gnopernicus"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:14
+msgid "Gnopernicus usage help"
+msgstr "Cymorth defnydd Gnopernicus"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:15
+msgid "Iconify menu"
+msgstr "Eiconeiddio'r ddewislen"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:16
+msgid "Load default preferences"
+msgstr "Llwytho hoffterau rhagosod"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:17
+msgid "Magnifier preferences"
+msgstr "Hoffterau chwyddwr"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:18
+msgid "Mouse preferences"
+msgstr "Hoffterau llygoden"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:19
+msgid "Preferences"
+msgstr "Hoffterau"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:20
+msgid "Preferences..."
+msgstr "Hoffterau..."
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:21 ../srcore/srspc.c:1042
+msgid "Question"
+msgstr "Cwestiwn"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:22
+msgid "Role presentation"
+msgstr "Cyflwyniad rôl"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:23
+msgid "Screen review"
+msgstr "Adolygiad sgrin"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:24
+msgid "Speech preferences"
+msgstr "Hoffterau lleferydd"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:25
+msgid "Startup mode..."
+msgstr "Modd cychwyn..."
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:26
+msgid ""
+"You will have to log out for the change to take effect.\n"
+"Do you want to log out now? "
+msgstr ""
+"Fe fydd yn rhaid i chi allgofnodi cyn i'r newid ddigwydd.\n"
+"A hoffech chi allgofnodi nawr?"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:28
+msgid "_1 Speech"
+msgstr "_1 Lleferydd"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:29
+msgid "_1 Startup Mode..."
+msgstr "_1 Modd Cychwyn..."
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:30
+msgid "_2 Braille"
+msgstr "_2 Braille"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:31
+msgid "_2 Preferences..."
+msgstr "_2 Hoffterau..."
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:32
+msgid "_3 Default Preferences..."
+msgstr "_3 Hoffterau Rhagosod..."
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:34
+msgid "_4 Minimize"
+msgstr "_4 Lleihau"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:35
+msgid "_4 Mouse"
+msgstr "_4 Llygoden"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:37
+msgid "_5 Help"
+msgstr "_5 Cymorth"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:38
+msgid "_6 About"
+msgstr "_6 Ynghylch"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:39
+msgid "_6 Command Mapping"
+msgstr "_6 Map Gorchmynion"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:40
+msgid "_7 Presentation"
+msgstr "_7 Cyflwyniad"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:41
+msgid "_8 Screen Review"
+msgstr "_8 Adolygiad Sgrin"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:42
+msgid "_9 Search"
+msgstr "_9 Chwilio"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:43
+msgid "_Don't Enable Support"
+msgstr "_Peidio Galluogi Cynhaliaeth"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:44
+msgid "_Enable Support"
+msgstr "_Galluogi Cynhaliaeth"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:45
+msgid "_Quit"
+msgstr "_Gadael"
+
+#: ../gnopi/gnopiconf.c:409 ../gnopi/gnopiconf.c:427
+#, c-format
+msgid "Failed to set value: %f."
+msgstr "Methwyd gosod gwerth: %f."
+
+#: ../gnopi/gnopiconf.c:733
+msgid "Failed to set value."
+msgstr "Methwyd gosod gwerth."
+
+#: ../gnopi/gnopiui.c:73 ../gnopi/gnopiui.c:87 ../gnopi/gnopiui.c:99
+#: ../gnopi/gnopiui.c:105
+msgid "We could not load the interface!"
+msgstr "Ni allom lwytho'r rhyngwyneb!"
+
+#: ../gnopi/magui.c:74
+msgid "default"
+msgstr "rhagosod"
+
+#: ../gnopi/magui.c:472
+msgid ""
+"Can NOT remove zoomer because multiple zoomers are not supported in this "
+"version."
+msgstr ""
+"NI ellir tynnu'r chwyddwr oherwydd ni chynhelir sawl chwyddwr yn y fersiwn "
+"hwn."
+
+#: ../gnopi/magui.c:673
+msgid "Zoomers"
+msgstr "Chwyddwyr"
+
+#: ../gnopi/magui.c:1604
+#, c-format
+msgid "Zoomer Options (%s)"
+msgstr "Opsiynau Chwyddwr (%s)"
+
+#: ../gnopi/spconf.c:341
+msgid "Failed to set dictionary changes."
+msgstr "Methwyd gosod newidiadau geiriadur."
+
+#: ../gnopi/spconf.c:349
+msgid "Failed to set removed voice value."
+msgstr "Methwyd gosod gwerth llais a dynnwyd."
+
+#: ../gnopi/spconf.c:359
+#, c-format
+msgid "Failed to set count: %s."
+msgstr "Methwyd gosod cyfri: %s."
+
+#: ../gnopi/spconf.c:368
+#, c-format
+msgid "Failed to set Punctuation: %s."
+msgstr "Methwyd gosod Atalnodau: %s."
+
+#: ../gnopi/spconf.c:377
+#, c-format
+msgid "Failed to set text echo value: %s."
+msgstr "Methwyd gosod gwerth adlais testun: %s."
+
+#: ../gnopi/spconf.c:386
+#, c-format
+msgid "Failed to set modifiers value: %s."
+msgstr "Methwyd gosod gwerth addaswyr: %s."
+
+#: ../gnopi/spconf.c:395
+#, c-format
+msgid "Failed to set cursors value: %s."
+msgstr "Methwyd gosod gwerth cyrchwyr: %s."
+
+#: ../gnopi/spconf.c:404
+#, c-format
+msgid "Failed to set spaces value: %s."
+msgstr "Methwyd gosod gwerth bylchau: %s."
+
+#: ../gnopi/spconf.c:413
+#, c-format
+msgid "Failed to set dictionary value: %s."
+msgstr "Methwyd gosod gwerth geiriadur: %s."
+
+#: ../gnopi/spconf.c:422
+#, c-format
+msgid "Failed to set testable voice %s."
+msgstr "Methwyd gosod llais profiadwy %s."
+
+#: ../gnopi/spconf.c:614
+#, c-format
+msgid "%s no name"
+msgstr "%s dim enw"
+
+#: ../gnopi/spdictui.c:79
+msgid "Invalid word or replacer!"
+msgstr "Gair neu amnewidydd annilys!"
+
+# TRWSIO
+#: ../gnopi/spdictui.c:85
+msgid "Word exists in dictionary!"
+msgstr "Gair yn bodoli yn y geiriadur!"
+
+#: ../gnopi/spdictui.c:271 ../gnopi/spdictui.c:324
+msgid "No selected word to modify!"
+msgstr "Dim gair dewisedig i'w newid!"
+
+#: ../gnopi/spdictui.c:298
+msgid "No selected word to remove!"
+msgstr "Dim geiriau dewisedig i'w tynnu!"
+
+#: ../gnopi/spdictui.c:447
+msgid "Word"
+msgstr "Gair"
+
+#: ../gnopi/spdictui.c:456
+msgid "Replacer"
+msgstr "Amnewidydd"
+
+#: ../gnopi/spvoiceui.c:32
+msgid "<all drivers>"
+msgstr "<pob gyrrwr>"
+
+#: ../gnopi/spvoiceui.c:33
+msgid "<all voices>"
+msgstr "<pob llais>"
+
+#: ../gnopi/spvoiceui.c:296
+msgid "Invalid voice!"
+msgstr "Llais annilys!"
+
+#: ../gnopi/spvoiceui.c:1217
+msgid "Invalid driver or voice!"
+msgstr "Gyrrwr neu lais annilys!"
+
+#: ../gnopi/spvoiceui.c:1657
+msgid "No selected voice to modify!"
+msgstr "Dim llais dewisedig i'w newid!"
+
+#: ../gnopi/spvoiceui.c:1716
+msgid "No selected voice to remove!"
+msgstr "Dim llai dewisedig i'w dynnu!"
+
+#: ../gnopi/spvoiceui.c:1793
+msgid "No selected voice to test!"
+msgstr "Dim llais dewisedig i'w brofi!"
+
+#: ../gnopi/spvoiceui.c:2034
+msgid "Voice"
+msgstr "Llais"
+
+#: ../gnopi/spvoiceui.c:2043
+msgid "Driver"
+msgstr "Gyrrwr"
+
+#: ../gnopi/spvoiceui.c:2052
+msgid "Speaker"
+msgstr "Seinydd"
+
+#. To translators: This is the military phonetic alphabet
+#. Be sure to remove "Phonetic|" from each string
+#: ../speech/libsrs/srs-speech.c:303
+msgid "Phonetic|Alpha"
+msgstr "Aled"
+
+#: ../speech/libsrs/srs-speech.c:304
+msgid "Phonetic|Bravo"
+msgstr "Bethan"
+
+#: ../speech/libsrs/srs-speech.c:305
+msgid "Phonetic|Charlie"
+msgstr "Carys"
+
+#: ../speech/libsrs/srs-speech.c:306
+msgid "Phonetic|Delta"
+msgstr "Delyth"
+
+#: ../speech/libsrs/srs-speech.c:307
+msgid "Phonetic|Echo"
+msgstr "Eluned"
+
+#: ../speech/libsrs/srs-speech.c:308
+msgid "Phonetic|Foxtrot"
+msgstr "Ffredrig"
+
+#: ../speech/libsrs/srs-speech.c:309
+msgid "Phonetic|Golf"
+msgstr "Geraint"
+
+#: ../speech/libsrs/srs-speech.c:310
+msgid "Phonetic|Hotel"
+msgstr "Heledd"
+
+#: ../speech/libsrs/srs-speech.c:311
+msgid "Phonetic|India"
+msgstr "Iestyn"
+
+#: ../speech/libsrs/srs-speech.c:312
+msgid "Phonetic|Juliet"
+msgstr "Juliet"
+
+#: ../speech/libsrs/srs-speech.c:313
+msgid "Phonetic|Kilo"
+msgstr "Kevin"
+
+#: ../speech/libsrs/srs-speech.c:314
+msgid "Phonetic|Lima"
+msgstr "Lowri"
+
+#: ../speech/libsrs/srs-speech.c:315
+msgid "Phonetic|Mike"
+msgstr "Mabon"
+
+#: ../speech/libsrs/srs-speech.c:316
+msgid "Phonetic|November"
+msgstr "Nerys"
+
+#: ../speech/libsrs/srs-speech.c:317
+msgid "Phonetic|Oscar"
+msgstr "Osian"
+
+#: ../speech/libsrs/srs-speech.c:318
+msgid "Phonetic|Papa"
+msgstr "Pwyll"
+
+#: ../speech/libsrs/srs-speech.c:319
+msgid "Phonetic|Quebec"
+msgstr "Quebec"
+
+#: ../speech/libsrs/srs-speech.c:320
+msgid "Phonetic|Romeo"
+msgstr "Rhys"
+
+#: ../speech/libsrs/srs-speech.c:321
+msgid "Phonetic|Sierra"
+msgstr "Siwan"
+
+#: ../speech/libsrs/srs-speech.c:322
+msgid "Phonetic|Tango"
+msgstr "Tomos"
+
+#: ../speech/libsrs/srs-speech.c:323
+msgid "Phonetic|Uniform"
+msgstr "Unffurf"
+
+#: ../speech/libsrs/srs-speech.c:324
+msgid "Phonetic|Victor"
+msgstr "Victor"
+
+#: ../speech/libsrs/srs-speech.c:325
+msgid "Phonetic|Whiskey"
+msgstr "Wiliam"
+
+#: ../speech/libsrs/srs-speech.c:326
+msgid "Phonetic|Xray"
+msgstr "Xray"
+
+#: ../speech/libsrs/srs-speech.c:327
+msgid "Phonetic|Yankee"
+msgstr "Yankee"
+
+#: ../speech/libsrs/srs-speech.c:328
+msgid "Phonetic|Zulu"
+msgstr "Zulu"
+
+#: ../speech/libsrs/srs-speech.c:329 ../srcore/srspc.c:1822
+msgid "space"
+msgstr "bwlch"
+
+#: ../speech/libsrs/srs-speech.c:330
+msgid "tab"
+msgstr "tab"
+
+#: ../speech/libsrs/srs-speech.c:331
+msgid "new line"
+msgstr "llinell newydd"
+
+#: ../speech/libsrs/srs-speech.c:332
+msgid "dash"
+msgstr "llinell"
+
+#. To translators: this should be as short as possible
+#: ../speech/libsrs/srs-speech.c:384
+msgid "cap"
+msgstr "cap"
+
+#: ../srconf/libsrconf/libsrconf.c:454
+#, c-format
+msgid "Failed to access configuration source(s): %s\n"
+msgstr "Methwyd cael mynediad i'r ffynhonnell/ffynonellau cyfluniad: %s\n"
+
+#: ../srconf/libsrconf/libsrconf.c:467
+#, c-format
+msgid "Failed to add notify: %s"
+msgstr "Methwyd ychwanegu hysbysiad: %s"
+
+#: ../srconf/libsrconf/libsrconf.c:521
+msgid "Failed to remove directory."
+msgstr "Methwyd tynnu'r geiriadur."
+
+#: ../srconf/libsrconf/libsrconf.c:865
+msgid "Failed to set configdata."
+msgstr "Methwyd gosod data cyflunio."
+
+#: ../srconf/libsrconf/libsrconf.c:939
+msgid "Failed set data."
+msgstr "Methwyd gosod data."
+
+#  FIXME end
+#. translators: a single whitespace or suitable delimiter between 'words', if appropriate
+#. translators: the letter ' ' (space), in parentheses.
+#: ../srcore/default.xml.in.h:3 ../srcore/verbose.xml.in.h:3
+msgid "( )"
+msgstr "( )"
+
+#. translators: the letter 'C' for "checked", in parentheses.
+#: ../srcore/default.xml.in.h:5 ../srcore/verbose.xml.in.h:5
+msgid "(C)"
+msgstr "(C)"
+
+#. translators: the letter 'E' for "expanded", in parentheses.
+#: ../srcore/default.xml.in.h:7 ../srcore/verbose.xml.in.h:7
+msgid "(E)"
+msgstr "(E)"
+
+#. translators: the letter 'P' for "[button] pressed", in parentheses.
+#: ../srcore/default.xml.in.h:9 ../srcore/verbose.xml.in.h:9
+msgid "(P)"
+msgstr "(P)"
+
+#. translators: the letter 'U', for "unavailable", in parentheses.
+#: ../srcore/default.xml.in.h:11 ../srcore/verbose.xml.in.h:11
+msgid "(U)"
+msgstr "(U)"
+
+#. translators: the letter 'c' for "collapsed", in parentheses.
+#: ../srcore/default.xml.in.h:13 ../srcore/verbose.xml.in.h:13
+msgid "(c)"
+msgstr "(c)"
+
+#. translators: the letter 'm' for "minimized", in parentheses.
+#: ../srcore/default.xml.in.h:15 ../srcore/verbose.xml.in.h:15
+msgid "(m)"
+msgstr "(m)"
+
+#. translators: the letter 'n' for "not minimized", in parentheses.
+#: ../srcore/default.xml.in.h:17 ../srcore/verbose.xml.in.h:17
+msgid "(n)"
+msgstr "(n)"
+
+#: ../srcore/default.xml.in.h:18 ../srcore/verbose.xml.in.h:18
+msgid "Give maximum speech and braille output."
+msgstr "Rhoi allbwn llawn i'r llais a braille"
+
+#. translators: 'keyboard accelerator'
+#: ../srcore/default.xml.in.h:21 ../srcore/verbose.xml.in.h:21
+msgid "accelerator"
+msgstr "cyflymydd"
+
+#: ../srcore/default.xml.in.h:22 ../srcore/verbose.xml.in.h:22
+msgid "available"
+msgstr "ar gael"
+
+#. translators: "checked" as in "checkbox is checked"
+#: ../srcore/default.xml.in.h:24 ../srcore/verbose.xml.in.h:24
+msgid "checked"
+msgstr "wedi dewis"
+
+#: ../srcore/default.xml.in.h:25 ../srcore/verbose.xml.in.h:25
+msgid "closing tab"
+msgstr "cau tab"
+
+#: ../srcore/default.xml.in.h:26 ../srcore/verbose.xml.in.h:26
+msgid "closing window"
+msgstr "cau ffenest"
+
+#: ../srcore/default.xml.in.h:27 ../srcore/verbose.xml.in.h:27
+msgid "collapsed"
+msgstr "wedi ymgwympo"
+
+#: ../srcore/default.xml.in.h:28 ../srcore/verbose.xml.in.h:28
+msgid "column header"
+msgstr "pennyn colofn"
+
+#: ../srcore/default.xml.in.h:29 ../srcore/verbose.xml.in.h:29
+msgid "create tab"
+msgstr "creu tab"
+
+#: ../srcore/default.xml.in.h:30 ../srcore/verbose.xml.in.h:30
+msgid "create window"
+msgstr "creu ffenest"
+
+# TRWSIO
+#: ../srcore/default.xml.in.h:31 ../srcore/verbose.xml.in.h:31
+msgid "current value"
+msgstr "gwerth presennol"
+
+#: ../srcore/default.xml.in.h:32 ../srcore/srctrl.c:2669
+#: ../srcore/verbose.xml.in.h:32
+msgid "empty line"
+msgstr "llinell wag"
+
+#: ../srcore/default.xml.in.h:33 ../srcore/verbose.xml.in.h:33
+msgid "expanded"
+msgstr "wedi ehangu"
+
+#: ../srcore/default.xml.in.h:34 ../srcore/srctrl.c:2258
+#: ../srcore/srctrl.c:2409 ../srcore/verbose.xml.in.h:34
+msgid "item"
+msgid_plural "items"
+msgstr[0] "eitem"
+msgstr[1] "eitemau"
+
+#: ../srcore/default.xml.in.h:35 ../srcore/verbose.xml.in.h:35
+msgid "items"
+msgstr "eitemau"
+
+#: ../srcore/default.xml.in.h:36 ../srcore/verbose.xml.in.h:36
+msgid "level"
+msgstr "lefel"
+
+#: ../srcore/default.xml.in.h:37 ../srcore/verbose.xml.in.h:37
+msgid "maximize window"
+msgstr "mwyhau ffenest"
+
+#: ../srcore/default.xml.in.h:38 ../srcore/verbose.xml.in.h:38
+msgid "minimize window"
+msgstr "lleihau ffenest"
+
+#: ../srcore/default.xml.in.h:39 ../srcore/verbose.xml.in.h:39
+msgid "minimized"
+msgstr "wedi lleihau"
+
+#: ../srcore/default.xml.in.h:40 ../srcore/verbose.xml.in.h:40
+msgid "no selection anymore"
+msgstr "dim wedi ei ddewis mwyach"
+
+#: ../srcore/default.xml.in.h:41 ../srcore/verbose.xml.in.h:41
+msgid "normal"
+msgstr "arferol"
+
+#: ../srcore/default.xml.in.h:42 ../srcore/verbose.xml.in.h:42
+msgid "pressed"
+msgstr "wedi gwasgu"
+
+#: ../srcore/default.xml.in.h:43 ../srcore/verbose.xml.in.h:43
+msgid "rename window"
+msgstr "ailenwi ffenest"
+
+#: ../srcore/default.xml.in.h:44 ../srcore/verbose.xml.in.h:44
+msgid "restore window"
+msgstr "adfer ffenest"
+
+#: ../srcore/default.xml.in.h:45 ../srcore/verbose.xml.in.h:45
+msgid "row header"
+msgstr "pennyn rhes"
+
+#: ../srcore/default.xml.in.h:46 ../srcore/verbose.xml.in.h:46
+msgid "selected"
+msgstr "dewiswyd"
+
+#. translators: 'keyboard shortcut'
+#: ../srcore/default.xml.in.h:48 ../srcore/verbose.xml.in.h:48
+msgid "shortcut"
+msgstr "byrlwybr"
+
+#: ../srcore/default.xml.in.h:49 ../srcore/verbose.xml.in.h:49
+msgid "show tool tip"
+msgstr "Dangos brysgymorth"
+
+#: ../srcore/default.xml.in.h:50 ../srcore/verbose.xml.in.h:50
+msgid "switch tab"
+msgstr "newid tab"
+
+#: ../srcore/default.xml.in.h:51 ../srcore/verbose.xml.in.h:51
+msgid "switch to"
+msgstr "newid i"
+
+#: ../srcore/default.xml.in.h:52 ../srcore/verbose.xml.in.h:52
+msgid "switch to window"
+msgstr "newid i ffenest"
+
+#: ../srcore/default.xml.in.h:53 ../srcore/verbose.xml.in.h:53
+msgid "titleize window"
+msgstr "gwneud ffenest yn deitl"
+
+#: ../srcore/default.xml.in.h:54 ../srcore/verbose.xml.in.h:54
+msgid "unavailable"
+msgstr "ddim ar gael"
+
+#. translators: "checkbox is unchecked"
+#: ../srcore/default.xml.in.h:56 ../srcore/verbose.xml.in.h:56
+msgid "unchecked"
+msgstr "heb ei ddewis"
+
+#: ../srcore/default.xml.in.h:57 ../srcore/verbose.xml.in.h:57
+msgid "unpressed"
+msgstr "heb ei wasgu"
+
+#: ../srcore/default.xml.in.h:58 ../srcore/verbose.xml.in.h:58
+msgid "unselected"
+msgstr "dad-ddewiswyd"
+
+#: ../srcore/srctrl.c:1012
+msgid "no parent"
+msgstr "dim rhiant"
+
+#: ../srcore/srctrl.c:1036
+msgid "no children"
+msgstr "dim plant"
+
+#: ../srcore/srctrl.c:1069
+msgid "no next"
+msgstr "dim nesaf"
+
+#: ../srcore/srctrl.c:1185
+msgid "Cannot find next text!"
+msgstr "Ni ellir canfod y testun nesaf!"
+
+#: ../srcore/srctrl.c:1196
+msgid "Cannot find next image!"
+msgstr "Ni ellir canfod y ddelwedd nesaf!"
+
+#: ../srcore/srctrl.c:1207
+msgid "Cannot find next attributes!"
+msgstr "Ni ellir canfod y priodweddau nesaf!"
+
+#: ../srcore/srctrl.c:1296
+msgid "no previous"
+msgstr "dim cynt"
+
+#: ../srcore/srctrl.c:1340
+msgid "added watch for current object"
+msgstr "ychwanegwyd gwylio i'r gwrthrych cyfredol"
+
+#: ../srcore/srctrl.c:1341
+msgid "cannot add watch for current object"
+msgstr "ni ellir ychwanegu gwylio i'r gwrthrych cyfredol"
+
+#: ../srcore/srctrl.c:1366
+msgid "no caret"
+msgstr "dim caret"
+
+#: ../srcore/srctrl.c:1387
+msgid "already on first"
+msgstr "ar y cyntaf eisoes"
+
+#: ../srcore/srctrl.c:1408
+msgid "already on last"
+msgstr "ar yr olaf eisoes"
+
+#: ../srcore/srctrl.c:1421
+msgid "now navigating in application"
+msgstr "yn awr yn llywio yn y rhaglen"
+
+#: ../srcore/srctrl.c:1425
+msgid "now navigating in desktop"
+msgstr "yn awr yn llywio yn y penbwrdd"
+
+#: ../srcore/srctrl.c:1429
+msgid "now navigating in window"
+msgstr "yn awr yn llywio yn y ffenest"
+
+#: ../srcore/srctrl.c:1522
+msgid "no focus"
+msgstr "dim ffocws"
+
+#: ../srcore/srctrl.c:1562
+msgid "no title"
+msgstr "dim teitl"
+
+#: ../srcore/srctrl.c:1583
+msgid "no menu bar"
+msgstr "dim bar dewislen"
+
+#: ../srcore/srctrl.c:1606
+msgid "no tool bar"
+msgstr "dim bar offer"
+
+#: ../srcore/srctrl.c:1630
+msgid "no status bar"
+msgstr "dim bar statws"
+
+#: ../srcore/srctrl.c:2214
+msgid "on"
+msgstr "ymlaen"
+
+#: ../srcore/srctrl.c:2236 ../srcore/srctrl.c:2387
+msgid "from a"
+msgstr "o"
+
+#: ../srcore/srctrl.c:2238 ../srcore/srctrl.c:2394
+msgid "with"
+msgstr "gyda"
+
+#: ../srcore/srctrl.c:2269
+msgid "in a"
+msgstr "mewn"
+
+#: ../srcore/srctrl.c:2272
+msgid "named "
+msgstr "wedi enwi"
+
+#: ../srcore/srctrl.c:2274
+msgid "with no name"
+msgstr "heb enw"
+
+#: ../srcore/srctrl.c:2288
+msgid "of application"
+msgstr "o'r rhaglen"
+
+#: ../srcore/srctrl.c:2375
+msgid "on a"
+msgstr "ar"
+
+#: ../srcore/srctrl.c:2629
+msgid "first line"
+msgstr "llinell gyntaf"
+
+#: ../srcore/srctrl.c:2636
+msgid "last line"
+msgstr "llinell olaf"
+
+#: ../srcore/srctrl.c:2644 ../srcore/srctrl.c:2646
+msgid "[first line]"
+msgstr "[llinell gyntaf]"
+
+#: ../srcore/srctrl.c:2651 ../srcore/srctrl.c:2653
+msgid "[last line]"
+msgstr "[llinell olaf]"
+
+#: ../srcore/srctrl.c:2676
+#, c-format
+msgid "%d empty line"
+msgid_plural "%d empty lines"
+msgstr[0] "%d llinell wag"
+msgstr[1] "%d o linellau gwag"
+
+#: ../srcore/srctrl.c:2697 ../srcore/srctrl.c:2699
+msgid "[empty line]"
+msgstr "[llinell wag]"
+
+#: ../srcore/srctrl.c:2704
+#, c-format
+msgid "[%d empty line]"
+msgid_plural "[%d empty lines]"
+msgstr[0] "[%d llinell wag]"
+msgstr[1] "[%d o linellau gwag]"
+
+#: ../srcore/srctrl.c:2786 ../srcore/srctrl.c:2787 ../srcore/srctrl.c:2795
+#: ../srcore/srctrl.c:2950 ../srcore/srctrl.c:2951
+msgid "cannot make flat review for current window"
+msgstr "ni ellir gwneud adolygiad fflat ar gyfer y ffenest gyfredol"
+
+#: ../srcore/srctrl.c:3022
+msgid "flat review mode"
+msgstr "modd adolygu fflat"
+
+#: ../srcore/srctrl.c:3038
+msgid "focus tracking mode"
+msgstr "modd dilyn ffocws"
+
+#: ../srcore/srctrl.c:3577
+#, c-format
+msgid "\"%s\" entry has invalid value at position %d."
+msgstr "mae gan y cofnod \"%s\" werth annilys ger safle %d."
+
+#: ../srcore/srctrl.c:3598
+#, c-format
+msgid "key \"%s\" has an invalid value at position %d."
+msgstr "mae gan y fysell \"%s\" werth annilys ger safle %d."
+
+#: ../srcore/srctrl.c:3634
+msgid "Can not get key pad commands mapping from gconf."
+msgstr "Ni ellir cyrchu map gorchmynion pad rhifau o gconf."
+
+#: ../srcore/srctrl.c:3645
+msgid "Can not get braille display commands mapping from gconf."
+msgstr "Ni ellir cyrchu map gorchmynion dangosydd braille o gconf."
+
+#: ../srcore/srctrl.c:3656
+msgid "Can not get user defined commands mapping from gconf."
+msgstr "Ni ellir cyrchu map gorchmynion diffiniwyd gan y defnyddiwr o gconf."
+
+#: ../srcore/srctrl.c:3760
+msgid "no role available"
+msgstr "dim rôl ar gael"
+
+#: ../srcore/srmain.c:77 ../srcore/srmain.c:80
+msgid "No focus"
+msgstr "Dim ffocws"
+
+#: ../srcore/srmain.c:83
+msgid "No accessible object is focused"
+msgstr "Does dim gwrthrych hygyrch wedi ei ffocysu"
+
+#: ../srcore/srmain.c:466
+msgid "unknown location"
+msgstr "lleoliad anhysbys"
+
+#: ../srcore/srmain.c:503
+msgid "no details"
+msgstr "dim manylion"
+
+#: ../srcore/srmain.c:543
+msgid "layer"
+msgstr "haen"
+
+#: ../srcore/srmain.c:564
+msgid "back to layer"
+msgstr "yn ôl i haen"
+
+#: ../srcore/srmain.c:936
+msgid "cursor on"
+msgstr "cyrchydd ymlaen"
+
+#: ../srcore/srmain.c:936
+msgid "cursor off"
+msgstr "cyrchydd bant"
+
+# TRWSIO
+#: ../srcore/srmain.c:954
+msgid "current cursor is"
+msgstr "mae'r cyrchydd cyfredol yn"
+
+#: ../srcore/srmain.c:972
+msgid "cursor size"
+msgstr "maint cyrchydd"
+
+#: ../srcore/srmain.c:989
+msgid "cursor magnification on"
+msgstr "chwyddo cyrchydd ymlaen"
+
+#: ../srcore/srmain.c:990
+msgid "cursor magnification off"
+msgstr "chwyddo cyrchydd bant"
+
+#: ../srcore/srmain.c:1008
+msgid "cursor color"
+msgstr "lliw cyrchydd"
+
+#: ../srcore/srmain.c:1025
+msgid "crosshair on"
+msgstr "blewyn croes ymlaen"
+
+#: ../srcore/srmain.c:1025
+msgid "crosshair off"
+msgstr "blewyn croes bant"
+
+#: ../srcore/srmain.c:1042
+msgid "crosshair clip on"
+msgstr "clipio blewyn croes ymlaen"
+
+#: ../srcore/srmain.c:1043
+msgid "crosshair clip off"
+msgstr "clipio blewyn croes bant"
+
+#: ../srcore/srmain.c:1061
+msgid "crosshair size"
+msgstr "maint blewyn croes"
+
+#: ../srcore/srmain.c:1079
+msgid "crosshair color"
+msgstr "lliw blewyn croes"
+
+#: ../srcore/srmain.c:1097
+msgid "zoomer placement left"
+msgstr "chwith lleoli chwyddwr"
+
+#: ../srcore/srmain.c:1115
+msgid "zoomer placement top"
+msgstr "pen lleoli chwyddwr"
+
+#: ../srcore/srmain.c:1133
+msgid "zoomer placement width"
+msgstr "lled lleoli chwyddwr"
+
+#: ../srcore/srmain.c:1151
+msgid "zoomer placement height"
+msgstr "uchder lleoli chwyddwr"
+
+#: ../srcore/srmain.c:1181
+msgid "magnifier target"
+msgstr "targed chwyddwr"
+
+#: ../srcore/srmain.c:1199
+msgid "magnifier source"
+msgstr "ffynhonnell chwyddwr"
+
+#: ../srcore/srmain.c:1217
+msgid "zoom factor x"
+msgstr "ffactor chwyddo X"
+
+#: ../srcore/srmain.c:1235
+msgid "zoom factor y"
+msgstr "ffactor chwyddo Y"
+
+#: ../srcore/srmain.c:1252
+msgid "zoom factor locked"
+msgstr "ffactor chwyddo wedi cloi"
+
+#: ../srcore/srmain.c:1253
+msgid "zoom factor unlocked"
+msgstr "ffactor chwyddo heb ei gloi"
+
+#: ../srcore/srmain.c:1270
+msgid "invert on"
+msgstr "gwrthdroi ymlaen"
+
+#: ../srcore/srmain.c:1270
+msgid "invert off"
+msgstr "gwrthdroi bant"
+
+#: ../srcore/srmain.c:1288
+msgid "magnifier smoothing type"
+msgstr "math llyfni chwyddwr"
+
+#: ../srcore/srmain.c:1311
+msgid "mouse tracking mode"
+msgstr "modd dilyn llygoden"
+
+#: ../srcore/srmain.c:1333
+msgid "panning on"
+msgstr "symud ochr ymlaen"
+
+#: ../srcore/srmain.c:1333
+msgid "panning off"
+msgstr "symud ochr bant"
+
+#: ../srcore/srmain.c:1705
+msgid "alt"
+msgstr "alt"
+
+#: ../srcore/srmain.c:1710
+msgid "control"
+msgstr "control"
+
+#: ../srcore/srmain.c:1715
+msgid "shift"
+msgstr "shift"
+
+#: ../srcore/srmain.c:1720 ../srcore/srpres.c:870
+msgid "Window"
+msgstr "Ffenest"
+
+#: ../srcore/srmain.c:1725 ../srcore/srmain.c:1800 ../srcore/srpres.c:836
+msgid "Menu"
+msgstr "Dewislen"
+
+#: ../srcore/srmain.c:1730
+msgid "caps lock"
+msgstr "clo caps"
+
+#: ../srcore/srmain.c:1734
+msgid "num lock"
+msgstr "clo rhif"
+
+#: ../srcore/srmain.c:1742 ../srcore/srmain.c:1786
+msgid "right"
+msgstr "de"
+
+#: ../srcore/srmain.c:1744 ../srcore/srmain.c:1788
+msgid "left"
+msgstr "chwith"
+
+#: ../srcore/srmain.c:1778
+msgid "home"
+msgstr "adref"
+
+#: ../srcore/srmain.c:1780
+msgid "end"
+msgstr "diwedd"
+
+#: ../srcore/srmain.c:1782
+msgid "page up"
+msgstr "tudalen i fyny"
+
+#: ../srcore/srmain.c:1784
+msgid "page down"
+msgstr "tudalen i lawr"
+
+#: ../srcore/srmain.c:1790
+msgid "down"
+msgstr "i lawr"
+
+#: ../srcore/srmain.c:1792
+msgid "up"
+msgstr "i fyny"
+
+#: ../srcore/srmain.c:1794
+msgid "backspace"
+msgstr "ôl-fysell"
+
+#: ../srcore/srmain.c:1796
+msgid "delete"
+msgstr "dileu"
+
+#: ../srcore/srmain.c:1798
+msgid "escape"
+msgstr "dianc"
+
+#: ../srcore/srmain.c:2362
+msgid "Welcome to Gnopernicus"
+msgstr "Croeso i Gnopernicus"
+
+#: ../srcore/srmain.c:2471
+msgid "braille device can not be initialized"
+msgstr "ni ellir ymgychwyn y ddyfais braille"
+
+#: ../srcore/srmain.c:2485
+msgid "Gnopernicus is now exiting. Have a nice day!"
+msgstr "Mae Gnopernicus yn gorffen nawr. Dydd da i chi!"
+
+#: ../srcore/srmain.c:2764
+msgid "srcore"
+msgstr "srcore"
+
+#: ../srcore/srpres.c:810
+msgid "UNK"
+msgstr "ANH"
+
+#: ../srcore/srpres.c:810
+msgid "UNKNOWN"
+msgstr "ANHYSBYS"
+
+#: ../srcore/srpres.c:810
+msgid "Unknown"
+msgstr "Anhysbys"
+
+#: ../srcore/srpres.c:811
+msgid "???"
+msgstr "???"
+
+#: ../srcore/srpres.c:811
+msgid "INVALID"
+msgstr "ANNILYS"
+
+#: ../srcore/srpres.c:811
+msgid "Invalid"
+msgstr "Annilys"
+
+#: ../srcore/srpres.c:812
+msgid "ALR"
+msgstr "RHY"
+
+#: ../srcore/srpres.c:812
+msgid "ALERT"
+msgstr "RHYBUDD"
+
+#: ../srcore/srpres.c:813
+msgid "CNV"
+msgstr "CNF"
+
+#: ../srcore/srpres.c:813
+msgid "CANVAS"
+msgstr "CYNFAS"
+
+#: ../srcore/srpres.c:813
+msgid "Canvas"
+msgstr "Cynfas"
+
+#: ../srcore/srpres.c:814
+msgid "CHK"
+msgstr "TIC"
+
+#: ../srcore/srpres.c:814
+msgid "CHECK_BOX"
+msgstr "TIC_FLWCH"
+
+#: ../srcore/srpres.c:814
+msgid "Check box"
+msgstr "Tic flwch"
+
+#: ../srcore/srpres.c:815 ../srcore/srpres.c:838 ../srcore/srpres.c:848
+msgid "MIT"
+msgstr "ETM"
+
+#: ../srcore/srpres.c:815 ../srcore/srpres.c:838 ../srcore/srpres.c:848
+msgid "MENU ITEM"
+msgstr "EITEM DDEWISLEN"
+
+#: ../srcore/srpres.c:815
+msgid "Check Menu item"
+msgstr "Tic eitem ddewislen"
+
+#: ../srcore/srpres.c:816
+msgid "CCH"
+msgstr "DLL"
+
+#: ../srcore/srpres.c:816
+msgid "COLOR CHOOSER"
+msgstr "DEWISYDD LLIW"
+
+#: ../srcore/srpres.c:816
+msgid "Color chooser"
+msgstr "Dewisydd lliw"
+
+#: ../srcore/srpres.c:817
+msgid "CHD"
+msgstr "PCL"
+
+#: ../srcore/srpres.c:817
+msgid "COLUMN HEADER"
+msgstr "PENNYN COLOFN"
+
+#: ../srcore/srpres.c:817
+msgid "Column header"
+msgstr "Pennyn colofn"
+
+#: ../srcore/srpres.c:818
+msgid "CBO"
+msgstr "BCO"
+
+#: ../srcore/srpres.c:818
+msgid "COMBO BOX"
+msgstr "BLWCH COMBO"
+
+#: ../srcore/srpres.c:818
+msgid "Combo box"
+msgstr "Blwch combo"
+
+#: ../srcore/srpres.c:819
+msgid "DIC"
+msgstr "EPB"
+
+#: ../srcore/srpres.c:819
+msgid "DESKTOP ICON"
+msgstr "EICON PENBWRDD"
+
+#: ../srcore/srpres.c:819
+msgid "Desktop icon"
+msgstr "Eicon penbwrdd"
+
+#: ../srcore/srpres.c:820
+msgid "DFR"
+msgstr "FFR"
+
+#: ../srcore/srpres.c:820
+msgid "DESKTOP FRAME"
+msgstr "FFRÂM BENBWRDD"
+
+#: ../srcore/srpres.c:820
+msgid "Desktop frame"
+msgstr "Ffrâm benbwrdd"
+
+#: ../srcore/srpres.c:821
+msgid "DLG"
+msgstr "DLG"
+
+#: ../srcore/srpres.c:821
+msgid "DIALOG"
+msgstr "DEIALOG"
+
+#: ../srcore/srpres.c:821
+msgid "Dialog"
+msgstr "Deialog"
+
+#: ../srcore/srpres.c:822
+msgid "DIP"
+msgstr "CCF"
+
+#: ../srcore/srpres.c:822
+msgid "DIRECTORY PANE"
+msgstr "CWAREL CYFEIRIADUR"
+
+#: ../srcore/srpres.c:822
+msgid "Directory pane"
+msgstr "Cwarel cyfeiriadur"
+
+#: ../srcore/srpres.c:823
+msgid "FCH"
+msgstr "DFF"
+
+#: ../srcore/srpres.c:823
+msgid "FILE CHOOSER"
+msgstr "DEWISYDD FFEILIAU"
+
+#: ../srcore/srpres.c:823
+msgid "File chooser"
+msgstr "Dewisydd ffeiliau"
+
+#: ../srcore/srpres.c:824
+msgid "FLR"
+msgstr "LLA"
+
+#: ../srcore/srpres.c:824
+msgid "FILLER"
+msgstr "LLANWYDD"
+
+#: ../srcore/srpres.c:824
+msgid "Filler"
+msgstr "Llanwydd"
+
+#: ../srcore/srpres.c:825
+msgid "FRM"
+msgstr "FFR"
+
+#: ../srcore/srpres.c:825
+msgid "FRAME"
+msgstr "FFRÂM"
+
+#: ../srcore/srpres.c:825
+msgid "Frame"
+msgstr "Ffrâm"
+
+#: ../srcore/srpres.c:826
+msgid "GPN"
+msgstr "CWY"
+
+#: ../srcore/srpres.c:826
+msgid "GLASS PANE"
+msgstr "CWAREL WYDR"
+
+#: ../srcore/srpres.c:826
+msgid "Glass pane"
+msgstr "Cwarel wydr"
+
+#: ../srcore/srpres.c:827
+msgid "HTM"
+msgstr "HTM"
+
+#: ../srcore/srpres.c:827
+msgid "HTML CONTAINER"
+msgstr "CYNHWYSYDD HTML"
+
+#: ../srcore/srpres.c:827
+msgid "H T M L container"
+msgstr "Cynhwysydd H T M L"
+
+#: ../srcore/srpres.c:828 ../srcore/srpres.c:833
+msgid "LNK"
+msgstr "CLL"
+
+#: ../srcore/srpres.c:828 ../srcore/srpres.c:833
+msgid "LINK"
+msgstr "CLL"
+
+#: ../srcore/srpres.c:828 ../srcore/srpres.c:833
+msgid "link"
+msgstr "cyswllt"
+
+#: ../srcore/srpres.c:829
+msgid "ICO"
+msgstr "ECN"
+
+#: ../srcore/srpres.c:829
+msgid "ICON"
+msgstr "EICON"
+
+#: ../srcore/srpres.c:829
+msgid "Icon"
+msgstr "Eicon"
+
+#: ../srcore/srpres.c:830
+msgid "IFR"
+msgstr "FNL"
+
+#: ../srcore/srpres.c:830
+msgid "INTERNAL FRAME"
+msgstr "FFRÂM FEWNOL"
+
+#: ../srcore/srpres.c:830
+msgid "Internal frame"
+msgstr "Ffram fewnol"
+
+#: ../srcore/srpres.c:831
+msgid "LBL"
+msgstr "LBL"
+
+#: ../srcore/srpres.c:831
+msgid "LABEL"
+msgstr "LABEL"
+
+#: ../srcore/srpres.c:831
+msgid "Label"
+msgstr "Label"
+
+#: ../srcore/srpres.c:832
+msgid "LPN"
+msgstr "PHN"
+
+#: ../srcore/srpres.c:832
+msgid "LAYERED PANE"
+msgstr "PAEN Â HAENAU"
+
+#: ../srcore/srpres.c:832
+msgid "Layered pane"
+msgstr "Cwarel haen"
+
+#: ../srcore/srpres.c:834
+msgid "LST"
+msgstr "RHS"
+
+#: ../srcore/srpres.c:834
+msgid "LIST"
+msgstr "RHESTR"
+
+#: ../srcore/srpres.c:834
+msgid "List"
+msgstr "RHESTR"
+
+#: ../srcore/srpres.c:835
+msgid "LIT"
+msgstr "ERH"
+
+#: ../srcore/srpres.c:835
+msgid "LIST ITEM"
+msgstr "EITEM RHESTR"
+
+#: ../srcore/srpres.c:835
+msgid "List item"
+msgstr "Eitem rhestr"
+
+#: ../srcore/srpres.c:836
+msgid "MNU"
+msgstr "DWS"
+
+#: ../srcore/srpres.c:836
+msgid "MENU"
+msgstr "DEWISLEN"
+
+#: ../srcore/srpres.c:837
+msgid "MBR"
+msgstr "BDW"
+
+#: ../srcore/srpres.c:837
+msgid "MENU BAR"
+msgstr "BAR DEWIS"
+
+#: ../srcore/srpres.c:837
+msgid "Menu bar"
+msgstr "Bar dewislen"
+
+#: ../srcore/srpres.c:838
+msgid "Menu item"
+msgstr "Eitem ddewislen"
+
+#: ../srcore/srpres.c:839
+msgid "OPN"
+msgstr "COP"
+
+#: ../srcore/srpres.c:839
+msgid "OPTION PANE"
+msgstr "CWAREL OPSIWN"
+
+#: ../srcore/srpres.c:839
+msgid "Option pane"
+msgstr "Cwarel opsiwn"
+
+#: ../srcore/srpres.c:840
+msgid "PGT"
+msgstr "TTD"
+
+#: ../srcore/srpres.c:840
+msgid "PAGE TAB"
+msgstr "TAB TUDALEN"
+
+#: ../srcore/srpres.c:840
+msgid "Page tab"
+msgstr "Tab tudalen"
+
+#: ../srcore/srpres.c:841
+msgid "PTL"
+msgstr "RTT"
+
+#: ../srcore/srpres.c:841
+msgid "PAGE TAB LIST"
+msgstr "RHESTR TAB TUDALEN"
+
+#: ../srcore/srpres.c:841
+msgid "Page tab list"
+msgstr "Rhestr tabiau tudalen"
+
+#: ../srcore/srpres.c:842
+msgid "PNL"
+msgstr "PNL"
+
+#: ../srcore/srpres.c:842
+msgid "PANEL"
+msgstr "PANEL"
+
+#: ../srcore/srpres.c:842
+msgid "Panel"
+msgstr "Panel"
+
+#: ../srcore/srpres.c:843
+msgid "PWD"
+msgstr "CFN"
+
+#: ../srcore/srpres.c:843
+msgid "PASSWORD TEXT"
+msgstr "TESTUN CYFRINAIR"
+
+#: ../srcore/srpres.c:843
+msgid "Password text"
+msgstr "Testun cyfrinair"
+
+#: ../srcore/srpres.c:844
+msgid "PMN"
+msgstr "NDL"
+
+#: ../srcore/srpres.c:844
+msgid "POPUP MENU"
+msgstr "NAIDLEN"
+
+#: ../srcore/srpres.c:844
+msgid "Popup menu"
+msgstr "Naidlen"
+
+#: ../srcore/srpres.c:845
+msgid "PRG"
+msgstr "BCN"
+
+#: ../srcore/srpres.c:845
+msgid "PROGRESS BAR"
+msgstr "BAR CYNNYDD"
+
+#: ../srcore/srpres.c:845
+msgid "Progress bar"
+msgstr "Bar cynnydd"
+
+#: ../srcore/srpres.c:846
+msgid "PBT"
+msgstr "BGW"
+
+#: ../srcore/srpres.c:846
+msgid "PUSH BUTTON"
+msgstr "BOTWM GWASGU"
+
+#: ../srcore/srpres.c:846
+msgid "Push button"
+msgstr "Botwm gwasgu"
+
+#: ../srcore/srpres.c:847
+msgid "RAD"
+msgstr "RAD"
+
+#: ../srcore/srpres.c:847
+msgid "RADIO BUTTON"
+msgstr "BOTWM RADIO"
+
+#: ../srcore/srpres.c:847
+msgid "Radio button"
+msgstr "Botwm radio"
+
+#: ../srcore/srpres.c:848
+msgid "Radio Menu item"
+msgstr "Eitem ddewislen radio"
+
+#: ../srcore/srpres.c:849
+msgid "RPN"
+msgstr "CGR"
+
+#: ../srcore/srpres.c:849
+msgid "ROOT PANE"
+msgstr "CWAREL GWRAIDD"
+
+#: ../srcore/srpres.c:849
+msgid "Root pane"
+msgstr "Cwarel gwraidd"
+
+#: ../srcore/srpres.c:850
+msgid "RHD"
+msgstr "PRH"
+
+#: ../srcore/srpres.c:850
+msgid "ROW HEADER"
+msgstr "PENNYN RHES"
+
+#: ../srcore/srpres.c:850
+msgid "Row header"
+msgstr "Pennyn rhes"
+
+#: ../srcore/srpres.c:851
+msgid "SCR"
+msgstr "BSG"
+
+#: ../srcore/srpres.c:851
+msgid "SCROLL BAR"
+msgstr "BAR SGROLIO"
+
+#: ../srcore/srpres.c:851
+msgid "Scroll bar"
+msgstr "Bar sgrolio"
+
+#: ../srcore/srpres.c:852 ../srcore/srpres.c:880
+msgid "SPN"
+msgstr "CSG"
+
+#: ../srcore/srpres.c:852
+msgid "SCROLL PANE"
+msgstr "CWAREL SGROLIO"
+
+#: ../srcore/srpres.c:852
+msgid "Scroll pane"
+msgstr "Cwarel sgrolio"
+
+#: ../srcore/srpres.c:853
+msgid "SEP"
+msgstr "GWH"
+
+#: ../srcore/srpres.c:853
+msgid "SEPARATOR"
+msgstr "GWAHANYDD"
+
+#: ../srcore/srpres.c:853
+msgid "Separator"
+msgstr "Gwahanydd"
+
+#: ../srcore/srpres.c:854
+msgid "SLD"
+msgstr "LLI"
+
+#: ../srcore/srpres.c:854
+msgid "SLIDER"
+msgstr "LLITHRYDD"
+
+#: ../srcore/srpres.c:854
+msgid "Slider"
+msgstr "Llithrydd"
+
+#: ../srcore/srpres.c:855
+msgid "SPP"
+msgstr "CHL"
+
+#: ../srcore/srpres.c:855
+msgid "SPLIT PANE"
+msgstr "CWAREL WEDI HOLLTI"
+
+#: ../srcore/srpres.c:855
+msgid "Split pane"
+msgstr "Cwarel wedi hollti"
+
+#: ../srcore/srpres.c:856
+msgid "STA"
+msgstr "BST"
+
+#: ../srcore/srpres.c:856
+msgid "STATUS BAR"
+msgstr "BAR STATWS"
+
+#: ../srcore/srpres.c:856
+msgid "Status bar"
+msgstr "Bar statws"
+
+#: ../srcore/srpres.c:857
+msgid "TAB"
+msgstr "TAB"
+
+#: ../srcore/srpres.c:857
+msgid "TABLE"
+msgstr "TABL"
+
+#: ../srcore/srpres.c:857
+msgid "Table"
+msgstr "Tabl"
+
+#: ../srcore/srpres.c:858
+msgid "CEL"
+msgstr "CEL"
+
+#: ../srcore/srpres.c:858
+msgid "TABLE CELL"
+msgstr "CELL TABL"
+
+#: ../srcore/srpres.c:858
+msgid "Table cell"
+msgstr "Cell tabl"
+
+#: ../srcore/srpres.c:859 ../srcore/srpres.c:884
+msgid "TCH"
+msgstr "PCT"
+
+#: ../srcore/srpres.c:859
+msgid "TABLE COLUMN HEADER"
+msgstr "PENNYN COLOFN TABL"
+
+#: ../srcore/srpres.c:859
+msgid "Table column header"
+msgstr "Pennyn colofn tabl"
+
+#: ../srcore/srpres.c:860
+msgid "TRH"
+msgstr "PRH"
+
+#: ../srcore/srpres.c:860
+msgid "TABLE ROW HEADER"
+msgstr "PENNYN RHES TABL"
+
+#: ../srcore/srpres.c:860
+msgid "Table row header"
+msgstr "Pennyn rhes tabl"
+
+#: ../srcore/srpres.c:861 ../srcore/srpres.c:862
+msgid "TXT"
+msgstr "TES"
+
+#: ../srcore/srpres.c:861
+msgid "MULTI LINE TEXT"
+msgstr "TESTUN AML-LINELL"
+
+#: ../srcore/srpres.c:861
+msgid "Multi Line Text"
+msgstr "Testun aml-linell"
+
+#: ../srcore/srpres.c:862
+msgid "SINGLE LINE TEXT"
+msgstr "TUN"
+
+#: ../srcore/srpres.c:862
+msgid "Single Line Text"
+msgstr "Testun un-llinell"
+
+#: ../srcore/srpres.c:863
+msgid "TOG"
+msgstr "TOG"
+
+#: ../srcore/srpres.c:863
+msgid "TOGGLE BUTTON"
+msgstr "BOTWM TOGL"
+
+#: ../srcore/srpres.c:863
+msgid "Toggle button"
+msgstr "Botwm togl"
+
+#: ../srcore/srpres.c:864
+msgid "TOL"
+msgstr "OFF"
+
+#: ../srcore/srpres.c:864
+msgid "TOOL BAR"
+msgstr "BAR OFFER"
+
+#: ../srcore/srpres.c:864
+msgid "Tool bar"
+msgstr "Bar offer"
+
+#: ../srcore/srpres.c:865
+msgid "TIP"
+msgstr "BRG"
+
+#: ../srcore/srpres.c:865
+msgid "TOOL TIP"
+msgstr "BRYSGYMORTH"
+
+#: ../srcore/srpres.c:865
+msgid "Tool tip"
+msgstr "Brysgymorth"
+
+#: ../srcore/srpres.c:866
+msgid "TRE"
+msgstr "COE"
+
+#: ../srcore/srpres.c:866
+msgid "TREE"
+msgstr "COEDEN"
+
+#: ../srcore/srpres.c:866
+msgid "Tree"
+msgstr "Coeden"
+
+#: ../srcore/srpres.c:867
+msgid "TRI"
+msgstr "EGD"
+
+#: ../srcore/srpres.c:867
+msgid "TREE ITEM"
+msgstr "EITEM GOEDEN"
+
+#: ../srcore/srpres.c:867
+msgid "Tree item"
+msgstr "Eitem goeden"
+
+#: ../srcore/srpres.c:868
+msgid "TRT"
+msgstr "TCO"
+
+#: ../srcore/srpres.c:868
+msgid "TREE TABLE"
+msgstr "TABL COEDEN"
+
+#: ../srcore/srpres.c:868
+msgid "Tree table"
+msgstr "Tabl coeden"
+
+#: ../srcore/srpres.c:869
+msgid "VWP"
+msgstr "PGO"
+
+#: ../srcore/srpres.c:869
+msgid "VIEWPORT"
+msgstr "PORTH GOLWG"
+
+#: ../srcore/srpres.c:869
+msgid "Viewport"
+msgstr "Porth golwg"
+
+#: ../srcore/srpres.c:870
+msgid "WND"
+msgstr "FFN"
+
+#: ../srcore/srpres.c:870
+msgid "WINDOW"
+msgstr "FFENEST"
+
+#: ../srcore/srpres.c:871
+msgid "ACC"
+msgstr "LCY"
+
+#: ../srcore/srpres.c:871
+msgid "ACCELERATOR LABEL"
+msgstr "LABEL CYFLYMYDD"
+
+#: ../srcore/srpres.c:871
+msgid "Accelerator label"
+msgstr "Label cyflymydd"
+
+#: ../srcore/srpres.c:872
+msgid "ANI"
+msgstr "ANI"
+
+#: ../srcore/srpres.c:872
+msgid "ANIMATION"
+msgstr "ANIMEIDDIAD"
+
+#: ../srcore/srpres.c:872
+msgid "Animation"
+msgstr "Animeiddiad"
+
+#: ../srcore/srpres.c:873
+msgid "ARR"
+msgstr "STH"
+
+#: ../srcore/srpres.c:873
+msgid "ARROW"
+msgstr "SAETH"
+
+#: ../srcore/srpres.c:873
+msgid "Arrow"
+msgstr "Saeth"
+
+#: ../srcore/srpres.c:874
+msgid "CAL"
+msgstr "CAL"
+
+#: ../srcore/srpres.c:874
+msgid "CALENDAR"
+msgstr "CALENDR"
+
+#: ../srcore/srpres.c:874
+msgid "Calendar"
+msgstr "Calendr"
+
+#: ../srcore/srpres.c:875
+msgid "DAT"
+msgstr "GDY"
+
+#: ../srcore/srpres.c:875
+msgid "DATE EDITOR"
+msgstr "GOLYGYDD DYDDIADAU"
+
+#: ../srcore/srpres.c:875
+msgid "Date editor"
+msgstr "Golygydd dyddiadau"
+
+#: ../srcore/srpres.c:876
+msgid "DIL"
+msgstr "DIL"
+
+#: ../srcore/srpres.c:876
+msgid "DIAL"
+msgstr "DEIAL"
+
+#: ../srcore/srpres.c:876
+msgid "Dial"
+msgstr "Deialu"
+
+#: ../srcore/srpres.c:877
+msgid "DRW"
+msgstr "ALN"
+
+#: ../srcore/srpres.c:877
+msgid "DRAWING AREA"
+msgstr "ARDAL DDARLUNIO"
+
+#: ../srcore/srpres.c:877
+msgid "Drawing area"
+msgstr "Ardal ddarlunio"
+
+#: ../srcore/srpres.c:878
+msgid "FNT"
+msgstr "DFF"
+
+#: ../srcore/srpres.c:878
+msgid "FONT CHOOSER"
+msgstr "DEWISYDD FFONTIAU"
+
+#: ../srcore/srpres.c:878
+msgid "Font chooser"
+msgstr "Dewisydd ffont"
+
+#: ../srcore/srpres.c:879
+msgid "IMG"
+msgstr "DLW"
+
+#: ../srcore/srpres.c:879
+msgid "IMAGE"
+msgstr "DELWEDD"
+
+#: ../srcore/srpres.c:879
+msgid "Image"
+msgstr "Delwedd"
+
+#: ../srcore/srpres.c:880
+msgid "SPIN BUTTON"
+msgstr "BOTWM TROELLI"
+
+#: ../srcore/srpres.c:880
+msgid "Spin button"
+msgstr "Botwm troelli"
+
+#: ../srcore/srpres.c:881
+msgid "TRM"
+msgstr "TRF"
+
+#: ../srcore/srpres.c:881
+msgid "TERMINAL"
+msgstr "TERFYNELL"
+
+#: ../srcore/srpres.c:881
+msgid "Terminal"
+msgstr "Terfynell"
+
+#: ../srcore/srpres.c:882
+msgid "EXT"
+msgstr "EST"
+
+#: ../srcore/srpres.c:882
+msgid "EXTENDED"
+msgstr "ESTYNEDIG"
+
+#: ../srcore/srpres.c:882
+msgid "Extended"
+msgstr "Estynedig"
+
+#: ../srcore/srpres.c:883
+msgid "TLI"
+msgstr "LLD"
+
+#: ../srcore/srpres.c:883
+msgid "TABLE LINE"
+msgstr "LLINELL DABL"
+
+#: ../srcore/srpres.c:883
+msgid "Table line"
+msgstr "Llinell dabl"
+
+#: ../srcore/srpres.c:884
+msgid "TABLE COLUMNS HEADER"
+msgstr "PENNYN COLOFNAU TABL"
+
+#: ../srcore/srpres.c:884
+msgid "Table columns header"
+msgstr "Pennyn colofnau tabl"
+
+#: ../srcore/srpres.c:885
+msgid "TIT"
+msgstr "BTL"
+
+#: ../srcore/srpres.c:885
+msgid "TITLE BAR"
+msgstr "BAR TEITL"
+
+#: ../srcore/srpres.c:885
+msgid "Title bar"
+msgstr "Bar teitl"
+
+#: ../srcore/srpres.c:886
+msgid "EDB"
+msgstr "BGO"
+
+#: ../srcore/srpres.c:886
+msgid "EDIT BAR"
+msgstr "BAR GOLYGU"
+
+#: ../srcore/srpres.c:886
+msgid "Edit bar"
+msgstr "Bar golygu"
+
+#: ../srcore/srspc.c:445
+#, c-format
+msgid "Incorrect parameters for voice \"%s%s\""
+msgstr "Paramedrau anghywir ar gyfer llais \"%s%s\""
+
+#: ../srcore/srspc.c:490
+#, c-format
+msgid "failed to send to speech next string \"%s\""
+msgstr "methwyd anfon at leferydd y llinyn nesaf \"%s\""
+
+#: ../srcore/srspc.c:556
+#, c-format
+msgid "could not create/modify voice \"%s\""
+msgstr "ni allwyd creu/newid llais \"%s\""
+
+#: ../srcore/srspc.c:717
+#, c-format
+msgid "voice \"%s\" will sound this way"
+msgstr "fe fydd y llais \"%s\" yn swnio fel hyn"
+
+#: ../srcore/srspc.c:722
+#, c-format
+msgid "could not test voice \"%s\""
+msgstr "ni allwyd profi'r llais \"%s\""
+
+#: ../srcore/srspc.c:811
+#, c-format
+msgid "value not supported for speech count mode \"%s\""
+msgstr "ni chynhelir y gwerth ar gyfer y modd cyfri llafar \"%s\""
+
+#: ../srcore/srspc.c:847
+#, c-format
+msgid "value not supported for speech modifiers type \"%s\""
+msgstr "ni chynhelir y gwerth ar gyfer y math addasydd llafar \"%s\""
+
+#: ../srcore/srspc.c:883
+#, c-format
+msgid "value not supported for speech cursors type \"%s\""
+msgstr "ni chynhelir y gwerth ar gyfer y math cyrchwyr llafar \"%s\""
+
+#: ../srcore/srspc.c:919
+#, c-format
+msgid "value not supported for speech spaces type \"%s\""
+msgstr "ni chynhelir y gwerth ar gyfer math bylchau llafar \"%s\""
+
+#: ../srcore/srspc.c:955
+#, c-format
+msgid "value not supported for speech dictionary type \"%s\""
+msgstr "ni chynhelir y gwerth ar gyfer y math geiriadur llafar \"%s\""
+
+#: ../srcore/srspc.c:992
+#, c-format
+msgid "value not supported for speech text echo type \"%s\""
+msgstr "ni chynhelir y gwerth ar gyfer math adlais testun llafar \"%s\""
+
+#: ../srcore/srspc.c:1011
+msgid "Tilde"
+msgstr "Til"
+
+#: ../srcore/srspc.c:1011
+msgid "Tildaes"
+msgstr "Tildiau"
+
+#: ../srcore/srspc.c:1012
+msgid "Exclamation"
+msgstr "Ebychnod"
+
+#: ../srcore/srspc.c:1012
+msgid "Exclamations"
+msgstr "Ebychnodau"
+
+#: ../srcore/srspc.c:1013
+msgid "At"
+msgstr "At"
+
+#: ../srcore/srspc.c:1013
+msgid "Ats"
+msgstr "At-au"
+
+#: ../srcore/srspc.c:1014
+msgid "Hash"
+msgstr "Symbol glwyd"
+
+#: ../srcore/srspc.c:1014
+msgid "Hashes"
+msgstr "Symbolau clwyd"
+
+#: ../srcore/srspc.c:1015
+msgid "Dollar"
+msgstr "Doler"
+
+#: ../srcore/srspc.c:1015
+msgid "Dollars"
+msgstr "Doleri"
+
+#: ../srcore/srspc.c:1016
+msgid "Percent"
+msgstr "Canran"
+
+#: ../srcore/srspc.c:1016
+msgid "Percents"
+msgstr "Canrannau"
+
+#: ../srcore/srspc.c:1017
+msgid "Caret"
+msgstr "Caret"
+
+#: ../srcore/srspc.c:1017
+msgid "Carets"
+msgstr "Caretau"
+
+#: ../srcore/srspc.c:1018
+msgid "And"
+msgstr "Ac"
+
+#: ../srcore/srspc.c:1018
+msgid "Ands"
+msgstr "Ac-au"
+
+#: ../srcore/srspc.c:1019
+msgid "Asterisk"
+msgstr "Seren"
+
+#: ../srcore/srspc.c:1019
+msgid "Asterisks"
+msgstr "Sêr"
+
+#: ../srcore/srspc.c:1020
+msgid "Left Paranthesis"
+msgstr "Cromfach Chwith"
+
+#: ../srcore/srspc.c:1021
+msgid "Right Paranthesis"
+msgstr "Cromfach De"
+
+#: ../srcore/srspc.c:1022
+msgid "Underscore"
+msgstr "Tanlinell"
+
+#: ../srcore/srspc.c:1022
+msgid "Underscores"
+msgstr "Tanlinellwyr"
+
+#: ../srcore/srspc.c:1023
+msgid "Plus"
+msgstr "Plws"
+
+#: ../srcore/srspc.c:1023
+msgid "Pluses"
+msgstr "Plysau"
+
+#: ../srcore/srspc.c:1024
+msgid "Equal"
+msgstr "Hafal"
+
+#: ../srcore/srspc.c:1024
+msgid "Equals"
+msgstr "Hafalau"
+
+#: ../srcore/srspc.c:1025
+msgid "Minus"
+msgstr "Minws"
+
+#: ../srcore/srspc.c:1025
+msgid "Minuses"
+msgstr "Minysau"
+
+#: ../srcore/srspc.c:1026
+msgid "Quote"
+msgstr "Dyfynnod"
+
+#: ../srcore/srspc.c:1026
+msgid "Quotes"
+msgstr "Dyfynodau"
+
+#: ../srcore/srspc.c:1027
+msgid "Left Bracket"
+msgstr "Braced Chwith"
+
+#: ../srcore/srspc.c:1027
+msgid "Left Brackets"
+msgstr "Bracedau Chwith"
+
+#: ../srcore/srspc.c:1028
+msgid "Right Bracket"
+msgstr "Braced De"
+
+#: ../srcore/srspc.c:1028
+msgid "Right Brackets"
+msgstr "Bracedau De"
+
+#: ../srcore/srspc.c:1029
+msgid "Left Brace"
+msgstr "Cyplysnod Chwith"
+
+#: ../srcore/srspc.c:1029
+msgid "Left Braces"
+msgstr "Cyplysnodau Chwith"
+
+#: ../srcore/srspc.c:1030
+msgid "Right Brace"
+msgstr "Cyplysnod De"
+
+#: ../srcore/srspc.c:1030
+msgid "Right Braces"
+msgstr "Cyplysnodau De"
+
+#: ../srcore/srspc.c:1031
+msgid "Semicolon"
+msgstr "Gwahannod"
+
+#: ../srcore/srspc.c:1031
+msgid "Semicolons"
+msgstr "Gwahanodau"
+
+#: ../srcore/srspc.c:1032
+msgid "Colon"
+msgstr "Colon"
+
+#: ../srcore/srspc.c:1032
+msgid "Colons"
+msgstr "Colonau"
+
+#: ../srcore/srspc.c:1033
+msgid "Double quote"
+msgstr "Dyfynnod dwbl"
+
+#: ../srcore/srspc.c:1033
+msgid "Double quotes"
+msgstr "Dyfynodau dwbl"
+
+#: ../srcore/srspc.c:1034
+msgid "Apostrophe"
+msgstr "Collnod"
+
+#: ../srcore/srspc.c:1034
+msgid "Apostrophes"
+msgstr "Collnodau"
+
+#: ../srcore/srspc.c:1035
+msgid "Back Slash"
+msgstr "Slaes Ôl"
+
+#: ../srcore/srspc.c:1035
+msgid "Back Slashes"
+msgstr "Slaesau Ôl"
+
+#: ../srcore/srspc.c:1036
+msgid "Bar"
+msgstr "Bar"
+
+#: ../srcore/srspc.c:1036
+msgid "Bars"
+msgstr "Barau"
+
+#: ../srcore/srspc.c:1037
+msgid "Greater"
+msgstr "Mwy"
+
+#: ../srcore/srspc.c:1037
+msgid "Greaters"
+msgstr "Mwyau"
+
+#: ../srcore/srspc.c:1038
+msgid "Less"
+msgstr "Llai"
+
+#: ../srcore/srspc.c:1038
+msgid "Lesses"
+msgstr "Lleiau"
+
+#: ../srcore/srspc.c:1039
+msgid "Comma"
+msgstr "Atalnod"
+
+#: ../srcore/srspc.c:1039
+msgid "Commas"
+msgstr "Atalnodau"
+
+#: ../srcore/srspc.c:1040
+msgid "Dot"
+msgstr "Dot"
+
+#: ../srcore/srspc.c:1040
+msgid "Dots"
+msgstr "Dotiau"
+
+#: ../srcore/srspc.c:1041
+msgid "Slash"
+msgstr "Slaes"
+
+#: ../srcore/srspc.c:1041
+msgid "Slashes"
+msgstr "Slaesau"
+
+#: ../srcore/srspc.c:1042
+msgid "Questions"
+msgstr "Cwestiwn"
+
+#: ../srcore/srspc.c:1116
+#, c-format
+msgid "value not supported for speech punctuation type \"%s\""
+msgstr "ni chynhelir y gwerth ar gyfer y math atalnod \"%s\" o fewn y llais"
+
+#: ../srcore/srspc.c:1382
+msgid "Unable to initialize hashtable"
+msgstr "Ni ellir ymgychwyn tabl hash"
+
+#: ../srcore/srspc.c:1388
+msgid "Unable to load dictionary from gconf"
+msgstr "Ni ellir llwytho geiriadur o gconf"
+
+#: ../srcore/srspc.c:1619
+msgid "speech initialization succeded"
+msgstr "llwyddodd cychwyn lleferydd"
+
+#: ../srcore/srspc.c:1621
+msgid "Speech restored"
+msgstr "Lleferydd wedi'i adfer"
+
+#: ../srcore/srspc.c:1625
+msgid "speech initialization failed"
+msgstr "methwyd cychwyn lleferydd"
+
+#: ../srcore/srspc.c:1824
+msgid "enter"
+msgstr "rhoi"
+
+#: ../srcore/srspc.c:1907
+#, c-format
+msgid "can not find \"%s\" voice. use default voice"
+msgstr "ni ellir canfod y llais \"%s\". Defnyddiwch y llais rhagosodedig"
+
+#: ../srcore/srspc.c:1924
+msgid "voices pitch will be set to default value"
+msgstr "caiff traw'r lleisiau ei osod i'r gwerth rhagosodedig"
+
+#: ../srcore/srspc.c:1926
+msgid "voices pitch will be decreased"
+msgstr "caiff traw'r lleisiau ei leihau"
+
+#: ../srcore/srspc.c:1928
+msgid "voices pitch will be increased"
+msgstr "caiff traw'r lleisiau ei gynyddu"
+
+#: ../srcore/srspc.c:1972
+msgid "voices rate will be set to default value"
+msgstr "caiff y gyfradd leisiau ei osod i'r rhagosodiad"
+
+#: ../srcore/srspc.c:1974
+msgid "voices rate will be decreased"
+msgstr "caiff y gyfradd lleisiau ei leihau"
+
+#: ../srcore/srspc.c:1976
+msgid "voices rate will be increased"
+msgstr "caiff y gyfradd lleisiau ei gynyddu"
+
+#: ../srcore/srspc.c:2021
+msgid "voices volume will be set to default value"
+msgstr "caiff lefel sain y lleisiau ei osod i'r gwerth rhagosod"
+
+#: ../srcore/srspc.c:2023
+msgid "voices volume will be decreased"
+msgstr "caiff lefel sain y lleisiau ei leihau"
+
+#: ../srcore/srspc.c:2025
+msgid "voices volume will be increased"
+msgstr "caiff lefel sain y lleisiau ei gynyddu"
+
+#: ../srcore/srspc.c:2151
+#, c-format
+msgid "no support for speech key \"%s\""
+msgstr "dim cynhaliaeth ar gyfer y fysell lafar \"%s\""
+
+#~ msgid "Serial port number where the device is linked"
+#~ msgstr "Rhif y porth cyfresol lle mae'r ddyfais wedi ei gysylltu"
+
+#~ msgid "Alpha"
+#~ msgstr "Aled"
+
+#~ msgid "Bravo"
+#~ msgstr "Bethan"
+
+#~ msgid "Delta"
+#~ msgstr "Delyth"
+
+#~ msgid "Echo"
+#~ msgstr "Eluned"
+
+#~ msgid "Golf"
+#~ msgstr "Geraint"
+
+#~ msgid "Hotel"
+#~ msgstr "Heledd"
+
+#~ msgid "India"
+#~ msgstr "Iestyn"
+
+#~ msgid "Juliet"
+#~ msgstr "Juliet"
+
+#~ msgid "Kilo"
+#~ msgstr "Kevin"
+
+#~ msgid "Lima"
+#~ msgstr "Lowri"
+
+#~ msgid "Mike"
+#~ msgstr "Mabon"
+
+#~ msgid "Oscar"
+#~ msgstr "Osian"
+
+#~ msgid "Papa"
+#~ msgstr "Pwyll"
+
+#~ msgid "Quebec"
+#~ msgstr "Quebec"
+
+#~ msgid "Romeo"
+#~ msgstr "Rhys"
+
+#~ msgid "Sierra"
+#~ msgstr "Siwan"
+
+#~ msgid "Tango"
+#~ msgstr "Tomos"
+
+#~ msgid "Victor"
+#~ msgstr "Victor"
+
+#~ msgid "Xray"
+#~ msgstr "Xray"
+
+#~ msgid "Yankee"
+#~ msgstr "Yankee"
+
+#~ msgid "Zulu"
+#~ msgstr "Zulu"
+
+#~ msgid "Can not install braille font."
+#~ msgstr "Ni ellir sefydlu'r ffont braille."
+
+#~ msgid "window hierarchy flat"
+#~ msgstr "hierarchaeth ffenestri fflat"
+
+#~ msgid "_Lock zoom factor"
+#~ msgstr "_Cloi ffactor chwyddo"
+
+#~ msgid "Count cha_racters"
+#~ msgstr "_Cyfri nodau"
+
+#~ msgid "Sa_y all cursors"
+#~ msgstr "Dweud pob _cyrchydd"
+
+#~ msgid "Say all cursors"
+#~ msgstr "Dweud pob cyrchydd"
+
+#~ msgid "Keyboard preferences"
+#~ msgstr "Hoffterau bysellfwrdd"
+
+#~ msgid "uniform"
+#~ msgstr "unffurf"
+
+#~ msgid "General default setting loaded."
+#~ msgstr "Llwythwyd gosodiad rhagosod cyffredinol."
+
+#~ msgid "Position Switches"
+#~ msgstr "Switshis Safle"
+
+#~ msgid "<b>Ch_unk</b>"
+#~ msgstr "<b>_Darn</b>"
+
+#~ msgid "<b>_Presentation order list</b>"
+#~ msgstr "<b>Rhestr trefn _cyflwyniad</b>"
+
+#~ msgid "Add new chunk"
+#~ msgstr "Ychwanegu darn newydd"
+
+#~ msgid "Add new presentation item"
+#~ msgstr "Ychwanegu eitem cyflwyniad newydd"
+
+#~ msgid "Copy chunk"
+#~ msgstr "Copïo darn"
+
+#~ msgid "D_evice:"
+#~ msgstr "D_yfais:"
+
+#~ msgid "Device (braille, speech or magnifier)"
+#~ msgstr "Dyfais (braille, llafar neu chwyddwr)"
+
+#~ msgid "E_vent:"
+#~ msgstr "D_igwyddiad:"
+
+#~ msgid "Event"
+#~ msgstr "Digwyddiad"
+
+#~ msgid "Modify selected presentation item"
+#~ msgstr "Newid yr eitem cyflwyniad dewisedig"
+
+#~ msgid "Move down selected chunk"
+#~ msgstr "Symud i fyny'r darn dewisedig"
+
+#~ msgid "Move up selected chunk"
+#~ msgstr "Symud i lawr y darn dewisedig"
+
+#~ msgid "Paste chunk"
+#~ msgstr "Gludo darn"
+
+#~ msgid "Presentation Add / Modify"
+#~ msgstr "Ychwanegu / Newid Cyflwyniad"
+
+#~ msgid "Presentation chunk list."
+#~ msgstr "Rhestr darn cyflwyniad."
+
+#~ msgid "Remove selected chunk"
+#~ msgstr "Gwaredu'r darn dewisiedig."
+
+#~ msgid "Remove selected presentation item."
+#~ msgstr "Gwaredu'r eitem cyflwyniad dewisiedig."
+
+#~ msgid "Ro_le:"
+#~ msgstr "Rô_l:"
+
+#~ msgid "Role"
+#~ msgstr "Rôl"
+
+#~ msgid "About gnopernicus"
+#~ msgstr "Ynghylch gnopernicus"
+
+#~ msgid ""
+#~ "And everyone else who has participated in the gnopernicus effort and is "
+#~ "not mentioned here."
+#~ msgstr ""
+#~ "A phawb arall sydd wedi cymryd rhan yn y gwaith gnopernicus sydd heb eu "
+#~ "cynnwys yma."
+
+#~ msgid "Credits"
+#~ msgstr "Clodau"
+
+#~ msgid "Thanks to"
+#~ msgstr "Diolchiadau i"
+
+#~ msgid "Translated by"
+#~ msgstr "Cyfieithwyd gan"
+
+#~ msgid "Written by"
+#~ msgstr "Ysgrifennwyd gan"
+
+#~ msgid "_Credits"
+#~ msgstr "_Clodau"
+
+#~ msgid "Invalid presentation item!"
+#~ msgstr "Eitem cyflwyniad annilys!"
+
+#~ msgid "Chunk List"
+#~ msgstr "Rhestr Darnau"
+
+#~ msgid "We could not load interface."
+#~ msgstr "Ni allom lwytho'r rhyngwyneb."
+
+#~ msgid "No selected presentation to remove!"
+#~ msgstr "Dim cyflwyniad dewisiedig i'w dynnu!"
+
+#~ msgid "No selected presentation to modify!"
+#~ msgstr "Dim cyflwyniad dewisiedig i'w newid!"
+
+#~ msgid "Device"
+#~ msgstr "Dyfais"
+
+#~ msgid "Chunk"
+#~ msgstr "Darn"

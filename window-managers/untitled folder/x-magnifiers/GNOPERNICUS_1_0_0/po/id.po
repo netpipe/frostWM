@@ -1,0 +1,5058 @@
+# Indonesian translation of gnopernicus.
+# Copyright (C) 2005 THE gnopernicus's COPYRIGHT HOLDER
+# This file is distributed under the same license as the gnopernicus package.
+# Martin Tedjawardhana <Martin.Tedjawardhana@gmx.net>, 2005.
+# "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+# 
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: gnopernicus HEAD\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2005-08-18 13:19+0700\n"
+"PO-Revision-Date: 2005-08-18 11:57+0700\n"
+"Last-Translator: Martin Tedjawardhana <Martin.Tedjawardhana@gmx.net>\n"
+"Language-Team: Indonesian <sukarelawan@gnome.linux.or.id>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: braille/test/remote.c:548
+msgid "Braille remote"
+msgstr "Remote Braille"
+
+#: brlmon/brlmon.c:196
+msgid "Braille monitor"
+msgstr "Monitor Braille"
+
+#: brlmon/brlmon.c:325 brlmon/brlmon.c:333
+#, c-format
+msgid "Invalid port number: %d."
+msgstr "Nomor port yang salah: %d."
+
+#: brlmon/brlmon.c:326 brlmon/brlmon.c:334
+msgid "port_no = [1025 - 30000]."
+msgstr "_nomor port = [1025 - 30000]."
+
+#: brlmon/brlmon.c:520
+msgid "Can not open socket!"
+msgstr "Tidak dapat membuka soket!"
+
+#: brlmon/brlmon.c:543
+#, c-format
+msgid "Can not bind port number %d."
+msgstr "Tidak dapat menyambung dengan port %d."
+
+#: brlmon/brlmon.c:547
+#, c-format
+msgid "Waiting for data on port UDP %u."
+msgstr "Menunggu data pada port UDP %u."
+
+#: brlmon/brlmonui.c:225 gnopi/gnopiconf.c:43
+msgid "Failed to init gconf client."
+msgstr "Gagal untuk menginisialisasi klien gconf."
+
+#: brlmon/brlmonui.c:234 srconf/libsrconf/libsrconf.c:418
+msgid "Failed to add directory."
+msgstr "Gagal menambahkan direktori."
+
+#: brlmon/brlmonui.c:246 gnopi/kbconf.c:79 gnopi/spconf.c:95
+#: srconf/libsrconf/libsrconf.c:431
+msgid "Failed to add notify."
+msgstr "Gagal menambahkan pemberitahuan."
+
+#: brlmon/brlmonui.c:261 gnopi/gnopiconf.c:145
+#, c-format
+msgid "Expected key: %s"
+msgstr "Kunci terharapkan: %s"
+
+#: brlmon/brlmonui.c:301
+#, c-format
+msgid "Failed to set value: %d"
+msgstr "Gagal untuk mengatur nilai: %d"
+
+#: brlmon/brlmonui.c:342 brlmon/brlmonui.c:444 gnopi/gnopiconf.c:355
+#: gnopi/gnopiconf.c:409 gnopi/gnopiconf.c:560 gnopi/gnopiconf.c:733
+#, c-format
+msgid "Invalid type of key: %s."
+msgstr "Tipe kunci yang salah: %s."
+
+#: brlmon/brlmonui.c:345 brlmon/brlmonui.c:364
+#, c-format
+msgid "Failed to set int value: %d."
+msgstr "Gagal mengatur nilai integer: %d."
+
+#: brlmon/brlmonui.c:358 brlmon/brlmonui.c:459
+#, c-format
+msgid "Failed to get value: %s."
+msgstr "Gagal untuk mendapatkan nilai: %s."
+
+#: brlmon/brlmonui.c:403 gnopi/gnopiconf.c:357 gnopi/gnopiconf.c:375
+#: gnopi/gnopiconf.c:562 gnopi/gnopiconf.c:578
+#, c-format
+msgid "Failed to set value: %d."
+msgstr "Gagal untuk mengatur nilai: %d"
+
+#: brlmon/brlmonui.c:447 brlmon/brlmonui.c:462
+#, c-format
+msgid "Failed to set boolean value: %d."
+msgstr "Gagal untuk mengatur nilai boolean: %d."
+
+#: brlmon/brlmonui.c:501 gnopi/gnopiconf.c:496 gnopi/gnopiconf.c:509
+#, c-format
+msgid "Failed to set value: %s."
+msgstr "Gagal untuk mengatur nilai: %s."
+
+#: brlmon/brlmonui.c:535
+#, c-format
+msgid "Failed to get string value: %s."
+msgstr "Gagal untuk mendapatkan nilai string: %s."
+
+#: brlmon/brlmonui.c:539 brlmon/brlmonui.c:549
+#, c-format
+msgid "Failed to set string value: %s."
+msgstr "Gagal untuk mengatur nilai string: %s."
+
+#: brlmon/brlmonui.c:583 gnopi/bmui.c:297
+#, c-format
+msgid "Invalid modetype: %s."
+msgstr "Tipe mode yang salah: %s."
+
+#: brlmon/brlmonui.c:635
+#, c-format
+msgid "%s font not installed."
+msgstr "Huruf %s tidak terpasang."
+
+#. *
+#. * bmui_load_colors
+#. *
+#. * Load text colors.
+#. *
+#. * returns:
+#. *
+#: brlmon/brlmonui.c:639 gnopi/bmui.c:251
+msgid "Can not parse color string."
+msgstr "Tidak dapat membaca karakter warna."
+
+#: brlmon/brlmonui.c:1111
+msgid "Status"
+msgstr "Status"
+
+#: brlmon/brlmonui.c:1318
+#, c-format
+msgid "Too many cells on display. [Max %d]"
+msgstr "Terlalu banyak sel-sel di tampilan. [Max %d]"
+
+#: brlmon/brlmonui.c:1319
+#, c-format
+msgid "Load default display size. Line: %d Column: %d."
+msgstr "Buka ukuran tampilan standard. Garis: %d Kolom: %d."
+
+#. unsupported attribute
+#: brlmon/brlmonxml.c:84
+#, c-format
+msgid "BRLOUT attribute %s is not supported."
+msgstr "Atribut BRLOUT %s tidak terdukung."
+
+#. unsupported attribute
+#: brlmon/brlmonxml.c:218
+#, c-format
+msgid "TEXT attribute %s is not supported."
+msgstr "Atribut TEXT %s tidak terdukung."
+
+#: gnopi/bmconf.c:318
+msgid "Failed to set display size."
+msgstr "Gagal untuk mengatur ukuran tampilan."
+
+#: gnopi/bmconf.c:336
+msgid "Failed to set display position."
+msgstr "Gagal untuk mengatur posisi tampilan."
+
+#: gnopi/bmconf.c:368
+msgid "Failed to set display mode."
+msgstr "Gagal untuk mengatur mode tampilan."
+
+#: gnopi/bmconf.c:392
+msgid "Failed to set dot type colors."
+msgstr "Gagal untuk mengatur tipe warna titik."
+
+#: gnopi/bmconf.c:409
+msgid "Failed to set font size."
+msgstr "Gagal untuk mengatur ukuran huruf."
+
+#: gnopi/bmui.c:328
+#, c-format
+msgid "Invalid position: %s."
+msgstr "Posisi salah: %s."
+
+#: gnopi/brlconf.c:282 gnopi/cmdmapconf.c:237 gnopi/coreconf.c:140
+#: gnopi/kbconf.c:126 gnopi/magconf.c:226 gnopi/spconf.c:158
+#: gnopi/spconf.c:1247
+msgid "Unable to allocate memory."
+msgstr "Tidak dapat mengalokasikan memori."
+
+#: gnopi/brlconf.c:388
+#, c-format
+msgid "Failed to set braille style: %s."
+msgstr "Gagal untuk mengatur model Braille: %s."
+
+#: gnopi/brlconf.c:397
+#, c-format
+msgid "Failed to set braille cursor style: %s."
+msgstr "Gagal untuk mengatur model kursor Braille: %s."
+
+#: gnopi/brlconf.c:406
+#, c-format
+msgid "Failed to set attribute settings: %d."
+msgstr "Gagal untuk mengatur aturan atribut: %d."
+
+#: gnopi/brlconf.c:415
+#, c-format
+msgid "Failed to set braille device: %s."
+msgstr "Gagal untuk mengatur alat braille: %s."
+
+#: gnopi/brlconf.c:424
+#, c-format
+msgid "Failed to set fill character: %s."
+msgstr "Gagal untuk mengatur karakter pengisi: %s."
+
+#: gnopi/brlconf.c:433
+#, c-format
+msgid "Failed to set serial port number: %d."
+msgstr "Gagal untuk mengatur nomor port serial: %d."
+
+#: gnopi/brlconf.c:443
+#, c-format
+msgid "Failed to set translation table: %s."
+msgstr "Gagal untuk mengatur tabel terjemahan: %s."
+
+#: gnopi/brlconf.c:452
+#, c-format
+msgid "Failed to set optical sensor: %d."
+msgstr "Gagal untuk mengatur sensor optis: %d."
+
+#: gnopi/brlconf.c:461
+#, c-format
+msgid "Failed to set position sensor: %d."
+msgstr "Gagal untuk mengatur sensor posisi: %d."
+
+#: gnopi/brlconf.c:470
+#, c-format
+msgid "Failed to set status cell: %s."
+msgstr "Gagal untuk mengatur sel status: %s."
+
+#: gnopi/brlconf.c:556 gnopi/brlui.c:461 gnopi/brlui.c:518
+#: gnopi/spvoiceui.c:613
+msgid "<none>"
+msgstr "<kosong>"
+
+#: gnopi/brlui.c:79
+msgid "American English"
+msgstr "Inggris Amerika"
+
+#: gnopi/brlui.c:80
+msgid "German"
+msgstr "Jerman"
+
+#: gnopi/brlui.c:81
+msgid "Spanish"
+msgstr "Spanyol"
+
+#: gnopi/brlui.c:82
+msgid "Swedish"
+msgstr "Swedia"
+
+#. To translators: X = X Window System server
+#: gnopi/brlui.c:365
+msgid "X display's _terminal number:"
+msgstr "Nomor _terminal tampilan X:"
+
+#: gnopi/brlui.c:371
+#: gnopi/gnopi_files/Braille_Settings/braille_device.glade2.h:6
+msgid "_Port:"
+msgstr "_Port:"
+
+#: gnopi/brlui.c:693
+msgid "Language"
+msgstr "Bahasa"
+
+#: gnopi/brlui.c:1288 gnopi/cmdmapui.c:475
+msgid "No selected command!"
+msgstr "Tidak ada perintah terpilih!"
+
+#: gnopi/brlui.c:1312
+msgid "Invalid device key!"
+msgstr "Kunci perangkat salah!"
+
+#: gnopi/brlui.c:1547 gnopi/brlui.c:1970 gnopi/cmdmapui.c:717
+#: gnopi/cmdmapui.c:1568 gnopi/cmdmapui.c:1588
+msgid "Commands"
+msgstr "Perintah-perintah"
+
+#: gnopi/brlui.c:1702 gnopi/cmdmapui.c:1186
+msgid "No selected item to modify!"
+msgstr "Tidak ada artikel yang terpilih untuk dirubah!"
+
+#: gnopi/brlui.c:1714 gnopi/brlui.c:1794 gnopi/cmdmapui.c:1059
+#: gnopi/cmdmapui.c:1196
+msgid "Invalid selected item!"
+msgstr "Pilihan artikel salah!"
+
+#: gnopi/brlui.c:1782 gnopi/cmdmapui.c:1046
+msgid "No selected item to remove!"
+msgstr "Tidak ada artikel terseleksi untuk dibuang!"
+
+#: gnopi/brlui.c:1964
+#: gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:9
+msgid "Braille Keys"
+msgstr "Kunci-kunci Braille"
+
+#: gnopi/cmdmapconf.c:462 gnopi/cmdmapconf.c:503
+msgid "Change commit error."
+msgstr "Gagal untuk menetapkan perubahan."
+
+#: gnopi/cmdmapui.c:45
+msgid "decrease y scale"
+msgstr "kurangi skala y"
+
+#: gnopi/cmdmapui.c:46
+msgid "decrease x scale"
+msgstr "kurangi skala x"
+
+#: gnopi/cmdmapui.c:47
+msgid "increase y scale"
+msgstr "tambah skala y"
+
+#: gnopi/cmdmapui.c:48
+msgid "increase x scale"
+msgstr "tambah skala x"
+
+#: gnopi/cmdmapui.c:49
+msgid "lock xy scale"
+msgstr "kunci skala xy"
+
+#: gnopi/cmdmapui.c:50
+msgid "smoothing toggle"
+msgstr "pengatur penghalusan"
+
+#: gnopi/cmdmapui.c:51
+msgid "cursor toggle"
+msgstr "pengatur kursor"
+
+#: gnopi/cmdmapui.c:52
+msgid "cursor on/off"
+msgstr "nyala/matikan kursor"
+
+#: gnopi/cmdmapui.c:53
+msgid "cursor magnification on/off"
+msgstr "nyala/matikan pembesaran kursor"
+
+#: gnopi/cmdmapui.c:54
+msgid "decrease cursor size"
+msgstr "kurangi ukuran kursor"
+
+#: gnopi/cmdmapui.c:55
+msgid "increase cursor size"
+msgstr "tambah ukuran kursor"
+
+#: gnopi/cmdmapui.c:56
+msgid "invert on/off"
+msgstr "nyala/matikan mode negatif"
+
+#: gnopi/cmdmapui.c:57
+msgid "magnifier default"
+msgstr "ukuran pembesar standard"
+
+#: gnopi/cmdmapui.c:58
+msgid "crosshair on/off"
+msgstr "crosshair hidup/mati"
+
+#: gnopi/cmdmapui.c:59
+msgid "crosshair clip on/off"
+msgstr "potongan crosshair hidup/mati"
+
+#: gnopi/cmdmapui.c:60
+msgid "decrease crosshair size"
+msgstr "kecilkan ukuran crosshair"
+
+#: gnopi/cmdmapui.c:61
+msgid "increase crosshair size"
+msgstr "besarkan ukuran crosshair"
+
+#: gnopi/cmdmapui.c:62
+msgid "automatic panning on/off"
+msgstr "panning automatis hidup/mati"
+
+#: gnopi/cmdmapui.c:63
+msgid "mouse tracking toggle"
+msgstr "nyala/matikan mouse tracking"
+
+#: gnopi/cmdmapui.c:64
+msgid "load magnifier defaults"
+msgstr "buka pengaturan pembesar standard"
+
+#: gnopi/cmdmapui.c:66
+msgid "decrease pitch"
+msgstr "kurangi ketinggian sudut"
+
+#: gnopi/cmdmapui.c:67
+msgid "increase pitch"
+msgstr "tambah ketinggian sudut"
+
+#: gnopi/cmdmapui.c:68
+msgid "default pitch"
+msgstr "ketinggian sudut standard"
+
+#: gnopi/cmdmapui.c:69
+msgid "decrease rate"
+msgstr "kurangi tingkatan"
+
+#: gnopi/cmdmapui.c:70
+msgid "increase rate"
+msgstr "tambah tingkatan"
+
+#: gnopi/cmdmapui.c:71
+msgid "default rate"
+msgstr "tingkatan standard"
+
+#: gnopi/cmdmapui.c:72
+msgid "decrease volume"
+msgstr "kurangi volume"
+
+#: gnopi/cmdmapui.c:73
+msgid "increase volume"
+msgstr "tambah volume"
+
+#: gnopi/cmdmapui.c:74
+msgid "default volume"
+msgstr "volume standard"
+
+#: gnopi/cmdmapui.c:75
+msgid "speech default"
+msgstr "pengaturan bicara standard"
+
+#: gnopi/cmdmapui.c:77
+msgid "goto parent"
+msgstr "naik satu tingkatan"
+
+#: gnopi/cmdmapui.c:78
+msgid "goto child"
+msgstr "turun satu tingkatan"
+
+#: gnopi/cmdmapui.c:79
+msgid "goto previous"
+msgstr "kembali ke sebelumnya"
+
+#: gnopi/cmdmapui.c:80
+msgid "goto next"
+msgstr "pergi ke selanjutnya"
+
+#: gnopi/cmdmapui.c:81
+msgid "repeat last"
+msgstr "ulangi yang terakhir"
+
+#: gnopi/cmdmapui.c:82
+msgid "goto focus"
+msgstr "pergi ke fokus"
+
+#: gnopi/cmdmapui.c:83
+msgid "goto title"
+msgstr "pergi ke judul"
+
+#: gnopi/cmdmapui.c:84
+msgid "goto menu"
+msgstr "pergi ke menu"
+
+#: gnopi/cmdmapui.c:85
+msgid "goto toolbar"
+msgstr "pergi ke toolbar"
+
+#: gnopi/cmdmapui.c:86
+msgid "goto statusbar"
+msgstr "pergi ke statusbar"
+
+#: gnopi/cmdmapui.c:87
+msgid "widget surroundings"
+msgstr "daerah sekitar widget"
+
+#: gnopi/cmdmapui.c:89
+msgid "goto caret"
+msgstr "pergi ke kursor text"
+
+#: gnopi/cmdmapui.c:90
+msgid "goto first"
+msgstr "pergi ke pertama"
+
+#: gnopi/cmdmapui.c:91
+msgid "goto last"
+msgstr "pergi ke terakhir"
+
+#: gnopi/cmdmapui.c:92
+msgid "change navigation mode"
+msgstr "rubah mode navigasi"
+
+#: gnopi/cmdmapui.c:94
+msgid "toggle flat review/focus tracking mode"
+msgstr "nyala/matikan mode ulasan/tracking fokus"
+
+#: gnopi/cmdmapui.c:95
+msgid "flat review"
+msgstr "ulasan"
+
+#: gnopi/cmdmapui.c:96
+msgid "window hierarchy"
+msgstr "susunan window"
+
+#: gnopi/cmdmapui.c:97
+msgid "read whole window"
+msgstr "baca seluruh window"
+
+#: gnopi/cmdmapui.c:98
+msgid "detailed informations"
+msgstr "informasi rinci"
+
+#: gnopi/cmdmapui.c:99
+msgid "do default action"
+msgstr "lakukan aksi standard"
+
+#: gnopi/cmdmapui.c:100
+msgid "window overview"
+msgstr "window tinjauan luas"
+
+#: gnopi/cmdmapui.c:101
+msgid "find next"
+msgstr "cari selanjutnya"
+
+#: gnopi/cmdmapui.c:102
+msgid "find set"
+msgstr "cari pasangan"
+
+#: gnopi/cmdmapui.c:103
+msgid "attributes at caret"
+msgstr "atribut-atribut pada kursor text"
+
+#: gnopi/cmdmapui.c:104
+msgid "watch current object"
+msgstr "awasi obyek kini"
+
+#: gnopi/cmdmapui.c:105 srcore/srctrl.c:1353
+msgid "unwatch all objects"
+msgstr "jangan awasi semua obyek-obyek"
+
+#: gnopi/cmdmapui.c:107
+msgid "mouse left press"
+msgstr "tombol mouse kiri ditekan"
+
+#: gnopi/cmdmapui.c:108
+msgid "mouse left click"
+msgstr "tombol mouse kiri diklik"
+
+#: gnopi/cmdmapui.c:109
+msgid "mouse left release"
+msgstr "tombol mouse kiri dilepas"
+
+#: gnopi/cmdmapui.c:110
+msgid "mouse right press"
+msgstr "tombol mouse kanan ditekan"
+
+#: gnopi/cmdmapui.c:111
+msgid "mouse right click"
+msgstr "tombol mouse kanan diklik"
+
+#: gnopi/cmdmapui.c:112
+msgid "mouse right release"
+msgstr "tombol mouse kanan dilepas"
+
+#: gnopi/cmdmapui.c:113
+msgid "mouse middle press"
+msgstr "tombol mouse tengah ditekan"
+
+#: gnopi/cmdmapui.c:114
+msgid "mouse middle release"
+msgstr "tombol mouse tengah dilepas"
+
+#: gnopi/cmdmapui.c:115
+msgid "mouse middle click"
+msgstr "tombol mouse tengah diklik"
+
+#: gnopi/cmdmapui.c:116
+msgid "mouse goto current"
+msgstr "mouse ke kini"
+
+#: gnopi/cmdmapui.c:118
+msgid "shutup"
+msgstr "diam"
+
+#: gnopi/cmdmapui.c:119
+msgid "pause/resume"
+msgstr "berhenti/lanjutkan"
+
+#: gnopi/cmdmapui.c:121
+msgid "char left"
+msgstr "ke kiri satu karakter"
+
+#: gnopi/cmdmapui.c:122
+msgid "char right"
+msgstr "ke kanan satu karakter"
+
+#: gnopi/cmdmapui.c:123
+msgid "display left"
+msgstr "ke kiri satu tampilan"
+
+#: gnopi/cmdmapui.c:124
+msgid "display right"
+msgstr "ke kanan satu tampilan"
+
+#: gnopi/cmdmapui.c:126
+msgid "braille on/off"
+msgstr "nyala/matikan braille"
+
+#: gnopi/cmdmapui.c:127
+msgid "speech on/off"
+msgstr "nyala/matikan bicara"
+
+#: gnopi/cmdmapui.c:128
+msgid "magnifier on/off"
+msgstr "nyala/matikan pembesar"
+
+#: gnopi/cmdmapui.c:129
+msgid "braille monitor on/off"
+msgstr "nyala/matikan monitor braille"
+
+#: gnopi/cmdmapui.c:143
+msgid "A"
+msgstr "A"
+
+#: gnopi/cmdmapui.c:144
+msgid "B"
+msgstr "B"
+
+#: gnopi/cmdmapui.c:145
+msgid "C"
+msgstr "C"
+
+#: gnopi/cmdmapui.c:146
+msgid "D"
+msgstr "D"
+
+#: gnopi/cmdmapui.c:147
+msgid "E"
+msgstr "E"
+
+#: gnopi/cmdmapui.c:148
+msgid "F"
+msgstr "F"
+
+#: gnopi/cmdmapui.c:149
+msgid "G"
+msgstr "G"
+
+#: gnopi/cmdmapui.c:150
+msgid "H"
+msgstr "H"
+
+#: gnopi/cmdmapui.c:151
+msgid "I"
+msgstr "I"
+
+#: gnopi/cmdmapui.c:152
+msgid "J"
+msgstr "J"
+
+#: gnopi/cmdmapui.c:153
+msgid "K"
+msgstr "K"
+
+#: gnopi/cmdmapui.c:154
+msgid "L"
+msgstr "L"
+
+#: gnopi/cmdmapui.c:155
+msgid "M"
+msgstr "M"
+
+#: gnopi/cmdmapui.c:156
+msgid "N"
+msgstr "N"
+
+#: gnopi/cmdmapui.c:157
+msgid "O"
+msgstr "O"
+
+#: gnopi/cmdmapui.c:158
+msgid "P"
+msgstr "P"
+
+#: gnopi/cmdmapui.c:159
+msgid "Q"
+msgstr "Q"
+
+#: gnopi/cmdmapui.c:160
+msgid "R"
+msgstr "R"
+
+#: gnopi/cmdmapui.c:161
+msgid "S"
+msgstr "S"
+
+#: gnopi/cmdmapui.c:162
+msgid "T"
+msgstr "T"
+
+#: gnopi/cmdmapui.c:163
+msgid "U"
+msgstr "U"
+
+#: gnopi/cmdmapui.c:164
+msgid "V"
+msgstr "V"
+
+#: gnopi/cmdmapui.c:165
+msgid "W"
+msgstr "W"
+
+#: gnopi/cmdmapui.c:166
+msgid "X"
+msgstr "X"
+
+#: gnopi/cmdmapui.c:167
+msgid "Y"
+msgstr "Y"
+
+#: gnopi/cmdmapui.c:168
+msgid "Z"
+msgstr "Z"
+
+#: gnopi/cmdmapui.c:169
+msgid "F1"
+msgstr "F1"
+
+#: gnopi/cmdmapui.c:170
+msgid "F2"
+msgstr "F2"
+
+#: gnopi/cmdmapui.c:171
+msgid "F3"
+msgstr "F3"
+
+#: gnopi/cmdmapui.c:172
+msgid "F4"
+msgstr "F4"
+
+#: gnopi/cmdmapui.c:173
+msgid "F5"
+msgstr "F5"
+
+#: gnopi/cmdmapui.c:174
+msgid "F6"
+msgstr "F6"
+
+#: gnopi/cmdmapui.c:175
+msgid "F7"
+msgstr "F7"
+
+#: gnopi/cmdmapui.c:176
+msgid "F8"
+msgstr "F8"
+
+#: gnopi/cmdmapui.c:177
+msgid "F9"
+msgstr "F9"
+
+#: gnopi/cmdmapui.c:178
+msgid "F10"
+msgstr "F10"
+
+#: gnopi/cmdmapui.c:179
+msgid "F11"
+msgstr "F11"
+
+#: gnopi/cmdmapui.c:180
+msgid "F12"
+msgstr "F12"
+
+#: gnopi/cmdmapui.c:181
+msgid "0"
+msgstr "0"
+
+#: gnopi/cmdmapui.c:182
+msgid "1"
+msgstr "1"
+
+#: gnopi/cmdmapui.c:183
+msgid "2"
+msgstr "2"
+
+#: gnopi/cmdmapui.c:184
+msgid "3"
+msgstr "3"
+
+#: gnopi/cmdmapui.c:185
+msgid "4"
+msgstr "4"
+
+#: gnopi/cmdmapui.c:186
+msgid "5"
+msgstr "5"
+
+#: gnopi/cmdmapui.c:187
+msgid "6"
+msgstr "6"
+
+#: gnopi/cmdmapui.c:188
+msgid "7"
+msgstr "7"
+
+#: gnopi/cmdmapui.c:189
+msgid "8"
+msgstr "8"
+
+#: gnopi/cmdmapui.c:190
+msgid "9"
+msgstr "9"
+
+#: gnopi/cmdmapui.c:191
+msgid "apostrophe"
+msgstr "apostrop"
+
+#: gnopi/cmdmapui.c:192
+msgid "backslash"
+msgstr "garis miring kanan"
+
+#: gnopi/cmdmapui.c:193
+msgid "bracket left"
+msgstr "kurung kiri"
+
+#: gnopi/cmdmapui.c:194
+msgid "bracket right"
+msgstr "kurung kanan"
+
+#: gnopi/cmdmapui.c:195
+msgid "comma"
+msgstr "koma"
+
+#: gnopi/cmdmapui.c:196
+msgid "equal"
+msgstr "sama dengan"
+
+#: gnopi/cmdmapui.c:197
+msgid "grave"
+msgstr "tanda petik kiri"
+
+#: gnopi/cmdmapui.c:198
+msgid "minus"
+msgstr "minus"
+
+#: gnopi/cmdmapui.c:199
+msgid "period"
+msgstr "titik"
+
+#: gnopi/cmdmapui.c:200
+msgid "quote left"
+msgstr "tanda petik kiri"
+
+#: gnopi/cmdmapui.c:201
+msgid "semicolon"
+msgstr "titik koma"
+
+#: gnopi/cmdmapui.c:202
+msgid "slash"
+msgstr "garis miring"
+
+#: gnopi/cmdmapui.c:1133
+msgid "Invalid key or existent key."
+msgstr "Kunci salah atau kunci sudah ada."
+
+#: gnopi/cmdmapui.c:1562
+msgid "Layer Keys"
+msgstr "Kunci-kunci lapisan"
+
+#: gnopi/cmdmapui.c:1582
+msgid "User Keys"
+msgstr "Kunci-kunci pengguna"
+
+#: gnopi/coreconf.c:248
+#, c-format
+msgid "Failed to set exit val: %d."
+msgstr "Gagal untuk mengatur nilai keluar: %d."
+
+#: gnopi/coreconf.c:290
+#, c-format
+msgid "Failed to set move mouse: %d."
+msgstr "Gagal untuk mengatur gerakan mouse: %d."
+
+#: gnopi/coreconf.c:299
+#, c-format
+msgid "Failed to set simulate click: %d."
+msgstr "Gagal untuk mengatur simulasi klik: %d."
+
+#: gnopi/coreconf.c:308
+#, c-format
+msgid "Failed to set find text: %s."
+msgstr "Gagal untuk mengatur pencarian teks: %s."
+
+#: gnopi/coreconf.c:318
+#, c-format
+msgid "Failed to set magnifier status: %d."
+msgstr "Gagal untuk mengatur status pembesar: %d."
+
+#: gnopi/coreconf.c:327
+#, c-format
+msgid "Failed to set speech status: %d."
+msgstr "Gagal untuk mengatur status bicara: %d."
+
+#: gnopi/coreconf.c:336
+#, c-format
+msgid "Failed to set braille status: %d."
+msgstr "Gagal untuk mengatur status braille: %d."
+
+#: gnopi/coreconf.c:345
+#, c-format
+msgid "Failed to set braille monitor status: %d."
+msgstr "Gagal untuk mengatur status monitor braille: %d."
+
+#: gnopi/coreconf.c:354
+#, c-format
+msgid "Failed to set minimize flag: %d."
+msgstr "Gagal untuk mengatur indikator minimize: %d."
+
+#: gnopi/coreconf.c:363
+#, c-format
+msgid "Failed to set exit ack: %d."
+msgstr "Gagal untuk mengatur konfirmasi keluar: %d."
+
+#: gnopi/coreconf.c:372
+#, c-format
+msgid "Failed to set language: %s."
+msgstr "Gagal untuk mengatur bahasa: %s."
+
+#: gnopi/coreconf.c:381
+#, c-format
+msgid "Failed to set screen review: %d."
+msgstr "Gagal untuk mengatur ulasan layar: %d."
+
+#: gnopi/defui.c:73
+#, c-format
+msgid "Are you sure you want to load default values for %s?"
+msgstr "Apakah anda yakin untuk membuka pengaturan standard untuk %s?"
+
+#: gnopi/defui.c:100
+msgid "braille"
+msgstr "braille"
+
+#: gnopi/defui.c:116
+msgid "Braille default setting loaded."
+msgstr "Pengaturan Braille standard terbuka."
+
+#: gnopi/defui.c:125
+msgid "speech"
+msgstr "bicara"
+
+#: gnopi/defui.c:133
+msgid "Speech default setting loaded."
+msgstr "Pengaturan bicara standard terbuka."
+
+#: gnopi/defui.c:142
+msgid "magnifier"
+msgstr "pembesar"
+
+#: gnopi/defui.c:156
+msgid "Magnifier default setting loaded."
+msgstr "Pengaturan bicara standard terbuka."
+
+#: gnopi/defui.c:165
+msgid "keyboard"
+msgstr "keyboard"
+
+#: gnopi/defui.c:173
+msgid "Keyboard default setting loaded."
+msgstr "Pengaturan keyboard standard terbuka."
+
+#: gnopi/defui.c:182
+msgid "braille monitor"
+msgstr "monitor braille"
+
+#: gnopi/defui.c:189
+msgid "Braille monitor default setting loaded."
+msgstr "Pengaturan monitor braille standard terbuka."
+
+#: gnopi/defui.c:198
+msgid "start up"
+msgstr "mulai"
+
+#: gnopi/defui.c:207
+msgid "Startup default setting loaded."
+msgstr "Pengaturan start standard terbuka."
+
+#: gnopi/defui.c:217
+msgid "command map"
+msgstr "daftar perintah"
+
+#: gnopi/defui.c:225
+msgid "Command map default setting loaded."
+msgstr "Pengaturan daftar perintah standard terbuka."
+
+#: gnopi/defui.c:235
+msgid "presentation"
+msgstr "presentasi"
+
+#: gnopi/defui.c:241
+msgid "Presentation default setting loaded."
+msgstr "Pengaturan presentasi standard terbuka."
+
+#: gnopi/defui.c:250
+msgid "screen review"
+msgstr "ulasan layar"
+
+#: gnopi/defui.c:256
+msgid "Screen review default setting loaded."
+msgstr "Pengaturan ulasan layar standard terbuka."
+
+#: gnopi/defui.c:279
+msgid "all modules"
+msgstr "semua modul-modul"
+
+#: gnopi/defui.c:282
+msgid "All default settings loaded."
+msgstr "Semua pengaturan standard terbuka."
+
+#: gnopi/genui.c:66
+#: gnopi/gnopi_files/General_Settings/general_settings.glade2.h:12
+msgid "_Braille"
+msgstr "_Braille"
+
+#: gnopi/genui.c:69
+msgid "_Braille (unavailable)"
+msgstr "_Braille (tidak tersedia)"
+
+#: gnopi/genui.c:74
+#: gnopi/gnopi_files/General_Settings/general_settings.glade2.h:13
+msgid "_Magnifier"
+msgstr "_Pembesar"
+
+#: gnopi/genui.c:77
+msgid "_Magnifier (unavailable)"
+msgstr "_Pembesard (tidak tersedia)"
+
+#: gnopi/genui.c:82
+#: gnopi/gnopi_files/General_Settings/general_settings.glade2.h:14
+msgid "_Speech"
+msgstr "_Bicara"
+
+#: gnopi/genui.c:85
+msgid "_Speech (unavailable)"
+msgstr "_Bicara (tidak tersedia)"
+
+#: gnopi/genui.c:90
+#: gnopi/gnopi_files/General_Settings/general_settings.glade2.h:4
+msgid "B_raille monitor"
+msgstr "Monitor b_raille"
+
+#: gnopi/genui.c:93
+msgid "B_raille monitor (unavailable)"
+msgstr "Monitor b_raille (tidak tersedia)"
+
+#: gnopi/gnopernicus.desktop.in.h:1
+msgid "Assistive Technologies for Blind and Visually Impaired"
+msgstr "Tehnologi penunjang orang buta dan berpengelihatan buruk"
+
+#: gnopi/gnopernicus.desktop.in.h:2
+msgid "Screen Reader and Magnifier"
+msgstr "Pembaca Layar and Pembesar"
+
+#: gnopi/gnopi.c:302
+msgid "gnopernicus"
+msgstr "gnopernicus"
+
+#: gnopi/gnopi.c:309
+msgid "Gconf initialization failed."
+msgstr "Inisialisasi Gconf gagal."
+
+#: gnopi/gnopi.c:316
+msgid "Invalid parameters."
+msgstr "Parameter salah"
+
+#: gnopi/gnopi.c:322
+msgid "Multiple instances are NOT ALLOWED. This instance will end."
+msgstr ""
+"Program ini TIDAK DIPERBOLEHKAN jalan lebih dari satu. Program ini akan "
+"berakhir."
+
+#: gnopi/gnopi.c:328
+msgid "GTK initialization failed."
+msgstr "Inisialisasi GTK gagal."
+
+#: gnopi/gnopi.c:334
+msgid "Can not create a new process."
+msgstr "Tidak dapat membuat proses baru."
+
+#: gnopi/gnopi.c:344
+msgid "Exit gnopernicus."
+msgstr "Keluar dari gnopernicus."
+
+#: gnopi/gnopi.c:352
+msgid "Gnopernicus initialization failed."
+msgstr "Inisialisasi gnopernicus gagal."
+
+#: gnopi/gnopi.c:359
+msgid "Can not load .glade2 file"
+msgstr "Tidak dapat membuka berkas .glade2"
+
+#. if (WIFSIGNALED (gn_srcore_status) != 0)
+#. sru_message ("signal no: %d", WTERMSIG (gn_srcore_status));
+#: gnopi/gnopi.c:666
+msgid "srcore exited."
+msgstr "srcore ditutup."
+
+#: gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:1
+msgid "<b>Color</b>"
+msgstr "<b>Warna</b>"
+
+#: gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:2
+msgid "<b>Font</b>"
+msgstr "<b>Huruf</b>"
+
+#: gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:3
+msgid "<b>Mode Type</b>"
+msgstr "<b>Mode Ketik</b>"
+
+#: gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:4
+msgid "<b>Position</b>"
+msgstr "<b>Posisi</b>"
+
+#: gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:5
+msgid "<b>Size</b>"
+msgstr "<b>Ukuran</b>"
+
+#: gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:6
+msgid "B_raille"
+msgstr "B_raille"
+
+#: gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:7
+msgid "Braille Monitor Preferences"
+msgstr "Pengaturan Monitor Braille"
+
+#: gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:8
+msgid "Color selection for texts which use dot 7"
+msgstr "Pilihan warna untuk teks yang menggunakan titik 7"
+
+#: gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:9
+msgid "Color selection for texts which use dot 8"
+msgstr "Pilihan warna untuk teks yang menggunakan titik 8"
+
+#: gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:10
+msgid "Color selection for texts which use dots 7 and 8"
+msgstr "Pilihan warna untuk teks yang menggunakan titik 7 dan 8"
+
+#: gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:11
+msgid "Colu_mns:"
+msgstr "Kolo_m"
+
+#: gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:12
+msgid "Display at bottom of screen"
+msgstr "Tampilkan di bawah layar"
+
+#: gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:13
+msgid "Display on top of screen"
+msgstr "Tampilkan di atas layar"
+
+#: gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:14
+msgid "Display using braille font"
+msgstr "Tampilkan dengan huruf braille"
+
+#: gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:15
+msgid "Display using normal font"
+msgstr "Tampilkan dengan huruf normal"
+
+#: gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:16
+msgid "Display with both fonts"
+msgstr "Tampilkan dengan kedua huruf"
+
+#: gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:17
+msgid "Dot 7:"
+msgstr "Titik 7:"
+
+#: gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:18
+msgid "Dot 8:"
+msgstr "Titik 8:"
+
+#: gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:19
+msgid "Dots 78:"
+msgstr "Titik 78:"
+
+#: gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:20
+msgid "Number of cell columns"
+msgstr "Jumlah kolom sel"
+
+#: gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:21
+msgid "Number of cell lines"
+msgstr "Jumlah garis sel"
+
+#: gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:22
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:43
+msgid "Pick a color"
+msgstr "Pilih warna"
+
+#: gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:23
+msgid "Size of font"
+msgstr "Ukuran huruf"
+
+#: gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:24
+msgid "Use system theme colors"
+msgstr "Gunakan tema warna sistem"
+
+#: gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:25
+msgid "Use theme _system colors"
+msgstr "Gunakan tema warna _sistem"
+
+#: gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:26
+msgid "_Dual"
+msgstr "_Dual"
+
+#: gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:27
+msgid "_Lines:"
+msgstr "_Garis"
+
+#: gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:28
+msgid "_Normal"
+msgstr "_Normal"
+
+#: gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:29
+msgid "_Size:"
+msgstr "_Ukuran"
+
+#: gnopi/gnopi_files/Braille_Settings/attribute_settings.glade2.h:1
+msgid "Attributes"
+msgstr "Atribut"
+
+#: gnopi/gnopi_files/Braille_Settings/attribute_settings.glade2.h:2
+msgid "_1. Dot 8"
+msgstr "_1. Titik 8"
+
+#: gnopi/gnopi_files/Braille_Settings/attribute_settings.glade2.h:3
+msgid "_2. Dot 7"
+msgstr "_2. Titik 7"
+
+#: gnopi/gnopi_files/Braille_Settings/attribute_settings.glade2.h:4
+msgid "_3. Dot 8 or 7"
+msgstr "_3. Titik 8 atau 7"
+
+#: gnopi/gnopi_files/Braille_Settings/attribute_settings.glade2.h:5
+msgid "_4. Off"
+msgstr "_4. Mati"
+
+#: gnopi/gnopi_files/Braille_Settings/braille_device.glade2.h:1
+#: gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:1
+#: gnopi/gnopi_files/Find/find.glade2.h:2
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:1
+#: gnopi/gnopi_files/Presentation/presentation.glade2.h:1
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:3
+#: gnopi/gnopi_files/User_Properties/user_properties.glade2.h:1
+msgid "*"
+msgstr "*"
+
+#: gnopi/gnopi_files/Braille_Settings/braille_device.glade2.h:2
+msgid "Braille Device"
+msgstr "Perangkat Braille"
+
+#: gnopi/gnopi_files/Braille_Settings/braille_device.glade2.h:3
+msgid "Braille devices list"
+msgstr "Daftar perangkat-perangkat Braille"
+
+#: gnopi/gnopi_files/Braille_Settings/braille_device.glade2.h:4
+msgid "Enter manually:"
+msgstr ""
+
+#: gnopi/gnopi_files/Braille_Settings/braille_device.glade2.h:5
+msgid "_Device:"
+msgstr "_Perangkat:"
+
+#: gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:2
+msgid "10 _Font size"
+msgstr "10 Ukuran huru_f"
+
+#: gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:3
+msgid "11 _Activate script function \"OnPosSwitch\""
+msgstr "11 _Aktifkan fungsi skrip \"OnPosSwitch\""
+
+#: gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:4
+msgid "12 _Present attributes"
+msgstr "12 At_ribut yang ada"
+
+#: gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:5
+msgid "<b>_Braille keys list</b>"
+msgstr "<b>Daftar tombol _Braille</b>"
+
+#: gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:6
+msgid "Activate script function \"OnPosSwitch\""
+msgstr "Aktifkan fungsi skrip \"OnPosSwitch\""
+
+#: gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:7
+msgid "Add item in braille keys list"
+msgstr "Tambahkan item di daftar kunci braille"
+
+#: gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:8
+msgid "Braille Display Key Mapping"
+msgstr "Pemetaan Tombol Tampilan Braille"
+
+#: gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:10
+msgid "Braille device keys list"
+msgstr "Daftar tombol perangkat braille"
+
+#: gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:11
+msgid "Braille keys list"
+msgstr "Daftar tombol braille"
+
+#: gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:12
+msgid "Command List"
+msgstr "Daftar Perintah"
+
+#: gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:13
+msgid "Command list"
+msgstr "Daftar perintah"
+
+#: gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:14
+msgid "Font name"
+msgstr "Nama huruf"
+
+#: gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:15
+msgid "Font size"
+msgstr "Ukuran huruf"
+
+#: gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:16
+msgid "Font style"
+msgstr "Model huruf"
+
+#: gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:17
+msgid "Modify selected item"
+msgstr "Rubah artikel terpilih"
+
+#: gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:18
+msgid "Move caret"
+msgstr "Pindahkan kursor teks"
+
+#: gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:19
+msgid "Move mouse and click left"
+msgstr "Gerakkan mouse dan klik kiri"
+
+#: gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:20
+msgid "Move mouse and click left and right"
+msgstr "Gerakkan mouse dan klik kiri dan kanan"
+
+#: gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:21
+msgid "Move mouse and click right"
+msgstr "Gerakkan mouse dan klik kanan"
+
+#: gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:22
+msgid "Only move mouse"
+msgstr "Hanya gerakkan mouse"
+
+#: gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:23
+msgid "Optical Sensors"
+msgstr "Sensor Optis"
+
+#: gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:24
+msgid "Optical sensors off"
+msgstr "Matikan sensor optis"
+
+#: gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:25
+msgid "Position Sensors"
+msgstr "Sensor posisi"
+
+#: gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:26
+msgid "Position sensors off"
+msgstr "Matikan sensor posisi"
+
+#: gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:27
+msgid "Present attributes"
+msgstr "Atribut yang ada"
+
+#: gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:28
+msgid "Remove selected item from braille keys list"
+msgstr "Hilangkan artikel terpilih dari daftar tombol braille"
+
+#: gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:29
+msgid "Show X coordinate"
+msgstr "Tunjukkan koordinat X"
+
+#: gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:30
+msgid "Show Y coordinate"
+msgstr "Tunjukkan koordinat Y"
+
+#: gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:31
+msgid "_0 Optical sensors off"
+msgstr "_0 Sensor optis tidak aktif"
+
+#: gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:32
+msgid "_0 Position sensors off"
+msgstr "_0 Sensor posisi tidak aktif"
+
+#: gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:33
+msgid "_1 Only move mouse"
+msgstr "_1 Hanya gerakkan mouse"
+
+#: gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:34
+msgid "_2 Move mouse and click left"
+msgstr "_2 Gerakkan mouse dan klik kiri"
+
+#: gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:35
+msgid "_3 Move mouse and click right"
+msgstr "_3 Gerakkan mouse dan klik kanan"
+
+#: gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:36
+msgid "_4 Move mouse and click left or right"
+msgstr "_4 Gerakkan mouse dan klik kiri atau kanan"
+
+#: gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:37
+msgid "_5 Move caret"
+msgstr "_5 Gerakkan kursor teks"
+
+#: gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:38
+msgid "_6 Show X coordinate"
+msgstr "_6 Tunjukkan koordinat X"
+
+#: gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:39
+msgid "_7 Show Y coordinate"
+msgstr "_7 Tunjukkan koordinat Y"
+
+#: gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:40
+msgid "_8 Font style"
+msgstr "_8 Model huruf"
+
+#: gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:41
+msgid "_9 Font name"
+msgstr "_9 Nama huruf"
+
+#: gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:42
+msgid "_Commands:"
+msgstr "_Perintah:"
+
+#: gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:43
+msgid "_Device key:"
+msgstr "_Kunci perangkat"
+
+#: gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:44
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:85
+#: gnopi/gnopi_files/User_Properties/user_properties.glade2.h:28
+msgid "_Modify"
+msgstr "_Rubah"
+
+#: gnopi/gnopi_files/Braille_Settings/braille_settings.glade2.h:1
+msgid "Braille Preferences"
+msgstr "Pengaturan Braille"
+
+#: gnopi/gnopi_files/Braille_Settings/braille_settings.glade2.h:2
+msgid "Close braille settings"
+msgstr "Tutup pengaturan braille"
+
+#: gnopi/gnopi_files/Braille_Settings/braille_settings.glade2.h:3
+msgid "Map function for display keys"
+msgstr "Petakan fungsi untuk tombol-tombol display"
+
+#: gnopi/gnopi_files/Braille_Settings/braille_settings.glade2.h:4
+msgid "Select braille device"
+msgstr "Pilih perangkat braille"
+
+#: gnopi/gnopi_files/Braille_Settings/braille_settings.glade2.h:5
+msgid "Select braille style 8/6 dots"
+msgstr "Pilih model braille 8/6 titik"
+
+#: gnopi/gnopi_files/Braille_Settings/braille_settings.glade2.h:6
+msgid "Select cursor setting FullCell/UnderLined/NoCursor"
+msgstr "Setingan kursor terpilih FullCell/UnderLined/NoCursor"
+
+#: gnopi/gnopi_files/Braille_Settings/braille_settings.glade2.h:7
+msgid "Select translation table for braille device"
+msgstr "Pilih tabel terjemahan untuk perangkat braille"
+
+#: gnopi/gnopi_files/Braille_Settings/braille_settings.glade2.h:8
+msgid "_1 Braille Device"
+msgstr "_1 Perangkat Braille"
+
+#: gnopi/gnopi_files/Braille_Settings/braille_settings.glade2.h:9
+msgid "_2 Translation Table"
+msgstr "_2 Tabel Terjemahan"
+
+#: gnopi/gnopi_files/Braille_Settings/braille_settings.glade2.h:10
+msgid "_3 Braille Style"
+msgstr "_3 Gaya Braille"
+
+#: gnopi/gnopi_files/Braille_Settings/braille_settings.glade2.h:11
+msgid "_4 Cursor Preferences"
+msgstr "_4 Setingan Kursor"
+
+#: gnopi/gnopi_files/Braille_Settings/braille_settings.glade2.h:12
+msgid "_5 Braille Key Mapping"
+msgstr "_5 Pemetaan Tombol Braille"
+
+#: gnopi/gnopi_files/Braille_Settings/braille_style.glade2.h:1
+msgid "Braille Style"
+msgstr "Gaya Braille"
+
+#: gnopi/gnopi_files/Braille_Settings/braille_style.glade2.h:2
+msgid "Use 6 dots"
+msgstr "Gunakan 6 titik"
+
+#: gnopi/gnopi_files/Braille_Settings/braille_style.glade2.h:3
+msgid "Use 8 dots"
+msgstr "Gunakan 8 titik"
+
+#: gnopi/gnopi_files/Braille_Settings/braille_style.glade2.h:4
+msgid "_6 Dot Braille"
+msgstr "_6 Titik Braille"
+
+#: gnopi/gnopi_files/Braille_Settings/braille_style.glade2.h:5
+msgid "_8 Dot Braille"
+msgstr "_8 Titik Braille"
+
+#: gnopi/gnopi_files/Braille_Settings/cursor_settings.glade2.h:1
+msgid "Cursor Preferences"
+msgstr "Setingan Kursor"
+
+#: gnopi/gnopi_files/Braille_Settings/cursor_settings.glade2.h:2
+msgid "Cursor on braille display is a full cell"
+msgstr "Kursor pada tampilan Braille adalah sel penuh"
+
+#: gnopi/gnopi_files/Braille_Settings/cursor_settings.glade2.h:3
+msgid "Cursor on braille display is an underline"
+msgstr "Kursor pada tampilan Braille adalah garis bawah"
+
+#: gnopi/gnopi_files/Braille_Settings/cursor_settings.glade2.h:4
+msgid "No cursor on braille display"
+msgstr "Tampilan braille tidak menggunakan kursor"
+
+#: gnopi/gnopi_files/Braille_Settings/cursor_settings.glade2.h:5
+msgid "_Full cell cursor"
+msgstr "_Kursor sel penuh"
+
+#: gnopi/gnopi_files/Braille_Settings/cursor_settings.glade2.h:6
+msgid "_No cursor"
+msgstr "_Tidak pakai kursor"
+
+#: gnopi/gnopi_files/Braille_Settings/cursor_settings.glade2.h:7
+msgid "_Underline cursor (dots 7 and 8)"
+msgstr "_Kursor garis bawah (titik 7 dan 8)"
+
+#: gnopi/gnopi_files/Braille_Settings/translation_table.glade2.h:1
+msgid "Translation Table"
+msgstr "Tabel Terjemahan"
+
+#: gnopi/gnopi_files/Braille_Settings/translation_table.glade2.h:2
+msgid "Translation table list"
+msgstr "Daftar tabel terjemahan"
+
+#: gnopi/gnopi_files/Braille_Settings/translation_table.glade2.h:3
+msgid "_Select language:"
+msgstr "_Pilih bahasa:"
+
+#: gnopi/gnopi_files/Find/find.glade2.h:1
+msgid "   "
+msgstr "..."
+
+#: gnopi/gnopi_files/Find/find.glade2.h:3
+msgid "<b>Fi_nd Text:</b>"
+msgstr "<b>Temuka_n Teks</b>"
+
+#: gnopi/gnopi_files/Find/find.glade2.h:4
+msgid "<b>Find Attributes:</b>"
+msgstr "<b>Temukan Atribut</b>"
+
+#: gnopi/gnopi_files/Find/find.glade2.h:5
+msgid "<b>Match</b>"
+msgstr "<b>Cocok</b>"
+
+#: gnopi/gnopi_files/Find/find.glade2.h:6
+msgid "<b>Scope</b>"
+msgstr "<b>Ruang Lingkup</b>"
+
+#: gnopi/gnopi_files/Find/find.glade2.h:7
+msgid "<b>Search For</b>"
+msgstr "<b>Mencari</b>"
+
+#: gnopi/gnopi_files/Find/find.glade2.h:8
+msgid "A_ll chosen attributes"
+msgstr "_Seluruh atribut terpilih"
+
+#: gnopi/gnopi_files/Find/find.glade2.h:9
+msgid "A_ny chosen attributes"
+msgstr "_Atribut terpilih"
+
+#: gnopi/gnopi_files/Find/find.glade2.h:10
+msgid "A_ttribute"
+msgstr "A_tribut"
+
+#: gnopi/gnopi_files/Find/find.glade2.h:11
+msgid "Bold"
+msgstr "Tebal"
+
+#: gnopi/gnopi_files/Find/find.glade2.h:12
+msgid "Case _sensitive"
+msgstr "Huruf _besar kecil berbeda"
+
+#: gnopi/gnopi_files/Find/find.glade2.h:13
+msgid "Case sensitive on/off"
+msgstr "Huruf besar kecil berbeda hidup/mati"
+
+#: gnopi/gnopi_files/Find/find.glade2.h:14
+msgid "Italic"
+msgstr "miring"
+
+#: gnopi/gnopi_files/Find/find.glade2.h:15
+msgid "S_elected"
+msgstr "T_erpilih"
+
+#: gnopi/gnopi_files/Find/find.glade2.h:16
+msgid "Scope area is a desktop"
+msgstr "Daerah ruang lingkup ada sebuah desktop"
+
+#: gnopi/gnopi_files/Find/find.glade2.h:17
+msgid "Scope area is a window"
+msgstr "Daerah ruang lingkup ada sebuah jendela"
+
+#: gnopi/gnopi_files/Find/find.glade2.h:18
+msgid "Scope area is an application"
+msgstr "Daerah ruang lingkup ada suatu aplikasi"
+
+#: gnopi/gnopi_files/Find/find.glade2.h:19
+msgid "Search Preferences"
+msgstr "Setingan pencarian"
+
+#: gnopi/gnopi_files/Find/find.glade2.h:20
+msgid "Search criteria is a graphics"
+msgstr "Kriteria pencarian adalah sebuah grafik"
+
+#: gnopi/gnopi_files/Find/find.glade2.h:21
+msgid "Search criteria is a text"
+msgstr "Kriteria pencarian adalah sebuah teks"
+
+#: gnopi/gnopi_files/Find/find.glade2.h:22
+msgid "Search criteria is an attribute"
+msgstr "Kriteria pencarian adalah sebuah atribut"
+
+#: gnopi/gnopi_files/Find/find.glade2.h:23
+msgid "Selected item"
+msgstr "Objek terpilih"
+
+#: gnopi/gnopi_files/Find/find.glade2.h:24
+msgid "Stri_kethrough"
+msgstr "Core_t"
+
+#: gnopi/gnopi_files/Find/find.glade2.h:25
+msgid "Strikethrough"
+msgstr "Coret"
+
+#: gnopi/gnopi_files/Find/find.glade2.h:26
+msgid "Te_xt"
+msgstr "Te_ks"
+
+#: gnopi/gnopi_files/Find/find.glade2.h:27
+msgid "Text to search"
+msgstr "Teks yang dicari"
+
+#: gnopi/gnopi_files/Find/find.glade2.h:28
+msgid "Underline"
+msgstr "Garis bawah"
+
+#: gnopi/gnopi_files/Find/find.glade2.h:29
+msgid "_Application"
+msgstr "_Aplikasi"
+
+#: gnopi/gnopi_files/Find/find.glade2.h:30
+msgid "_Bold"
+msgstr "Te_bal"
+
+#: gnopi/gnopi_files/Find/find.glade2.h:31
+msgid "_Desktop"
+msgstr "_Desktop"
+
+#: gnopi/gnopi_files/Find/find.glade2.h:32
+msgid "_Graphics"
+msgstr "_Grafis"
+
+#: gnopi/gnopi_files/Find/find.glade2.h:33
+msgid "_Italic"
+msgstr "M_iring"
+
+#: gnopi/gnopi_files/Find/find.glade2.h:34
+msgid "_Underline"
+msgstr "Garis _bawah"
+
+#: gnopi/gnopi_files/Find/find.glade2.h:35
+msgid "_Window"
+msgstr "_Jendela"
+
+#: gnopi/gnopi_files/General_Settings/general_settings.glade2.h:1
+msgid "    "
+msgstr "    "
+
+#: gnopi/gnopi_files/General_Settings/general_settings.glade2.h:2
+msgid "<b>Active Components</b>"
+msgstr "<b>Komponen Aktif</b>"
+
+#: gnopi/gnopi_files/General_Settings/general_settings.glade2.h:3
+msgid "<b>Startup</b>"
+msgstr "<b>Mulai</b>"
+
+#: gnopi/gnopi_files/General_Settings/general_settings.glade2.h:5
+msgid "Braille monitor on/off"
+msgstr "Monitor Braille hidup/mati"
+
+#: gnopi/gnopi_files/General_Settings/general_settings.glade2.h:6
+msgid "Braille on/off"
+msgstr "Braille hidup/mati"
+
+#: gnopi/gnopi_files/General_Settings/general_settings.glade2.h:7
+msgid "Magnifier on/off"
+msgstr "Pembesar hidup/mati"
+
+#: gnopi/gnopi_files/General_Settings/general_settings.glade2.h:8
+msgid "Speech on/off"
+msgstr "Bicara hidup/mati"
+
+#: gnopi/gnopi_files/General_Settings/general_settings.glade2.h:9
+msgid "Start gnopernicus minimized"
+msgstr "Mulai gnopernicus dengan dikecilkan"
+
+#: gnopi/gnopi_files/General_Settings/general_settings.glade2.h:10
+msgid "Start m_inimized"
+msgstr "Mulai dengan d_ikecilkan"
+
+#: gnopi/gnopi_files/General_Settings/general_settings.glade2.h:11
+msgid "Startup Mode"
+msgstr "Mode Mulai"
+
+#: gnopi/gnopi_files/Keyboard_Mouse_Settings/keyboard_mouse_settings.glade2.h:1
+msgid "Mouse Preferences"
+msgstr "Setingan Mouse"
+
+#: gnopi/gnopi_files/Keyboard_Mouse_Settings/keyboard_mouse_settings.glade2.h:2
+msgid "Simulate click on current object"
+msgstr "Simulasikan klik pada objek ini"
+
+#: gnopi/gnopi_files/Keyboard_Mouse_Settings/keyboard_mouse_settings.glade2.h:3
+msgid "Take mouse at current object"
+msgstr "Letakkan mouse pada objek ini"
+
+#: gnopi/gnopi_files/Keyboard_Mouse_Settings/keyboard_mouse_settings.glade2.h:4
+msgid "_Simulate click on current object"
+msgstr "_Simulasikan klik pada objek ini"
+
+#: gnopi/gnopi_files/Keyboard_Mouse_Settings/keyboard_mouse_settings.glade2.h:5
+msgid "_Take mouse at current object"
+msgstr "_Letakkan mouse pada objek ini"
+
+#: gnopi/gnopi_files/Load_Default/load_default.glade2.h:1
+msgid "Close \"Load Default Preferences\""
+msgstr "Tutup \"Baca Setingan Default\""
+
+#: gnopi/gnopi_files/Load_Default/load_default.glade2.h:2
+msgid "Load Default Preferences"
+msgstr "Baca Setingan Default"
+
+#: gnopi/gnopi_files/Load_Default/load_default.glade2.h:3
+msgid "Load Default Settings"
+msgstr "Baca Setingan Default"
+
+#: gnopi/gnopi_files/Load_Default/load_default.glade2.h:4
+msgid "Load all defaults"
+msgstr "Baca seluruh default"
+
+#: gnopi/gnopi_files/Load_Default/load_default.glade2.h:5
+msgid "Load braille defaults"
+msgstr "Baca braille default"
+
+#: gnopi/gnopi_files/Load_Default/load_default.glade2.h:6
+msgid "Load braille monitor defaults"
+msgstr "Baca monitor braille default"
+
+#: gnopi/gnopi_files/Load_Default/load_default.glade2.h:7
+msgid "Load command map defaults"
+msgstr "Baca peta perintah default"
+
+#: gnopi/gnopi_files/Load_Default/load_default.glade2.h:8
+msgid "Load magnifier defaults"
+msgstr "Baca pembesar default"
+
+#: gnopi/gnopi_files/Load_Default/load_default.glade2.h:9
+msgid "Load mouse defaults"
+msgstr "Baca mouse default"
+
+#: gnopi/gnopi_files/Load_Default/load_default.glade2.h:10
+msgid "Load presentation defaults"
+msgstr "Baca presentasi default"
+
+#: gnopi/gnopi_files/Load_Default/load_default.glade2.h:11
+msgid "Load screen review defaults"
+msgstr "baca review layar default"
+
+#: gnopi/gnopi_files/Load_Default/load_default.glade2.h:12
+msgid "Load speech defaults"
+msgstr "Baca bicara default"
+
+#: gnopi/gnopi_files/Load_Default/load_default.glade2.h:13
+msgid "Load startup mode defaults"
+msgstr "baca mode mulai default"
+
+#: gnopi/gnopi_files/Load_Default/load_default.glade2.h:14
+msgid "_0 All"
+msgstr "_0 Semua"
+
+#: gnopi/gnopi_files/Load_Default/load_default.glade2.h:15
+msgid "_1 Braille"
+msgstr "_1 Braille"
+
+#: gnopi/gnopi_files/Load_Default/load_default.glade2.h:16
+msgid "_2 Speech"
+msgstr "_2 bicara"
+
+#: gnopi/gnopi_files/Load_Default/load_default.glade2.h:17
+#: gnopi/gnopi_files/gnopi.glade2.h:33
+msgid "_3 Magnifier"
+msgstr "_3 Pembesar"
+
+#: gnopi/gnopi_files/Load_Default/load_default.glade2.h:18
+msgid "_4 Keyboard"
+msgstr "_4 Keyboard"
+
+#: gnopi/gnopi_files/Load_Default/load_default.glade2.h:19
+#: gnopi/gnopi_files/gnopi.glade2.h:36
+msgid "_5 Braille Monitor"
+msgstr "_5 Monitor Braille"
+
+#: gnopi/gnopi_files/Load_Default/load_default.glade2.h:20
+msgid "_6 Startup"
+msgstr "_6 Mulai"
+
+#: gnopi/gnopi_files/Load_Default/load_default.glade2.h:21
+msgid "_7 Command Map"
+msgstr "_7 Peta Perintah"
+
+#: gnopi/gnopi_files/Load_Default/load_default.glade2.h:22
+msgid "_8 Presentation"
+msgstr "_8 Presentasi"
+
+#: gnopi/gnopi_files/Load_Default/load_default.glade2.h:23
+msgid "_9 Screen Review"
+msgstr "_9 Review Jendela"
+
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:2
+msgid "<b>Border settings</b>"
+msgstr "<b> setingan garis</b>"
+
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:3
+msgid "<b>Cross-hair</b>"
+msgstr "<Cross hair</b>"
+
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:4
+msgid "<b>Cursor setting</b>"
+msgstr "<b>Seting kursor</b>"
+
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:5
+msgid "<b>Display screen</b>"
+msgstr "<b>Layar tampil</b>"
+
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:6
+msgid "<b>Focus tracking mode</b>"
+msgstr "<b>Mode pelacakan fokus</b>"
+
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:7
+msgid "<b>Mo_use tracking mode</b>"
+msgstr "<b>Mode pelacakan mo_use</b>"
+
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:8
+msgid "<b>S_moothing</b>"
+msgstr ""
+
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:9
+msgid "<b>Zoomer placement</b>"
+msgstr "<b>Penempatan Zoomer</b>"
+
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:10
+msgid "<b>Zoomfactor</b>"
+msgstr ""
+
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:11
+msgid "<b>_Zoomer list</b>"
+msgstr ""
+
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:12
+msgid "Bor_der size:"
+msgstr "Uku_ran garis:"
+
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:13
+msgid "Border c_olor:"
+msgstr "Warna g_aris:"
+
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:14
+msgid "Border color"
+msgstr "Warna garis"
+
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:15
+msgid "Border size"
+msgstr "Ukuran garis"
+
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:16
+msgid "C_entered"
+msgstr "Dit_engahkan"
+
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:17
+msgid "C_ursor on/off"
+msgstr "K_ursor hidup/mati"
+
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:18
+msgid "Cross-ha_ir size:"
+msgstr "Ukuran cross ha_ir:"
+
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:19
+msgid "Cross-hair c_lip on/off"
+msgstr "Potongan cross hair hidup/mati"
+
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:20
+msgid "Cross-hair colo_r:"
+msgstr "Warna cross hai_r:"
+
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:21
+msgid "Cross-hair color in_verted"
+msgstr "Ke_balikan warna cross hair"
+
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:22
+msgid "Cross-hair o_n/off"
+msgstr "Cross hair hid_up/mati"
+
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:23
+msgid "Crosshair clip on/off"
+msgstr "Potongan cross hair hidup/mati"
+
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:24
+msgid "Crosshair color"
+msgstr "Warna crosshair"
+
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:25
+msgid "Crosshair on/off"
+msgstr "Crosshair hidup/mati"
+
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:26
+msgid "Crosshair size"
+msgstr "Ukuran Crosshair"
+
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:27
+msgid "Cursor _size:"
+msgstr "Ukuran kur_sor:"
+
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:28
+msgid "Cursor c_olor:"
+msgstr "Warna kurs_or:"
+
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:29
+msgid "Cursor color"
+msgstr "Warna kursor"
+
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:30
+msgid "Cursor magnification"
+msgstr "Pembesaran kursor"
+
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:31
+msgid "Cursor on/off"
+msgstr "Kursor hidup/mati"
+
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:32
+msgid "Cursor size"
+msgstr "Ukuran kursor"
+
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:33
+msgid "Display screen source"
+msgstr "Tampilkan sumber layar"
+
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:34
+msgid "Display screen target"
+msgstr "Tampilkan target layar"
+
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:35
+msgid "Invert crosshair color"
+msgstr "Balikkan warna crosshair"
+
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:36
+msgid "Invert on/off"
+msgstr "Kebalikan hidup/mati"
+
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:37
+msgid "Lock zoom _factor"
+msgstr "Kunci _faktor zoom"
+
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:38
+msgid "Lock zoom factor"
+msgstr "Kunci faktor zoom"
+
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:39
+msgid "Magnifier Preferences"
+msgstr "Setingan pembesar"
+
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:40
+msgid "Magnifier settings"
+msgstr "Setingan pembesar"
+
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:41
+msgid "Mouse tracking type"
+msgstr "Jenis pelacakan mouse"
+
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:42
+msgid "Panning on/off"
+msgstr ""
+
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:44
+msgid "Set cursor separate from _magnification"
+msgstr "Set kursor terpisah dari _pembesaran"
+
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:45
+msgid "Smoothing type"
+msgstr ""
+
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:46
+msgid "Tar_get:"
+msgstr "Tar_get:"
+
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:47
+msgid "Zoom factor X"
+msgstr "Zoom faktor X"
+
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:48
+msgid "Zoom factor Y"
+msgstr "Zoom faktor Y"
+
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:49
+msgid "Zoom factor _X:"
+msgstr "Zoom faktor _X:"
+
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:50
+msgid "Zoom factor _Y:"
+msgstr "Zoom faktor _Y:"
+
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:51
+msgid "Zoomer Options"
+msgstr "Pilihan Zoom"
+
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:52
+msgid "Zoomer placement bottom"
+msgstr "Penempatan bawah zoom"
+
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:53
+msgid "Zoomer placement left"
+msgstr "Penempatan kiri zoom"
+
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:54
+msgid "Zoomer placement right"
+msgstr "Penempatan kanan zoom"
+
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:55
+msgid "Zoomer placement top"
+msgstr "Penempatan atas zoom"
+
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:56
+msgid "Zoomers list"
+msgstr "Daftar zoom"
+
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:57
+msgid "_Add/Modify"
+msgstr "T_ambah/Ubah"
+
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:58
+msgid "_Auto"
+msgstr "_Auto"
+
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:59
+msgid "_Bottom:"
+msgstr "_Bawah:"
+
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:60
+msgid "_Invert"
+msgstr "_Balik"
+
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:61
+msgid "_Left:"
+msgstr "_Kiri"
+
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:62
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:87
+msgid "_None"
+msgstr "_Tidak"
+
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:63
+msgid "_Panning"
+msgstr ""
+
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:64
+msgid "_Remove"
+msgstr "_Buang"
+
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:65
+msgid "_Right:"
+msgstr "_Kanan:"
+
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:66
+msgid "_Source:"
+msgstr "_Sumber:"
+
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:67
+msgid "_Top:"
+msgstr "_Atas:"
+
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:68
+#: gnopi/magui.c:49
+msgid "bilinear"
+msgstr "bilinier"
+
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:69
+#: gnopi/magui.c:61
+msgid "centered"
+msgstr "terpusat"
+
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:70
+#: gnopi/magui.c:48 gnopi/magui.c:63
+msgid "none"
+msgstr "tidak"
+
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:71
+#: gnopi/magui.c:62
+msgid "proportional"
+msgstr "proporsional"
+
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:72
+#: gnopi/magui.c:60
+msgid "push"
+msgstr "tekan"
+
+#: gnopi/gnopi_files/Presentation/presentation.glade2.h:2
+msgid "Expert"
+msgstr "Ahli"
+
+#: gnopi/gnopi_files/Presentation/presentation.glade2.h:3
+msgid "Mode selected:"
+msgstr "Mode terpilih:"
+
+#: gnopi/gnopi_files/Presentation/presentation.glade2.h:4
+msgid "Presentation"
+msgstr "Presentasi"
+
+#: gnopi/gnopi_files/Presentation/presentation.glade2.h:5
+#: srcore/default.xml.in.h:19 srcore/verbose.xml.in.h:19
+msgid "Verbose"
+msgstr ""
+
+#: gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:1
+msgid "<b>Horizontal flags</b>"
+msgstr "<b>Bendera horizontal</b>"
+
+#: gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:2
+msgid "<b>Vertical flags</b>"
+msgstr "<b>Bendera vertikal</b>"
+
+#: gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:3
+msgid "Add all empty lines"
+msgstr "Tambahkan seluruh baris kosong"
+
+#: gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:4
+msgid "Add all spaces"
+msgstr "Tambahkan seluruh spasi"
+
+#: gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:5
+msgid "Add all spaces and empty lines"
+msgstr "Tambahkan seluruh spasi dan baris kosong"
+
+#: gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:6
+msgid "Add embedded empty lines"
+msgstr "Tambahkan baris kosong yang tertempel"
+
+#: gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:7
+msgid "Add embedded spaces"
+msgstr "Tambahkan spasi yang tertempel"
+
+#: gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:8
+msgid "Add leading empty lines"
+msgstr "Tambahkan awalan baris kosong"
+
+#: gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:9
+msgid "Add leading spaces"
+msgstr "Tambahkan awalan spasi"
+
+#: gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:10
+msgid "Add trailing empty lines"
+msgstr ""
+
+#: gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:11
+msgid "Add trailing spaces"
+msgstr ""
+
+#: gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:12
+msgid "All _horizontal"
+msgstr "Seluruh _horizontal"
+
+#: gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:13
+msgid "All _vertical"
+msgstr "Seluruh _vertikal"
+
+#: gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:14
+msgid "Count em_pty lines"
+msgstr "Hitung baris kos_ong"
+
+#: gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:15
+msgid "Count empty lines"
+msgstr "Hitung baris kosong"
+
+#: gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:16
+msgid "E_mbedded"
+msgstr "Te_mpelkan"
+
+#: gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:17
+msgid "Lea_ding"
+msgstr "Awa_lan"
+
+#: gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:18
+msgid "Screen Review Preferences"
+msgstr "Setingan layar tampil"
+
+#: gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:19
+msgid "T_railing"
+msgstr ""
+
+#: gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:20
+msgid "_All flags"
+msgstr "Semu_a bendera"
+
+#: gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:21
+msgid "_Embedded"
+msgstr "T_ertempel"
+
+#: gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:22
+msgid "_Leading"
+msgstr "_Awalan"
+
+#: gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:23
+msgid "_Trailing"
+msgstr ""
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:2
+#, no-c-format
+msgid "%"
+msgstr "%"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:4
+msgid "<b><></b>"
+msgstr "<b><></b>"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:5
+msgid "<b>Absolute Value</b>"
+msgstr "<b>Nilai Absolut</b>"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:6
+msgid "<b>Driver</b>"
+msgstr "<b>Pengendara</b>"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:7
+msgid "<b>Properties</b>"
+msgstr "<b>Informasi</b>"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:8
+msgid "<b>Punctuation</b>"
+msgstr "<b>Tanda baca</b>"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:9
+msgid "<b>Relative Values</b>"
+msgstr "<b>Nilai Relatif</b>"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:10
+msgid "<b>Text Echo</b>"
+msgstr "<b>Echo Teks</b>"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:11
+msgid "<b>Voice</b>"
+msgstr "<b>Suara</b>"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:12
+msgid "<b>_Dictionary</b>"
+msgstr "<b>_Kamus</b>"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:13
+msgid "<b>_Replacement:</b>"
+msgstr "<b>_Penggantian</b>"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:14
+msgid "<b>_Voice list</b>"
+msgstr "<b>Daftar _suara</b>"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:15
+msgid "<b>_Word:</b>"
+msgstr "<b>_Kata</b>"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:16
+msgid "A_ll"
+msgstr "Sem_ua"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:17
+msgid "Activate pitch"
+msgstr ""
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:18
+msgid "Activate rate"
+msgstr ""
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:19
+msgid "Activate volume"
+msgstr "Aktifkan volume"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:20
+msgid "Add / Modify Dictionary Entry"
+msgstr "Tambahkan / Rubah Bagian Kamus"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:21
+msgid "Add / Modify Voice"
+msgstr "Tambahkan / Rubah Suara"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:22
+msgid "Add new item in voices list"
+msgstr "Tambahkan objek baru dalam daftar suara"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:23
+msgid "Add new word in dictionary"
+msgstr "Tambah kata baru dalam kamus"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:24
+msgid ""
+"Change for all voices the engine driver and the engine speaker with a "
+"selected driver and speaker"
+msgstr ""
+"Rubah untuk semua suara mesin driver dan mesin speaker dengan sebuah driver "
+"dan speaker terpilih"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:25
+msgid "Charac_ter"
+msgstr "Karak_ter"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:26
+msgid "Count sym_bols"
+msgstr ""
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:27
+msgid "Count symbols"
+msgstr "Lambang Count"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:28
+msgid "Decrease pitch"
+msgstr ""
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:29
+msgid "Decrease rate"
+msgstr ""
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:30
+msgid "Decrease volume"
+msgstr "Kecilkan volume"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:31
+msgid "Dictionary"
+msgstr "Kamus"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:32
+msgid "Dictionary list"
+msgstr "Daftar kamus"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:33
+msgid "Do not speak text"
+msgstr "Jangan ucapkan teks"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:34
+msgid "Edit A_bsolute..."
+msgstr "Rubah A_bsolut..."
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:35
+msgid "Edit Absolute Voice Values"
+msgstr "Rubah Nilai Suara Absolut"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:36
+msgid "Edit R_elative..."
+msgstr "Rubah R_elatif"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:37
+msgid "Edit Relative Voice Values"
+msgstr "Rubah Nilai Suara Relatif"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:38
+msgid "Edit dictionary"
+msgstr "Rubah kamus"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:39
+msgid "Edit parameter values absolutely"
+msgstr "Rubah nilai parameter secara absolut"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:40
+msgid "Edit parameter values relatively"
+msgstr "Rubah nilai parameter secara relatif"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:41
+msgid "Engine _driver:"
+msgstr "Mesin _driver:"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:42
+msgid "Engine _speaker:"
+msgstr "Mesin _speaker:"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:43
+msgid "Engine driver"
+msgstr "Mesin driver"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:44
+msgid "Engine speaker"
+msgstr "Mesin speaker"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:45
+msgid "Gnopernicus system voice"
+msgstr "System suara Gnopernicus"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:46
+msgid "Hz"
+msgstr "Hz"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:47
+msgid "Ignore all punctuation"
+msgstr "Abaikan seluruh tanda baca"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:48
+msgid "Increase pitch"
+msgstr ""
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:49
+msgid "Increase rate"
+msgstr ""
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:50
+msgid "Increase volume"
+msgstr "Tambah volume"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:51
+msgid "Made pitch sensitive for changing"
+msgstr ""
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:52
+msgid "Made rate sensitive for changing"
+msgstr ""
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:53
+msgid "Made volume sensitive for changing"
+msgstr ""
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:54
+msgid "Modify selected voice"
+msgstr "Rubah suara terpilih"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:55
+msgid "Modify word"
+msgstr "Rubah kata"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:56
+#: gnopi/spvoiceui.c:2076
+msgid "Pitch"
+msgstr ""
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:57
+#: gnopi/spvoiceui.c:2068
+msgid "Rate"
+msgstr ""
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:58
+msgid "Remove selected voice from voices list"
+msgstr "buan suara terpilih dari daftar suara"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:59
+msgid "Remove word from dictionary"
+msgstr "Buang kata dari kamus"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:60
+msgid "Replecement"
+msgstr "Penggantian"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:61
+msgid "Sa_y all navigation keys"
+msgstr "Kata_kan seluruh tombol navigasi"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:62
+msgid "Say all modi_fiers"
+msgstr "Katakan seluruh pengu_bah"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:63
+msgid "Say all modifiers"
+msgstr "Katakan seluruh pengubah"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:64
+msgid "Say all navigation keys"
+msgstr "Katakan semua tombol navigasi"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:65
+msgid "Say all s_paces"
+msgstr "Katakan smua spasi"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:66
+msgid "Say all spaces"
+msgstr "Katakan smua spasi"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:67
+msgid "Say text as character"
+msgstr "Katakan teks sebagai karakter"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:68
+msgid "Say text as word"
+msgstr "Katakan teks sebagai sebuah kata"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:69
+msgid "Set voices and the voice parameters"
+msgstr "Tetapkan suara dan parameter suara"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:70
+msgid "Show all punctuation"
+msgstr "Tampilkan seluruh tanda baca"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:71
+msgid "Show most punctuation"
+msgstr ""
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:72
+msgid "Show some punctuation"
+msgstr ""
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:73
+msgid "Speech Preferences"
+msgstr "setingan Ucapan"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:74
+msgid "Test selected voice"
+msgstr "Coba suara terpilih"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:75
+msgid "Use dictionary"
+msgstr "Gunakan kamus"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:76
+msgid "Voice _name:"
+msgstr "_Nama suara:"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:77
+msgid "Voice list"
+msgstr "Daftar suara"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:78
+msgid "Voices"
+msgstr "Suara"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:79
+#: gnopi/spvoiceui.c:2060
+msgid "Volume"
+msgstr "Volume"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:80
+msgid "Word to replace"
+msgstr "Kata yang hendak di ganti"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:81
+msgid "Word/Min"
+msgstr "Kata/Min"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:82
+msgid "_Dictionary..."
+msgstr "_Kamus..."
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:83
+msgid "_Force All Voices to Selected Driver and Speaker"
+msgstr "_Paksa Seluruh Suara ke Driver dan Speaker Terpilih"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:84
+msgid "_Ignore"
+msgstr "_Abaikan"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:86
+msgid "_Most"
+msgstr ""
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:88
+msgid "_Pitch (Hz)"
+msgstr ""
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:89
+msgid "_Pitch:"
+msgstr ""
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:90
+msgid "_Rate (words/min)"
+msgstr ""
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:91
+msgid "_Rate:"
+msgstr ""
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:92
+msgid "_Some"
+msgstr ""
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:93
+msgid "_Test voice"
+msgstr "_Coba suara"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:94
+msgid "_Use dictionary"
+msgstr "G_unakan kamus"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:95
+msgid "_Voices..."
+msgstr "_Suara..."
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:97
+#, no-c-format
+msgid "_Volume (%)"
+msgstr "_Volume (%)"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:98
+msgid "_Volume:"
+msgstr "_Volume:"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:99
+msgid "_Word"
+msgstr "_Kata"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:100
+msgid "words/min"
+msgstr "kata/menit"
+
+#: gnopi/gnopi_files/User_Properties/user_properties.glade2.h:2
+msgid "<b>_Commands list</b>"
+msgstr "<b>Daftar _Perintah</b>"
+
+#: gnopi/gnopi_files/User_Properties/user_properties.glade2.h:3
+msgid "<b>_Layers list</b>"
+msgstr "<b>Daftar _Lapisan</b>"
+
+#: gnopi/gnopi_files/User_Properties/user_properties.glade2.h:4
+msgid "<b>_User defined list</b>"
+msgstr "<b>Daftar ditentukan _pengguna</b>"
+
+#: gnopi/gnopi_files/User_Properties/user_properties.glade2.h:5
+msgid "Add Layer Key"
+msgstr "Tambah Kunci Lapisan"
+
+#: gnopi/gnopi_files/User_Properties/user_properties.glade2.h:6
+msgid "Add User Defined Key"
+msgstr "Tambahkan Tombol Definisi Pengguna"
+
+#: gnopi/gnopi_files/User_Properties/user_properties.glade2.h:7
+msgid "Add new item"
+msgstr "Tambahkan objek baru"
+
+#: gnopi/gnopi_files/User_Properties/user_properties.glade2.h:8
+msgid "Alt modifier"
+msgstr ""
+
+#: gnopi/gnopi_files/User_Properties/user_properties.glade2.h:9
+msgid "Command Mapping"
+msgstr "Pemetaan Perintah"
+
+#: gnopi/gnopi_files/User_Properties/user_properties.glade2.h:10
+msgid "Commands List"
+msgstr "Daftar Perintah"
+
+#: gnopi/gnopi_files/User_Properties/user_properties.glade2.h:11
+msgid "Control modifier"
+msgstr "Pengubah kendali"
+
+#: gnopi/gnopi_files/User_Properties/user_properties.glade2.h:12
+msgid "Key number"
+msgstr "Nomor tombol"
+
+#: gnopi/gnopi_files/User_Properties/user_properties.glade2.h:13
+msgid "Keys list"
+msgstr "Daftar tombol"
+
+#: gnopi/gnopi_files/User_Properties/user_properties.glade2.h:14
+msgid "Layer command list"
+msgstr "Daftar lapisan perintah"
+
+#: gnopi/gnopi_files/User_Properties/user_properties.glade2.h:15
+msgid "Layer number"
+msgstr "Nomor lapisan"
+
+#: gnopi/gnopi_files/User_Properties/user_properties.glade2.h:16
+msgid "Layers"
+msgstr "Lapisan"
+
+#: gnopi/gnopi_files/User_Properties/user_properties.glade2.h:17
+msgid "List of gnopernicus commands"
+msgstr "Daftar perintah gnopernicus"
+
+#: gnopi/gnopi_files/User_Properties/user_properties.glade2.h:18
+msgid "Modify command for the selected item"
+msgstr "Rubah perintah untuk objek terpilih"
+
+#: gnopi/gnopi_files/User_Properties/user_properties.glade2.h:19
+msgid "Remove selected item"
+msgstr "Buang objek terpilih"
+
+#: gnopi/gnopi_files/User_Properties/user_properties.glade2.h:20
+msgid "Shift modifier"
+msgstr ""
+
+#: gnopi/gnopi_files/User_Properties/user_properties.glade2.h:21
+msgid "User Defined"
+msgstr "Ditentukan Pengguna"
+
+#: gnopi/gnopi_files/User_Properties/user_properties.glade2.h:22
+msgid "User defined commands list."
+msgstr "Daftar perintah yang ditentukan pengguna."
+
+#: gnopi/gnopi_files/User_Properties/user_properties.glade2.h:23
+msgid "_Alt"
+msgstr "_Alt"
+
+#: gnopi/gnopi_files/User_Properties/user_properties.glade2.h:24
+msgid "_Ctrl"
+msgstr "_Ctrl"
+
+#: gnopi/gnopi_files/User_Properties/user_properties.glade2.h:25
+msgid "_Key:"
+msgstr "_Tombol:"
+
+#: gnopi/gnopi_files/User_Properties/user_properties.glade2.h:26
+msgid "_Layer:"
+msgstr "_Lapisan:"
+
+#: gnopi/gnopi_files/User_Properties/user_properties.glade2.h:27
+msgid "_Modifier keys:"
+msgstr "_Tombol pengubah:"
+
+#: gnopi/gnopi_files/User_Properties/user_properties.glade2.h:29
+msgid "_Shift"
+msgstr "_Shift"
+
+#: gnopi/gnopi_files/about.glade2.h:1
+msgid "Screen Reader and Magnifier for the GNOME Desktop"
+msgstr "Pembaca dan pembesar layar untuk Desktop GNOME"
+
+#: gnopi/gnopi_files/about.glade2.h:2
+msgid "translator-credits"
+msgstr ""
+"Martin Tedjawardhana, <Martin.Tedjawardhana@gmx.net> Ahmad Riza H Nst, "
+"<rizahnst@eriagempita.co.id>"
+
+#: gnopi/gnopi_files/gnopi.glade2.h:1
+msgid ""
+"<b>Gnopernicus has detected that the assistive technology \n"
+"support is not enabled.</b>\n"
+msgstr ""
+"<b>Gnopernicus telah mendeteksi bahwa dukungan teknologi assistiv \n"
+"tidak aktif</b>\n"
+
+#: gnopi/gnopi_files/gnopi.glade2.h:4
+msgid "About"
+msgstr "Tentang"
+
+#: gnopi/gnopi_files/gnopi.glade2.h:5 srcore/srpres.c:812
+msgid "Alert"
+msgstr "Perhatian"
+
+#: gnopi/gnopi_files/gnopi.glade2.h:6
+msgid "Braille device preferences"
+msgstr "Setingan perangkat Braille"
+
+#: gnopi/gnopi_files/gnopi.glade2.h:7
+msgid "Braille monitor preferences"
+msgstr "Setingan monitor Braille"
+
+#: gnopi/gnopi_files/gnopi.glade2.h:8
+msgid "Close preferences"
+msgstr "Tutup setingan"
+
+#: gnopi/gnopi_files/gnopi.glade2.h:9
+msgid "Command mapping"
+msgstr "Pemetaan Perintah"
+
+#: gnopi/gnopi_files/gnopi.glade2.h:10
+msgid "Do you want to enable the assistive technology support?"
+msgstr "Apakah anda ingin mengaktifkan dukungan teknologi assistiv?"
+
+#: gnopi/gnopi_files/gnopi.glade2.h:11
+msgid "Exit from gnopernicus"
+msgstr "Keluar dari gnopernicus"
+
+#: gnopi/gnopi_files/gnopi.glade2.h:12
+msgid "Find on screen"
+msgstr "Temukan pada layar"
+
+#: gnopi/gnopi_files/gnopi.glade2.h:13
+msgid "Gnopernicus"
+msgstr "Gnopernicus"
+
+#: gnopi/gnopi_files/gnopi.glade2.h:14
+msgid "Gnopernicus usage help"
+msgstr "Bantuan penggunaan Gnopernicus"
+
+#: gnopi/gnopi_files/gnopi.glade2.h:15
+msgid "Iconify menu"
+msgstr "Menu berikon"
+
+#: gnopi/gnopi_files/gnopi.glade2.h:16
+msgid "Load default preferences"
+msgstr "Baca setingan default"
+
+#: gnopi/gnopi_files/gnopi.glade2.h:17
+msgid "Magnifier preferences"
+msgstr "Setingan pembesar"
+
+#: gnopi/gnopi_files/gnopi.glade2.h:18
+msgid "Mouse preferences"
+msgstr "Setingan mouse"
+
+#: gnopi/gnopi_files/gnopi.glade2.h:19
+msgid "Preferences"
+msgstr "Setingan"
+
+#: gnopi/gnopi_files/gnopi.glade2.h:20
+msgid "Preferences..."
+msgstr "Setingan..."
+
+#: gnopi/gnopi_files/gnopi.glade2.h:21 srcore/srspc.c:1041
+msgid "Question"
+msgstr "Pertanyaan"
+
+#: gnopi/gnopi_files/gnopi.glade2.h:22
+msgid "Role presentation"
+msgstr ""
+
+#: gnopi/gnopi_files/gnopi.glade2.h:23
+msgid "Screen review"
+msgstr "Tampilan layar"
+
+#: gnopi/gnopi_files/gnopi.glade2.h:24
+msgid "Speech preferences"
+msgstr "Setingan ucapan"
+
+#: gnopi/gnopi_files/gnopi.glade2.h:25
+msgid "Startup mode..."
+msgstr "Mode startup..."
+
+#: gnopi/gnopi_files/gnopi.glade2.h:26
+msgid ""
+"You will have to log out for the change to take effect.\n"
+"Do you want to log out now? "
+msgstr ""
+"Anda harus keluar agar perubahan dapat di aktifkan.\n"
+"Anda ingin keluar sekarang? "
+
+#: gnopi/gnopi_files/gnopi.glade2.h:28
+msgid "_1 Speech"
+msgstr "_1 Bicara"
+
+#: gnopi/gnopi_files/gnopi.glade2.h:29
+msgid "_1 Startup Mode..."
+msgstr "_1 Mode Startup..."
+
+#: gnopi/gnopi_files/gnopi.glade2.h:30
+msgid "_2 Braille"
+msgstr "_2 Braille"
+
+#: gnopi/gnopi_files/gnopi.glade2.h:31
+msgid "_2 Preferences..."
+msgstr "_2 Setingan..."
+
+#: gnopi/gnopi_files/gnopi.glade2.h:32
+msgid "_3 Default Preferences..."
+msgstr "_3 Setingan Default..."
+
+#: gnopi/gnopi_files/gnopi.glade2.h:34
+msgid "_4 Minimize"
+msgstr "_4 Kecilkan"
+
+#: gnopi/gnopi_files/gnopi.glade2.h:35
+msgid "_4 Mouse"
+msgstr "_4 Mouse"
+
+#: gnopi/gnopi_files/gnopi.glade2.h:37
+msgid "_5 Help"
+msgstr "_5 Bantu"
+
+#: gnopi/gnopi_files/gnopi.glade2.h:38
+msgid "_6 About"
+msgstr "_6 Tentang"
+
+#: gnopi/gnopi_files/gnopi.glade2.h:39
+msgid "_6 Command Mapping"
+msgstr "_6 Pemetaan Perintah"
+
+#: gnopi/gnopi_files/gnopi.glade2.h:40
+msgid "_7 Presentation"
+msgstr "_7 Presentasi"
+
+#: gnopi/gnopi_files/gnopi.glade2.h:41
+msgid "_8 Screen Review"
+msgstr "_8 Tampilan Layar"
+
+#: gnopi/gnopi_files/gnopi.glade2.h:42
+msgid "_9 Search"
+msgstr "_9 Cari"
+
+#: gnopi/gnopi_files/gnopi.glade2.h:43
+msgid "_Don't Enable Support"
+msgstr "_Jangan Aktifkan Dukungan"
+
+#: gnopi/gnopi_files/gnopi.glade2.h:44
+msgid "_Enable Support"
+msgstr "_Aktifkan Dukungan"
+
+#: gnopi/gnopi_files/gnopi.glade2.h:45
+msgid "_Quit"
+msgstr "_Keluar"
+
+#: gnopi/gnopiconf.c:411 gnopi/gnopiconf.c:429
+#, c-format
+msgid "Failed to set value: %f."
+msgstr "Gagal menetapkan nilai: %f."
+
+#: gnopi/gnopiconf.c:735
+msgid "Failed to set value."
+msgstr "Gagal menetapkan nilai."
+
+#: gnopi/gnopiui.c:73 gnopi/gnopiui.c:87 gnopi/gnopiui.c:99
+#: gnopi/gnopiui.c:105
+msgid "We could not load the interface!"
+msgstr "Kita tidak dapat membaca antar muka!"
+
+#: gnopi/magui.c:74
+msgid "default"
+msgstr "default"
+
+#: gnopi/magui.c:472
+msgid ""
+"Can NOT remove zoomer because multiple zoomers are not supported in this "
+"version."
+msgstr ""
+"TIDAK dapat menghilangkan pengukur karena pengukur berganda tidak didukung "
+"pada versi ini."
+
+#: gnopi/magui.c:673
+msgid "Zoomers"
+msgstr "Pengukur"
+
+#: gnopi/magui.c:1604
+#, c-format
+msgid "Zoomer Options (%s)"
+msgstr "Pilihan Pengukur (%s)"
+
+#: gnopi/spconf.c:341
+msgid "Failed to set dictionary changes."
+msgstr "Gagal menetapkan perubahan kamus"
+
+#: gnopi/spconf.c:349
+msgid "Failed to set removed voice value."
+msgstr "Gagal menetapkan nilai suara yang telah dihilangkan."
+
+#: gnopi/spconf.c:359
+#, c-format
+msgid "Failed to set count: %s."
+msgstr ""
+
+#: gnopi/spconf.c:368
+#, c-format
+msgid "Failed to set Punctuation: %s."
+msgstr "Gagal untuk menetapkan Tanda baca: %s."
+
+#: gnopi/spconf.c:377
+#, c-format
+msgid "Failed to set text echo value: %s."
+msgstr "Gagal untuk menetapkan nilai echo teks: %s."
+
+#: gnopi/spconf.c:386
+#, c-format
+msgid "Failed to set modifiers value: %s."
+msgstr "Gagal untuk menetapkan nilai pengubah: %s."
+
+#: gnopi/spconf.c:395
+#, c-format
+msgid "Failed to set cursors value: %s."
+msgstr "Gagal untuk menetapkan nilai kursor: %s."
+
+#: gnopi/spconf.c:404
+#, c-format
+msgid "Failed to set spaces value: %s."
+msgstr "Gagal menetapkan nilai spasi: %s."
+
+#: gnopi/spconf.c:413
+#, c-format
+msgid "Failed to set dictionary value: %s."
+msgstr "Gagal menetapkan nilai kamus: %s."
+
+#: gnopi/spconf.c:422
+#, c-format
+msgid "Failed to set testable voice %s."
+msgstr "Gagal menetapkan suara yang dapat di coba: %s."
+
+#: gnopi/spconf.c:614
+#, c-format
+msgid "%s no name"
+msgstr "%s tak bernama"
+
+#: gnopi/spdictui.c:79
+msgid "Invalid word or replacer!"
+msgstr "Kata yang salah atau penimpa!"
+
+#: gnopi/spdictui.c:85
+msgid "Word exists in dictionary!"
+msgstr "Kata ada dalam kamus!"
+
+#: gnopi/spdictui.c:271 gnopi/spdictui.c:324
+msgid "No selected word to modify!"
+msgstr "Tidak ada kata terpilih untuk dirubah!"
+
+#: gnopi/spdictui.c:298
+msgid "No selected word to remove!"
+msgstr "Tidak ada kata terpilih untuk dibuang!"
+
+#: gnopi/spdictui.c:447
+msgid "Word"
+msgstr "Kata"
+
+#: gnopi/spdictui.c:456
+msgid "Replacer"
+msgstr "Penimpa"
+
+#: gnopi/spvoiceui.c:32
+msgid "<all drivers>"
+msgstr "<seluruh driver>"
+
+#: gnopi/spvoiceui.c:33
+msgid "<all voices>"
+msgstr "<seluruh suara>"
+
+#: gnopi/spvoiceui.c:296
+msgid "Invalid voice!"
+msgstr "Suara yang salah!"
+
+#: gnopi/spvoiceui.c:1217
+msgid "Invalid driver or voice!"
+msgstr "Driver yang salah atau suara!"
+
+#: gnopi/spvoiceui.c:1657
+msgid "No selected voice to modify!"
+msgstr "Tidak ada suara terpilih untuk dirubah!"
+
+#: gnopi/spvoiceui.c:1716
+msgid "No selected voice to remove!"
+msgstr "Tidak ada suara terpilih untuk dibuang!"
+
+#: gnopi/spvoiceui.c:1793
+msgid "No selected voice to test!"
+msgstr "Tidak ada suara terpilih untuk di coba!"
+
+#: gnopi/spvoiceui.c:2034
+msgid "Voice"
+msgstr "Suara"
+
+#: gnopi/spvoiceui.c:2043
+msgid "Driver"
+msgstr "Driver"
+
+#: gnopi/spvoiceui.c:2052
+msgid "Speaker"
+msgstr "Pengeras Suara"
+
+#. To translators: This is the military phonetic alphabet
+#. Be sure to remove "Phonetic|" from each string
+#: speech/libsrs/srs-speech.c:303
+msgid "Phonetic|Alpha"
+msgstr "Fonetik|Alpha"
+
+#: speech/libsrs/srs-speech.c:304
+msgid "Phonetic|Bravo"
+msgstr "Fonetik|Bravo"
+
+#: speech/libsrs/srs-speech.c:305
+msgid "Phonetic|Charlie"
+msgstr "Fonetik|Charlie"
+
+#: speech/libsrs/srs-speech.c:306
+msgid "Phonetic|Delta"
+msgstr "Fonetik|Delta"
+
+#: speech/libsrs/srs-speech.c:307
+msgid "Phonetic|Echo"
+msgstr "Fonetik|Echo"
+
+#: speech/libsrs/srs-speech.c:308
+msgid "Phonetic|Foxtrot"
+msgstr "Fonetik|Foxtrot"
+
+#: speech/libsrs/srs-speech.c:309
+msgid "Phonetic|Golf"
+msgstr "Fonetik|Golf"
+
+#: speech/libsrs/srs-speech.c:310
+msgid "Phonetic|Hotel"
+msgstr "Fonetik|Hotel"
+
+#: speech/libsrs/srs-speech.c:311
+msgid "Phonetic|India"
+msgstr "Fonetik|India"
+
+#: speech/libsrs/srs-speech.c:312
+msgid "Phonetic|Juliet"
+msgstr "Fonetik|Juliet"
+
+#: speech/libsrs/srs-speech.c:313
+msgid "Phonetic|Kilo"
+msgstr "Fonetik|Kilo"
+
+#: speech/libsrs/srs-speech.c:314
+msgid "Phonetic|Lima"
+msgstr "Fonetik|Lima"
+
+#: speech/libsrs/srs-speech.c:315
+msgid "Phonetic|Mike"
+msgstr "Fonetik|Mike"
+
+#: speech/libsrs/srs-speech.c:316
+msgid "Phonetic|November"
+msgstr "Fonetik|November"
+
+#: speech/libsrs/srs-speech.c:317
+msgid "Phonetic|Oscar"
+msgstr "Fonetik|Oscar"
+
+#: speech/libsrs/srs-speech.c:318
+msgid "Phonetic|Papa"
+msgstr "Fonetik|Papa"
+
+#: speech/libsrs/srs-speech.c:319
+msgid "Phonetic|Quebec"
+msgstr "Fonetik|Quebec"
+
+#: speech/libsrs/srs-speech.c:320
+msgid "Phonetic|Romeo"
+msgstr "Fonetik|Romeo"
+
+#: speech/libsrs/srs-speech.c:321
+msgid "Phonetic|Sierra"
+msgstr "Fonetik|Sierra"
+
+#: speech/libsrs/srs-speech.c:322
+msgid "Phonetic|Tango"
+msgstr "Fonetik|Tango"
+
+#: speech/libsrs/srs-speech.c:323
+msgid "Phonetic|Uniform"
+msgstr "Fonetik|Uniform"
+
+#: speech/libsrs/srs-speech.c:324
+msgid "Phonetic|Victor"
+msgstr "Fonetik|Victor"
+
+#: speech/libsrs/srs-speech.c:325
+msgid "Phonetic|Whiskey"
+msgstr "Fonetik|Whiskey"
+
+#: speech/libsrs/srs-speech.c:326
+msgid "Phonetic|Xray"
+msgstr "Fonetik|Xray"
+
+#: speech/libsrs/srs-speech.c:327
+msgid "Phonetic|Yankee"
+msgstr "Fonetik|Yankee"
+
+#: speech/libsrs/srs-speech.c:328
+msgid "Phonetic|Zulu"
+msgstr "Fonetik|Zulu"
+
+#: speech/libsrs/srs-speech.c:329 srcore/srspc.c:1821
+msgid "space"
+msgstr "spasi"
+
+#: speech/libsrs/srs-speech.c:330
+msgid "tab"
+msgstr "tab"
+
+#: speech/libsrs/srs-speech.c:331
+msgid "new line"
+msgstr "baris baru"
+
+#: speech/libsrs/srs-speech.c:332
+msgid "dash"
+msgstr ""
+
+#. To translators: this should be as short as possible
+#: speech/libsrs/srs-speech.c:384
+msgid "cap"
+msgstr ""
+
+#: srconf/libsrconf/libsrconf.c:454
+#, c-format
+msgid "Failed to access configuration source(s): %s\n"
+msgstr "Gagal mengakses sumber konfigurasi: %s\n"
+
+#: srconf/libsrconf/libsrconf.c:467
+#, c-format
+msgid "Failed to add notify: %s"
+msgstr "Gagal menambahkan pemberitahuan: %s"
+
+#: srconf/libsrconf/libsrconf.c:521
+msgid "Failed to remove directory."
+msgstr "Gagal membuang direktori."
+
+#: srconf/libsrconf/libsrconf.c:865
+msgid "Failed to set configdata."
+msgstr "Gagal menetapkan configdata."
+
+#: srconf/libsrconf/libsrconf.c:939
+msgid "Failed set data."
+msgstr "Gagal menetapkan data."
+
+#. translators: a single whitespace or suitable delimiter between 'words', if appropriate
+#. translators: the letter ' ' (space), in parentheses.
+#: srcore/default.xml.in.h:3 srcore/verbose.xml.in.h:3
+msgid "( )"
+msgstr "( )"
+
+#. translators: the letter 'C' for "checked", in parentheses.
+#: srcore/default.xml.in.h:5 srcore/verbose.xml.in.h:5
+msgid "(C)"
+msgstr "(C)"
+
+#. translators: the letter 'E' for "expanded", in parentheses.
+#: srcore/default.xml.in.h:7 srcore/verbose.xml.in.h:7
+msgid "(E)"
+msgstr "(E)"
+
+#. translators: the letter 'P' for "[button] pressed", in parentheses.
+#: srcore/default.xml.in.h:9 srcore/verbose.xml.in.h:9
+msgid "(P)"
+msgstr "(P)"
+
+#. translators: the letter 'U', for "unavailable", in parentheses.
+#: srcore/default.xml.in.h:11 srcore/verbose.xml.in.h:11
+msgid "(U)"
+msgstr "(U)"
+
+#. translators: the letter 'c' for "collapsed", in parentheses.
+#: srcore/default.xml.in.h:13 srcore/verbose.xml.in.h:13
+msgid "(c)"
+msgstr "(c)"
+
+#. translators: the letter 'm' for "minimized", in parentheses.
+#: srcore/default.xml.in.h:15 srcore/verbose.xml.in.h:15
+msgid "(m)"
+msgstr "(m)"
+
+#. translators: the letter 'n' for "not minimized", in parentheses.
+#: srcore/default.xml.in.h:17 srcore/verbose.xml.in.h:17
+msgid "(n)"
+msgstr "(n)"
+
+#: srcore/default.xml.in.h:18 srcore/verbose.xml.in.h:18
+msgid "Give maximum speech and braille output."
+msgstr "Beri keluar maksimal bicara dan braille."
+
+#. translators: 'keyboard accelerator'
+#: srcore/default.xml.in.h:21 srcore/verbose.xml.in.h:21
+msgid "accelerator"
+msgstr ""
+
+#: srcore/default.xml.in.h:22 srcore/verbose.xml.in.h:22
+msgid "available"
+msgstr "tersedia"
+
+#. translators: "checked" as in "checkbox is checked"
+#: srcore/default.xml.in.h:24 srcore/verbose.xml.in.h:24
+msgid "checked"
+msgstr "telah di tandai"
+
+#: srcore/default.xml.in.h:25 srcore/verbose.xml.in.h:25
+msgid "closing tab"
+msgstr "tab penutup"
+
+#: srcore/default.xml.in.h:26 srcore/verbose.xml.in.h:26
+msgid "closing window"
+msgstr "jendela penutup"
+
+#: srcore/default.xml.in.h:27 srcore/verbose.xml.in.h:27
+msgid "collapsed"
+msgstr ""
+
+#: srcore/default.xml.in.h:28 srcore/verbose.xml.in.h:28
+msgid "column header"
+msgstr "header kolom"
+
+#: srcore/default.xml.in.h:29 srcore/verbose.xml.in.h:29
+msgid "create tab"
+msgstr "buat tab"
+
+#: srcore/default.xml.in.h:30 srcore/verbose.xml.in.h:30
+msgid "create window"
+msgstr "buat jendela"
+
+#: srcore/default.xml.in.h:31 srcore/verbose.xml.in.h:31
+msgid "current value"
+msgstr "nilai saat ini"
+
+#: srcore/default.xml.in.h:32 srcore/srctrl.c:2669 srcore/verbose.xml.in.h:32
+msgid "empty line"
+msgstr "baris kosong"
+
+#: srcore/default.xml.in.h:33 srcore/verbose.xml.in.h:33
+msgid "expanded"
+msgstr "diperluas"
+
+#: srcore/default.xml.in.h:34 srcore/srctrl.c:2258 srcore/srctrl.c:2409
+#: srcore/verbose.xml.in.h:34
+#, fuzzy
+msgid "item"
+msgid_plural "items"
+msgstr[0] "objek"
+msgstr[1] "objek"
+
+#: srcore/default.xml.in.h:35 srcore/verbose.xml.in.h:35
+msgid "items"
+msgstr "objek-objek"
+
+#: srcore/default.xml.in.h:36 srcore/verbose.xml.in.h:36
+msgid "level"
+msgstr "tingkat"
+
+#: srcore/default.xml.in.h:37 srcore/verbose.xml.in.h:37
+msgid "maximize window"
+msgstr "besarkan jendela"
+
+#: srcore/default.xml.in.h:38 srcore/verbose.xml.in.h:38
+msgid "minimize window"
+msgstr "kecilkan jendela"
+
+#: srcore/default.xml.in.h:39 srcore/verbose.xml.in.h:39
+msgid "minimized"
+msgstr "dikecilkan"
+
+#: srcore/default.xml.in.h:40 srcore/verbose.xml.in.h:40
+msgid "no selection anymore"
+msgstr "tidak ada pilihan lagi"
+
+#: srcore/default.xml.in.h:41 srcore/verbose.xml.in.h:41
+msgid "normal"
+msgstr "normal"
+
+#: srcore/default.xml.in.h:42 srcore/verbose.xml.in.h:42
+msgid "pressed"
+msgstr "ditekan"
+
+#: srcore/default.xml.in.h:43 srcore/verbose.xml.in.h:43
+msgid "rename window"
+msgstr "rubah nama jendela"
+
+#: srcore/default.xml.in.h:44 srcore/verbose.xml.in.h:44
+msgid "restore window"
+msgstr "kembalikan jendela"
+
+#: srcore/default.xml.in.h:45 srcore/verbose.xml.in.h:45
+msgid "row header"
+msgstr "header baris"
+
+#: srcore/default.xml.in.h:46 srcore/verbose.xml.in.h:46
+msgid "selected"
+msgstr "terpilih"
+
+#. translators: 'keyboard shortcut'
+#: srcore/default.xml.in.h:48 srcore/verbose.xml.in.h:48
+msgid "shortcut"
+msgstr "jalan pintas"
+
+#: srcore/default.xml.in.h:49 srcore/verbose.xml.in.h:49
+msgid "show tool tip"
+msgstr ""
+
+#: srcore/default.xml.in.h:50 srcore/verbose.xml.in.h:50
+msgid "switch tab"
+msgstr "tab pindah"
+
+#: srcore/default.xml.in.h:51 srcore/verbose.xml.in.h:51
+msgid "switch to"
+msgstr "pindah ke"
+
+#: srcore/default.xml.in.h:52 srcore/verbose.xml.in.h:52
+msgid "switch to window"
+msgstr "pindah ke jendela"
+
+#: srcore/default.xml.in.h:53 srcore/verbose.xml.in.h:53
+msgid "titleize window"
+msgstr ""
+
+#: srcore/default.xml.in.h:54 srcore/verbose.xml.in.h:54
+msgid "unavailable"
+msgstr "tidak tersedia"
+
+#. translators: "checkbox is unchecked"
+#: srcore/default.xml.in.h:56 srcore/verbose.xml.in.h:56
+msgid "unchecked"
+msgstr "belum di tandai"
+
+#: srcore/default.xml.in.h:57 srcore/verbose.xml.in.h:57
+msgid "unpressed"
+msgstr "tidak ditekan"
+
+#: srcore/default.xml.in.h:58 srcore/verbose.xml.in.h:58
+msgid "unselected"
+msgstr "tidak terpilih"
+
+#: srcore/srctrl.c:1012
+msgid "no parent"
+msgstr ""
+
+#: srcore/srctrl.c:1036
+msgid "no children"
+msgstr ""
+
+#: srcore/srctrl.c:1069
+msgid "no next"
+msgstr ""
+
+#: srcore/srctrl.c:1185
+msgid "Cannot find next text!"
+msgstr "Tidak menemukan teks selanjutnya!"
+
+#: srcore/srctrl.c:1196
+msgid "Cannot find next image!"
+msgstr "Tidak menemukan gambar selanjutnya!"
+
+#: srcore/srctrl.c:1207
+msgid "Cannot find next attributes!"
+msgstr "Tidak menemukan atribut selanjutnya!"
+
+#: srcore/srctrl.c:1296
+msgid "no previous"
+msgstr ""
+
+#: srcore/srctrl.c:1340
+msgid "added watch for current object"
+msgstr ""
+
+#: srcore/srctrl.c:1341
+msgid "cannot add watch for current object"
+msgstr ""
+
+#: srcore/srctrl.c:1366
+msgid "no caret"
+msgstr ""
+
+#: srcore/srctrl.c:1387
+msgid "already on first"
+msgstr "sudah di bagian pertama"
+
+#: srcore/srctrl.c:1408
+msgid "already on last"
+msgstr "sudah di bagian terakhir"
+
+#: srcore/srctrl.c:1421
+msgid "now navigating in application"
+msgstr "sekarang bernafigasi dalam aplikasi"
+
+#: srcore/srctrl.c:1425
+msgid "now navigating in desktop"
+msgstr "sekarang bernafigasi dalam desktop"
+
+#: srcore/srctrl.c:1429
+msgid "now navigating in window"
+msgstr "sekarang bernafigasi dalam jendela"
+
+#: srcore/srctrl.c:1522
+msgid "no focus"
+msgstr ""
+
+#: srcore/srctrl.c:1562
+msgid "no title"
+msgstr "tidak ada judul"
+
+#: srcore/srctrl.c:1583
+msgid "no menu bar"
+msgstr "tidak ada menu"
+
+#: srcore/srctrl.c:1606
+msgid "no tool bar"
+msgstr "tidak ada batang alat"
+
+#: srcore/srctrl.c:1630
+msgid "no status bar"
+msgstr "tidak ada status bar"
+
+#: srcore/srctrl.c:2214
+msgid "on"
+msgstr "hidup"
+
+#: srcore/srctrl.c:2236 srcore/srctrl.c:2387
+msgid "from a"
+msgstr "dari "
+
+#: srcore/srctrl.c:2238 srcore/srctrl.c:2394
+msgid "with"
+msgstr "dengan"
+
+#: srcore/srctrl.c:2269
+msgid "in a"
+msgstr ""
+
+#: srcore/srctrl.c:2272
+msgid "named "
+msgstr ""
+
+#: srcore/srctrl.c:2274
+msgid "with no name"
+msgstr "dengan tanpa nama"
+
+#: srcore/srctrl.c:2288
+msgid "of application"
+msgstr ""
+
+#: srcore/srctrl.c:2375
+msgid "on a"
+msgstr ""
+
+#: srcore/srctrl.c:2629
+msgid "first line"
+msgstr "baris pertama"
+
+#: srcore/srctrl.c:2636
+msgid "last line"
+msgstr "baris terakhir"
+
+#: srcore/srctrl.c:2644 srcore/srctrl.c:2646
+msgid "[first line]"
+msgstr "[baris pertama]"
+
+#: srcore/srctrl.c:2651 srcore/srctrl.c:2653
+msgid "[last line]"
+msgstr "[baris terakhir]"
+
+#: srcore/srctrl.c:2676
+#, fuzzy, c-format
+msgid "%d empty line"
+msgid_plural "%d empty lines"
+msgstr[0] "%d baris kosong"
+msgstr[1] "%d baris kosong"
+
+#: srcore/srctrl.c:2697 srcore/srctrl.c:2699
+msgid "[empty line]"
+msgstr "[baris kosong]"
+
+#: srcore/srctrl.c:2704
+#, fuzzy, c-format
+msgid "[%d empty line]"
+msgid_plural "[%d empty lines]"
+msgstr[0] "[%d baris kosong]"
+msgstr[1] "[%d baris kosong]"
+
+#: srcore/srctrl.c:2786 srcore/srctrl.c:2787 srcore/srctrl.c:2795
+#: srcore/srctrl.c:2950 srcore/srctrl.c:2951
+msgid "cannot make flat review for current window"
+msgstr "tidak dapat memberikan cuplikan datar untuk jendela saat ini"
+
+#: srcore/srctrl.c:3022
+msgid "flat review mode"
+msgstr ""
+
+#: srcore/srctrl.c:3038
+msgid "focus tracking mode"
+msgstr ""
+
+#: srcore/srctrl.c:3577
+#, c-format
+msgid "\"%s\" entry has invalid value at position %d."
+msgstr "\"%s\" entry memiliki nilai yang salah pada posisi %d."
+
+#: srcore/srctrl.c:3598
+#, c-format
+msgid "key \"%s\" has an invalid value at position %d."
+msgstr "tombol \"%s\" memiliki sebuah nilai yang salah pada posisi %d."
+
+#: srcore/srctrl.c:3634
+msgid "Can not get key pad commands mapping from gconf."
+msgstr "Tidak mendapatkan pemetaan perintah tombol dari gconf."
+
+#: srcore/srctrl.c:3645
+msgid "Can not get braille display commands mapping from gconf."
+msgstr "Tidak mendapatkan pemetaan perintah penampilan braille dari gconf."
+
+#: srcore/srctrl.c:3656
+msgid "Can not get user defined commands mapping from gconf."
+msgstr "Tidak mendapatkan pemetaan perintah buatan pengguna dari gconf."
+
+#: srcore/srctrl.c:3760
+msgid "no role available"
+msgstr ""
+
+#: srcore/srmain.c:77 srcore/srmain.c:80
+msgid "No focus"
+msgstr ""
+
+#: srcore/srmain.c:83
+msgid "No accessible object is focused"
+msgstr ""
+
+#: srcore/srmain.c:466
+msgid "unknown location"
+msgstr "lokasi tidak diketahui"
+
+#: srcore/srmain.c:503
+msgid "no details"
+msgstr "tidak ada rincian"
+
+#: srcore/srmain.c:543
+msgid "layer"
+msgstr "lapisan"
+
+#: srcore/srmain.c:564
+msgid "back to layer"
+msgstr "kembali ke lapisan"
+
+#: srcore/srmain.c:934
+msgid "cursor on"
+msgstr "kursor hidup"
+
+#: srcore/srmain.c:934
+msgid "cursor off"
+msgstr "kursor mati"
+
+#: srcore/srmain.c:952
+msgid "current cursor is"
+msgstr "kursor saat ini adalah"
+
+#: srcore/srmain.c:970
+msgid "cursor size"
+msgstr "ukuran kursor"
+
+#: srcore/srmain.c:987
+msgid "cursor magnification on"
+msgstr "pembesaran kursor hidup"
+
+#: srcore/srmain.c:988
+msgid "cursor magnification off"
+msgstr "pembesaran kursor mati"
+
+#: srcore/srmain.c:1006
+msgid "cursor color"
+msgstr "warna kursor"
+
+#: srcore/srmain.c:1023
+msgid "crosshair on"
+msgstr "crosshair hidup"
+
+#: srcore/srmain.c:1023
+msgid "crosshair off"
+msgstr "crosshair mati"
+
+#: srcore/srmain.c:1040
+msgid "crosshair clip on"
+msgstr "pemotongan crosshair hidup"
+
+#: srcore/srmain.c:1041
+msgid "crosshair clip off"
+msgstr "pemotongan crosshair mati"
+
+#: srcore/srmain.c:1059
+msgid "crosshair size"
+msgstr "ukuran crosshair"
+
+#: srcore/srmain.c:1077
+msgid "crosshair color"
+msgstr "warna crosshair"
+
+#: srcore/srmain.c:1095
+msgid "zoomer placement left"
+msgstr "penempatan kiri zoomer"
+
+#: srcore/srmain.c:1113
+msgid "zoomer placement top"
+msgstr "penempatan atas zoomer"
+
+#: srcore/srmain.c:1131
+msgid "zoomer placement width"
+msgstr "penempatan lebar zoomer"
+
+#: srcore/srmain.c:1149
+msgid "zoomer placement height"
+msgstr "penempatan tinggi zoomer"
+
+#: srcore/srmain.c:1179
+msgid "magnifier target"
+msgstr "target pembesar"
+
+#: srcore/srmain.c:1197
+msgid "magnifier source"
+msgstr "sumber pembesar"
+
+#: srcore/srmain.c:1215
+msgid "zoom factor x"
+msgstr ""
+
+#: srcore/srmain.c:1233
+msgid "zoom factor y"
+msgstr ""
+
+#: srcore/srmain.c:1250
+msgid "zoom factor locked"
+msgstr ""
+
+#: srcore/srmain.c:1251
+msgid "zoom factor unlocked"
+msgstr ""
+
+#: srcore/srmain.c:1268
+msgid "invert on"
+msgstr "kebalikan hidup"
+
+#: srcore/srmain.c:1268
+msgid "invert off"
+msgstr "kebalikan mati"
+
+#: srcore/srmain.c:1286
+msgid "magnifier smoothing type"
+msgstr ""
+
+#: srcore/srmain.c:1309
+msgid "mouse tracking mode"
+msgstr "mode pelacakan mouse"
+
+#: srcore/srmain.c:1331
+msgid "panning on"
+msgstr ""
+
+#: srcore/srmain.c:1331
+msgid "panning off"
+msgstr ""
+
+#: srcore/srmain.c:1703
+msgid "alt"
+msgstr "alt"
+
+#: srcore/srmain.c:1708
+msgid "control"
+msgstr "control"
+
+#: srcore/srmain.c:1713
+msgid "shift"
+msgstr "shift"
+
+#: srcore/srmain.c:1718 srcore/srpres.c:870
+msgid "Window"
+msgstr "Jendela"
+
+#: srcore/srmain.c:1723 srcore/srmain.c:1798 srcore/srpres.c:836
+msgid "Menu"
+msgstr "Menu"
+
+#: srcore/srmain.c:1728
+msgid "caps lock"
+msgstr "caps lock"
+
+#: srcore/srmain.c:1732
+msgid "num lock"
+msgstr "num lock"
+
+#: srcore/srmain.c:1740 srcore/srmain.c:1784
+msgid "right"
+msgstr "kanan"
+
+#: srcore/srmain.c:1742 srcore/srmain.c:1786
+msgid "left"
+msgstr "kiri"
+
+#: srcore/srmain.c:1776
+msgid "home"
+msgstr "awal"
+
+#: srcore/srmain.c:1778
+msgid "end"
+msgstr "akhir"
+
+#: srcore/srmain.c:1780
+msgid "page up"
+msgstr "halaman atas"
+
+#: srcore/srmain.c:1782
+msgid "page down"
+msgstr "halaman bawah"
+
+#: srcore/srmain.c:1788
+msgid "down"
+msgstr "bawah"
+
+#: srcore/srmain.c:1790
+msgid "up"
+msgstr "atas"
+
+#: srcore/srmain.c:1792
+msgid "backspace"
+msgstr "backspace"
+
+#: srcore/srmain.c:1794
+msgid "delete"
+msgstr "hapus"
+
+#: srcore/srmain.c:1796
+msgid "escape"
+msgstr "escape"
+
+#: srcore/srmain.c:2360
+msgid "Welcome to Gnopernicus"
+msgstr "Selamata Datang di Gnopernicus"
+
+#: srcore/srmain.c:2469
+msgid "braille device can not be initialized"
+msgstr "perangkat braile tidak dapat dikenali"
+
+#: srcore/srmain.c:2483
+msgid "Gnopernicus is now exiting. Have a nice day!"
+msgstr "Gnopernicus sekarang di tutup. Semoga bahagia!"
+
+#: srcore/srmain.c:2762
+msgid "srcore"
+msgstr "srcore"
+
+#: srcore/srpres.c:810
+msgid "UNK"
+msgstr "UNK"
+
+#: srcore/srpres.c:810
+msgid "UNKNOWN"
+msgstr "TIDAK DIKETAHUI"
+
+#: srcore/srpres.c:810
+msgid "Unknown"
+msgstr "Tidak diketahui"
+
+#: srcore/srpres.c:811
+msgid "???"
+msgstr "???"
+
+#: srcore/srpres.c:811
+msgid "INVALID"
+msgstr "SALAH"
+
+#: srcore/srpres.c:811
+msgid "Invalid"
+msgstr "Salah"
+
+#: srcore/srpres.c:812
+msgid "ALR"
+msgstr "ALR"
+
+#: srcore/srpres.c:812
+msgid "ALERT"
+msgstr "PERINGATAN"
+
+#: srcore/srpres.c:813
+msgid "CNV"
+msgstr "CNV"
+
+#: srcore/srpres.c:813
+msgid "CANVAS"
+msgstr ""
+
+#: srcore/srpres.c:813
+msgid "Canvas"
+msgstr "Kanvas"
+
+#: srcore/srpres.c:814
+msgid "CHK"
+msgstr ""
+
+#: srcore/srpres.c:814
+msgid "CHECK_BOX"
+msgstr ""
+
+#: srcore/srpres.c:814
+msgid "Check box"
+msgstr "Kotak tanda"
+
+#: srcore/srpres.c:815 srcore/srpres.c:838 srcore/srpres.c:848
+msgid "MIT"
+msgstr "MIT"
+
+#: srcore/srpres.c:815 srcore/srpres.c:838 srcore/srpres.c:848
+msgid "MENU ITEM"
+msgstr ""
+
+#: srcore/srpres.c:815
+msgid "Check Menu item"
+msgstr "Periksa Objek Menu"
+
+#: srcore/srpres.c:816
+msgid "CCH"
+msgstr ""
+
+#: srcore/srpres.c:816
+msgid "COLOR CHOOSER"
+msgstr ""
+
+#: srcore/srpres.c:816
+msgid "Color chooser"
+msgstr "Pemilih warna"
+
+#: srcore/srpres.c:817
+msgid "CHD"
+msgstr ""
+
+#: srcore/srpres.c:817
+msgid "COLUMN HEADER"
+msgstr ""
+
+#: srcore/srpres.c:817
+msgid "Column header"
+msgstr "Header kolom"
+
+#: srcore/srpres.c:818
+msgid "CBO"
+msgstr ""
+
+#: srcore/srpres.c:818
+msgid "COMBO BOX"
+msgstr ""
+
+#: srcore/srpres.c:818
+msgid "Combo box"
+msgstr "Kotak kombo"
+
+#: srcore/srpres.c:819
+msgid "DIC"
+msgstr ""
+
+#: srcore/srpres.c:819
+msgid "DESKTOP ICON"
+msgstr ""
+
+#: srcore/srpres.c:819
+msgid "Desktop icon"
+msgstr "Ikon desktop"
+
+#: srcore/srpres.c:820
+msgid "DFR"
+msgstr ""
+
+#: srcore/srpres.c:820
+msgid "DESKTOP FRAME"
+msgstr ""
+
+#: srcore/srpres.c:820
+msgid "Desktop frame"
+msgstr "Bingkai desktop"
+
+#: srcore/srpres.c:821
+msgid "DLG"
+msgstr ""
+
+#: srcore/srpres.c:821
+msgid "DIALOG"
+msgstr ""
+
+#: srcore/srpres.c:821
+msgid "Dialog"
+msgstr "Percakapan"
+
+#: srcore/srpres.c:822
+msgid "DIP"
+msgstr ""
+
+#: srcore/srpres.c:822
+msgid "DIRECTORY PANE"
+msgstr ""
+
+#: srcore/srpres.c:822
+msgid "Directory pane"
+msgstr ""
+
+#: srcore/srpres.c:823
+msgid "FCH"
+msgstr ""
+
+#: srcore/srpres.c:823
+msgid "FILE CHOOSER"
+msgstr ""
+
+#: srcore/srpres.c:823
+msgid "File chooser"
+msgstr "Pemilih file"
+
+#: srcore/srpres.c:824
+msgid "FLR"
+msgstr ""
+
+#: srcore/srpres.c:824
+msgid "FILLER"
+msgstr ""
+
+#: srcore/srpres.c:824
+msgid "Filler"
+msgstr "Pengisi"
+
+#: srcore/srpres.c:825
+msgid "FRM"
+msgstr ""
+
+#: srcore/srpres.c:825
+msgid "FRAME"
+msgstr ""
+
+#: srcore/srpres.c:825
+msgid "Frame"
+msgstr "Bingkai"
+
+#: srcore/srpres.c:826
+msgid "GPN"
+msgstr ""
+
+#: srcore/srpres.c:826
+msgid "GLASS PANE"
+msgstr ""
+
+#: srcore/srpres.c:826
+msgid "Glass pane"
+msgstr ""
+
+#: srcore/srpres.c:827
+msgid "HTM"
+msgstr ""
+
+#: srcore/srpres.c:827
+msgid "HTML CONTAINER"
+msgstr ""
+
+#: srcore/srpres.c:827
+msgid "H T M L container"
+msgstr ""
+
+#: srcore/srpres.c:828 srcore/srpres.c:833
+msgid "LNK"
+msgstr ""
+
+#: srcore/srpres.c:828 srcore/srpres.c:833
+msgid "LINK"
+msgstr ""
+
+#: srcore/srpres.c:828 srcore/srpres.c:833
+msgid "link"
+msgstr "sambung"
+
+#: srcore/srpres.c:829
+msgid "ICO"
+msgstr ""
+
+#: srcore/srpres.c:829
+msgid "ICON"
+msgstr ""
+
+#: srcore/srpres.c:829
+msgid "Icon"
+msgstr "Ikon"
+
+#: srcore/srpres.c:830
+msgid "IFR"
+msgstr ""
+
+#: srcore/srpres.c:830
+msgid "INTERNAL FRAME"
+msgstr ""
+
+#: srcore/srpres.c:830
+msgid "Internal frame"
+msgstr "Bingkai internal"
+
+#: srcore/srpres.c:831
+msgid "LBL"
+msgstr ""
+
+#: srcore/srpres.c:831
+msgid "LABEL"
+msgstr ""
+
+#: srcore/srpres.c:831
+msgid "Label"
+msgstr "Nama"
+
+#: srcore/srpres.c:832
+msgid "LPN"
+msgstr ""
+
+#: srcore/srpres.c:832
+msgid "LAYERED PANE"
+msgstr ""
+
+#: srcore/srpres.c:832
+msgid "Layered pane"
+msgstr ""
+
+#: srcore/srpres.c:834
+msgid "LST"
+msgstr ""
+
+#: srcore/srpres.c:834
+msgid "LIST"
+msgstr ""
+
+#: srcore/srpres.c:834
+msgid "List"
+msgstr "Daftar"
+
+#: srcore/srpres.c:835
+msgid "LIT"
+msgstr ""
+
+#: srcore/srpres.c:835
+msgid "LIST ITEM"
+msgstr ""
+
+#: srcore/srpres.c:835
+msgid "List item"
+msgstr "Daftar objek"
+
+#: srcore/srpres.c:836
+msgid "MNU"
+msgstr ""
+
+#: srcore/srpres.c:836
+msgid "MENU"
+msgstr ""
+
+#: srcore/srpres.c:837
+msgid "MBR"
+msgstr ""
+
+#: srcore/srpres.c:837
+msgid "MENU BAR"
+msgstr ""
+
+#: srcore/srpres.c:837
+msgid "Menu bar"
+msgstr "Batang menu"
+
+#: srcore/srpres.c:838
+msgid "Menu item"
+msgstr "Objek menu"
+
+#: srcore/srpres.c:839
+msgid "OPN"
+msgstr ""
+
+#: srcore/srpres.c:839
+msgid "OPTION PANE"
+msgstr ""
+
+#: srcore/srpres.c:839
+msgid "Option pane"
+msgstr ""
+
+#: srcore/srpres.c:840
+msgid "PGT"
+msgstr ""
+
+#: srcore/srpres.c:840
+msgid "PAGE TAB"
+msgstr ""
+
+#: srcore/srpres.c:840
+msgid "Page tab"
+msgstr "Tab halaman"
+
+#: srcore/srpres.c:841
+msgid "PTL"
+msgstr ""
+
+#: srcore/srpres.c:841
+msgid "PAGE TAB LIST"
+msgstr ""
+
+#: srcore/srpres.c:841
+msgid "Page tab list"
+msgstr "Daftar tab halaman"
+
+#: srcore/srpres.c:842
+msgid "PNL"
+msgstr ""
+
+#: srcore/srpres.c:842
+msgid "PANEL"
+msgstr ""
+
+#: srcore/srpres.c:842
+msgid "Panel"
+msgstr "Panel"
+
+#: srcore/srpres.c:843
+msgid "PWD"
+msgstr ""
+
+#: srcore/srpres.c:843
+msgid "PASSWORD TEXT"
+msgstr ""
+
+#: srcore/srpres.c:843
+msgid "Password text"
+msgstr "Teks kata sandi"
+
+#: srcore/srpres.c:844
+msgid "PMN"
+msgstr ""
+
+#: srcore/srpres.c:844
+msgid "POPUP MENU"
+msgstr ""
+
+#: srcore/srpres.c:844
+msgid "Popup menu"
+msgstr "Menu popup"
+
+#: srcore/srpres.c:845
+msgid "PRG"
+msgstr ""
+
+#: srcore/srpres.c:845
+msgid "PROGRESS BAR"
+msgstr ""
+
+#: srcore/srpres.c:845
+msgid "Progress bar"
+msgstr "Batang proses"
+
+#: srcore/srpres.c:846
+msgid "PBT"
+msgstr ""
+
+#: srcore/srpres.c:846
+msgid "PUSH BUTTON"
+msgstr ""
+
+#: srcore/srpres.c:846
+msgid "Push button"
+msgstr "Tombol tekan"
+
+#: srcore/srpres.c:847
+msgid "RAD"
+msgstr ""
+
+#: srcore/srpres.c:847
+msgid "RADIO BUTTON"
+msgstr ""
+
+#: srcore/srpres.c:847
+msgid "Radio button"
+msgstr "Tombol radio"
+
+#: srcore/srpres.c:848
+msgid "Radio Menu item"
+msgstr "Objek Menu Radio"
+
+#: srcore/srpres.c:849
+msgid "RPN"
+msgstr ""
+
+#: srcore/srpres.c:849
+msgid "ROOT PANE"
+msgstr ""
+
+#: srcore/srpres.c:849
+msgid "Root pane"
+msgstr ""
+
+#: srcore/srpres.c:850
+msgid "RHD"
+msgstr ""
+
+#: srcore/srpres.c:850
+msgid "ROW HEADER"
+msgstr ""
+
+#: srcore/srpres.c:850
+msgid "Row header"
+msgstr "Header baris"
+
+#: srcore/srpres.c:851
+msgid "SCR"
+msgstr ""
+
+#: srcore/srpres.c:851
+msgid "SCROLL BAR"
+msgstr ""
+
+#: srcore/srpres.c:851
+msgid "Scroll bar"
+msgstr "Batang gulung"
+
+#: srcore/srpres.c:852 srcore/srpres.c:880
+msgid "SPN"
+msgstr ""
+
+#: srcore/srpres.c:852
+msgid "SCROLL PANE"
+msgstr ""
+
+#: srcore/srpres.c:852
+msgid "Scroll pane"
+msgstr ""
+
+#: srcore/srpres.c:853
+msgid "SEP"
+msgstr ""
+
+#: srcore/srpres.c:853
+msgid "SEPARATOR"
+msgstr ""
+
+#: srcore/srpres.c:853
+msgid "Separator"
+msgstr "Pemisah"
+
+#: srcore/srpres.c:854
+msgid "SLD"
+msgstr ""
+
+#: srcore/srpres.c:854
+msgid "SLIDER"
+msgstr ""
+
+#: srcore/srpres.c:854
+msgid "Slider"
+msgstr ""
+
+#: srcore/srpres.c:855
+msgid "SPP"
+msgstr ""
+
+#: srcore/srpres.c:855
+msgid "SPLIT PANE"
+msgstr ""
+
+#: srcore/srpres.c:855
+msgid "Split pane"
+msgstr ""
+
+#: srcore/srpres.c:856
+msgid "STA"
+msgstr ""
+
+#: srcore/srpres.c:856
+msgid "STATUS BAR"
+msgstr ""
+
+#: srcore/srpres.c:856
+msgid "Status bar"
+msgstr "Batang status"
+
+#: srcore/srpres.c:857
+msgid "TAB"
+msgstr ""
+
+#: srcore/srpres.c:857
+msgid "TABLE"
+msgstr ""
+
+#: srcore/srpres.c:857
+msgid "Table"
+msgstr "Tabel"
+
+#: srcore/srpres.c:858
+msgid "CEL"
+msgstr ""
+
+#: srcore/srpres.c:858
+msgid "TABLE CELL"
+msgstr ""
+
+#: srcore/srpres.c:858
+msgid "Table cell"
+msgstr "Sel tabel"
+
+#: srcore/srpres.c:859 srcore/srpres.c:884
+msgid "TCH"
+msgstr ""
+
+#: srcore/srpres.c:859
+msgid "TABLE COLUMN HEADER"
+msgstr ""
+
+#: srcore/srpres.c:859
+msgid "Table column header"
+msgstr "Header tabel kolom"
+
+#: srcore/srpres.c:860
+msgid "TRH"
+msgstr ""
+
+#: srcore/srpres.c:860
+msgid "TABLE ROW HEADER"
+msgstr ""
+
+#: srcore/srpres.c:860
+msgid "Table row header"
+msgstr "Header tabel baris"
+
+#: srcore/srpres.c:861 srcore/srpres.c:862
+msgid "TXT"
+msgstr ""
+
+#: srcore/srpres.c:861
+msgid "MULTI LINE TEXT"
+msgstr ""
+
+#: srcore/srpres.c:861
+msgid "Multi Line Text"
+msgstr "Teks baris berganda"
+
+#: srcore/srpres.c:862
+msgid "SINGLE LINE TEXT"
+msgstr ""
+
+#: srcore/srpres.c:862
+msgid "Single Line Text"
+msgstr "Teks baris tunggal"
+
+#: srcore/srpres.c:863
+msgid "TOG"
+msgstr ""
+
+#: srcore/srpres.c:863
+msgid "TOGGLE BUTTON"
+msgstr ""
+
+#: srcore/srpres.c:863
+msgid "Toggle button"
+msgstr "Tombol togel"
+
+#: srcore/srpres.c:864
+msgid "TOL"
+msgstr ""
+
+#: srcore/srpres.c:864
+msgid "TOOL BAR"
+msgstr ""
+
+#: srcore/srpres.c:864
+msgid "Tool bar"
+msgstr "Batang alat"
+
+#: srcore/srpres.c:865
+msgid "TIP"
+msgstr ""
+
+#: srcore/srpres.c:865
+msgid "TOOL TIP"
+msgstr ""
+
+#: srcore/srpres.c:865
+msgid "Tool tip"
+msgstr ""
+
+#: srcore/srpres.c:866
+msgid "TRE"
+msgstr ""
+
+#: srcore/srpres.c:866
+msgid "TREE"
+msgstr ""
+
+#: srcore/srpres.c:866
+msgid "Tree"
+msgstr "Pohon"
+
+#: srcore/srpres.c:867
+msgid "TRI"
+msgstr ""
+
+#: srcore/srpres.c:867
+msgid "TREE ITEM"
+msgstr ""
+
+#: srcore/srpres.c:867
+msgid "Tree item"
+msgstr "Objek pohon"
+
+#: srcore/srpres.c:868
+msgid "TRT"
+msgstr ""
+
+#: srcore/srpres.c:868
+msgid "TREE TABLE"
+msgstr ""
+
+#: srcore/srpres.c:868
+msgid "Tree table"
+msgstr "Tabel pohon"
+
+#: srcore/srpres.c:869
+msgid "VWP"
+msgstr ""
+
+#: srcore/srpres.c:869
+msgid "VIEWPORT"
+msgstr ""
+
+#: srcore/srpres.c:869
+msgid "Viewport"
+msgstr "Tampilport"
+
+#: srcore/srpres.c:870
+msgid "WND"
+msgstr ""
+
+#: srcore/srpres.c:870
+msgid "WINDOW"
+msgstr ""
+
+#: srcore/srpres.c:871
+msgid "ACC"
+msgstr ""
+
+#: srcore/srpres.c:871
+msgid "ACCELERATOR LABEL"
+msgstr ""
+
+#: srcore/srpres.c:871
+msgid "Accelerator label"
+msgstr ""
+
+#: srcore/srpres.c:872
+msgid "ANI"
+msgstr ""
+
+#: srcore/srpres.c:872
+msgid "ANIMATION"
+msgstr ""
+
+#: srcore/srpres.c:872
+msgid "Animation"
+msgstr "Animasi"
+
+#: srcore/srpres.c:873
+msgid "ARR"
+msgstr ""
+
+#: srcore/srpres.c:873
+msgid "ARROW"
+msgstr ""
+
+#: srcore/srpres.c:873
+msgid "Arrow"
+msgstr "Panah"
+
+#: srcore/srpres.c:874
+msgid "CAL"
+msgstr ""
+
+#: srcore/srpres.c:874
+msgid "CALENDAR"
+msgstr ""
+
+#: srcore/srpres.c:874
+msgid "Calendar"
+msgstr "Kalender"
+
+#: srcore/srpres.c:875
+msgid "DAT"
+msgstr ""
+
+#: srcore/srpres.c:875
+msgid "DATE EDITOR"
+msgstr ""
+
+#: srcore/srpres.c:875
+msgid "Date editor"
+msgstr "Pengedit tanggal"
+
+#: srcore/srpres.c:876
+msgid "DIL"
+msgstr ""
+
+#: srcore/srpres.c:876
+msgid "DIAL"
+msgstr ""
+
+#: srcore/srpres.c:876
+msgid "Dial"
+msgstr "Dial"
+
+#: srcore/srpres.c:877
+msgid "DRW"
+msgstr ""
+
+#: srcore/srpres.c:877
+msgid "DRAWING AREA"
+msgstr ""
+
+#: srcore/srpres.c:877
+msgid "Drawing area"
+msgstr "Daerah gambar"
+
+#: srcore/srpres.c:878
+msgid "FNT"
+msgstr ""
+
+#: srcore/srpres.c:878
+msgid "FONT CHOOSER"
+msgstr ""
+
+#: srcore/srpres.c:878
+msgid "Font chooser"
+msgstr "Pemilih huruf"
+
+#: srcore/srpres.c:879
+msgid "IMG"
+msgstr ""
+
+#: srcore/srpres.c:879
+msgid "IMAGE"
+msgstr ""
+
+#: srcore/srpres.c:879
+msgid "Image"
+msgstr "Gambar"
+
+#: srcore/srpres.c:880
+msgid "SPIN BUTTON"
+msgstr ""
+
+#: srcore/srpres.c:880
+msgid "Spin button"
+msgstr ""
+
+#: srcore/srpres.c:881
+msgid "TRM"
+msgstr ""
+
+#: srcore/srpres.c:881
+msgid "TERMINAL"
+msgstr ""
+
+#: srcore/srpres.c:881
+msgid "Terminal"
+msgstr "Terminal"
+
+#: srcore/srpres.c:882
+msgid "EXT"
+msgstr ""
+
+#: srcore/srpres.c:882
+msgid "EXTENDED"
+msgstr ""
+
+#: srcore/srpres.c:882
+msgid "Extended"
+msgstr ""
+
+#: srcore/srpres.c:883
+msgid "TLI"
+msgstr ""
+
+#: srcore/srpres.c:883
+msgid "TABLE LINE"
+msgstr ""
+
+#: srcore/srpres.c:883
+msgid "Table line"
+msgstr "Baris tabel"
+
+#: srcore/srpres.c:884
+msgid "TABLE COLUMNS HEADER"
+msgstr ""
+
+#: srcore/srpres.c:884
+msgid "Table columns header"
+msgstr "Header tabel kolom"
+
+#: srcore/srpres.c:885
+msgid "TIT"
+msgstr ""
+
+#: srcore/srpres.c:885
+msgid "TITLE BAR"
+msgstr ""
+
+#: srcore/srpres.c:885
+msgid "Title bar"
+msgstr "Batang judul"
+
+#: srcore/srpres.c:886
+msgid "EDB"
+msgstr ""
+
+#: srcore/srpres.c:886
+msgid "EDIT BAR"
+msgstr ""
+
+#: srcore/srpres.c:886
+msgid "Edit bar"
+msgstr "Batang edit"
+
+#: srcore/srspc.c:445
+#, c-format
+msgid "Incorrect parameters for voice \"%s%s\""
+msgstr "Parameter yang salah untuk suara \"%s%s\""
+
+#: srcore/srspc.c:490
+#, c-format
+msgid "failed to send to speech next string \"%s\""
+msgstr "gagal untuk mengirim ke string bicara selanjutnya \"%s\""
+
+#: srcore/srspc.c:556
+#, c-format
+msgid "could not create/modify voice \"%s\""
+msgstr "Tidak dapat membuat/merubah suara \"%s\""
+
+#: srcore/srspc.c:716
+#, c-format
+msgid "voice \"%s\" will sound this way"
+msgstr "suara \"%s\" akan kedengaran seperti ini"
+
+#: srcore/srspc.c:721
+#, c-format
+msgid "could not test voice \"%s\""
+msgstr "tidak dapat mencoba suara \"%s\""
+
+#: srcore/srspc.c:810
+#, c-format
+msgid "value not supported for speech count mode \"%s\""
+msgstr "nilai tidak didukung untuk mode count bicara \"%s\""
+
+#: srcore/srspc.c:846
+#, c-format
+msgid "value not supported for speech modifiers type \"%s\""
+msgstr "nilai tidak didukung untuk jeis pengubah bicara \"%s\""
+
+#: srcore/srspc.c:882
+#, c-format
+msgid "value not supported for speech cursors type \"%s\""
+msgstr "nilai tidak didukung untuk jenis kursor bicara \"%s\""
+
+#: srcore/srspc.c:918
+#, c-format
+msgid "value not supported for speech spaces type \"%s\""
+msgstr "nilai tidak didukung untuk jenis ruang spasi bicara \"%s\""
+
+#: srcore/srspc.c:954
+#, c-format
+msgid "value not supported for speech dictionary type \"%s\""
+msgstr "nilai tidak didukung untuk jenis kamus bicara \"%s\""
+
+#: srcore/srspc.c:991
+#, c-format
+msgid "value not supported for speech text echo type \"%s\""
+msgstr "nilai tidak didukung untuk jenis teks bicara echo \"%s\""
+
+#: srcore/srspc.c:1010
+msgid "Tilde"
+msgstr ""
+
+#: srcore/srspc.c:1010
+msgid "Tildaes"
+msgstr ""
+
+#: srcore/srspc.c:1011
+msgid "Exclamation"
+msgstr ""
+
+#: srcore/srspc.c:1011
+msgid "Exclamations"
+msgstr ""
+
+#: srcore/srspc.c:1012
+msgid "At"
+msgstr ""
+
+#: srcore/srspc.c:1012
+msgid "Ats"
+msgstr ""
+
+#: srcore/srspc.c:1013
+msgid "Hash"
+msgstr ""
+
+#: srcore/srspc.c:1013
+msgid "Hashes"
+msgstr ""
+
+#: srcore/srspc.c:1014
+msgid "Dollar"
+msgstr "Dolar"
+
+#: srcore/srspc.c:1014
+msgid "Dollars"
+msgstr "Dolar"
+
+#: srcore/srspc.c:1015
+msgid "Percent"
+msgstr "Persen"
+
+#: srcore/srspc.c:1015
+msgid "Percents"
+msgstr "Persen"
+
+#: srcore/srspc.c:1016
+msgid "Caret"
+msgstr ""
+
+#: srcore/srspc.c:1016
+msgid "Carets"
+msgstr ""
+
+#: srcore/srspc.c:1017
+msgid "And"
+msgstr "dan"
+
+#: srcore/srspc.c:1017
+msgid "Ands"
+msgstr ""
+
+#: srcore/srspc.c:1018
+msgid "Asterisk"
+msgstr "Asterik"
+
+#: srcore/srspc.c:1018
+msgid "Asterisks"
+msgstr "Asterik"
+
+#: srcore/srspc.c:1019
+msgid "Left Paranthesis"
+msgstr ""
+
+#: srcore/srspc.c:1020
+msgid "Right Paranthesis"
+msgstr ""
+
+#: srcore/srspc.c:1021
+msgid "Underscore"
+msgstr "Garis bawah"
+
+#: srcore/srspc.c:1021
+msgid "Underscores"
+msgstr "Garis bawah"
+
+#: srcore/srspc.c:1022
+msgid "Plus"
+msgstr "Tambah"
+
+#: srcore/srspc.c:1022
+msgid "Pluses"
+msgstr ""
+
+#: srcore/srspc.c:1023
+msgid "Equal"
+msgstr "Sama dengan"
+
+#: srcore/srspc.c:1023
+msgid "Equals"
+msgstr ""
+
+#: srcore/srspc.c:1024
+msgid "Minus"
+msgstr "Kurang"
+
+#: srcore/srspc.c:1024
+msgid "Minuses"
+msgstr ""
+
+#: srcore/srspc.c:1025
+msgid "Quote"
+msgstr "Kutip"
+
+#: srcore/srspc.c:1025
+msgid "Quotes"
+msgstr ""
+
+#: srcore/srspc.c:1026
+msgid "Left Bracket"
+msgstr "Kurang buka"
+
+#: srcore/srspc.c:1026
+msgid "Left Brackets"
+msgstr ""
+
+#: srcore/srspc.c:1027
+msgid "Right Bracket"
+msgstr "Kurung tutup"
+
+#: srcore/srspc.c:1027
+msgid "Right Brackets"
+msgstr ""
+
+#: srcore/srspc.c:1028
+msgid "Left Brace"
+msgstr ""
+
+#: srcore/srspc.c:1028
+msgid "Left Braces"
+msgstr ""
+
+#: srcore/srspc.c:1029
+msgid "Right Brace"
+msgstr ""
+
+#: srcore/srspc.c:1029
+msgid "Right Braces"
+msgstr ""
+
+#: srcore/srspc.c:1030
+msgid "Semicolon"
+msgstr "Titik koma"
+
+#: srcore/srspc.c:1030
+msgid "Semicolons"
+msgstr ""
+
+#: srcore/srspc.c:1031
+msgid "Colon"
+msgstr "Ttik dua"
+
+#: srcore/srspc.c:1031
+msgid "Colons"
+msgstr ""
+
+#: srcore/srspc.c:1032
+msgid "Double quote"
+msgstr ""
+
+#: srcore/srspc.c:1032
+msgid "Double quotes"
+msgstr ""
+
+#: srcore/srspc.c:1033
+msgid "Apostrophe"
+msgstr "Apostrof"
+
+#: srcore/srspc.c:1033
+msgid "Apostrophes"
+msgstr ""
+
+#: srcore/srspc.c:1034
+msgid "Back Slash"
+msgstr ""
+
+#: srcore/srspc.c:1034
+msgid "Back Slashes"
+msgstr ""
+
+#: srcore/srspc.c:1035
+msgid "Bar"
+msgstr "Batang"
+
+#: srcore/srspc.c:1035
+msgid "Bars"
+msgstr ""
+
+#: srcore/srspc.c:1036
+msgid "Greater"
+msgstr "Lebih besar"
+
+#: srcore/srspc.c:1036
+msgid "Greaters"
+msgstr ""
+
+#: srcore/srspc.c:1037
+msgid "Less"
+msgstr "Lebih kecil"
+
+#: srcore/srspc.c:1037
+msgid "Lesses"
+msgstr ""
+
+#: srcore/srspc.c:1038
+msgid "Comma"
+msgstr "Koma"
+
+#: srcore/srspc.c:1038
+msgid "Commas"
+msgstr ""
+
+#: srcore/srspc.c:1039
+msgid "Dot"
+msgstr "Titik"
+
+#: srcore/srspc.c:1039
+msgid "Dots"
+msgstr ""
+
+#: srcore/srspc.c:1040
+msgid "Slash"
+msgstr "Garing"
+
+#: srcore/srspc.c:1040
+msgid "Slashes"
+msgstr ""
+
+#: srcore/srspc.c:1041
+msgid "Questions"
+msgstr "Tanda tanya"
+
+#: srcore/srspc.c:1115
+#, c-format
+msgid "value not supported for speech punctuation type \"%s\""
+msgstr ""
+
+#: srcore/srspc.c:1381
+msgid "Unable to initialize hashtable"
+msgstr ""
+
+#: srcore/srspc.c:1387
+msgid "Unable to load dictionary from gconf"
+msgstr "Tidak bisa membaca kamus dari gconf"
+
+#: srcore/srspc.c:1618
+msgid "speech initialization succeded"
+msgstr ""
+
+#: srcore/srspc.c:1624
+msgid "speech initialization failed"
+msgstr ""
+
+#: srcore/srspc.c:1823
+msgid "enter"
+msgstr "masuk"
+
+#: srcore/srspc.c:1906
+#, c-format
+msgid "can not find \"%s\" voice. use default voice"
+msgstr "tidak menemukan suara \"%s\". menggunakan suara default"
+
+#: srcore/srspc.c:1923
+msgid "voices pitch will be set to default value"
+msgstr ""
+
+#: srcore/srspc.c:1925
+msgid "voices pitch will be decreased"
+msgstr ""
+
+#: srcore/srspc.c:1927
+msgid "voices pitch will be increased"
+msgstr ""
+
+#: srcore/srspc.c:1971
+msgid "voices rate will be set to default value"
+msgstr ""
+
+#: srcore/srspc.c:1973
+msgid "voices rate will be decreased"
+msgstr ""
+
+#: srcore/srspc.c:1975
+msgid "voices rate will be increased"
+msgstr ""
+
+#: srcore/srspc.c:2020
+msgid "voices volume will be set to default value"
+msgstr "volume suara akan di tetapkan ke nilai default"
+
+#: srcore/srspc.c:2022
+msgid "voices volume will be decreased"
+msgstr "vulome suara akan dikecilkan"
+
+#: srcore/srspc.c:2024
+msgid "voices volume will be increased"
+msgstr "vulome suara akan dinaikkan"
+
+#: srcore/srspc.c:2150
+#, c-format
+msgid "no support for speech key \"%s\""
+msgstr ""
+
+#~ msgid "Serial port number where the device is linked"
+#~ msgstr "Nomor port serial di mana perangkat tersambung"

@@ -1,0 +1,4 @@
+#MIN_CONFIG(2)
+
+AM_INIT_AUTOMAKE(kmag,0.8)
+

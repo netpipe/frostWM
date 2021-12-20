@@ -1,0 +1,6136 @@
+# translation of gnopernicus to Kinyarwanda.
+# Copyright (C) 2005 Free Software Foundation, Inc.
+# This file is distributed under the same license as the gnopernicus package.
+# Steve Murphy <murf@e-tools.com>, 2005
+# Steve performed initial rough translation from compendium built from translations provided by the following translators:
+# Philibert Ndandali  <ndandali@yahoo.fr>, 2005.
+# Viateur MUGENZI <muvia1@yahoo.fr>, 2005.
+# Noëlla Mupole <s24211045@tuks.co.za>, 2005.
+# Carole Karema <karemacarole@hotmail.com>, 2005.
+# JEAN BAPTISTE NGENDAHAYO <ngenda_denis@yahoo.co.uk>, 2005.
+# Augustin KIBERWA  <akiberwa@yahoo.co.uk>, 2005.
+# Donatien NSENGIYUMVA <ndonatienuk@yahoo.co.uk>, 2005..
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnopernicus 2.12\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2005-03-31 18:00-0700\n"
+"PO-Revision-Date: 2005-03-28 19:35-0700\n"
+"Last-Translator: Steve Murphy <murf@e-tools.com>\n"
+"Language-Team: Kinyarwanda <translation-team-rw@lists.sourceforge.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: braille/test/remote.c:548
+msgid "Braille remote"
+msgstr ""
+
+#: brlmon/brlmon.c:196
+msgid "Braille monitor"
+msgstr ""
+
+#: brlmon/brlmon.c:325 brlmon/brlmon.c:333
+#, fuzzy, c-format
+msgid "Invalid port number: %d."
+msgstr "Umuyoboro Umubare"
+
+#: brlmon/brlmon.c:326 brlmon/brlmon.c:334
+msgid "port_no = [1025 - 30000]."
+msgstr ""
+
+#: brlmon/brlmon.c:520
+#, fuzzy
+msgid "Can not open socket!"
+msgstr "OYA Gufungura"
+
+#: brlmon/brlmon.c:543
+#, fuzzy, c-format
+msgid "Can not bind port number %d."
+msgstr "OYA Umuyoboro Umubare"
+
+#: brlmon/brlmon.c:547
+#, fuzzy, c-format
+msgid "Waiting for data on port UDP %u."
+msgstr "kugirango Ibyatanzwe ku Umuyoboro"
+
+#: brlmon/brlmonui.c:225 gnopi/gnopiconf.c:43
+#, fuzzy
+msgid "Failed to init gconf client."
+msgstr "Kuri Umukiriya"
+
+#: brlmon/brlmonui.c:234 srconf/libsrconf/libsrconf.c:418
+#, fuzzy
+msgid "Failed to add directory."
+msgstr "Kuri Kongeramo bushyinguro"
+
+#: brlmon/brlmonui.c:246 gnopi/kbconf.c:79 gnopi/spconf.c:95
+#: srconf/libsrconf/libsrconf.c:431
+#, fuzzy
+msgid "Failed to add notify."
+msgstr "Kuri Kongeramo"
+
+#: brlmon/brlmonui.c:261 gnopi/gnopiconf.c:145
+#, fuzzy, c-format
+msgid "Expected key: %s"
+msgstr "Itegerejwe Urufunguzo"
+
+#: brlmon/brlmonui.c:301
+#, fuzzy, c-format
+msgid "Failed to set value: %d"
+msgstr "Kuri Gushyiraho Agaciro"
+
+#: brlmon/brlmonui.c:342 brlmon/brlmonui.c:444 gnopi/gnopiconf.c:355
+#: gnopi/gnopiconf.c:409 gnopi/gnopiconf.c:560 gnopi/gnopiconf.c:733
+#, fuzzy, c-format
+msgid "Invalid type of key: %s."
+msgstr "Ubwoko Bya Urufunguzo"
+
+#: brlmon/brlmonui.c:345 brlmon/brlmonui.c:364
+#, fuzzy, c-format
+msgid "Failed to set int value: %d."
+msgstr "Kuri Gushyiraho INT Agaciro"
+
+#: brlmon/brlmonui.c:358 brlmon/brlmonui.c:459
+#, fuzzy, c-format
+msgid "Failed to get value: %s."
+msgstr "Kuri Kubona Agaciro"
+
+#: brlmon/brlmonui.c:403 gnopi/gnopiconf.c:357 gnopi/gnopiconf.c:375
+#: gnopi/gnopiconf.c:562 gnopi/gnopiconf.c:578
+#, fuzzy, c-format
+msgid "Failed to set value: %d."
+msgstr "Kuri Gushyiraho Agaciro"
+
+#: brlmon/brlmonui.c:447 brlmon/brlmonui.c:462
+#, fuzzy, c-format
+msgid "Failed to set boolean value: %d."
+msgstr "Kuri Gushyiraho Icyungo Agaciro"
+
+#: brlmon/brlmonui.c:501 gnopi/gnopiconf.c:496 gnopi/gnopiconf.c:509
+#, fuzzy, c-format
+msgid "Failed to set value: %s."
+msgstr "Kuri Gushyiraho Agaciro"
+
+#: brlmon/brlmonui.c:535
+#, fuzzy, c-format
+msgid "Failed to get string value: %s."
+msgstr "Kuri Kubona Ikurikiranyanyuguti Agaciro"
+
+#: brlmon/brlmonui.c:539 brlmon/brlmonui.c:549
+#, fuzzy, c-format
+msgid "Failed to set string value: %s."
+msgstr "Kuri Gushyiraho Ikurikiranyanyuguti Agaciro"
+
+#: brlmon/brlmonui.c:583 gnopi/bmui.c:297
+#, c-format
+msgid "Invalid modetype: %s."
+msgstr ""
+
+#: brlmon/brlmonui.c:635
+#, fuzzy, c-format
+msgid "%s font not installed."
+msgstr "%sIntego- nyuguti OYA"
+
+#. *
+#. * bmui_load_colors
+#. *
+#. * Load text colors.
+#. *
+#. * returns:
+#. *
+#: brlmon/brlmonui.c:639 gnopi/bmui.c:251
+#, fuzzy
+msgid "Can not parse color string."
+msgstr "OYA Ibara Ikurikiranyanyuguti"
+
+#: brlmon/brlmonui.c:1112
+msgid "Status"
+msgstr "Imimerere"
+
+#: brlmon/brlmonui.c:1319
+#, fuzzy, c-format
+msgid "Too many cells on display. [Max %d]"
+msgstr "Utudirishya... ku Kugaragaza"
+
+#: brlmon/brlmonui.c:1320
+#, fuzzy, c-format
+msgid "Load default display size. Line: %d Column: %d."
+msgstr "Mburabuzi Kugaragaza Ingano"
+
+#. unsupported attribute
+#: brlmon/brlmonxml.c:84
+#, fuzzy, c-format
+msgid "BRLOUT attribute %s is not supported."
+msgstr "Ikiranga ni OYA"
+
+#. unsupported attribute
+#: brlmon/brlmonxml.c:218
+#, fuzzy, c-format
+msgid "TEXT attribute %s is not supported."
+msgstr "Ikiranga ni OYA"
+
+#: gnopi/bmconf.c:318
+#, fuzzy
+msgid "Failed to set display size."
+msgstr "Kuri Gushyiraho Kugaragaza Ingano"
+
+#: gnopi/bmconf.c:336
+#, fuzzy
+msgid "Failed to set display position."
+msgstr "Kuri Gushyiraho Kugaragaza Ibirindiro"
+
+#: gnopi/bmconf.c:368
+#, fuzzy
+msgid "Failed to set display mode."
+msgstr "Kuri Gushyiraho Kugaragaza Ubwoko"
+
+#: gnopi/bmconf.c:392
+#, fuzzy
+msgid "Failed to set dot type colors."
+msgstr "Kuri Gushyiraho Akadomo Ubwoko Amabara"
+
+#: gnopi/bmconf.c:409
+#, fuzzy
+msgid "Failed to set font size."
+msgstr "Kuri Gushyiraho Intego- nyuguti Ingano"
+
+#: gnopi/bmui.c:328
+#, fuzzy, c-format
+msgid "Invalid position: %s."
+msgstr "Ibirindiro"
+
+#: gnopi/brlconf.c:282 gnopi/cmdmapconf.c:237 gnopi/coreconf.c:140
+#: gnopi/kbconf.c:126 gnopi/magconf.c:226 gnopi/spconf.c:158
+#: gnopi/spconf.c:1247
+#, fuzzy
+msgid "Unable to allocate memory."
+msgstr "Kuri Ububiko"
+
+#: gnopi/brlconf.c:388
+#, fuzzy, c-format
+msgid "Failed to set braille style: %s."
+msgstr "Kuri Gushyiraho IMISUSIRE"
+
+#: gnopi/brlconf.c:397
+#, fuzzy, c-format
+msgid "Failed to set braille cursor style: %s."
+msgstr "Kuri Gushyiraho indanga IMISUSIRE"
+
+#: gnopi/brlconf.c:406
+#, fuzzy, c-format
+msgid "Failed to set attribute settings: %d."
+msgstr "Kuri Gushyiraho Ikiranga Amagenamiterere"
+
+#: gnopi/brlconf.c:415
+#, fuzzy, c-format
+msgid "Failed to set braille device: %s."
+msgstr "Kuri Gushyiraho APAREYE"
+
+#: gnopi/brlconf.c:424
+#, fuzzy, c-format
+msgid "Failed to set fill character: %s."
+msgstr "Kuri Gushyiraho Kuzuza Inyuguti"
+
+#: gnopi/brlconf.c:433
+#, fuzzy, c-format
+msgid "Failed to set serial port number: %d."
+msgstr "Kuri Gushyiraho Umuyoboro Umubare"
+
+#: gnopi/brlconf.c:443
+#, fuzzy, c-format
+msgid "Failed to set translation table: %s."
+msgstr "Kuri Gushyiraho Umwandiko wahinduwe ururimi imbonerahamwe#"
+
+#: gnopi/brlconf.c:452
+#, fuzzy, c-format
+msgid "Failed to set optical sensor: %d."
+msgstr "Kuri Gushyiraho"
+
+#: gnopi/brlconf.c:461
+#, fuzzy, c-format
+msgid "Failed to set position sensor: %d."
+msgstr "Kuri Gushyiraho Ibirindiro"
+
+#: gnopi/brlconf.c:470
+#, fuzzy, c-format
+msgid "Failed to set status cell: %s."
+msgstr "Kuri Gushyiraho Imimerere Akazu"
+
+# #-#-#-#-#  dbaccess.pot (Gnome 2.12)  #-#-#-#-#
+# #-#-#-#-#  dbaccess.pot (Gnome 2.12)  #-#-#-#-#
+#: gnopi/brlconf.c:556 gnopi/brlui.c:446 gnopi/brlui.c:503
+#: gnopi/spvoiceui.c:613
+msgid "<none>"
+msgstr "<tacyo>"
+
+#: gnopi/brlui.c:79
+msgid "American English"
+msgstr ""
+
+# setup2/source\ui\pages\plang.src:RESID_PAGE_PAGELANGUAGE.STR_LANG_GERMAN.text
+#: gnopi/brlui.c:80
+msgid "German"
+msgstr "Ikidage"
+
+# setup2/source\ui\pages\plang.src:RESID_PAGE_PAGELANGUAGE.STR_LANG_SPANISH.text
+#: gnopi/brlui.c:81
+msgid "Spanish"
+msgstr "Icyesipanyoro"
+
+# setup2/source\ui\pages\plang.src:RESID_PAGE_PAGELANGUAGE.STR_LANG_SWEDISH.text
+#: gnopi/brlui.c:82
+msgid "Swedish"
+msgstr "Igisuwedi"
+
+#. To translators: X = X Window System server
+#: gnopi/brlui.c:364
+#, fuzzy
+msgid "X display's _terminal number:"
+msgstr "Umubare"
+
+#: gnopi/brlui.c:370
+#: gnopi/gnopi_files/Braille_Settings/braille_device.glade2.h:6
+#, fuzzy
+msgid "_Port:"
+msgstr "Impagikiro:"
+
+# setup2/source\ui\pages\plang.src:RESID_PAGE_PAGELANGUAGE.STR_LANGUAGE.text
+#: gnopi/brlui.c:678
+msgid "Language"
+msgstr "Ururimi"
+
+#: gnopi/brlui.c:1273 gnopi/cmdmapui.c:475
+#, fuzzy
+msgid "No selected command!"
+msgstr "Byahiswemo Komandi:"
+
+#: gnopi/brlui.c:1297
+#, fuzzy
+msgid "Invalid device key!"
+msgstr "APAREYE Urufunguzo"
+
+# sfx2/source\doc\docvor.src:DLG_ORGANIZE.BTN_EDIT.text
+#: gnopi/brlui.c:1532 gnopi/brlui.c:1955 gnopi/cmdmapui.c:717
+#: gnopi/cmdmapui.c:1568 gnopi/cmdmapui.c:1588
+msgid "Commands"
+msgstr "Amabwiriza"
+
+#: gnopi/brlui.c:1687 gnopi/cmdmapui.c:1186
+#, fuzzy
+msgid "No selected item to modify!"
+msgstr "Byahiswemo Ikintu Kuri Guhindura"
+
+#: gnopi/brlui.c:1699 gnopi/brlui.c:1779 gnopi/cmdmapui.c:1059
+#: gnopi/cmdmapui.c:1196
+#, fuzzy
+msgid "Invalid selected item!"
+msgstr "Byahiswemo Ikintu"
+
+#: gnopi/brlui.c:1767 gnopi/cmdmapui.c:1046
+#, fuzzy
+msgid "No selected item to remove!"
+msgstr "Byahiswemo Ikintu Kuri Gukuraho..."
+
+#: gnopi/brlui.c:1949
+#: gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:9
+msgid "Braille Keys"
+msgstr ""
+
+#: gnopi/cmdmapconf.c:462 gnopi/cmdmapconf.c:503
+#, fuzzy
+msgid "Change commit error."
+msgstr "Ikosa"
+
+#: gnopi/cmdmapui.c:45
+#, fuzzy
+msgid "decrease y scale"
+msgstr "Y Gupima"
+
+#: gnopi/cmdmapui.c:46
+#, fuzzy
+msgid "decrease x scale"
+msgstr "X Gupima"
+
+#: gnopi/cmdmapui.c:47
+#, fuzzy
+msgid "increase y scale"
+msgstr "Y Gupima"
+
+#: gnopi/cmdmapui.c:48
+#, fuzzy
+msgid "increase x scale"
+msgstr "X Gupima"
+
+#: gnopi/cmdmapui.c:49
+#, fuzzy
+msgid "lock xy scale"
+msgstr "Gupima"
+
+#: gnopi/cmdmapui.c:50
+#, fuzzy
+msgid "smoothing toggle"
+msgstr "Mukomatanya"
+
+#: gnopi/cmdmapui.c:51
+#, fuzzy
+msgid "cursor toggle"
+msgstr "indanga Mukomatanya"
+
+#: gnopi/cmdmapui.c:52
+#, fuzzy
+msgid "cursor on/off"
+msgstr "indanga ku Bidakora"
+
+#: gnopi/cmdmapui.c:53
+#, fuzzy
+msgid "cursor magnification on/off"
+msgstr "indanga ku Bidakora"
+
+#: gnopi/cmdmapui.c:54
+#, fuzzy
+msgid "decrease cursor size"
+msgstr "indanga Ingano"
+
+#: gnopi/cmdmapui.c:55
+#, fuzzy
+msgid "increase cursor size"
+msgstr "indanga Ingano"
+
+#: gnopi/cmdmapui.c:56
+#, fuzzy
+msgid "invert on/off"
+msgstr "Gucurika ku Bidakora"
+
+#: gnopi/cmdmapui.c:57
+#, fuzzy
+msgid "magnifier default"
+msgstr "Mburabuzi"
+
+#: gnopi/cmdmapui.c:58
+#, fuzzy
+msgid "crosshair on/off"
+msgstr "ku Bidakora"
+
+#: gnopi/cmdmapui.c:59
+#, fuzzy
+msgid "crosshair clip on/off"
+msgstr "ku Bidakora"
+
+#: gnopi/cmdmapui.c:60
+#, fuzzy
+msgid "decrease crosshair size"
+msgstr "Ingano"
+
+#: gnopi/cmdmapui.c:61
+#, fuzzy
+msgid "increase crosshair size"
+msgstr "Ingano"
+
+#: gnopi/cmdmapui.c:62
+#, fuzzy
+msgid "automatic panning on/off"
+msgstr "Byikoresha ku Bidakora"
+
+#: gnopi/cmdmapui.c:63
+#, fuzzy
+msgid "mouse tracking toggle"
+msgstr "Imbeba Mukomatanya"
+
+#: gnopi/cmdmapui.c:64
+#, fuzzy
+msgid "load magnifier defaults"
+msgstr "Ibirimo"
+
+#: gnopi/cmdmapui.c:66
+msgid "decrease pitch"
+msgstr ""
+
+#: gnopi/cmdmapui.c:67
+msgid "increase pitch"
+msgstr ""
+
+#: gnopi/cmdmapui.c:68
+#, fuzzy
+msgid "default pitch"
+msgstr "Mburabuzi"
+
+#: gnopi/cmdmapui.c:69
+#, fuzzy
+msgid "decrease rate"
+msgstr "Igipimo"
+
+#: gnopi/cmdmapui.c:70
+#, fuzzy
+msgid "increase rate"
+msgstr "Igipimo"
+
+#: gnopi/cmdmapui.c:71
+#, fuzzy
+msgid "default rate"
+msgstr "Mburabuzi Igipimo"
+
+#: gnopi/cmdmapui.c:72
+#, fuzzy
+msgid "decrease volume"
+msgstr "Igice"
+
+#: gnopi/cmdmapui.c:73
+#, fuzzy
+msgid "increase volume"
+msgstr "Igice"
+
+#: gnopi/cmdmapui.c:74
+#, fuzzy
+msgid "default volume"
+msgstr "Mburabuzi Igice"
+
+#: gnopi/cmdmapui.c:75
+#, fuzzy
+msgid "speech default"
+msgstr "Mburabuzi"
+
+#: gnopi/cmdmapui.c:77
+msgid "goto parent"
+msgstr ""
+
+#: gnopi/cmdmapui.c:78
+msgid "goto child"
+msgstr ""
+
+#: gnopi/cmdmapui.c:79
+#, fuzzy
+msgid "goto previous"
+msgstr "Ibanjirije"
+
+#: gnopi/cmdmapui.c:80
+#, fuzzy
+msgid "goto next"
+msgstr "Komeza>>"
+
+#: gnopi/cmdmapui.c:81
+#, fuzzy
+msgid "repeat last"
+msgstr "Gusubiramo Iheruka"
+
+#: gnopi/cmdmapui.c:82
+msgid "goto focus"
+msgstr ""
+
+#: gnopi/cmdmapui.c:83
+#, fuzzy
+msgid "goto title"
+msgstr "Umutwe"
+
+#: gnopi/cmdmapui.c:84
+#, fuzzy
+msgid "goto menu"
+msgstr "Ibikubiyemo"
+
+#: gnopi/cmdmapui.c:85
+#, fuzzy
+msgid "goto toolbar"
+msgstr "Umwanyabikoresho"
+
+#: gnopi/cmdmapui.c:86
+msgid "goto statusbar"
+msgstr ""
+
+#: gnopi/cmdmapui.c:87
+msgid "widget surroundings"
+msgstr ""
+
+#: gnopi/cmdmapui.c:89
+msgid "goto caret"
+msgstr ""
+
+#: gnopi/cmdmapui.c:90
+#, fuzzy
+msgid "goto first"
+msgstr "Itangira"
+
+#: gnopi/cmdmapui.c:91
+#, fuzzy
+msgid "goto last"
+msgstr "Iheruka"
+
+#: gnopi/cmdmapui.c:92
+#, fuzzy
+msgid "change navigation mode"
+msgstr "Guhindura>> Ibuganya Ubwoko"
+
+#: gnopi/cmdmapui.c:94
+#, fuzzy
+msgid "toggle flat review/focus tracking mode"
+msgstr "Mukomatanya Kirambuye Isubiramo Ubwoko"
+
+#: gnopi/cmdmapui.c:95
+#, fuzzy
+msgid "flat review"
+msgstr "Kirambuye Isubiramo"
+
+#: gnopi/cmdmapui.c:96
+#, fuzzy
+msgid "window hierarchy"
+msgstr "Idirishya"
+
+#: gnopi/cmdmapui.c:97
+#, fuzzy
+msgid "read whole window"
+msgstr "Gusoma Idirishya"
+
+#: gnopi/cmdmapui.c:98
+msgid "detailed informations"
+msgstr ""
+
+#: gnopi/cmdmapui.c:99
+#, fuzzy
+msgid "do default action"
+msgstr "Mburabuzi Igikorwa"
+
+#: gnopi/cmdmapui.c:100
+#, fuzzy
+msgid "window overview"
+msgstr "Idirishya Incamake"
+
+#: gnopi/cmdmapui.c:101
+#, fuzzy
+msgid "find next"
+msgstr "Shaka ibikurikira"
+
+#: gnopi/cmdmapui.c:102
+#, fuzzy
+msgid "find set"
+msgstr "Gushaka Gushyiraho"
+
+#: gnopi/cmdmapui.c:103
+#, fuzzy
+msgid "attributes at caret"
+msgstr "Ibiranga ku"
+
+#: gnopi/cmdmapui.c:104
+#, fuzzy
+msgid "watch current object"
+msgstr "Isaha KIGEZWEHO Igikoresho"
+
+#: gnopi/cmdmapui.c:105 srcore/srctrl.c:1353
+#, fuzzy
+msgid "unwatch all objects"
+msgstr "Byose Ibintu"
+
+#: gnopi/cmdmapui.c:107
+#, fuzzy
+msgid "mouse left press"
+msgstr "Imbeba Ibumoso: Kanda"
+
+#: gnopi/cmdmapui.c:108
+#, fuzzy
+msgid "mouse left click"
+msgstr "Imbeba Ibumoso: Kanda"
+
+#: gnopi/cmdmapui.c:109
+#, fuzzy
+msgid "mouse left release"
+msgstr "Imbeba Ibumoso:"
+
+#: gnopi/cmdmapui.c:110
+#, fuzzy
+msgid "mouse right press"
+msgstr "Imbeba Iburyo: Kanda"
+
+#: gnopi/cmdmapui.c:111
+#, fuzzy
+msgid "mouse right click"
+msgstr "Imbeba Iburyo: Kanda"
+
+#: gnopi/cmdmapui.c:112
+#, fuzzy
+msgid "mouse right release"
+msgstr "Imbeba Iburyo:"
+
+#: gnopi/cmdmapui.c:113
+#, fuzzy
+msgid "mouse middle press"
+msgstr "Imbeba Hagati Kanda"
+
+#: gnopi/cmdmapui.c:114
+#, fuzzy
+msgid "mouse middle release"
+msgstr "Imbeba Hagati"
+
+#: gnopi/cmdmapui.c:115
+#, fuzzy
+msgid "mouse middle click"
+msgstr "Imbeba Hagati Kanda"
+
+#: gnopi/cmdmapui.c:116
+#, fuzzy
+msgid "mouse goto current"
+msgstr "Imbeba KIGEZWEHO"
+
+#: gnopi/cmdmapui.c:118
+msgid "shutup"
+msgstr ""
+
+#: gnopi/cmdmapui.c:119
+#, fuzzy
+msgid "pause/resume"
+msgstr "Akaruhuko... Gusubiramo"
+
+#: gnopi/cmdmapui.c:121
+#, fuzzy
+msgid "char left"
+msgstr "INYUGUTI Ibumoso:"
+
+#: gnopi/cmdmapui.c:122
+#, fuzzy
+msgid "char right"
+msgstr "INYUGUTI Iburyo:"
+
+#: gnopi/cmdmapui.c:123
+#, fuzzy
+msgid "display left"
+msgstr "Kugaragaza Ibumoso:"
+
+#: gnopi/cmdmapui.c:124
+#, fuzzy
+msgid "display right"
+msgstr "Kugaragaza Iburyo:"
+
+#: gnopi/cmdmapui.c:126
+#, fuzzy
+msgid "braille on/off"
+msgstr "ku Bidakora"
+
+#: gnopi/cmdmapui.c:127
+#, fuzzy
+msgid "speech on/off"
+msgstr "ku Bidakora"
+
+#: gnopi/cmdmapui.c:128
+#, fuzzy
+msgid "magnifier on/off"
+msgstr "ku Bidakora"
+
+#: gnopi/cmdmapui.c:129
+#, fuzzy
+msgid "braille monitor on/off"
+msgstr "ku Bidakora"
+
+# sw/source\ui\index\cnttab.src:TP_TOX_ENTRY.WIN_TOKEN.STR_TOKEN_AUTHORITY.text
+#: gnopi/cmdmapui.c:143
+msgid "A"
+msgstr "A"
+
+# sc/source\core\src\compiler.src:RID_SC_FUNCTION_NAMES.SC_OPCODE_B.text
+#: gnopi/cmdmapui.c:144
+msgid "B"
+msgstr "B"
+
+# #-#-#-#-#  sc.pot (Gnome 2.12)  #-#-#-#-#
+# sc/source\ui\src\scfuncs.src:RID_SC_FUNCTION_DESCRIPTIONS2.SC_OPCODE_BINOM_DIST.8.text
+# #-#-#-#-#  sc.pot (Gnome 2.12)  #-#-#-#-#
+# sc/source\ui\src\scfuncs.src:RID_SC_FUNCTION_DESCRIPTIONS2.SC_OPCODE_POISSON_DIST.6.text
+# #-#-#-#-#  sc.pot (Gnome 2.12)  #-#-#-#-#
+# sc/source\ui\src\scfuncs.src:RID_SC_FUNCTION_DESCRIPTIONS2.SC_OPCODE_NORM_DIST.8.text
+# #-#-#-#-#  sc.pot (Gnome 2.12)  #-#-#-#-#
+# sc/source\ui\src\scfuncs.src:RID_SC_FUNCTION_DESCRIPTIONS2.SC_OPCODE_EXP_DIST.6.text
+# #-#-#-#-#  sc.pot (Gnome 2.12)  #-#-#-#-#
+# sc/source\ui\src\scfuncs.src:RID_SC_FUNCTION_DESCRIPTIONS2.SC_OPCODE_GAMMA_DIST.8.text
+# #-#-#-#-#  sc.pot (Gnome 2.12)  #-#-#-#-#
+# sc/source\ui\src\scfuncs.src:RID_SC_FUNCTION_DESCRIPTIONS2.SC_OPCODE_WEIBULL.8.text
+#: gnopi/cmdmapui.c:145
+msgid "C"
+msgstr "C"
+
+#: gnopi/cmdmapui.c:146
+msgid "D"
+msgstr "D"
+
+# #-#-#-#-#  sc.pot (Gnome 2.12)  #-#-#-#-#
+# sc/source\ui\src\scfuncs.src:RID_SC_FUNCTION_DESCRIPTIONS1.SC_OPCODE_KUM_KAP_Z.10.text
+# #-#-#-#-#  sc.pot (Gnome 2.12)  #-#-#-#-#
+# sc/source\ui\src\scfuncs.src:RID_SC_FUNCTION_DESCRIPTIONS1.SC_OPCODE_KUM_ZINS_Z.10.text
+#: gnopi/cmdmapui.c:147
+msgid "E"
+msgstr "E"
+
+#: gnopi/cmdmapui.c:148
+msgid "F"
+msgstr "F"
+
+#: gnopi/cmdmapui.c:149
+msgid "G"
+msgstr "G"
+
+#: gnopi/cmdmapui.c:150
+msgid "H"
+msgstr "H"
+
+#: gnopi/cmdmapui.c:151
+msgid "I"
+msgstr "I"
+
+#: gnopi/cmdmapui.c:152
+#, fuzzy
+msgid "J"
+msgstr "j"
+
+#: gnopi/cmdmapui.c:153
+msgid "K"
+msgstr "K"
+
+#: gnopi/cmdmapui.c:154
+msgid "L"
+msgstr "L"
+
+# scaddins/source\analysis\analysis.src:RID_ANALYSIS_FUNCTION_DESCRIPTIONS.ANALYSIS_Seriessum.6.text
+#: gnopi/cmdmapui.c:155
+msgid "M"
+msgstr "M"
+
+# #-#-#-#-#  scaddins.pot (Gnome 2.12)  #-#-#-#-#
+# scaddins/source\analysis\analysis.src:RID_ANALYSIS_FUNCTION_DESCRIPTIONS.ANALYSIS_Seriessum.4.text
+# #-#-#-#-#  scaddins.pot (Gnome 2.12)  #-#-#-#-#
+# scaddins/source\analysis\analysis.src:RID_ANALYSIS_FUNCTION_DESCRIPTIONS.ANALYSIS_Besseli.4.text
+# #-#-#-#-#  scaddins.pot (Gnome 2.12)  #-#-#-#-#
+# scaddins/source\analysis\analysis.src:RID_ANALYSIS_FUNCTION_DESCRIPTIONS.ANALYSIS_Besselj.4.text
+# #-#-#-#-#  scaddins.pot (Gnome 2.12)  #-#-#-#-#
+# scaddins/source\analysis\analysis.src:RID_ANALYSIS_FUNCTION_DESCRIPTIONS.ANALYSIS_Besselk.4.text
+# #-#-#-#-#  scaddins.pot (Gnome 2.12)  #-#-#-#-#
+# scaddins/source\analysis\analysis.src:RID_ANALYSIS_FUNCTION_DESCRIPTIONS.ANALYSIS_Bessely.4.text
+#: gnopi/cmdmapui.c:156
+msgid "N"
+msgstr "N"
+
+#: gnopi/cmdmapui.c:157
+msgid "O"
+msgstr "O"
+
+# #-#-#-#-#  sc.pot (Gnome 2.12)  #-#-#-#-#
+# sc/source\ui\src\scfuncs.src:RID_SC_FUNCTION_DESCRIPTIONS1.SC_OPCODE_EFFEKTIV.4.text
+# #-#-#-#-#  sc.pot (Gnome 2.12)  #-#-#-#-#
+# sc/source\ui\src\scfuncs.src:RID_SC_FUNCTION_DESCRIPTIONS1.SC_OPCODE_ZGZ.2.text
+#: gnopi/cmdmapui.c:158
+msgid "P"
+msgstr "P"
+
+#: gnopi/cmdmapui.c:159
+msgid "Q"
+msgstr "Q"
+
+# sc/source\ui\src\scfuncs.src:RID_SC_FUNCTION_DESCRIPTIONS2.SC_OPCODE_NEG_BINOM_VERT.4.text
+#: gnopi/cmdmapui.c:160
+msgid "R"
+msgstr "R"
+
+# #-#-#-#-#  sc.pot (Gnome 2.12)  #-#-#-#-#
+# sc/source\ui\src\scfuncs.src:RID_SC_FUNCTION_DESCRIPTIONS1.SC_OPCODE_KUM_KAP_Z.8.text
+# #-#-#-#-#  sc.pot (Gnome 2.12)  #-#-#-#-#
+# sc/source\ui\src\scfuncs.src:RID_SC_FUNCTION_DESCRIPTIONS1.SC_OPCODE_KUM_ZINS_Z.8.text
+# #-#-#-#-#  sc.pot (Gnome 2.12)  #-#-#-#-#
+# sc/source\ui\src\scfuncs.src:RID_SC_FUNCTION_DESCRIPTIONS1.SC_OPCODE_VBD.8.text
+#: gnopi/cmdmapui.c:161
+msgid "S"
+msgstr "S"
+
+# sc/source\core\src\compiler.src:RID_SC_FUNCTION_NAMES.SC_OPCODE_T.text
+#: gnopi/cmdmapui.c:162
+msgid "T"
+msgstr "T"
+
+#: gnopi/cmdmapui.c:163
+msgid "U"
+msgstr "U"
+
+#: gnopi/cmdmapui.c:164
+msgid "V"
+msgstr "V"
+
+#: gnopi/cmdmapui.c:165
+msgid "W"
+msgstr "W"
+
+# officecfg/registry\schema\org\openoffice\Office\Common.xcs:....Font.Strikeout..6.text
+#: gnopi/cmdmapui.c:166
+msgid "X"
+msgstr "X"
+
+# svx/source\engine3d\float3d.src:RID_SVXFLOAT3D_FIX_Y.text
+#: gnopi/cmdmapui.c:167
+msgid "Y"
+msgstr "Y"
+
+# svx/source\engine3d\float3d.src:RID_SVXFLOAT3D_FIX_Z.text
+#: gnopi/cmdmapui.c:168
+msgid "Z"
+msgstr "Z"
+
+# F1..F10 should probably not be translated unless there are keyboards that actually have other labels
+# F11..F20 might be something else, but are really keyboard specific and not region/language specific
+# there are actually two different F11/F12 keys, I don't know which one these labels represent.
+# eg, F13..F20 on a sparc keyboard are labeled Props, Again .. Find, Cut
+# sparc also has Stop, Again and F11/F12. VK_F11/VK_F12 probably map to Stop/Again
+# LOCALIZATION NOTE : BLOCK Do not translate the next block
+#: gnopi/cmdmapui.c:169
+msgid "F1"
+msgstr "F1"
+
+#: gnopi/cmdmapui.c:170
+msgid "F2"
+msgstr "F2"
+
+#: gnopi/cmdmapui.c:171
+msgid "F3"
+msgstr "F3"
+
+#: gnopi/cmdmapui.c:172
+msgid "F4"
+msgstr "F4"
+
+#: gnopi/cmdmapui.c:173
+msgid "F5"
+msgstr "F5"
+
+#: gnopi/cmdmapui.c:174
+msgid "F6"
+msgstr "F6"
+
+#: gnopi/cmdmapui.c:175
+msgid "F7"
+msgstr "F7"
+
+#: gnopi/cmdmapui.c:176
+msgid "F8"
+msgstr "F8"
+
+#: gnopi/cmdmapui.c:177
+msgid "F9"
+msgstr "F9"
+
+#: gnopi/cmdmapui.c:178
+msgid "F10"
+msgstr "F10"
+
+#: gnopi/cmdmapui.c:179
+msgid "F11"
+msgstr "F11"
+
+#: gnopi/cmdmapui.c:180
+msgid "F12"
+msgstr "F12"
+
+#: gnopi/cmdmapui.c:181
+msgid "0"
+msgstr "0"
+
+#: gnopi/cmdmapui.c:182
+msgid "1"
+msgstr "1"
+
+#: gnopi/cmdmapui.c:183
+msgid "2"
+msgstr "2"
+
+#: gnopi/cmdmapui.c:184
+msgid "3"
+msgstr "3"
+
+#: gnopi/cmdmapui.c:185
+msgid "4"
+msgstr "4"
+
+#: gnopi/cmdmapui.c:186
+msgid "5"
+msgstr "5"
+
+#: gnopi/cmdmapui.c:187
+msgid "6"
+msgstr "6"
+
+#: gnopi/cmdmapui.c:188
+msgid "7"
+msgstr "7"
+
+#: gnopi/cmdmapui.c:189
+msgid "8"
+msgstr "8"
+
+#: gnopi/cmdmapui.c:190
+msgid "9"
+msgstr "9"
+
+#: gnopi/cmdmapui.c:191
+msgid "apostrophe"
+msgstr ""
+
+#: gnopi/cmdmapui.c:192
+msgid "backslash"
+msgstr ""
+
+#: gnopi/cmdmapui.c:193
+#, fuzzy
+msgid "bracket left"
+msgstr "Ibumoso:"
+
+#: gnopi/cmdmapui.c:194
+#, fuzzy
+msgid "bracket right"
+msgstr "Iburyo:"
+
+# sc/source\ui\dbgui\asciiopt.src:RID_SCDLG_ASCII.CKB_COMMA.text
+#: gnopi/cmdmapui.c:195
+#, fuzzy
+msgid "comma"
+msgstr "Akitso"
+
+# sc/source\ui\dbgui\validate.src:TP_VALIDATION_VALUES.LB_VALUE.1.text
+#: gnopi/cmdmapui.c:196
+msgid "equal"
+msgstr "bingana"
+
+#: gnopi/cmdmapui.c:197
+msgid "grave"
+msgstr ""
+
+#: gnopi/cmdmapui.c:198
+msgid "minus"
+msgstr ""
+
+# #-#-#-#-#  scaddins.pot (Gnome 2.12)  #-#-#-#-#
+# scaddins/source\analysis\analysis.src:RID_ANALYSIS_FUNCTION_DESCRIPTIONS.ANALYSIS_Amordegrc.10.text
+# #-#-#-#-#  scaddins.pot (Gnome 2.12)  #-#-#-#-#
+# scaddins/source\analysis\analysis.src:RID_ANALYSIS_FUNCTION_DESCRIPTIONS.ANALYSIS_Amorlinc.10.text
+#: gnopi/cmdmapui.c:199
+#, fuzzy
+msgid "period"
+msgstr "Igihe"
+
+#: gnopi/cmdmapui.c:200
+#, fuzzy
+msgid "quote left"
+msgstr "Gushyiraho akugarizo Ibumoso:"
+
+# sc/source\ui\dbgui\asciiopt.src:RID_SCDLG_ASCII.CKB_SEMICOLON.text
+#: gnopi/cmdmapui.c:201
+#, fuzzy
+msgid "semicolon"
+msgstr "Akabago n'Akitso"
+
+# officecfg/registry\schema\org\openoffice\Office\Common.xcs:....Font.Strikeout..5.text
+#: gnopi/cmdmapui.c:202
+#, fuzzy
+msgid "slash"
+msgstr "AKARONGOKABERAMYE"
+
+#: gnopi/cmdmapui.c:1133
+#, fuzzy
+msgid "Invalid key or existent key."
+msgstr "Urufunguzo Cyangwa Urufunguzo"
+
+#: gnopi/cmdmapui.c:1562
+msgid "Layer Keys"
+msgstr ""
+
+#: gnopi/cmdmapui.c:1582
+msgid "User Keys"
+msgstr ""
+
+#: gnopi/coreconf.c:248
+#, fuzzy, c-format
+msgid "Failed to set exit val: %d."
+msgstr "Kuri Gushyiraho Gusohoka"
+
+#: gnopi/coreconf.c:290
+#, fuzzy, c-format
+msgid "Failed to set move mouse: %d."
+msgstr "Kuri Gushyiraho Kwimura Imbeba"
+
+#: gnopi/coreconf.c:299
+#, fuzzy, c-format
+msgid "Failed to set simulate click: %d."
+msgstr "Kuri Gushyiraho Kanda"
+
+#: gnopi/coreconf.c:308
+#, fuzzy, c-format
+msgid "Failed to set find text: %s."
+msgstr "Kuri Gushyiraho Gushaka Umwandiko"
+
+#: gnopi/coreconf.c:318
+#, fuzzy, c-format
+msgid "Failed to set magnifier status: %d."
+msgstr "Kuri Gushyiraho Imimerere"
+
+#: gnopi/coreconf.c:327
+#, fuzzy, c-format
+msgid "Failed to set speech status: %d."
+msgstr "Kuri Gushyiraho Imimerere"
+
+#: gnopi/coreconf.c:336
+#, fuzzy, c-format
+msgid "Failed to set braille status: %d."
+msgstr "Kuri Gushyiraho Imimerere"
+
+#: gnopi/coreconf.c:345
+#, fuzzy, c-format
+msgid "Failed to set braille monitor status: %d."
+msgstr "Kuri Gushyiraho Imimerere"
+
+#: gnopi/coreconf.c:354
+#, fuzzy, c-format
+msgid "Failed to set minimize flag: %d."
+msgstr "Kuri Gushyiraho Kugabanya ingano Ibendera"
+
+#: gnopi/coreconf.c:363
+#, fuzzy, c-format
+msgid "Failed to set exit ack: %d."
+msgstr "Kuri Gushyiraho Gusohoka"
+
+#: gnopi/coreconf.c:372
+#, fuzzy, c-format
+msgid "Failed to set language: %s."
+msgstr "Kuri Gushyiraho Ururimi"
+
+#: gnopi/coreconf.c:381
+#, fuzzy, c-format
+msgid "Failed to set screen review: %d."
+msgstr "Kuri Gushyiraho Mugaragaza Isubiramo"
+
+#: gnopi/defui.c:73
+#, fuzzy, c-format
+msgid "Are you sure you want to load default values for %s?"
+msgstr "Kuri Ibirimo Mburabuzi Uduciro kugirango"
+
+#: gnopi/defui.c:100
+msgid "braille"
+msgstr ""
+
+#: gnopi/defui.c:116
+#, fuzzy
+msgid "Braille default setting loaded."
+msgstr "Mburabuzi Igenamiterere"
+
+#: gnopi/defui.c:125
+msgid "speech"
+msgstr ""
+
+#: gnopi/defui.c:133
+#, fuzzy
+msgid "Speech default setting loaded."
+msgstr "Mburabuzi Igenamiterere"
+
+#: gnopi/defui.c:142
+msgid "magnifier"
+msgstr ""
+
+#: gnopi/defui.c:156
+#, fuzzy
+msgid "Magnifier default setting loaded."
+msgstr "Mburabuzi Igenamiterere"
+
+# #-#-#-#-#  sfx2.pot (Gnome 2.12)  #-#-#-#-#
+# sfx2/source\accel\accel.src:STR_ACCEL_CFGITEM.text
+# #-#-#-#-#  sfx2.pot (Gnome 2.12)  #-#-#-#-#
+# sfx2/source\dialog\cfg.src:DLG_CONFIG.1.TP_CONFIG_ACCEL.text
+#: gnopi/defui.c:165
+#, fuzzy
+msgid "keyboard"
+msgstr "Mwandikisho"
+
+#: gnopi/defui.c:173
+#, fuzzy
+msgid "Keyboard default setting loaded."
+msgstr "Mburabuzi Igenamiterere"
+
+#: gnopi/defui.c:182
+msgid "braille monitor"
+msgstr ""
+
+#: gnopi/defui.c:189
+#, fuzzy
+msgid "Braille monitor default setting loaded."
+msgstr "Mburabuzi Igenamiterere"
+
+#: gnopi/defui.c:198
+#, fuzzy
+msgid "start up"
+msgstr "Gutangira Hejuru"
+
+#: gnopi/defui.c:207
+#, fuzzy
+msgid "Startup default setting loaded."
+msgstr "Mburabuzi Igenamiterere"
+
+#: gnopi/defui.c:217
+#, fuzzy
+msgid "command map"
+msgstr "Komandi:"
+
+#: gnopi/defui.c:225
+#, fuzzy
+msgid "Command map default setting loaded."
+msgstr "Mburabuzi Igenamiterere"
+
+#: gnopi/defui.c:235
+#, fuzzy
+msgid "presentation"
+msgstr "Iyerekana"
+
+#: gnopi/defui.c:241
+#, fuzzy
+msgid "Presentation default setting loaded."
+msgstr "Mburabuzi Igenamiterere"
+
+#: gnopi/defui.c:250
+#, fuzzy
+msgid "screen review"
+msgstr "Mugaragaza Isubiramo"
+
+#: gnopi/defui.c:256
+#, fuzzy
+msgid "Screen review default setting loaded."
+msgstr "Isubiramo Mburabuzi Igenamiterere"
+
+#: gnopi/defui.c:279
+#, fuzzy
+msgid "all modules"
+msgstr "Byose Modire"
+
+#: gnopi/defui.c:282
+#, fuzzy
+msgid "All default settings loaded."
+msgstr "Mburabuzi Amagenamiterere"
+
+#: gnopi/genui.c:66
+#: gnopi/gnopi_files/General_Settings/general_settings.glade2.h:12
+msgid "_Braille"
+msgstr ""
+
+#: gnopi/genui.c:69
+msgid "_Braille (unavailable)"
+msgstr ""
+
+#: gnopi/genui.c:74
+#: gnopi/gnopi_files/General_Settings/general_settings.glade2.h:13
+msgid "_Magnifier"
+msgstr ""
+
+#: gnopi/genui.c:77
+msgid "_Magnifier (unavailable)"
+msgstr ""
+
+#: gnopi/genui.c:82
+#: gnopi/gnopi_files/General_Settings/general_settings.glade2.h:14
+msgid "_Speech"
+msgstr ""
+
+#: gnopi/genui.c:85
+msgid "_Speech (unavailable)"
+msgstr ""
+
+#: gnopi/genui.c:90
+#: gnopi/gnopi_files/General_Settings/general_settings.glade2.h:4
+msgid "B_raille monitor"
+msgstr ""
+
+#: gnopi/genui.c:93
+msgid "B_raille monitor (unavailable)"
+msgstr ""
+
+#: gnopi/gnopernicus.desktop.in.h:1
+#, fuzzy
+msgid "Assistive Technologies for Blind and Visually Impaired"
+msgstr "kugirango Na"
+
+#: gnopi/gnopernicus.desktop.in.h:2
+#, fuzzy
+msgid "Screen Reader and Magnifier"
+msgstr "Na"
+
+#: gnopi/gnopi.c:302
+msgid "gnopernicus"
+msgstr ""
+
+#: gnopi/gnopi.c:309
+#, fuzzy
+msgid "Gconf initialization failed."
+msgstr "Byanze"
+
+#: gnopi/gnopi.c:316
+#, fuzzy
+msgid "Invalid parameters."
+msgstr "Ibishingirwaho bitari byo"
+
+#: gnopi/gnopi.c:322
+#, fuzzy
+msgid "Multiple instances are NOT ALLOWED. This instance will end."
+msgstr "Ingero Urugero Impera"
+
+#: gnopi/gnopi.c:328
+#, fuzzy
+msgid "GTK initialization failed."
+msgstr "Byanze"
+
+#: gnopi/gnopi.c:334
+#, fuzzy
+msgid "Can not create a new process."
+msgstr "OYA Kurema a Gishya"
+
+#: gnopi/gnopi.c:344
+msgid "Exit gnopernicus."
+msgstr ""
+
+#: gnopi/gnopi.c:352
+#, fuzzy
+msgid "Gnopernicus initialization failed."
+msgstr "Byanze"
+
+#: gnopi/gnopi.c:359
+#, fuzzy
+msgid "Can not load .glade2 file"
+msgstr "OYA Ibirimo IDOSIYE"
+
+#. if (WIFSIGNALED (gn_srcore_status) != 0)
+#. sru_message ("signal no: %d", WTERMSIG (gn_srcore_status));
+#: gnopi/gnopi.c:663
+msgid "srcore exited."
+msgstr ""
+
+#: gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:1
+#, fuzzy
+msgid "<b>Color</b>"
+msgstr "<B B"
+
+#: gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:2
+#, fuzzy
+msgid "<b>Font</b>"
+msgstr "<B B"
+
+#: gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:3
+#, fuzzy
+msgid "<b>Mode Type</b>"
+msgstr "<B B"
+
+#: gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:4
+#, fuzzy
+msgid "<b>Position</b>"
+msgstr "<B B"
+
+#: gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:5
+#, fuzzy
+msgid "<b>Size</b>"
+msgstr "<B B"
+
+#: gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:6
+msgid "B_raille"
+msgstr ""
+
+#: gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:7
+msgid "Braille Monitor Preferences"
+msgstr ""
+
+#: gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:8
+#, fuzzy
+msgid "Color selection for texts which use dot 7"
+msgstr "Ihitamo kugirango Gukoresha Akadomo 7"
+
+#: gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:9
+#, fuzzy
+msgid "Color selection for texts which use dot 8"
+msgstr "Ihitamo kugirango Gukoresha Akadomo 8"
+
+#: gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:10
+#, fuzzy
+msgid "Color selection for texts which use dots 7 and 8"
+msgstr "Ihitamo kugirango Gukoresha Utudomo 7 Na 8"
+
+# sw/source\ui\inc\swmn.hrc:MN_OBJECTMENU_TEXT.FN_FORMAT_COLUMN.text
+#: gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:11
+#, fuzzy
+msgid "Colu_mns:"
+msgstr "Inkingi...."
+
+#: gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:12
+#, fuzzy
+msgid "Display at bottom of screen"
+msgstr "ku Hasi: Bya Mugaragaza"
+
+#: gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:13
+#, fuzzy
+msgid "Display on top of screen"
+msgstr "ku Hejuru: Bya Mugaragaza"
+
+#: gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:14
+#, fuzzy
+msgid "Display using braille font"
+msgstr "ikoresha Intego- nyuguti"
+
+#: gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:15
+#, fuzzy
+msgid "Display using normal font"
+msgstr "ikoresha Bisanzwe Intego- nyuguti"
+
+#: gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:16
+#, fuzzy
+msgid "Display with both fonts"
+msgstr "Na: Byombi Imyandikire"
+
+#: gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:17
+#, fuzzy
+msgid "Dot 7:"
+msgstr "7"
+
+#: gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:18
+#, fuzzy
+msgid "Dot 8:"
+msgstr "8"
+
+#: gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:19
+msgid "Dots 78:"
+msgstr ""
+
+#: gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:20
+#, fuzzy
+msgid "Number of cell columns"
+msgstr "Bya Akazu Inkingi"
+
+#: gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:21
+#, fuzzy
+msgid "Number of cell lines"
+msgstr "Bya Akazu Imirongo"
+
+#: gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:22
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:43
+#, fuzzy
+msgid "Pick a color"
+msgstr "a Ibara"
+
+#: gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:23
+#, fuzzy
+msgid "Size of font"
+msgstr "Bya Intego- nyuguti"
+
+#: gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:24
+#, fuzzy
+msgid "Use system theme colors"
+msgstr "Sisitemu Amabara"
+
+#: gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:25
+#, fuzzy
+msgid "Use theme _system colors"
+msgstr "Sisitemu Amabara"
+
+#: gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:26
+msgid "_Dual"
+msgstr ""
+
+#: gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:27
+#, fuzzy
+msgid "_Lines:"
+msgstr "Imirongo."
+
+# officecfg/registry\schema\org\openoffice\Office\Common.xcs:....Save.Graphic.Format..0.text
+#: gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:28
+#, fuzzy
+msgid "_Normal"
+msgstr "Bisanzwe"
+
+# sfx2/source\dialog\dinfdlg.src:TP_DOCINFODOC.FT_FILE_SIZE.text
+#: gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:29
+#, fuzzy
+msgid "_Size:"
+msgstr "Ingano"
+
+# officecfg/registry\schema\org\openoffice\Office\Draw.xcs:....Misc.CrossFading.Attributes.text
+#: gnopi/gnopi_files/Braille_Settings/attribute_settings.glade2.h:1
+msgid "Attributes"
+msgstr "Ibiranga"
+
+#: gnopi/gnopi_files/Braille_Settings/attribute_settings.glade2.h:2
+#, fuzzy
+msgid "_1. Dot 8"
+msgstr "8"
+
+#: gnopi/gnopi_files/Braille_Settings/attribute_settings.glade2.h:3
+#, fuzzy
+msgid "_2. Dot 7"
+msgstr "7"
+
+#: gnopi/gnopi_files/Braille_Settings/attribute_settings.glade2.h:4
+#, fuzzy
+msgid "_3. Dot 8 or 7"
+msgstr "8 Cyangwa 7"
+
+#: gnopi/gnopi_files/Braille_Settings/attribute_settings.glade2.h:5
+msgid "_4. Off"
+msgstr ""
+
+#: gnopi/gnopi_files/Braille_Settings/braille_device.glade2.h:1
+#: gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:1
+#: gnopi/gnopi_files/Find/find.glade2.h:2
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:1
+#: gnopi/gnopi_files/Presentation/presentation.glade2.h:1
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:3
+#: gnopi/gnopi_files/User_Properties/user_properties.glade2.h:1
+msgid "*"
+msgstr "*"
+
+#: gnopi/gnopi_files/Braille_Settings/braille_device.glade2.h:2
+msgid "Braille Device"
+msgstr ""
+
+#: gnopi/gnopi_files/Braille_Settings/braille_device.glade2.h:3
+#, fuzzy
+msgid "Braille devices list"
+msgstr "Urutonde"
+
+#: gnopi/gnopi_files/Braille_Settings/braille_device.glade2.h:4
+#, fuzzy
+msgid "Serial port number where the device is linked"
+msgstr "Umuyoboro Umubare APAREYE ni"
+
+#: gnopi/gnopi_files/Braille_Settings/braille_device.glade2.h:5
+#, fuzzy
+msgid "_Device:"
+msgstr "Ububiko:"
+
+#: gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:2
+#, fuzzy
+msgid "10 _Font size"
+msgstr "10 Ingano"
+
+#: gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:3
+#, fuzzy
+msgid "11 _Activate script function \"OnPosSwitch\""
+msgstr "IYANDIKA Umumaro"
+
+#: gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:4
+#, fuzzy
+msgid "12 _Present attributes"
+msgstr "12 Ibiranga"
+
+#: gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:5
+#, fuzzy
+msgid "<b>_Braille keys list</b>"
+msgstr "<B Utubuto Urutonde B"
+
+#: gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:6
+#, fuzzy
+msgid "Activate script function \"OnPosSwitch\""
+msgstr "IYANDIKA Umumaro"
+
+#: gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:7
+#, fuzzy
+msgid "Add item in braille keys list"
+msgstr "Ikintu in Utubuto Urutonde"
+
+#: gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:8
+msgid "Braille Display Key Mapping"
+msgstr ""
+
+#: gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:10
+#, fuzzy
+msgid "Braille device keys list"
+msgstr "APAREYE Utubuto Urutonde"
+
+#: gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:11
+#, fuzzy
+msgid "Braille keys list"
+msgstr "Utubuto Urutonde"
+
+#: gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:12
+msgid "Command List"
+msgstr ""
+
+#: gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:13
+#, fuzzy
+msgid "Command list"
+msgstr "Urutonde"
+
+# svx/sdi\svxslots.src:SID_ATTR_CHAR_FONT.text
+#: gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:14
+#, fuzzy
+msgid "Font name"
+msgstr "Izina ry'Umukono"
+
+# #-#-#-#-#  svx.pot (Gnome 2.12)  #-#-#-#-#
+# svx/source\items\svxitems.src:RID_ATTR_CHAR_FONTHEIGHT.text
+# #-#-#-#-#  svx.pot (Gnome 2.12)  #-#-#-#-#
+# svx/source\svdraw\svdstr.src:SIP_EE_CHAR_FONTHEIGHT.text
+#: gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:15
+msgid "Font size"
+msgstr "Ingano y'imyandikire"
+
+#: gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:16
+#, fuzzy
+msgid "Font style"
+msgstr "IMISUSIRE"
+
+#: gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:17
+#, fuzzy
+msgid "Modify selected item"
+msgstr "Byahiswemo Ikintu"
+
+#: gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:18
+msgid "Move caret"
+msgstr ""
+
+#: gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:19
+#, fuzzy
+msgid "Move mouse and click left"
+msgstr "Imbeba Na Kanda Ibumoso:"
+
+#: gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:20
+#, fuzzy
+msgid "Move mouse and click left and right"
+msgstr "Imbeba Na Kanda Ibumoso: Na Iburyo:"
+
+#: gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:21
+#, fuzzy
+msgid "Move mouse and click right"
+msgstr "Imbeba Na Kanda Iburyo:"
+
+#: gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:22
+#, fuzzy
+msgid "Only move mouse"
+msgstr "Kwimura Imbeba"
+
+#: gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:23
+msgid "Optical Sensors"
+msgstr ""
+
+#: gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:24
+#, fuzzy
+msgid "Optical sensors off"
+msgstr "Bidakora"
+
+#: gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:25
+msgid "Position Sensors"
+msgstr ""
+
+#: gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:26
+#, fuzzy
+msgid "Position sensors off"
+msgstr "Bidakora"
+
+#: gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:27
+#, fuzzy
+msgid "Present attributes"
+msgstr "Ibiranga"
+
+#: gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:28
+#, fuzzy
+msgid "Remove selected item from braille keys list"
+msgstr "Byahiswemo Ikintu Bivuye Utubuto Urutonde"
+
+#: gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:29
+msgid "Show X coordinate"
+msgstr ""
+
+#: gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:30
+msgid "Show Y coordinate"
+msgstr ""
+
+#: gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:31
+#, fuzzy
+msgid "_0 Optical sensors off"
+msgstr "Bidakora"
+
+#: gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:32
+#, fuzzy
+msgid "_0 Position sensors off"
+msgstr "Bidakora"
+
+#: gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:33
+#, fuzzy
+msgid "_1 Only move mouse"
+msgstr "Kwimura Imbeba"
+
+#: gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:34
+#, fuzzy
+msgid "_2 Move mouse and click left"
+msgstr "Imbeba Na Kanda Ibumoso:"
+
+#: gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:35
+#, fuzzy
+msgid "_3 Move mouse and click right"
+msgstr "Imbeba Na Kanda Iburyo:"
+
+#: gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:36
+#, fuzzy
+msgid "_4 Move mouse and click left or right"
+msgstr "Imbeba Na Kanda Ibumoso: Cyangwa Iburyo:"
+
+#: gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:37
+msgid "_5 Move caret"
+msgstr ""
+
+#: gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:38
+msgid "_6 Show X coordinate"
+msgstr ""
+
+#: gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:39
+msgid "_7 Show Y coordinate"
+msgstr ""
+
+#: gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:40
+#, fuzzy
+msgid "_8 Font style"
+msgstr "IMISUSIRE"
+
+#: gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:41
+#, fuzzy
+msgid "_9 Font name"
+msgstr "Izina:"
+
+# sfx2/source\doc\docvor.src:DLG_ORGANIZE.BTN_EDIT.text
+#: gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:42
+#, fuzzy
+msgid "_Commands:"
+msgstr "Amabwiriza"
+
+#: gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:43
+#, fuzzy
+msgid "_Device key:"
+msgstr "Urufunguzo"
+
+# sc/source\ui\src\dbnamdlg.src:RID_SCDLG_DBNAMES.STR_MODIFY.text
+#: gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:44
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:85
+#: gnopi/gnopi_files/User_Properties/user_properties.glade2.h:28
+#, fuzzy
+msgid "_Modify"
+msgstr "Guhindura"
+
+#: gnopi/gnopi_files/Braille_Settings/braille_settings.glade2.h:1
+msgid "Braille Preferences"
+msgstr ""
+
+#: gnopi/gnopi_files/Braille_Settings/braille_settings.glade2.h:2
+#, fuzzy
+msgid "Close braille settings"
+msgstr "Funga Amagenamiterere"
+
+#: gnopi/gnopi_files/Braille_Settings/braille_settings.glade2.h:3
+#, fuzzy
+msgid "Map function for display keys"
+msgstr "Umumaro kugirango Kugaragaza Utubuto"
+
+#: gnopi/gnopi_files/Braille_Settings/braille_settings.glade2.h:4
+#, fuzzy
+msgid "Select braille device"
+msgstr "APAREYE"
+
+#: gnopi/gnopi_files/Braille_Settings/braille_settings.glade2.h:5
+#, fuzzy
+msgid "Select braille style 8/6 dots"
+msgstr "IMISUSIRE 8 6 Utudomo"
+
+#: gnopi/gnopi_files/Braille_Settings/braille_settings.glade2.h:6
+#, fuzzy
+msgid "Select cursor setting FullCell/UnderLined/NoCursor"
+msgstr "indanga Igenamiterere"
+
+#: gnopi/gnopi_files/Braille_Settings/braille_settings.glade2.h:7
+#, fuzzy
+msgid "Select translation table for braille device"
+msgstr "Umwandiko wahinduwe ururimi imbonerahamwe# kugirango APAREYE"
+
+#: gnopi/gnopi_files/Braille_Settings/braille_settings.glade2.h:8
+msgid "_1 Braille Device"
+msgstr ""
+
+#: gnopi/gnopi_files/Braille_Settings/braille_settings.glade2.h:9
+msgid "_2 Translation Table"
+msgstr ""
+
+#: gnopi/gnopi_files/Braille_Settings/braille_settings.glade2.h:10
+msgid "_3 Braille Style"
+msgstr ""
+
+#: gnopi/gnopi_files/Braille_Settings/braille_settings.glade2.h:11
+msgid "_4 Cursor Preferences"
+msgstr ""
+
+#: gnopi/gnopi_files/Braille_Settings/braille_settings.glade2.h:12
+msgid "_5 Braille Key Mapping"
+msgstr ""
+
+#: gnopi/gnopi_files/Braille_Settings/braille_style.glade2.h:1
+msgid "Braille Style"
+msgstr ""
+
+#: gnopi/gnopi_files/Braille_Settings/braille_style.glade2.h:2
+#, fuzzy
+msgid "Use 6 dots"
+msgstr "6 Utudomo"
+
+#: gnopi/gnopi_files/Braille_Settings/braille_style.glade2.h:3
+#, fuzzy
+msgid "Use 8 dots"
+msgstr "8 Utudomo"
+
+#: gnopi/gnopi_files/Braille_Settings/braille_style.glade2.h:4
+msgid "_6 Dot Braille"
+msgstr ""
+
+#: gnopi/gnopi_files/Braille_Settings/braille_style.glade2.h:5
+msgid "_8 Dot Braille"
+msgstr ""
+
+#: gnopi/gnopi_files/Braille_Settings/cursor_settings.glade2.h:1
+msgid "Cursor Preferences"
+msgstr ""
+
+#: gnopi/gnopi_files/Braille_Settings/cursor_settings.glade2.h:2
+#, fuzzy
+msgid "Cursor on braille display is a full cell"
+msgstr "ku Kugaragaza ni a Akazu"
+
+#: gnopi/gnopi_files/Braille_Settings/cursor_settings.glade2.h:3
+#, fuzzy
+msgid "Cursor on braille display is an underline"
+msgstr "ku Kugaragaza ni Gucaho umurongo"
+
+#: gnopi/gnopi_files/Braille_Settings/cursor_settings.glade2.h:4
+#, fuzzy
+msgid "No cursor on braille display"
+msgstr "indanga ku Kugaragaza"
+
+#: gnopi/gnopi_files/Braille_Settings/cursor_settings.glade2.h:5
+#, fuzzy
+msgid "_Full cell cursor"
+msgstr "Akazu indanga"
+
+#: gnopi/gnopi_files/Braille_Settings/cursor_settings.glade2.h:6
+#, fuzzy
+msgid "_No cursor"
+msgstr "indanga"
+
+#: gnopi/gnopi_files/Braille_Settings/cursor_settings.glade2.h:7
+#, fuzzy
+msgid "_Underline cursor (dots 7 and 8)"
+msgstr "indanga Utudomo 7 Na 8"
+
+#: gnopi/gnopi_files/Braille_Settings/translation_table.glade2.h:1
+msgid "Translation Table"
+msgstr ""
+
+#: gnopi/gnopi_files/Braille_Settings/translation_table.glade2.h:2
+#, fuzzy
+msgid "Translation table list"
+msgstr "imbonerahamwe# Urutonde"
+
+# svx/source\dialog\thesdlg.src:RID_SVXDLG_THES_LANGUAGE.text
+#: gnopi/gnopi_files/Braille_Settings/translation_table.glade2.h:3
+#, fuzzy
+msgid "_Select language:"
+msgstr "Guhitamo Ururimi"
+
+#: gnopi/gnopi_files/Find/find.glade2.h:1
+msgid "   "
+msgstr ""
+
+#: gnopi/gnopi_files/Find/find.glade2.h:3
+#, fuzzy
+msgid "<b>Fi_nd Text:</b>"
+msgstr "<B B"
+
+#: gnopi/gnopi_files/Find/find.glade2.h:4
+#, fuzzy
+msgid "<b>Find Attributes:</b>"
+msgstr "<B B"
+
+#: gnopi/gnopi_files/Find/find.glade2.h:5
+#, fuzzy
+msgid "<b>Match</b>"
+msgstr "<B B"
+
+#: gnopi/gnopi_files/Find/find.glade2.h:6
+#, fuzzy
+msgid "<b>Scope</b>"
+msgstr "<B B"
+
+#: gnopi/gnopi_files/Find/find.glade2.h:7
+#, fuzzy
+msgid "<b>Search For</b>"
+msgstr "<B B"
+
+#: gnopi/gnopi_files/Find/find.glade2.h:8
+#, fuzzy
+msgid "A_ll chosen attributes"
+msgstr "Ibiranga"
+
+#: gnopi/gnopi_files/Find/find.glade2.h:9
+#, fuzzy
+msgid "A_ny chosen attributes"
+msgstr "Ibiranga"
+
+#: gnopi/gnopi_files/Find/find.glade2.h:10
+#, fuzzy
+msgid "A_ttribute"
+msgstr "Ikiranga"
+
+# #-#-#-#-#  officecfg.pot (Gnome 2.12)  #-#-#-#-#
+# officecfg/registry\schema\org\openoffice\Office\Writer.xcs:....Revision.TextDisplay.Insert.Attribute..1.text
+# #-#-#-#-#  officecfg.pot (Gnome 2.12)  #-#-#-#-#
+# officecfg/registry\schema\org\openoffice\Office\Writer.xcs:....Revision.TextDisplay.Delete.Attribute..1.text
+# #-#-#-#-#  officecfg.pot (Gnome 2.12)  #-#-#-#-#
+# officecfg/registry\schema\org\openoffice\Office\Writer.xcs:....Revision.TextDisplay.ChangedAttribute.Attribute..1.text
+#: gnopi/gnopi_files/Find/find.glade2.h:11
+msgid "Bold"
+msgstr "Bitsindagiye"
+
+# officecfg/registry\schema\org\openoffice\Office\Calc.xcs:....Calculate.Other.CaseSensitive.text
+#: gnopi/gnopi_files/Find/find.glade2.h:12
+#, fuzzy
+msgid "Case _sensitive"
+msgstr "Imyandikire y'inyuguti nkuru/ nto"
+
+#: gnopi/gnopi_files/Find/find.glade2.h:13
+#, fuzzy
+msgid "Case sensitive on/off"
+msgstr "ku Bidakora"
+
+# #-#-#-#-#  officecfg.pot (Gnome 2.12)  #-#-#-#-#
+# officecfg/registry\schema\org\openoffice\Office\Writer.xcs:....Revision.TextDisplay.Insert.Attribute..2.text
+# #-#-#-#-#  officecfg.pot (Gnome 2.12)  #-#-#-#-#
+# officecfg/registry\schema\org\openoffice\Office\Writer.xcs:....Revision.TextDisplay.Delete.Attribute..2.text
+# #-#-#-#-#  officecfg.pot (Gnome 2.12)  #-#-#-#-#
+# officecfg/registry\schema\org\openoffice\Office\Writer.xcs:....Revision.TextDisplay.ChangedAttribute.Attribute..2.text
+#: gnopi/gnopi_files/Find/find.glade2.h:14
+msgid "Italic"
+msgstr "Biberamye"
+
+#: gnopi/gnopi_files/Find/find.glade2.h:15
+#, fuzzy
+msgid "S_elected"
+msgstr "Byahiswemo"
+
+#: gnopi/gnopi_files/Find/find.glade2.h:16
+#, fuzzy
+msgid "Scope area is a desktop"
+msgstr "Ubuso ni a Ibiro"
+
+#: gnopi/gnopi_files/Find/find.glade2.h:17
+#, fuzzy
+msgid "Scope area is a window"
+msgstr "Ubuso ni a Idirishya"
+
+#: gnopi/gnopi_files/Find/find.glade2.h:18
+#, fuzzy
+msgid "Scope area is an application"
+msgstr "Ubuso ni Porogaramu"
+
+#: gnopi/gnopi_files/Find/find.glade2.h:19
+msgid "Search Preferences"
+msgstr ""
+
+#: gnopi/gnopi_files/Find/find.glade2.h:20
+#, fuzzy
+msgid "Search criteria is a graphics"
+msgstr "Ibigenderwaho ni a Ibishushanyo"
+
+#: gnopi/gnopi_files/Find/find.glade2.h:21
+#, fuzzy
+msgid "Search criteria is a text"
+msgstr "Ibigenderwaho ni a Umwandiko"
+
+#: gnopi/gnopi_files/Find/find.glade2.h:22
+#, fuzzy
+msgid "Search criteria is an attribute"
+msgstr "Ibigenderwaho ni Ikiranga"
+
+#: gnopi/gnopi_files/Find/find.glade2.h:23
+#, fuzzy
+msgid "Selected item"
+msgstr "Ikintu"
+
+#: gnopi/gnopi_files/Find/find.glade2.h:24
+#, fuzzy
+msgid "Stri_kethrough"
+msgstr "Icishamokarongo"
+
+#: gnopi/gnopi_files/Find/find.glade2.h:25
+msgid "Strikethrough"
+msgstr "Icishamokarongo"
+
+#: gnopi/gnopi_files/Find/find.glade2.h:26
+#, fuzzy
+msgid "Te_xt"
+msgstr "Umwandiko"
+
+#: gnopi/gnopi_files/Find/find.glade2.h:27
+#, fuzzy
+msgid "Text to search"
+msgstr "Kuri Gushaka"
+
+# #-#-#-#-#  officecfg.pot (Gnome 2.12)  #-#-#-#-#
+# officecfg/registry\schema\org\openoffice\Office\Writer.xcs:....Revision.TextDisplay.Insert.Attribute..3.text
+# #-#-#-#-#  officecfg.pot (Gnome 2.12)  #-#-#-#-#
+# officecfg/registry\schema\org\openoffice\Office\Writer.xcs:....Revision.TextDisplay.ChangedAttribute.Attribute..3.text
+#: gnopi/gnopi_files/Find/find.glade2.h:28
+msgid "Underline"
+msgstr "Gucaho umurongo"
+
+# filter/source\xsltdialog\xmlfiltertabpagebasic.src:RID_XML_FILTER_TABPAGE_BASIC.FT_XML_APPLICATION.text
+#: gnopi/gnopi_files/Find/find.glade2.h:29
+#, fuzzy
+msgid "_Application"
+msgstr "Porogaramu"
+
+# #-#-#-#-#  officecfg.pot (Gnome 2.12)  #-#-#-#-#
+# officecfg/registry\schema\org\openoffice\Office\Common.xcs:....Font.UnderLine..12.text
+# #-#-#-#-#  officecfg.pot (Gnome 2.12)  #-#-#-#-#
+# officecfg/registry\schema\org\openoffice\Office\Common.xcs:....Font.Strikeout..4.text
+#: gnopi/gnopi_files/Find/find.glade2.h:30
+#, fuzzy
+msgid "_Bold"
+msgstr "UTSINDAGIYE"
+
+# sfx2/source\explorer\explorer.src:STR_SFX_DESKTOP.text
+#: gnopi/gnopi_files/Find/find.glade2.h:31
+#, fuzzy
+msgid "_Desktop"
+msgstr "Ibiro"
+
+#: gnopi/gnopi_files/Find/find.glade2.h:32
+#, fuzzy
+msgid "_Graphics"
+msgstr "Ibishushanyo"
+
+# officecfg/registry\schema\org\openoffice\Office\Common.xcs:....Font.Slant..2.text
+#: gnopi/gnopi_files/Find/find.glade2.h:33
+#, fuzzy
+msgid "_Italic"
+msgstr "IBERAMYE"
+
+# #-#-#-#-#  officecfg.pot (Gnome 2.12)  #-#-#-#-#
+# officecfg/registry\schema\org\openoffice\Office\Writer.xcs:....Revision.TextDisplay.Insert.Attribute..3.text
+# #-#-#-#-#  officecfg.pot (Gnome 2.12)  #-#-#-#-#
+# officecfg/registry\schema\org\openoffice\Office\Writer.xcs:....Revision.TextDisplay.ChangedAttribute.Attribute..3.text
+#: gnopi/gnopi_files/Find/find.glade2.h:34
+#, fuzzy
+msgid "_Underline"
+msgstr "Gucaho umurongo"
+
+# sc/source\ui\src\optdlg.src:RID_SCPAGE_CONTENT.GB_WINDOW.text
+#: gnopi/gnopi_files/Find/find.glade2.h:35
+#, fuzzy
+msgid "_Window"
+msgstr "Idirishya"
+
+#: gnopi/gnopi_files/General_Settings/general_settings.glade2.h:1
+msgid "    "
+msgstr ""
+
+#: gnopi/gnopi_files/General_Settings/general_settings.glade2.h:2
+#, fuzzy
+msgid "<b>Active Components</b>"
+msgstr "<B B"
+
+#: gnopi/gnopi_files/General_Settings/general_settings.glade2.h:3
+#, fuzzy
+msgid "<b>Startup</b>"
+msgstr "<B B"
+
+#: gnopi/gnopi_files/General_Settings/general_settings.glade2.h:5
+#, fuzzy
+msgid "Braille monitor on/off"
+msgstr "ku Bidakora"
+
+#: gnopi/gnopi_files/General_Settings/general_settings.glade2.h:6
+#, fuzzy
+msgid "Braille on/off"
+msgstr "ku Bidakora"
+
+#: gnopi/gnopi_files/General_Settings/general_settings.glade2.h:7
+#, fuzzy
+msgid "Magnifier on/off"
+msgstr "ku Bidakora"
+
+#: gnopi/gnopi_files/General_Settings/general_settings.glade2.h:8
+#, fuzzy
+msgid "Speech on/off"
+msgstr "ku Bidakora"
+
+#: gnopi/gnopi_files/General_Settings/general_settings.glade2.h:9
+#, fuzzy
+msgid "Start gnopernicus minimized"
+msgstr "Gutangira"
+
+#: gnopi/gnopi_files/General_Settings/general_settings.glade2.h:10
+#, fuzzy
+msgid "Start m_inimized"
+msgstr "Gutangira"
+
+#: gnopi/gnopi_files/General_Settings/general_settings.glade2.h:11
+msgid "Startup Mode"
+msgstr ""
+
+#: gnopi/gnopi_files/Keyboard_Mouse_Settings/keyboard_mouse_settings.glade2.h:1
+msgid "Mouse Preferences"
+msgstr ""
+
+#: gnopi/gnopi_files/Keyboard_Mouse_Settings/keyboard_mouse_settings.glade2.h:2
+#, fuzzy
+msgid "Simulate click on current object"
+msgstr "Kanda ku KIGEZWEHO Igikoresho"
+
+#: gnopi/gnopi_files/Keyboard_Mouse_Settings/keyboard_mouse_settings.glade2.h:3
+#, fuzzy
+msgid "Take mouse at current object"
+msgstr "Imbeba ku KIGEZWEHO Igikoresho"
+
+#: gnopi/gnopi_files/Keyboard_Mouse_Settings/keyboard_mouse_settings.glade2.h:4
+#, fuzzy
+msgid "_Simulate click on current object"
+msgstr "Kanda ku KIGEZWEHO Igikoresho"
+
+#: gnopi/gnopi_files/Keyboard_Mouse_Settings/keyboard_mouse_settings.glade2.h:5
+#, fuzzy
+msgid "_Take mouse at current object"
+msgstr "Imbeba ku KIGEZWEHO Igikoresho"
+
+#: gnopi/gnopi_files/Load_Default/load_default.glade2.h:1
+#, fuzzy
+msgid "Close \"Load Default Preferences\""
+msgstr "Funga"
+
+#: gnopi/gnopi_files/Load_Default/load_default.glade2.h:2
+msgid "Load Default Preferences"
+msgstr ""
+
+#: gnopi/gnopi_files/Load_Default/load_default.glade2.h:3
+msgid "Load Default Settings"
+msgstr ""
+
+#: gnopi/gnopi_files/Load_Default/load_default.glade2.h:4
+#, fuzzy
+msgid "Load all defaults"
+msgstr "Byose"
+
+#: gnopi/gnopi_files/Load_Default/load_default.glade2.h:5
+msgid "Load braille defaults"
+msgstr ""
+
+#: gnopi/gnopi_files/Load_Default/load_default.glade2.h:6
+msgid "Load braille monitor defaults"
+msgstr ""
+
+#: gnopi/gnopi_files/Load_Default/load_default.glade2.h:7
+#, fuzzy
+msgid "Load command map defaults"
+msgstr "Komandi:"
+
+#: gnopi/gnopi_files/Load_Default/load_default.glade2.h:8
+msgid "Load magnifier defaults"
+msgstr ""
+
+#: gnopi/gnopi_files/Load_Default/load_default.glade2.h:9
+#, fuzzy
+msgid "Load mouse defaults"
+msgstr "Imbeba"
+
+#: gnopi/gnopi_files/Load_Default/load_default.glade2.h:10
+#, fuzzy
+msgid "Load presentation defaults"
+msgstr "Iyerekana"
+
+#: gnopi/gnopi_files/Load_Default/load_default.glade2.h:11
+#, fuzzy
+msgid "Load screen review defaults"
+msgstr "Mugaragaza Isubiramo"
+
+#: gnopi/gnopi_files/Load_Default/load_default.glade2.h:12
+msgid "Load speech defaults"
+msgstr ""
+
+#: gnopi/gnopi_files/Load_Default/load_default.glade2.h:13
+#, fuzzy
+msgid "Load startup mode defaults"
+msgstr "Ubwoko"
+
+#: gnopi/gnopi_files/Load_Default/load_default.glade2.h:14
+msgid "_0 All"
+msgstr ""
+
+#: gnopi/gnopi_files/Load_Default/load_default.glade2.h:15
+msgid "_1 Braille"
+msgstr ""
+
+#: gnopi/gnopi_files/Load_Default/load_default.glade2.h:16
+msgid "_2 Speech"
+msgstr ""
+
+#: gnopi/gnopi_files/Load_Default/load_default.glade2.h:17
+#: gnopi/gnopi_files/gnopi.glade2.h:33
+msgid "_3 Magnifier"
+msgstr ""
+
+#: gnopi/gnopi_files/Load_Default/load_default.glade2.h:18
+msgid "_4 Keyboard"
+msgstr ""
+
+#: gnopi/gnopi_files/Load_Default/load_default.glade2.h:19
+#: gnopi/gnopi_files/gnopi.glade2.h:36
+msgid "_5 Braille Monitor"
+msgstr ""
+
+#: gnopi/gnopi_files/Load_Default/load_default.glade2.h:20
+msgid "_6 Startup"
+msgstr ""
+
+#: gnopi/gnopi_files/Load_Default/load_default.glade2.h:21
+msgid "_7 Command Map"
+msgstr ""
+
+#: gnopi/gnopi_files/Load_Default/load_default.glade2.h:22
+msgid "_8 Presentation"
+msgstr ""
+
+#: gnopi/gnopi_files/Load_Default/load_default.glade2.h:23
+msgid "_9 Screen Review"
+msgstr ""
+
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:2
+#, fuzzy
+msgid "<b>Border settings</b>"
+msgstr "<B Amagenamiterere B"
+
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:3
+#, fuzzy
+msgid "<b>Cross-hair</b>"
+msgstr "<B B"
+
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:4
+#, fuzzy
+msgid "<b>Cursor setting</b>"
+msgstr "<B Igenamiterere B"
+
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:5
+#, fuzzy
+msgid "<b>Display screen</b>"
+msgstr "<B Mugaragaza B"
+
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:6
+#, fuzzy
+msgid "<b>Focus tracking mode</b>"
+msgstr "<B Ubwoko B"
+
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:7
+#, fuzzy
+msgid "<b>Mo_use tracking mode</b>"
+msgstr "<B Ubwoko B"
+
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:8
+#, fuzzy
+msgid "<b>S_moothing</b>"
+msgstr "<B B"
+
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:9
+#, fuzzy
+msgid "<b>Zoomer placement</b>"
+msgstr "<B Ishyira mu mwanya B"
+
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:10
+#, fuzzy
+msgid "<b>Zoomfactor</b>"
+msgstr "<B B"
+
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:11
+#, fuzzy
+msgid "<b>_Zoomer list</b>"
+msgstr "<B Urutonde B"
+
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:12
+#, fuzzy
+msgid "Bor_der size:"
+msgstr "Ingano"
+
+# svx/source\tbxctrls\tbcontrl.src:RID_SVXSTR_FRAME_COLOR.text
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:13
+#, fuzzy
+msgid "Border c_olor:"
+msgstr "Ibara ry'urubibi"
+
+# svx/source\tbxctrls\tbcontrl.src:RID_SVXSTR_FRAME_COLOR.text
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:14
+#, fuzzy
+msgid "Border color"
+msgstr "Ibara ry'urubibi"
+
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:15
+#, fuzzy
+msgid "Border size"
+msgstr "Ingano"
+
+# officecfg/registry\schema\org\openoffice\Office\Math.xcs:....StandardFormat.HorizontalAlignment..1.text
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:16
+#, fuzzy
+msgid "C_entered"
+msgstr "Bishyizwe hagati"
+
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:17
+#, fuzzy
+msgid "C_ursor on/off"
+msgstr "ku Bidakora"
+
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:18
+#, fuzzy
+msgid "Cross-ha_ir size:"
+msgstr "Ingano"
+
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:19
+#, fuzzy
+msgid "Cross-hair c_lip on/off"
+msgstr "ku Bidakora"
+
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:20
+#, fuzzy
+msgid "Cross-hair colo_r:"
+msgstr "Ibara"
+
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:21
+#, fuzzy
+msgid "Cross-hair color in_verted"
+msgstr "Ibara"
+
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:22
+#, fuzzy
+msgid "Cross-hair o_n/off"
+msgstr "ku Bidakora"
+
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:23
+#, fuzzy
+msgid "Crosshair clip on/off"
+msgstr "ku Bidakora"
+
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:24
+#, fuzzy
+msgid "Crosshair color"
+msgstr "Ibara"
+
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:25
+#, fuzzy
+msgid "Crosshair on/off"
+msgstr "ku Bidakora"
+
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:26
+#, fuzzy
+msgid "Crosshair size"
+msgstr "Ingano"
+
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:27
+#, fuzzy
+msgid "Cursor _size:"
+msgstr "Ingano"
+
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:28
+#, fuzzy
+msgid "Cursor c_olor:"
+msgstr "Ibara"
+
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:29
+#, fuzzy
+msgid "Cursor color"
+msgstr "Ibara"
+
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:30
+msgid "Cursor magnification"
+msgstr ""
+
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:31
+#, fuzzy
+msgid "Cursor on/off"
+msgstr "ku Bidakora"
+
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:32
+#, fuzzy
+msgid "Cursor size"
+msgstr "Ingano"
+
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:33
+#, fuzzy
+msgid "Display screen source"
+msgstr "Mugaragaza Inkomoko"
+
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:34
+#, fuzzy
+msgid "Display screen target"
+msgstr "Mugaragaza Intego"
+
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:35
+#, fuzzy
+msgid "Invert crosshair color"
+msgstr "Ibara"
+
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:36
+#, fuzzy
+msgid "Invert on/off"
+msgstr "ku Bidakora"
+
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:37
+#, fuzzy
+msgid "Lock zoom _factor"
+msgstr "Ihindurangano Umubarwa"
+
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:38
+#, fuzzy
+msgid "Lock zoom factor"
+msgstr "Ihindurangano Umubarwa"
+
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:39
+msgid "Magnifier Preferences"
+msgstr ""
+
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:40
+#, fuzzy
+msgid "Magnifier settings"
+msgstr "Amagenamiterere"
+
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:41
+#, fuzzy
+msgid "Mouse tracking type"
+msgstr "Ubwoko"
+
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:42
+#, fuzzy
+msgid "Panning on/off"
+msgstr "ku Bidakora"
+
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:44
+#, fuzzy
+msgid "Set cursor separate from _magnification"
+msgstr "indanga Bivuye"
+
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:45
+#, fuzzy
+msgid "Smoothing type"
+msgstr "Ubwoko"
+
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:46
+#, fuzzy
+msgid "Tar_get:"
+msgstr "Intego:"
+
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:47
+#, fuzzy
+msgid "Zoom factor X"
+msgstr "Umubarwa"
+
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:48
+#, fuzzy
+msgid "Zoom factor Y"
+msgstr "Umubarwa"
+
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:49
+#, fuzzy
+msgid "Zoom factor _X:"
+msgstr "Umubarwa"
+
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:50
+#, fuzzy
+msgid "Zoom factor _Y:"
+msgstr "Umubarwa"
+
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:51
+msgid "Zoomer Options"
+msgstr ""
+
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:52
+#, fuzzy
+msgid "Zoomer placement bottom"
+msgstr "Ishyira mu mwanya Hasi:"
+
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:53
+#, fuzzy
+msgid "Zoomer placement left"
+msgstr "Ishyira mu mwanya Ibumoso:"
+
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:54
+#, fuzzy
+msgid "Zoomer placement right"
+msgstr "Ishyira mu mwanya Iburyo:"
+
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:55
+#, fuzzy
+msgid "Zoomer placement top"
+msgstr "Ishyira mu mwanya Hejuru:"
+
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:56
+#, fuzzy
+msgid "Zoomers list"
+msgstr "Urutonde"
+
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:57
+msgid "_Add/Modify"
+msgstr ""
+
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:58
+#, fuzzy
+msgid "_Auto"
+msgstr "Ikiyega"
+
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:59
+#, fuzzy
+msgid "_Bottom:"
+msgstr "Hasi:"
+
+# officecfg/registry\schema\org\openoffice\Office\Common.xcs:....Image.Effect.Invert.text
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:60
+#, fuzzy
+msgid "_Invert"
+msgstr "Gucurika"
+
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:61
+#, fuzzy
+msgid "_Left:"
+msgstr "Ibumoso:"
+
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:62
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:87
+#, fuzzy
+msgid "_None"
+msgstr "Ntacyo"
+
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:63
+msgid "_Panning"
+msgstr ""
+
+# #-#-#-#-#  padmin.pot (Gnome 2.12)  #-#-#-#-#
+# padmin/source\rtsetup.src:RID_RTS_FONTSUBSTPAGE.RID_RTS_FS_REMOVE_BTN.text
+# #-#-#-#-#  padmin.pot (Gnome 2.12)  #-#-#-#-#
+# padmin/source\rtsetup.src:RID_RTS_COMMANDPAGE.RID_RTS_CMD_BTN_REMOVE.text
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:64
+#, fuzzy
+msgid "_Remove"
+msgstr "Gukuraho"
+
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:65
+#, fuzzy
+msgid "_Right:"
+msgstr "Iburyo:"
+
+# sc/source\ui\src\dbnamdlg.src:RID_SCDLG_DBNAMES.FT_SOURCE.text
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:66
+#, fuzzy
+msgid "_Source:"
+msgstr "Inkomoko:"
+
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:67
+#, fuzzy
+msgid "_Top:"
+msgstr "Hejuru:"
+
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:68
+#: gnopi/magui.c:49
+msgid "bilinear"
+msgstr ""
+
+# officecfg/registry\schema\org\openoffice\Office\Math.xcs:....StandardFormat.HorizontalAlignment..1.text
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:69
+#: gnopi/magui.c:61
+msgid "centered"
+msgstr "Bishyizwe hagati"
+
+# svx/source\items\svxitems.src:RID_SVXITEMS_EMPHASIS_NONE_STYLE.text
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:70
+#: gnopi/magui.c:48 gnopi/magui.c:63
+msgid "none"
+msgstr "ntacyo"
+
+# #-#-#-#-#  svx.pot (Gnome 2.12)  #-#-#-#-#
+# svx/source\dialog\paragrph.src:RID_SVXPAGE_STD_PARAGRAPH.LB_LINEDIST.4.text
+# #-#-#-#-#  svx.pot (Gnome 2.12)  #-#-#-#-#
+# svx/source\svdraw\svdstr.src:STR_ItemValFITTOSIZEPROP.text
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:71
+#: gnopi/magui.c:62
+#, fuzzy
+msgid "proportional"
+msgstr "Biringaniye"
+
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:72
+#: gnopi/magui.c:60
+msgid "push"
+msgstr ""
+
+#: gnopi/gnopi_files/Presentation/presentation.glade2.h:2
+msgid "Expert"
+msgstr ""
+
+#: gnopi/gnopi_files/Presentation/presentation.glade2.h:3
+#, fuzzy
+msgid "Mode selected:"
+msgstr "Byahiswemo"
+
+# #-#-#-#-#  officecfg.pot (Gnome 2.12)  #-#-#-#-#
+# officecfg/registry\schema\org\openoffice\Office\Impress.xcs:....Print.Content.Presentation.text
+# #-#-#-#-#  officecfg.pot (Gnome 2.12)  #-#-#-#-#
+# officecfg/registry\schema\org\openoffice\Office\Writer.xcs:....Insert.Caption.OfficeObject.Impress.Enable.text
+#: gnopi/gnopi_files/Presentation/presentation.glade2.h:4
+msgid "Presentation"
+msgstr "Iyerekana"
+
+#: gnopi/gnopi_files/Presentation/presentation.glade2.h:5
+#: srcore/default.xml.in.h:19 srcore/verbose.xml.in.h:19
+msgid "Verbose"
+msgstr ""
+
+#: gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:1
+#, fuzzy
+msgid "<b>Horizontal flags</b>"
+msgstr "<B Amabendera B"
+
+#: gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:2
+#, fuzzy
+msgid "<b>Vertical flags</b>"
+msgstr "<B Amabendera B"
+
+#: gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:3
+#, fuzzy
+msgid "Add all empty lines"
+msgstr "Byose ubusa Imirongo"
+
+#: gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:4
+#, fuzzy
+msgid "Add all spaces"
+msgstr "Byose Imyanya"
+
+#: gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:5
+#, fuzzy
+msgid "Add all spaces and empty lines"
+msgstr "Byose Imyanya Na ubusa Imirongo"
+
+#: gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:6
+#, fuzzy
+msgid "Add embedded empty lines"
+msgstr "Gitsindiye ubusa Imirongo"
+
+#: gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:7
+#, fuzzy
+msgid "Add embedded spaces"
+msgstr "Gitsindiye Imyanya"
+
+#: gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:8
+#, fuzzy
+msgid "Add leading empty lines"
+msgstr "Nyobora ubusa Imirongo"
+
+#: gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:9
+#, fuzzy
+msgid "Add leading spaces"
+msgstr "Nyobora Imyanya"
+
+#: gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:10
+#, fuzzy
+msgid "Add trailing empty lines"
+msgstr "ubusa Imirongo"
+
+#: gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:11
+#, fuzzy
+msgid "Add trailing spaces"
+msgstr "Imyanya"
+
+#: gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:12
+#, fuzzy
+msgid "All _horizontal"
+msgstr "Gitambitse"
+
+#: gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:13
+#, fuzzy
+msgid "All _vertical"
+msgstr "Bihagaritse"
+
+#: gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:14
+#, fuzzy
+msgid "Count em_pty lines"
+msgstr "ubusa Imirongo"
+
+#: gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:15
+#, fuzzy
+msgid "Count empty lines"
+msgstr "ubusa Imirongo"
+
+#: gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:16
+#, fuzzy
+msgid "E_mbedded"
+msgstr "Gitsindiye"
+
+# svx/source\dialog\paragrph.src:RID_SVXPAGE_STD_PARAGRAPH.LB_LINEDIST.6.text
+#: gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:17
+#, fuzzy
+msgid "Lea_ding"
+msgstr "Nyobora"
+
+#: gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:18
+msgid "Screen Review Preferences"
+msgstr ""
+
+#: gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:19
+msgid "T_railing"
+msgstr ""
+
+#: gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:20
+#, fuzzy
+msgid "_All flags"
+msgstr "Amabendera"
+
+#: gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:21
+#, fuzzy
+msgid "_Embedded"
+msgstr "Gitsindiye"
+
+# svx/source\dialog\paragrph.src:RID_SVXPAGE_STD_PARAGRAPH.LB_LINEDIST.6.text
+#: gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:22
+#, fuzzy
+msgid "_Leading"
+msgstr "Nyobora"
+
+#: gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:23
+msgid "_Trailing"
+msgstr ""
+
+# #-#-#-#-#  starmath.pot (Gnome 2.12)  #-#-#-#-#
+# starmath/source\smres.src:RID_DISTANCEDIALOG.1.text
+# #-#-#-#-#  starmath.pot (Gnome 2.12)  #-#-#-#-#
+# starmath/source\smres.src:RID_DISTANCEDIALOG.2.text
+# #-#-#-#-#  starmath.pot (Gnome 2.12)  #-#-#-#-#
+# starmath/source\smres.src:RID_DISTANCEDIALOG.3.text
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:2
+#, no-c-format
+msgid "%"
+msgstr "%"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:4
+#, fuzzy
+msgid "<b><></b>"
+msgstr "<B B"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:5
+#, fuzzy
+msgid "<b>Absolute Value</b>"
+msgstr "<B B"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:6
+#, fuzzy
+msgid "<b>Driver</b>"
+msgstr "<B B"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:7
+#, fuzzy
+msgid "<b>Properties</b>"
+msgstr "<B B"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:8
+#, fuzzy
+msgid "<b>Punctuation</b>"
+msgstr "<B B"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:9
+#, fuzzy
+msgid "<b>Relative Values</b>"
+msgstr "<B B"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:10
+#, fuzzy
+msgid "<b>Text Echo</b>"
+msgstr "<B B"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:11
+#, fuzzy
+msgid "<b>Voice</b>"
+msgstr "<B B"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:12
+#, fuzzy
+msgid "<b>_Dictionary</b>"
+msgstr "<B B"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:13
+#, fuzzy
+msgid "<b>_Replacement:</b>"
+msgstr "<B B"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:14
+#, fuzzy
+msgid "<b>_Voice list</b>"
+msgstr "<B Urutonde B"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:15
+#, fuzzy
+msgid "<b>_Word:</b>"
+msgstr "<B B"
+
+# basctl/source\basicide\basidesh.src:RID_STR_ALL.text
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:16
+#, fuzzy
+msgid "A_ll"
+msgstr "Byose"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:17
+msgid "Activate pitch"
+msgstr ""
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:18
+#, fuzzy
+msgid "Activate rate"
+msgstr "Igipimo"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:19
+#, fuzzy
+msgid "Activate volume"
+msgstr "Igice"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:20
+msgid "Add / Modify Dictionary Entry"
+msgstr ""
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:21
+msgid "Add / Modify Voice"
+msgstr ""
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:22
+#, fuzzy
+msgid "Add new item in voices list"
+msgstr "Gishya Ikintu in Urutonde"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:23
+#, fuzzy
+msgid "Add new word in dictionary"
+msgstr "Gishya ijambo in Inkoranyamagambo"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:24
+#, fuzzy
+msgid ""
+"Change for all voices the engine driver and the engine speaker with a "
+"selected driver and speaker"
+msgstr ""
+"kugirango Byose Musomyi: Na Indangururamajwi... Na: a Byahiswemo Musomyi: Na "
+"Indangururamajwi..."
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:25
+#, fuzzy
+msgid "Charac_ter"
+msgstr "Inyuguti"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:26
+#, fuzzy
+msgid "Count sym_bols"
+msgstr "Ibimenyetso"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:27
+#, fuzzy
+msgid "Count symbols"
+msgstr "Ibimenyetso"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:28
+msgid "Decrease pitch"
+msgstr ""
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:29
+#, fuzzy
+msgid "Decrease rate"
+msgstr "Igipimo"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:30
+#, fuzzy
+msgid "Decrease volume"
+msgstr "Igice"
+
+# #-#-#-#-#  svtools.pot (Gnome 2.12)  #-#-#-#-#
+# svtools/source\control\ctrlbox.src:STR_SVT_COLLATE_DICTIONARY.text
+# #-#-#-#-#  svtools.pot (Gnome 2.12)  #-#-#-#-#
+# svtools/source\control\ctrlbox.src:STR_SVT_INDEXENTRY_DICTIONARY.text
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:31
+msgid "Dictionary"
+msgstr "Inkoranyamagambo"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:32
+#, fuzzy
+msgid "Dictionary list"
+msgstr "Urutonde"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:33
+#, fuzzy
+msgid "Do not speak text"
+msgstr "OYA Umwandiko"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:34
+msgid "Edit A_bsolute..."
+msgstr ""
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:35
+msgid "Edit Absolute Voice Values"
+msgstr ""
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:36
+msgid "Edit R_elative..."
+msgstr ""
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:37
+msgid "Edit Relative Voice Values"
+msgstr ""
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:38
+#, fuzzy
+msgid "Edit dictionary"
+msgstr "Guhindura inkoranyamagambo"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:39
+#, fuzzy
+msgid "Edit parameter values absolutely"
+msgstr "Uduciro"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:40
+#, fuzzy
+msgid "Edit parameter values relatively"
+msgstr "Uduciro"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:41
+#, fuzzy
+msgid "Engine _driver:"
+msgstr "Musomyi:"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:42
+#, fuzzy
+msgid "Engine _speaker:"
+msgstr "Indangururamajwi..."
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:43
+#, fuzzy
+msgid "Engine driver"
+msgstr "Musomyi:"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:44
+#, fuzzy
+msgid "Engine speaker"
+msgstr "Indangururamajwi..."
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:45
+#, fuzzy
+msgid "Gnopernicus system voice"
+msgstr "Sisitemu"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:46
+msgid "Hz"
+msgstr ""
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:47
+#, fuzzy
+msgid "Ignore all punctuation"
+msgstr "Byose"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:48
+msgid "Increase pitch"
+msgstr ""
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:49
+#, fuzzy
+msgid "Increase rate"
+msgstr "Igipimo"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:50
+#, fuzzy
+msgid "Increase volume"
+msgstr "Igice"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:51
+#, fuzzy
+msgid "Made pitch sensitive for changing"
+msgstr "kugirango"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:52
+#, fuzzy
+msgid "Made rate sensitive for changing"
+msgstr "Igipimo kugirango"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:53
+#, fuzzy
+msgid "Made volume sensitive for changing"
+msgstr "Igice kugirango"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:54
+#, fuzzy
+msgid "Modify selected voice"
+msgstr "Byahiswemo"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:55
+#, fuzzy
+msgid "Modify word"
+msgstr "ijambo"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:56
+#: gnopi/spvoiceui.c:2076
+msgid "Pitch"
+msgstr ""
+
+# #-#-#-#-#  scaddins.pot (Gnome 2.12)  #-#-#-#-#
+# scaddins/source\analysis\analysis.src:RID_ANALYSIS_FUNCTION_DESCRIPTIONS.ANALYSIS_Amordegrc.12.text
+# #-#-#-#-#  scaddins.pot (Gnome 2.12)  #-#-#-#-#
+# scaddins/source\analysis\analysis.src:RID_ANALYSIS_FUNCTION_DESCRIPTIONS.ANALYSIS_Amorlinc.12.text
+# #-#-#-#-#  scaddins.pot (Gnome 2.12)  #-#-#-#-#
+# scaddins/source\analysis\analysis.src:RID_ANALYSIS_FUNCTION_DESCRIPTIONS.ANALYSIS_Accrint.8.text
+# #-#-#-#-#  scaddins.pot (Gnome 2.12)  #-#-#-#-#
+# scaddins/source\analysis\analysis.src:RID_ANALYSIS_FUNCTION_DESCRIPTIONS.ANALYSIS_Accrintm.6.text
+# #-#-#-#-#  scaddins.pot (Gnome 2.12)  #-#-#-#-#
+# scaddins/source\analysis\analysis.src:RID_ANALYSIS_FUNCTION_DESCRIPTIONS.ANALYSIS_Cumprinc.2.text
+# #-#-#-#-#  scaddins.pot (Gnome 2.12)  #-#-#-#-#
+# scaddins/source\analysis\analysis.src:RID_ANALYSIS_FUNCTION_DESCRIPTIONS.ANALYSIS_Cumipmt.2.text
+# #-#-#-#-#  scaddins.pot (Gnome 2.12)  #-#-#-#-#
+# scaddins/source\analysis\analysis.src:RID_ANALYSIS_FUNCTION_DESCRIPTIONS.ANALYSIS_Price.6.text
+# #-#-#-#-#  scaddins.pot (Gnome 2.12)  #-#-#-#-#
+# scaddins/source\analysis\analysis.src:RID_ANALYSIS_FUNCTION_DESCRIPTIONS.ANALYSIS_Pricemat.8.text
+# #-#-#-#-#  scaddins.pot (Gnome 2.12)  #-#-#-#-#
+# scaddins/source\analysis\analysis.src:RID_ANALYSIS_FUNCTION_DESCRIPTIONS.ANALYSIS_Yield.6.text
+# #-#-#-#-#  scaddins.pot (Gnome 2.12)  #-#-#-#-#
+# scaddins/source\analysis\analysis.src:RID_ANALYSIS_FUNCTION_DESCRIPTIONS.ANALYSIS_Yieldmat.8.text
+# #-#-#-#-#  scaddins.pot (Gnome 2.12)  #-#-#-#-#
+# scaddins/source\analysis\analysis.src:RID_ANALYSIS_FUNCTION_DESCRIPTIONS.ANALYSIS_Oddfprice.10.text
+# #-#-#-#-#  scaddins.pot (Gnome 2.12)  #-#-#-#-#
+# scaddins/source\analysis\analysis.src:RID_ANALYSIS_FUNCTION_DESCRIPTIONS.ANALYSIS_Oddfyield.10.text
+# #-#-#-#-#  scaddins.pot (Gnome 2.12)  #-#-#-#-#
+# scaddins/source\analysis\analysis.src:RID_ANALYSIS_FUNCTION_DESCRIPTIONS.ANALYSIS_Oddlprice.8.text
+# #-#-#-#-#  scaddins.pot (Gnome 2.12)  #-#-#-#-#
+# scaddins/source\analysis\analysis.src:RID_ANALYSIS_FUNCTION_DESCRIPTIONS.ANALYSIS_Oddlyield.8.text
+# #-#-#-#-#  scaddins.pot (Gnome 2.12)  #-#-#-#-#
+# scaddins/source\analysis\analysis.src:RID_ANALYSIS_FUNCTION_DESCRIPTIONS.ANALYSIS_Xnpv.2.text
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:57
+#: gnopi/spvoiceui.c:2068
+msgid "Rate"
+msgstr "Igipimo"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:58
+#, fuzzy
+msgid "Remove selected voice from voices list"
+msgstr "Byahiswemo Bivuye Urutonde"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:59
+#, fuzzy
+msgid "Remove word from dictionary"
+msgstr "ijambo Bivuye Inkoranyamagambo"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:60
+msgid "Replecement"
+msgstr ""
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:61
+#, fuzzy
+msgid "Sa_y all navigation keys"
+msgstr "Byose Ibuganya Utubuto"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:62
+#, fuzzy
+msgid "Say all modi_fiers"
+msgstr "Byose"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:63
+#, fuzzy
+msgid "Say all modifiers"
+msgstr "Byose"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:64
+#, fuzzy
+msgid "Say all navigation keys"
+msgstr "Byose Ibuganya Utubuto"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:65
+#, fuzzy
+msgid "Say all s_paces"
+msgstr "Byose Imyanya"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:66
+#, fuzzy
+msgid "Say all spaces"
+msgstr "Byose Imyanya"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:67
+#, fuzzy
+msgid "Say text as character"
+msgstr "Umwandiko Nka Inyuguti"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:68
+#, fuzzy
+msgid "Say text as word"
+msgstr "Umwandiko Nka ijambo"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:69
+#, fuzzy
+msgid "Set voices and the voice parameters"
+msgstr "Na Ibigenga"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:70
+#, fuzzy
+msgid "Show all punctuation"
+msgstr "Byose"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:71
+msgid "Show most punctuation"
+msgstr ""
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:72
+msgid "Show some punctuation"
+msgstr ""
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:73
+msgid "Speech Preferences"
+msgstr ""
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:74
+#, fuzzy
+msgid "Test selected voice"
+msgstr "Byahiswemo"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:75
+#, fuzzy
+msgid "Use dictionary"
+msgstr "Inkoranyamagambo"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:76
+#, fuzzy
+msgid "Voice _name:"
+msgstr "Izina:"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:77
+#, fuzzy
+msgid "Voice list"
+msgstr "Urutonde"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:78
+msgid "Voices"
+msgstr ""
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:79
+#: gnopi/spvoiceui.c:2060
+msgid "Volume"
+msgstr "Igice"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:80
+#, fuzzy
+msgid "Word to replace"
+msgstr "Kuri Gusimbura"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:81
+msgid "Word/Min"
+msgstr ""
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:82
+#, fuzzy
+msgid "_Dictionary..."
+msgstr "Inkoranyamagambo( imwe):"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:83
+#, fuzzy
+msgid "_Force All Voices to Selected Driver and Speaker"
+msgstr "Kuri Na"
+
+# #-#-#-#-#  setup2.pot (Gnome 2.12)  #-#-#-#-#
+# setup2/source\ui\dialog\dialog.src:DLG_INSERTDISKDLG.2.text
+# #-#-#-#-#  setup2.pot (Gnome 2.12)  #-#-#-#-#
+# setup2/source\ui\dialog\querydlg.src:RID_EXECERROR_DLG.BTN_QUERY_IGNORE.text
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:84
+#, fuzzy
+msgid "_Ignore"
+msgstr "Kwirengagiza"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:86
+msgid "_Most"
+msgstr ""
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:88
+msgid "_Pitch (Hz)"
+msgstr ""
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:89
+msgid "_Pitch:"
+msgstr ""
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:90
+#, fuzzy
+msgid "_Rate (words/min)"
+msgstr "Amagambo GITO"
+
+# #-#-#-#-#  scaddins.pot (Gnome 2.12)  #-#-#-#-#
+# scaddins/source\analysis\analysis.src:RID_ANALYSIS_FUNCTION_DESCRIPTIONS.ANALYSIS_Amordegrc.12.text
+# #-#-#-#-#  scaddins.pot (Gnome 2.12)  #-#-#-#-#
+# scaddins/source\analysis\analysis.src:RID_ANALYSIS_FUNCTION_DESCRIPTIONS.ANALYSIS_Amorlinc.12.text
+# #-#-#-#-#  scaddins.pot (Gnome 2.12)  #-#-#-#-#
+# scaddins/source\analysis\analysis.src:RID_ANALYSIS_FUNCTION_DESCRIPTIONS.ANALYSIS_Accrint.8.text
+# #-#-#-#-#  scaddins.pot (Gnome 2.12)  #-#-#-#-#
+# scaddins/source\analysis\analysis.src:RID_ANALYSIS_FUNCTION_DESCRIPTIONS.ANALYSIS_Accrintm.6.text
+# #-#-#-#-#  scaddins.pot (Gnome 2.12)  #-#-#-#-#
+# scaddins/source\analysis\analysis.src:RID_ANALYSIS_FUNCTION_DESCRIPTIONS.ANALYSIS_Cumprinc.2.text
+# #-#-#-#-#  scaddins.pot (Gnome 2.12)  #-#-#-#-#
+# scaddins/source\analysis\analysis.src:RID_ANALYSIS_FUNCTION_DESCRIPTIONS.ANALYSIS_Cumipmt.2.text
+# #-#-#-#-#  scaddins.pot (Gnome 2.12)  #-#-#-#-#
+# scaddins/source\analysis\analysis.src:RID_ANALYSIS_FUNCTION_DESCRIPTIONS.ANALYSIS_Price.6.text
+# #-#-#-#-#  scaddins.pot (Gnome 2.12)  #-#-#-#-#
+# scaddins/source\analysis\analysis.src:RID_ANALYSIS_FUNCTION_DESCRIPTIONS.ANALYSIS_Pricemat.8.text
+# #-#-#-#-#  scaddins.pot (Gnome 2.12)  #-#-#-#-#
+# scaddins/source\analysis\analysis.src:RID_ANALYSIS_FUNCTION_DESCRIPTIONS.ANALYSIS_Yield.6.text
+# #-#-#-#-#  scaddins.pot (Gnome 2.12)  #-#-#-#-#
+# scaddins/source\analysis\analysis.src:RID_ANALYSIS_FUNCTION_DESCRIPTIONS.ANALYSIS_Yieldmat.8.text
+# #-#-#-#-#  scaddins.pot (Gnome 2.12)  #-#-#-#-#
+# scaddins/source\analysis\analysis.src:RID_ANALYSIS_FUNCTION_DESCRIPTIONS.ANALYSIS_Oddfprice.10.text
+# #-#-#-#-#  scaddins.pot (Gnome 2.12)  #-#-#-#-#
+# scaddins/source\analysis\analysis.src:RID_ANALYSIS_FUNCTION_DESCRIPTIONS.ANALYSIS_Oddfyield.10.text
+# #-#-#-#-#  scaddins.pot (Gnome 2.12)  #-#-#-#-#
+# scaddins/source\analysis\analysis.src:RID_ANALYSIS_FUNCTION_DESCRIPTIONS.ANALYSIS_Oddlprice.8.text
+# #-#-#-#-#  scaddins.pot (Gnome 2.12)  #-#-#-#-#
+# scaddins/source\analysis\analysis.src:RID_ANALYSIS_FUNCTION_DESCRIPTIONS.ANALYSIS_Oddlyield.8.text
+# #-#-#-#-#  scaddins.pot (Gnome 2.12)  #-#-#-#-#
+# scaddins/source\analysis\analysis.src:RID_ANALYSIS_FUNCTION_DESCRIPTIONS.ANALYSIS_Xnpv.2.text
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:91
+#, fuzzy
+msgid "_Rate:"
+msgstr "Igipimo"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:92
+msgid "_Some"
+msgstr ""
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:93
+#, fuzzy
+msgid "_Test voice"
+msgstr "Ijwi"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:94
+#, fuzzy
+msgid "_Use dictionary"
+msgstr "Inkoranyamagambo"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:95
+msgid "_Voices..."
+msgstr ""
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:97
+#, fuzzy, no-c-format
+msgid "_Volume (%)"
+msgstr "Igice"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:98
+#, fuzzy
+msgid "_Volume:"
+msgstr "Igice"
+
+# #-#-#-#-#  svx.pot (Gnome 2.12)  #-#-#-#-#
+# svx/source\dialog\commonlingui.src:RID_SVX_WND_COMMON_LINGU.FT_NEWWORD.text
+# #-#-#-#-#  svx.pot (Gnome 2.12)  #-#-#-#-#
+# svx/source\dialog\hyphen.src:RID_SVXDLG_HYPHENATE.FT_WORD.text
+# #-#-#-#-#  svx.pot (Gnome 2.12)  #-#-#-#-#
+# svx/source\dialog\thesdlg.src:RID_SVXDLG_THESAURUS.FT_WORD.text
+# #-#-#-#-#  svx.pot (Gnome 2.12)  #-#-#-#-#
+# svx/source\options\optdict.src:RID_SFXDLG_EDITDICT.FT_WORD.text
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:99
+#, fuzzy
+msgid "_Word"
+msgstr "ijambo"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:100
+#, fuzzy
+msgid "words/min"
+msgstr "Amagambo GITO"
+
+#: gnopi/gnopi_files/User_Properties/user_properties.glade2.h:2
+#, fuzzy
+msgid "<b>_Commands list</b>"
+msgstr "<B Urutonde B"
+
+#: gnopi/gnopi_files/User_Properties/user_properties.glade2.h:3
+#, fuzzy
+msgid "<b>_Layers list</b>"
+msgstr "<B Urutonde B"
+
+#: gnopi/gnopi_files/User_Properties/user_properties.glade2.h:4
+#, fuzzy
+msgid "<b>_User defined list</b>"
+msgstr "<B Urutonde B"
+
+#: gnopi/gnopi_files/User_Properties/user_properties.glade2.h:5
+msgid "Add Layer Key"
+msgstr ""
+
+#: gnopi/gnopi_files/User_Properties/user_properties.glade2.h:6
+msgid "Add User Defined Key"
+msgstr ""
+
+#: gnopi/gnopi_files/User_Properties/user_properties.glade2.h:7
+#, fuzzy
+msgid "Add new item"
+msgstr "Gishya Ikintu"
+
+#: gnopi/gnopi_files/User_Properties/user_properties.glade2.h:8
+msgid "Alt modifier"
+msgstr ""
+
+#: gnopi/gnopi_files/User_Properties/user_properties.glade2.h:9
+msgid "Command Mapping"
+msgstr ""
+
+#: gnopi/gnopi_files/User_Properties/user_properties.glade2.h:10
+msgid "Commands List"
+msgstr ""
+
+#: gnopi/gnopi_files/User_Properties/user_properties.glade2.h:11
+msgid "Control modifier"
+msgstr ""
+
+#: gnopi/gnopi_files/User_Properties/user_properties.glade2.h:12
+#, fuzzy
+msgid "Key number"
+msgstr "Umubare"
+
+#: gnopi/gnopi_files/User_Properties/user_properties.glade2.h:13
+#, fuzzy
+msgid "Keys list"
+msgstr "Urutonde"
+
+#: gnopi/gnopi_files/User_Properties/user_properties.glade2.h:14
+#, fuzzy
+msgid "Layer command list"
+msgstr "Komandi: Urutonde"
+
+#: gnopi/gnopi_files/User_Properties/user_properties.glade2.h:15
+#, fuzzy
+msgid "Layer number"
+msgstr "Umubare"
+
+#: gnopi/gnopi_files/User_Properties/user_properties.glade2.h:16
+msgid "Layers"
+msgstr ""
+
+#: gnopi/gnopi_files/User_Properties/user_properties.glade2.h:17
+#, fuzzy
+msgid "List of gnopernicus commands"
+msgstr "Bya Amabwiriza"
+
+#: gnopi/gnopi_files/User_Properties/user_properties.glade2.h:18
+#, fuzzy
+msgid "Modify command for the selected item"
+msgstr "Komandi: kugirango Byahiswemo Ikintu"
+
+#: gnopi/gnopi_files/User_Properties/user_properties.glade2.h:19
+#, fuzzy
+msgid "Remove selected item"
+msgstr "Byahiswemo Ikintu"
+
+#: gnopi/gnopi_files/User_Properties/user_properties.glade2.h:20
+msgid "Shift modifier"
+msgstr ""
+
+# sfx2/source\dialog\dinfdlg.src:SID_DOCINFO.1.TP_DOCINFOUSER.text
+#: gnopi/gnopi_files/User_Properties/user_properties.glade2.h:21
+msgid "User Defined"
+msgstr "Mukoresha yagenywe"
+
+#: gnopi/gnopi_files/User_Properties/user_properties.glade2.h:22
+#, fuzzy
+msgid "User defined commands list."
+msgstr "Amabwiriza Urutonde"
+
+#: gnopi/gnopi_files/User_Properties/user_properties.glade2.h:23
+#, fuzzy
+msgid "_Alt"
+msgstr "Alt"
+
+# the control key
+#: gnopi/gnopi_files/User_Properties/user_properties.glade2.h:24
+#, fuzzy
+msgid "_Ctrl"
+msgstr "Ctrl"
+
+# svtools/source\dialogs\colrdlg.src:DLG_COLOR.FT_KEY.text
+#: gnopi/gnopi_files/User_Properties/user_properties.glade2.h:25
+#, fuzzy
+msgid "_Key:"
+msgstr "Urufunguzo"
+
+#: gnopi/gnopi_files/User_Properties/user_properties.glade2.h:26
+#, fuzzy
+msgid "_Layer:"
+msgstr "Akugara..."
+
+#: gnopi/gnopi_files/User_Properties/user_properties.glade2.h:27
+#, fuzzy
+msgid "_Modifier keys:"
+msgstr "Utubuto"
+
+#: gnopi/gnopi_files/User_Properties/user_properties.glade2.h:29
+#, fuzzy
+msgid "_Shift"
+msgstr "Gusunika"
+
+#: gnopi/gnopi_files/about.glade2.h:1
+#, fuzzy
+msgid "Screen Reader and Magnifier for the GNOME Desktop"
+msgstr "Na kugirango"
+
+#: gnopi/gnopi_files/about.glade2.h:2
+msgid "translator_credits"
+msgstr ""
+
+#: gnopi/gnopi_files/gnopi.glade2.h:1
+#, fuzzy
+msgid ""
+"<b>Gnopernicus has detected that the assistive technology \n"
+"support is not enabled.</b>\n"
+msgstr "<B Gushigikira ni OYA Bikora B"
+
+#: gnopi/gnopi_files/gnopi.glade2.h:4
+msgid "About"
+msgstr "Bigyanye"
+
+#: gnopi/gnopi_files/gnopi.glade2.h:5 srcore/srpres.c:810
+msgid "Alert"
+msgstr "Ikimenyetso"
+
+#: gnopi/gnopi_files/gnopi.glade2.h:6
+#, fuzzy
+msgid "Braille device preferences"
+msgstr "APAREYE Ibyahiswemo"
+
+#: gnopi/gnopi_files/gnopi.glade2.h:7
+#, fuzzy
+msgid "Braille monitor preferences"
+msgstr "Ibyahiswemo"
+
+#: gnopi/gnopi_files/gnopi.glade2.h:8
+#, fuzzy
+msgid "Close preferences"
+msgstr "Funga Ibyahiswemo"
+
+#: gnopi/gnopi_files/gnopi.glade2.h:9
+#, fuzzy
+msgid "Command mapping"
+msgstr "Igereranya"
+
+#: gnopi/gnopi_files/gnopi.glade2.h:10
+#, fuzzy
+msgid "Do you want to enable the assistive technology support?"
+msgstr "Kuri Gushoboza Gushigikira"
+
+#: gnopi/gnopi_files/gnopi.glade2.h:11
+#, fuzzy
+msgid "Exit from gnopernicus"
+msgstr "Bivuye"
+
+#: gnopi/gnopi_files/gnopi.glade2.h:12
+#, fuzzy
+msgid "Find on screen"
+msgstr "ku Mugaragaza"
+
+#: gnopi/gnopi_files/gnopi.glade2.h:13
+msgid "Gnopernicus"
+msgstr ""
+
+#: gnopi/gnopi_files/gnopi.glade2.h:14
+#, fuzzy
+msgid "Gnopernicus usage help"
+msgstr "Ikoresha: Ifashayobora"
+
+#: gnopi/gnopi_files/gnopi.glade2.h:15
+#, fuzzy
+msgid "Iconify menu"
+msgstr "Ibikubiyemo"
+
+#: gnopi/gnopi_files/gnopi.glade2.h:16
+#, fuzzy
+msgid "Load default preferences"
+msgstr "Mburabuzi Ibyahiswemo"
+
+#: gnopi/gnopi_files/gnopi.glade2.h:17
+#, fuzzy
+msgid "Magnifier preferences"
+msgstr "Ibyahiswemo"
+
+#: gnopi/gnopi_files/gnopi.glade2.h:18
+#, fuzzy
+msgid "Mouse preferences"
+msgstr "Ibyahiswemo"
+
+# extracted from content/PrefsWindow.xul
+# LOCALIZATION NOTE : FILE UI for the outer parts of the Prefs dialog
+#: gnopi/gnopi_files/gnopi.glade2.h:19
+msgid "Preferences"
+msgstr "Ibyahisemo"
+
+#: gnopi/gnopi_files/gnopi.glade2.h:20
+#, fuzzy
+msgid "Preferences..."
+msgstr "Ibyahiswemo..."
+
+#: gnopi/gnopi_files/gnopi.glade2.h:21 srcore/srspc.c:1035
+msgid "Question"
+msgstr ""
+
+#: gnopi/gnopi_files/gnopi.glade2.h:22
+#, fuzzy
+msgid "Role presentation"
+msgstr "Iyerekana"
+
+#: gnopi/gnopi_files/gnopi.glade2.h:23
+#, fuzzy
+msgid "Screen review"
+msgstr "Isubiramo"
+
+#: gnopi/gnopi_files/gnopi.glade2.h:24
+#, fuzzy
+msgid "Speech preferences"
+msgstr "Ibyahiswemo"
+
+#: gnopi/gnopi_files/gnopi.glade2.h:25
+#, fuzzy
+msgid "Startup mode..."
+msgstr "Ubwoko"
+
+#: gnopi/gnopi_files/gnopi.glade2.h:26
+#, fuzzy
+msgid ""
+"You will have to log out for the change to take effect.\n"
+"Do you want to log out now? "
+msgstr ""
+"Kuri LOG Inyuma kugirango Guhindura>> Kuri INGARUKA Kuri LOG Inyuma NONEAHA"
+
+#: gnopi/gnopi_files/gnopi.glade2.h:28
+msgid "_1 Speech"
+msgstr ""
+
+#: gnopi/gnopi_files/gnopi.glade2.h:29
+msgid "_1 Startup Mode..."
+msgstr ""
+
+#: gnopi/gnopi_files/gnopi.glade2.h:30
+msgid "_2 Braille"
+msgstr ""
+
+#: gnopi/gnopi_files/gnopi.glade2.h:31
+msgid "_2 Preferences..."
+msgstr ""
+
+#: gnopi/gnopi_files/gnopi.glade2.h:32
+msgid "_3 Default Preferences..."
+msgstr ""
+
+#: gnopi/gnopi_files/gnopi.glade2.h:34
+msgid "_4 Minimize"
+msgstr ""
+
+#: gnopi/gnopi_files/gnopi.glade2.h:35
+msgid "_4 Mouse"
+msgstr ""
+
+#: gnopi/gnopi_files/gnopi.glade2.h:37
+msgid "_5 Help"
+msgstr ""
+
+#: gnopi/gnopi_files/gnopi.glade2.h:38
+msgid "_6 About"
+msgstr ""
+
+#: gnopi/gnopi_files/gnopi.glade2.h:39
+msgid "_6 Command Mapping"
+msgstr ""
+
+#: gnopi/gnopi_files/gnopi.glade2.h:40
+msgid "_7 Presentation"
+msgstr ""
+
+#: gnopi/gnopi_files/gnopi.glade2.h:41
+msgid "_8 Screen Review"
+msgstr ""
+
+#: gnopi/gnopi_files/gnopi.glade2.h:42
+msgid "_9 Search"
+msgstr ""
+
+#: gnopi/gnopi_files/gnopi.glade2.h:43
+msgid "_Don't Enable Support"
+msgstr ""
+
+#: gnopi/gnopi_files/gnopi.glade2.h:44
+msgid "_Enable Support"
+msgstr ""
+
+#: gnopi/gnopi_files/gnopi.glade2.h:45
+#, fuzzy
+msgid "_Quit"
+msgstr "Kuvamo"
+
+#: gnopi/gnopiconf.c:411 gnopi/gnopiconf.c:429
+#, fuzzy, c-format
+msgid "Failed to set value: %f."
+msgstr "Kuri Gushyiraho Agaciro"
+
+#: gnopi/gnopiconf.c:735
+#, fuzzy
+msgid "Failed to set value."
+msgstr "Kuri Gushyiraho Agaciro"
+
+#: gnopi/gnopiui.c:73 gnopi/gnopiui.c:87 gnopi/gnopiui.c:99
+#: gnopi/gnopiui.c:105
+#, fuzzy
+msgid "We could not load the interface!"
+msgstr "OYA Ibirimo"
+
+# Lock column values
+#: gnopi/magui.c:74
+msgid "default"
+msgstr "mburabuzi"
+
+#: gnopi/magui.c:472
+#, fuzzy
+msgid ""
+"Can NOT remove zoomer because multiple zoomers are not supported in this "
+"version."
+msgstr "Gukuraho... Igikubo OYA in iyi Verisiyo"
+
+#: gnopi/magui.c:673
+msgid "Zoomers"
+msgstr ""
+
+#: gnopi/magui.c:1627
+#, c-format
+msgid "Zoomer Options (%s)"
+msgstr ""
+
+#: gnopi/spconf.c:341
+#, fuzzy
+msgid "Failed to set dictionary changes."
+msgstr "Kuri Gushyiraho Inkoranyamagambo Amahinduka"
+
+#: gnopi/spconf.c:349
+#, fuzzy
+msgid "Failed to set removed voice value."
+msgstr "Kuri Gushyiraho Cyavanyweho Agaciro"
+
+#: gnopi/spconf.c:359
+#, fuzzy, c-format
+msgid "Failed to set count: %s."
+msgstr "Kuri Gushyiraho IBARA"
+
+#: gnopi/spconf.c:368
+#, fuzzy, c-format
+msgid "Failed to set Punctuation: %s."
+msgstr "Kuri Gushyiraho"
+
+#: gnopi/spconf.c:377
+#, fuzzy, c-format
+msgid "Failed to set text echo value: %s."
+msgstr "Kuri Gushyiraho Umwandiko Agaciro"
+
+#: gnopi/spconf.c:386
+#, fuzzy, c-format
+msgid "Failed to set modifiers value: %s."
+msgstr "Kuri Gushyiraho Agaciro"
+
+#: gnopi/spconf.c:395
+#, fuzzy, c-format
+msgid "Failed to set cursors value: %s."
+msgstr "Kuri Gushyiraho Agaciro"
+
+#: gnopi/spconf.c:404
+#, fuzzy, c-format
+msgid "Failed to set spaces value: %s."
+msgstr "Kuri Gushyiraho Imyanya Agaciro"
+
+#: gnopi/spconf.c:413
+#, fuzzy, c-format
+msgid "Failed to set dictionary value: %s."
+msgstr "Kuri Gushyiraho Inkoranyamagambo Agaciro"
+
+#: gnopi/spconf.c:422
+#, fuzzy, c-format
+msgid "Failed to set testable voice %s."
+msgstr "Kuri Gushyiraho"
+
+#: gnopi/spconf.c:614
+#, fuzzy, c-format
+msgid "%s no name"
+msgstr "%sOya Izina:"
+
+#: gnopi/spdictui.c:79
+#, fuzzy
+msgid "Invalid word or replacer!"
+msgstr "ijambo Cyangwa"
+
+#: gnopi/spdictui.c:85
+#, fuzzy
+msgid "Word exists in dictionary!"
+msgstr "in Inkoranyamagambo"
+
+#: gnopi/spdictui.c:271 gnopi/spdictui.c:324
+#, fuzzy
+msgid "No selected word to modify!"
+msgstr "Byahiswemo ijambo Kuri Guhindura"
+
+#: gnopi/spdictui.c:298
+#, fuzzy
+msgid "No selected word to remove!"
+msgstr "Byahiswemo ijambo Kuri Gukuraho..."
+
+# #-#-#-#-#  svx.pot (Gnome 2.12)  #-#-#-#-#
+# svx/source\dialog\commonlingui.src:RID_SVX_WND_COMMON_LINGU.FT_NEWWORD.text
+# #-#-#-#-#  svx.pot (Gnome 2.12)  #-#-#-#-#
+# svx/source\dialog\hyphen.src:RID_SVXDLG_HYPHENATE.FT_WORD.text
+# #-#-#-#-#  svx.pot (Gnome 2.12)  #-#-#-#-#
+# svx/source\dialog\thesdlg.src:RID_SVXDLG_THESAURUS.FT_WORD.text
+# #-#-#-#-#  svx.pot (Gnome 2.12)  #-#-#-#-#
+# svx/source\options\optdict.src:RID_SFXDLG_EDITDICT.FT_WORD.text
+#: gnopi/spdictui.c:447
+#, fuzzy
+msgid "Word"
+msgstr "ijambo"
+
+#: gnopi/spdictui.c:456
+msgid "Replacer"
+msgstr ""
+
+#: gnopi/spvoiceui.c:32
+#, fuzzy
+msgid "<all drivers>"
+msgstr "<Byose"
+
+#: gnopi/spvoiceui.c:33
+#, fuzzy
+msgid "<all voices>"
+msgstr "<Byose"
+
+#: gnopi/spvoiceui.c:296
+#, fuzzy
+msgid "Invalid voice!"
+msgstr "Ijwi"
+
+#: gnopi/spvoiceui.c:1217
+#, fuzzy
+msgid "Invalid driver or voice!"
+msgstr "Musomyi: Cyangwa"
+
+#: gnopi/spvoiceui.c:1657
+#, fuzzy
+msgid "No selected voice to modify!"
+msgstr "Byahiswemo Kuri Guhindura"
+
+#: gnopi/spvoiceui.c:1716
+#, fuzzy
+msgid "No selected voice to remove!"
+msgstr "Byahiswemo Kuri Gukuraho..."
+
+#: gnopi/spvoiceui.c:1793
+#, fuzzy
+msgid "No selected voice to test!"
+msgstr "Byahiswemo Kuri Igerageza"
+
+# VCARD_LDAP_VOICE_TYPE
+# # @name VCARD_LDAP_VOICE_TYPE
+# # @loc None
+#: gnopi/spvoiceui.c:2034
+msgid "Voice"
+msgstr "Ijwi"
+
+#: gnopi/spvoiceui.c:2043
+msgid "Driver"
+msgstr "Musomyi"
+
+# 5826
+#: gnopi/spvoiceui.c:2052
+msgid "Speaker"
+msgstr "uvuga"
+
+# #-#-#-#-#  sc.pot (Gnome 2.12)  #-#-#-#-#
+# sc/source\ui\src\scfuncs.src:RID_SC_FUNCTION_DESCRIPTIONS2.SC_OPCODE_PERCENTILE.4.text
+# #-#-#-#-#  sc.pot (Gnome 2.12)  #-#-#-#-#
+# sc/source\ui\src\scfuncs.src:RID_SC_FUNCTION_DESCRIPTIONS2.SC_OPCODE_TRIM_MEAN.4.text
+# #-#-#-#-#  sc.pot (Gnome 2.12)  #-#-#-#-#
+# sc/source\ui\src\scfuncs.src:RID_SC_FUNCTION_DESCRIPTIONS2.SC_OPCODE_WEIBULL.4.text
+#: speech/libsrs/srs-speech.c:289
+msgid "Alpha"
+msgstr "Alufa"
+
+#: speech/libsrs/srs-speech.c:290
+msgid "Bravo"
+msgstr ""
+
+#: speech/libsrs/srs-speech.c:291
+msgid "Charlie"
+msgstr ""
+
+# scaddins/source\analysis\analysis_funcnames.src:RID_ANALYSIS_FUNCTION_NAMES.ANALYSIS_FUNCNAME_Delta.text
+#: speech/libsrs/srs-speech.c:292
+#, fuzzy
+msgid "Delta"
+msgstr "DELTA"
+
+#: speech/libsrs/srs-speech.c:293
+msgid "Echo"
+msgstr ""
+
+#: speech/libsrs/srs-speech.c:294
+msgid "Foxtrot"
+msgstr ""
+
+#: speech/libsrs/srs-speech.c:295
+msgid "Golf"
+msgstr ""
+
+#: speech/libsrs/srs-speech.c:296
+msgid "Hotel"
+msgstr ""
+
+# setup2/source\ui\pages\paddr.src:RESID_PAGE_PAGEADDRESS.LB_COUNTRY.42.text
+#: speech/libsrs/srs-speech.c:297
+msgid "India"
+msgstr "Ubuhindi"
+
+#: speech/libsrs/srs-speech.c:298
+msgid "Juliet"
+msgstr ""
+
+#: speech/libsrs/srs-speech.c:299
+msgid "Kilo"
+msgstr ""
+
+#: speech/libsrs/srs-speech.c:300
+msgid "Lima"
+msgstr ""
+
+#: speech/libsrs/srs-speech.c:301
+msgid "Mike"
+msgstr ""
+
+# wizards/source\schedule\schedule.src:dlgMonth+10.text
+#: speech/libsrs/srs-speech.c:302
+msgid "November"
+msgstr "Ugushyingo"
+
+#: speech/libsrs/srs-speech.c:303
+msgid "Oscar"
+msgstr ""
+
+#: speech/libsrs/srs-speech.c:304
+msgid "Papa"
+msgstr ""
+
+#: speech/libsrs/srs-speech.c:305
+msgid "Quebec"
+msgstr ""
+
+#: speech/libsrs/srs-speech.c:306
+msgid "Romeo"
+msgstr ""
+
+#: speech/libsrs/srs-speech.c:307
+msgid "Sierra"
+msgstr ""
+
+#: speech/libsrs/srs-speech.c:308
+msgid "Tango"
+msgstr ""
+
+#: speech/libsrs/srs-speech.c:309
+msgid "Uniform"
+msgstr ""
+
+#: speech/libsrs/srs-speech.c:310
+msgid "Victor"
+msgstr ""
+
+#: speech/libsrs/srs-speech.c:311
+msgid "Whiskey"
+msgstr ""
+
+#: speech/libsrs/srs-speech.c:312
+msgid "Xray"
+msgstr ""
+
+#: speech/libsrs/srs-speech.c:313
+msgid "Yankee"
+msgstr ""
+
+#: speech/libsrs/srs-speech.c:314
+msgid "Zulu"
+msgstr "Ikizulu"
+
+# sc/source\ui\dbgui\asciiopt.src:RID_SCDLG_ASCII.CKB_SPACE.text
+#: speech/libsrs/srs-speech.c:315 srcore/srspc.c:1770
+#, fuzzy
+msgid "space"
+msgstr "Umwanya"
+
+# 6100
+#: speech/libsrs/srs-speech.c:316
+msgid "tab"
+msgstr "simbuka"
+
+# sfx2/source\statbar\statbar.src:RID_DICTATION_COMMANDS.2.text
+#: speech/libsrs/srs-speech.c:317
+msgid "new line"
+msgstr "Umurongo mushya"
+
+# officecfg/registry\schema\org\openoffice\Office\Common.xcs:....Font.UnderLine..5.text
+#: speech/libsrs/srs-speech.c:318
+#, fuzzy
+msgid "dash"
+msgstr "AKANYEREZO"
+
+#: srconf/libsrconf/libsrconf.c:454
+#, fuzzy, c-format
+msgid "Failed to access configuration source(s): %s\n"
+msgstr "Kuri Iboneza Inkomoko S"
+
+#: srconf/libsrconf/libsrconf.c:467
+#, fuzzy, c-format
+msgid "Failed to add notify: %s"
+msgstr "Kuri Kongeramo"
+
+#: srconf/libsrconf/libsrconf.c:521
+#, fuzzy
+msgid "Failed to remove directory."
+msgstr "Kuri Gukuraho... bushyinguro"
+
+#: srconf/libsrconf/libsrconf.c:865
+#, fuzzy
+msgid "Failed to set configdata."
+msgstr "Kuri Gushyiraho"
+
+#: srconf/libsrconf/libsrconf.c:939
+#, fuzzy
+msgid "Failed set data."
+msgstr "Gushyiraho Ibyatanzwe"
+
+# #-#-#-#-#  dbaccess.pot (Gnome 2.12)  #-#-#-#-#
+# #-#-#-#-#  dbaccess.pot (Gnome 2.12)  #-#-#-#-#
+# #-#-#-#-#  dbaccess.pot (Gnome 2.12)  #-#-#-#-#
+#. translators: a single whitespace or suitable delimiter between 'words', if appropriate
+#. translators: the letter ' ' (space), in parentheses.
+#: srcore/default.xml.in.h:3 srcore/verbose.xml.in.h:3
+#, fuzzy
+msgid "( )"
+msgstr "()"
+
+#. translators: the letter 'C' for "checked", in parentheses.
+#: srcore/default.xml.in.h:5 srcore/verbose.xml.in.h:5
+#, fuzzy
+msgid "(C)"
+msgstr "(C"
+
+#. translators: the letter 'E' for "expanded", in parentheses.
+#: srcore/default.xml.in.h:7 srcore/verbose.xml.in.h:7
+#, fuzzy
+msgid "(E)"
+msgstr "(E"
+
+#. translators: the letter 'P' for "[button] pressed", in parentheses.
+#: srcore/default.xml.in.h:9 srcore/verbose.xml.in.h:9
+#, fuzzy
+msgid "(P)"
+msgstr "(P]"
+
+#. translators: the letter 'U', for "unavailable", in parentheses.
+#: srcore/default.xml.in.h:11 srcore/verbose.xml.in.h:11
+#, fuzzy
+msgid "(U)"
+msgstr "(U]"
+
+#. translators: the letter 'c' for "collapsed", in parentheses.
+#: srcore/default.xml.in.h:13 srcore/verbose.xml.in.h:13
+#, fuzzy
+msgid "(c)"
+msgstr "(C"
+
+# offmgr/source\offapp\dialog\autocdlg.src:RID_OFAPAGE_AUTOFMT_APPLY.STR_HEADER1.text
+#. translators: the letter 'm' for "minimized", in parentheses.
+#: srcore/default.xml.in.h:15 srcore/verbose.xml.in.h:15
+#, fuzzy
+msgid "(m)"
+msgstr "(M]"
+
+#. translators: the letter 'n' for "not minimized", in parentheses.
+#: srcore/default.xml.in.h:17 srcore/verbose.xml.in.h:17
+#, fuzzy
+msgid "(n)"
+msgstr "(N"
+
+#: srcore/default.xml.in.h:18 srcore/verbose.xml.in.h:18
+#, fuzzy
+msgid "Give maximum speech and braille output."
+msgstr "Kinini Na Ibisohoka"
+
+#. translators: 'keyboard accelerator'
+#: srcore/default.xml.in.h:21 srcore/verbose.xml.in.h:21
+msgid "accelerator"
+msgstr ""
+
+# setup2/source\ui\pages\pipath.src:RESID_PAGE_PAGEINSTPATH.STR_FREE.text
+#: srcore/default.xml.in.h:22 srcore/verbose.xml.in.h:22
+#, fuzzy
+msgid "available"
+msgstr "Bihari"
+
+#. translators: "checked" as in "checkbox is checked"
+#: srcore/default.xml.in.h:24 srcore/verbose.xml.in.h:24
+#, fuzzy
+msgid "checked"
+msgstr "Ivivuwe"
+
+#: srcore/default.xml.in.h:25 srcore/verbose.xml.in.h:25
+#, fuzzy
+msgid "closing tab"
+msgstr "Isunika"
+
+#: srcore/default.xml.in.h:26 srcore/verbose.xml.in.h:26
+#, fuzzy
+msgid "closing window"
+msgstr "Idirishya"
+
+#: srcore/default.xml.in.h:27 srcore/verbose.xml.in.h:27
+msgid "collapsed"
+msgstr ""
+
+#: srcore/default.xml.in.h:28 srcore/verbose.xml.in.h:28
+#, fuzzy
+msgid "column header"
+msgstr "Inkingi Umutwempangano"
+
+#: srcore/default.xml.in.h:29 srcore/verbose.xml.in.h:29
+#, fuzzy
+msgid "create tab"
+msgstr "Kurema Isunika"
+
+#: srcore/default.xml.in.h:30 srcore/verbose.xml.in.h:30
+#, fuzzy
+msgid "create window"
+msgstr "Kurema Idirishya"
+
+# padmin/source\rtsetup.src:RID_RTS_DEVICEPAGE.RID_RTS_DEVICE_PPDVALUE_TXT.text
+#: srcore/default.xml.in.h:31 srcore/verbose.xml.in.h:31
+#, fuzzy
+msgid "current value"
+msgstr "Agaciro"
+
+#: srcore/default.xml.in.h:32 srcore/srctrl.c:2669 srcore/verbose.xml.in.h:32
+#, fuzzy
+msgid "empty line"
+msgstr "ubusa Umurongo"
+
+# padmin/source\padialog.src:RID_TXT_FONT_EXPANDED.text
+#: srcore/default.xml.in.h:33 srcore/verbose.xml.in.h:33
+#, fuzzy
+msgid "expanded"
+msgstr "Cyagutse"
+
+# sw/source\ui\fldui\fldfunc.src:TP_FLD_FUNC.FT_LISTITEM.text
+#: srcore/default.xml.in.h:34 srcore/srctrl.c:2258 srcore/srctrl.c:2409
+#: srcore/verbose.xml.in.h:34
+#, fuzzy
+msgid "item"
+msgid_plural "items"
+msgstr[0] "Ikintu"
+msgstr[1] "Ikintu"
+
+#: srcore/default.xml.in.h:35 srcore/verbose.xml.in.h:35
+msgid "items"
+msgstr ""
+
+# #-#-#-#-#  officecfg.pot (Gnome 2.12)  #-#-#-#-#
+# officecfg/registry\schema\org\openoffice\Office\Writer.xcs:....Insert.Caption.WriterObject.Table.Settings.Level.text
+# #-#-#-#-#  officecfg.pot (Gnome 2.12)  #-#-#-#-#
+# officecfg/registry\schema\org\openoffice\Office\Writer.xcs:....Insert.Caption.WriterObject.Frame.Settings.Level.text
+# #-#-#-#-#  officecfg.pot (Gnome 2.12)  #-#-#-#-#
+# officecfg/registry\schema\org\openoffice\Office\Writer.xcs:....Insert.Caption.WriterObject.Graphic.Settings.Level.text
+# #-#-#-#-#  officecfg.pot (Gnome 2.12)  #-#-#-#-#
+# officecfg/registry\schema\org\openoffice\Office\Writer.xcs:....Insert.Caption.OfficeObject.Calc.Settings.Level.text
+# #-#-#-#-#  officecfg.pot (Gnome 2.12)  #-#-#-#-#
+# officecfg/registry\schema\org\openoffice\Office\Writer.xcs:....Insert.Caption.OfficeObject.Draw.Settings.Level.text
+# #-#-#-#-#  officecfg.pot (Gnome 2.12)  #-#-#-#-#
+# officecfg/registry\schema\org\openoffice\Office\Writer.xcs:....Insert.Caption.OfficeObject.Chart.Settings.Level.text
+# #-#-#-#-#  officecfg.pot (Gnome 2.12)  #-#-#-#-#
+# officecfg/registry\schema\org\openoffice\Office\Writer.xcs:....Insert.Caption.OfficeObject.Image.Settings.Level.text
+# #-#-#-#-#  officecfg.pot (Gnome 2.12)  #-#-#-#-#
+# officecfg/registry\schema\org\openoffice\Office\Writer.xcs:....Insert.Caption.OfficeObject.Formula.Settings.Level.text
+# #-#-#-#-#  officecfg.pot (Gnome 2.12)  #-#-#-#-#
+# officecfg/registry\schema\org\openoffice\Office\Writer.xcs:....Insert.Caption.OfficeObject.Impress.Settings.Level.text
+# #-#-#-#-#  officecfg.pot (Gnome 2.12)  #-#-#-#-#
+# officecfg/registry\schema\org\openoffice\Office\Writer.xcs:....Insert.Caption.OfficeObject.OLEMisc.Settings.Level.text
+#: srcore/default.xml.in.h:36 srcore/verbose.xml.in.h:36
+#, fuzzy
+msgid "level"
+msgstr "urwego"
+
+# 3784
+#: srcore/default.xml.in.h:37 srcore/verbose.xml.in.h:37
+#, fuzzy
+msgid "maximize window"
+msgstr "heza idirishya"
+
+# 3850
+#: srcore/default.xml.in.h:38 srcore/verbose.xml.in.h:38
+#, fuzzy
+msgid "minimize window"
+msgstr "gira idirishya rito"
+
+#: srcore/default.xml.in.h:39 srcore/verbose.xml.in.h:39
+msgid "minimized"
+msgstr ""
+
+#: srcore/default.xml.in.h:40 srcore/verbose.xml.in.h:40
+#, fuzzy
+msgid "no selection anymore"
+msgstr "Oya Ihitamo"
+
+# #-#-#-#-#  officecfg.pot (Gnome 2.12)  #-#-#-#-#
+# officecfg/registry\schema\org\openoffice\Office\Math.xcs:....FontFormat.Weight..5.text
+# #-#-#-#-#  officecfg.pot (Gnome 2.12)  #-#-#-#-#
+# officecfg/registry\schema\org\openoffice\Office\Math.xcs:....FontFormat.Italic..2.text
+#: srcore/default.xml.in.h:41 srcore/verbose.xml.in.h:41
+msgid "normal"
+msgstr "bisanzwe"
+
+#: srcore/default.xml.in.h:42 srcore/verbose.xml.in.h:42
+msgid "pressed"
+msgstr ""
+
+#: srcore/default.xml.in.h:43 srcore/verbose.xml.in.h:43
+#, fuzzy
+msgid "rename window"
+msgstr "Guhindura izina Idirishya"
+
+#: srcore/default.xml.in.h:44 srcore/verbose.xml.in.h:44
+#, fuzzy
+msgid "restore window"
+msgstr "Kugarura Idirishya"
+
+#: srcore/default.xml.in.h:45 srcore/verbose.xml.in.h:45
+#, fuzzy
+msgid "row header"
+msgstr "Urubariro Umutwempangano"
+
+# #-#-#-#-#  sw.pot (Gnome 2.12)  #-#-#-#-#
+# sw/source\ui\misc\glossary.src:DLG_GLOSSARY.FT_SHORTNAME.text
+# #-#-#-#-#  sw.pot (Gnome 2.12)  #-#-#-#-#
+# sw/source\ui\misc\glossary.src:DLG_RENAME_GLOS.FT_NS.text
+#. translators: 'keyboard shortcut'
+#: srcore/default.xml.in.h:47 srcore/verbose.xml.in.h:47
+#, fuzzy
+msgid "shortcut"
+msgstr "Iy'ibusamo"
+
+#: srcore/default.xml.in.h:48 srcore/verbose.xml.in.h:48
+#, fuzzy
+msgid "show tool tip"
+msgstr "Garagaza Inyobora:"
+
+#: srcore/default.xml.in.h:49 srcore/verbose.xml.in.h:49
+#, fuzzy
+msgid "switch tab"
+msgstr "Hindura Isunika"
+
+#: srcore/default.xml.in.h:50 srcore/verbose.xml.in.h:50
+#, fuzzy
+msgid "switch to"
+msgstr "Hindura Kuri"
+
+#: srcore/default.xml.in.h:51 srcore/verbose.xml.in.h:51
+#, fuzzy
+msgid "switch to window"
+msgstr "Hindura Kuri Idirishya"
+
+#: srcore/default.xml.in.h:52 srcore/verbose.xml.in.h:52
+#, fuzzy
+msgid "titleize window"
+msgstr "Idirishya"
+
+#: srcore/default.xml.in.h:53 srcore/verbose.xml.in.h:53
+msgid "unavailable"
+msgstr ""
+
+#. translators: "checkbox is unchecked"
+#: srcore/default.xml.in.h:55 srcore/verbose.xml.in.h:55
+#, fuzzy
+msgid "unchecked"
+msgstr "Ikuweho ivivura"
+
+#: srcore/default.xml.in.h:56 srcore/verbose.xml.in.h:56
+msgid "unpressed"
+msgstr ""
+
+#: srcore/srctrl.c:1012
+#, fuzzy
+msgid "no parent"
+msgstr "Oya"
+
+#: srcore/srctrl.c:1036
+#, fuzzy
+msgid "no children"
+msgstr "Oya"
+
+#: srcore/srctrl.c:1069
+#, fuzzy
+msgid "no next"
+msgstr "Oya Komeza>>"
+
+#: srcore/srctrl.c:1185
+#, fuzzy
+msgid "Cannot find next text!"
+msgstr "Gushaka Komeza>> Umwandiko"
+
+#: srcore/srctrl.c:1196
+#, fuzzy
+msgid "Cannot find next image!"
+msgstr "Gushaka Komeza>> Ishusho"
+
+#: srcore/srctrl.c:1207
+#, fuzzy
+msgid "Cannot find next attributes!"
+msgstr "Gushaka Komeza>> Ibiranga"
+
+#: srcore/srctrl.c:1296
+#, fuzzy
+msgid "no previous"
+msgstr "Oya Ibanjirije"
+
+#: srcore/srctrl.c:1340
+#, fuzzy
+msgid "added watch for current object"
+msgstr "Kyongewe Isaha kugirango KIGEZWEHO Igikoresho"
+
+#: srcore/srctrl.c:1341
+#, fuzzy
+msgid "cannot add watch for current object"
+msgstr "Kongeramo Isaha kugirango KIGEZWEHO Igikoresho"
+
+#: srcore/srctrl.c:1366
+#, fuzzy
+msgid "no caret"
+msgstr "Oya"
+
+#: srcore/srctrl.c:1387
+#, fuzzy
+msgid "already on first"
+msgstr "ku Itangira"
+
+#: srcore/srctrl.c:1408
+#, fuzzy
+msgid "already on last"
+msgstr "ku Iheruka"
+
+#: srcore/srctrl.c:1421
+#, fuzzy
+msgid "now navigating in application"
+msgstr "NONEAHA in Porogaramu"
+
+#: srcore/srctrl.c:1425
+#, fuzzy
+msgid "now navigating in desktop"
+msgstr "NONEAHA in Ibiro"
+
+#: srcore/srctrl.c:1429
+#, fuzzy
+msgid "now navigating in window"
+msgstr "NONEAHA in Idirishya"
+
+#: srcore/srctrl.c:1522
+#, fuzzy
+msgid "no focus"
+msgstr "Oya"
+
+#: srcore/srctrl.c:1562
+#, fuzzy
+msgid "no title"
+msgstr "Oya Umutwe"
+
+#: srcore/srctrl.c:1583
+#, fuzzy
+msgid "no menu bar"
+msgstr "Oya Ibikubiyemo"
+
+#: srcore/srctrl.c:1606
+#, fuzzy
+msgid "no tool bar"
+msgstr "Oya"
+
+#: srcore/srctrl.c:1630
+#, fuzzy
+msgid "no status bar"
+msgstr "Oya Imimerere"
+
+# #-#-#-#-#  sc.pot (Gnome 2.12)  #-#-#-#-#
+# sc/source\ui\dbgui\scendlg.src:RID_SCDLG_NEWSCENARIO.STR_ON.text
+# #-#-#-#-#  sc.pot (Gnome 2.12)  #-#-#-#-#
+# sc/source\ui\src\globstr.src:RID_GLOBSTR.STR_ON.text
+#: srcore/srctrl.c:2214
+msgid "on"
+msgstr "ku"
+
+#: srcore/srctrl.c:2236 srcore/srctrl.c:2387
+#, fuzzy
+msgid "from a"
+msgstr "Bivuye a"
+
+# svx/source\accessibility\accessibility.src:RID_SVXSTR_A11Y_WITH.text
+#: srcore/srctrl.c:2238 srcore/srctrl.c:2394
+msgid "with"
+msgstr "hamwe"
+
+#: srcore/srctrl.c:2269
+#, fuzzy
+msgid "in a"
+msgstr "in a"
+
+#: srcore/srctrl.c:2272
+msgid "named "
+msgstr ""
+
+#: srcore/srctrl.c:2274
+#, fuzzy
+msgid "with no name"
+msgstr "Na: Oya Izina:"
+
+#: srcore/srctrl.c:2288
+#, fuzzy
+msgid "of application"
+msgstr "Bya Porogaramu"
+
+#: srcore/srctrl.c:2375
+#, fuzzy
+msgid "on a"
+msgstr "ku a"
+
+# svx/source\dialog\paragrph.src:RID_SVXPAGE_STD_PARAGRAPH.FT_FLINEINDENT.text
+#: srcore/srctrl.c:2629
+#, fuzzy
+msgid "first line"
+msgstr "Umurongo ubanza"
+
+# svx/source\dialog\paragrph.src:RID_SVXPAGE_ALIGN_PARAGRAPH.FT_LASTLINE.text
+#: srcore/srctrl.c:2636
+#, fuzzy
+msgid "last line"
+msgstr "Umurongo wa nyuma"
+
+#: srcore/srctrl.c:2644 srcore/srctrl.c:2646
+#, fuzzy
+msgid "[first line]"
+msgstr "[Itangira Umurongo"
+
+#: srcore/srctrl.c:2651 srcore/srctrl.c:2653
+#, fuzzy
+msgid "[last line]"
+msgstr "[Iheruka Umurongo"
+
+#: srcore/srctrl.c:2676
+#, fuzzy, c-format
+msgid "%d empty line"
+msgid_plural "%d empty lines"
+msgstr[0] "%dubusa Umurongo"
+
+#: srcore/srctrl.c:2697 srcore/srctrl.c:2699
+#, fuzzy
+msgid "[empty line]"
+msgstr "[ubusa Umurongo"
+
+#: srcore/srctrl.c:2704
+#, fuzzy, c-format
+msgid "[%d empty line]"
+msgid_plural "[%d empty lines]"
+msgstr[0] "[%dubusa Umurongo"
+
+#: srcore/srctrl.c:2786 srcore/srctrl.c:2787 srcore/srctrl.c:2795
+#: srcore/srctrl.c:2950 srcore/srctrl.c:2951
+#, fuzzy
+msgid "cannot make flat review for current window"
+msgstr "Ubwoko Kirambuye Isubiramo kugirango KIGEZWEHO Idirishya"
+
+#: srcore/srctrl.c:3022
+#, fuzzy
+msgid "flat review mode"
+msgstr "Kirambuye Isubiramo Ubwoko"
+
+#: srcore/srctrl.c:3038
+#, fuzzy
+msgid "focus tracking mode"
+msgstr "Ubwoko"
+
+#: srcore/srctrl.c:3577
+#, fuzzy, c-format
+msgid "\"%s\" entry has invalid value at position %d."
+msgstr "\"%s\"Icyinjijwe Sibyo Agaciro ku Ibirindiro"
+
+#: srcore/srctrl.c:3598
+#, fuzzy, c-format
+msgid "key \"%s\" has an invalid value at position %d."
+msgstr "Urufunguzo Sibyo Agaciro ku Ibirindiro"
+
+#: srcore/srctrl.c:3634
+#, fuzzy
+msgid "Can not get key pad commands mapping from gconf."
+msgstr "OYA Kubona Urufunguzo Amabwiriza Igereranya Bivuye"
+
+#: srcore/srctrl.c:3645
+#, fuzzy
+msgid "Can not get braille display commands mapping from gconf."
+msgstr "OYA Kubona Kugaragaza Amabwiriza Igereranya Bivuye"
+
+#: srcore/srctrl.c:3656
+#, fuzzy
+msgid "Can not get user defined commands mapping from gconf."
+msgstr "OYA Kubona Ukoresha: Amabwiriza Igereranya Bivuye"
+
+#: srcore/srctrl.c:3760
+#, fuzzy
+msgid "no role available"
+msgstr "Oya Bihari"
+
+#: srcore/srmain.c:75 srcore/srmain.c:78
+msgid "No focus"
+msgstr ""
+
+#: srcore/srmain.c:81
+#, fuzzy
+msgid "No accessible object is focused"
+msgstr "Igikoresho ni"
+
+#: srcore/srmain.c:458
+#, fuzzy
+msgid "unknown location"
+msgstr "Kitazwi Ahantu"
+
+#: srcore/srmain.c:495
+#, fuzzy
+msgid "no details"
+msgstr "Oya Birambuye"
+
+#: srcore/srmain.c:535
+#, fuzzy
+msgid "layer"
+msgstr "Akugara"
+
+#: srcore/srmain.c:556
+#, fuzzy
+msgid "back to layer"
+msgstr "Inyuma Kuri Akugara"
+
+#: srcore/srmain.c:922
+#, fuzzy
+msgid "cursor on"
+msgstr "indanga ku"
+
+#: srcore/srmain.c:922
+#, fuzzy
+msgid "cursor off"
+msgstr "indanga Bidakora"
+
+#: srcore/srmain.c:940
+#, fuzzy
+msgid "current cursor is"
+msgstr "KIGEZWEHO indanga ni"
+
+#: srcore/srmain.c:958
+#, fuzzy
+msgid "cursor size"
+msgstr "indanga Ingano"
+
+#: srcore/srmain.c:975
+#, fuzzy
+msgid "cursor magnification on"
+msgstr "indanga ku"
+
+#: srcore/srmain.c:976
+#, fuzzy
+msgid "cursor magnification off"
+msgstr "indanga Bidakora"
+
+#: srcore/srmain.c:994
+#, fuzzy
+msgid "cursor color"
+msgstr "indanga Ibara"
+
+#: srcore/srmain.c:1011
+#, fuzzy
+msgid "crosshair on"
+msgstr "ku"
+
+#: srcore/srmain.c:1011
+#, fuzzy
+msgid "crosshair off"
+msgstr "Bidakora"
+
+#: srcore/srmain.c:1028
+#, fuzzy
+msgid "crosshair clip on"
+msgstr "ku"
+
+#: srcore/srmain.c:1029
+#, fuzzy
+msgid "crosshair clip off"
+msgstr "Bidakora"
+
+#: srcore/srmain.c:1047
+#, fuzzy
+msgid "crosshair size"
+msgstr "Ingano"
+
+#: srcore/srmain.c:1065
+#, fuzzy
+msgid "crosshair color"
+msgstr "Ibara"
+
+#: srcore/srmain.c:1083
+#, fuzzy
+msgid "zoomer placement left"
+msgstr "Ishyira mu mwanya Ibumoso:"
+
+#: srcore/srmain.c:1101
+#, fuzzy
+msgid "zoomer placement top"
+msgstr "Ishyira mu mwanya Hejuru:"
+
+#: srcore/srmain.c:1119
+#, fuzzy
+msgid "zoomer placement width"
+msgstr "Ishyira mu mwanya Ubugari"
+
+#: srcore/srmain.c:1137
+#, fuzzy
+msgid "zoomer placement height"
+msgstr "Ishyira mu mwanya Ubuhagarike"
+
+#: srcore/srmain.c:1167
+#, fuzzy
+msgid "magnifier target"
+msgstr "Intego"
+
+#: srcore/srmain.c:1185
+#, fuzzy
+msgid "magnifier source"
+msgstr "Inkomoko"
+
+#: srcore/srmain.c:1203
+#, fuzzy
+msgid "zoom factor x"
+msgstr "Ihindurangano Umubarwa X"
+
+#: srcore/srmain.c:1221
+#, fuzzy
+msgid "zoom factor y"
+msgstr "Ihindurangano Umubarwa Y"
+
+#: srcore/srmain.c:1238
+#, fuzzy
+msgid "zoom factor locked"
+msgstr "Ihindurangano Umubarwa Gifunze"
+
+#: srcore/srmain.c:1239
+#, fuzzy
+msgid "zoom factor unlocked"
+msgstr "Ihindurangano Umubarwa"
+
+#: srcore/srmain.c:1256
+#, fuzzy
+msgid "invert on"
+msgstr "Gucurika ku"
+
+#: srcore/srmain.c:1256
+#, fuzzy
+msgid "invert off"
+msgstr "Gucurika Bidakora"
+
+#: srcore/srmain.c:1274
+#, fuzzy
+msgid "magnifier smoothing type"
+msgstr "Ubwoko"
+
+#: srcore/srmain.c:1297
+#, fuzzy
+msgid "mouse tracking mode"
+msgstr "Imbeba Ubwoko"
+
+#: srcore/srmain.c:1319
+#, fuzzy
+msgid "panning on"
+msgstr "ku"
+
+#: srcore/srmain.c:1319
+#, fuzzy
+msgid "panning off"
+msgstr "Bidakora"
+
+#: srcore/srmain.c:1691
+#, fuzzy
+msgid "alt"
+msgstr "Alt"
+
+#: srcore/srmain.c:1696
+#, fuzzy
+msgid "control"
+msgstr "Igenzura"
+
+#: srcore/srmain.c:1701
+#, fuzzy
+msgid "shift"
+msgstr "Gusunika"
+
+# sc/source\ui\src\optdlg.src:RID_SCPAGE_CONTENT.GB_WINDOW.text
+#: srcore/srmain.c:1706 srcore/srpres.c:868
+msgid "Window"
+msgstr "Idirishya"
+
+# #-#-#-#-#  sfx2.pot (Gnome 2.12)  #-#-#-#-#
+# sfx2/source\dialog\cfg.src:DLG_CONFIG.1.TP_CONFIG_MENU.text
+# #-#-#-#-#  sfx2.pot (Gnome 2.12)  #-#-#-#-#
+# sfx2/source\dialog\cfg.src:STR_MENU.text
+#: srcore/srmain.c:1711 srcore/srmain.c:1786 srcore/srpres.c:834
+msgid "Menu"
+msgstr "Ibikubiyemo"
+
+#: srcore/srmain.c:1716
+#, fuzzy
+msgid "caps lock"
+msgstr "Inyuguti nkuru"
+
+#: srcore/srmain.c:1720
+msgid "num lock"
+msgstr ""
+
+# #-#-#-#-#  officecfg.pot (Gnome 2.12)  #-#-#-#-#
+# officecfg/registry\schema\org\openoffice\Office\DataAccess.xcs:....Column.Align..2.text
+# #-#-#-#-#  officecfg.pot (Gnome 2.12)  #-#-#-#-#
+# officecfg/registry\schema\org\openoffice\Office\Math.xcs:....StandardFormat.HorizontalAlignment..2.text
+#: srcore/srmain.c:1728 srcore/srmain.c:1772
+msgid "right"
+msgstr "iburyo"
+
+# #-#-#-#-#  officecfg.pot (Gnome 2.12)  #-#-#-#-#
+# officecfg/registry\schema\org\openoffice\Office\DataAccess.xcs:....Column.Align..0.text
+# #-#-#-#-#  officecfg.pot (Gnome 2.12)  #-#-#-#-#
+# officecfg/registry\schema\org\openoffice\Office\Math.xcs:....StandardFormat.HorizontalAlignment..0.text
+#: srcore/srmain.c:1730 srcore/srmain.c:1774
+msgid "left"
+msgstr "ibumoso"
+
+# sfx2/source\dialog\dialog.src:BTN_STANDARD.text
+#: srcore/srmain.c:1764
+#, fuzzy
+msgid "home"
+msgstr "Ku Ntangiriro"
+
+# sc/source\ui\src\scfuncs.src:RID_SC_FUNCTION_DESCRIPTIONS1.SC_OPCODE_VBD.10.text
+#: srcore/srmain.c:1766
+msgid "end"
+msgstr "impera"
+
+# sfx2/sdi\sfxslots.src:SID_CURSORPAGEUP.text
+#: srcore/srmain.c:1768
+#, fuzzy
+msgid "page up"
+msgstr "Urupapuro Rubanza"
+
+#: srcore/srmain.c:1770
+#, fuzzy
+msgid "page down"
+msgstr "Ipaji yo Hasi"
+
+# #-#-#-#-#  sfx2.pot (Gnome 2.12)  #-#-#-#-#
+# sfx2/source\statbar\statbar.src:RID_DICTATION_COMMANDS.12.text
+# #-#-#-#-#  sfx2.pot (Gnome 2.12)  #-#-#-#-#
+# sfx2/source\statbar\statbar.src:RID_NAVIGATION_COMMANDS.8.text
+#: srcore/srmain.c:1776
+msgid "down"
+msgstr "hepfo"
+
+# #-#-#-#-#  sfx2.pot (Gnome 2.12)  #-#-#-#-#
+# sfx2/source\statbar\statbar.src:RID_DICTATION_COMMANDS.11.text
+# #-#-#-#-#  sfx2.pot (Gnome 2.12)  #-#-#-#-#
+# sfx2/source\statbar\statbar.src:RID_NAVIGATION_COMMANDS.7.text
+#: srcore/srmain.c:1778
+msgid "up"
+msgstr "hejuru"
+
+# #-#-#-#-#  sw.pot (Gnome 2.12)  #-#-#-#-#
+# sw/sdi\swslots.src:FN_BACKSPACE.text
+# #-#-#-#-#  sw.pot (Gnome 2.12)  #-#-#-#-#
+# sw/sdi\swslots.src:FN_SHIFT_BACKSPACE.text
+#: srcore/srmain.c:1780
+#, fuzzy
+msgid "backspace"
+msgstr "Gusiba usubira inyuma"
+
+# sfx2/source\statbar\statbar.src:RID_DICTATION_COMMANDS.17.text
+#: srcore/srmain.c:1782
+msgid "delete"
+msgstr "gusiba"
+
+#: srcore/srmain.c:1784
+msgid "escape"
+msgstr ""
+
+#: srcore/srmain.c:2334
+#, fuzzy
+msgid "Welcome to Gnopernicus"
+msgstr "Kuri"
+
+#: srcore/srmain.c:2439
+#, fuzzy
+msgid "braille device can not be initialized"
+msgstr "APAREYE OYA"
+
+#: srcore/srmain.c:2451
+#, fuzzy
+msgid "Gnopernicus is now exiting. Have a nice day!"
+msgstr "ni NONEAHA a UMUNSI"
+
+#: srcore/srmain.c:2728
+msgid "srcore"
+msgstr ""
+
+#: srcore/srpres.c:808
+msgid "UNK"
+msgstr ""
+
+# filter/source\xsltdialog\xmlfilterdialogstrings.src:STR_UNKNOWN_APPLICATION.text
+#: srcore/srpres.c:808
+#, fuzzy
+msgid "UNKNOWN"
+msgstr "Kitazwi"
+
+# filter/source\xsltdialog\xmlfilterdialogstrings.src:STR_UNKNOWN_APPLICATION.text
+#: srcore/srpres.c:808
+msgid "Unknown"
+msgstr "Kitazwi"
+
+#: srcore/srpres.c:809
+msgid "???"
+msgstr ""
+
+# sc/source\ui\src\globstr.src:RID_GLOBSTR.STR_INVALID.text
+#: srcore/srpres.c:809
+#, fuzzy
+msgid "INVALID"
+msgstr "Sibyo"
+
+#: srcore/srpres.c:809
+msgid "Invalid"
+msgstr "Bitemewe"
+
+#: srcore/srpres.c:810
+msgid "ALR"
+msgstr ""
+
+#: srcore/srpres.c:810
+#, fuzzy
+msgid "ALERT"
+msgstr "Ikimenyetso"
+
+#: srcore/srpres.c:811
+msgid "CNV"
+msgstr ""
+
+#: srcore/srpres.c:811
+msgid "CANVAS"
+msgstr ""
+
+#: srcore/srpres.c:811
+msgid "Canvas"
+msgstr ""
+
+#: srcore/srpres.c:812
+msgid "CHK"
+msgstr ""
+
+#: srcore/srpres.c:812
+msgid "CHECK_BOX"
+msgstr ""
+
+# basctl/source\basicide\tbxctl.src:RID_TOOLBOX.SID_INSERT_CHECKBOX.text
+#: srcore/srpres.c:812
+#, fuzzy
+msgid "Check box"
+msgstr "Akazu k'ihitamo"
+
+#: srcore/srpres.c:813 srcore/srpres.c:836 srcore/srpres.c:846
+msgid "MIT"
+msgstr ""
+
+#: srcore/srpres.c:813 srcore/srpres.c:836 srcore/srpres.c:846
+msgid "MENU ITEM"
+msgstr ""
+
+#: srcore/srpres.c:813
+#, fuzzy
+msgid "Check Menu item"
+msgstr "Ikintu"
+
+#: srcore/srpres.c:814
+msgid "CCH"
+msgstr ""
+
+#: srcore/srpres.c:814
+msgid "COLOR CHOOSER"
+msgstr ""
+
+#: srcore/srpres.c:814
+msgid "Color chooser"
+msgstr ""
+
+#: srcore/srpres.c:815
+msgid "CHD"
+msgstr ""
+
+#: srcore/srpres.c:815
+msgid "COLUMN HEADER"
+msgstr ""
+
+#: srcore/srpres.c:815
+#, fuzzy
+msgid "Column header"
+msgstr "Umutwempangano"
+
+#: srcore/srpres.c:816
+msgid "CBO"
+msgstr ""
+
+# basctl/source\basicide\tbxctl.src:RID_TOOLBOX.SID_INSERT_COMBOBOX.text
+#: srcore/srpres.c:816
+#, fuzzy
+msgid "COMBO BOX"
+msgstr "Akazu k'ilisiti irambuka"
+
+# basctl/source\basicide\tbxctl.src:RID_TOOLBOX.SID_INSERT_COMBOBOX.text
+#: srcore/srpres.c:816
+#, fuzzy
+msgid "Combo box"
+msgstr "Akazu k'ilisiti irambuka"
+
+#: srcore/srpres.c:817
+msgid "DIC"
+msgstr ""
+
+#: srcore/srpres.c:817
+msgid "DESKTOP ICON"
+msgstr ""
+
+#: srcore/srpres.c:817
+#, fuzzy
+msgid "Desktop icon"
+msgstr "Agashushondanga"
+
+#: srcore/srpres.c:818
+msgid "DFR"
+msgstr ""
+
+#: srcore/srpres.c:818
+msgid "DESKTOP FRAME"
+msgstr ""
+
+#: srcore/srpres.c:818
+#, fuzzy
+msgid "Desktop frame"
+msgstr "Ikadiri"
+
+#: srcore/srpres.c:819
+msgid "DLG"
+msgstr ""
+
+# basctl/source\basicide\basidesh.src:RID_STR_STDDIALOGNAME.text
+#: srcore/srpres.c:819
+#, fuzzy
+msgid "DIALOG"
+msgstr "Ikiganiro"
+
+# basctl/source\basicide\basidesh.src:RID_STR_STDDIALOGNAME.text
+#: srcore/srpres.c:819
+msgid "Dialog"
+msgstr "Ikiganiro"
+
+#: srcore/srpres.c:820
+msgid "DIP"
+msgstr ""
+
+#: srcore/srpres.c:820
+msgid "DIRECTORY PANE"
+msgstr ""
+
+#: srcore/srpres.c:820
+msgid "Directory pane"
+msgstr ""
+
+#: srcore/srpres.c:821
+msgid "FCH"
+msgstr ""
+
+#: srcore/srpres.c:821
+msgid "FILE CHOOSER"
+msgstr ""
+
+#: srcore/srpres.c:821
+#, fuzzy
+msgid "File chooser"
+msgstr "Idosiye"
+
+#: srcore/srpres.c:822
+msgid "FLR"
+msgstr ""
+
+#: srcore/srpres.c:822
+msgid "FILLER"
+msgstr ""
+
+#: srcore/srpres.c:822
+msgid "Filler"
+msgstr ""
+
+#: srcore/srpres.c:823
+msgid "FRM"
+msgstr ""
+
+#: srcore/srpres.c:823
+#, fuzzy
+msgid "FRAME"
+msgstr "Ikadiri"
+
+#: srcore/srpres.c:823
+msgid "Frame"
+msgstr "Ikadiri"
+
+#: srcore/srpres.c:824
+msgid "GPN"
+msgstr ""
+
+#: srcore/srpres.c:824
+msgid "GLASS PANE"
+msgstr ""
+
+#: srcore/srpres.c:824
+msgid "Glass pane"
+msgstr ""
+
+#: srcore/srpres.c:825
+#, fuzzy
+msgid "HTM"
+msgstr "htm"
+
+#: srcore/srpres.c:825
+msgid "HTML CONTAINER"
+msgstr ""
+
+#: srcore/srpres.c:825
+#, fuzzy
+msgid "H T M L container"
+msgstr "H"
+
+#: srcore/srpres.c:826 srcore/srpres.c:831
+msgid "LNK"
+msgstr ""
+
+# offmgr/source\offapp\dialog\hyprlink.src:RID_SVXDLG_HYPERLINK.BTN_INSERT_BOOKMARK.text
+#: srcore/srpres.c:826 srcore/srpres.c:831
+#, fuzzy
+msgid "LINK"
+msgstr "Ihuza"
+
+# offmgr/source\offapp\dialog\hyprlink.src:RID_SVXDLG_HYPERLINK.BTN_INSERT_BOOKMARK.text
+#: srcore/srpres.c:826 srcore/srpres.c:831
+#, fuzzy
+msgid "link"
+msgstr "Ihuza"
+
+#: srcore/srpres.c:827
+msgid "ICO"
+msgstr ""
+
+# sfx2/source\toolbox\tbxopdlg.src:TP_CONFIG_OBJECTBAR.STR_SYMBOL.text
+#: srcore/srpres.c:827
+#, fuzzy
+msgid "ICON"
+msgstr "Agashushondanga"
+
+# sfx2/source\toolbox\tbxopdlg.src:TP_CONFIG_OBJECTBAR.STR_SYMBOL.text
+#: srcore/srpres.c:827
+msgid "Icon"
+msgstr "Agashushondanga"
+
+#: srcore/srpres.c:828
+msgid "IFR"
+msgstr ""
+
+#: srcore/srpres.c:828
+msgid "INTERNAL FRAME"
+msgstr ""
+
+#: srcore/srpres.c:828
+#, fuzzy
+msgid "Internal frame"
+msgstr "Ikadiri"
+
+#: srcore/srpres.c:829
+msgid "LBL"
+msgstr ""
+
+#: srcore/srpres.c:829
+#, fuzzy
+msgid "LABEL"
+msgstr "Akarango"
+
+#: srcore/srpres.c:829
+msgid "Label"
+msgstr "Akarango"
+
+#: srcore/srpres.c:830
+msgid "LPN"
+msgstr ""
+
+#: srcore/srpres.c:830
+msgid "LAYERED PANE"
+msgstr ""
+
+#: srcore/srpres.c:830
+msgid "Layered pane"
+msgstr ""
+
+#: srcore/srpres.c:832
+msgid "LST"
+msgstr ""
+
+# #-#-#-#-#  officecfg.pot (Gnome 2.12)  #-#-#-#-#
+# officecfg/registry\schema\org\openoffice\Office\Writer.xcs:....DefaultFont.List.text
+# #-#-#-#-#  officecfg.pot (Gnome 2.12)  #-#-#-#-#
+# officecfg/registry\schema\org\openoffice\Office\Writer.xcs:....DefaultFontCJK.List.text
+# #-#-#-#-#  officecfg.pot (Gnome 2.12)  #-#-#-#-#
+# officecfg/registry\schema\org\openoffice\Office\Writer.xcs:....DefaultFontCTL.List.text
+#: srcore/srpres.c:832
+#, fuzzy
+msgid "LIST"
+msgstr "Urutonde"
+
+# #-#-#-#-#  officecfg.pot (Gnome 2.12)  #-#-#-#-#
+# officecfg/registry\schema\org\openoffice\Office\Writer.xcs:....DefaultFont.List.text
+# #-#-#-#-#  officecfg.pot (Gnome 2.12)  #-#-#-#-#
+# officecfg/registry\schema\org\openoffice\Office\Writer.xcs:....DefaultFontCJK.List.text
+# #-#-#-#-#  officecfg.pot (Gnome 2.12)  #-#-#-#-#
+# officecfg/registry\schema\org\openoffice\Office\Writer.xcs:....DefaultFontCTL.List.text
+#: srcore/srpres.c:832
+msgid "List"
+msgstr "Urutonde"
+
+#: srcore/srpres.c:833
+msgid "LIT"
+msgstr ""
+
+#: srcore/srpres.c:833
+#, fuzzy
+msgid "LIST ITEM"
+msgstr "Ibigize by'ilisiti"
+
+#: srcore/srpres.c:833
+#, fuzzy
+msgid "List item"
+msgstr "Ibigize by'ilisiti"
+
+#: srcore/srpres.c:834
+msgid "MNU"
+msgstr ""
+
+# #-#-#-#-#  sfx2.pot (Gnome 2.12)  #-#-#-#-#
+# sfx2/source\dialog\cfg.src:DLG_CONFIG.1.TP_CONFIG_MENU.text
+# #-#-#-#-#  sfx2.pot (Gnome 2.12)  #-#-#-#-#
+# sfx2/source\dialog\cfg.src:STR_MENU.text
+#: srcore/srpres.c:834
+#, fuzzy
+msgid "MENU"
+msgstr "Ibikubiyemo"
+
+#: srcore/srpres.c:835
+msgid "MBR"
+msgstr ""
+
+# LOCALIZATION NOTE END   : DO not localize the entities above; test case
+#: srcore/srpres.c:835
+#, fuzzy
+msgid "MENU BAR"
+msgstr "Umurongo w'ibikubiyemo"
+
+# LOCALIZATION NOTE END   : DO not localize the entities above; test case
+#: srcore/srpres.c:835
+#, fuzzy
+msgid "Menu bar"
+msgstr "Umurongo w'ibikubiyemo"
+
+#: srcore/srpres.c:836
+#, fuzzy
+msgid "Menu item"
+msgstr "Ikintu"
+
+#: srcore/srpres.c:837
+msgid "OPN"
+msgstr ""
+
+#: srcore/srpres.c:837
+msgid "OPTION PANE"
+msgstr ""
+
+#: srcore/srpres.c:837
+msgid "Option pane"
+msgstr ""
+
+#: srcore/srpres.c:838
+msgid "PGT"
+msgstr ""
+
+#: srcore/srpres.c:838
+msgid "PAGE TAB"
+msgstr ""
+
+#: srcore/srpres.c:838
+#, fuzzy
+msgid "Page tab"
+msgstr "Isunika"
+
+#: srcore/srpres.c:839
+msgid "PTL"
+msgstr ""
+
+#: srcore/srpres.c:839
+msgid "PAGE TAB LIST"
+msgstr ""
+
+#: srcore/srpres.c:839
+#, fuzzy
+msgid "Page tab list"
+msgstr "Isunika Urutonde"
+
+#: srcore/srpres.c:840
+msgid "PNL"
+msgstr ""
+
+#: srcore/srpres.c:840
+msgid "PANEL"
+msgstr ""
+
+#: srcore/srpres.c:840
+msgid "Panel"
+msgstr ""
+
+#: srcore/srpres.c:841
+msgid "PWD"
+msgstr ""
+
+#: srcore/srpres.c:841
+msgid "PASSWORD TEXT"
+msgstr ""
+
+#: srcore/srpres.c:841
+#, fuzzy
+msgid "Password text"
+msgstr "Umwandiko"
+
+#: srcore/srpres.c:842
+msgid "PMN"
+msgstr ""
+
+#: srcore/srpres.c:842
+msgid "POPUP MENU"
+msgstr ""
+
+#: srcore/srpres.c:842
+#, fuzzy
+msgid "Popup menu"
+msgstr "Ibikubiyemo"
+
+#: srcore/srpres.c:843
+msgid "PRG"
+msgstr ""
+
+# basctl/source\basicide\tbxctl.src:RID_TOOLBOX.SID_INSERT_PROGRESSBAR.text
+#: srcore/srpres.c:843
+#, fuzzy
+msgid "PROGRESS BAR"
+msgstr "Umurongo w'aho bigeze"
+
+# basctl/source\basicide\tbxctl.src:RID_TOOLBOX.SID_INSERT_PROGRESSBAR.text
+#: srcore/srpres.c:843
+#, fuzzy
+msgid "Progress bar"
+msgstr "Umurongo w'aho bigeze"
+
+#: srcore/srpres.c:844
+msgid "PBT"
+msgstr ""
+
+# svx/sdi\svxslots.src:SID_FM_PUSHBUTTON.text
+#: srcore/srpres.c:844
+#, fuzzy
+msgid "PUSH BUTTON"
+msgstr "Kanda Buto"
+
+# svx/sdi\svxslots.src:SID_FM_PUSHBUTTON.text
+#: srcore/srpres.c:844
+#, fuzzy
+msgid "Push button"
+msgstr "Kanda Buto"
+
+#: srcore/srpres.c:845
+msgid "RAD"
+msgstr ""
+
+# svx/source\form\fmexpl.src:RID_FMSHELL_CONVERSIONMENU.SID_FM_CONVERTTO_RADIOBUTTON.text
+#: srcore/srpres.c:845
+#, fuzzy
+msgid "RADIO BUTTON"
+msgstr "Buto Radiyo"
+
+# svx/source\form\fmexpl.src:RID_FMSHELL_CONVERSIONMENU.SID_FM_CONVERTTO_RADIOBUTTON.text
+#: srcore/srpres.c:845
+#, fuzzy
+msgid "Radio button"
+msgstr "Buto Radiyo"
+
+#: srcore/srpres.c:846
+#, fuzzy
+msgid "Radio Menu item"
+msgstr "Ikintu"
+
+#: srcore/srpres.c:847
+msgid "RPN"
+msgstr ""
+
+#: srcore/srpres.c:847
+msgid "ROOT PANE"
+msgstr ""
+
+#: srcore/srpres.c:847
+msgid "Root pane"
+msgstr ""
+
+#: srcore/srpres.c:848
+msgid "RHD"
+msgstr ""
+
+#: srcore/srpres.c:848
+msgid "ROW HEADER"
+msgstr ""
+
+#: srcore/srpres.c:848
+#, fuzzy
+msgid "Row header"
+msgstr "Umutwempangano"
+
+#: srcore/srpres.c:849
+msgid "SCR"
+msgstr ""
+
+# sfx2/source\view\framedlg.src:TP_FRAMEPROPERTIES.GB_SCROLLING.text
+#: srcore/srpres.c:849
+#, fuzzy
+msgid "SCROLL BAR"
+msgstr "Agafashagenda"
+
+# sfx2/source\view\framedlg.src:TP_FRAMEPROPERTIES.GB_SCROLLING.text
+#: srcore/srpres.c:849
+msgid "Scroll bar"
+msgstr "Agafashagenda"
+
+#: srcore/srpres.c:850 srcore/srpres.c:878
+msgid "SPN"
+msgstr ""
+
+#: srcore/srpres.c:850
+msgid "SCROLL PANE"
+msgstr ""
+
+#: srcore/srpres.c:850
+msgid "Scroll pane"
+msgstr ""
+
+# 5480
+#: srcore/srpres.c:851
+#, fuzzy
+msgid "SEP"
+msgstr "Itandukanya"
+
+# #-#-#-#-#  officecfg.pot (Gnome 2.12)  #-#-#-#-#
+# officecfg/registry\schema\org\openoffice\Office\Writer.xcs:....Insert.Caption.WriterObject.Table.Settings.Delimiter.text
+# #-#-#-#-#  officecfg.pot (Gnome 2.12)  #-#-#-#-#
+# officecfg/registry\schema\org\openoffice\Office\Writer.xcs:....Insert.Caption.WriterObject.Frame.Settings.Delimiter.text
+# #-#-#-#-#  officecfg.pot (Gnome 2.12)  #-#-#-#-#
+# officecfg/registry\schema\org\openoffice\Office\Writer.xcs:....Insert.Caption.WriterObject.Graphic.Settings.Delimiter.text
+# #-#-#-#-#  officecfg.pot (Gnome 2.12)  #-#-#-#-#
+# officecfg/registry\schema\org\openoffice\Office\Writer.xcs:....Insert.Caption.OfficeObject.Calc.Settings.Delimiter.text
+# #-#-#-#-#  officecfg.pot (Gnome 2.12)  #-#-#-#-#
+# officecfg/registry\schema\org\openoffice\Office\Writer.xcs:....Insert.Caption.OfficeObject.Draw.Settings.Delimiter.text
+# #-#-#-#-#  officecfg.pot (Gnome 2.12)  #-#-#-#-#
+# officecfg/registry\schema\org\openoffice\Office\Writer.xcs:....Insert.Caption.OfficeObject.Chart.Settings.Delimiter.text
+# #-#-#-#-#  officecfg.pot (Gnome 2.12)  #-#-#-#-#
+# officecfg/registry\schema\org\openoffice\Office\Writer.xcs:....Insert.Caption.OfficeObject.Image.Settings.Delimiter.text
+# #-#-#-#-#  officecfg.pot (Gnome 2.12)  #-#-#-#-#
+# officecfg/registry\schema\org\openoffice\Office\Writer.xcs:....Insert.Caption.OfficeObject.Formula.Settings.Delimiter.text
+# #-#-#-#-#  officecfg.pot (Gnome 2.12)  #-#-#-#-#
+# officecfg/registry\schema\org\openoffice\Office\Writer.xcs:....Insert.Caption.OfficeObject.Impress.Settings.Delimiter.text
+# #-#-#-#-#  officecfg.pot (Gnome 2.12)  #-#-#-#-#
+# officecfg/registry\schema\org\openoffice\Office\Writer.xcs:....Insert.Caption.OfficeObject.OLEMisc.Settings.Delimiter.text
+#: srcore/srpres.c:851
+#, fuzzy
+msgid "SEPARATOR"
+msgstr "Mutandukanya"
+
+# #-#-#-#-#  officecfg.pot (Gnome 2.12)  #-#-#-#-#
+# officecfg/registry\schema\org\openoffice\Office\Writer.xcs:....Insert.Caption.WriterObject.Table.Settings.Delimiter.text
+# #-#-#-#-#  officecfg.pot (Gnome 2.12)  #-#-#-#-#
+# officecfg/registry\schema\org\openoffice\Office\Writer.xcs:....Insert.Caption.WriterObject.Frame.Settings.Delimiter.text
+# #-#-#-#-#  officecfg.pot (Gnome 2.12)  #-#-#-#-#
+# officecfg/registry\schema\org\openoffice\Office\Writer.xcs:....Insert.Caption.WriterObject.Graphic.Settings.Delimiter.text
+# #-#-#-#-#  officecfg.pot (Gnome 2.12)  #-#-#-#-#
+# officecfg/registry\schema\org\openoffice\Office\Writer.xcs:....Insert.Caption.OfficeObject.Calc.Settings.Delimiter.text
+# #-#-#-#-#  officecfg.pot (Gnome 2.12)  #-#-#-#-#
+# officecfg/registry\schema\org\openoffice\Office\Writer.xcs:....Insert.Caption.OfficeObject.Draw.Settings.Delimiter.text
+# #-#-#-#-#  officecfg.pot (Gnome 2.12)  #-#-#-#-#
+# officecfg/registry\schema\org\openoffice\Office\Writer.xcs:....Insert.Caption.OfficeObject.Chart.Settings.Delimiter.text
+# #-#-#-#-#  officecfg.pot (Gnome 2.12)  #-#-#-#-#
+# officecfg/registry\schema\org\openoffice\Office\Writer.xcs:....Insert.Caption.OfficeObject.Image.Settings.Delimiter.text
+# #-#-#-#-#  officecfg.pot (Gnome 2.12)  #-#-#-#-#
+# officecfg/registry\schema\org\openoffice\Office\Writer.xcs:....Insert.Caption.OfficeObject.Formula.Settings.Delimiter.text
+# #-#-#-#-#  officecfg.pot (Gnome 2.12)  #-#-#-#-#
+# officecfg/registry\schema\org\openoffice\Office\Writer.xcs:....Insert.Caption.OfficeObject.Impress.Settings.Delimiter.text
+# #-#-#-#-#  officecfg.pot (Gnome 2.12)  #-#-#-#-#
+# officecfg/registry\schema\org\openoffice\Office\Writer.xcs:....Insert.Caption.OfficeObject.OLEMisc.Settings.Delimiter.text
+#: srcore/srpres.c:851
+msgid "Separator"
+msgstr "Mutandukanya"
+
+#: srcore/srpres.c:852
+msgid "SLD"
+msgstr ""
+
+#: srcore/srpres.c:852
+msgid "SLIDER"
+msgstr ""
+
+#: srcore/srpres.c:852
+msgid "Slider"
+msgstr ""
+
+#: srcore/srpres.c:853
+msgid "SPP"
+msgstr ""
+
+#: srcore/srpres.c:853
+msgid "SPLIT PANE"
+msgstr ""
+
+#: srcore/srpres.c:853
+msgid "Split pane"
+msgstr ""
+
+#: srcore/srpres.c:854
+msgid "STA"
+msgstr ""
+
+# sfx2/source\dialog\cfg.src:TP_CONFIG_STATBAR.GRP_STATBAR.text
+#: srcore/srpres.c:854
+#, fuzzy
+msgid "STATUS BAR"
+msgstr "Akarongo k'imimerere"
+
+# 5945
+#: srcore/srpres.c:854
+msgid "Status bar"
+msgstr "umurongo ndangamimerere"
+
+# sc/source\ui\dbgui\asciiopt.src:RID_SCDLG_ASCII.CKB_TAB.text
+#: srcore/srpres.c:855
+#, fuzzy
+msgid "TAB"
+msgstr "Isunika"
+
+#: srcore/srpres.c:855
+#, fuzzy
+msgid "TABLE"
+msgstr "Imbonerahamwe"
+
+#: srcore/srpres.c:855
+msgid "Table"
+msgstr "Imbonerahamwe"
+
+#: srcore/srpres.c:856
+msgid "CEL"
+msgstr ""
+
+# sw/source\ui\shells\shells.src:STR_SWBG_TABLE_CELL.text
+#: srcore/srpres.c:856
+#, fuzzy
+msgid "TABLE CELL"
+msgstr "Akazu k'imbonerahamwe"
+
+# sw/source\ui\shells\shells.src:STR_SWBG_TABLE_CELL.text
+#: srcore/srpres.c:856
+msgid "Table cell"
+msgstr "Akazu k'imbonerahamwe"
+
+#: srcore/srpres.c:857 srcore/srpres.c:882
+msgid "TCH"
+msgstr ""
+
+#: srcore/srpres.c:857
+msgid "TABLE COLUMN HEADER"
+msgstr ""
+
+#: srcore/srpres.c:857
+#, fuzzy
+msgid "Table column header"
+msgstr "Inkingi Umutwempangano"
+
+#: srcore/srpres.c:858
+msgid "TRH"
+msgstr ""
+
+#: srcore/srpres.c:858
+msgid "TABLE ROW HEADER"
+msgstr ""
+
+#: srcore/srpres.c:858
+#, fuzzy
+msgid "Table row header"
+msgstr "Urubariro Umutwempangano"
+
+#: srcore/srpres.c:859 srcore/srpres.c:860
+#, fuzzy
+msgid "TXT"
+msgstr "txt"
+
+#: srcore/srpres.c:859
+msgid "MULTI LINE TEXT"
+msgstr ""
+
+#: srcore/srpres.c:859
+msgid "Multi Line Text"
+msgstr ""
+
+#: srcore/srpres.c:860
+msgid "SINGLE LINE TEXT"
+msgstr ""
+
+#: srcore/srpres.c:860
+msgid "Single Line Text"
+msgstr ""
+
+#: srcore/srpres.c:861
+msgid "TOG"
+msgstr ""
+
+#: srcore/srpres.c:861
+msgid "TOGGLE BUTTON"
+msgstr ""
+
+#: srcore/srpres.c:861
+#, fuzzy
+msgid "Toggle button"
+msgstr "Akabuto"
+
+#: srcore/srpres.c:862
+msgid "TOL"
+msgstr ""
+
+#: srcore/srpres.c:862
+msgid "TOOL BAR"
+msgstr ""
+
+#: srcore/srpres.c:862
+msgid "Tool bar"
+msgstr ""
+
+# #-#-#-#-#  sw.pot (Gnome 2.12)  #-#-#-#-#
+# sw/source\ui\wizard\wizagdlg.src:DLG_WIZARD_AG.DLG_AG4_Text_TipNr1.text
+# #-#-#-#-#  sw.pot (Gnome 2.12)  #-#-#-#-#
+# sw/source\ui\wizard\wizltdlg.src:DLG_WIZARD_LT.DLG_LT9_Text_Tip.text
+#: srcore/srpres.c:863
+#, fuzzy
+msgid "TIP"
+msgstr "Inyobora:"
+
+#: srcore/srpres.c:863
+msgid "TOOL TIP"
+msgstr ""
+
+#: srcore/srpres.c:863
+#, fuzzy
+msgid "Tool tip"
+msgstr "Inyobora:"
+
+#: srcore/srpres.c:864
+msgid "TRE"
+msgstr ""
+
+#: srcore/srpres.c:864
+msgid "TREE"
+msgstr ""
+
+#: srcore/srpres.c:864
+msgid "Tree"
+msgstr ""
+
+#: srcore/srpres.c:865
+msgid "TRI"
+msgstr ""
+
+#: srcore/srpres.c:865
+msgid "TREE ITEM"
+msgstr ""
+
+#: srcore/srpres.c:865
+#, fuzzy
+msgid "Tree item"
+msgstr "Ikintu"
+
+#: srcore/srpres.c:866
+msgid "TRT"
+msgstr ""
+
+#: srcore/srpres.c:866
+msgid "TREE TABLE"
+msgstr ""
+
+#: srcore/srpres.c:866
+#, fuzzy
+msgid "Tree table"
+msgstr "imbonerahamwe#"
+
+#: srcore/srpres.c:867
+msgid "VWP"
+msgstr ""
+
+#: srcore/srpres.c:867
+msgid "VIEWPORT"
+msgstr ""
+
+#: srcore/srpres.c:867
+msgid "Viewport"
+msgstr ""
+
+#: srcore/srpres.c:868
+msgid "WND"
+msgstr ""
+
+# sc/source\ui\src\optdlg.src:RID_SCPAGE_CONTENT.GB_WINDOW.text
+#: srcore/srpres.c:868
+#, fuzzy
+msgid "WINDOW"
+msgstr "Idirishya"
+
+#: srcore/srpres.c:869
+msgid "ACC"
+msgstr ""
+
+#: srcore/srpres.c:869
+msgid "ACCELERATOR LABEL"
+msgstr ""
+
+#: srcore/srpres.c:869
+#, fuzzy
+msgid "Accelerator label"
+msgstr "Akarango"
+
+#: srcore/srpres.c:870
+msgid "ANI"
+msgstr ""
+
+#: srcore/srpres.c:870
+#, fuzzy
+msgid "ANIMATION"
+msgstr "Iyega"
+
+#: srcore/srpres.c:870
+msgid "Animation"
+msgstr "Iyega"
+
+#: srcore/srpres.c:871
+msgid "ARR"
+msgstr ""
+
+#: srcore/srpres.c:871
+#, fuzzy
+msgid "ARROW"
+msgstr "Akambi"
+
+#: srcore/srpres.c:871
+msgid "Arrow"
+msgstr "Akambi"
+
+#: srcore/srpres.c:872
+msgid "CAL"
+msgstr ""
+
+# svtools/source\dialogs\addresstemplate.src:STR_FIELD_CALENDAR.text
+#: srcore/srpres.c:872
+#, fuzzy
+msgid "CALENDAR"
+msgstr "Kalindari"
+
+# svtools/source\dialogs\addresstemplate.src:STR_FIELD_CALENDAR.text
+#: srcore/srpres.c:872
+msgid "Calendar"
+msgstr "Kalindari"
+
+#: srcore/srpres.c:873
+msgid "DAT"
+msgstr ""
+
+#: srcore/srpres.c:873
+msgid "DATE EDITOR"
+msgstr ""
+
+#: srcore/srpres.c:873
+#, fuzzy
+msgid "Date editor"
+msgstr "Muhinduzi"
+
+#: srcore/srpres.c:874
+msgid "DIL"
+msgstr ""
+
+#: srcore/srpres.c:874
+msgid "DIAL"
+msgstr ""
+
+#: srcore/srpres.c:874
+msgid "Dial"
+msgstr ""
+
+#: srcore/srpres.c:875
+msgid "DRW"
+msgstr ""
+
+#: srcore/srpres.c:875
+msgid "DRAWING AREA"
+msgstr ""
+
+#: srcore/srpres.c:875
+#, fuzzy
+msgid "Drawing area"
+msgstr "Ubuso"
+
+#: srcore/srpres.c:876
+msgid "FNT"
+msgstr ""
+
+#: srcore/srpres.c:876
+msgid "FONT CHOOSER"
+msgstr ""
+
+#: srcore/srpres.c:876
+msgid "Font chooser"
+msgstr ""
+
+#: srcore/srpres.c:877
+msgid "IMG"
+msgstr ""
+
+# #-#-#-#-#  officecfg.pot (Gnome 2.12)  #-#-#-#-#
+# officecfg/registry\schema\org\openoffice\Office\Common.xcs:....Image.text
+# #-#-#-#-#  officecfg.pot (Gnome 2.12)  #-#-#-#-#
+# officecfg/registry\schema\org\openoffice\Office\Writer.xcs:....Insert.Caption.OfficeObject.Image.Enable.text
+#: srcore/srpres.c:877
+#, fuzzy
+msgid "IMAGE"
+msgstr "Ishusho"
+
+# #-#-#-#-#  officecfg.pot (Gnome 2.12)  #-#-#-#-#
+# officecfg/registry\schema\org\openoffice\Office\Common.xcs:....Image.text
+# #-#-#-#-#  officecfg.pot (Gnome 2.12)  #-#-#-#-#
+# officecfg/registry\schema\org\openoffice\Office\Writer.xcs:....Insert.Caption.OfficeObject.Image.Enable.text
+#: srcore/srpres.c:877
+msgid "Image"
+msgstr "Ishusho"
+
+#: srcore/srpres.c:878
+#, fuzzy
+msgid "SPIN BUTTON"
+msgstr "Buto Nkaragwa"
+
+#: srcore/srpres.c:878
+#, fuzzy
+msgid "Spin button"
+msgstr "Buto Nkaragwa"
+
+#: srcore/srpres.c:879
+msgid "TRM"
+msgstr ""
+
+#: srcore/srpres.c:879
+msgid "TERMINAL"
+msgstr ""
+
+#: srcore/srpres.c:879
+msgid "Terminal"
+msgstr ""
+
+# svx/source\stbctrls\stbctrls.src:RID_SVXSTR_SELMODE_ER.text
+#: srcore/srpres.c:880
+msgid "EXT"
+msgstr "EXT"
+
+# 2175
+#: srcore/srpres.c:880
+#, fuzzy
+msgid "EXTENDED"
+msgstr "cya/ byagutse"
+
+# 2175
+#: srcore/srpres.c:880
+msgid "Extended"
+msgstr "cya/byagutse"
+
+#: srcore/srpres.c:881
+msgid "TLI"
+msgstr ""
+
+#: srcore/srpres.c:881
+msgid "TABLE LINE"
+msgstr ""
+
+#: srcore/srpres.c:881
+#, fuzzy
+msgid "Table line"
+msgstr "Umurongo"
+
+#: srcore/srpres.c:882
+msgid "TABLE COLUMNS HEADER"
+msgstr ""
+
+#: srcore/srpres.c:882
+#, fuzzy
+msgid "Table columns header"
+msgstr "Inkingi Umutwempangano"
+
+#: srcore/srpres.c:883
+msgid "TIT"
+msgstr ""
+
+#: srcore/srpres.c:883
+msgid "TITLE BAR"
+msgstr ""
+
+#: srcore/srpres.c:883
+msgid "Title bar"
+msgstr ""
+
+#: srcore/srpres.c:884
+msgid "EDB"
+msgstr ""
+
+#: srcore/srpres.c:884
+msgid "EDIT BAR"
+msgstr ""
+
+#: srcore/srpres.c:884
+msgid "Edit bar"
+msgstr ""
+
+#: srcore/srspc.c:439
+#, fuzzy, c-format
+msgid "Incorrect parameters for voice \"%s%s\""
+msgstr "Ibigenga kugirango"
+
+#: srcore/srspc.c:484
+#, fuzzy, c-format
+msgid "failed to send to speech next string \"%s\""
+msgstr "Byanze Kuri Kohereza Kuri Komeza>> Ikurikiranyanyuguti"
+
+#: srcore/srspc.c:550
+#, fuzzy, c-format
+msgid "could not create/modify voice \"%s\""
+msgstr "OYA Kurema Guhindura"
+
+#: srcore/srspc.c:710
+#, fuzzy, c-format
+msgid "voice \"%s\" will sound this way"
+msgstr "Ijwi iyi"
+
+#: srcore/srspc.c:715
+#, fuzzy, c-format
+msgid "could not test voice \"%s\""
+msgstr "OYA Igerageza"
+
+#: srcore/srspc.c:804
+#, fuzzy, c-format
+msgid "value not supported for speech count mode \"%s\""
+msgstr "Agaciro OYA kugirango IBARA Ubwoko"
+
+#: srcore/srspc.c:840
+#, fuzzy, c-format
+msgid "value not supported for speech modifiers type \"%s\""
+msgstr "Agaciro OYA kugirango Ubwoko"
+
+#: srcore/srspc.c:876
+#, fuzzy, c-format
+msgid "value not supported for speech cursors type \"%s\""
+msgstr "Agaciro OYA kugirango Ubwoko"
+
+#: srcore/srspc.c:912
+#, fuzzy, c-format
+msgid "value not supported for speech spaces type \"%s\""
+msgstr "Agaciro OYA kugirango Imyanya Ubwoko"
+
+#: srcore/srspc.c:948
+#, fuzzy, c-format
+msgid "value not supported for speech dictionary type \"%s\""
+msgstr "Agaciro OYA kugirango Inkoranyamagambo Ubwoko"
+
+#: srcore/srspc.c:985
+#, fuzzy, c-format
+msgid "value not supported for speech text echo type \"%s\""
+msgstr "Agaciro OYA kugirango Umwandiko Ubwoko"
+
+# starmath/source\smres.src:RID_TOOLBOXWINDOW.6.RID_TILDEX.text
+#: srcore/srspc.c:1004
+msgid "Tilde"
+msgstr "Tiride"
+
+#: srcore/srspc.c:1004
+msgid "Tildaes"
+msgstr ""
+
+#: srcore/srspc.c:1005
+msgid "Exclamation"
+msgstr ""
+
+#: srcore/srspc.c:1005
+msgid "Exclamations"
+msgstr ""
+
+# 345
+#: srcore/srspc.c:1006
+#, fuzzy
+msgid "At"
+msgstr "ku"
+
+#: srcore/srspc.c:1006
+msgid "Ats"
+msgstr ""
+
+#: srcore/srspc.c:1007
+msgid "Hash"
+msgstr ""
+
+#: srcore/srspc.c:1007
+msgid "Hashes"
+msgstr ""
+
+# sc/source\core\src\compiler.src:RID_SC_FUNCTION_NAMES.SC_OPCODE_CURRENCY.text
+#: srcore/srspc.c:1008
+#, fuzzy
+msgid "Dollar"
+msgstr "IDOLARI"
+
+#: srcore/srspc.c:1008
+msgid "Dollars"
+msgstr ""
+
+# #-#-#-#-#  officecfg.pot (Gnome 2.12)  #-#-#-#-#
+# officecfg/registry\schema\org\openoffice\Office\WriterWeb.xcs:....Layout.Zoom.Type..0.text
+# #-#-#-#-#  officecfg.pot (Gnome 2.12)  #-#-#-#-#
+# officecfg/registry\schema\org\openoffice\Office\Writer.xcs:....Layout.Zoom.Type..0.text
+#: srcore/srspc.c:1009
+msgid "Percent"
+msgstr "Ku ijana"
+
+#: srcore/srspc.c:1009
+msgid "Percents"
+msgstr ""
+
+#: srcore/srspc.c:1010
+msgid "Caret"
+msgstr ""
+
+#: srcore/srspc.c:1010
+msgid "Carets"
+msgstr ""
+
+# svx/source\options\optinet2.src:RID_SVXPAGE_INET_SEARCH.RB_AND.text
+#: srcore/srspc.c:1011
+msgid "And"
+msgstr "Na"
+
+#: srcore/srspc.c:1011
+msgid "Ands"
+msgstr ""
+
+#: srcore/srspc.c:1012
+msgid "Asterisk"
+msgstr ""
+
+#: srcore/srspc.c:1012
+msgid "Asterisks"
+msgstr ""
+
+#: srcore/srspc.c:1013
+msgid "Left Paranthesis"
+msgstr ""
+
+#: srcore/srspc.c:1014
+msgid "Right Paranthesis"
+msgstr ""
+
+#: srcore/srspc.c:1015
+msgid "Underscore"
+msgstr ""
+
+#: srcore/srspc.c:1015
+msgid "Underscores"
+msgstr ""
+
+#: srcore/srspc.c:1016
+msgid "Plus"
+msgstr "Guteranya"
+
+#: srcore/srspc.c:1016
+msgid "Pluses"
+msgstr ""
+
+# sw/source\ui\ribbar\inputwin.src:MN_CALC_POPUP.MN_POP_OPS.MN_CALC_EQ.text
+#: srcore/srspc.c:1017
+msgid "Equal"
+msgstr "Bingana"
+
+#: srcore/srspc.c:1017
+msgid "Equals"
+msgstr ""
+
+#: srcore/srspc.c:1018
+msgid "Minus"
+msgstr ""
+
+#: srcore/srspc.c:1018
+msgid "Minuses"
+msgstr ""
+
+#: srcore/srspc.c:1019
+msgid "Quote"
+msgstr "Gushyiraho akugarizo"
+
+#: srcore/srspc.c:1019
+msgid "Quotes"
+msgstr ""
+
+#: srcore/srspc.c:1020
+msgid "Left Bracket"
+msgstr "Agakubo Ibumoso"
+
+#: srcore/srspc.c:1020
+msgid "Left Brackets"
+msgstr ""
+
+#: srcore/srspc.c:1021
+msgid "Right Bracket"
+msgstr "Agakubo Iburyo"
+
+#: srcore/srspc.c:1021
+msgid "Right Brackets"
+msgstr ""
+
+#: srcore/srspc.c:1022
+msgid "Left Brace"
+msgstr "Agasodeko Ibumoso"
+
+#: srcore/srspc.c:1022
+msgid "Left Braces"
+msgstr ""
+
+#: srcore/srspc.c:1023
+msgid "Right Brace"
+msgstr "Agasodeko Iburyo"
+
+#: srcore/srspc.c:1023
+msgid "Right Braces"
+msgstr ""
+
+# 5458
+#: srcore/srspc.c:1024
+msgid "Semicolon"
+msgstr "Akabago n'akitso"
+
+# 5459
+#: srcore/srspc.c:1024
+msgid "Semicolons"
+msgstr "Utubago n'utwitso"
+
+#: srcore/srspc.c:1025
+msgid "Colon"
+msgstr ""
+
+#: srcore/srspc.c:1025
+msgid "Colons"
+msgstr ""
+
+#: srcore/srspc.c:1026
+#, fuzzy
+msgid "Double quote"
+msgstr "Gushyiraho akugarizo"
+
+# offmgr/source\offapp\dialog\autocdlg.src:RID_OFAPAGE_AUTOCORR_QUOTE.FL_DOUBLE.text
+#: srcore/srspc.c:1026
+msgid "Double quotes"
+msgstr "Utwugarizo n'utwuguruzo"
+
+#: srcore/srspc.c:1027
+msgid "Apostrophe"
+msgstr ""
+
+#: srcore/srspc.c:1027
+msgid "Apostrophes"
+msgstr ""
+
+#: srcore/srspc.c:1028
+msgid "Back Slash"
+msgstr ""
+
+#: srcore/srspc.c:1028
+msgid "Back Slashes"
+msgstr ""
+
+#: srcore/srspc.c:1029
+msgid "Bar"
+msgstr ""
+
+# sch/source\ui\app\strings.src:STR_BARS.text
+#: srcore/srspc.c:1029
+msgid "Bars"
+msgstr "Imirongo-ntambike"
+
+# sw/source\ui\ribbar\inputwin.src:MN_CALC_POPUP.MN_POP_OPS.MN_CALC_GRE.text
+#: srcore/srspc.c:1030
+msgid "Greater"
+msgstr "Biruta"
+
+#: srcore/srspc.c:1030
+msgid "Greaters"
+msgstr ""
+
+# sw/source\ui\ribbar\inputwin.src:MN_CALC_POPUP.MN_POP_OPS.MN_CALC_LES.text
+#: srcore/srspc.c:1031
+msgid "Less"
+msgstr "Birutwa"
+
+#: srcore/srspc.c:1031
+msgid "Lesses"
+msgstr ""
+
+#: srcore/srspc.c:1032
+msgid "Comma"
+msgstr "akitso"
+
+#: srcore/srspc.c:1032
+msgid "Commas"
+msgstr ""
+
+# starmath/source\smres.src:RID_TOOLBOXWINDOW.6.RID_DOTX.text
+#: srcore/srspc.c:1033
+msgid "Dot"
+msgstr "Akadomo"
+
+#: srcore/srspc.c:1033
+msgid "Dots"
+msgstr "Utudomo"
+
+# officecfg/registry\schema\org\openoffice\Office\Common.xcs:....Font.Strikeout..5.text
+#: srcore/srspc.c:1034
+#, fuzzy
+msgid "Slash"
+msgstr "AKARONGOKABERAMYE"
+
+#: srcore/srspc.c:1034
+msgid "Slashes"
+msgstr ""
+
+#: srcore/srspc.c:1035
+msgid "Questions"
+msgstr ""
+
+#: srcore/srspc.c:1109
+#, fuzzy, c-format
+msgid "value not supported for speech punctuation type \"%s\""
+msgstr "Agaciro OYA kugirango Ubwoko"
+
+#: srcore/srspc.c:1375
+#, fuzzy
+msgid "Unable to initialize hashtable"
+msgstr "Kuri gutangiza"
+
+#: srcore/srspc.c:1381
+#, fuzzy
+msgid "Unable to load dictionary from gconf"
+msgstr "Kuri Ibirimo Inkoranyamagambo Bivuye"
+
+#: srcore/srspc.c:1572
+msgid "speech initialization succeded"
+msgstr ""
+
+#: srcore/srspc.c:1576
+#, fuzzy
+msgid "speech initialization failed"
+msgstr "Byanze"
+
+# LOCALIZATION NOTE : BLOCK end GLYPHS
+# Enter, backspace, and Tab might have both glyphs and text
+# if the keyboards usually have a glyph,
+# if there is a meaningful translation,
+# or if keyboards are localized
+# then translate them or insert the appropriate glyph
+# otherwise you should probably just translate the glyph regions
+# LOCALIZATION NOTE : BLOCK maybe GLYPHS
+#: srcore/srspc.c:1772
+#, fuzzy
+msgid "enter"
+msgstr "Injiza"
+
+#: srcore/srspc.c:1855
+#, fuzzy, c-format
+msgid "can not find \"%s\" voice. use default voice"
+msgstr "OYA Gushaka Gukoresha Mburabuzi"
+
+#: srcore/srspc.c:1872
+#, fuzzy
+msgid "voices pitch will be set to default value"
+msgstr "Gushyiraho Kuri Mburabuzi Agaciro"
+
+#: srcore/srspc.c:1874
+msgid "voices pitch will be decreased"
+msgstr ""
+
+#: srcore/srspc.c:1876
+msgid "voices pitch will be increased"
+msgstr ""
+
+#: srcore/srspc.c:1920
+#, fuzzy
+msgid "voices rate will be set to default value"
+msgstr "Igipimo Gushyiraho Kuri Mburabuzi Agaciro"
+
+#: srcore/srspc.c:1922
+#, fuzzy
+msgid "voices rate will be decreased"
+msgstr "Igipimo"
+
+#: srcore/srspc.c:1924
+#, fuzzy
+msgid "voices rate will be increased"
+msgstr "Igipimo"
+
+#: srcore/srspc.c:1969
+#, fuzzy
+msgid "voices volume will be set to default value"
+msgstr "Igice Gushyiraho Kuri Mburabuzi Agaciro"
+
+#: srcore/srspc.c:1971
+#, fuzzy
+msgid "voices volume will be decreased"
+msgstr "Igice"
+
+#: srcore/srspc.c:1973
+#, fuzzy
+msgid "voices volume will be increased"
+msgstr "Igice"
+
+#: srcore/srspc.c:2099
+#, fuzzy, c-format
+msgid "no support for speech key \"%s\""
+msgstr "Oya Gushigikira kugirango Urufunguzo"

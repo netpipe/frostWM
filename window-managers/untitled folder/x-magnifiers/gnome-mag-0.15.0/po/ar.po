@@ -1,0 +1,209 @@
+# translation of gnome-mag.HEAD.ar.po to Arabic
+# Arabic translation of PACKAGE.
+# Copyright (C) 2003 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Arafat Medini <lumina@silverpen.de>, 2003.
+# Khaled Hosny <khaledhosny@eglug.org>, 2006.
+# Djihed Afifi <djihed@gmail.com>, 2006.
+# Anas Husseini <linux.anas@gmail.com>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-mag.HEAD.ar\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2007-09-13 23:45+0100\n"
+"PO-Revision-Date: 2007-09-17 15:34+0100\n"
+"Last-Translator: Djihed Afifi <djihed@gmail.com>\n"
+"Language-Team: Arabic <doc@arabeyes.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: Plural-Forms: nplurals=4; plural=n==1 ? 0 : n==2 ? 1 : n>=3 && n<=10 ? 2 : 3\n"
+
+#: ../colorblind/GNOME_Magnifier_ColorblindApplet.server.in.in.h:1
+msgid "Accessibility"
+msgstr "الإتاحة"
+
+#: ../colorblind/GNOME_Magnifier_ColorblindApplet.server.in.in.h:2
+msgid "Colorblind applet"
+msgstr "بريمج عمى الألوان"
+
+#: ../colorblind/GNOME_Magnifier_ColorblindApplet.server.in.in.h:3
+msgid "Controls image filters for colorblind people"
+msgstr "يتحكم باستخدام مصفي الصورة لعمى الألوان"
+
+#: ../colorblind/data/Colorblind_Applet.xml.h:1
+#: ../colorblind/ui/WindowUI.py:40
+msgid "_About"
+msgstr "_حول"
+
+#: ../colorblind/data/Colorblind_Applet.xml.h:2
+#: ../colorblind/ui/WindowUI.py:39
+msgid "_Preferences"
+msgstr "التف_ضيلات"
+
+#: ../colorblind/data/colorblind-prefs.glade.h:1
+msgid "<b>Default Filter</b>"
+msgstr "<b>المصفي الافتراضي</b>"
+
+#: ../colorblind/data/colorblind-prefs.glade.h:2
+msgid "<b>Filters</b>"
+msgstr "<b>المصفيات</b>"
+
+#: ../colorblind/data/colorblind-prefs.glade.h:3
+msgid "<b>Shortcut</b>"
+msgstr "<b>الاختصار</b>"
+
+#: ../colorblind/data/colorblind-prefs.glade.h:4
+msgid "<i>This is the filter that will be used when enabling/disabling the filters.</i>"
+msgstr "<i>هذا هو المصفي الذي سيُستخدم عند تفعيل/تعطيل المصفيات.</i>"
+
+#: ../colorblind/data/colorblind-prefs.glade.h:5
+msgid "Colorblind Filters Preferences"
+msgstr "تفضيلات مصفيات عمى الألوان"
+
+#: ../colorblind/data/colorblind-prefs.glade.h:6
+msgid "Configure the filter being used as default when the filters are disabled."
+msgstr "إعداده للاستخدام كمُصفٍّ افتراضي عندما يُعطل بقية المصفيات."
+
+#: ../colorblind/data/colorblind-prefs.glade.h:7
+msgid "Enable/Disable Filters:"
+msgstr "فعّل/عطـّل المصفيات:"
+
+#: ../colorblind/data/colorblind-prefs.glade.h:8
+msgid "Filter:"
+msgstr "المصفي:"
+
+#: ../colorblind/data/colorblind-prefs.glade.h:9
+#: ../colorblind/ui/ColorblindPreferencesUI.py:219
+msgid "Negative Hue Shift"
+msgstr "إزاحة التدرج سلبياً"
+
+#: ../colorblind/data/colorblind-prefs.glade.h:10
+#: ../colorblind/ui/ColorblindPreferencesUI.py:218
+msgid "Positive Hue Shift"
+msgstr "إزاحة التدرج إيجابياً"
+
+#: ../colorblind/data/colorblind-prefs.glade.h:11
+msgid "Select Next Filter:"
+msgstr "اختر المصفي التالي:"
+
+#: ../colorblind/data/colorblind-prefs.glade.h:12
+#: ../colorblind/ui/ColorblindPreferencesUI.py:217
+msgid "Selective Blue Desaturation"
+msgstr "عدم التشبع الأزرق الاختياري"
+
+#: ../colorblind/data/colorblind-prefs.glade.h:13
+#: ../colorblind/ui/ColorblindPreferencesUI.py:214
+msgid "Selective Blue Saturation"
+msgstr "التشبع الأزرق الاختياري"
+
+#: ../colorblind/data/colorblind-prefs.glade.h:14
+#: ../colorblind/ui/ColorblindPreferencesUI.py:216
+msgid "Selective Green Desaturation"
+msgstr "عدم التشبع الأخضر الاختياري"
+
+#: ../colorblind/data/colorblind-prefs.glade.h:15
+#: ../colorblind/ui/ColorblindPreferencesUI.py:213
+msgid "Selective Green Saturation"
+msgstr "التشبع الأخضر الاختياري"
+
+#: ../colorblind/data/colorblind-prefs.glade.h:16
+#: ../colorblind/ui/ColorblindPreferencesUI.py:215
+msgid "Selective Red Desaturation"
+msgstr "عدم التشبع الأحمر الاختياري"
+
+#: ../colorblind/data/colorblind-prefs.glade.h:17
+#: ../colorblind/ui/ColorblindPreferencesUI.py:212
+msgid "Selective Red Saturation"
+msgstr "التشبع الأحمر الاختياري"
+
+#: ../colorblind/data/colorblind-prefs.glade.h:18
+msgid "This filter completely desaturates the blue color when this is the predominant pixel color in the image."
+msgstr "هذا المصفي يلغي تشبع اللون الأزرق كلياً عندما يكون هذا هو لون البكسلات الغالب في الصورة."
+
+#: ../colorblind/data/colorblind-prefs.glade.h:19
+msgid "This filter completely desaturates the green color when this is the predominant pixel color in the image."
+msgstr "هذا المصفي يلغي تشبع اللون الأخضر كلياً عندما يكون هذا هو لون البكسلات الغالب في الصورة."
+
+#: ../colorblind/data/colorblind-prefs.glade.h:20
+msgid "This filter completely desaturates the red color when this is the predominant pixel color in the image."
+msgstr "هذا المصفي يلغي تشبع اللون الأحمر كلياً عندما يكون هذا هو  لون البكسلات الغالب في الصورة."
+
+#: ../colorblind/data/colorblind-prefs.glade.h:21
+msgid "This filter completely saturates the blue color when this is the predominant pixel color in the image."
+msgstr "هذا المصفي يشبع اللون الأزرق كلياً عندما يكون هذا هو  لون البكسلات الغالب في الصورة."
+
+#: ../colorblind/data/colorblind-prefs.glade.h:22
+msgid "This filter completely saturates the green color when this is the predominant pixel color in the image."
+msgstr "هذا المصفي يشبع اللون الأخضر كلياً عندما يكون هذا هو لون البكسلات الغالب في الصورة."
+
+#: ../colorblind/data/colorblind-prefs.glade.h:23
+msgid "This filter completely saturates the red color when this is the predominant pixel color in the image."
+msgstr "هذا المصفي يشبع اللون الأحمر كلياً عندما يكون هذا هو لون البكسلات الغالب في الصورة."
+
+#: ../colorblind/data/colorblind-prefs.glade.h:24
+msgid "Transforms the colors Red to Blue, Green to Red and Blue to Green, carrying a potentially ambiguous set of colors to a different band of the spectrum."
+msgstr "يحوّل الألوان: الأحمر إلى أزرق والأخضر إلى أحمر والأزرق إلى أخضر، ناقلاً مجموعة ضخمة من الألوان إلى نطاق آخر من الطيف."
+
+#: ../colorblind/data/colorblind-prefs.glade.h:25
+msgid "Transforms the colors Red to Green, Green to Blue and Blue to Red, carrying a potentially ambiguous set of colors to a different band of the spectrum."
+msgstr "يحوّل الألوان: الأحمر إلى أخضر والأخضر إلى أزرق والأزرق إلى أحمر، ناقلاً مجموعة ضخمة من الألوان إلى نطاق آخر من الطيف."
+
+#: ../colorblind/ui/WindowUI.py:36
+msgid "_File"
+msgstr "_ملف"
+
+#: ../colorblind/ui/WindowUI.py:37
+msgid "_Quit"
+msgstr "خر_وج"
+
+#: ../colorblind/ui/WindowUI.py:38
+msgid "_Edit"
+msgstr "حرّ_ر"
+
+#: ../colorblind/ui/About.py:22
+msgid "Colorblind Applet"
+msgstr "بريمج عمى الألوان"
+
+#: ../colorblind/ui/About.py:25
+msgid "Image filters for the colorblind. This is applet is part of gnome-mag, a magnification service for GNOME."
+msgstr "مصفيات الصورة لعمى الألوان. هذا البريمج هو جزء من gnome-mag، وهي خدمة تكبير تابعة لجنوم."
+
+#: ../colorblind/ui/About.py:28
+msgid "gnome-mag website"
+msgstr "موقع ويب gnome-mag"
+
+#. about.set_documenters([])
+#. translators: These appear in the About dialog, usual format applies.
+#: ../colorblind/ui/About.py:36
+msgid "translator-credits"
+msgstr "Anas Husseini <linux.anas@gmail.com>"
+
+#: ../colorblind/ui/ColorblindPreferencesUI.py:105
+msgid "New accelerator..."
+msgstr "مسرّع جديد..."
+
+#: ../colorblind/ui/ColorblindPreferencesUI.py:157
+#, python-format
+msgid ""
+"The shortcut \"%s\" cannot be used because it will become impossible to type using this key.\n"
+"Please try with a key such as Control, Alt or Shift at the same time.\n"
+msgstr ""
+"الاختصار \"%s\" لا يمكن استخدامه لأن الطباعة بهذا المفتاح ستصبح متعذرة.\n"
+"حاول رجاءً استخدام مفتاح مع Ctrl أو Alt أو Shift في نفس الوقت.\n"
+
+#: ../magnifier/GNOME_Magnifier.server.in.in.h:1
+msgid "Magnifier"
+msgstr "مكبّر"
+
+#: ../magnifier/GNOME_Magnifier.server.in.in.h:2
+msgid "Simple Screen Magnification Service"
+msgstr "خدمة بسيطة لتكبير الشاشة"
+
+#: ../magnifier/magnifier-main.c:408
+#, c-format
+msgid "Can't open display: DISPLAY is not set"
+msgstr "لم يمكن فتح الشاشة، المتغير DISPLAY غير محدد."
+

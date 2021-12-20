@@ -1,0 +1,29 @@
+<oaf_info>
+<oaf_server iid="OAFIID:GNOME_Magnifier_ColorblindApplet_Factory"
+	    type="exe" location="@LIBDIR@/colorblind-applet/colorblind-applet">
+
+	<oaf_attribute name="repo_ids" type="stringv">
+		<item value="IDL:Bonobo/GenericFactory:1.0"/>
+		<item value="IDL:Bonobo/Unknown:1.0"/>
+	</oaf_attribute>
+	<oaf_attribute name="bonobo:environment" type="stringv">
+		<item value="DISPLAY"/>
+	</oaf_attribute>
+	<oaf_attribute name="name" type="string" _value="Colorblind applet"/>
+	<oaf_attribute name="description" type="string" _value="Controls image filters for colorblind people"/>
+</oaf_server>
+
+<oaf_server iid="OAFIID:GNOME_Magnifier_ColorblindApplet"
+	    type="factory" location="OAFIID:GNOME_Magnifier_ColorblindApplet_Factory">
+
+	<oaf_attribute name="repo_ids" type="stringv">
+		<item value="IDL:GNOME/Vertigo/PanelAppletShell:1.0"/>
+		<item value="IDL:Bonobo/Control:1.0"/>
+		<item value="IDL:Bonobo/Unknown:1.0"/>
+	</oaf_attribute>
+	<oaf_attribute name="name" type="string" _value="Colorblind applet"/>
+	<oaf_attribute name="description" type="string" _value="Controls image filters for colorblind people"/>
+	<oaf_attribute name="panel:category" type="string" _value="Accessibility"/>
+	<oaf_attribute name="panel:icon" type="string" value="colorblind-applet.png"/>
+</oaf_server>
+</oaf_info>

@@ -1,0 +1,5112 @@
+# Vietnamese translation for gnopernicus.
+# Copyright © 2005 Gnome i18n Project for Vietnamese.
+# pclouds <pclouds@gmx.net>, 2003.
+# Clytie Siddall <clytie@riverland.net.au>, 2005.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnopernicus GNOME HEAD\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2005-09-02 06:37+0000\n"
+"PO-Revision-Date: 2005-09-16 16:59+0930\n"
+"Last-Translator: Clytie Siddall <clytie@riverland.net.au>\n"
+"Language-Team: Vietnamese <gnomevi-list@lists.sourceforge.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"X-Generator: LocFactoryEditor 1.2.2\n"
+
+#: ../braille/libbrl/ttybrl.c:193
+#, c-format
+msgid "BRLTTY command code not bound to Gnopernicus key code: 0X%04X\n"
+msgstr "Mã lệnh BRLTTY không được tổ hợp với mã phím Gnopernicus: 0X%04X\n"
+
+#: ../braille/libbrl/ttybrl.c:256
+msgid "Error opening brlapi connection"
+msgstr "Gặp lỗi khi mở kết nối kiểu « briapi »."
+
+#: ../braille/libbrl/ttybrl.c:257
+#, c-format
+msgid ""
+"Please check that\n"
+" - %s exists and contains some data\n"
+" - you have read permission on %s\n"
+" - BRLTTY is running\n"
+msgstr ""
+"Hãy kiểu tra xem\n"
+" • có %s mà chứa dữ liệu\n"
+" • bạn có quyền đọc %s\n"
+" • BRLTTY đang chạy.\n"
+
+#: ../braille/libbrl/ttybrl.c:266
+msgid "Unable to get display size"
+msgstr "Lỗi đặt kích thước bộ trình bày."
+
+#: ../braille/libbrl/ttybrl.c:270
+#, c-format
+msgid "BrlAPI detected a %dx%d display\n"
+msgstr "BriAPI đã phát hiện một bộ trình bày kiểu %dx%d\n"
+
+#: ../braille/libbrl/ttybrl.c:320
+#, c-format
+msgid "no XFree86_VT property\n"
+msgstr "không có thuộc tính XFree86_VT\n"
+
+#: ../braille/libbrl/ttybrl.c:326
+#, c-format
+msgid "no item in XFree86_VT property\n"
+msgstr "không có mục nào trong thuộc tính XFree86_VT\n"
+
+#: ../braille/libbrl/ttybrl.c:340
+#, c-format
+msgid "Bad format for VT number\n"
+msgstr "Số VT dạng sai\n"
+
+#: ../braille/libbrl/ttybrl.c:344
+#, c-format
+msgid "Bad type for VT number\n"
+msgstr "Số VT kiểu sai\n"
+
+#: ../braille/libbrl/ttybrl.c:350
+msgid "Unable to get Tty"
+msgstr "Không thể lấy Tty"
+
+#: ../braille/test/remote.c:545
+msgid "Braille remote"
+msgstr "Chữ Bray từ xa"
+
+#: ../brlmon/brlmon.c:196
+msgid "Braille monitor"
+msgstr "Màn hình chữ Bray"
+
+#: ../brlmon/brlmon.c:325 ../brlmon/brlmon.c:333
+#, c-format
+msgid "Invalid port number: %d."
+msgstr "Sổ hiệu cổng không hợp lệ: %d."
+
+# Literal: don't translate / Nghĩa chử: đừng dịch
+#: ../brlmon/brlmon.c:326 ../brlmon/brlmon.c:334
+msgid "port_no = [1025 - 30000]."
+msgstr "port_no = [1025 - 30000]."
+
+#: ../brlmon/brlmon.c:520
+msgid "Can not open socket!"
+msgstr "Không mở được ổ cắm."
+
+#: ../brlmon/brlmon.c:543
+#, c-format
+msgid "Can not bind port number %d."
+msgstr "Không thể đóng kết cổng số %d."
+
+#: ../brlmon/brlmon.c:547
+#, c-format
+msgid "Waiting for data on port UDP %u."
+msgstr "Chờ dữ liệu trên cổng UDP %u."
+
+#: ../brlmon/brlmonui.c:225 ../gnopi/gnopiconf.c:43
+msgid "Failed to init gconf client."
+msgstr "Lỗi khởi động trình khách GConf."
+
+#: ../brlmon/brlmonui.c:234 ../srconf/libsrconf/libsrconf.c:418
+msgid "Failed to add directory."
+msgstr "Lỗi thêm thư mục."
+
+#: ../brlmon/brlmonui.c:246 ../gnopi/kbconf.c:79 ../gnopi/spconf.c:95
+#: ../srconf/libsrconf/libsrconf.c:431
+msgid "Failed to add notify."
+msgstr "Lỗi thêm thông báo."
+
+#: ../brlmon/brlmonui.c:261 ../gnopi/gnopiconf.c:145
+#, c-format
+msgid "Expected key: %s"
+msgstr "Khóa mong đợi: %s"
+
+#: ../brlmon/brlmonui.c:301
+#, c-format
+msgid "Failed to set value: %d"
+msgstr "Lỗi đặt giá trị: %d"
+
+#: ../brlmon/brlmonui.c:342 ../brlmon/brlmonui.c:444 ../gnopi/gnopiconf.c:353
+#: ../gnopi/gnopiconf.c:407 ../gnopi/gnopiconf.c:558 ../gnopi/gnopiconf.c:731
+#, c-format
+msgid "Invalid type of key: %s."
+msgstr "Kiểu khóa không hợp lệ: %s."
+
+#: ../brlmon/brlmonui.c:345 ../brlmon/brlmonui.c:364
+#, c-format
+msgid "Failed to set int value: %d."
+msgstr "Lỗi đặt giá trị nguyên: %d."
+
+#: ../brlmon/brlmonui.c:358 ../brlmon/brlmonui.c:459
+#, c-format
+msgid "Failed to get value: %s."
+msgstr "Lỗi lấy giá trị: %s."
+
+#: ../brlmon/brlmonui.c:403 ../gnopi/gnopiconf.c:355 ../gnopi/gnopiconf.c:373
+#: ../gnopi/gnopiconf.c:560 ../gnopi/gnopiconf.c:576
+#, c-format
+msgid "Failed to set value: %d."
+msgstr "Lỗi đặt giá trị: %d."
+
+#: ../brlmon/brlmonui.c:447 ../brlmon/brlmonui.c:462
+#, c-format
+msgid "Failed to set boolean value: %d."
+msgstr "Lỗi đặt giá trị luận lý: %d."
+
+#: ../brlmon/brlmonui.c:501 ../gnopi/gnopiconf.c:494 ../gnopi/gnopiconf.c:507
+#, c-format
+msgid "Failed to set value: %s."
+msgstr "Lỗi đặt giá trị: %s."
+
+#: ../brlmon/brlmonui.c:535
+#, c-format
+msgid "Failed to get string value: %s."
+msgstr "Lỗi lấy giá trị chuỗi: %s."
+
+#: ../brlmon/brlmonui.c:539 ../brlmon/brlmonui.c:549
+#, c-format
+msgid "Failed to set string value: %s."
+msgstr "Lỗi đặt giá trị chuỗi: %s."
+
+#: ../brlmon/brlmonui.c:583 ../gnopi/bmui.c:297
+#, c-format
+msgid "Invalid modetype: %s."
+msgstr "Kiểu chế độ không hợp lệ: %s."
+
+#: ../brlmon/brlmonui.c:635
+#, c-format
+msgid "%s font not installed."
+msgstr "Chưa cài đặt phông chử %s."
+
+#. *
+#. * bmui_load_colors
+#. *
+#. * Load text colors.
+#. *
+#. * returns:
+#. *
+#: ../brlmon/brlmonui.c:639 ../gnopi/bmui.c:251
+msgid "Can not parse color string."
+msgstr "Không thể phân tách chuỗi màu."
+
+#: ../brlmon/brlmonui.c:1112
+msgid "Status"
+msgstr "Trạng thái"
+
+#: ../brlmon/brlmonui.c:1319
+#, c-format
+msgid "Too many cells on display. [Max %d]"
+msgstr "Quá nhiều ô trên màn hình. [Tối đa %d]"
+
+#: ../brlmon/brlmonui.c:1320
+#, c-format
+msgid "Load default display size. Line: %d Column: %d."
+msgstr "Tải kích thước bộ trình bày mặc định. Dòng: %d Cột: %d."
+
+#. unsupported attribute
+#: ../brlmon/brlmonxml.c:84
+#, c-format
+msgid "BRLOUT attribute %s is not supported."
+msgstr "Chưa hỗ trợ thuộc tính BRLOUT %s."
+
+#. unsupported attribute
+#: ../brlmon/brlmonxml.c:218
+#, c-format
+msgid "TEXT attribute %s is not supported."
+msgstr "Chưa hỗ trợ thuộc tính TEXT (văn bản) %s."
+
+#: ../gnopi/bmconf.c:318
+msgid "Failed to set display size."
+msgstr "Lỗi đặt kích thước bộ trình bày."
+
+#: ../gnopi/bmconf.c:336
+msgid "Failed to set display position."
+msgstr "Lỗi đặt vị trí bộ trình bày."
+
+#: ../gnopi/bmconf.c:368
+msgid "Failed to set display mode."
+msgstr "Lỗi đặt kiểu bộ trình bày."
+
+#: ../gnopi/bmconf.c:392
+msgid "Failed to set dot type colors."
+msgstr "Lỗi đặt màu kiểu chấm."
+
+#: ../gnopi/bmconf.c:409
+msgid "Failed to set font size."
+msgstr "Lỗi đặt cỡ phông chữ."
+
+#: ../gnopi/bmui.c:328
+#, c-format
+msgid "Invalid position: %s."
+msgstr "Vị trí không hợp lệ: %s."
+
+#: ../gnopi/brlconf.c:300 ../gnopi/cmdmapconf.c:237 ../gnopi/coreconf.c:140
+#: ../gnopi/kbconf.c:126 ../gnopi/magconf.c:226 ../gnopi/spconf.c:158
+#: ../gnopi/spconf.c:1247
+msgid "Unable to allocate memory."
+msgstr "Không thể cấp phát bộ nhớ."
+
+#: ../gnopi/brlconf.c:407
+#, c-format
+msgid "Failed to set braille style: %s."
+msgstr "Lỗi đặt kiểu chữ Bray: %s."
+
+#: ../gnopi/brlconf.c:416
+#, c-format
+msgid "Failed to set braille cursor style: %s."
+msgstr "Lỗi đặt kiểu con trỏ chữ Bray: %s."
+
+#: ../gnopi/brlconf.c:425
+#, c-format
+msgid "Failed to set attribute settings: %d."
+msgstr "Lỗi đặt thiết lập thuộc tính: %d."
+
+#: ../gnopi/brlconf.c:434
+#, c-format
+msgid "Failed to set braille device: %s."
+msgstr "Lỗi đặt thiết bị chữ Bray: %s."
+
+#: ../gnopi/brlconf.c:443
+#, c-format
+msgid "Failed to set fill character: %s."
+msgstr "Lỗi đặt ký tự tô đầy: %s."
+
+#: ../gnopi/brlconf.c:452
+#, c-format
+msgid "Failed to set serial port number: %d."
+msgstr "Lỗi đặt số hiệu cổng nối tiếp: %d."
+
+#: ../gnopi/brlconf.c:461
+#, c-format
+msgid "Failed to set serial port : %s."
+msgstr "Lỗi đặt số hiệu cổng nối tiếp: %s."
+
+#: ../gnopi/brlconf.c:471
+#, c-format
+msgid "Failed to set translation table: %s."
+msgstr "Lỗi đặt bảng dịch: %s."
+
+#: ../gnopi/brlconf.c:480
+#, c-format
+msgid "Failed to set optical sensor: %d."
+msgstr "Lỗi đặt máy nhạy quang: %d"
+
+#: ../gnopi/brlconf.c:489
+#, c-format
+msgid "Failed to set position sensor: %d."
+msgstr "Lỗi đặt máy nhạy vị trí: %d"
+
+#: ../gnopi/brlconf.c:498
+#, c-format
+msgid "Failed to set status cell: %s."
+msgstr "Lỗi đặt ô trạng thái: %s."
+
+#: ../gnopi/brlconf.c:584 ../gnopi/brlui.c:498 ../gnopi/brlui.c:546
+#: ../gnopi/brlui.c:559 ../gnopi/spvoiceui.c:613
+msgid "<none>"
+msgstr "<không có>"
+
+#: ../gnopi/brlui.c:79
+msgid "American English"
+msgstr "Anh (Mỹ)"
+
+#: ../gnopi/brlui.c:80
+msgid "German"
+msgstr "Đức"
+
+#: ../gnopi/brlui.c:81
+msgid "Spanish"
+msgstr "Tây Ban Nha"
+
+#: ../gnopi/brlui.c:82
+msgid "Swedish"
+msgstr "Thụy Điển"
+
+#. To translators: X = X Window System server
+#: ../gnopi/brlui.c:379
+msgid "X display's _terminal number:"
+msgstr "Số hiệu _terminal (thiết bị cuối) của bộ trình bày X:"
+
+#: ../gnopi/brlui.c:385
+#: ../gnopi/gnopi_files/Braille_Settings/braille_device.glade2.h:6
+msgid "_Port:"
+msgstr "_Cổng"
+
+#: ../gnopi/brlui.c:741
+msgid "Language"
+msgstr "Ngôn ngữ"
+
+#: ../gnopi/brlui.c:1336 ../gnopi/cmdmapui.c:475
+msgid "No selected command!"
+msgstr "Chưa chọn lệnh."
+
+#: ../gnopi/brlui.c:1360
+msgid "Invalid device key!"
+msgstr "Khóa thiết bị không hợp lệ."
+
+#: ../gnopi/brlui.c:1595 ../gnopi/brlui.c:2018 ../gnopi/cmdmapui.c:717
+#: ../gnopi/cmdmapui.c:1568 ../gnopi/cmdmapui.c:1588
+msgid "Commands"
+msgstr "Lệnh"
+
+#: ../gnopi/brlui.c:1750 ../gnopi/cmdmapui.c:1186
+msgid "No selected item to modify!"
+msgstr "Chưa chọn mục cần sửa đổi."
+
+#: ../gnopi/brlui.c:1762 ../gnopi/brlui.c:1842 ../gnopi/cmdmapui.c:1059
+#: ../gnopi/cmdmapui.c:1196
+msgid "Invalid selected item!"
+msgstr "Mục chọn không hợp lệ."
+
+#: ../gnopi/brlui.c:1830 ../gnopi/cmdmapui.c:1046
+msgid "No selected item to remove!"
+msgstr "Chưa chọn mục cần loại bỏ."
+
+#: ../gnopi/brlui.c:2012
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:9
+msgid "Braille Keys"
+msgstr "Phím chữ Bray"
+
+#: ../gnopi/cmdmapconf.c:462 ../gnopi/cmdmapconf.c:503
+msgid "Change commit error."
+msgstr "Lỗi thay đổi khi gài vào (commit)."
+
+#: ../gnopi/cmdmapui.c:45
+msgid "decrease y scale"
+msgstr "giảm tỷ lệ «y»"
+
+#: ../gnopi/cmdmapui.c:46
+msgid "decrease x scale"
+msgstr "giảm tỷ lệ «x»"
+
+#: ../gnopi/cmdmapui.c:47
+msgid "increase y scale"
+msgstr "tăng tỷ lệ «y»"
+
+#: ../gnopi/cmdmapui.c:48
+msgid "increase x scale"
+msgstr "tăng tỷ lệ «x»"
+
+#: ../gnopi/cmdmapui.c:49
+msgid "lock xy scale"
+msgstr "khóa tỷ lệ «xy»"
+
+#: ../gnopi/cmdmapui.c:50
+msgid "smoothing toggle"
+msgstr "bật/tắt làm mịn"
+
+#: ../gnopi/cmdmapui.c:51
+msgid "cursor toggle"
+msgstr "bật/tắt con trỏ"
+
+#: ../gnopi/cmdmapui.c:52
+msgid "cursor on/off"
+msgstr "con trỏ bật/tắt"
+
+#: ../gnopi/cmdmapui.c:53
+msgid "cursor magnification on/off"
+msgstr "phóng to con trỏ bật/tắt"
+
+#: ../gnopi/cmdmapui.c:54
+msgid "decrease cursor size"
+msgstr "giảm cỡ con trỏ"
+
+#: ../gnopi/cmdmapui.c:55
+msgid "increase cursor size"
+msgstr "tăng cỡ con trỏ"
+
+#: ../gnopi/cmdmapui.c:56
+msgid "invert on/off"
+msgstr "đảo bật/tắt"
+
+#: ../gnopi/cmdmapui.c:57
+msgid "magnifier default"
+msgstr "phóng to mặc định"
+
+#: ../gnopi/cmdmapui.c:58
+msgid "crosshair on/off"
+msgstr "chữ thập mảnh bật/tắt"
+
+#: ../gnopi/cmdmapui.c:59
+msgid "crosshair clip on/off"
+msgstr "ảnh chữ thập mảnh bật/tắt"
+
+#: ../gnopi/cmdmapui.c:60
+msgid "decrease crosshair size"
+msgstr "giảm cỡ chữ thập mảnh"
+
+#: ../gnopi/cmdmapui.c:61
+msgid "increase crosshair size"
+msgstr "tăng cỡ chữ thập mảnh"
+
+#: ../gnopi/cmdmapui.c:62
+msgid "automatic panning on/off"
+msgstr "tự động di chuyển minh họa bật/tắt"
+
+#: ../gnopi/cmdmapui.c:63
+msgid "mouse tracking toggle"
+msgstr "bật/tắt theo dõi con chuột"
+
+#: ../gnopi/cmdmapui.c:64
+msgid "load magnifier defaults"
+msgstr "tải các mặc định phóng to"
+
+#: ../gnopi/cmdmapui.c:66
+msgid "decrease pitch"
+msgstr "giảm độ cao giọng"
+
+#: ../gnopi/cmdmapui.c:67
+msgid "increase pitch"
+msgstr "tăng độ cao giọng"
+
+#: ../gnopi/cmdmapui.c:68
+msgid "default pitch"
+msgstr "độ cao giọng mặc định"
+
+#: ../gnopi/cmdmapui.c:69
+msgid "decrease rate"
+msgstr "giảm tốc độ"
+
+#: ../gnopi/cmdmapui.c:70
+msgid "increase rate"
+msgstr "tăng tốc độ"
+
+#: ../gnopi/cmdmapui.c:71
+msgid "default rate"
+msgstr "tốc độ mặc định"
+
+#: ../gnopi/cmdmapui.c:72
+msgid "decrease volume"
+msgstr "giảm âm lượng"
+
+#: ../gnopi/cmdmapui.c:73
+msgid "increase volume"
+msgstr "tăng âm lượng"
+
+#: ../gnopi/cmdmapui.c:74
+msgid "default volume"
+msgstr "âm lượng mặc định"
+
+#: ../gnopi/cmdmapui.c:75
+msgid "speech default"
+msgstr "tiếng nói mặc định"
+
+#: ../gnopi/cmdmapui.c:77
+msgid "goto parent"
+msgstr "đi tới điều mẹ"
+
+#: ../gnopi/cmdmapui.c:78
+msgid "goto child"
+msgstr "đến điều con"
+
+#: ../gnopi/cmdmapui.c:79
+msgid "goto previous"
+msgstr "đi lùi"
+
+#: ../gnopi/cmdmapui.c:80
+msgid "goto next"
+msgstr "đi kế"
+
+#: ../gnopi/cmdmapui.c:81
+msgid "repeat last"
+msgstr "lập lại điều trước"
+
+#: ../gnopi/cmdmapui.c:82
+msgid "goto focus"
+msgstr "đến tiêu điểm"
+
+#: ../gnopi/cmdmapui.c:83
+msgid "goto title"
+msgstr "đến tựa đề"
+
+#: ../gnopi/cmdmapui.c:84
+msgid "goto menu"
+msgstr "đến trình đơn"
+
+#: ../gnopi/cmdmapui.c:85
+msgid "goto toolbar"
+msgstr "đi tới thanh công cụ"
+
+#: ../gnopi/cmdmapui.c:86
+msgid "goto statusbar"
+msgstr "đi tới thanh trạng thái"
+
+#: ../gnopi/cmdmapui.c:87
+msgid "widget surroundings"
+msgstr "chung quanh ô điều khiển"
+
+#: ../gnopi/cmdmapui.c:89
+msgid "goto caret"
+msgstr "đi tới dấu mũ"
+
+#: ../gnopi/cmdmapui.c:90
+msgid "goto first"
+msgstr "đi tới đầu"
+
+#: ../gnopi/cmdmapui.c:91
+msgid "goto last"
+msgstr "đi tới cuối"
+
+#: ../gnopi/cmdmapui.c:92
+msgid "change navigation mode"
+msgstr "thay đổi chế độ di chuyển"
+
+#: ../gnopi/cmdmapui.c:94
+msgid "toggle flat review/focus tracking mode"
+msgstr "bật/tắt chế độ xem lại phẳng/theo dõi tiêu điểm"
+
+#: ../gnopi/cmdmapui.c:95
+msgid "flat review"
+msgstr "xem lại phẳng"
+
+#: ../gnopi/cmdmapui.c:96
+msgid "window hierarchy"
+msgstr "ton ti cửa sổ"
+
+#: ../gnopi/cmdmapui.c:97
+msgid "read whole window"
+msgstr "đọc toàn cửa sổ"
+
+#: ../gnopi/cmdmapui.c:98
+msgid "detailed informations"
+msgstr "thông tin chi tiết"
+
+#: ../gnopi/cmdmapui.c:99
+msgid "do default action"
+msgstr "làm hành động mặc định"
+
+#: ../gnopi/cmdmapui.c:100
+msgid "window overview"
+msgstr "tổng quan cửa sổ"
+
+#: ../gnopi/cmdmapui.c:101
+msgid "find next"
+msgstr "tìm tiếp"
+
+#: ../gnopi/cmdmapui.c:102
+msgid "find set"
+msgstr "tìm bộ"
+
+#: ../gnopi/cmdmapui.c:103
+msgid "attributes at caret"
+msgstr "thuộc tính tại dấu mũ"
+
+#: ../gnopi/cmdmapui.c:104
+msgid "watch current object"
+msgstr "theo dõi đối tượng hiện có"
+
+#: ../gnopi/cmdmapui.c:105 ../srcore/srctrl.c:1353
+msgid "unwatch all objects"
+msgstr "hủy theo dõi mọi đối tượng"
+
+#: ../gnopi/cmdmapui.c:107
+msgid "mouse left press"
+msgstr "nhấn rồi giữ nút trái trên chuột"
+
+#: ../gnopi/cmdmapui.c:108
+msgid "mouse left click"
+msgstr "nhắp nút trái trên chuột"
+
+#: ../gnopi/cmdmapui.c:109
+msgid "mouse left release"
+msgstr "nhả nút trái trên chuột"
+
+#: ../gnopi/cmdmapui.c:110
+msgid "mouse right press"
+msgstr "nhấn rồi giữ nút phải trên chuột"
+
+#: ../gnopi/cmdmapui.c:111
+msgid "mouse right click"
+msgstr "nhắp nút phải trên chuột"
+
+#: ../gnopi/cmdmapui.c:112
+msgid "mouse right release"
+msgstr "nhả nút phải trên chuột"
+
+#: ../gnopi/cmdmapui.c:113
+msgid "mouse middle press"
+msgstr "nhấn rồi giữ nút giữa trên chuột"
+
+#: ../gnopi/cmdmapui.c:114
+msgid "mouse middle release"
+msgstr "nhả nút giữa trên chuột"
+
+#: ../gnopi/cmdmapui.c:115
+msgid "mouse middle click"
+msgstr "nhắp nút giữa trên chuột"
+
+#: ../gnopi/cmdmapui.c:116
+msgid "mouse goto current"
+msgstr "chuột đi tới điều hiện có"
+
+#: ../gnopi/cmdmapui.c:118
+msgid "shutup"
+msgstr "im"
+
+#: ../gnopi/cmdmapui.c:119
+msgid "pause/resume"
+msgstr "ngừng tạm/tiếp tục"
+
+#: ../gnopi/cmdmapui.c:121
+msgid "char left"
+msgstr "ký tự trái"
+
+#: ../gnopi/cmdmapui.c:122
+msgid "char right"
+msgstr "ký tự phải"
+
+#: ../gnopi/cmdmapui.c:123
+msgid "display left"
+msgstr "bộ trình bày trái"
+
+#: ../gnopi/cmdmapui.c:124
+msgid "display right"
+msgstr "bộ trình bày phải"
+
+#: ../gnopi/cmdmapui.c:126
+msgid "braille on/off"
+msgstr "Chữ Bray bật/tắt"
+
+#: ../gnopi/cmdmapui.c:127
+msgid "speech on/off"
+msgstr "tiếng nói bật/tắt"
+
+#: ../gnopi/cmdmapui.c:128
+msgid "magnifier on/off"
+msgstr "kính lúp bật/tắt"
+
+#: ../gnopi/cmdmapui.c:129
+msgid "braille monitor on/off"
+msgstr "Màn hình chữ Bray bật/tắt"
+
+#: ../gnopi/cmdmapui.c:143
+msgid "A"
+msgstr "A"
+
+#: ../gnopi/cmdmapui.c:144
+msgid "B"
+msgstr "B"
+
+#: ../gnopi/cmdmapui.c:145
+msgid "C"
+msgstr "C"
+
+#: ../gnopi/cmdmapui.c:146
+msgid "D"
+msgstr "D"
+
+#: ../gnopi/cmdmapui.c:147
+msgid "E"
+msgstr "E"
+
+#: ../gnopi/cmdmapui.c:148
+msgid "F"
+msgstr "F"
+
+#: ../gnopi/cmdmapui.c:149
+msgid "G"
+msgstr "G"
+
+#: ../gnopi/cmdmapui.c:150
+msgid "H"
+msgstr "H"
+
+#: ../gnopi/cmdmapui.c:151
+msgid "I"
+msgstr "I"
+
+#: ../gnopi/cmdmapui.c:152
+msgid "J"
+msgstr "J"
+
+#: ../gnopi/cmdmapui.c:153
+msgid "K"
+msgstr "K"
+
+#: ../gnopi/cmdmapui.c:154
+msgid "L"
+msgstr "L"
+
+#: ../gnopi/cmdmapui.c:155
+msgid "M"
+msgstr "M"
+
+#: ../gnopi/cmdmapui.c:156
+msgid "N"
+msgstr "N"
+
+#: ../gnopi/cmdmapui.c:157
+msgid "O"
+msgstr "O"
+
+#: ../gnopi/cmdmapui.c:158
+msgid "P"
+msgstr "P"
+
+#: ../gnopi/cmdmapui.c:159
+msgid "Q"
+msgstr "Q"
+
+#: ../gnopi/cmdmapui.c:160
+msgid "R"
+msgstr "R"
+
+#: ../gnopi/cmdmapui.c:161
+msgid "S"
+msgstr "S"
+
+#: ../gnopi/cmdmapui.c:162
+msgid "T"
+msgstr "T"
+
+#: ../gnopi/cmdmapui.c:163
+msgid "U"
+msgstr "U"
+
+#: ../gnopi/cmdmapui.c:164
+msgid "V"
+msgstr "V"
+
+#: ../gnopi/cmdmapui.c:165
+msgid "W"
+msgstr "W"
+
+#: ../gnopi/cmdmapui.c:166
+msgid "X"
+msgstr "X"
+
+#: ../gnopi/cmdmapui.c:167
+msgid "Y"
+msgstr "Y"
+
+#: ../gnopi/cmdmapui.c:168
+msgid "Z"
+msgstr "Z"
+
+#: ../gnopi/cmdmapui.c:169
+msgid "F1"
+msgstr "F1"
+
+#: ../gnopi/cmdmapui.c:170
+msgid "F2"
+msgstr "F2"
+
+#: ../gnopi/cmdmapui.c:171
+msgid "F3"
+msgstr "F3"
+
+#: ../gnopi/cmdmapui.c:172
+msgid "F4"
+msgstr "F4"
+
+#: ../gnopi/cmdmapui.c:173
+msgid "F5"
+msgstr "F5"
+
+#: ../gnopi/cmdmapui.c:174
+msgid "F6"
+msgstr "F6"
+
+#: ../gnopi/cmdmapui.c:175
+msgid "F7"
+msgstr "F7"
+
+#: ../gnopi/cmdmapui.c:176
+msgid "F8"
+msgstr "F8"
+
+#: ../gnopi/cmdmapui.c:177
+msgid "F9"
+msgstr "F9"
+
+#: ../gnopi/cmdmapui.c:178
+msgid "F10"
+msgstr "F10"
+
+#: ../gnopi/cmdmapui.c:179
+msgid "F11"
+msgstr "F11"
+
+#: ../gnopi/cmdmapui.c:180
+msgid "F12"
+msgstr "F12"
+
+#: ../gnopi/cmdmapui.c:181
+msgid "0"
+msgstr "0"
+
+#: ../gnopi/cmdmapui.c:182
+msgid "1"
+msgstr "1"
+
+#: ../gnopi/cmdmapui.c:183
+msgid "2"
+msgstr "2"
+
+#: ../gnopi/cmdmapui.c:184
+msgid "3"
+msgstr "3"
+
+#: ../gnopi/cmdmapui.c:185
+msgid "4"
+msgstr "4"
+
+#: ../gnopi/cmdmapui.c:186
+msgid "5"
+msgstr "5"
+
+#: ../gnopi/cmdmapui.c:187
+msgid "6"
+msgstr "6"
+
+#: ../gnopi/cmdmapui.c:188
+msgid "7"
+msgstr "7"
+
+#: ../gnopi/cmdmapui.c:189
+msgid "8"
+msgstr "8"
+
+#: ../gnopi/cmdmapui.c:190
+msgid "9"
+msgstr "9"
+
+#: ../gnopi/cmdmapui.c:191
+msgid "apostrophe"
+msgstr "dấu lược"
+
+#: ../gnopi/cmdmapui.c:192
+msgid "backslash"
+msgstr "xuyệt ngược"
+
+#: ../gnopi/cmdmapui.c:193
+msgid "bracket left"
+msgstr "ngoặc trái"
+
+#: ../gnopi/cmdmapui.c:194
+msgid "bracket right"
+msgstr "ngoặc phải"
+
+#: ../gnopi/cmdmapui.c:195
+msgid "comma"
+msgstr "phẩy"
+
+#: ../gnopi/cmdmapui.c:196
+msgid "equal"
+msgstr "bằng"
+
+#: ../gnopi/cmdmapui.c:197
+msgid "grave"
+msgstr "huyền"
+
+#: ../gnopi/cmdmapui.c:198
+msgid "minus"
+msgstr "trừ"
+
+#: ../gnopi/cmdmapui.c:199
+msgid "period"
+msgstr "chấm"
+
+#: ../gnopi/cmdmapui.c:200
+msgid "quote left"
+msgstr "nháy trái"
+
+#: ../gnopi/cmdmapui.c:201
+msgid "semicolon"
+msgstr "chấm phẩy"
+
+#: ../gnopi/cmdmapui.c:202
+msgid "slash"
+msgstr "xuyệt"
+
+#: ../gnopi/cmdmapui.c:1133
+msgid "Invalid key or existent key."
+msgstr "Phím không hợp lệ phím đã có."
+
+#: ../gnopi/cmdmapui.c:1562
+msgid "Layer Keys"
+msgstr "Phím tầng"
+
+#: ../gnopi/cmdmapui.c:1582
+msgid "User Keys"
+msgstr "Phím người dùng"
+
+#: ../gnopi/coreconf.c:248
+#, c-format
+msgid "Failed to set exit val: %d."
+msgstr "Lỗi đặt giá trị thoát: %d"
+
+#: ../gnopi/coreconf.c:290
+#, c-format
+msgid "Failed to set move mouse: %d."
+msgstr "Lỗi đặt di chuyển chuột: %d"
+
+#: ../gnopi/coreconf.c:299
+#, c-format
+msgid "Failed to set simulate click: %d."
+msgstr "Lỗi đặt mô phỏng việc nhắp: %d"
+
+#: ../gnopi/coreconf.c:308
+#, c-format
+msgid "Failed to set find text: %s."
+msgstr "Lỗi đặt việc tìm đoạn: %s"
+
+#: ../gnopi/coreconf.c:318
+#, c-format
+msgid "Failed to set magnifier status: %d."
+msgstr "Lỗi đặt trạng thái kính lúp: %d"
+
+#: ../gnopi/coreconf.c:327
+#, c-format
+msgid "Failed to set speech status: %d."
+msgstr "Lỗi đặt trạng thái tiếng nói: %d"
+
+#: ../gnopi/coreconf.c:336
+#, c-format
+msgid "Failed to set braille status: %d."
+msgstr "Lỗi đặt trạng thái chữ Bray: %d"
+
+#: ../gnopi/coreconf.c:345
+#, c-format
+msgid "Failed to set braille monitor status: %d."
+msgstr "Lỗi đặt trạng thái màn hình chữ Bray: %d"
+
+#: ../gnopi/coreconf.c:354
+#, c-format
+msgid "Failed to set minimize flag: %d."
+msgstr "Lỗi đặt cờ cực tiểu hóa: %d"
+
+#: ../gnopi/coreconf.c:363
+#, c-format
+msgid "Failed to set exit ack: %d."
+msgstr "Lỗi đặt việc ghi nhập thoát: %d"
+
+#: ../gnopi/coreconf.c:372
+#, c-format
+msgid "Failed to set language: %s."
+msgstr "Lỗi đặt ngôn ngữ: %s"
+
+#: ../gnopi/coreconf.c:381
+#, c-format
+msgid "Failed to set screen review: %d."
+msgstr "Lỗi đặt việc xem lại màn hình: %d"
+
+#: ../gnopi/defui.c:73
+#, c-format
+msgid "Are you sure you want to load default values for %s?"
+msgstr "Bạn có chắc muốn tải các giá trị mặc định cho « %s » không?"
+
+#: ../gnopi/defui.c:100
+msgid "braille"
+msgstr "chữ Bray"
+
+#: ../gnopi/defui.c:116
+msgid "Braille default setting loaded."
+msgstr "Thiết lập mặc định chữ Bray đã được tải."
+
+#: ../gnopi/defui.c:125
+msgid "speech"
+msgstr "tiếng nói"
+
+#: ../gnopi/defui.c:133
+msgid "Speech default setting loaded."
+msgstr "Thiết lập mặc định tiếng nói đã được tải."
+
+#: ../gnopi/defui.c:142
+msgid "magnifier"
+msgstr "kính lúp"
+
+#: ../gnopi/defui.c:156
+msgid "Magnifier default setting loaded."
+msgstr "Thiết lập mặc định kính lúp đã được tải."
+
+#: ../gnopi/defui.c:165
+msgid "keyboard"
+msgstr "bàn phím"
+
+#: ../gnopi/defui.c:173
+msgid "Keyboard default setting loaded."
+msgstr "Thiết lập mặc định bàn phím đã được tải."
+
+#: ../gnopi/defui.c:182
+msgid "braille monitor"
+msgstr "màn hình chữ Bray"
+
+#: ../gnopi/defui.c:189
+msgid "Braille monitor default setting loaded."
+msgstr "Thiết lập mặc định màn hình chữ Bray đã được tải."
+
+#: ../gnopi/defui.c:198
+msgid "start up"
+msgstr "khởi động"
+
+#: ../gnopi/defui.c:207
+msgid "Startup default setting loaded."
+msgstr "Thiết lập mặc định khởi động đã được tải."
+
+#: ../gnopi/defui.c:217
+msgid "command map"
+msgstr "ảnh xạ lệnh"
+
+#: ../gnopi/defui.c:225
+msgid "Command map default setting loaded."
+msgstr "Thiết lập mặc định ảnh xạ lệnh đã được tải."
+
+#: ../gnopi/defui.c:235
+msgid "presentation"
+msgstr "trình diễn"
+
+#: ../gnopi/defui.c:241
+msgid "Presentation default setting loaded."
+msgstr "Thiết lập mặc định trình diễn đã được tải."
+
+#: ../gnopi/defui.c:250
+msgid "screen review"
+msgstr "xem lại màn hình"
+
+#: ../gnopi/defui.c:256
+msgid "Screen review default setting loaded."
+msgstr "Thiết lập mặc định xem lại màn hình đã được tải."
+
+#: ../gnopi/defui.c:279
+msgid "all modules"
+msgstr "mọi mô-đun"
+
+#: ../gnopi/defui.c:282
+msgid "All default settings loaded."
+msgstr "Mọi thiết lập mặc định đã được tải."
+
+#: ../gnopi/genui.c:66
+#: ../gnopi/gnopi_files/General_Settings/general_settings.glade2.h:12
+msgid "_Braille"
+msgstr "Chữ _Bray"
+
+#: ../gnopi/genui.c:69
+msgid "_Braille (unavailable)"
+msgstr "Chữ _Bray (không sẵn sàng)"
+
+#: ../gnopi/genui.c:74
+#: ../gnopi/gnopi_files/General_Settings/general_settings.glade2.h:13
+msgid "_Magnifier"
+msgstr "_Kính lúp"
+
+#: ../gnopi/genui.c:77
+msgid "_Magnifier (unavailable)"
+msgstr "_Kính lúp (không sẵn sàng)"
+
+#: ../gnopi/genui.c:82
+#: ../gnopi/gnopi_files/General_Settings/general_settings.glade2.h:14
+msgid "_Speech"
+msgstr "Tiếng _nói"
+
+#: ../gnopi/genui.c:85
+msgid "_Speech (unavailable)"
+msgstr "Tiếng _nói (không sẵn sàng)"
+
+#: ../gnopi/genui.c:90
+#: ../gnopi/gnopi_files/General_Settings/general_settings.glade2.h:4
+msgid "B_raille monitor"
+msgstr "Màn hình chữ B_ray"
+
+#: ../gnopi/genui.c:93
+msgid "B_raille monitor (unavailable)"
+msgstr "Màn hình chữ B_ray (không sẵn sàng)"
+
+#: ../gnopi/gnopernicus.desktop.in.h:1
+msgid "Assistive Technologies for Blind and Visually Impaired"
+msgstr "Kỹ thuật giúp đỡ cho người mù và người gặp khó khăn thấy gì"
+
+#: ../gnopi/gnopernicus.desktop.in.h:2
+msgid "Screen Reader and Magnifier"
+msgstr "Bộ đọc màn hình và kính lúp"
+
+#: ../gnopi/gnopi.c:302
+msgid "gnopernicus"
+msgstr "gnopernicus"
+
+#: ../gnopi/gnopi.c:309
+msgid "Gconf initialization failed."
+msgstr "Lỗi khởi động GConf."
+
+#: ../gnopi/gnopi.c:316
+msgid "Invalid parameters."
+msgstr "Tham số không hợp lệ."
+
+#: ../gnopi/gnopi.c:322
+msgid "Multiple instances are NOT ALLOWED. This instance will end."
+msgstr "KHÔNG CHO PHÉP nhiều lần chạy trình này cùng lúc, nên thoát lần này."
+
+#: ../gnopi/gnopi.c:328
+msgid "GTK initialization failed."
+msgstr "Lỗi khởi động GTK."
+
+#: ../gnopi/gnopi.c:334
+msgid "Can not create a new process."
+msgstr "Không tạo được một tiến trình mới."
+
+#: ../gnopi/gnopi.c:344
+msgid "Exit gnopernicus."
+msgstr "Thoát khỏi gnopernicus."
+
+#: ../gnopi/gnopi.c:352
+msgid "Gnopernicus initialization failed."
+msgstr "Lỗi khởi động Gnopernicus."
+
+#: ../gnopi/gnopi.c:359
+msgid "Can not load .glade2 file"
+msgstr "Không tải được tập tin « .glade2 »."
+
+#. if (WIFSIGNALED (gn_srcore_status) != 0)
+#. sru_message ("signal no: %d", WTERMSIG (gn_srcore_status));
+#: ../gnopi/gnopi.c:666
+msgid "srcore exited."
+msgstr "đã thoát khỏi srcore."
+
+#: ../gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:1
+msgid "<b>Color</b>"
+msgstr "<b>Màu</b>"
+
+#: ../gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:2
+msgid "<b>Font</b>"
+msgstr "<b>Phông chữ</b>"
+
+#: ../gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:3
+msgid "<b>Mode Type</b>"
+msgstr "<b>Kiểu chế độ</b>"
+
+#: ../gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:4
+msgid "<b>Position</b>"
+msgstr "<b>Vị trí</b>"
+
+#: ../gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:5
+msgid "<b>Size</b>"
+msgstr "<b>Kích thước</b>"
+
+#: ../gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:6
+msgid "B_raille"
+msgstr "Chữ B_ray"
+
+#: ../gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:7
+msgid "Braille Monitor Preferences"
+msgstr "Tùy thích Màn hình chữ Bray"
+
+#: ../gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:8
+msgid "Color selection for texts which use dot 7"
+msgstr "Chọn màu cho chữ dùng chấm 7"
+
+#: ../gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:9
+msgid "Color selection for texts which use dot 8"
+msgstr "Chọn màu cho chữ dùng chấm 8"
+
+#: ../gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:10
+msgid "Color selection for texts which use dots 7 and 8"
+msgstr "Chọn màu cho chữ dùng chấm 7 và 8"
+
+#: ../gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:11
+msgid "Colu_mns:"
+msgstr "_Cột:"
+
+#: ../gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:12
+msgid "Display at bottom of screen"
+msgstr "Hiển thị ở đáy màn hình"
+
+#: ../gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:13
+msgid "Display on top of screen"
+msgstr "Hiển thị ở đỉnh màn hình"
+
+#: ../gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:14
+msgid "Display using braille font"
+msgstr "Hiển thị dùng phông chữ Bray"
+
+#: ../gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:15
+msgid "Display using normal font"
+msgstr "Hiển thị dùng phông chữ thường"
+
+#: ../gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:16
+msgid "Display with both fonts"
+msgstr "Hiển thị dùng cả hai phông chữ"
+
+#: ../gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:17
+msgid "Dot 7:"
+msgstr "Chấm 7:"
+
+#: ../gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:18
+msgid "Dot 8:"
+msgstr "Chấm 8:"
+
+#: ../gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:19
+msgid "Dots 78:"
+msgstr "Chấm 78:"
+
+#: ../gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:20
+msgid "Number of cell columns"
+msgstr "Số cột ô"
+
+#: ../gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:21
+msgid "Number of cell lines"
+msgstr "Số hàng ô"
+
+#: ../gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:22
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:43
+msgid "Pick a color"
+msgstr "Chọn màu"
+
+#: ../gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:23
+msgid "Size of font"
+msgstr "Cỡ phông chữ"
+
+#: ../gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:24
+msgid "Use system theme colors"
+msgstr "Dùng các màu của sắc thái hệ thống"
+
+#: ../gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:25
+msgid "Use theme _system colors"
+msgstr "Dùng các màu của sắc thái _hệ thống"
+
+#: ../gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:26
+msgid "_Dual"
+msgstr "_Kép"
+
+#: ../gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:27
+msgid "_Lines:"
+msgstr "_Dòng:"
+
+#: ../gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:28
+msgid "_Normal"
+msgstr "_Thường"
+
+#: ../gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:29
+msgid "_Size:"
+msgstr "_Kích thước:"
+
+#: ../gnopi/gnopi_files/Braille_Settings/attribute_settings.glade2.h:1
+msgid "Attributes"
+msgstr "Thuộc tính"
+
+#: ../gnopi/gnopi_files/Braille_Settings/attribute_settings.glade2.h:2
+msgid "_1. Dot 8"
+msgstr "_1. Chấm 8"
+
+#: ../gnopi/gnopi_files/Braille_Settings/attribute_settings.glade2.h:3
+msgid "_2. Dot 7"
+msgstr "_2. Chấm 7"
+
+#: ../gnopi/gnopi_files/Braille_Settings/attribute_settings.glade2.h:4
+msgid "_3. Dot 8 or 7"
+msgstr "_3. Chấm 8 hoặc 7"
+
+#: ../gnopi/gnopi_files/Braille_Settings/attribute_settings.glade2.h:5
+msgid "_4. Off"
+msgstr "_4. Tắt"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_device.glade2.h:1
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:1
+#: ../gnopi/gnopi_files/Find/find.glade2.h:2
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:1
+#: ../gnopi/gnopi_files/Presentation/presentation.glade2.h:1
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:3
+#: ../gnopi/gnopi_files/User_Properties/user_properties.glade2.h:1
+msgid "*"
+msgstr "*"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_device.glade2.h:2
+msgid "Braille Device"
+msgstr "Thiết bị chữ Bray"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_device.glade2.h:3
+msgid "Braille devices list"
+msgstr "Danh sách thiết bị chữ Bray"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_device.glade2.h:4
+msgid "Enter manually:"
+msgstr "Tự nhập:"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_device.glade2.h:5
+msgid "_Device:"
+msgstr "_Thiết bị:"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:2
+msgid "10 _Font size"
+msgstr "10 _Kích thước phông chữ"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:3
+msgid "11 _Activate script function \"OnPosSwitch\""
+msgstr "11 _Hoạt hóa chức năng tập lệnh «OnPosSwitch» (lúc chuyển đổi vị trí)"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:4
+msgid "12 _Present attributes"
+msgstr "12 _Thuộc tính hiện có"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:5
+msgid "<b>_Braille keys list</b>"
+msgstr "<b>Danh sách phím chữ Bray</b>"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:6
+msgid "Activate script function \"OnPosSwitch\""
+msgstr "Hoạt hóa chức năng tập lệnh «OnPosSwitch» (lúc chuyển đổi vị trí)"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:7
+msgid "Add item in braille keys list"
+msgstr "Thêm mục vào danh sách phím chữ Bray"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:8
+msgid "Braille Display Key Mapping"
+msgstr "Ảnh xạ phím trình bày chữ Bray"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:10
+msgid "Braille device keys list"
+msgstr "Danh sách phím thiết bị chữ Bray"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:11
+msgid "Braille keys list"
+msgstr "Danh sách phím chữ Bray"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:12
+msgid "Command List"
+msgstr "Danh sách lệnh"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:13
+msgid "Command list"
+msgstr "Danh sách lệnh"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:14
+msgid "Font name"
+msgstr "Tên phông chữ"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:15
+msgid "Font size"
+msgstr "Kích thước phông chữ"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:16
+msgid "Font style"
+msgstr "Kiểu dạng phông chữ"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:17
+msgid "Modify selected item"
+msgstr "Sửa đổi mục đã chọn"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:18
+msgid "Move caret"
+msgstr "Di chuyển dấu mũ"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:19
+msgid "Move mouse and click left"
+msgstr "Di chuyển con chuột và nhắp nút trái"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:20
+msgid "Move mouse and click left and right"
+msgstr "Di chuyển con chuột và nhắp nút trái và phải"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:21
+msgid "Move mouse and click right"
+msgstr "Di chuyển con chuột và nhắp nút phải"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:22
+msgid "Only move mouse"
+msgstr "Chỉ di chuyển chuột thôi"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:23
+msgid "Optical Sensors"
+msgstr "Máy nhạy quang"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:24
+msgid "Optical sensors off"
+msgstr "Máy nhạy quang đã tắt"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:25
+msgid "Position Sensors"
+msgstr "Máy nhạy vị trí"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:26
+msgid "Position sensors off"
+msgstr "Máy nhạy vị trí đã tắt"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:27
+msgid "Present attributes"
+msgstr "Thuộc tính hiện có"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:28
+msgid "Remove selected item from braille keys list"
+msgstr "Loại bỏ mục đã chọn ra danh sách phím chữ Bray"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:29
+msgid "Show X coordinate"
+msgstr "Hiển thị tọa độ X"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:30
+msgid "Show Y coordinate"
+msgstr "Hiển thị tọa độ Y"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:31
+msgid "_0 Optical sensors off"
+msgstr "_0 Máy nhạy quang đã tắt"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:32
+msgid "_0 Position sensors off"
+msgstr "_0 Máy nhạy vị trí đã tắt"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:33
+msgid "_1 Only move mouse"
+msgstr "_1 Chỉ di chuyển chuột thôi"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:34
+msgid "_2 Move mouse and click left"
+msgstr "_2 Di chuyển con chuột và nhắp nút trái"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:35
+msgid "_3 Move mouse and click right"
+msgstr "_3 Di chuyển con chuột và nhắp nút phải"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:36
+msgid "_4 Move mouse and click left or right"
+msgstr "_4 Di chuyển con chuột và nhắp nút trái hay phải"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:37
+msgid "_5 Move caret"
+msgstr "_5 Di chuyển dấu mũ"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:38
+msgid "_6 Show X coordinate"
+msgstr "_6 Hiển thị tọa độ X"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:39
+msgid "_7 Show Y coordinate"
+msgstr "_7 Hiển thị tọa độ Y"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:40
+msgid "_8 Font style"
+msgstr "_8 Kiểu dạng phông chữ"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:41
+msgid "_9 Font name"
+msgstr "_9 Tên phông chữ"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:42
+msgid "_Commands:"
+msgstr "_Lệnh:"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:43
+msgid "_Device key:"
+msgstr "_Phím thiết bị:"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:44
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:85
+#: ../gnopi/gnopi_files/User_Properties/user_properties.glade2.h:28
+msgid "_Modify"
+msgstr "_Sửa đổi"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_settings.glade2.h:1
+msgid "Braille Preferences"
+msgstr "Tùy thích chữ Bray"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_settings.glade2.h:2
+msgid "Close braille settings"
+msgstr "Đóng thiết lập chữ Bray"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_settings.glade2.h:3
+msgid "Map function for display keys"
+msgstr "Chức năng ảnh xạ phím trình bày"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_settings.glade2.h:4
+msgid "Select braille device"
+msgstr "Chọn thiết bị chữ Bray"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_settings.glade2.h:5
+msgid "Select braille style 8/6 dots"
+msgstr "Chọn kiểu chữ Bray 8/6 chấm"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_settings.glade2.h:6
+msgid "Select cursor setting FullCell/UnderLined/NoCursor"
+msgstr "Chọn thiết lập con trỏ Ô_đầy/Gạch_dưới/Không_có_con_trỏ"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_settings.glade2.h:7
+msgid "Select translation table for braille device"
+msgstr "Chọn bảng dịch cho thiết bị chữ Bray"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_settings.glade2.h:8
+msgid "_1 Braille Device"
+msgstr "_1 Thiết bị chữ Bray"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_settings.glade2.h:9
+msgid "_2 Translation Table"
+msgstr "_2 Bảng dịch"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_settings.glade2.h:10
+msgid "_3 Braille Style"
+msgstr "_3 Kiểu chữ Bray"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_settings.glade2.h:11
+msgid "_4 Cursor Preferences"
+msgstr "_4 Tùy thích con trỏ"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_settings.glade2.h:12
+msgid "_5 Braille Key Mapping"
+msgstr "_5 Ảnh xạ phím chữ Bray"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_style.glade2.h:1
+msgid "Braille Style"
+msgstr "Kiểu dạng chữ Bray"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_style.glade2.h:2
+msgid "Use 6 dots"
+msgstr "Dùng 6 chấm"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_style.glade2.h:3
+msgid "Use 8 dots"
+msgstr "Dùng 8 chấm"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_style.glade2.h:4
+msgid "_6 Dot Braille"
+msgstr "_6 chấm cho chữ Bray"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_style.glade2.h:5
+msgid "_8 Dot Braille"
+msgstr "_8 chấm cho chữ Bray"
+
+#: ../gnopi/gnopi_files/Braille_Settings/cursor_settings.glade2.h:1
+msgid "Cursor Preferences"
+msgstr "Tùy thích con trỏ"
+
+#: ../gnopi/gnopi_files/Braille_Settings/cursor_settings.glade2.h:2
+msgid "Cursor on braille display is a full cell"
+msgstr "Trên trình bày chữ Bray, con trỏ là một ô đầy"
+
+#: ../gnopi/gnopi_files/Braille_Settings/cursor_settings.glade2.h:3
+msgid "Cursor on braille display is an underline"
+msgstr "Trên trình bày chữ Bray, con trỏ là một gạch dưới"
+
+#: ../gnopi/gnopi_files/Braille_Settings/cursor_settings.glade2.h:4
+msgid "No cursor on braille display"
+msgstr "Trên trình bày chữ Bray, không có con trỏ"
+
+#: ../gnopi/gnopi_files/Braille_Settings/cursor_settings.glade2.h:5
+msgid "_Full cell cursor"
+msgstr "_Con trỏ ô đầy"
+
+#: ../gnopi/gnopi_files/Braille_Settings/cursor_settings.glade2.h:6
+msgid "_No cursor"
+msgstr "_Không có con trỏ"
+
+#: ../gnopi/gnopi_files/Braille_Settings/cursor_settings.glade2.h:7
+msgid "_Underline cursor (dots 7 and 8)"
+msgstr "_Con trỏ gạch dưới (chấm 7 và 8)"
+
+#: ../gnopi/gnopi_files/Braille_Settings/translation_table.glade2.h:1
+msgid "Translation Table"
+msgstr "Bảng dịch"
+
+#: ../gnopi/gnopi_files/Braille_Settings/translation_table.glade2.h:2
+msgid "Translation table list"
+msgstr "Danh sách bảng dịch"
+
+#: ../gnopi/gnopi_files/Braille_Settings/translation_table.glade2.h:3
+msgid "_Select language:"
+msgstr "_Chọn ngôn ngữ:"
+
+#: ../gnopi/gnopi_files/Find/find.glade2.h:1
+msgid "   "
+msgstr "   "
+
+#: ../gnopi/gnopi_files/Find/find.glade2.h:3
+msgid "<b>Fi_nd Text:</b>"
+msgstr "<b>_Tìm đoạn:</b>"
+
+#: ../gnopi/gnopi_files/Find/find.glade2.h:4
+msgid "<b>Find Attributes:</b>"
+msgstr "<b>Tìm thuộc tính:</b>"
+
+#: ../gnopi/gnopi_files/Find/find.glade2.h:5
+msgid "<b>Match</b>"
+msgstr "<b>Khớp</b>"
+
+#: ../gnopi/gnopi_files/Find/find.glade2.h:6
+msgid "<b>Scope</b>"
+msgstr "<b>Phạm vị</b>"
+
+#: ../gnopi/gnopi_files/Find/find.glade2.h:7
+msgid "<b>Search For</b>"
+msgstr "<b>Tìm kiếm</b>"
+
+#: ../gnopi/gnopi_files/Find/find.glade2.h:8
+msgid "A_ll chosen attributes"
+msgstr "_Mọi thuộc tính đã chọn"
+
+#: ../gnopi/gnopi_files/Find/find.glade2.h:9
+msgid "A_ny chosen attributes"
+msgstr "_Bất cứ thuộc tính đã chọn nào"
+
+#: ../gnopi/gnopi_files/Find/find.glade2.h:10
+msgid "A_ttribute"
+msgstr "_Thuộc tính"
+
+#: ../gnopi/gnopi_files/Find/find.glade2.h:11
+msgid "Bold"
+msgstr "Đậm"
+
+#: ../gnopi/gnopi_files/Find/find.glade2.h:12
+msgid "Case _sensitive"
+msgstr "Phân biệt chữ hoa/thường"
+
+#: ../gnopi/gnopi_files/Find/find.glade2.h:13
+msgid "Case sensitive on/off"
+msgstr "Phân biệt chữ hoa/thường bật/tắt"
+
+#: ../gnopi/gnopi_files/Find/find.glade2.h:14
+msgid "Italic"
+msgstr "Nghiêng"
+
+#: ../gnopi/gnopi_files/Find/find.glade2.h:15
+msgid "S_elected"
+msgstr "Đã _chọn"
+
+#: ../gnopi/gnopi_files/Find/find.glade2.h:16
+msgid "Scope area is a desktop"
+msgstr "Vùng phạm vị là màn hình nền"
+
+#: ../gnopi/gnopi_files/Find/find.glade2.h:17
+msgid "Scope area is a window"
+msgstr "Vùng phạm vị là cửa sổ"
+
+#: ../gnopi/gnopi_files/Find/find.glade2.h:18
+msgid "Scope area is an application"
+msgstr "Vùng phạm vị là ứng dụng"
+
+#: ../gnopi/gnopi_files/Find/find.glade2.h:19
+msgid "Search Preferences"
+msgstr "Tùy thích tìm kiếm"
+
+#: ../gnopi/gnopi_files/Find/find.glade2.h:20
+msgid "Search criteria is a graphics"
+msgstr "Tiêu chuẩn tìm kiếm là một đồ họa"
+
+#: ../gnopi/gnopi_files/Find/find.glade2.h:21
+msgid "Search criteria is a text"
+msgstr "Tiêu chuẩn tìm kiếm là một đoạn văn bản"
+
+#: ../gnopi/gnopi_files/Find/find.glade2.h:22
+msgid "Search criteria is an attribute"
+msgstr "Tiêu chuẩn tìm kiếm là một thuộc tính"
+
+#: ../gnopi/gnopi_files/Find/find.glade2.h:23
+msgid "Selected item"
+msgstr "Mục được chọn"
+
+#: ../gnopi/gnopi_files/Find/find.glade2.h:24
+msgid "Stri_kethrough"
+msgstr "_Gạch đè"
+
+#: ../gnopi/gnopi_files/Find/find.glade2.h:25
+msgid "Strikethrough"
+msgstr "Gạch đè"
+
+#: ../gnopi/gnopi_files/Find/find.glade2.h:26
+msgid "Te_xt"
+msgstr "Đ_oạn"
+
+#: ../gnopi/gnopi_files/Find/find.glade2.h:27
+msgid "Text to search"
+msgstr "Đoạn cần  tìm"
+
+#: ../gnopi/gnopi_files/Find/find.glade2.h:28
+msgid "Underline"
+msgstr "Gạch chân"
+
+#: ../gnopi/gnopi_files/Find/find.glade2.h:29
+msgid "_Application"
+msgstr "Ứng _dụng"
+
+#: ../gnopi/gnopi_files/Find/find.glade2.h:30
+msgid "_Bold"
+msgstr "Đậ_m"
+
+#: ../gnopi/gnopi_files/Find/find.glade2.h:31
+msgid "_Desktop"
+msgstr "_Màn hình nền"
+
+#: ../gnopi/gnopi_files/Find/find.glade2.h:32
+msgid "_Graphics"
+msgstr "Độ _họa"
+
+#: ../gnopi/gnopi_files/Find/find.glade2.h:33
+msgid "_Italic"
+msgstr "_Nghiêng"
+
+#: ../gnopi/gnopi_files/Find/find.glade2.h:34
+msgid "_Underline"
+msgstr "Gạch _dưới"
+
+#: ../gnopi/gnopi_files/Find/find.glade2.h:35
+msgid "_Window"
+msgstr "_Cửa sổ"
+
+#: ../gnopi/gnopi_files/General_Settings/general_settings.glade2.h:1
+msgid "    "
+msgstr "    "
+
+#: ../gnopi/gnopi_files/General_Settings/general_settings.glade2.h:2
+msgid "<b>Active Components</b>"
+msgstr "<b>Thành phần hoạt động</b>"
+
+#: ../gnopi/gnopi_files/General_Settings/general_settings.glade2.h:3
+msgid "<b>Startup</b>"
+msgstr "<b>Khởi động</b>"
+
+#: ../gnopi/gnopi_files/General_Settings/general_settings.glade2.h:5
+msgid "Braille monitor on/off"
+msgstr "Màn hình chữ Bray bật/tắt"
+
+#: ../gnopi/gnopi_files/General_Settings/general_settings.glade2.h:6
+msgid "Braille on/off"
+msgstr "Chữ Bray bật/tắt"
+
+#: ../gnopi/gnopi_files/General_Settings/general_settings.glade2.h:7
+msgid "Magnifier on/off"
+msgstr "Kính lúp bật/tắt"
+
+#: ../gnopi/gnopi_files/General_Settings/general_settings.glade2.h:8
+msgid "Speech on/off"
+msgstr "Tiếng nói bật/tắt"
+
+#: ../gnopi/gnopi_files/General_Settings/general_settings.glade2.h:9
+msgid "Start gnopernicus minimized"
+msgstr "Khởi chạy trình gnopernicus bị thu nhỏ"
+
+#: ../gnopi/gnopi_files/General_Settings/general_settings.glade2.h:10
+msgid "Start m_inimized"
+msgstr "Khởi chạy bị thu nhỏ"
+
+#: ../gnopi/gnopi_files/General_Settings/general_settings.glade2.h:11
+msgid "Startup Mode"
+msgstr "Chế độ khởi chạy"
+
+#: ../gnopi/gnopi_files/Keyboard_Mouse_Settings/keyboard_mouse_settings.glade2.h:1
+msgid "Mouse Preferences"
+msgstr "Tùy thích con chuột"
+
+#: ../gnopi/gnopi_files/Keyboard_Mouse_Settings/keyboard_mouse_settings.glade2.h:2
+msgid "Simulate click on current object"
+msgstr "Mô phỏng nhắp vào đối tượng hiện có"
+
+#: ../gnopi/gnopi_files/Keyboard_Mouse_Settings/keyboard_mouse_settings.glade2.h:3
+msgid "Take mouse at current object"
+msgstr "Lấy con chuột tại đối tượng hiện có"
+
+#: ../gnopi/gnopi_files/Keyboard_Mouse_Settings/keyboard_mouse_settings.glade2.h:4
+msgid "_Simulate click on current object"
+msgstr "_Mô phỏng nhắp vào đối tượng hiện có"
+
+#: ../gnopi/gnopi_files/Keyboard_Mouse_Settings/keyboard_mouse_settings.glade2.h:5
+msgid "_Take mouse at current object"
+msgstr "_Lấy con chuột tại đối tượng hiện có"
+
+#: ../gnopi/gnopi_files/Load_Default/load_default.glade2.h:1
+msgid "Close \"Load Default Preferences\""
+msgstr "Đóng «Tải Tùy thích mặc định»"
+
+#: ../gnopi/gnopi_files/Load_Default/load_default.glade2.h:2
+msgid "Load Default Preferences"
+msgstr "Tải Tùy thích mặc định"
+
+#: ../gnopi/gnopi_files/Load_Default/load_default.glade2.h:3
+msgid "Load Default Settings"
+msgstr "Tải thiết lập mặc định"
+
+#: ../gnopi/gnopi_files/Load_Default/load_default.glade2.h:4
+msgid "Load all defaults"
+msgstr "Tải mọi mặc định"
+
+#: ../gnopi/gnopi_files/Load_Default/load_default.glade2.h:5
+msgid "Load braille defaults"
+msgstr "Tải các mặc định chữ Bray"
+
+#: ../gnopi/gnopi_files/Load_Default/load_default.glade2.h:6
+msgid "Load braille monitor defaults"
+msgstr "Tải các mặc định màn hình chữ Bray"
+
+#: ../gnopi/gnopi_files/Load_Default/load_default.glade2.h:7
+msgid "Load command map defaults"
+msgstr "Tải các mặc định ảnh xạ lệnh"
+
+#: ../gnopi/gnopi_files/Load_Default/load_default.glade2.h:8
+msgid "Load magnifier defaults"
+msgstr "Tải các mặc định kính lúp"
+
+#: ../gnopi/gnopi_files/Load_Default/load_default.glade2.h:9
+msgid "Load mouse defaults"
+msgstr "Tải các mặc định con chuột"
+
+#: ../gnopi/gnopi_files/Load_Default/load_default.glade2.h:10
+msgid "Load presentation defaults"
+msgstr "Tải các mặc định trình diễn"
+
+#: ../gnopi/gnopi_files/Load_Default/load_default.glade2.h:11
+msgid "Load screen review defaults"
+msgstr "Tải các mặc định xem lại màn hình"
+
+#: ../gnopi/gnopi_files/Load_Default/load_default.glade2.h:12
+msgid "Load speech defaults"
+msgstr "Tải các mặc định tiếng nói"
+
+#: ../gnopi/gnopi_files/Load_Default/load_default.glade2.h:13
+msgid "Load startup mode defaults"
+msgstr "Tải các mặc định chế độ khởi chạy"
+
+#: ../gnopi/gnopi_files/Load_Default/load_default.glade2.h:14
+msgid "_0 All"
+msgstr "_0 Tất cả"
+
+#: ../gnopi/gnopi_files/Load_Default/load_default.glade2.h:15
+msgid "_1 Braille"
+msgstr "_1 Chữ Bray"
+
+#: ../gnopi/gnopi_files/Load_Default/load_default.glade2.h:16
+msgid "_2 Speech"
+msgstr "_2 Tiếng nói"
+
+#: ../gnopi/gnopi_files/Load_Default/load_default.glade2.h:17
+#: ../gnopi/gnopi_files/gnopi.glade2.h:33
+msgid "_3 Magnifier"
+msgstr "_3 Kính lúp"
+
+#: ../gnopi/gnopi_files/Load_Default/load_default.glade2.h:18
+msgid "_4 Keyboard"
+msgstr "_4 Bàn phím"
+
+#: ../gnopi/gnopi_files/Load_Default/load_default.glade2.h:19
+#: ../gnopi/gnopi_files/gnopi.glade2.h:36
+msgid "_5 Braille Monitor"
+msgstr "_5 Màn hình chữ Bray"
+
+#: ../gnopi/gnopi_files/Load_Default/load_default.glade2.h:20
+msgid "_6 Startup"
+msgstr "_6 Khởi động"
+
+#: ../gnopi/gnopi_files/Load_Default/load_default.glade2.h:21
+msgid "_7 Command Map"
+msgstr "_7 Ảnh xạ lệnh"
+
+#: ../gnopi/gnopi_files/Load_Default/load_default.glade2.h:22
+msgid "_8 Presentation"
+msgstr "_8 Trình diễn"
+
+#: ../gnopi/gnopi_files/Load_Default/load_default.glade2.h:23
+msgid "_9 Screen Review"
+msgstr "_9 Xem lại màn hình"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:2
+msgid "<b>Border settings</b>"
+msgstr "<b>Thiết lập viền</b>"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:3
+msgid "<b>Cross-hair</b>"
+msgstr "<b>Chữ thập mảnh</b>"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:4
+msgid "<b>Cursor setting</b>"
+msgstr "<b>Thiết lập con trỏ</b>"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:5
+msgid "<b>Display screen</b>"
+msgstr "<b>Màn hình trình bày</b>"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:6
+msgid "<b>Focus tracking mode</b>"
+msgstr "<b>Chế độ theo dõi tiêu điểm</b>"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:7
+msgid "<b>Mo_use tracking mode</b>"
+msgstr "<b>Chế độ theo dõi con _chuột</b>"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:8
+msgid "<b>S_moothing</b>"
+msgstr "<b>Làm _mịn</b>"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:9
+msgid "<b>Zoomer placement</b>"
+msgstr "<b>Vị trí bộ phóng to</b>"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:10
+msgid "<b>Zoomfactor</b>"
+msgstr "<b>Hệ số phóng to</b>"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:11
+msgid "<b>_Zoomer list</b>"
+msgstr "<b>_Danh sách bộ phóng to</b>"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:12
+msgid "Bor_der size:"
+msgstr "Kích thước _viền:"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:13
+msgid "Border c_olor:"
+msgstr "_Màu viền:"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:14
+msgid "Border color"
+msgstr "Màu viền"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:15
+msgid "Border size"
+msgstr "Kích thước viền"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:16
+msgid "C_entered"
+msgstr "Cạnh _giữa"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:17
+msgid "C_ursor on/off"
+msgstr "C_on trỏ bật/tắt"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:18
+msgid "Cross-ha_ir size:"
+msgstr "Kích thước _chữ thập mảnh:"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:19
+msgid "Cross-hair c_lip on/off"
+msgstr "ả_nh chữ thập mảnh bật/tắt"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:20
+msgid "Cross-hair colo_r:"
+msgstr "_Màu chữ thập mảnh:"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:21
+msgid "Cross-hair color in_verted"
+msgstr "Màu chữ thập mảnh đả_o"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:22
+msgid "Cross-hair o_n/off"
+msgstr "Chữ thập mảnh _bật/tắt"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:23
+msgid "Crosshair clip on/off"
+msgstr "Ảnh chữ thập mảnh bật/tắt"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:24
+msgid "Crosshair color"
+msgstr "Màu chữ thập mảnh"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:25
+msgid "Crosshair on/off"
+msgstr "Chữ thập mảnh bật/tắt"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:26
+msgid "Crosshair size"
+msgstr "Kích thước chữ thập mảnh:"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:27
+msgid "Cursor _size:"
+msgstr "_Kích thước con trỏ:"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:28
+msgid "Cursor c_olor:"
+msgstr "_Màu con trỏ:"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:29
+msgid "Cursor color"
+msgstr "Màu con trỏ"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:30
+msgid "Cursor magnification"
+msgstr "Phóng to con trỏ"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:31
+msgid "Cursor on/off"
+msgstr "Con trỏ bật/tắt"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:32
+msgid "Cursor size"
+msgstr "Kích thước con trỏ"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:33
+msgid "Display screen source"
+msgstr "Nguồn màn hình bộ trình bày"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:34
+msgid "Display screen target"
+msgstr "Đích màn hình bộ trình bày"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:35
+msgid "Invert crosshair color"
+msgstr "Đảo màu chữ thập mảnh"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:36
+msgid "Invert on/off"
+msgstr "Đảo bật/tắt"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:37
+msgid "Lock zoom _factor"
+msgstr "Khóa _hệ số phóng to"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:38
+msgid "Lock zoom factor"
+msgstr "Khóa hệ số phóng to"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:39
+msgid "Magnifier Preferences"
+msgstr "Tùy thích kính lúp"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:40
+msgid "Magnifier settings"
+msgstr "Thiết lập kính lúp"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:41
+msgid "Mouse tracking type"
+msgstr "Kiểu theo dõi con chuột"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:42
+msgid "Panning on/off"
+msgstr "Di chuyển minh họa bật/tắt"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:44
+msgid "Set cursor separate from _magnification"
+msgstr "Lập con trỏ riêng với _phóng to"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:45
+msgid "Smoothing type"
+msgstr "Kiểu làm mịn"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:46
+msgid "Tar_get:"
+msgstr "Đí_ch:"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:47
+msgid "Zoom factor X"
+msgstr "Hệ số X phóng to"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:48
+msgid "Zoom factor Y"
+msgstr "Hệ số Y phóng to"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:49
+msgid "Zoom factor _X:"
+msgstr "Hệ số _X phóng to:"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:50
+msgid "Zoom factor _Y:"
+msgstr "Hệ số _Y phóng to:"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:51
+msgid "Zoomer Options"
+msgstr "Tùy chọn bộ phóng to"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:52
+msgid "Zoomer placement bottom"
+msgstr "Vị trí bộ phóng to tại đáy"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:53
+msgid "Zoomer placement left"
+msgstr "Vị trí bộ phóng to bên trái"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:54
+msgid "Zoomer placement right"
+msgstr "Vị trí bộ phóng to bên phải"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:55
+msgid "Zoomer placement top"
+msgstr "Vị trí bộ phóng to đỉnh"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:56
+msgid "Zoomers list"
+msgstr "Danh sách bộ phóng to"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:57
+msgid "_Add/Modify"
+msgstr "T_hêm/Sửa đổi"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:58
+msgid "_Auto"
+msgstr "_Tự động"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:59
+msgid "_Bottom:"
+msgstr "Đá_y:"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:60
+msgid "_Invert"
+msgstr "Đả_o"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:61
+msgid "_Left:"
+msgstr "T_rái:"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:62
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:87
+msgid "_None"
+msgstr "K_hông"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:63
+msgid "_Panning"
+msgstr "Di chuyển _minh họa"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:64
+msgid "_Remove"
+msgstr "_Loại bỏ"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:65
+msgid "_Right:"
+msgstr "_Phải:"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:66
+msgid "_Source:"
+msgstr "_Nguồn:"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:67
+msgid "_Top:"
+msgstr "Đỉ_nh:"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:68
+#: ../gnopi/magui.c:49
+msgid "bilinear"
+msgstr "tuyến tính"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:69
+#: ../gnopi/magui.c:61
+msgid "centered"
+msgstr "cạnh giữa"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:70
+#: ../gnopi/magui.c:48 ../gnopi/magui.c:63
+msgid "none"
+msgstr "không có"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:71
+#: ../gnopi/magui.c:62
+msgid "proportional"
+msgstr "cân đối"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:72
+#: ../gnopi/magui.c:60
+msgid "push"
+msgstr "đẩy"
+
+#: ../gnopi/gnopi_files/Presentation/presentation.glade2.h:2
+msgid "Expert"
+msgstr "Cấp cao"
+
+#: ../gnopi/gnopi_files/Presentation/presentation.glade2.h:3
+msgid "Mode selected:"
+msgstr "Chế độ đã chọn:"
+
+#: ../gnopi/gnopi_files/Presentation/presentation.glade2.h:4
+msgid "Presentation"
+msgstr "Trình diễn"
+
+#: ../gnopi/gnopi_files/Presentation/presentation.glade2.h:5
+#: ../srcore/default.xml.in.h:18 ../srcore/verbose.xml.in.h:18
+msgid "Verbose"
+msgstr "Chi tiết"
+
+#: ../gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:1
+msgid "<b>Horizontal flags</b>"
+msgstr "<b>Cờ nằm ngang</b>"
+
+#: ../gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:2
+msgid "<b>Vertical flags</b>"
+msgstr "<b>Cờ nằm dọc</b>"
+
+#: ../gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:3
+msgid "Add all empty lines"
+msgstr "Thêm mọi dòng rỗng"
+
+#: ../gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:4
+msgid "Add all spaces"
+msgstr "Thêm mọi dấu cách"
+
+#: ../gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:5
+msgid "Add all spaces and empty lines"
+msgstr "Thêm mọi dấu cách và dòng rỗng đều"
+
+#: ../gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:6
+msgid "Add embedded empty lines"
+msgstr "Thêm dòng rỗng nhúng"
+
+#: ../gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:7
+msgid "Add embedded spaces"
+msgstr "Thêm dấu cách nhúng"
+
+#: ../gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:8
+msgid "Add leading empty lines"
+msgstr "Thêm dòng rỗng đi trước"
+
+#: ../gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:9
+msgid "Add leading spaces"
+msgstr "Thêm dấu cách đi trước"
+
+#: ../gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:10
+msgid "Add trailing empty lines"
+msgstr "Thêm dòng rỗng theo sau"
+
+#: ../gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:11
+msgid "Add trailing spaces"
+msgstr "Thêm dấu cách theo sau"
+
+#: ../gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:12
+msgid "All _horizontal"
+msgstr "Mọi nằm _ngang"
+
+#: ../gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:13
+msgid "All _vertical"
+msgstr "Mọi nằm dọc"
+
+#: ../gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:14
+msgid "Count em_pty lines"
+msgstr "Đếm dòng _rỗng"
+
+#: ../gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:15
+msgid "Count empty lines"
+msgstr "Đếm dòng rỗng"
+
+#: ../gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:16
+msgid "E_mbedded"
+msgstr "_Nhúng"
+
+#: ../gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:17
+msgid "Lea_ding"
+msgstr "Đi t_rước"
+
+#: ../gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:18
+msgid "Screen Review Preferences"
+msgstr "Tùy thích xem lại màn hình"
+
+#: ../gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:19
+msgid "T_railing"
+msgstr "Theo _sau"
+
+#: ../gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:20
+msgid "_All flags"
+msgstr "_Mọi cờ"
+
+#: ../gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:21
+msgid "_Embedded"
+msgstr "_Nhúng"
+
+#: ../gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:22
+msgid "_Leading"
+msgstr "Đi t_rước"
+
+#: ../gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:23
+msgid "_Trailing"
+msgstr "_Theo sau"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:2
+#, no-c-format
+msgid "%"
+msgstr "%"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:4
+msgid "<b><></b>"
+msgstr "<b><></b>"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:5
+msgid "<b>Absolute Value</b>"
+msgstr "<b>Giá trị tuyệt đối</b>"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:6
+msgid "<b>Driver</b>"
+msgstr "<b>Trình điều khiển</b>"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:7
+msgid "<b>Properties</b>"
+msgstr "<b>Thuộc tính</b>"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:8
+msgid "<b>Punctuation</b>"
+msgstr "<b>Chấm câu</b>"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:9
+msgid "<b>Relative Values</b>"
+msgstr "<b>Giá trị liên quan</b>"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:10
+msgid "<b>Text Echo</b>"
+msgstr "<b>Vọng chữ</b>"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:11
+msgid "<b>Voice</b>"
+msgstr "<b>Tiếng nói</b>"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:12
+msgid "<b>_Dictionary</b>"
+msgstr "<b>_Từ điển</b>"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:13
+msgid "<b>_Replacement:</b>"
+msgstr "<b>_Thay thế</b>"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:14
+msgid "<b>_Voice list</b>"
+msgstr "<b>Danh sách tiếng _nói</b>"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:15
+msgid "<b>_Word:</b>"
+msgstr "<b>_Từ:</b>"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:16
+msgid "A_ll"
+msgstr "Tất _cả"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:17
+msgid "Activate pitch"
+msgstr "Hoạt hóa độ cao giọng"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:18
+msgid "Activate rate"
+msgstr "Hoạt hóa tốc độ"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:19
+msgid "Activate volume"
+msgstr "Hoạt hóa âm lượng"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:20
+msgid "Add / Modify Dictionary Entry"
+msgstr "Thêm / Sửa đổi mục nhập từ điển"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:21
+msgid "Add / Modify Voice"
+msgstr "Thêm / Sửa đổi tiếng nói"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:22
+msgid "Add new item in voices list"
+msgstr "Thêm mục nhập mới vào danh sách tiếng nói"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:23
+msgid "Add new word in dictionary"
+msgstr "Thêm từ mới vào từ điển"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:24
+msgid ""
+"Change for all voices the engine driver and the engine speaker with a "
+"selected driver and speaker"
+msgstr ""
+"Thay đổi cho mọi tiếng nói, trình hỗ trợ thiết bị cơ chế, và loa cơ chế, với "
+"một trình và loa đã chọn."
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:25
+msgid "Charac_ter"
+msgstr "_Ký tự"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:26
+msgid "Count sym_bols"
+msgstr "Đếm ký _hiệu"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:27
+msgid "Count symbols"
+msgstr "Đếm ký hiệu"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:28
+msgid "Decrease pitch"
+msgstr "Giảm độ cao giọng"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:29
+msgid "Decrease rate"
+msgstr "Giảm tốc độ"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:30
+msgid "Decrease volume"
+msgstr "Giảm âm lượng"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:31
+msgid "Dictionary"
+msgstr "Từ điển"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:32
+msgid "Dictionary list"
+msgstr "Danh sách từ điển"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:33
+msgid "Do not speak text"
+msgstr "Đừng nói chữ"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:34
+msgid "Edit A_bsolute..."
+msgstr "Hiệu chỉnh T_uyệt đối..."
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:35
+msgid "Edit Absolute Voice Values"
+msgstr "Hiệu chỉnh giá trị tiếng nói tuyệt đối"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:36
+msgid "Edit R_elative..."
+msgstr "Hiệu chỉnh _Tương đối.."
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:37
+msgid "Edit Relative Voice Values"
+msgstr "Hiệu chỉnh giá trị tiếng nói tương đối"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:38
+msgid "Edit dictionary"
+msgstr "Hiệu chỉnh từ điển"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:39
+msgid "Edit parameter values absolutely"
+msgstr "HIệu chỉnh giá trị tham số một cách tuyệt đối"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:40
+msgid "Edit parameter values relatively"
+msgstr "HIệu chỉnh giá trị tham số một cách tương đối"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:41
+msgid "Engine _driver:"
+msgstr "T_rình điều khiển cơ chế:"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:42
+msgid "Engine _speaker:"
+msgstr "_Loa cơ chế:"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:43
+msgid "Engine driver"
+msgstr "Trình điều khiển cơ chế"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:44
+msgid "Engine speaker"
+msgstr "Loa cơ chế"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:45
+msgid "Gnopernicus system voice"
+msgstr "Tiếng nói hệ thống Gnopernicus"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:46
+msgid "Hz"
+msgstr "Hz"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:47
+msgid "Ignore all punctuation"
+msgstr "Bỏ qua mọi chấm câu"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:48
+msgid "Increase pitch"
+msgstr "Tăng độ cao giọng"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:49
+msgid "Increase rate"
+msgstr "Tăng tốc độ"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:50
+msgid "Increase volume"
+msgstr "Tăng âm lượng"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:51
+msgid "Made pitch sensitive for changing"
+msgstr "Đã làm cho độ cao giọng nhạy thay đổi"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:52
+msgid "Made rate sensitive for changing"
+msgstr "Đã làm cho tốc độ nhạy thay đổi"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:53
+msgid "Made volume sensitive for changing"
+msgstr "Đã làm cho âm lượng nhạy thay đổi"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:54
+msgid "Modify selected voice"
+msgstr "Sửa đổi tiếng nói đã chọn"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:55
+msgid "Modify word"
+msgstr "Sửa đổi từ"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:56
+#: ../gnopi/spvoiceui.c:2076
+msgid "Pitch"
+msgstr "Độ cao giọng"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:57
+#: ../gnopi/spvoiceui.c:2068
+msgid "Rate"
+msgstr "Tốc độ"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:58
+msgid "Remove selected voice from voices list"
+msgstr "Loại bỏ tiếng nói đã chọn ra danh sách tiếng nói"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:59
+msgid "Remove word from dictionary"
+msgstr "Loại bỏ từ khỏi từ điển"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:60
+msgid "Replecement"
+msgstr "Thay thế"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:61
+msgid "Sa_y all navigation keys"
+msgstr "Nói mọi phím _di chuyển"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:62
+msgid "Say all modi_fiers"
+msgstr "Nói mọi phím _sửa đổi"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:63
+msgid "Say all modifiers"
+msgstr "Nói mọi phím sửa đổi"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:64
+msgid "Say all navigation keys"
+msgstr "Nói mọi phím di chuyển"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:65
+msgid "Say all s_paces"
+msgstr "Nói mọi dấu _cách"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:66
+msgid "Say all spaces"
+msgstr "Nói mọi dấu cách"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:67
+msgid "Say text as character"
+msgstr "Nói mỗi ký tự trong đoạn"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:68
+msgid "Say text as word"
+msgstr "Nói mỗi từ trong đoạn"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:69
+msgid "Set voices and the voice parameters"
+msgstr "Lập tiếng nói và tham số tiếng nói"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:70
+msgid "Show all punctuation"
+msgstr "Hiển thị mọi chấm câu"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:71
+msgid "Show most punctuation"
+msgstr "Hiển thị phần lớn chấm câu"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:72
+msgid "Show some punctuation"
+msgstr "Hiển thị một phần chấm câu"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:73
+msgid "Speech Preferences"
+msgstr "Tùy thích tiếng nói"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:74
+msgid "Test selected voice"
+msgstr "Thử ra tiếng nói đã chọn"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:75
+msgid "Use dictionary"
+msgstr "Dùng từ điển"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:76
+msgid "Voice _name:"
+msgstr "Tên tiếng _nói:"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:77
+msgid "Voice list"
+msgstr "Danh sách tiếng nói"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:78
+msgid "Voices"
+msgstr "Tiếng nói"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:79
+#: ../gnopi/spvoiceui.c:2060
+msgid "Volume"
+msgstr "Âm lượng"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:80
+msgid "Word to replace"
+msgstr "Từ cần thay thế"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:81
+msgid "Word/Min"
+msgstr "Từ/phút"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:82
+msgid "_Dictionary..."
+msgstr "_Từ điển..."
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:83
+msgid "_Force All Voices to Selected Driver and Speaker"
+msgstr "_Bước mọi tiếng nói dùng trình hỗ trợ thiết bị và loa được chọn"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:84
+msgid "_Ignore"
+msgstr "Lờ đ_i"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:86
+msgid "_Most"
+msgstr "Phần _lớn"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:88
+msgid "_Pitch (Hz)"
+msgstr "Độ _cao giọng (Hz)"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:89
+msgid "_Pitch:"
+msgstr "Độ _cao giọng:"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:90
+msgid "_Rate (words/min)"
+msgstr "_Tốc độ (từ/phút)"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:91
+msgid "_Rate:"
+msgstr "_Tốc độ:"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:92
+msgid "_Some"
+msgstr "Một _phần"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:93
+msgid "_Test voice"
+msgstr "_Thử ra tiếng nói"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:94
+msgid "_Use dictionary"
+msgstr "_Dùng từ điển"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:95
+msgid "_Voices..."
+msgstr "Tiếng _nói..."
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:97
+#, no-c-format
+msgid "_Volume (%)"
+msgstr "Â_m lượng (%)"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:98
+msgid "_Volume:"
+msgstr "Â_m Lượng:"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:99
+msgid "_Word"
+msgstr "_Từ"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:100
+msgid "words/min"
+msgstr "từ/phút"
+
+#: ../gnopi/gnopi_files/User_Properties/user_properties.glade2.h:2
+msgid "<b>_Commands list</b>"
+msgstr "<b>Danh sách _lệnh</b>"
+
+#: ../gnopi/gnopi_files/User_Properties/user_properties.glade2.h:3
+msgid "<b>_Layers list</b>"
+msgstr "<b>Danh sách _tầng</b>"
+
+#: ../gnopi/gnopi_files/User_Properties/user_properties.glade2.h:4
+msgid "<b>_User defined list</b>"
+msgstr "<b>Danh sách do _người dùng định nghĩa</b>"
+
+#: ../gnopi/gnopi_files/User_Properties/user_properties.glade2.h:5
+msgid "Add Layer Key"
+msgstr "Thêm phím tầng"
+
+#: ../gnopi/gnopi_files/User_Properties/user_properties.glade2.h:6
+msgid "Add User Defined Key"
+msgstr "Thêm phím do người dùng định nghĩa"
+
+#: ../gnopi/gnopi_files/User_Properties/user_properties.glade2.h:7
+msgid "Add new item"
+msgstr "Thêm mục mới"
+
+#: ../gnopi/gnopi_files/User_Properties/user_properties.glade2.h:8
+msgid "Alt modifier"
+msgstr "Phím sửa đổi «Alt»"
+
+#: ../gnopi/gnopi_files/User_Properties/user_properties.glade2.h:9
+msgid "Command Mapping"
+msgstr "Ảnh xạ lệnh"
+
+#: ../gnopi/gnopi_files/User_Properties/user_properties.glade2.h:10
+msgid "Commands List"
+msgstr "Danh sách lệnh"
+
+#: ../gnopi/gnopi_files/User_Properties/user_properties.glade2.h:11
+msgid "Control modifier"
+msgstr "Phím sửa đổi «Ctrl»"
+
+#: ../gnopi/gnopi_files/User_Properties/user_properties.glade2.h:12
+msgid "Key number"
+msgstr "Số hiệu phím"
+
+#: ../gnopi/gnopi_files/User_Properties/user_properties.glade2.h:13
+msgid "Keys list"
+msgstr "Danh sách phím"
+
+#: ../gnopi/gnopi_files/User_Properties/user_properties.glade2.h:14
+msgid "Layer command list"
+msgstr "Danh sách lệnh tầng"
+
+#: ../gnopi/gnopi_files/User_Properties/user_properties.glade2.h:15
+msgid "Layer number"
+msgstr "Số thứ tự tầng"
+
+#: ../gnopi/gnopi_files/User_Properties/user_properties.glade2.h:16
+msgid "Layers"
+msgstr "Tầng"
+
+#: ../gnopi/gnopi_files/User_Properties/user_properties.glade2.h:17
+msgid "List of gnopernicus commands"
+msgstr "Danh sách lệnh gnopernicus"
+
+#: ../gnopi/gnopi_files/User_Properties/user_properties.glade2.h:18
+msgid "Modify command for the selected item"
+msgstr "Sửa đổi lệnh cho mục đã chọn"
+
+#: ../gnopi/gnopi_files/User_Properties/user_properties.glade2.h:19
+msgid "Remove selected item"
+msgstr "Loại bỏ mục đã chọn"
+
+#: ../gnopi/gnopi_files/User_Properties/user_properties.glade2.h:20
+msgid "Shift modifier"
+msgstr "Phím sửa đổi «Shift»"
+
+#: ../gnopi/gnopi_files/User_Properties/user_properties.glade2.h:21
+msgid "User Defined"
+msgstr "Người dùng định nghĩã"
+
+#: ../gnopi/gnopi_files/User_Properties/user_properties.glade2.h:22
+msgid "User defined commands list."
+msgstr "Danh sách lệnh do người dùng định nghĩa"
+
+#: ../gnopi/gnopi_files/User_Properties/user_properties.glade2.h:23
+msgid "_Alt"
+msgstr "_Alt"
+
+#: ../gnopi/gnopi_files/User_Properties/user_properties.glade2.h:24
+msgid "_Ctrl"
+msgstr "_Ctrl"
+
+#: ../gnopi/gnopi_files/User_Properties/user_properties.glade2.h:25
+msgid "_Key:"
+msgstr "_Phím:"
+
+#: ../gnopi/gnopi_files/User_Properties/user_properties.glade2.h:26
+msgid "_Layer:"
+msgstr "_Tầng:"
+
+#: ../gnopi/gnopi_files/User_Properties/user_properties.glade2.h:27
+msgid "_Modifier keys:"
+msgstr "_Phím sửa đổi:"
+
+#: ../gnopi/gnopi_files/User_Properties/user_properties.glade2.h:29
+msgid "_Shift"
+msgstr "_Shift"
+
+#: ../gnopi/gnopi_files/about.glade2.h:1
+msgid "Screen Reader and Magnifier for the GNOME Desktop"
+msgstr "Bộ đọc màn hình và Kính lúp cho GNOME"
+
+#: ../gnopi/gnopi_files/about.glade2.h:2
+msgid "translator-credits"
+msgstr "Nhóm Việt hóa <gnomevi-list@lists.sourceforge.net>"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:1
+msgid ""
+"<b>Gnopernicus has detected that the assistive technology \n"
+"support is not enabled.</b>\n"
+msgstr ""
+"<b>Trình gnopernicus đã phát hiện chưa bật cách hỗ trợ kỹ thuật giúp đỡ.</"
+"b>\n"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:4
+msgid "About"
+msgstr "Giới thiệu"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:5 ../srcore/srpres.c:812
+msgid "Alert"
+msgstr "Báo động"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:6
+msgid "Braille device preferences"
+msgstr "Tùy thích thiết bị chữ Bray"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:7
+msgid "Braille monitor preferences"
+msgstr "Tùy thích màn hình chữ Bray"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:8
+msgid "Close preferences"
+msgstr "Đóng sở thích"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:9
+msgid "Command mapping"
+msgstr "Ảnh xạ lệnh"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:10
+msgid "Do you want to enable the assistive technology support?"
+msgstr "Bạn có muốn bật Hỗ trợ Kỹ thuật Trợ giúp không?"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:11
+msgid "Exit from gnopernicus"
+msgstr "Thoát khỏi Gnopernicus"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:12
+msgid "Find on screen"
+msgstr "Tìm trên màn hình"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:13
+msgid "Gnopernicus"
+msgstr "Gnopernicus"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:14
+msgid "Gnopernicus usage help"
+msgstr "Trợ giúp cách sử dụng Gnopernicus"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:15
+msgid "Iconify menu"
+msgstr "Co lại trình đơn thành biểu tượng"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:16
+msgid "Load default preferences"
+msgstr "Tải sở thích mặc định"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:17
+msgid "Magnifier preferences"
+msgstr "Tùy thích kính lúp"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:18
+msgid "Mouse preferences"
+msgstr "Tùy thích con chuột"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:19
+msgid "Preferences"
+msgstr "Tùy thích"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:20
+msgid "Preferences..."
+msgstr "Tùy thích..."
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:21 ../srcore/srspc.c:1042
+msgid "Question"
+msgstr "Câu hỏi"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:22
+msgid "Role presentation"
+msgstr "Trình diễn vai trò"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:23
+msgid "Screen review"
+msgstr "Xem lại màn hình"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:24
+msgid "Speech preferences"
+msgstr "Tùy thích tiếng nói"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:25
+msgid "Startup mode..."
+msgstr "Chế độ khởi động..."
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:26
+msgid ""
+"You will have to log out for the change to take effect.\n"
+"Do you want to log out now? "
+msgstr ""
+"Để hoạt hóa các thay đổi, bạn hãy đăng xuất.\n"
+"Bạn có muốn đăng xuất ngay bây giờ không?"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:28
+msgid "_1 Speech"
+msgstr "_1 Tiếng nói"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:29
+msgid "_1 Startup Mode..."
+msgstr "_1 Chế độ khởi động"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:30
+msgid "_2 Braille"
+msgstr "_2 Chữ Bray"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:31
+msgid "_2 Preferences..."
+msgstr "_2 Tùy thích..."
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:32
+msgid "_3 Default Preferences..."
+msgstr "_3 Tùy thích mặc định..."
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:34
+msgid "_4 Minimize"
+msgstr "_4 Cực tiểu hóa"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:35
+msgid "_4 Mouse"
+msgstr "_4 Con chuột"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:37
+msgid "_5 Help"
+msgstr "_5 Trợ giúp"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:38
+msgid "_6 About"
+msgstr "_6 Giới thiệu"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:39
+msgid "_6 Command Mapping"
+msgstr "_6 Ánh xạ lệnh"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:40
+msgid "_7 Presentation"
+msgstr "_7 Trình diễn"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:41
+msgid "_8 Screen Review"
+msgstr "_8 Xem lại màn hình"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:42
+msgid "_9 Search"
+msgstr "_9 Tìm kiếm"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:43
+msgid "_Don't Enable Support"
+msgstr "Đừn_g bật cách hỗ trợ"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:44
+msgid "_Enable Support"
+msgstr "_Bật cách hỗ trợ"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:45
+msgid "_Quit"
+msgstr "T_hoát"
+
+#: ../gnopi/gnopiconf.c:409 ../gnopi/gnopiconf.c:427
+#, c-format
+msgid "Failed to set value: %f."
+msgstr "Lỗi đặt giá trị: %f."
+
+#: ../gnopi/gnopiconf.c:733
+msgid "Failed to set value."
+msgstr "Lỗi đặt giá trị."
+
+#: ../gnopi/gnopiui.c:73 ../gnopi/gnopiui.c:87 ../gnopi/gnopiui.c:99
+#: ../gnopi/gnopiui.c:105
+msgid "We could not load the interface!"
+msgstr "Không tải được giao diện."
+
+#: ../gnopi/magui.c:74
+msgid "default"
+msgstr "mặc định"
+
+#: ../gnopi/magui.c:472
+msgid ""
+"Can NOT remove zoomer because multiple zoomers are not supported in this "
+"version."
+msgstr ""
+"KHÔNG thể loại bỏ bộ phóng to vì không hỗ trợ nhiều bộ phóng to trong phiên "
+"bản này."
+
+#: ../gnopi/magui.c:673
+msgid "Zoomers"
+msgstr "Bộ phóng to"
+
+#: ../gnopi/magui.c:1604
+#, c-format
+msgid "Zoomer Options (%s)"
+msgstr "Tùy chọn bộ phóng to (%s)"
+
+#: ../gnopi/spconf.c:341
+msgid "Failed to set dictionary changes."
+msgstr "Lỗi đặt that đổi từ điển."
+
+#: ../gnopi/spconf.c:349
+msgid "Failed to set removed voice value."
+msgstr "Lỗi đặt giá trị tiếng nói bị loại bỏ."
+
+#: ../gnopi/spconf.c:359
+#, c-format
+msgid "Failed to set count: %s."
+msgstr "Lỗi đặt cách đếm: %s."
+
+#: ../gnopi/spconf.c:368
+#, c-format
+msgid "Failed to set Punctuation: %s."
+msgstr "Lỗi đặt chấm câu: %s."
+
+#: ../gnopi/spconf.c:377
+#, c-format
+msgid "Failed to set text echo value: %s."
+msgstr "Lỗi đặt giá trị vọng chữ: %s."
+
+#: ../gnopi/spconf.c:386
+#, c-format
+msgid "Failed to set modifiers value: %s."
+msgstr "Lỗi đặt giá trị phím sửa đổi: %s."
+
+#: ../gnopi/spconf.c:395
+#, c-format
+msgid "Failed to set cursors value: %s."
+msgstr "Lỗi đặt giá trị con trỏ: %s."
+
+#: ../gnopi/spconf.c:404
+#, c-format
+msgid "Failed to set spaces value: %s."
+msgstr "Lỗi đặt giá trị dấu cách: %s."
+
+#: ../gnopi/spconf.c:413
+#, c-format
+msgid "Failed to set dictionary value: %s."
+msgstr "Lỗi đặt giá trị từ điển: %s."
+
+#: ../gnopi/spconf.c:422
+#, c-format
+msgid "Failed to set testable voice %s."
+msgstr "Lỗi đặt tiếng nói có thể thử ra: %s."
+
+#: ../gnopi/spconf.c:614
+#, c-format
+msgid "%s no name"
+msgstr "%s không tên"
+
+#: ../gnopi/spdictui.c:79
+msgid "Invalid word or replacer!"
+msgstr "Từ hay điều thay thế không hợp lệ."
+
+#: ../gnopi/spdictui.c:85
+msgid "Word exists in dictionary!"
+msgstr "Từ này đã có trong từ điển."
+
+#: ../gnopi/spdictui.c:271 ../gnopi/spdictui.c:324
+msgid "No selected word to modify!"
+msgstr "Chưa chọn từ cần sửa đổi."
+
+#: ../gnopi/spdictui.c:298
+msgid "No selected word to remove!"
+msgstr "Chưa chọn từ cần loại bỏ."
+
+#: ../gnopi/spdictui.c:447
+msgid "Word"
+msgstr "Từ"
+
+#: ../gnopi/spdictui.c:456
+msgid "Replacer"
+msgstr "Điều thay thế"
+
+#: ../gnopi/spvoiceui.c:32
+msgid "<all drivers>"
+msgstr "<mọi trình hỗ trợ thiết bị>"
+
+#: ../gnopi/spvoiceui.c:33
+msgid "<all voices>"
+msgstr "<mọi tiếng nói>"
+
+#: ../gnopi/spvoiceui.c:296
+msgid "Invalid voice!"
+msgstr "Tiếng nói không hợp lệ."
+
+#: ../gnopi/spvoiceui.c:1217
+msgid "Invalid driver or voice!"
+msgstr "Trình điều khiển hay tiếng nói không hợp lệ."
+
+#: ../gnopi/spvoiceui.c:1657
+msgid "No selected voice to modify!"
+msgstr "Chưa chọn tiếng nói cần sửa đổi."
+
+#: ../gnopi/spvoiceui.c:1716
+msgid "No selected voice to remove!"
+msgstr "Chưa chọn tiếng nói cần loại bỏ."
+
+#: ../gnopi/spvoiceui.c:1793
+msgid "No selected voice to test!"
+msgstr "Chưa chọn tiếng nói cần thử ra."
+
+#: ../gnopi/spvoiceui.c:2034
+msgid "Voice"
+msgstr "Tiếng nói"
+
+#: ../gnopi/spvoiceui.c:2043
+msgid "Driver"
+msgstr "Trình điều khiển"
+
+#: ../gnopi/spvoiceui.c:2052
+msgid "Speaker"
+msgstr "Loa"
+
+#. To translators: This is the military phonetic alphabet
+#. Be sure to remove "Phonetic|" from each string
+#: ../speech/libsrs/srs-speech.c:303
+msgid "Phonetic|Alpha"
+msgstr "El-pha"
+
+#: ../speech/libsrs/srs-speech.c:304
+msgid "Phonetic|Bravo"
+msgstr "Bợ-ra-vô"
+
+#: ../speech/libsrs/srs-speech.c:305
+msgid "Phonetic|Charlie"
+msgstr "Cha-lị"
+
+#: ../speech/libsrs/srs-speech.c:306
+msgid "Phonetic|Delta"
+msgstr "Đel-tha"
+
+#: ../speech/libsrs/srs-speech.c:307
+msgid "Phonetic|Echo"
+msgstr "E-cô"
+
+#: ../speech/libsrs/srs-speech.c:308
+msgid "Phonetic|Foxtrot"
+msgstr "Phoc-x-trọ-th"
+
+#: ../speech/libsrs/srs-speech.c:309
+msgid "Phonetic|Golf"
+msgstr "Gổ-ph"
+
+#: ../speech/libsrs/srs-speech.c:310
+msgid "Phonetic|Hotel"
+msgstr "Hô-tel"
+
+#: ../speech/libsrs/srs-speech.c:311
+msgid "Phonetic|India"
+msgstr "In-đi-a"
+
+#: ../speech/libsrs/srs-speech.c:312
+msgid "Phonetic|Juliet"
+msgstr "Chu-li-ẹth"
+
+#: ../speech/libsrs/srs-speech.c:313
+msgid "Phonetic|Kilo"
+msgstr "Khi-lô"
+
+#: ../speech/libsrs/srs-speech.c:314
+msgid "Phonetic|Lima"
+msgstr "Li-ma"
+
+#: ../speech/libsrs/srs-speech.c:315
+msgid "Phonetic|Mike"
+msgstr "Mai-khợ"
+
+#: ../speech/libsrs/srs-speech.c:316
+msgid "Phonetic|November"
+msgstr "Nồ-ven-bợ"
+
+#: ../speech/libsrs/srs-speech.c:317
+msgid "Phonetic|Oscar"
+msgstr "O-x-ca"
+
+#: ../speech/libsrs/srs-speech.c:318
+msgid "Phonetic|Papa"
+msgstr "Pa-pa"
+
+#: ../speech/libsrs/srs-speech.c:319
+msgid "Phonetic|Quebec"
+msgstr "Khe-bec"
+
+#: ../speech/libsrs/srs-speech.c:320
+msgid "Phonetic|Romeo"
+msgstr "Rô-mi-ô"
+
+#: ../speech/libsrs/srs-speech.c:321
+msgid "Phonetic|Sierra"
+msgstr "Xi-e-rạ"
+
+#: ../speech/libsrs/srs-speech.c:322
+msgid "Phonetic|Tango"
+msgstr "Than-gô"
+
+#: ../speech/libsrs/srs-speech.c:323
+msgid "Phonetic|Uniform"
+msgstr "Yiêu-nì-phoa-m"
+
+#: ../speech/libsrs/srs-speech.c:324
+msgid "Phonetic|Victor"
+msgstr "Vi-kh-tợ"
+
+#: ../speech/libsrs/srs-speech.c:325
+msgid "Phonetic|Whiskey"
+msgstr "Oui-x-khị"
+
+#: ../speech/libsrs/srs-speech.c:326
+msgid "Phonetic|Xray"
+msgstr "E-kh-x-rày"
+
+#: ../speech/libsrs/srs-speech.c:327
+msgid "Phonetic|Yankee"
+msgstr "Y-ang-khì"
+
+#: ../speech/libsrs/srs-speech.c:328
+msgid "Phonetic|Zulu"
+msgstr "Du-lu"
+
+#: ../speech/libsrs/srs-speech.c:329 ../srcore/srspc.c:1822
+msgid "space"
+msgstr "dấu cách"
+
+#: ../speech/libsrs/srs-speech.c:330
+msgid "tab"
+msgstr "tab"
+
+#: ../speech/libsrs/srs-speech.c:331
+msgid "new line"
+msgstr "dòng mới"
+
+#: ../speech/libsrs/srs-speech.c:332
+msgid "dash"
+msgstr "gạch"
+
+#. To translators: this should be as short as possible
+#: ../speech/libsrs/srs-speech.c:384
+msgid "cap"
+msgstr "hoa"
+
+#: ../srconf/libsrconf/libsrconf.c:454
+#, c-format
+msgid "Failed to access configuration source(s): %s\n"
+msgstr "Không truy cập được nguồn cấu hình: %s\n"
+
+#: ../srconf/libsrconf/libsrconf.c:467
+#, c-format
+msgid "Failed to add notify: %s"
+msgstr "Lỗi thêm thông báo: %s."
+
+#: ../srconf/libsrconf/libsrconf.c:521
+msgid "Failed to remove directory."
+msgstr "Lỗi loại bỏ thư mục."
+
+#: ../srconf/libsrconf/libsrconf.c:865
+msgid "Failed to set configdata."
+msgstr "Lỗi đặt configdata (dữ liệu cấu hình)."
+
+#: ../srconf/libsrconf/libsrconf.c:939
+msgid "Failed set data."
+msgstr "Lỗi đặt dữ liệu."
+
+#. translators: the letter ' ' (space), in parentheses.
+#: ../srcore/default.xml.in.h:2 ../srcore/verbose.xml.in.h:2
+msgid "( )"
+msgstr "( )"
+
+#. translators: the letter 'C' for "checked", in parentheses.
+#: ../srcore/default.xml.in.h:4 ../srcore/verbose.xml.in.h:4
+msgid "(C)"
+msgstr "(K)"
+
+#. translators: the letter 'E' for "expanded", in parentheses.
+#: ../srcore/default.xml.in.h:6 ../srcore/verbose.xml.in.h:6
+msgid "(E)"
+msgstr "(M)"
+
+#. translators: the letter 'P' for "[button] pressed", in parentheses.
+#: ../srcore/default.xml.in.h:8 ../srcore/verbose.xml.in.h:8
+msgid "(P)"
+msgstr "(B)"
+
+#. translators: the letter 'U', for "unavailable", in parentheses.
+#: ../srcore/default.xml.in.h:10 ../srcore/verbose.xml.in.h:10
+msgid "(U)"
+msgstr "(K)"
+
+#. translators: the letter 'c' for "collapsed", in parentheses.
+#: ../srcore/default.xml.in.h:12 ../srcore/verbose.xml.in.h:12
+msgid "(c)"
+msgstr "(c)"
+
+#. translators: the letter 'm' for "minimized", in parentheses.
+#: ../srcore/default.xml.in.h:14 ../srcore/verbose.xml.in.h:14
+msgid "(m)"
+msgstr "(n)"
+
+#. translators: the letter 'n' for "not minimized", in parentheses.
+#: ../srcore/default.xml.in.h:16 ../srcore/verbose.xml.in.h:16
+msgid "(n)"
+msgstr "(l)"
+
+#: ../srcore/default.xml.in.h:17 ../srcore/verbose.xml.in.h:17
+msgid "Give maximum speech and braille output."
+msgstr "Xuất tiếng nói và chữ Bray tối đa."
+
+#. translators: 'keyboard accelerator'
+#: ../srcore/default.xml.in.h:20 ../srcore/verbose.xml.in.h:20
+msgid "accelerator"
+msgstr "phím tắt"
+
+#: ../srcore/default.xml.in.h:21 ../srcore/verbose.xml.in.h:21
+msgid "available"
+msgstr "sẵn sàng"
+
+#. translators: "checked" as in "checkbox is checked"
+#: ../srcore/default.xml.in.h:23 ../srcore/verbose.xml.in.h:23
+msgid "checked"
+msgstr "kiểm tra rồi"
+
+#: ../srcore/default.xml.in.h:24 ../srcore/verbose.xml.in.h:24
+msgid "closing tab"
+msgstr "đang đóng tab"
+
+#: ../srcore/default.xml.in.h:25 ../srcore/verbose.xml.in.h:25
+msgid "closing window"
+msgstr "đang đóng cửa sổ"
+
+#: ../srcore/default.xml.in.h:26 ../srcore/verbose.xml.in.h:26
+msgid "collapsed"
+msgstr "co lại rồi"
+
+#: ../srcore/default.xml.in.h:27 ../srcore/verbose.xml.in.h:27
+msgid "column header"
+msgstr "đầu cột"
+
+#: ../srcore/default.xml.in.h:28 ../srcore/verbose.xml.in.h:28
+msgid "create tab"
+msgstr "tạo tab"
+
+#: ../srcore/default.xml.in.h:29 ../srcore/verbose.xml.in.h:29
+msgid "create window"
+msgstr "tạo cửa sổ"
+
+#: ../srcore/default.xml.in.h:30 ../srcore/verbose.xml.in.h:30
+msgid "current value"
+msgstr "giá trị hiện có"
+
+#: ../srcore/default.xml.in.h:31 ../srcore/srctrl.c:2669
+#: ../srcore/verbose.xml.in.h:31
+msgid "empty line"
+msgstr "dòng rỗng"
+
+#: ../srcore/default.xml.in.h:32 ../srcore/verbose.xml.in.h:32
+msgid "expanded"
+msgstr "mở rộng rồi"
+
+#: ../srcore/default.xml.in.h:33 ../srcore/srctrl.c:2258
+#: ../srcore/srctrl.c:2409 ../srcore/verbose.xml.in.h:33
+msgid "item"
+msgid_plural "items"
+msgstr[0] "mục"
+
+#: ../srcore/default.xml.in.h:34 ../srcore/verbose.xml.in.h:34
+msgid "items"
+msgstr "mục"
+
+#: ../srcore/default.xml.in.h:35 ../srcore/verbose.xml.in.h:35
+msgid "level"
+msgstr "tầng"
+
+#: ../srcore/default.xml.in.h:36 ../srcore/verbose.xml.in.h:36
+msgid "maximize window"
+msgstr "cực đại hóa cửa sổ"
+
+#: ../srcore/default.xml.in.h:37 ../srcore/verbose.xml.in.h:37
+msgid "minimize window"
+msgstr "cực tiểu hóa cửa sổ"
+
+#: ../srcore/default.xml.in.h:38 ../srcore/verbose.xml.in.h:38
+msgid "minimized"
+msgstr "bị cực tiểu hóa"
+
+#: ../srcore/default.xml.in.h:39 ../srcore/verbose.xml.in.h:39
+msgid "no selection anymore"
+msgstr "không còn chọn gì lại"
+
+#: ../srcore/default.xml.in.h:40 ../srcore/verbose.xml.in.h:40
+msgid "normal"
+msgstr "thường"
+
+#: ../srcore/default.xml.in.h:41 ../srcore/verbose.xml.in.h:41
+msgid "pressed"
+msgstr "bấm rồi"
+
+#: ../srcore/default.xml.in.h:42 ../srcore/verbose.xml.in.h:42
+msgid "rename window"
+msgstr "thay đổi tên cửa sổ"
+
+#: ../srcore/default.xml.in.h:43 ../srcore/verbose.xml.in.h:43
+msgid "restore window"
+msgstr "phục hồi cửa sổ"
+
+#: ../srcore/default.xml.in.h:44 ../srcore/verbose.xml.in.h:44
+msgid "row header"
+msgstr "đầu hàng"
+
+#: ../srcore/default.xml.in.h:45 ../srcore/verbose.xml.in.h:45
+msgid "selected"
+msgstr "đã chọn"
+
+#. translators: 'keyboard shortcut'
+#: ../srcore/default.xml.in.h:47 ../srcore/verbose.xml.in.h:47
+msgid "shortcut"
+msgstr "phím tắt"
+
+#: ../srcore/default.xml.in.h:48 ../srcore/verbose.xml.in.h:48
+msgid "show tool tip"
+msgstr "hiện mẹo công cụ"
+
+#: ../srcore/default.xml.in.h:49 ../srcore/verbose.xml.in.h:49
+msgid "switch tab"
+msgstr "chuyển đổi tab"
+
+#: ../srcore/default.xml.in.h:50 ../srcore/verbose.xml.in.h:50
+msgid "switch to"
+msgstr "chuyển đổi sang"
+
+#: ../srcore/default.xml.in.h:51 ../srcore/verbose.xml.in.h:51
+msgid "switch to window"
+msgstr "chuyển đổi sang cửa sổ"
+
+#: ../srcore/default.xml.in.h:52 ../srcore/verbose.xml.in.h:52
+msgid "titleize window"
+msgstr "giảm cửa sổ xuống thanh tên"
+
+#: ../srcore/default.xml.in.h:53 ../srcore/verbose.xml.in.h:53
+msgid "unavailable"
+msgstr "không sẵn sàng"
+
+#. translators: "checkbox is unchecked"
+#: ../srcore/default.xml.in.h:55 ../srcore/verbose.xml.in.h:55
+msgid "unchecked"
+msgstr "chưa kiểm tra"
+
+#: ../srcore/default.xml.in.h:56 ../srcore/verbose.xml.in.h:56
+msgid "unpressed"
+msgstr "chưa bấm"
+
+#: ../srcore/default.xml.in.h:57 ../srcore/verbose.xml.in.h:57
+msgid "unselected"
+msgstr "chưa chọn"
+
+#: ../srcore/srctrl.c:1012
+msgid "no parent"
+msgstr "không mẹ"
+
+#: ../srcore/srctrl.c:1036
+msgid "no children"
+msgstr "không con"
+
+#: ../srcore/srctrl.c:1069
+msgid "no next"
+msgstr "không kế"
+
+#: ../srcore/srctrl.c:1185
+msgid "Cannot find next text!"
+msgstr "Không thể tìm đoạn kế tiếp."
+
+#: ../srcore/srctrl.c:1196
+msgid "Cannot find next image!"
+msgstr "Không thể tìm ảnh kế."
+
+#: ../srcore/srctrl.c:1207
+msgid "Cannot find next attributes!"
+msgstr "Không thể tìm thuộc tính kế."
+
+#: ../srcore/srctrl.c:1296
+msgid "no previous"
+msgstr "không lùi"
+
+#: ../srcore/srctrl.c:1340
+msgid "added watch for current object"
+msgstr "đã thêm theo dõi đối tượng hiện có"
+
+#: ../srcore/srctrl.c:1341
+msgid "cannot add watch for current object"
+msgstr "không thể thêm theo dõi đối tượng hiện có"
+
+#: ../srcore/srctrl.c:1366
+msgid "no caret"
+msgstr "không dấu mũ"
+
+#: ../srcore/srctrl.c:1387
+msgid "already on first"
+msgstr "đã ở đầu"
+
+#: ../srcore/srctrl.c:1408
+msgid "already on last"
+msgstr "đã ở cuối"
+
+#: ../srcore/srctrl.c:1421
+msgid "now navigating in application"
+msgstr "bây giờ duyệt trong ứng dụng"
+
+#: ../srcore/srctrl.c:1425
+msgid "now navigating in desktop"
+msgstr "bây giờ duyệt trong mặt bàn"
+
+#: ../srcore/srctrl.c:1429
+msgid "now navigating in window"
+msgstr "bây giờ duyệt trong cửa sổ"
+
+#: ../srcore/srctrl.c:1522
+msgid "no focus"
+msgstr "không tiêu điểm"
+
+#: ../srcore/srctrl.c:1562
+msgid "no title"
+msgstr "không tựa đề"
+
+#: ../srcore/srctrl.c:1583
+msgid "no menu bar"
+msgstr "không thanh trình đơn"
+
+#: ../srcore/srctrl.c:1606
+msgid "no tool bar"
+msgstr "không thanh công cụ"
+
+#: ../srcore/srctrl.c:1630
+msgid "no status bar"
+msgstr "không thanh trạng thái"
+
+#: ../srcore/srctrl.c:2214
+msgid "on"
+msgstr "bật"
+
+#: ../srcore/srctrl.c:2236 ../srcore/srctrl.c:2387
+msgid "from a"
+msgstr "từ"
+
+#: ../srcore/srctrl.c:2238 ../srcore/srctrl.c:2394
+msgid "with"
+msgstr "với"
+
+#: ../srcore/srctrl.c:2269
+msgid "in a"
+msgstr "trong"
+
+#: ../srcore/srctrl.c:2272
+msgid "named "
+msgstr "có tên"
+
+#: ../srcore/srctrl.c:2274
+msgid "with no name"
+msgstr "không tên"
+
+#: ../srcore/srctrl.c:2288
+msgid "of application"
+msgstr "của ứng dụng"
+
+#: ../srcore/srctrl.c:2375
+msgid "on a"
+msgstr "trên"
+
+#: ../srcore/srctrl.c:2629
+msgid "first line"
+msgstr "dòng đầu"
+
+#: ../srcore/srctrl.c:2636
+msgid "last line"
+msgstr "dòng cuối"
+
+#: ../srcore/srctrl.c:2644 ../srcore/srctrl.c:2646
+msgid "[first line]"
+msgstr "[dòng đầu]"
+
+#: ../srcore/srctrl.c:2651 ../srcore/srctrl.c:2653
+msgid "[last line]"
+msgstr "[dòng cuối]"
+
+#: ../srcore/srctrl.c:2676
+#, c-format
+msgid "%d empty line"
+msgid_plural "%d empty lines"
+msgstr[0] "%d dòng rỗng"
+
+#: ../srcore/srctrl.c:2697 ../srcore/srctrl.c:2699
+msgid "[empty line]"
+msgstr "[dòng rỗng]"
+
+#: ../srcore/srctrl.c:2704
+#, c-format
+msgid "[%d empty line]"
+msgid_plural "[%d empty lines]"
+msgstr[0] "[%d dòng rỗng]"
+
+#: ../srcore/srctrl.c:2786 ../srcore/srctrl.c:2787 ../srcore/srctrl.c:2795
+#: ../srcore/srctrl.c:2950 ../srcore/srctrl.c:2951
+msgid "cannot make flat review for current window"
+msgstr "không thể tạo xem lại phẳng cho cửa sổ hiện có"
+
+#: ../srcore/srctrl.c:3022
+msgid "flat review mode"
+msgstr "chế độ xem lại phẳng"
+
+#: ../srcore/srctrl.c:3038
+msgid "focus tracking mode"
+msgstr "chế độ theo dõi tiêu điển"
+
+#: ../srcore/srctrl.c:3577
+#, c-format
+msgid "\"%s\" entry has invalid value at position %d."
+msgstr "mục nhập « %s » có giá trị không hợp lệ tại vị trí %d."
+
+#: ../srcore/srctrl.c:3598
+#, c-format
+msgid "key \"%s\" has an invalid value at position %d."
+msgstr "phím « %s » có giá trị không hợp lệ tại vị trí %d."
+
+#: ../srcore/srctrl.c:3634
+msgid "Can not get key pad commands mapping from gconf."
+msgstr "Không gọi được ảnh xạ lệnh vùng phím từ trình GConf."
+
+#: ../srcore/srctrl.c:3645
+msgid "Can not get braille display commands mapping from gconf."
+msgstr "Không gọi được ảnh xạ lệnh trình bày chữ Bray từ trình GConf."
+
+#: ../srcore/srctrl.c:3656
+msgid "Can not get user defined commands mapping from gconf."
+msgstr "Không gọi được ảnh xạ lệnh do người dùng định nghĩa từ trình GConf."
+
+#: ../srcore/srctrl.c:3760
+msgid "no role available"
+msgstr "không có vai trò sẵn sàng"
+
+#: ../srcore/srmain.c:77 ../srcore/srmain.c:80
+msgid "No focus"
+msgstr "Không có tiêu điểm"
+
+#: ../srcore/srmain.c:83
+msgid "No accessible object is focused"
+msgstr "Không có đối tượng có thể truy cập có tiêu điểm"
+
+#: ../srcore/srmain.c:466
+msgid "unknown location"
+msgstr "địa điểm lạ"
+
+#: ../srcore/srmain.c:503
+msgid "no details"
+msgstr "không chi tiết"
+
+#: ../srcore/srmain.c:543
+msgid "layer"
+msgstr "tầng"
+
+#: ../srcore/srmain.c:564
+msgid "back to layer"
+msgstr "lùi tầng"
+
+#: ../srcore/srmain.c:936
+msgid "cursor on"
+msgstr "con trỏ được bật"
+
+#: ../srcore/srmain.c:936
+msgid "cursor off"
+msgstr "con trỏ đã tắt"
+
+#: ../srcore/srmain.c:954
+msgid "current cursor is"
+msgstr "con trỏ hiện có:"
+
+#: ../srcore/srmain.c:972
+msgid "cursor size"
+msgstr "cỡ con trỏ"
+
+#: ../srcore/srmain.c:989
+msgid "cursor magnification on"
+msgstr "phóng to con trỏ được bật"
+
+#: ../srcore/srmain.c:990
+msgid "cursor magnification off"
+msgstr "phóng to con trỏ đã tắt"
+
+#: ../srcore/srmain.c:1008
+msgid "cursor color"
+msgstr "màu con trỏ"
+
+#: ../srcore/srmain.c:1025
+msgid "crosshair on"
+msgstr "chữ thập mảnh được bật"
+
+#: ../srcore/srmain.c:1025
+msgid "crosshair off"
+msgstr "chữ thập mảnh đã tắt"
+
+#: ../srcore/srmain.c:1042
+msgid "crosshair clip on"
+msgstr "ảnh chữ thập mảnh được bật"
+
+#: ../srcore/srmain.c:1043
+msgid "crosshair clip off"
+msgstr "ảnh chữ thập mảnh đã tắt"
+
+#: ../srcore/srmain.c:1061
+msgid "crosshair size"
+msgstr "cỡ chữ thập mảnh"
+
+#: ../srcore/srmain.c:1079
+msgid "crosshair color"
+msgstr "màu chữ thập mảnh"
+
+#: ../srcore/srmain.c:1097
+msgid "zoomer placement left"
+msgstr "vị trí bộ phóng to bên trái"
+
+#: ../srcore/srmain.c:1115
+msgid "zoomer placement top"
+msgstr "vị trí bộ phóng to tại đỉnh"
+
+#: ../srcore/srmain.c:1133
+msgid "zoomer placement width"
+msgstr "vị trí bộ phóng to độ rộng"
+
+#: ../srcore/srmain.c:1151
+msgid "zoomer placement height"
+msgstr "vị trí bộ phóng to độ cao"
+
+#: ../srcore/srmain.c:1181
+msgid "magnifier target"
+msgstr "đính kính lúp"
+
+#: ../srcore/srmain.c:1199
+msgid "magnifier source"
+msgstr "nguồn kính lúp"
+
+#: ../srcore/srmain.c:1217
+msgid "zoom factor x"
+msgstr "hệ số phóng to x"
+
+#: ../srcore/srmain.c:1235
+msgid "zoom factor y"
+msgstr "hệ số phóng to y"
+
+#: ../srcore/srmain.c:1252
+msgid "zoom factor locked"
+msgstr "hệ số phóng to bị khóa"
+
+#: ../srcore/srmain.c:1253
+msgid "zoom factor unlocked"
+msgstr "hệ số phóng to được chia khóa"
+
+#: ../srcore/srmain.c:1270
+msgid "invert on"
+msgstr "đảo được bật"
+
+#: ../srcore/srmain.c:1270
+msgid "invert off"
+msgstr "đảo đã tắt"
+
+#: ../srcore/srmain.c:1288
+msgid "magnifier smoothing type"
+msgstr "kiểu làm mịn kính lúp"
+
+#: ../srcore/srmain.c:1311
+msgid "mouse tracking mode"
+msgstr "chế độ theo dõi con chuột"
+
+#: ../srcore/srmain.c:1333
+msgid "panning on"
+msgstr "di chuyển minh họa được bật"
+
+#: ../srcore/srmain.c:1333
+msgid "panning off"
+msgstr "di chuyển minh họa đã tắt"
+
+#: ../srcore/srmain.c:1705
+msgid "alt"
+msgstr "phím «alt»"
+
+#: ../srcore/srmain.c:1710
+msgid "control"
+msgstr "phím «ctrl»"
+
+#: ../srcore/srmain.c:1715
+msgid "shift"
+msgstr "phím «shift»"
+
+#: ../srcore/srmain.c:1720 ../srcore/srpres.c:870
+msgid "Window"
+msgstr "Cửa sổ"
+
+#: ../srcore/srmain.c:1725 ../srcore/srmain.c:1800 ../srcore/srpres.c:836
+msgid "Menu"
+msgstr "Trình đơn"
+
+#: ../srcore/srmain.c:1730
+msgid "caps lock"
+msgstr "caps lock (khóa chữ hoa)"
+
+#: ../srcore/srmain.c:1734
+msgid "num lock"
+msgstr "num lock (khóa số)"
+
+#: ../srcore/srmain.c:1742 ../srcore/srmain.c:1786
+msgid "right"
+msgstr "phải"
+
+#: ../srcore/srmain.c:1744 ../srcore/srmain.c:1788
+msgid "left"
+msgstr "trái"
+
+#: ../srcore/srmain.c:1778
+msgid "home"
+msgstr "phím «home» (đỉnh trang)"
+
+#: ../srcore/srmain.c:1780
+msgid "end"
+msgstr "phím «end» (đáy trang)"
+
+#: ../srcore/srmain.c:1782
+msgid "page up"
+msgstr "phím «page up» (lên trang)"
+
+#: ../srcore/srmain.c:1784
+msgid "page down"
+msgstr "phím «page down» (xuống trang)"
+
+#: ../srcore/srmain.c:1790
+msgid "down"
+msgstr "xuống"
+
+#: ../srcore/srmain.c:1792
+msgid "up"
+msgstr "lên"
+
+#: ../srcore/srmain.c:1794
+msgid "backspace"
+msgstr "phím xóa lùi"
+
+#: ../srcore/srmain.c:1796
+msgid "delete"
+msgstr "phím «delete» (xóa bỏ)"
+
+#: ../srcore/srmain.c:1798
+msgid "escape"
+msgstr "phím «esc» (thoát)"
+
+#: ../srcore/srmain.c:2362
+msgid "Welcome to Gnopernicus"
+msgstr "Hoan nghênh dùng Gnopernicus"
+
+#: ../srcore/srmain.c:2471
+msgid "braille device can not be initialized"
+msgstr "không thể khởi động thiết bị chữ Bray"
+
+#: ../srcore/srmain.c:2485
+msgid "Gnopernicus is now exiting. Have a nice day!"
+msgstr "Gnopernicus đang thoát. Chúc một ngày mới vui vẻ!"
+
+#: ../srcore/srmain.c:2764
+msgid "srcore"
+msgstr "srcore"
+
+#: ../srcore/srpres.c:810
+msgid "UNK"
+msgstr "K0B"
+
+#: ../srcore/srpres.c:810
+msgid "UNKNOWN"
+msgstr "KHÔNG_BIẾT"
+
+#: ../srcore/srpres.c:810
+msgid "Unknown"
+msgstr "Không biết"
+
+#: ../srcore/srpres.c:811
+msgid "???"
+msgstr "???"
+
+#: ../srcore/srpres.c:811
+msgid "INVALID"
+msgstr "KHÔNG_HỢP_LỆ"
+
+#: ../srcore/srpres.c:811
+msgid "Invalid"
+msgstr "Không hợp lệ"
+
+#: ../srcore/srpres.c:812
+msgid "ALR"
+msgstr "BÁO"
+
+#: ../srcore/srpres.c:812
+msgid "ALERT"
+msgstr "BÁO_ĐỘNG"
+
+#: ../srcore/srpres.c:813
+msgid "CNV"
+msgstr "VẼ"
+
+#: ../srcore/srpres.c:813
+msgid "CANVAS"
+msgstr "VÙNG_VẼ"
+
+#: ../srcore/srpres.c:813
+msgid "Canvas"
+msgstr "Vùng vẽ"
+
+#: ../srcore/srpres.c:814
+msgid "CHK"
+msgstr "KTR"
+
+#: ../srcore/srpres.c:814
+msgid "CHECK_BOX"
+msgstr "HỘP_KIỂM_TRA"
+
+#: ../srcore/srpres.c:814
+msgid "Check box"
+msgstr "Hộp kiểm tra"
+
+#: ../srcore/srpres.c:815 ../srcore/srpres.c:838 ../srcore/srpres.c:848
+msgid "MIT"
+msgstr "MỤC"
+
+#: ../srcore/srpres.c:815 ../srcore/srpres.c:838 ../srcore/srpres.c:848
+msgid "MENU ITEM"
+msgstr "MỤC_TRÌNH_ĐƠN"
+
+#: ../srcore/srpres.c:815
+msgid "Check Menu item"
+msgstr "Chọn mục trình đơn"
+
+#: ../srcore/srpres.c:816
+msgid "CCH"
+msgstr "MÀU"
+
+#: ../srcore/srpres.c:816
+msgid "COLOR CHOOSER"
+msgstr "BỘ_CHỌN_MÀU"
+
+#: ../srcore/srpres.c:816
+msgid "Color chooser"
+msgstr "Bộ chọn màu"
+
+#: ../srcore/srpres.c:817
+msgid "CHD"
+msgstr "ĐẦU"
+
+#: ../srcore/srpres.c:817
+msgid "COLUMN HEADER"
+msgstr "ĐẦU_CỘT"
+
+#: ../srcore/srpres.c:817
+msgid "Column header"
+msgstr "Đầu cột"
+
+#: ../srcore/srpres.c:818
+msgid "CBO"
+msgstr "HỢP"
+
+#: ../srcore/srpres.c:818
+msgid "COMBO BOX"
+msgstr "HỘP_TỔ_HỢP"
+
+#: ../srcore/srpres.c:818
+msgid "Combo box"
+msgstr "Hộp tổ hợp"
+
+#: ../srcore/srpres.c:819
+msgid "DIC"
+msgstr "BTM"
+
+#: ../srcore/srpres.c:819
+msgid "DESKTOP ICON"
+msgstr "BIỂU_TƯỢNG_MÀN_HÌNH_NỀN"
+
+#: ../srcore/srpres.c:819
+msgid "Desktop icon"
+msgstr "Biểu tượng màn hình nền"
+
+#: ../srcore/srpres.c:820
+msgid "DFR"
+msgstr "KMH"
+
+#: ../srcore/srpres.c:820
+msgid "DESKTOP FRAME"
+msgstr "KHUNG_MÀN_HÌNH_NỀN"
+
+#: ../srcore/srpres.c:820
+msgid "Desktop frame"
+msgstr "Khung màn hình nền"
+
+#: ../srcore/srpres.c:821
+msgid "DLG"
+msgstr "THO"
+
+#: ../srcore/srpres.c:821
+msgid "DIALOG"
+msgstr "HỘP_THOẠI"
+
+#: ../srcore/srpres.c:821
+msgid "Dialog"
+msgstr "Hộp thoại"
+
+#: ../srcore/srpres.c:822
+msgid "DIP"
+msgstr "Ô"
+
+#: ../srcore/srpres.c:822
+msgid "DIRECTORY PANE"
+msgstr "Ô_CỦA_SỔ_THƯ_MỤC"
+
+#: ../srcore/srpres.c:822
+msgid "Directory pane"
+msgstr "Ô cửa sổ thư mục"
+
+#: ../srcore/srpres.c:823
+msgid "FCH"
+msgstr "TẬP"
+
+#: ../srcore/srpres.c:823
+msgid "FILE CHOOSER"
+msgstr "BỘ_CHỌN_TẬP_TIN"
+
+#: ../srcore/srpres.c:823
+msgid "File chooser"
+msgstr "Bộ chọn tập tin"
+
+#: ../srcore/srpres.c:824
+msgid "FLR"
+msgstr "TÔ"
+
+#: ../srcore/srpres.c:824
+msgid "FILLER"
+msgstr "BỘ_TÔ_ĐẦY"
+
+#: ../srcore/srpres.c:824
+msgid "Filler"
+msgstr "Bộ tô đầy"
+
+#: ../srcore/srpres.c:825
+msgid "FRM"
+msgstr "KHU"
+
+#: ../srcore/srpres.c:825
+msgid "FRAME"
+msgstr "KHUNG"
+
+#: ../srcore/srpres.c:825
+msgid "Frame"
+msgstr "Khung:"
+
+#: ../srcore/srpres.c:826
+msgid "GPN"
+msgstr "ÔTT"
+
+#: ../srcore/srpres.c:826
+msgid "GLASS PANE"
+msgstr "Ô_THUỶ_TINH"
+
+#: ../srcore/srpres.c:826
+msgid "Glass pane"
+msgstr "Ô thuỷ tinh"
+
+#: ../srcore/srpres.c:827
+msgid "HTM"
+msgstr "HTM"
+
+#: ../srcore/srpres.c:827
+msgid "HTML CONTAINER"
+msgstr "ĐỒ_CHỨA_HTML"
+
+#: ../srcore/srpres.c:827
+msgid "H T M L container"
+msgstr "Đồ chứa H T M L"
+
+#: ../srcore/srpres.c:828 ../srcore/srpres.c:833
+msgid "LNK"
+msgstr "KẾT"
+
+#: ../srcore/srpres.c:828 ../srcore/srpres.c:833
+msgid "LINK"
+msgstr "LIÊN_KẾT"
+
+#: ../srcore/srpres.c:828 ../srcore/srpres.c:833
+msgid "link"
+msgstr "liên kết"
+
+#: ../srcore/srpres.c:829
+msgid "ICO"
+msgstr "BT"
+
+#: ../srcore/srpres.c:829
+msgid "ICON"
+msgstr "BIỂU_TƯỢNG"
+
+#: ../srcore/srpres.c:829
+msgid "Icon"
+msgstr "Biểu tượng"
+
+#: ../srcore/srpres.c:830
+msgid "IFR"
+msgstr "KNB"
+
+#: ../srcore/srpres.c:830
+msgid "INTERNAL FRAME"
+msgstr "KHUNG_NỘI_BỘ"
+
+#: ../srcore/srpres.c:830
+msgid "Internal frame"
+msgstr "Khung nội bộ"
+
+#: ../srcore/srpres.c:831
+msgid "LBL"
+msgstr "NÃN"
+
+#: ../srcore/srpres.c:831
+msgid "LABEL"
+msgstr "NHÃN"
+
+#: ../srcore/srpres.c:831
+msgid "Label"
+msgstr "Nhãn"
+
+#: ../srcore/srpres.c:832
+msgid "LPN"
+msgstr "ÔST"
+
+#: ../srcore/srpres.c:832
+msgid "LAYERED PANE"
+msgstr "Ô_SẮP_TỪNG_TẦNG"
+
+#: ../srcore/srpres.c:832
+msgid "Layered pane"
+msgstr "Ô sắp từng tầng"
+
+#: ../srcore/srpres.c:834
+msgid "LST"
+msgstr "DS"
+
+#: ../srcore/srpres.c:834
+msgid "LIST"
+msgstr "DANH_SÁCH"
+
+#: ../srcore/srpres.c:834
+msgid "List"
+msgstr "Danh sách"
+
+#: ../srcore/srpres.c:835
+msgid "LIT"
+msgstr "MDS"
+
+#: ../srcore/srpres.c:835
+msgid "LIST ITEM"
+msgstr "MỤC_DANH_SÁCH"
+
+#: ../srcore/srpres.c:835
+msgid "List item"
+msgstr "Mục danh sách"
+
+#: ../srcore/srpres.c:836
+msgid "MNU"
+msgstr "TĐ"
+
+#: ../srcore/srpres.c:836
+msgid "MENU"
+msgstr "TRÌNH_ĐƠN"
+
+#: ../srcore/srpres.c:837
+msgid "MBR"
+msgstr "TTĐ"
+
+#: ../srcore/srpres.c:837
+msgid "MENU BAR"
+msgstr "THANH_TRÌNH_ĐƠN"
+
+#: ../srcore/srpres.c:837
+msgid "Menu bar"
+msgstr "Thanh trình đơn"
+
+#: ../srcore/srpres.c:838
+msgid "Menu item"
+msgstr "Mục trình đơn"
+
+#: ../srcore/srpres.c:839
+msgid "OPN"
+msgstr "ÔTC"
+
+#: ../srcore/srpres.c:839
+msgid "OPTION PANE"
+msgstr "Ô_TÙY_CHỌN"
+
+#: ../srcore/srpres.c:839
+msgid "Option pane"
+msgstr "Ô tùy chọn"
+
+#: ../srcore/srpres.c:840
+msgid "PGT"
+msgstr "TT"
+
+#: ../srcore/srpres.c:840
+msgid "PAGE TAB"
+msgstr "TAB_TRANG"
+
+#: ../srcore/srpres.c:840
+msgid "Page tab"
+msgstr "Tab trang"
+
+#: ../srcore/srpres.c:841
+msgid "PTL"
+msgstr "DST"
+
+#: ../srcore/srpres.c:841
+msgid "PAGE TAB LIST"
+msgstr "DANH_SÁCH_TAB_TRANG"
+
+#: ../srcore/srpres.c:841
+msgid "Page tab list"
+msgstr "Danh sách tab trang"
+
+#: ../srcore/srpres.c:842
+msgid "PNL"
+msgstr "BDK"
+
+#: ../srcore/srpres.c:842
+msgid "PANEL"
+msgstr "BẢNG_ĐIỀU_KHIỂN"
+
+#: ../srcore/srpres.c:842
+msgid "Panel"
+msgstr "Bảng điều khiển"
+
+#: ../srcore/srpres.c:843
+msgid "PWD"
+msgstr "CMK"
+
+#: ../srcore/srpres.c:843
+msgid "PASSWORD TEXT"
+msgstr "CHỮ_MẬT_KHẨU"
+
+#: ../srcore/srpres.c:843
+msgid "Password text"
+msgstr "Chữ mật khẩu"
+
+#: ../srcore/srpres.c:844
+msgid "PMN"
+msgstr "TBL"
+
+#: ../srcore/srpres.c:844
+msgid "POPUP MENU"
+msgstr "TRÌNH_ĐƠN_BẬT_LÊN"
+
+#: ../srcore/srpres.c:844
+msgid "Popup menu"
+msgstr "Trình đơn bật lên"
+
+#: ../srcore/srpres.c:845
+msgid "PRG"
+msgstr "TTB"
+
+#: ../srcore/srpres.c:845
+msgid "PROGRESS BAR"
+msgstr "THANH_TIẾN_BỘ"
+
+#: ../srcore/srpres.c:845
+msgid "Progress bar"
+msgstr "Thanh tiến bộ"
+
+#: ../srcore/srpres.c:846
+msgid "PBT"
+msgstr "NÚT"
+
+#: ../srcore/srpres.c:846
+msgid "PUSH BUTTON"
+msgstr "NÚT_BẤM"
+
+#: ../srcore/srpres.c:846
+msgid "Push button"
+msgstr "Nút bấm"
+
+#: ../srcore/srpres.c:847
+msgid "RAD"
+msgstr "RAD"
+
+#: ../srcore/srpres.c:847
+msgid "RADIO BUTTON"
+msgstr "NÚT_RAĐIÔ"
+
+#: ../srcore/srpres.c:847
+msgid "Radio button"
+msgstr "Nút rađiô"
+
+#: ../srcore/srpres.c:848
+msgid "Radio Menu item"
+msgstr "Mục trình đơn rađiô"
+
+#: ../srcore/srpres.c:849
+msgid "RPN"
+msgstr "GỐC"
+
+#: ../srcore/srpres.c:849
+msgid "ROOT PANE"
+msgstr "Ô_GỐC"
+
+#: ../srcore/srpres.c:849
+msgid "Root pane"
+msgstr "Ô gốc"
+
+#: ../srcore/srpres.c:850
+msgid "RHD"
+msgstr "ĐHÀ"
+
+#: ../srcore/srpres.c:850
+msgid "ROW HEADER"
+msgstr "ĐẦU HÀNG"
+
+#: ../srcore/srpres.c:850
+msgid "Row header"
+msgstr "Đầu hàng"
+
+#: ../srcore/srpres.c:851
+msgid "SCR"
+msgstr "TCU"
+
+#: ../srcore/srpres.c:851
+msgid "SCROLL BAR"
+msgstr "THANH_CUỘN"
+
+#: ../srcore/srpres.c:851
+msgid "Scroll bar"
+msgstr "Thanh cuộn"
+
+#: ../srcore/srpres.c:852 ../srcore/srpres.c:880
+msgid "SPN"
+msgstr "ÔCU"
+
+#: ../srcore/srpres.c:852
+msgid "SCROLL PANE"
+msgstr "Ô_CUỘN"
+
+#: ../srcore/srpres.c:852
+msgid "Scroll pane"
+msgstr "Ô cuộn"
+
+#: ../srcore/srpres.c:853
+msgid "SEP"
+msgstr "NGC"
+
+#: ../srcore/srpres.c:853
+msgid "SEPARATOR"
+msgstr "THANH_NGĂN_CÁCH"
+
+#: ../srcore/srpres.c:853
+msgid "Separator"
+msgstr "Thanh ngăn cách"
+
+#: ../srcore/srpres.c:854
+msgid "SLD"
+msgstr "TRỰ"
+
+#: ../srcore/srpres.c:854
+msgid "SLIDER"
+msgstr "BỘ_TRƯỢT"
+
+#: ../srcore/srpres.c:854
+msgid "Slider"
+msgstr "Bộ trượt"
+
+#: ../srcore/srpres.c:855
+msgid "SPP"
+msgstr "ÔCH"
+
+#: ../srcore/srpres.c:855
+msgid "SPLIT PANE"
+msgstr "Ô_CHIA"
+
+#: ../srcore/srpres.c:855
+msgid "Split pane"
+msgstr "Ô chia"
+
+#: ../srcore/srpres.c:856
+msgid "STA"
+msgstr "TTT"
+
+#: ../srcore/srpres.c:856
+msgid "STATUS BAR"
+msgstr "THANH_TRẠNG_THÁI"
+
+#: ../srcore/srpres.c:856
+msgid "Status bar"
+msgstr "thanh trạng thái"
+
+#: ../srcore/srpres.c:857
+msgid "TAB"
+msgstr "BNG"
+
+#: ../srcore/srpres.c:857
+msgid "TABLE"
+msgstr "BẢNG"
+
+#: ../srcore/srpres.c:857
+msgid "Table"
+msgstr "Bảng"
+
+#: ../srcore/srpres.c:858
+msgid "CEL"
+msgstr "Ô"
+
+#: ../srcore/srpres.c:858
+msgid "TABLE CELL"
+msgstr "Ô_BẢNG"
+
+#: ../srcore/srpres.c:858
+msgid "Table cell"
+msgstr "Ô bảng"
+
+#: ../srcore/srpres.c:859 ../srcore/srpres.c:884
+msgid "TCH"
+msgstr "ĐCB"
+
+#: ../srcore/srpres.c:859
+msgid "TABLE COLUMN HEADER"
+msgstr "ĐẦU_CỘT_BẢNG"
+
+#: ../srcore/srpres.c:859
+msgid "Table column header"
+msgstr "Đầu cột bảng"
+
+#: ../srcore/srpres.c:860
+msgid "TRH"
+msgstr "ĐHB"
+
+#: ../srcore/srpres.c:860
+msgid "TABLE ROW HEADER"
+msgstr "ĐẦU_HÀNG_BẢNG"
+
+#: ../srcore/srpres.c:860
+msgid "Table row header"
+msgstr "Đầu hàng bảng"
+
+#: ../srcore/srpres.c:861 ../srcore/srpres.c:862
+msgid "TXT"
+msgstr "ĐĐD"
+
+#: ../srcore/srpres.c:861
+msgid "MULTI LINE TEXT"
+msgstr "ĐOẠN_ĐA_DÒNG"
+
+#: ../srcore/srpres.c:861
+msgid "Multi Line Text"
+msgstr "Đoạn đa dòng"
+
+#: ../srcore/srpres.c:862
+msgid "SINGLE LINE TEXT"
+msgstr "ĐOẠN_DÒNG_ĐƠN"
+
+#: ../srcore/srpres.c:862
+msgid "Single Line Text"
+msgstr "Đoạn dòng đơn"
+
+#: ../srcore/srpres.c:863
+msgid "TOG"
+msgstr "B/T"
+
+#: ../srcore/srpres.c:863
+msgid "TOGGLE BUTTON"
+msgstr "NÚT_BẬT/TẮT"
+
+#: ../srcore/srpres.c:863
+msgid "Toggle button"
+msgstr "Nút bật/tắt"
+
+#: ../srcore/srpres.c:864
+msgid "TOL"
+msgstr "TCC"
+
+#: ../srcore/srpres.c:864
+msgid "TOOL BAR"
+msgstr "THANH_CÔNG_CỤ"
+
+#: ../srcore/srpres.c:864
+msgid "Tool bar"
+msgstr "Thanh công cụ"
+
+#: ../srcore/srpres.c:865
+msgid "TIP"
+msgstr "MẸO"
+
+#: ../srcore/srpres.c:865
+msgid "TOOL TIP"
+msgstr "MẸO_CÔNG_CỤ"
+
+#: ../srcore/srpres.c:865
+msgid "Tool tip"
+msgstr "Mẹo công cụ"
+
+#: ../srcore/srpres.c:866
+msgid "TRE"
+msgstr "CÂY"
+
+#: ../srcore/srpres.c:866
+msgid "TREE"
+msgstr "CÂY"
+
+#: ../srcore/srpres.c:866
+msgid "Tree"
+msgstr "Cây"
+
+#: ../srcore/srpres.c:867
+msgid "TRI"
+msgstr "MC"
+
+#: ../srcore/srpres.c:867
+msgid "TREE ITEM"
+msgstr "MỤC_CÂY"
+
+#: ../srcore/srpres.c:867
+msgid "Tree item"
+msgstr "Mục cây"
+
+#: ../srcore/srpres.c:868
+msgid "TRT"
+msgstr "BC"
+
+#: ../srcore/srpres.c:868
+msgid "TREE TABLE"
+msgstr "BẢNG CÂY"
+
+#: ../srcore/srpres.c:868
+msgid "Tree table"
+msgstr "Bảng cây"
+
+#: ../srcore/srpres.c:869
+msgid "VWP"
+msgstr "XEM"
+
+#: ../srcore/srpres.c:869
+msgid "VIEWPORT"
+msgstr "CỔNG_XEM"
+
+#: ../srcore/srpres.c:869
+msgid "Viewport"
+msgstr "Cổng xem"
+
+#: ../srcore/srpres.c:870
+msgid "WND"
+msgstr "CỬA"
+
+#: ../srcore/srpres.c:870
+msgid "WINDOW"
+msgstr "CỬA _SỔ"
+
+#: ../srcore/srpres.c:871
+msgid "ACC"
+msgstr "TẮT"
+
+#: ../srcore/srpres.c:871
+msgid "ACCELERATOR LABEL"
+msgstr "NHÃN_PHÍM_TẮT"
+
+#: ../srcore/srpres.c:871
+msgid "Accelerator label"
+msgstr "Nhãn phím tắt"
+
+#: ../srcore/srpres.c:872
+msgid "ANI"
+msgstr "HẢ"
+
+#: ../srcore/srpres.c:872
+msgid "ANIMATION"
+msgstr "HOẠT_ẢNH"
+
+#: ../srcore/srpres.c:872
+msgid "Animation"
+msgstr "Hoạt ảnh"
+
+#: ../srcore/srpres.c:873
+msgid "ARR"
+msgstr "MŨI"
+
+#: ../srcore/srpres.c:873
+msgid "ARROW"
+msgstr "MŨI_TÊN"
+
+#: ../srcore/srpres.c:873
+msgid "Arrow"
+msgstr "Mũi tên"
+
+#: ../srcore/srpres.c:874
+msgid "CAL"
+msgstr "LỊC"
+
+#: ../srcore/srpres.c:874
+msgid "CALENDAR"
+msgstr "LỊCH"
+
+#: ../srcore/srpres.c:874
+msgid "Calendar"
+msgstr "Lịch"
+
+#: ../srcore/srpres.c:875
+msgid "DAT"
+msgstr "NGY"
+
+#: ../srcore/srpres.c:875
+msgid "DATE EDITOR"
+msgstr "BỘ_HIỆU_CHỈNH_NGÀY"
+
+#: ../srcore/srpres.c:875
+msgid "Date editor"
+msgstr "Bộ hiệu chỉnh ngày"
+
+#: ../srcore/srpres.c:876
+msgid "DIL"
+msgstr "QS"
+
+#: ../srcore/srpres.c:876
+msgid "DIAL"
+msgstr "QUAY_SỐ"
+
+#: ../srcore/srpres.c:876
+msgid "Dial"
+msgstr "Quay số"
+
+#: ../srcore/srpres.c:877
+msgid "DRW"
+msgstr "VV"
+
+#: ../srcore/srpres.c:877
+msgid "DRAWING AREA"
+msgstr "VÙNG_VẼ"
+
+#: ../srcore/srpres.c:877
+msgid "Drawing area"
+msgstr "Vùng vẽ"
+
+#: ../srcore/srpres.c:878
+msgid "FNT"
+msgstr "PCH"
+
+#: ../srcore/srpres.c:878
+msgid "FONT CHOOSER"
+msgstr "BỘ_CHỌN_PHÔNG_CHỮ"
+
+#: ../srcore/srpres.c:878
+msgid "Font chooser"
+msgstr "Bộ chọn phông chữ"
+
+#: ../srcore/srpres.c:879
+msgid "IMG"
+msgstr "ẢNH"
+
+#: ../srcore/srpres.c:879
+msgid "IMAGE"
+msgstr "ẢNH"
+
+#: ../srcore/srpres.c:879
+msgid "Image"
+msgstr "Ảnh"
+
+#: ../srcore/srpres.c:880
+msgid "SPIN BUTTON"
+msgstr "NÚT_XOAY_TRÒN"
+
+#: ../srcore/srpres.c:880
+msgid "Spin button"
+msgstr "Nút xoay tròn"
+
+#: ../srcore/srpres.c:881
+msgid "TRM"
+msgstr "TBC"
+
+#: ../srcore/srpres.c:881
+msgid "TERMINAL"
+msgstr "THIẾT_BỊ_CUỐI"
+
+#: ../srcore/srpres.c:881
+msgid "Terminal"
+msgstr "Thiết bị cuối"
+
+#: ../srcore/srpres.c:882
+msgid "EXT"
+msgstr "ĐMR"
+
+#: ../srcore/srpres.c:882
+msgid "EXTENDED"
+msgstr "ĐƯỢC_MỞ_RỘNG"
+
+#: ../srcore/srpres.c:882
+msgid "Extended"
+msgstr "Được mở rộng"
+
+#: ../srcore/srpres.c:883
+msgid "TLI"
+msgstr "DB"
+
+#: ../srcore/srpres.c:883
+msgid "TABLE LINE"
+msgstr "DÒNG_BẢNG"
+
+#: ../srcore/srpres.c:883
+msgid "Table line"
+msgstr "Dòng bảng"
+
+#: ../srcore/srpres.c:884
+msgid "TABLE COLUMNS HEADER"
+msgstr "ĐẦU_CỘT_BẢNG"
+
+#: ../srcore/srpres.c:884
+msgid "Table columns header"
+msgstr "Đầu cột bảng"
+
+#: ../srcore/srpres.c:885
+msgid "TIT"
+msgstr "TTĐ"
+
+#: ../srcore/srpres.c:885
+msgid "TITLE BAR"
+msgstr "THANH_TỰA_ĐỀ"
+
+#: ../srcore/srpres.c:885
+msgid "Title bar"
+msgstr "Thanh tựa đề"
+
+#: ../srcore/srpres.c:886
+msgid "EDB"
+msgstr "HCT"
+
+#: ../srcore/srpres.c:886
+msgid "EDIT BAR"
+msgstr "HIỆU_CHỈNH_THANH"
+
+#: ../srcore/srpres.c:886
+msgid "Edit bar"
+msgstr "HIệu chỉnh thanh"
+
+#: ../srcore/srspc.c:445
+#, c-format
+msgid "Incorrect parameters for voice \"%s%s\""
+msgstr "Tham số không đúng cho tiếng nói «%s%s»."
+
+#: ../srcore/srspc.c:490
+#, c-format
+msgid "failed to send to speech next string \"%s\""
+msgstr "lỗi gởi cho tiếng nói chuỗi kế « %s »"
+
+#: ../srcore/srspc.c:556
+#, c-format
+msgid "could not create/modify voice \"%s\""
+msgstr "không tạo / sửa đổi tiếng nói « %s »"
+
+#: ../srcore/srspc.c:717
+#, c-format
+msgid "voice \"%s\" will sound this way"
+msgstr "tiếng nói « %s » sẽ giống với cách này"
+
+#: ../srcore/srspc.c:722
+#, c-format
+msgid "could not test voice \"%s\""
+msgstr "không thử ra được tiếng nói « %s »"
+
+#: ../srcore/srspc.c:811
+#, c-format
+msgid "value not supported for speech count mode \"%s\""
+msgstr "không hỗ trợ giá trị ấy cho chế độ đếm tiếng nói « %s »"
+
+#: ../srcore/srspc.c:847
+#, c-format
+msgid "value not supported for speech modifiers type \"%s\""
+msgstr "không hỗ trợ giá trị ấy cho kiểu sửa đổi tiếng nói « %s »"
+
+#: ../srcore/srspc.c:883
+#, c-format
+msgid "value not supported for speech cursors type \"%s\""
+msgstr "không hỗ trợ giá trị ấy cho kiểu con trỏ tiếng nói « %s »"
+
+#: ../srcore/srspc.c:919
+#, c-format
+msgid "value not supported for speech spaces type \"%s\""
+msgstr "không hỗ trợ giá trị ấy cho kiểu dấu cách tiếng nói « %s »"
+
+#: ../srcore/srspc.c:955
+#, c-format
+msgid "value not supported for speech dictionary type \"%s\""
+msgstr "không hỗ trợ giá trị ấy cho kiểu từ điển tiếng nói « %s »"
+
+#: ../srcore/srspc.c:992
+#, c-format
+msgid "value not supported for speech text echo type \"%s\""
+msgstr "không hỗ trợ giá trị ấy cho kiểu vọng chữ tiếng nói « %s »"
+
+#: ../srcore/srspc.c:1011
+msgid "Tilde"
+msgstr "Ngã"
+
+#: ../srcore/srspc.c:1011
+msgid "Tildaes"
+msgstr "Ngã"
+
+#: ../srcore/srspc.c:1012
+msgid "Exclamation"
+msgstr "Chấm than"
+
+#: ../srcore/srspc.c:1012
+msgid "Exclamations"
+msgstr "Chấm than"
+
+#: ../srcore/srspc.c:1013
+msgid "At"
+msgstr "A móc"
+
+#: ../srcore/srspc.c:1013
+msgid "Ats"
+msgstr "A móc"
+
+#: ../srcore/srspc.c:1014
+msgid "Hash"
+msgstr "Thăng"
+
+#: ../srcore/srspc.c:1014
+msgid "Hashes"
+msgstr "Thăng"
+
+#: ../srcore/srspc.c:1015
+msgid "Dollar"
+msgstr "Đô la"
+
+#: ../srcore/srspc.c:1015
+msgid "Dollars"
+msgstr "Đô la"
+
+#: ../srcore/srspc.c:1016
+msgid "Percent"
+msgstr "Phần trăm"
+
+#: ../srcore/srspc.c:1016
+msgid "Percents"
+msgstr "Phần trăm"
+
+#: ../srcore/srspc.c:1017
+msgid "Caret"
+msgstr "Mũ"
+
+#: ../srcore/srspc.c:1017
+msgid "Carets"
+msgstr "Mũ"
+
+#: ../srcore/srspc.c:1018
+msgid "And"
+msgstr "Và"
+
+#: ../srcore/srspc.c:1018
+msgid "Ands"
+msgstr "Và"
+
+#: ../srcore/srspc.c:1019
+msgid "Asterisk"
+msgstr "Sao"
+
+#: ../srcore/srspc.c:1019
+msgid "Asterisks"
+msgstr "Sao"
+
+#: ../srcore/srspc.c:1020
+msgid "Left Paranthesis"
+msgstr "Ngoặc trái"
+
+#: ../srcore/srspc.c:1021
+msgid "Right Paranthesis"
+msgstr "Ngoặc phải"
+
+#: ../srcore/srspc.c:1022
+msgid "Underscore"
+msgstr "Gạch chân"
+
+#: ../srcore/srspc.c:1022
+msgid "Underscores"
+msgstr "Gạch chân"
+
+#: ../srcore/srspc.c:1023
+msgid "Plus"
+msgstr "Cộng"
+
+#: ../srcore/srspc.c:1023
+msgid "Pluses"
+msgstr "Cộng"
+
+#: ../srcore/srspc.c:1024
+msgid "Equal"
+msgstr "Bằng"
+
+#: ../srcore/srspc.c:1024
+msgid "Equals"
+msgstr "Bằng"
+
+#: ../srcore/srspc.c:1025
+msgid "Minus"
+msgstr "Trừ"
+
+#: ../srcore/srspc.c:1025
+msgid "Minuses"
+msgstr "Trừ"
+
+#: ../srcore/srspc.c:1026
+msgid "Quote"
+msgstr "Nháy"
+
+#: ../srcore/srspc.c:1026
+msgid "Quotes"
+msgstr "Nháy"
+
+#: ../srcore/srspc.c:1027
+msgid "Left Bracket"
+msgstr "Ngoặc vu trái"
+
+#: ../srcore/srspc.c:1027
+msgid "Left Brackets"
+msgstr "Ngoặc vu trái"
+
+#: ../srcore/srspc.c:1028
+msgid "Right Bracket"
+msgstr "Ngoặc vu phải"
+
+#: ../srcore/srspc.c:1028
+msgid "Right Brackets"
+msgstr "Ngoặc vu phải"
+
+#: ../srcore/srspc.c:1029
+msgid "Left Brace"
+msgstr "Ngoặc móc trái"
+
+#: ../srcore/srspc.c:1029
+msgid "Left Braces"
+msgstr "Ngoặc móc trái"
+
+#: ../srcore/srspc.c:1030
+msgid "Right Brace"
+msgstr "Ngoặc móc phải"
+
+#: ../srcore/srspc.c:1030
+msgid "Right Braces"
+msgstr "Ngoặc móc phải"
+
+#: ../srcore/srspc.c:1031
+msgid "Semicolon"
+msgstr "Chấm phẩy"
+
+#: ../srcore/srspc.c:1031
+msgid "Semicolons"
+msgstr "Chấm phẩy"
+
+#: ../srcore/srspc.c:1032
+msgid "Colon"
+msgstr "Hai chấm"
+
+#: ../srcore/srspc.c:1032
+msgid "Colons"
+msgstr "Hai chấm"
+
+#: ../srcore/srspc.c:1033
+msgid "Double quote"
+msgstr "Nháy kép"
+
+#: ../srcore/srspc.c:1033
+msgid "Double quotes"
+msgstr "Nháy kép"
+
+#: ../srcore/srspc.c:1034
+msgid "Apostrophe"
+msgstr "Sắt"
+
+#: ../srcore/srspc.c:1034
+msgid "Apostrophes"
+msgstr "Sắt"
+
+#: ../srcore/srspc.c:1035
+msgid "Back Slash"
+msgstr "Xuyệt ngược"
+
+#: ../srcore/srspc.c:1035
+msgid "Back Slashes"
+msgstr "Xuyệt ngược"
+
+#: ../srcore/srspc.c:1036
+msgid "Bar"
+msgstr "Ống dẫn"
+
+#: ../srcore/srspc.c:1036
+msgid "Bars"
+msgstr "Ống dẫn"
+
+#: ../srcore/srspc.c:1037
+msgid "Greater"
+msgstr "Lớn hơn"
+
+#: ../srcore/srspc.c:1037
+msgid "Greaters"
+msgstr "Lớn hơn"
+
+#: ../srcore/srspc.c:1038
+msgid "Less"
+msgstr "Nhỏ hơn"
+
+#: ../srcore/srspc.c:1038
+msgid "Lesses"
+msgstr "Nhỏ hơn"
+
+#: ../srcore/srspc.c:1039
+msgid "Comma"
+msgstr "Phẩy"
+
+#: ../srcore/srspc.c:1039
+msgid "Commas"
+msgstr "Phẩy"
+
+#: ../srcore/srspc.c:1040
+msgid "Dot"
+msgstr "Chấm"
+
+#: ../srcore/srspc.c:1040
+msgid "Dots"
+msgstr "Chấm"
+
+#: ../srcore/srspc.c:1041
+msgid "Slash"
+msgstr "Xuyệt"
+
+#: ../srcore/srspc.c:1041
+msgid "Slashes"
+msgstr "Xuyệt"
+
+#: ../srcore/srspc.c:1042
+msgid "Questions"
+msgstr "Câu hỏi"
+
+#: ../srcore/srspc.c:1116
+#, c-format
+msgid "value not supported for speech punctuation type \"%s\""
+msgstr "không hỗ trợ giá trị cho kiểu tiếng nói « %s »"
+
+#: ../srcore/srspc.c:1382
+msgid "Unable to initialize hashtable"
+msgstr "Không thể khởi động bảng băm"
+
+#: ../srcore/srspc.c:1388
+msgid "Unable to load dictionary from gconf"
+msgstr "Không tải được từ điển từ GConf"
+
+#: ../srcore/srspc.c:1619
+msgid "speech initialization succeded"
+msgstr "khởi động tiếng nói rồi"
+
+#: ../srcore/srspc.c:1621
+msgid "Speech restored"
+msgstr "Tiếng nói đã được phục hồi"
+
+#: ../srcore/srspc.c:1625
+msgid "speech initialization failed"
+msgstr "lỗi khởi động tiếng nói"
+
+#: ../srcore/srspc.c:1824
+msgid "enter"
+msgstr "phím «enter»"
+
+#: ../srcore/srspc.c:1907
+#, c-format
+msgid "can not find \"%s\" voice. use default voice"
+msgstr "không tìm được tiếng nói « %s » nên sẽ dùng tiếng nói mặc định"
+
+#: ../srcore/srspc.c:1924
+msgid "voices pitch will be set to default value"
+msgstr "sẽ lập độ cao giọng của các tiếng nói thành giá trị mặc định"
+
+#: ../srcore/srspc.c:1926
+msgid "voices pitch will be decreased"
+msgstr "sẽ giảm độ cao giọng của các tiếng nói"
+
+#: ../srcore/srspc.c:1928
+msgid "voices pitch will be increased"
+msgstr "sẽ tăng độ cao giọng của các tiếng nói"
+
+#: ../srcore/srspc.c:1972
+msgid "voices rate will be set to default value"
+msgstr "sẽ lập tốc độ các tiếng nói thành giá trị mặc định"
+
+#: ../srcore/srspc.c:1974
+msgid "voices rate will be decreased"
+msgstr "sẽ giảm tốc độ của các tiếng nói"
+
+#: ../srcore/srspc.c:1976
+msgid "voices rate will be increased"
+msgstr "sẽ tăng tốc độ của các tiếng nói"
+
+#: ../srcore/srspc.c:2021
+msgid "voices volume will be set to default value"
+msgstr "sẽ lập âm lượng của các tiếng nói thành giá trị mặc định"
+
+#: ../srcore/srspc.c:2023
+msgid "voices volume will be decreased"
+msgstr "sẽ giảm âm lượng của các tiếng nói"
+
+#: ../srcore/srspc.c:2025
+msgid "voices volume will be increased"
+msgstr "sẽ tăng âm lượng của các tiếng nói"
+
+#: ../srcore/srspc.c:2151
+#, c-format
+msgid "no support for speech key \"%s\""
+msgstr "không hỗ trợ phím tiếng nói « %s »"

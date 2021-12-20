@@ -1,0 +1,29 @@
+#!/bin/sh
+
+srcdir=`dirname $0`
+installation_dir=@prefix@
+test -z "$srcdir" && srcdir=.
+
+parameters=0
+parameters_number=$#
+
+if (test -f $srcdir/gnopi.c && test -f $srcdir/gnopernicus.bin) ;then
+#    echo  "this is gnopi dir"
+    cmd="./gnopernicus.bin --gtk-module=gail:atk-bridge:gail-gnome"
+else
+#    echo "does not look like the gnopi dir"
+    cmd="gnopernicus.bin --gtk-module=gail:atk-bridge:gail-gnome"
+fi
+
+while (test $parameters_number -gt 0)
+do
+    parameters=`expr $parameters + 1`
+    cmd="$cmd \$$parameters"
+    if test $parameters -eq $parameters_number
+	then break
+    fi
+done
+eval $cmd
+
+
+

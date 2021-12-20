@@ -1,0 +1,211 @@
+# Swedish messages for gnome-mag.
+# Copyright (C) 2002-2007 Free Software Foundation, Inc.
+# This file is distributed under the same license as the gnome-mag package.
+# Daniel Nylander <po@danielnylander.se>, 2006, 2007.
+# Christian Rose <menthos@menthos.com>, 2002.
+#
+# $Id: sv.po,v 1.8 2006/11/27 09:28:32 dnylande Exp $
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-mag\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2007-08-28 17:13+0200\n"
+"PO-Revision-Date: 2007-08-28 17:16+0100\n"
+"Last-Translator: Daniel Nylander <po@danielnylander.se>\n"
+"Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../colorblind/GNOME_Magnifier_ColorblindApplet.server.in.in.h:1
+msgid "Accessibility"
+msgstr "Tillgänglighet"
+
+#: ../colorblind/GNOME_Magnifier_ColorblindApplet.server.in.in.h:2
+msgid "Colorblind applet"
+msgstr "Panelprogram för färgblindhet"
+
+#: ../colorblind/GNOME_Magnifier_ColorblindApplet.server.in.in.h:3
+msgid "Controls image filters for colorblind people"
+msgstr "Kontrollerar bildfilter för färgblinda personer"
+
+#: ../colorblind/data/Colorblind_Applet.xml.h:1
+#: ../colorblind/ui/WindowUI.py:40
+msgid "_About"
+msgstr "_Om"
+
+#: ../colorblind/data/Colorblind_Applet.xml.h:2
+#: ../colorblind/ui/WindowUI.py:39
+msgid "_Preferences"
+msgstr "_Inställningar"
+
+#: ../colorblind/data/colorblind-prefs.glade.h:1
+msgid "<b>Default Filter</b>"
+msgstr "<b>Standardfilter</b>"
+
+#: ../colorblind/data/colorblind-prefs.glade.h:2
+msgid "<b>Filters</b>"
+msgstr "<b>Filter</b>"
+
+#: ../colorblind/data/colorblind-prefs.glade.h:3
+msgid "<b>Shortcut</b>"
+msgstr "<b>Genväg</b>"
+
+#: ../colorblind/data/colorblind-prefs.glade.h:4
+msgid "<i>This is the filter that will be used when enabling/disabling the filters.</i>"
+msgstr "<i>Det här är filtret som kommer att användas när filtren aktiveras/inaktiveras.</i>"
+
+#: ../colorblind/data/colorblind-prefs.glade.h:5
+msgid "Colorblind Filters Preferences"
+msgstr "Inställningar för färgblindhetsfilter"
+
+#: ../colorblind/data/colorblind-prefs.glade.h:6
+msgid "Configure the filter being used as default when the filters are disabled."
+msgstr "Konfigurera filtret som används som standard när filtren är inaktiverade."
+
+#: ../colorblind/data/colorblind-prefs.glade.h:7
+msgid "Enable/Disable Filters:"
+msgstr "Aktivera/inaktivera filter:"
+
+#: ../colorblind/data/colorblind-prefs.glade.h:8
+msgid "Filter:"
+msgstr "Filter:"
+
+#: ../colorblind/data/colorblind-prefs.glade.h:9
+#: ../colorblind/ui/ColorblindPreferencesUI.py:219
+msgid "Negative Hue Shift"
+msgstr "Negativ nyansväxling"
+
+#: ../colorblind/data/colorblind-prefs.glade.h:10
+#: ../colorblind/ui/ColorblindPreferencesUI.py:218
+msgid "Positive Hue Shift"
+msgstr "Positiv nyansväxling"
+
+#: ../colorblind/data/colorblind-prefs.glade.h:11
+msgid "Select Next Filter:"
+msgstr "Välj nästa filter:"
+
+#: ../colorblind/data/colorblind-prefs.glade.h:12
+#: ../colorblind/ui/ColorblindPreferencesUI.py:217
+msgid "Selective Blue Desaturation"
+msgstr "Selektiv blå avmättnad"
+
+#: ../colorblind/data/colorblind-prefs.glade.h:13
+#: ../colorblind/ui/ColorblindPreferencesUI.py:214
+msgid "Selective Blue Saturation"
+msgstr "Selektiv blå mättnad"
+
+#: ../colorblind/data/colorblind-prefs.glade.h:14
+#: ../colorblind/ui/ColorblindPreferencesUI.py:216
+msgid "Selective Green Desaturation"
+msgstr "Selektiv grön avmättnad"
+
+#: ../colorblind/data/colorblind-prefs.glade.h:15
+#: ../colorblind/ui/ColorblindPreferencesUI.py:213
+msgid "Selective Green Saturation"
+msgstr "Selektiv grön mättnad"
+
+#: ../colorblind/data/colorblind-prefs.glade.h:16
+#: ../colorblind/ui/ColorblindPreferencesUI.py:215
+msgid "Selective Red Desaturation"
+msgstr "Selektiv röd avmättnad"
+
+#: ../colorblind/data/colorblind-prefs.glade.h:17
+#: ../colorblind/ui/ColorblindPreferencesUI.py:212
+msgid "Selective Red Saturation"
+msgstr "Selektiv röd mättnad"
+
+#: ../colorblind/data/colorblind-prefs.glade.h:18
+msgid "This filter completely desaturates the blue color when this is the predominant pixel color in the image."
+msgstr "Det här filtret avmättar fullständigt den blåa färgen när det här är den övervägande bildpunktsfärgen i bilden."
+
+#: ../colorblind/data/colorblind-prefs.glade.h:19
+msgid "This filter completely desaturates the green color when this is the predominant pixel color in the image."
+msgstr "Det här filtret avmättar fullständigt den gröna färgen när det här är den övervägande bildpunktsfärgen i bilden."
+
+#: ../colorblind/data/colorblind-prefs.glade.h:20
+msgid "This filter completely desaturates the red color when this is the predominant pixel color in the image."
+msgstr "Det här filtret avmättar fullständigt den röda färgen när det här är den övervägande bildpunktsfärgen i bilden."
+
+#: ../colorblind/data/colorblind-prefs.glade.h:21
+msgid "This filter completely saturates the blue color when this is the predominant pixel color in the image."
+msgstr "Det här filtret mättar fullständigt den blåa färgen när det här är den övervägande bildpunktsfärgen i bilden."
+
+#: ../colorblind/data/colorblind-prefs.glade.h:22
+msgid "This filter completely saturates the green color when this is the predominant pixel color in the image."
+msgstr "Det här filtret mättar fullständigt den gröna färgen när det här är den övervägande bildpunktsfärgen i bilden."
+
+#: ../colorblind/data/colorblind-prefs.glade.h:23
+msgid "This filter completely saturates the red color when this is the predominant pixel color in the image."
+msgstr "Det här filtret mättar fullständigt den röda färgen när det här är den övervägande bildpunktsfärgen i bilden."
+
+#: ../colorblind/data/colorblind-prefs.glade.h:24
+msgid "Transforms the colors Red to Blue, Green to Red and Blue to Green, carrying a potentially ambiguous set of colors to a different band of the spectrum."
+msgstr "Transformerar färgerna Röd till Blå, Grön till Röd och Blå till Grön, vilket kan innebära en tvetydig uppsättning färger till ett annat band i spektrat."
+
+#: ../colorblind/data/colorblind-prefs.glade.h:25
+msgid "Transforms the colors Red to Green, Green to Blue and Blue to Red, carrying a potentially ambiguous set of colors to a different band of the spectrum."
+msgstr "Transformera färgerna Röd till Grön, Grön till Blå och Blå till Röd, vilket kan innebära en tvetydig uppsättning färger till ett annat band i spektrat."
+
+#: ../colorblind/ui/WindowUI.py:36
+msgid "_File"
+msgstr "_Arkiv"
+
+#: ../colorblind/ui/WindowUI.py:37
+msgid "_Quit"
+msgstr "A_vsluta"
+
+#: ../colorblind/ui/WindowUI.py:38
+msgid "_Edit"
+msgstr "R_edigera"
+
+#: ../colorblind/ui/About.py:22
+msgid "Colorblind Applet"
+msgstr "Panelprogram för färgblindhet"
+
+#: ../colorblind/ui/About.py:25
+msgid "Image filters for the colorblind. This is applet is part of gnome-mag, a magnification service for GNOME."
+msgstr "Bildfilter för den färgblinde. Det här panelprogrammet är en del av gnome-mag, en skärmförstorningstjänst för GNOME."
+
+#: ../colorblind/ui/About.py:28
+msgid "gnome-mag website"
+msgstr "Webbplatsen för gnome-mag"
+
+#. about.set_documenters([])
+#. translators: These appear in the About dialog, usual format applies.
+#: ../colorblind/ui/About.py:36
+msgid "translator-credits"
+msgstr ""
+"Daniel Nylander\n"
+"Christian Rose\n"
+"\n"
+"Skicka synpunkter på översättningen till\n"
+"tp-sv@listor.tp-sv.se"
+
+#: ../colorblind/ui/ColorblindPreferencesUI.py:105
+msgid "New accelerator..."
+msgstr "Ny snabbtangent..."
+
+#: ../colorblind/ui/ColorblindPreferencesUI.py:157
+#, python-format
+msgid ""
+"The shortcut \"%s\" cannot be used because it will become impossible to type using this key.\n"
+"Please try with a key such as Control, Alt or Shift at the same time.\n"
+msgstr ""
+"Genvägen \"%s\" kan inte användas därför att den kommer att bli omöjlig att ange med den här tangenten.\n"
+"Prova med tangenter såsom Control, Alt eller Skift på samma gång.\n"
+
+#: ../magnifier/GNOME_Magnifier.server.in.in.h:1
+msgid "Magnifier"
+msgstr "Förstorare"
+
+#: ../magnifier/GNOME_Magnifier.server.in.in.h:2
+msgid "Simple Screen Magnification Service"
+msgstr "Enkel skärmförstoringstjänst"
+
+#: ../magnifier/magnifier-main.c:408
+#, c-format
+msgid "Can't open display: DISPLAY is not set"
+msgstr "Kan inte öppna display: DISPLAY är inte inställd"
+

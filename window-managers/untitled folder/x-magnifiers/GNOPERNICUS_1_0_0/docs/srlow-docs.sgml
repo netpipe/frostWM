@@ -1,0 +1,15 @@
+<!doctype book PUBLIC "-//Davenport//DTD DocBook V3.0//EN" [
+<!entity SRLow-SRL-init-term SYSTEM "sgml/SRL_init_term.sgml">
+<!entity SRLow-SRL-object SYSTEM "sgml/SRL_object.sgml">
+]>
+
+<book>
+  <bookinfo>
+    <title>SRLow  Manual</title>
+  </bookinfo>
+  <chapter id="SRL-init-term">
+    <title>SRL initialization | termination </title>
+    &SRLow-SRL-init-term;
+    &SRLow-SRL-object;
+  </chapter>
+</book>

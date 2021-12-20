@@ -1,0 +1,235 @@
+# Thai translations for gnome-mag package.
+# Copyright (C) 2004-2007 Free Software Foundation, Inc.
+# This file is distributed under the same license as the gnome-mag package.
+# Paisa Seeluangsawat <paisa@users.sf.net>, 2004.
+# Theppitak Karoonboonyanan <thep@linux.thai.net>, 2006-2007.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-mag\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2007-09-02 20:50+0700\n"
+"PO-Revision-Date: 2007-09-02 20:57+0700\n"
+"Last-Translator: Theppitak Karoonboonyanan <thep@linux.thai.net>\n"
+"Language-Team: Thai <thai-l10n@googlegroups.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: colorblind/GNOME_Magnifier_ColorblindApplet.server.in.in.h:1
+msgid "Accessibility"
+msgstr "สิ่งอำนวยความสะดวก"
+
+#: colorblind/GNOME_Magnifier_ColorblindApplet.server.in.in.h:2
+msgid "Colorblind applet"
+msgstr "แอพเพล็ตช่วยผู้ตาบอดสี"
+
+#: colorblind/GNOME_Magnifier_ColorblindApplet.server.in.in.h:3
+msgid "Controls image filters for colorblind people"
+msgstr "ควบคุมตัวกรองภาพสำหรับผู้ตาบอดสี"
+
+#: colorblind/data/Colorblind_Applet.xml.h:1
+#: colorblind/ui/WindowUI.py:40
+msgid "_About"
+msgstr "เ_กี่ยวกับ"
+
+#: colorblind/data/Colorblind_Applet.xml.h:2
+#: colorblind/ui/WindowUI.py:39
+msgid "_Preferences"
+msgstr "ปรับแ_ต่ง"
+
+#: colorblind/data/colorblind-prefs.glade.h:1
+msgid "<b>Default Filter</b>"
+msgstr "<b>ตัวกรองปริยาย</b>"
+
+#: colorblind/data/colorblind-prefs.glade.h:2
+msgid "<b>Filters</b>"
+msgstr "<b>ตัวกรอง</b>"
+
+#: colorblind/data/colorblind-prefs.glade.h:3
+msgid "<b>Shortcut</b>"
+msgstr "<b>ปุ่มลัด</b>"
+
+#: colorblind/data/colorblind-prefs.glade.h:4
+msgid ""
+"<i>This is the filter that will be used when enabling/disabling the filters."
+"</i>"
+msgstr "<i>นี่เป็นตัวกรองที่จะใช้เมื่อสั่งเปิด/ปิดตัวกรอง</i>"
+
+#: colorblind/data/colorblind-prefs.glade.h:5
+msgid "Colorblind Filters Preferences"
+msgstr "ปรับแต่งตัวกรองสำหรับผู้ตาบอดสี"
+
+#: colorblind/data/colorblind-prefs.glade.h:6
+msgid ""
+"Configure the filter being used as default when the filters are disabled."
+msgstr "ตั้งตัวกรองที่กำลังใช้ให้เป็นตัวกรองปริยายที่จะใช้เมื่อปิดตัวกรองต่างๆ"
+
+#: colorblind/data/colorblind-prefs.glade.h:7
+msgid "Enable/Disable Filters:"
+msgstr "เปิด/ปิดตัวกรอง:"
+
+#: colorblind/data/colorblind-prefs.glade.h:8
+msgid "Filter:"
+msgstr "ตัวกรอง:"
+
+#: colorblind/data/colorblind-prefs.glade.h:9
+#: colorblind/ui/ColorblindPreferencesUI.py:219
+msgid "Negative Hue Shift"
+msgstr "เลื่อนสีแบบลบ"
+
+#: colorblind/data/colorblind-prefs.glade.h:10
+#: colorblind/ui/ColorblindPreferencesUI.py:218
+msgid "Positive Hue Shift"
+msgstr "เลื่อนสีแบบบวก"
+
+#: colorblind/data/colorblind-prefs.glade.h:11
+msgid "Select Next Filter:"
+msgstr "เลือกตัวกรองถัดไป:"
+
+#: colorblind/data/colorblind-prefs.glade.h:12
+#: colorblind/ui/ColorblindPreferencesUI.py:217
+msgid "Selective Blue Desaturation"
+msgstr "ลดสีน้ำเงิน"
+
+#: colorblind/data/colorblind-prefs.glade.h:13
+#: colorblind/ui/ColorblindPreferencesUI.py:214
+msgid "Selective Blue Saturation"
+msgstr "เพิ่มสีน้ำเงิน"
+
+#: colorblind/data/colorblind-prefs.glade.h:14
+#: colorblind/ui/ColorblindPreferencesUI.py:216
+msgid "Selective Green Desaturation"
+msgstr "ลดสีเขียว"
+
+#: colorblind/data/colorblind-prefs.glade.h:15
+#: colorblind/ui/ColorblindPreferencesUI.py:213
+msgid "Selective Green Saturation"
+msgstr "เพิ่มสีเขียว"
+
+#: colorblind/data/colorblind-prefs.glade.h:16
+#: colorblind/ui/ColorblindPreferencesUI.py:215
+msgid "Selective Red Desaturation"
+msgstr "ลดสีแดง"
+
+#: colorblind/data/colorblind-prefs.glade.h:17
+#: colorblind/ui/ColorblindPreferencesUI.py:212
+msgid "Selective Red Saturation"
+msgstr "เพิ่มสีแดง"
+
+#: colorblind/data/colorblind-prefs.glade.h:18
+msgid ""
+"This filter completely desaturates the blue color when this is the "
+"predominant pixel color in the image."
+msgstr "ตัวกรองนี้ลดสีน้ำเงินเมื่อเป็นสีเด่นของจุดสีในภาพ"
+
+#: colorblind/data/colorblind-prefs.glade.h:19
+msgid ""
+"This filter completely desaturates the green color when this is the "
+"predominant pixel color in the image."
+msgstr "ตัวกรองนี้ลดสีเขียวเมื่อเป็นสีเด่นของจุดสีในภาพ"
+
+#: colorblind/data/colorblind-prefs.glade.h:20
+msgid ""
+"This filter completely desaturates the red color when this is the "
+"predominant pixel color in the image."
+msgstr "ตัวกรองนี้ลดสีแดงเมื่อเป็นสีเด่นของจุดสีในภาพ"
+
+#: colorblind/data/colorblind-prefs.glade.h:21
+msgid ""
+"This filter completely saturates the blue color when this is the predominant "
+"pixel color in the image."
+msgstr "ตัวกรองนี้เพิ่มสีน้ำเงินเมื่อเป็นสีเด่นของจุดสีในภาพ"
+
+#: colorblind/data/colorblind-prefs.glade.h:22
+msgid ""
+"This filter completely saturates the green color when this is the "
+"predominant pixel color in the image."
+msgstr "ตัวกรองนี้เพิ่มสีเขียวเมื่อเป็นสีเด่นของจุดสีในภาพ"
+
+#: colorblind/data/colorblind-prefs.glade.h:23
+msgid ""
+"This filter completely saturates the red color when this is the predominant "
+"pixel color in the image."
+msgstr "ตัวกรองนี้เพิ่มสีแดงเมื่อเป็นสีเด่นของจุดสีในภาพ"
+
+#: colorblind/data/colorblind-prefs.glade.h:24
+msgid ""
+"Transforms the colors Red to Blue, Green to Red and Blue to Green, carrying "
+"a potentially ambiguous set of colors to a different band of the spectrum."
+msgstr ""
+"แปลงสีแดงเป็นน้ำเงิน เขียวเป็นแดง และน้ำเงินเป็นเขียว "
+"โดยให้ชุดสีที่ใกล้เคียงกันอยู่ในคนละย่านของสเปกตรัม"
+
+#: colorblind/data/colorblind-prefs.glade.h:25
+msgid ""
+"Transforms the colors Red to Green, Green to Blue and Blue to Red, carrying "
+"a potentially ambiguous set of colors to a different band of the spectrum."
+msgstr ""
+"แปลงสีแดงเป็นเขียว เขียวเป็นน้ำเงิน และน้ำเงินเป็นแดง "
+"โดยให้ชุดสีที่ใกล้เคียงกันอยู่ในคนละย่านของสเปกตรัม"
+
+#: colorblind/ui/WindowUI.py:36
+msgid "_File"
+msgstr "แ_ฟ้ม"
+
+#: colorblind/ui/WindowUI.py:37
+msgid "_Quit"
+msgstr "_ออก"
+
+#: colorblind/ui/WindowUI.py:38
+msgid "_Edit"
+msgstr "แ_ก้ไข"
+
+#: colorblind/ui/About.py:22
+msgid "Colorblind Applet"
+msgstr "แอพเพล็ตสำหรับผู้ตาบอดสี"
+
+#: colorblind/ui/About.py:25
+msgid ""
+"Image filters for the colorblind. This is applet is part of gnome-mag, a "
+"magnification service for GNOME."
+msgstr ""
+"ตัวกรองภาพสำหรับผู้ตาบอดสี แอพเพล็ตนี้เป็นส่วนหนึ่งของ gnome-mag ซึ่งเป็นบริการแว่นขยายของ "
+"GNOME"
+
+#: colorblind/ui/About.py:28
+msgid "gnome-mag website"
+msgstr "เว็บไซต์ gnome-mag"
+
+#. about.set_documenters([])
+#. translators: These appear in the About dialog, usual format applies.
+#: colorblind/ui/About.py:36
+msgid "translator-credits"
+msgstr ""
+"เทพพิทักษ์ การุญบุญญานันท์ <thep@linux.thai.net>\n"
+"\n"
+"ถ้ามีเวลาโปรดมาช่วยกันแปล ;-)\n"
+"http://gnome-th.sf.net"
+
+#: colorblind/ui/ColorblindPreferencesUI.py:105
+msgid "New accelerator..."
+msgstr "สร้างคีย์ด่วนใหม่..."
+
+#: colorblind/ui/ColorblindPreferencesUI.py:157
+#, python-format
+msgid ""
+"The shortcut \"%s\" cannot be used because it will become impossible to type "
+"using this key.\n"
+"Please try with a key such as Control, Alt or Shift at the same time.\n"
+msgstr ""
+"ไม่สามารถใช้คีย์ลัด \"%s\" ได้ เพราะจะทำให้ไม่สามารถพิมพ์อักขระดังกล่าวได้อีก\n"
+"กรุณาลองใช้ปุ่ม Control, Alt หรือ Shift ประกอบด้วย\n"
+
+#: magnifier/GNOME_Magnifier.server.in.in.h:1
+msgid "Magnifier"
+msgstr "แว่นขยาย"
+
+#: magnifier/GNOME_Magnifier.server.in.in.h:2
+msgid "Simple Screen Magnification Service"
+msgstr "บริการแว่นขยายจอ"
+
+#: magnifier/magnifier-main.c:408
+#, c-format
+msgid "Can't open display: DISPLAY is not set"
+msgstr "ไม่สามารถเปิดดิสเพลย์ได้: ค่า DISPLAY ไม่ได้กำหนดไว้"

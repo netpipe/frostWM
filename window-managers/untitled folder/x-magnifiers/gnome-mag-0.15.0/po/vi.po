@@ -1,0 +1,245 @@
+# Vietnamese translation for GNOME Mag.
+# Copyright © 2007 Gnome i18n Project for Vietnamese.
+# T.M.Thanh <tmthanh@yahoo.com>, 2002.
+# Clytie Siddall <clytie@riverland.net.au>, 2007.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Gnome-Mag VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2007-08-28 04:35+0100\n"
+"PO-Revision-Date: 2007-09-03 17:17+0930\n"
+"Last-Translator: Clytie Siddall <clytie@riverland.net.au>\n"
+"Language-Team: Vietnamese <gnomevi-list@lists.sourceforge.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: LocFactoryEditor 1.6.4a3\n"
+
+#: ../colorblind/GNOME_Magnifier_ColorblindApplet.server.in.in.h:1
+msgid "Accessibility"
+msgstr "Khả năng truy cập"
+
+#: ../colorblind/GNOME_Magnifier_ColorblindApplet.server.in.in.h:2
+msgid "Colorblind applet"
+msgstr "Tiểu dụng mù màu"
+
+#: ../colorblind/GNOME_Magnifier_ColorblindApplet.server.in.in.h:3
+msgid "Controls image filters for colorblind people"
+msgstr "Điều khiển bộ lọc ảnh cho người mù màu"
+
+#: ../colorblind/data/Colorblind_Applet.xml.h:1
+#: ../colorblind/ui/WindowUI.py:40
+msgid "_About"
+msgstr "_Giới thiệu"
+
+#: ../colorblind/data/Colorblind_Applet.xml.h:2
+#: ../colorblind/ui/WindowUI.py:39
+msgid "_Preferences"
+msgstr "Tù_y thích"
+
+#: ../colorblind/data/colorblind-prefs.glade.h:1
+msgid "<b>Default Filter</b>"
+msgstr "<b>Bộ lọc mặc định</b>"
+
+#: ../colorblind/data/colorblind-prefs.glade.h:2
+msgid "<b>Filters</b>"
+msgstr "<b>Bộ lọc</b>"
+
+#: ../colorblind/data/colorblind-prefs.glade.h:3
+msgid "<b>Shortcut</b>"
+msgstr "<b>Lối tắt</b>"
+
+#: ../colorblind/data/colorblind-prefs.glade.h:4
+msgid ""
+"<i>This is the filter that will be used when enabling/disabling the filters."
+"</i>"
+msgstr "<i>Đây là bộ lọc sẽ được dùng khi bật/tắt bộ lọc.</i>"
+
+#: ../colorblind/data/colorblind-prefs.glade.h:5
+msgid "Colorblind Filters Preferences"
+msgstr "Tùy thích lọc mù màu"
+
+#: ../colorblind/data/colorblind-prefs.glade.h:6
+msgid ""
+"Configure the filter being used as default when the filters are disabled."
+msgstr "Cấu hình bộ lọc nên dùng làm mặc định khi các bộ lọc bị tắt."
+
+#: ../colorblind/data/colorblind-prefs.glade.h:7
+msgid "Enable/Disable Filters:"
+msgstr "Bật/tắt bộ lọc:"
+
+#: ../colorblind/data/colorblind-prefs.glade.h:8
+msgid "Filter:"
+msgstr "Lọc:"
+
+#: ../colorblind/data/colorblind-prefs.glade.h:9
+#: ../colorblind/ui/ColorblindPreferencesUI.py:219
+msgid "Negative Hue Shift"
+msgstr "Dịch sắc màu âm"
+
+#: ../colorblind/data/colorblind-prefs.glade.h:10
+#: ../colorblind/ui/ColorblindPreferencesUI.py:218
+msgid "Positive Hue Shift"
+msgstr "Dịch sắc màu dương"
+
+#: ../colorblind/data/colorblind-prefs.glade.h:11
+msgid "Select Next Filter:"
+msgstr "Chọn bộ lọc kế:"
+
+#: ../colorblind/data/colorblind-prefs.glade.h:12
+#: ../colorblind/ui/ColorblindPreferencesUI.py:217
+msgid "Selective Blue Desaturation"
+msgstr "Giảm bão hoà xanh chọn lọc"
+
+#: ../colorblind/data/colorblind-prefs.glade.h:13
+#: ../colorblind/ui/ColorblindPreferencesUI.py:214
+msgid "Selective Blue Saturation"
+msgstr "Bão hoà xanh chọn lọc"
+
+#: ../colorblind/data/colorblind-prefs.glade.h:14
+#: ../colorblind/ui/ColorblindPreferencesUI.py:216
+msgid "Selective Green Desaturation"
+msgstr "Giảm bão hoà lục chọn lọc"
+
+#: ../colorblind/data/colorblind-prefs.glade.h:15
+#: ../colorblind/ui/ColorblindPreferencesUI.py:213
+msgid "Selective Green Saturation"
+msgstr "Bão hoà lục chọn lọc"
+
+#: ../colorblind/data/colorblind-prefs.glade.h:16
+#: ../colorblind/ui/ColorblindPreferencesUI.py:215
+msgid "Selective Red Desaturation"
+msgstr "Giảm bão hoà đỏ chọn lọc"
+
+#: ../colorblind/data/colorblind-prefs.glade.h:17
+#: ../colorblind/ui/ColorblindPreferencesUI.py:212
+msgid "Selective Red Saturation"
+msgstr "Bão hoà đỏ chọn lọc"
+
+#: ../colorblind/data/colorblind-prefs.glade.h:18
+msgid ""
+"This filter completely desaturates the blue color when this is the "
+"predominant pixel color in the image."
+msgstr ""
+"Bộ lọc này giảm bão hoà hoàn toàn màu xanh khi nó là màu điểm ảnh chiếm ưu "
+"thế trong ảnh."
+
+#: ../colorblind/data/colorblind-prefs.glade.h:19
+msgid ""
+"This filter completely desaturates the green color when this is the "
+"predominant pixel color in the image."
+msgstr ""
+"Bộ lọc này giảm bão hoà hoàn toàn màu lục khi nó là màu điểm ảnh chiếm ưu "
+"thế trong ảnh."
+
+#: ../colorblind/data/colorblind-prefs.glade.h:20
+msgid ""
+"This filter completely desaturates the red color when this is the "
+"predominant pixel color in the image."
+msgstr ""
+"Bộ lọc này giảm bão hoà hoàn toàn màu đỏ khi nó là màu điểm ảnh chiếm ưu thế "
+"trong ảnh."
+
+#: ../colorblind/data/colorblind-prefs.glade.h:21
+msgid ""
+"This filter completely saturates the blue color when this is the predominant "
+"pixel color in the image."
+msgstr ""
+"Bộ lọc này bão hoà hoàn toàn màu xanh khi nó là màu điểm ảnh chiếm ưu thế "
+"trong ảnh."
+
+#: ../colorblind/data/colorblind-prefs.glade.h:22
+msgid ""
+"This filter completely saturates the green color when this is the "
+"predominant pixel color in the image."
+msgstr ""
+"Bộ lọc này bão hoà hoàn toàn màu lục khi nó là màu điểm ảnh chiếm ưu thế "
+"trong ảnh."
+
+#: ../colorblind/data/colorblind-prefs.glade.h:23
+msgid ""
+"This filter completely saturates the red color when this is the predominant "
+"pixel color in the image."
+msgstr ""
+"Bộ lọc này bão hoà hoàn toàn màu đỏ khi nó là màu điểm ảnh chiếm ưu thế "
+"trong ảnh."
+
+#: ../colorblind/data/colorblind-prefs.glade.h:24
+msgid ""
+"Transforms the colors Red to Blue, Green to Red and Blue to Green, carrying "
+"a potentially ambiguous set of colors to a different band of the spectrum."
+msgstr ""
+"Chuyển dạng màu Đỏ sang Xanh, Lục sang Đỏ và Xanh sang Lục, thì dịch một tập "
+"hợp màu có thể mờ hồ sang một băng khác trong quang phổ."
+
+#: ../colorblind/data/colorblind-prefs.glade.h:25
+msgid ""
+"Transforms the colors Red to Green, Green to Blue and Blue to Red, carrying "
+"a potentially ambiguous set of colors to a different band of the spectrum."
+msgstr ""
+"Chuyển dạng màu Đỏ sang Lục, Lục sang Xanh và Xanh sang Đỏ, thì dịch một tập "
+"hợp màu có thể mờ hồ sang một băng khác trong quang phổ."
+
+#: ../colorblind/ui/WindowUI.py:36
+msgid "_File"
+msgstr "_Tập tin"
+
+#: ../colorblind/ui/WindowUI.py:37
+msgid "_Quit"
+msgstr "T_hoát"
+
+#: ../colorblind/ui/WindowUI.py:38
+msgid "_Edit"
+msgstr "_Sửa"
+
+#: ../colorblind/ui/About.py:22
+msgid "Colorblind Applet"
+msgstr "Tiểu dụng mù màu"
+
+#: ../colorblind/ui/About.py:25
+msgid ""
+"Image filters for the colorblind. This is applet is part of gnome-mag, a "
+"magnification service for GNOME."
+msgstr ""
+"Một số bộ lọc ảnh cho người mù màu. Tiểu dụng này thuộc về gnome-mag, một "
+"dịch vụ kính lúp cho GNOME."
+
+#: ../colorblind/ui/About.py:28
+msgid "gnome-mag website"
+msgstr "Địa chỉ Web gnome-mag"
+
+#: ../colorblind/ui/About.py:36
+#. about.set_documenters([])
+#. translators: These appear in the About dialog, usual format applies.
+msgid "translator-credits"
+msgstr "Nhóm Việt hoá GNOME"
+
+#: ../colorblind/ui/ColorblindPreferencesUI.py:105
+msgid "New accelerator..."
+msgstr "Phím tắt mới..."
+
+#: ../colorblind/ui/ColorblindPreferencesUI.py:157
+#, python-format
+msgid ""
+"The shortcut \"%s\" cannot be used because it will become impossible to type "
+"using this key.\n"
+"Please try with a key such as Control, Alt or Shift at the same time.\n"
+msgstr ""
+"Phím tắt « %s » không thể dùng vì không thể gõ được bằng phím này.\n"
+"Hãy thử sử dụng một phím tổ hợp, bấm phím chữ với Ctrl, Alt hay Shift đồng "
+"thời.\n"
+
+#: ../magnifier/GNOME_Magnifier.server.in.in.h:1
+msgid "Magnifier"
+msgstr "Kính lúp"
+
+#: ../magnifier/GNOME_Magnifier.server.in.in.h:2
+msgid "Simple Screen Magnification Service"
+msgstr "Dịch Vụ Kính lúp Màn Hình Đơn Giản"
+
+#: ../magnifier/magnifier-main.c:408
+#, c-format
+msgid "Can't open display: DISPLAY is not set"
+msgstr "Không thể mở bộ trình bày vì chưa đặt biến môi trường DISPLAY"

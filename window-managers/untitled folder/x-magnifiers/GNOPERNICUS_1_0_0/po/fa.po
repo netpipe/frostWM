@@ -1,0 +1,5106 @@
+# Persian translation of gnopernicus.
+# Copyright (C) Sharif FarsiWeb, Inc. 2005.
+# This file is distributed under the same license as the gnopernicus package.
+# Elnaz Sarbar <elnaz@farsiweb.info>, 2005.
+# Meelad Zakaria <meelad@farsiweb.info>, 2005.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnopernicus gnome-2-12\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2005-10-04 13:29+0200\n"
+"PO-Revision-Date: 2005-11-22 15:35+0330\n"
+"Last-Translator: Elnaz Sarbar <elnaz@farsiweb.info>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../braille/libbrl/ttybrl.c:297
+#, c-format
+msgid "BRLTTY command code not bound to Gnopernicus key code: 0X%04X\n"
+msgstr ""
+
+#: ../braille/libbrl/ttybrl.c:338
+msgid "Error opening brlapi connection"
+msgstr ""
+
+#: ../braille/libbrl/ttybrl.c:339
+#, c-format
+msgid ""
+"Please check that\n"
+" - %s exists and contains some data\n"
+" - you have read permission on %s\n"
+" - BRLTTY is running\n"
+msgstr ""
+
+#: ../braille/libbrl/ttybrl.c:348
+msgid "Unable to get display size"
+msgstr "گرفتن اندازه‌ی نمایش ممکن نیست"
+
+#: ../braille/libbrl/ttybrl.c:352
+#, c-format
+msgid "BrlAPI detected a %dx%d display\n"
+msgstr ""
+
+#: ../braille/libbrl/ttybrl.c:402
+#, c-format
+msgid "no XFree86_VT property\n"
+msgstr ""
+
+#: ../braille/libbrl/ttybrl.c:408
+#, c-format
+msgid "no item in XFree86_VT property\n"
+msgstr ""
+
+#: ../braille/libbrl/ttybrl.c:422
+#, c-format
+msgid "Bad format for VT number\n"
+msgstr ""
+
+#: ../braille/libbrl/ttybrl.c:426
+#, c-format
+msgid "Bad type for VT number\n"
+msgstr ""
+
+#: ../braille/libbrl/ttybrl.c:432
+msgid "Unable to get Tty"
+msgstr ""
+
+#: ../braille/test/remote.c:545
+msgid "Braille remote"
+msgstr ""
+
+#: ../brlmon/brlmon.c:196
+msgid "Braille monitor"
+msgstr "نمایش‌گر بریل"
+
+#: ../brlmon/brlmon.c:325 ../brlmon/brlmon.c:333
+#, c-format
+msgid "Invalid port number: %d."
+msgstr "شماره‌ی درگاه نامعتبر: %d."
+
+#: ../brlmon/brlmon.c:326 ../brlmon/brlmon.c:334
+msgid "port_no = [1025 - 30000]."
+msgstr ""
+
+#: ../brlmon/brlmon.c:520
+msgid "Can not open socket!"
+msgstr ""
+
+#: ../brlmon/brlmon.c:543
+#, c-format
+msgid "Can not bind port number %d."
+msgstr ""
+
+#: ../brlmon/brlmon.c:547
+#, c-format
+msgid "Waiting for data on port UDP %u."
+msgstr ""
+
+#: ../brlmon/brlmonui.c:225 ../gnopi/gnopiconf.c:43
+msgid "Failed to init gconf client."
+msgstr "راه‌اندازی کارگیر gconf شکست خورد."
+
+#: ../brlmon/brlmonui.c:234 ../srconf/libsrconf/libsrconf.c:418
+msgid "Failed to add directory."
+msgstr "اضافه کردن شاخه شکست خورد."
+
+#: ../brlmon/brlmonui.c:246 ../gnopi/kbconf.c:79 ../gnopi/spconf.c:95
+#: ../srconf/libsrconf/libsrconf.c:431
+msgid "Failed to add notify."
+msgstr ""
+
+#: ../brlmon/brlmonui.c:261 ../gnopi/gnopiconf.c:145
+#, c-format
+msgid "Expected key: %s"
+msgstr "کلید مورد انتظار: %s"
+
+#: ../brlmon/brlmonui.c:301
+#, c-format
+msgid "Failed to set value: %d"
+msgstr "تنظیم مقدار شکست خورد: %Id"
+
+#: ../brlmon/brlmonui.c:342 ../brlmon/brlmonui.c:444 ../gnopi/gnopiconf.c:353
+#: ../gnopi/gnopiconf.c:407 ../gnopi/gnopiconf.c:558 ../gnopi/gnopiconf.c:731
+#, c-format
+msgid "Invalid type of key: %s."
+msgstr "نوع کلید نامعتبر: %s."
+
+#: ../brlmon/brlmonui.c:345 ../brlmon/brlmonui.c:364
+#, c-format
+msgid "Failed to set int value: %d."
+msgstr "تنظیم مقدار عدد صحیح شکست خورد: %Id."
+
+#: ../brlmon/brlmonui.c:358 ../brlmon/brlmonui.c:459
+#, c-format
+msgid "Failed to get value: %s."
+msgstr "گرفتن مقدار شکست خورد: %s."
+
+#: ../brlmon/brlmonui.c:403 ../gnopi/gnopiconf.c:355 ../gnopi/gnopiconf.c:373
+#: ../gnopi/gnopiconf.c:560 ../gnopi/gnopiconf.c:576
+#, c-format
+msgid "Failed to set value: %d."
+msgstr "تنظیم مقدار شکست خورد: %Id."
+
+#: ../brlmon/brlmonui.c:447 ../brlmon/brlmonui.c:462
+#, c-format
+msgid "Failed to set boolean value: %d."
+msgstr "تنظیم مقدار بولی شکست خورد: %Id."
+
+#: ../brlmon/brlmonui.c:501 ../gnopi/gnopiconf.c:494 ../gnopi/gnopiconf.c:507
+#, c-format
+msgid "Failed to set value: %s."
+msgstr "تنظیم مقدار شکست خورد: %s."
+
+#: ../brlmon/brlmonui.c:535
+#, c-format
+msgid "Failed to get string value: %s."
+msgstr "گرفتن مقدار رشته‌ای شکست خورد: %s."
+
+#: ../brlmon/brlmonui.c:539 ../brlmon/brlmonui.c:549
+#, c-format
+msgid "Failed to set string value: %s."
+msgstr "تنظیم مقدار رشته‌ای شکست خورد: %s."
+
+#: ../brlmon/brlmonui.c:583 ../gnopi/bmui.c:297
+#, c-format
+msgid "Invalid modetype: %s."
+msgstr ""
+
+#: ../brlmon/brlmonui.c:635
+#, c-format
+msgid "%s font not installed."
+msgstr "قلم %s نصب نشده است."
+
+#. *
+#. * bmui_load_colors
+#. *
+#. * Load text colors.
+#. *
+#. * returns:
+#. *
+#: ../brlmon/brlmonui.c:639 ../gnopi/bmui.c:251
+msgid "Can not parse color string."
+msgstr "نمی‌توان رشته‌ی رنگ را تجزیه کرد."
+
+#: ../brlmon/brlmonui.c:1112
+msgid "Status"
+msgstr "وضعیت"
+
+#: ../brlmon/brlmonui.c:1319
+#, c-format
+msgid "Too many cells on display. [Max %d]"
+msgstr ""
+
+#: ../brlmon/brlmonui.c:1320
+#, c-format
+msgid "Load default display size. Line: %d Column: %d."
+msgstr "بار کردن اندازه‌ی نمایش پیش‌فرض. سطر: %Id ستون: %Id."
+
+#. unsupported attribute
+#: ../brlmon/brlmonxml.c:84
+#, c-format
+msgid "BRLOUT attribute %s is not supported."
+msgstr ""
+
+#. unsupported attribute
+#: ../brlmon/brlmonxml.c:218
+#, c-format
+msgid "TEXT attribute %s is not supported."
+msgstr "مشخصه‌ی متن %s پشتیبانی نشده است."
+
+#: ../gnopi/bmconf.c:318
+msgid "Failed to set display size."
+msgstr "تنظیم اندازه‌ی نمایش شکست خورد."
+
+#: ../gnopi/bmconf.c:336
+msgid "Failed to set display position."
+msgstr "تنظیم موقعیت نمایش شکست خورد."
+
+#: ../gnopi/bmconf.c:368
+msgid "Failed to set display mode."
+msgstr "تنظیم حالت نمایش شکست خورد."
+
+#: ../gnopi/bmconf.c:392
+msgid "Failed to set dot type colors."
+msgstr ""
+
+#: ../gnopi/bmconf.c:409
+msgid "Failed to set font size."
+msgstr "تنظیم اندازه‌ی قلم شکست خورد."
+
+#: ../gnopi/bmui.c:328
+#, c-format
+msgid "Invalid position: %s."
+msgstr "موقعیت نامعتبر: %s."
+
+#: ../gnopi/brlconf.c:300 ../gnopi/cmdmapconf.c:237 ../gnopi/coreconf.c:140
+#: ../gnopi/kbconf.c:126 ../gnopi/magconf.c:226 ../gnopi/spconf.c:158
+#: ../gnopi/spconf.c:1247
+msgid "Unable to allocate memory."
+msgstr ""
+
+#: ../gnopi/brlconf.c:407
+#, c-format
+msgid "Failed to set braille style: %s."
+msgstr "تنظیم سبک بریل شکست خورد: %s."
+
+#: ../gnopi/brlconf.c:416
+#, c-format
+msgid "Failed to set braille cursor style: %s."
+msgstr "تنظیم سبک مکان‌نمای بریل شکست خورد: %s."
+
+#: ../gnopi/brlconf.c:425
+#, c-format
+msgid "Failed to set attribute settings: %d."
+msgstr "تنظیم تنظیمات مشخصه شکست خورد: %Id."
+
+#: ../gnopi/brlconf.c:434
+#, c-format
+msgid "Failed to set braille device: %s."
+msgstr "تنظیم دستگاه بریل شکست خورد: %s."
+
+#: ../gnopi/brlconf.c:443
+#, c-format
+msgid "Failed to set fill character: %s."
+msgstr ""
+
+#: ../gnopi/brlconf.c:452
+#, c-format
+msgid "Failed to set serial port number: %d."
+msgstr "تنظیم شماره‌ی درگاه سری شکست خورد: %Id."
+
+#: ../gnopi/brlconf.c:461
+#, c-format
+msgid "Failed to set serial port : %s."
+msgstr "تنظیم درگاه سری شکست خورد : %s."
+
+#: ../gnopi/brlconf.c:471
+#, c-format
+msgid "Failed to set translation table: %s."
+msgstr "تنظیم جدول ترجمه شکست خورد: %s."
+
+#: ../gnopi/brlconf.c:480
+#, c-format
+msgid "Failed to set optical sensor: %d."
+msgstr "تنظیم حس‌گر نوری شکست خورد: %Id."
+
+#: ../gnopi/brlconf.c:489
+#, c-format
+msgid "Failed to set position sensor: %d."
+msgstr "تنظیم حس‌گر موقعیت شکست خورد: %Id."
+
+#: ../gnopi/brlconf.c:498
+#, c-format
+msgid "Failed to set status cell: %s."
+msgstr ""
+
+#: ../gnopi/brlconf.c:584 ../gnopi/brlui.c:498 ../gnopi/brlui.c:546
+#: ../gnopi/brlui.c:559 ../gnopi/spvoiceui.c:613
+msgid "<none>"
+msgstr "<هیچ‌کدام>"
+
+#: ../gnopi/brlui.c:79
+msgid "American English"
+msgstr "انگلیسی امریکایی"
+
+#: ../gnopi/brlui.c:80
+msgid "German"
+msgstr "آلمانی"
+
+#: ../gnopi/brlui.c:81
+msgid "Spanish"
+msgstr "اسپانیایی"
+
+#: ../gnopi/brlui.c:82
+msgid "Swedish"
+msgstr "سوئدی"
+
+#. To translators: X = X Window System server
+#: ../gnopi/brlui.c:379
+msgid "X display's _terminal number:"
+msgstr ""
+
+#: ../gnopi/brlui.c:385
+#: ../gnopi/gnopi_files/Braille_Settings/braille_device.glade2.h:6
+msgid "_Port:"
+msgstr "_درگاه:"
+
+#: ../gnopi/brlui.c:741
+msgid "Language"
+msgstr "زبان"
+
+#: ../gnopi/brlui.c:1336 ../gnopi/cmdmapui.c:475
+msgid "No selected command!"
+msgstr "فرمانی انتخاب نشده است!"
+
+#: ../gnopi/brlui.c:1360
+msgid "Invalid device key!"
+msgstr "کلید دستگاه نامعتبر!"
+
+#: ../gnopi/brlui.c:1595 ../gnopi/brlui.c:2018 ../gnopi/cmdmapui.c:717
+#: ../gnopi/cmdmapui.c:1568 ../gnopi/cmdmapui.c:1588
+msgid "Commands"
+msgstr "فرمان‌ها"
+
+#: ../gnopi/brlui.c:1750 ../gnopi/cmdmapui.c:1186
+msgid "No selected item to modify!"
+msgstr "هیچ موردی برای تغییر دادن انتخاب نشده است!"
+
+#: ../gnopi/brlui.c:1762 ../gnopi/brlui.c:1842 ../gnopi/cmdmapui.c:1059
+#: ../gnopi/cmdmapui.c:1196
+msgid "Invalid selected item!"
+msgstr "مورد انتخاب شده‌ی نامعتبر!"
+
+#: ../gnopi/brlui.c:1830 ../gnopi/cmdmapui.c:1046
+msgid "No selected item to remove!"
+msgstr "هیچ موردی برای حذف انتخاب نشده است!"
+
+#: ../gnopi/brlui.c:2012
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:9
+msgid "Braille Keys"
+msgstr "کلید‌های بریل"
+
+#: ../gnopi/cmdmapconf.c:462 ../gnopi/cmdmapconf.c:503
+msgid "Change commit error."
+msgstr ""
+
+#: ../gnopi/cmdmapui.c:45
+msgid "decrease y scale"
+msgstr "کاهش مقیاس y"
+
+#: ../gnopi/cmdmapui.c:46
+msgid "decrease x scale"
+msgstr "کاهش مقیاس x"
+
+#: ../gnopi/cmdmapui.c:47
+msgid "increase y scale"
+msgstr "افزایش مقیاس y"
+
+#: ../gnopi/cmdmapui.c:48
+msgid "increase x scale"
+msgstr "افزارش مقیاس x"
+
+#: ../gnopi/cmdmapui.c:49
+msgid "lock xy scale"
+msgstr "قفل کردن مقیاس xy"
+
+#: ../gnopi/cmdmapui.c:50
+msgid "smoothing toggle"
+msgstr "ضامن هموارسازی"
+
+#: ../gnopi/cmdmapui.c:51
+msgid "cursor toggle"
+msgstr "ضامن مکان‌نما"
+
+#: ../gnopi/cmdmapui.c:52
+msgid "cursor on/off"
+msgstr "مکان‌نما خاموش/روشن"
+
+#: ../gnopi/cmdmapui.c:53
+msgid "cursor magnification on/off"
+msgstr "بزرگ‌نمایی مکان‌نما خاموش/روشن"
+
+#: ../gnopi/cmdmapui.c:54
+msgid "decrease cursor size"
+msgstr "کاهش اندازه‌ی مکان‌نما"
+
+#: ../gnopi/cmdmapui.c:55
+msgid "increase cursor size"
+msgstr "افزایش اندازه‌ی مکان‌نما"
+
+#: ../gnopi/cmdmapui.c:56
+msgid "invert on/off"
+msgstr ""
+
+#: ../gnopi/cmdmapui.c:57
+msgid "magnifier default"
+msgstr ""
+
+#: ../gnopi/cmdmapui.c:58
+msgid "crosshair on/off"
+msgstr ""
+
+#: ../gnopi/cmdmapui.c:59
+msgid "crosshair clip on/off"
+msgstr ""
+
+#: ../gnopi/cmdmapui.c:60
+msgid "decrease crosshair size"
+msgstr ""
+
+#: ../gnopi/cmdmapui.c:61
+msgid "increase crosshair size"
+msgstr ""
+
+#: ../gnopi/cmdmapui.c:62
+msgid "automatic panning on/off"
+msgstr ""
+
+#: ../gnopi/cmdmapui.c:63
+msgid "mouse tracking toggle"
+msgstr ""
+
+#: ../gnopi/cmdmapui.c:64
+msgid "load magnifier defaults"
+msgstr ""
+
+#: ../gnopi/cmdmapui.c:66
+msgid "decrease pitch"
+msgstr ""
+
+#: ../gnopi/cmdmapui.c:67
+msgid "increase pitch"
+msgstr ""
+
+#: ../gnopi/cmdmapui.c:68
+msgid "default pitch"
+msgstr ""
+
+#: ../gnopi/cmdmapui.c:69
+msgid "decrease rate"
+msgstr "کاهش سرعت"
+
+#: ../gnopi/cmdmapui.c:70
+msgid "increase rate"
+msgstr "افزایش سرعت"
+
+#: ../gnopi/cmdmapui.c:71
+msgid "default rate"
+msgstr "سرعت پیش‌فرض"
+
+#: ../gnopi/cmdmapui.c:72
+msgid "decrease volume"
+msgstr "کاهش بلندی"
+
+#: ../gnopi/cmdmapui.c:73
+msgid "increase volume"
+msgstr "افزایش بلندی"
+
+#: ../gnopi/cmdmapui.c:74
+msgid "default volume"
+msgstr "بلندی پیش‌فرض"
+
+#: ../gnopi/cmdmapui.c:75
+msgid "speech default"
+msgstr "پیش‌فرض گفتار"
+
+#: ../gnopi/cmdmapui.c:77
+msgid "goto parent"
+msgstr "رفتن به والد"
+
+#: ../gnopi/cmdmapui.c:78
+msgid "goto child"
+msgstr "رفتن به فرزند"
+
+#: ../gnopi/cmdmapui.c:79
+msgid "goto previous"
+msgstr "رفتن به قبلی"
+
+#: ../gnopi/cmdmapui.c:80
+msgid "goto next"
+msgstr "رفتن به بعدی"
+
+#: ../gnopi/cmdmapui.c:81
+msgid "repeat last"
+msgstr "تکرار آخرین"
+
+#: ../gnopi/cmdmapui.c:82
+msgid "goto focus"
+msgstr "رفتن به تمرکز"
+
+#: ../gnopi/cmdmapui.c:83
+msgid "goto title"
+msgstr "رفتن به عنوان"
+
+#: ../gnopi/cmdmapui.c:84
+msgid "goto menu"
+msgstr "رفتن به منو"
+
+#: ../gnopi/cmdmapui.c:85
+msgid "goto toolbar"
+msgstr "رفتن به نوار ابزار"
+
+#: ../gnopi/cmdmapui.c:86
+msgid "goto statusbar"
+msgstr "رفتن به نوار وضعیت"
+
+#: ../gnopi/cmdmapui.c:87
+msgid "widget surroundings"
+msgstr ""
+
+#: ../gnopi/cmdmapui.c:89
+msgid "goto caret"
+msgstr ""
+
+#: ../gnopi/cmdmapui.c:90
+msgid "goto first"
+msgstr "رفتن به اولین"
+
+#: ../gnopi/cmdmapui.c:91
+msgid "goto last"
+msgstr "رفتن به آخرین"
+
+#: ../gnopi/cmdmapui.c:92
+msgid "change navigation mode"
+msgstr "تغییر حالت ناوش"
+
+#: ../gnopi/cmdmapui.c:94
+msgid "toggle flat review/focus tracking mode"
+msgstr ""
+
+#: ../gnopi/cmdmapui.c:95
+msgid "flat review"
+msgstr ""
+
+#: ../gnopi/cmdmapui.c:96
+msgid "window hierarchy"
+msgstr ""
+
+#: ../gnopi/cmdmapui.c:97
+msgid "read whole window"
+msgstr "خواندن تمام پنجره"
+
+#: ../gnopi/cmdmapui.c:98
+msgid "detailed informations"
+msgstr ""
+
+#: ../gnopi/cmdmapui.c:99
+msgid "do default action"
+msgstr "انجام کنش پیش‌فرض"
+
+#: ../gnopi/cmdmapui.c:100
+msgid "window overview"
+msgstr ""
+
+#: ../gnopi/cmdmapui.c:101
+msgid "find next"
+msgstr "پیدا کردن بعدی"
+
+#: ../gnopi/cmdmapui.c:102
+msgid "find set"
+msgstr "پیدا کردن تنظیم"
+
+#: ../gnopi/cmdmapui.c:103
+msgid "attributes at caret"
+msgstr ""
+
+#: ../gnopi/cmdmapui.c:104
+msgid "watch current object"
+msgstr "نظارت بر شیء فعلی"
+
+#: ../gnopi/cmdmapui.c:105 ../srcore/srctrl.c:1353
+msgid "unwatch all objects"
+msgstr ""
+
+#: ../gnopi/cmdmapui.c:107
+msgid "mouse left press"
+msgstr "فشردن چپ موشی"
+
+#: ../gnopi/cmdmapui.c:108
+msgid "mouse left click"
+msgstr "کلیک چپ موشی"
+
+#: ../gnopi/cmdmapui.c:109
+msgid "mouse left release"
+msgstr "رها کردن چپ موشی"
+
+#: ../gnopi/cmdmapui.c:110
+msgid "mouse right press"
+msgstr "فشردن راست موشی"
+
+#: ../gnopi/cmdmapui.c:111
+msgid "mouse right click"
+msgstr "کلیک راست موشی"
+
+#: ../gnopi/cmdmapui.c:112
+msgid "mouse right release"
+msgstr "رها کردن راست موشی"
+
+#: ../gnopi/cmdmapui.c:113
+msgid "mouse middle press"
+msgstr "فشردن وسط موشی"
+
+#: ../gnopi/cmdmapui.c:114
+msgid "mouse middle release"
+msgstr "رها کردن وسط موشی"
+
+#: ../gnopi/cmdmapui.c:115
+msgid "mouse middle click"
+msgstr "کلیک وسط موشی"
+
+#: ../gnopi/cmdmapui.c:116
+msgid "mouse goto current"
+msgstr "رفتن موشی به فعلی"
+
+#: ../gnopi/cmdmapui.c:118
+msgid "shutup"
+msgstr ""
+
+#: ../gnopi/cmdmapui.c:119
+msgid "pause/resume"
+msgstr ""
+
+#: ../gnopi/cmdmapui.c:121
+msgid "char left"
+msgstr ""
+
+#: ../gnopi/cmdmapui.c:122
+msgid "char right"
+msgstr ""
+
+#: ../gnopi/cmdmapui.c:123
+msgid "display left"
+msgstr ""
+
+#: ../gnopi/cmdmapui.c:124
+msgid "display right"
+msgstr ""
+
+#: ../gnopi/cmdmapui.c:126
+msgid "braille on/off"
+msgstr "خاموش/روشن بریل"
+
+#: ../gnopi/cmdmapui.c:127
+msgid "speech on/off"
+msgstr "خاموش/روشن گفتار"
+
+#: ../gnopi/cmdmapui.c:128
+msgid "magnifier on/off"
+msgstr ""
+
+#: ../gnopi/cmdmapui.c:129
+msgid "braille monitor on/off"
+msgstr "خاموش/روشن نمایش‌گر بریل"
+
+#: ../gnopi/cmdmapui.c:143
+msgid "A"
+msgstr "A"
+
+#: ../gnopi/cmdmapui.c:144
+msgid "B"
+msgstr "B"
+
+#: ../gnopi/cmdmapui.c:145
+msgid "C"
+msgstr "C"
+
+#: ../gnopi/cmdmapui.c:146
+msgid "D"
+msgstr "D"
+
+#: ../gnopi/cmdmapui.c:147
+msgid "E"
+msgstr "E"
+
+#: ../gnopi/cmdmapui.c:148
+msgid "F"
+msgstr "F"
+
+#: ../gnopi/cmdmapui.c:149
+msgid "G"
+msgstr "G"
+
+#: ../gnopi/cmdmapui.c:150
+msgid "H"
+msgstr "H"
+
+#: ../gnopi/cmdmapui.c:151
+msgid "I"
+msgstr "I"
+
+#: ../gnopi/cmdmapui.c:152
+msgid "J"
+msgstr "J"
+
+#: ../gnopi/cmdmapui.c:153
+msgid "K"
+msgstr "K"
+
+#: ../gnopi/cmdmapui.c:154
+msgid "L"
+msgstr "L"
+
+#: ../gnopi/cmdmapui.c:155
+msgid "M"
+msgstr "M"
+
+#: ../gnopi/cmdmapui.c:156
+msgid "N"
+msgstr "N"
+
+#: ../gnopi/cmdmapui.c:157
+msgid "O"
+msgstr "O"
+
+#: ../gnopi/cmdmapui.c:158
+msgid "P"
+msgstr "P"
+
+#: ../gnopi/cmdmapui.c:159
+msgid "Q"
+msgstr "Q"
+
+#: ../gnopi/cmdmapui.c:160
+msgid "R"
+msgstr "R"
+
+#: ../gnopi/cmdmapui.c:161
+msgid "S"
+msgstr "S"
+
+#: ../gnopi/cmdmapui.c:162
+msgid "T"
+msgstr "T"
+
+#: ../gnopi/cmdmapui.c:163
+msgid "U"
+msgstr "U"
+
+#: ../gnopi/cmdmapui.c:164
+msgid "V"
+msgstr "V"
+
+#: ../gnopi/cmdmapui.c:165
+msgid "W"
+msgstr "W"
+
+#: ../gnopi/cmdmapui.c:166
+msgid "X"
+msgstr "X"
+
+#: ../gnopi/cmdmapui.c:167
+msgid "Y"
+msgstr "Y"
+
+#: ../gnopi/cmdmapui.c:168
+msgid "Z"
+msgstr "Z"
+
+#: ../gnopi/cmdmapui.c:169
+msgid "F1"
+msgstr "F۱"
+
+#: ../gnopi/cmdmapui.c:170
+msgid "F2"
+msgstr "F۲"
+
+#: ../gnopi/cmdmapui.c:171
+msgid "F3"
+msgstr "F۳"
+
+#: ../gnopi/cmdmapui.c:172
+msgid "F4"
+msgstr "F۴"
+
+#: ../gnopi/cmdmapui.c:173
+msgid "F5"
+msgstr "F۵"
+
+#: ../gnopi/cmdmapui.c:174
+msgid "F6"
+msgstr "F۶"
+
+#: ../gnopi/cmdmapui.c:175
+msgid "F7"
+msgstr "F۷"
+
+#: ../gnopi/cmdmapui.c:176
+msgid "F8"
+msgstr "F۸"
+
+#: ../gnopi/cmdmapui.c:177
+msgid "F9"
+msgstr "F۹"
+
+#: ../gnopi/cmdmapui.c:178
+msgid "F10"
+msgstr "F۱۰"
+
+#: ../gnopi/cmdmapui.c:179
+msgid "F11"
+msgstr "F۱۱"
+
+#: ../gnopi/cmdmapui.c:180
+msgid "F12"
+msgstr "F۱۲"
+
+#: ../gnopi/cmdmapui.c:181
+msgid "0"
+msgstr "۰"
+
+#: ../gnopi/cmdmapui.c:182
+msgid "1"
+msgstr "۱"
+
+#: ../gnopi/cmdmapui.c:183
+msgid "2"
+msgstr "۲"
+
+#: ../gnopi/cmdmapui.c:184
+msgid "3"
+msgstr "۳"
+
+#: ../gnopi/cmdmapui.c:185
+msgid "4"
+msgstr "۴"
+
+#: ../gnopi/cmdmapui.c:186
+msgid "5"
+msgstr "۵"
+
+#: ../gnopi/cmdmapui.c:187
+msgid "6"
+msgstr "۶"
+
+#: ../gnopi/cmdmapui.c:188
+msgid "7"
+msgstr "۷"
+
+#: ../gnopi/cmdmapui.c:189
+msgid "8"
+msgstr "۸"
+
+#: ../gnopi/cmdmapui.c:190
+msgid "9"
+msgstr "۹"
+
+#: ../gnopi/cmdmapui.c:191
+msgid "apostrophe"
+msgstr "آپاستروف"
+
+#: ../gnopi/cmdmapui.c:192
+msgid "backslash"
+msgstr ""
+
+#: ../gnopi/cmdmapui.c:193
+msgid "bracket left"
+msgstr "پرانتر چپ"
+
+#: ../gnopi/cmdmapui.c:194
+msgid "bracket right"
+msgstr "پرانتز راست"
+
+#: ../gnopi/cmdmapui.c:195
+msgid "comma"
+msgstr "ویرگول"
+
+#: ../gnopi/cmdmapui.c:196
+msgid "equal"
+msgstr "مساوی"
+
+#: ../gnopi/cmdmapui.c:197
+msgid "grave"
+msgstr ""
+
+#: ../gnopi/cmdmapui.c:198
+msgid "minus"
+msgstr "تفریق"
+
+#: ../gnopi/cmdmapui.c:199
+msgid "period"
+msgstr "نقطه"
+
+#: ../gnopi/cmdmapui.c:200
+msgid "quote left"
+msgstr "نقل قول چپ"
+
+#: ../gnopi/cmdmapui.c:201
+msgid "semicolon"
+msgstr "ویرگول نقطه"
+
+#: ../gnopi/cmdmapui.c:202
+msgid "slash"
+msgstr ""
+
+#: ../gnopi/cmdmapui.c:1133
+msgid "Invalid key or existent key."
+msgstr ""
+
+#: ../gnopi/cmdmapui.c:1562
+msgid "Layer Keys"
+msgstr ""
+
+#: ../gnopi/cmdmapui.c:1582
+msgid "User Keys"
+msgstr "کلیدهای کاربر"
+
+#: ../gnopi/coreconf.c:248
+#, c-format
+msgid "Failed to set exit val: %d."
+msgstr "تنظیم مقدار خروج شکست خورد: %Id."
+
+#: ../gnopi/coreconf.c:290
+#, c-format
+msgid "Failed to set move mouse: %d."
+msgstr ""
+
+#: ../gnopi/coreconf.c:299
+#, c-format
+msgid "Failed to set simulate click: %d."
+msgstr ""
+
+#: ../gnopi/coreconf.c:308
+#, c-format
+msgid "Failed to set find text: %s."
+msgstr "تنظیم پیدا کردن متن شکست خورد: %s."
+
+#: ../gnopi/coreconf.c:318
+#, c-format
+msgid "Failed to set magnifier status: %d."
+msgstr ""
+
+#: ../gnopi/coreconf.c:327
+#, c-format
+msgid "Failed to set speech status: %d."
+msgstr "تنظیم وضعیت گفتار شکست خورد:  %Id"
+
+#: ../gnopi/coreconf.c:336
+#, c-format
+msgid "Failed to set braille status: %d."
+msgstr "تنظیم وضعیت بریل شکست خورد: %Id."
+
+#: ../gnopi/coreconf.c:345
+#, c-format
+msgid "Failed to set braille monitor status: %d."
+msgstr "تنظیم وضعیت نمایش‌گر بریل شکست خورد: %Id."
+
+#: ../gnopi/coreconf.c:354
+#, c-format
+msgid "Failed to set minimize flag: %d."
+msgstr ""
+
+#: ../gnopi/coreconf.c:363
+#, c-format
+msgid "Failed to set exit ack: %d."
+msgstr ""
+
+#: ../gnopi/coreconf.c:372
+#, c-format
+msgid "Failed to set language: %s."
+msgstr "تنظیم زبان شکست خورد: %s."
+
+#: ../gnopi/coreconf.c:381
+#, c-format
+msgid "Failed to set screen review: %d."
+msgstr "تنظیم مرور صفحه شکست خورد: %Id."
+
+#: ../gnopi/defui.c:73
+#, c-format
+msgid "Are you sure you want to load default values for %s?"
+msgstr "آیا مطمئنید که می‌خواهید مقدار پیش‌فرض %s را بار کنید؟"
+
+#: ../gnopi/defui.c:100
+msgid "braille"
+msgstr "بریل"
+
+#: ../gnopi/defui.c:116
+msgid "Braille default setting loaded."
+msgstr "تنظیمات پیش‌فرض بریل بار شد."
+
+#: ../gnopi/defui.c:125
+msgid "speech"
+msgstr "گفتار"
+
+#: ../gnopi/defui.c:133
+msgid "Speech default setting loaded."
+msgstr "تنظیمات پیش‌فرض گفتار بار شد."
+
+#: ../gnopi/defui.c:142
+msgid "magnifier"
+msgstr "ذره‌بین"
+
+#: ../gnopi/defui.c:156
+msgid "Magnifier default setting loaded."
+msgstr "تنظیمات پیش‌فرض ذره‌بین بار شد."
+
+#: ../gnopi/defui.c:165
+msgid "keyboard"
+msgstr "صفحه‌کلید"
+
+#: ../gnopi/defui.c:173
+msgid "Keyboard default setting loaded."
+msgstr "تنظیمات پیش‌فرض صفحه‌کلید بار شد."
+
+#: ../gnopi/defui.c:182
+msgid "braille monitor"
+msgstr "نمایش‌گر بریل"
+
+#: ../gnopi/defui.c:189
+msgid "Braille monitor default setting loaded."
+msgstr "تنظیمات پیش‌فرض نمایش‌گر بریل بار شد."
+
+#: ../gnopi/defui.c:198
+msgid "start up"
+msgstr "راه‌اندازی"
+
+#: ../gnopi/defui.c:207
+msgid "Startup default setting loaded."
+msgstr "تنظیمات پیش‌فرض راه‌اندازی بار شد."
+
+#: ../gnopi/defui.c:217
+msgid "command map"
+msgstr ""
+
+#: ../gnopi/defui.c:225
+msgid "Command map default setting loaded."
+msgstr ""
+
+#: ../gnopi/defui.c:235
+msgid "presentation"
+msgstr ""
+
+#: ../gnopi/defui.c:241
+msgid "Presentation default setting loaded."
+msgstr ""
+
+#: ../gnopi/defui.c:250
+msgid "screen review"
+msgstr "مرور صفحه"
+
+#: ../gnopi/defui.c:256
+msgid "Screen review default setting loaded."
+msgstr "تنظیمات پیش‌فرض مرور صفحه بار شد."
+
+#: ../gnopi/defui.c:279
+msgid "all modules"
+msgstr "همه‌ی پیمانه‌ها"
+
+#: ../gnopi/defui.c:282
+msgid "All default settings loaded."
+msgstr "همه‌ی تنظیمات پیش‌فرض بار شدند."
+
+#: ../gnopi/genui.c:66
+#: ../gnopi/gnopi_files/General_Settings/general_settings.glade2.h:12
+msgid "_Braille"
+msgstr "_بریل"
+
+#: ../gnopi/genui.c:69
+msgid "_Braille (unavailable)"
+msgstr "_بریل (موجود نیست)"
+
+#: ../gnopi/genui.c:74
+#: ../gnopi/gnopi_files/General_Settings/general_settings.glade2.h:13
+msgid "_Magnifier"
+msgstr "_ذره‌بین"
+
+#: ../gnopi/genui.c:77
+msgid "_Magnifier (unavailable)"
+msgstr "_ذره بین (موجود نیست)"
+
+#: ../gnopi/genui.c:82
+#: ../gnopi/gnopi_files/General_Settings/general_settings.glade2.h:14
+msgid "_Speech"
+msgstr "_گفتار"
+
+#: ../gnopi/genui.c:85
+msgid "_Speech (unavailable)"
+msgstr "_گفتار (موجود نیست)"
+
+#: ../gnopi/genui.c:90
+#: ../gnopi/gnopi_files/General_Settings/general_settings.glade2.h:4
+msgid "B_raille monitor"
+msgstr "_نمایش‌گر بریل"
+
+#: ../gnopi/genui.c:93
+msgid "B_raille monitor (unavailable)"
+msgstr "_نمایش‌گر بریل (موجود نیست)"
+
+#: ../gnopi/gnopernicus.desktop.in.h:1
+msgid "Assistive Technologies for Blind and Visually Impaired"
+msgstr ""
+
+#: ../gnopi/gnopernicus.desktop.in.h:2
+msgid "Screen Reader and Magnifier"
+msgstr ""
+
+#: ../gnopi/gnopi.c:302
+msgid "gnopernicus"
+msgstr "gnopernicus"
+
+#: ../gnopi/gnopi.c:309
+msgid "Gconf initialization failed."
+msgstr "راه‌اندازی Gconf شکست خورد."
+
+#: ../gnopi/gnopi.c:316
+msgid "Invalid parameters."
+msgstr "پارامترهای نامعتبر."
+
+#: ../gnopi/gnopi.c:322
+msgid "Multiple instances are NOT ALLOWED. This instance will end."
+msgstr ""
+
+#: ../gnopi/gnopi.c:328
+msgid "GTK initialization failed."
+msgstr "راه‌اندازی GTK شکست خورد."
+
+#: ../gnopi/gnopi.c:334
+msgid "Can not create a new process."
+msgstr "نمی‌توان فراروند جدیدی ایجاد کرد."
+
+#: ../gnopi/gnopi.c:344
+msgid "Exit gnopernicus."
+msgstr "خروج از gnopernicus."
+
+#: ../gnopi/gnopi.c:352
+msgid "Gnopernicus initialization failed."
+msgstr "راه‌اندازی Gnopernicus شکست خورد."
+
+#: ../gnopi/gnopi.c:359
+msgid "Can not load .glade2 file"
+msgstr "بار کردن پرونده‌ی .glade2 ممکن نیست"
+
+#. if (WIFSIGNALED (gn_srcore_status) != 0)
+#. sru_message ("signal no: %d", WTERMSIG (gn_srcore_status));
+#: ../gnopi/gnopi.c:666
+msgid "srcore exited."
+msgstr ""
+
+#: ../gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:1
+msgid "<b>Color</b>"
+msgstr "<b>رنگ</b>"
+
+#: ../gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:2
+msgid "<b>Font</b>"
+msgstr "<b>قلم</b>"
+
+#: ../gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:3
+msgid "<b>Mode Type</b>"
+msgstr "<b>نوع حالت</b>"
+
+#: ../gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:4
+msgid "<b>Position</b>"
+msgstr "<b>موقعیت</b>"
+
+#: ../gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:5
+msgid "<b>Size</b>"
+msgstr "<b>اندازه</b>"
+
+#: ../gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:6
+msgid "B_raille"
+msgstr "ب_ریل"
+
+#: ../gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:7
+msgid "Braille Monitor Preferences"
+msgstr "ترجیحات نمایش‌گر بریل"
+
+#: ../gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:8
+msgid "Color selection for texts which use dot 7"
+msgstr "انتخاب رنگ برای متن‌هایی که از ۷ نقطه استفاده می‌کنند"
+
+#: ../gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:9
+msgid "Color selection for texts which use dot 8"
+msgstr "انتخاب رنگ برای متن‌هایی که از ۸ نقطه استفاده می‌کنند"
+
+#: ../gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:10
+msgid "Color selection for texts which use dots 7 and 8"
+msgstr "انتخاب رنگ برای متن‌هایی که از ۷ و ۸ نقطه استفاده می‌کنند"
+
+#: ../gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:11
+msgid "Colu_mns:"
+msgstr "_ستون‌ها:"
+
+#: ../gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:12
+msgid "Display at bottom of screen"
+msgstr "نمایش در پایین صفحه"
+
+#: ../gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:13
+msgid "Display on top of screen"
+msgstr "نمایش در بالای صفحه"
+
+#: ../gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:14
+msgid "Display using braille font"
+msgstr "نمایش با استفاده از قلم بریل"
+
+#: ../gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:15
+msgid "Display using normal font"
+msgstr "نمایش با استفاده از قلم معمولی"
+
+#: ../gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:16
+msgid "Display with both fonts"
+msgstr "نمایش با هر دو قلم"
+
+#: ../gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:17
+msgid "Dot 7:"
+msgstr "۷ نقطه:"
+
+#: ../gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:18
+msgid "Dot 8:"
+msgstr "۸ نقطه:"
+
+#: ../gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:19
+msgid "Dots 78:"
+msgstr "۷ و ۸ نقطه:"
+
+#: ../gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:20
+msgid "Number of cell columns"
+msgstr "تعداد ستون‌های خانه"
+
+#: ../gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:21
+msgid "Number of cell lines"
+msgstr "تعداد سطرهای خانه"
+
+#: ../gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:22
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:43
+msgid "Pick a color"
+msgstr "یک رنگ انتخاب کنید"
+
+#: ../gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:23
+msgid "Size of font"
+msgstr "اندازه‌ی قلم"
+
+#: ../gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:24
+msgid "Use system theme colors"
+msgstr "استفاده از رنگ‌های تم سیستم"
+
+#: ../gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:25
+msgid "Use theme _system colors"
+msgstr "استفاده از رنگ‌های تم _سیستم"
+
+#: ../gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:26
+msgid "_Dual"
+msgstr "_دوتایی"
+
+#: ../gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:27
+msgid "_Lines:"
+msgstr "_خطوط:"
+
+#: ../gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:28
+msgid "_Normal"
+msgstr "_معمولی"
+
+#: ../gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:29
+msgid "_Size:"
+msgstr "_اندازه:"
+
+#: ../gnopi/gnopi_files/Braille_Settings/attribute_settings.glade2.h:1
+msgid "Attributes"
+msgstr "مشخصه‌ها"
+
+#: ../gnopi/gnopi_files/Braille_Settings/attribute_settings.glade2.h:2
+msgid "_1. Dot 8"
+msgstr "_۱. ۸ نقطه"
+
+#: ../gnopi/gnopi_files/Braille_Settings/attribute_settings.glade2.h:3
+msgid "_2. Dot 7"
+msgstr "_۲. ‏۷ نقطه"
+
+#: ../gnopi/gnopi_files/Braille_Settings/attribute_settings.glade2.h:4
+msgid "_3. Dot 8 or 7"
+msgstr "_۳. ۷ یا ۸ نقطه"
+
+#: ../gnopi/gnopi_files/Braille_Settings/attribute_settings.glade2.h:5
+msgid "_4. Off"
+msgstr "_۴. خاموش"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_device.glade2.h:1
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:1
+#: ../gnopi/gnopi_files/Find/find.glade2.h:2
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:1
+#: ../gnopi/gnopi_files/Presentation/presentation.glade2.h:1
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:3
+#: ../gnopi/gnopi_files/User_Properties/user_properties.glade2.h:1
+msgid "*"
+msgstr "*"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_device.glade2.h:2
+msgid "Braille Device"
+msgstr "دستگاه بریل"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_device.glade2.h:3
+msgid "Braille devices list"
+msgstr "فهرست دستگاه‌های بریل"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_device.glade2.h:4
+msgid "Enter manually:"
+msgstr "ورود دستی:"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_device.glade2.h:5
+msgid "_Device:"
+msgstr "_ دستگاه:"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:2
+msgid "10 _Font size"
+msgstr "۱۰ اندازه‌ی _قلم"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:3
+msgid "11 _Activate script function \"OnPosSwitch\""
+msgstr ""
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:4
+msgid "12 _Present attributes"
+msgstr ""
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:5
+msgid "<b>_Braille keys list</b>"
+msgstr "<b>فهرست کلیدهای _بریل</b>"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:6
+msgid "Activate script function \"OnPosSwitch\""
+msgstr ""
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:7
+msgid "Add item in braille keys list"
+msgstr "اضافه کردن مورد به فهرست کلیدهای بریل"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:8
+msgid "Braille Display Key Mapping"
+msgstr ""
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:10
+msgid "Braille device keys list"
+msgstr "فهرست کلیدهای دستگاه بریل"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:11
+msgid "Braille keys list"
+msgstr "فهرست کلید‌های بریل"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:12
+msgid "Command List"
+msgstr "فهرست فرمان"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:13
+msgid "Command list"
+msgstr "فهرست فرمان"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:14
+msgid "Font name"
+msgstr "نام قلم"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:15
+msgid "Font size"
+msgstr "اندازه‌ی قلم"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:16
+msgid "Font style"
+msgstr "سبک قلم"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:17
+msgid "Modify selected item"
+msgstr "تغییر مورد انتخاب شده"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:18
+msgid "Move caret"
+msgstr ""
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:19
+msgid "Move mouse and click left"
+msgstr "جابه‌جایی موشی و کلیک چپ"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:20
+msgid "Move mouse and click left and right"
+msgstr "جابه‌جایی موشی و کلیک چپ و راست"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:21
+msgid "Move mouse and click right"
+msgstr "جابه‌جای موشی و کلیک راست"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:22
+msgid "Only move mouse"
+msgstr ""
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:23
+msgid "Optical Sensors"
+msgstr "حس‌گر‌های نوری"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:24
+msgid "Optical sensors off"
+msgstr "حس‌گرهای نوری خاموش شوند"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:25
+msgid "Position Sensors"
+msgstr "حس‌گرهای موقعیت"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:26
+msgid "Position sensors off"
+msgstr "حس‌گرهای موقعیت خاموش شوند"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:27
+msgid "Present attributes"
+msgstr ""
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:28
+msgid "Remove selected item from braille keys list"
+msgstr "حذف موارد انتخاب شده از فهرست کلیدهای بریل"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:29
+msgid "Show X coordinate"
+msgstr "نمایش مختصات X"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:30
+msgid "Show Y coordinate"
+msgstr "نمایش مختصات Y"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:31
+msgid "_0 Optical sensors off"
+msgstr "_۰ حس‌گرهای نوری خاموش شوند"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:32
+msgid "_0 Position sensors off"
+msgstr "_۰ حس‌گرهای موقعیت خاموش شوند"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:33
+msgid "_1 Only move mouse"
+msgstr "_۱ فقط جابه‌جایی موشی"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:34
+msgid "_2 Move mouse and click left"
+msgstr "_۲ جابه‌جایی موشی و کلیک چپ"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:35
+msgid "_3 Move mouse and click right"
+msgstr "_۳ جابه‌جایی موشی و کلیک راست"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:36
+msgid "_4 Move mouse and click left or right"
+msgstr "_۴ جابه‌جایی موشی و کلیک چپ یا راست"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:37
+msgid "_5 Move caret"
+msgstr ""
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:38
+msgid "_6 Show X coordinate"
+msgstr "_۶ نمایش مختصات X"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:39
+msgid "_7 Show Y coordinate"
+msgstr "_۷ نمایش مختصات Y"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:40
+msgid "_8 Font style"
+msgstr "_۸ سبک قلم"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:41
+msgid "_9 Font name"
+msgstr "_۹ نام قلم"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:42
+msgid "_Commands:"
+msgstr "_فرمان‌ها:"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:43
+msgid "_Device key:"
+msgstr "_کلید دستگاه:"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:44
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:85
+#: ../gnopi/gnopi_files/User_Properties/user_properties.glade2.h:28
+msgid "_Modify"
+msgstr "_تغییر"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_settings.glade2.h:1
+msgid "Braille Preferences"
+msgstr "ترجیحات بریل"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_settings.glade2.h:2
+msgid "Close braille settings"
+msgstr "بستن تنظیمات بریل"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_settings.glade2.h:3
+msgid "Map function for display keys"
+msgstr ""
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_settings.glade2.h:4
+msgid "Select braille device"
+msgstr "دستگاه بریل را انتخاب کنید"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_settings.glade2.h:5
+msgid "Select braille style 8/6 dots"
+msgstr ""
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_settings.glade2.h:6
+msgid "Select cursor setting FullCell/UnderLined/NoCursor"
+msgstr ""
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_settings.glade2.h:7
+msgid "Select translation table for braille device"
+msgstr "جدول ترجمه را برای دستگاه بریل انتخاب کنید"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_settings.glade2.h:8
+msgid "_1 Braille Device"
+msgstr "_۱ دستگاه بریل"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_settings.glade2.h:9
+msgid "_2 Translation Table"
+msgstr "_۲ جدول ترجمه"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_settings.glade2.h:10
+msgid "_3 Braille Style"
+msgstr "_۳ سبک بریل"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_settings.glade2.h:11
+msgid "_4 Cursor Preferences"
+msgstr "_۴ ترجیحات مکان‌نما"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_settings.glade2.h:12
+msgid "_5 Braille Key Mapping"
+msgstr ""
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_style.glade2.h:1
+msgid "Braille Style"
+msgstr "سبک بریل"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_style.glade2.h:2
+msgid "Use 6 dots"
+msgstr "استفاده از ۶ نقطه"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_style.glade2.h:3
+msgid "Use 8 dots"
+msgstr "استفاده از ۸ نقطه"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_style.glade2.h:4
+msgid "_6 Dot Braille"
+msgstr "_ بریل ۶ نقطه"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_style.glade2.h:5
+msgid "_8 Dot Braille"
+msgstr "_ بریل ۸ نقطه"
+
+#: ../gnopi/gnopi_files/Braille_Settings/cursor_settings.glade2.h:1
+msgid "Cursor Preferences"
+msgstr "ترجیحات مکان‌نمت"
+
+#: ../gnopi/gnopi_files/Braille_Settings/cursor_settings.glade2.h:2
+msgid "Cursor on braille display is a full cell"
+msgstr "در نمایش بریل مکان‌نما یک خانه‌ی کامل است"
+
+#: ../gnopi/gnopi_files/Braille_Settings/cursor_settings.glade2.h:3
+msgid "Cursor on braille display is an underline"
+msgstr "در نمایش بریل مکان‌نما یک زیرخط است"
+
+#: ../gnopi/gnopi_files/Braille_Settings/cursor_settings.glade2.h:4
+msgid "No cursor on braille display"
+msgstr "در نمایش بریل مکان‌نمایی وجود ندارد"
+
+#: ../gnopi/gnopi_files/Braille_Settings/cursor_settings.glade2.h:5
+msgid "_Full cell cursor"
+msgstr ""
+
+#: ../gnopi/gnopi_files/Braille_Settings/cursor_settings.glade2.h:6
+msgid "_No cursor"
+msgstr "_بدون مکان‌نما"
+
+#: ../gnopi/gnopi_files/Braille_Settings/cursor_settings.glade2.h:7
+msgid "_Underline cursor (dots 7 and 8)"
+msgstr ""
+
+#: ../gnopi/gnopi_files/Braille_Settings/translation_table.glade2.h:1
+msgid "Translation Table"
+msgstr "جدول ترجمه"
+
+#: ../gnopi/gnopi_files/Braille_Settings/translation_table.glade2.h:2
+msgid "Translation table list"
+msgstr "فهرست جدول ترجمه"
+
+#: ../gnopi/gnopi_files/Braille_Settings/translation_table.glade2.h:3
+msgid "_Select language:"
+msgstr "_انتخاب زبان:"
+
+#: ../gnopi/gnopi_files/Find/find.glade2.h:1
+msgid "   "
+msgstr "   "
+
+#: ../gnopi/gnopi_files/Find/find.glade2.h:3
+msgid "<b>Fi_nd Text:</b>"
+msgstr "<b>متن جستجو:</b>"
+
+#: ../gnopi/gnopi_files/Find/find.glade2.h:4
+msgid "<b>Find Attributes:</b>"
+msgstr "<b>مشخصه‌های جستجو:</b>"
+
+#: ../gnopi/gnopi_files/Find/find.glade2.h:5
+msgid "<b>Match</b>"
+msgstr "<b>مطابقت</b>"
+
+#: ../gnopi/gnopi_files/Find/find.glade2.h:6
+msgid "<b>Scope</b>"
+msgstr ""
+
+#: ../gnopi/gnopi_files/Find/find.glade2.h:7
+msgid "<b>Search For</b>"
+msgstr "<b>جستجو به دنبال</b>"
+
+#: ../gnopi/gnopi_files/Find/find.glade2.h:8
+msgid "A_ll chosen attributes"
+msgstr "_تمام مشخصه‌های انتخاب شده"
+
+#: ../gnopi/gnopi_files/Find/find.glade2.h:9
+msgid "A_ny chosen attributes"
+msgstr "_هر مشخصه‌ی انتخاب شده‌ای"
+
+#: ../gnopi/gnopi_files/Find/find.glade2.h:10
+msgid "A_ttribute"
+msgstr "_مشخصه‌ها"
+
+#: ../gnopi/gnopi_files/Find/find.glade2.h:11
+msgid "Bold"
+msgstr "سیاه"
+
+#: ../gnopi/gnopi_files/Find/find.glade2.h:12
+msgid "Case _sensitive"
+msgstr "_حساس به بزرگی و کوچکی"
+
+#: ../gnopi/gnopi_files/Find/find.glade2.h:13
+msgid "Case sensitive on/off"
+msgstr "خاموش/روشن حساس به بزرگی و کوچکی"
+
+#: ../gnopi/gnopi_files/Find/find.glade2.h:14
+msgid "Italic"
+msgstr "ایتالیک"
+
+#: ../gnopi/gnopi_files/Find/find.glade2.h:15
+msgid "S_elected"
+msgstr "_انتخاب شده"
+
+#: ../gnopi/gnopi_files/Find/find.glade2.h:16
+msgid "Scope area is a desktop"
+msgstr ""
+
+#: ../gnopi/gnopi_files/Find/find.glade2.h:17
+msgid "Scope area is a window"
+msgstr ""
+
+#: ../gnopi/gnopi_files/Find/find.glade2.h:18
+msgid "Scope area is an application"
+msgstr ""
+
+#: ../gnopi/gnopi_files/Find/find.glade2.h:19
+msgid "Search Preferences"
+msgstr "ترجیحات جستجو"
+
+#: ../gnopi/gnopi_files/Find/find.glade2.h:20
+msgid "Search criteria is a graphics"
+msgstr "معیار جستجو گرافیک است"
+
+#: ../gnopi/gnopi_files/Find/find.glade2.h:21
+msgid "Search criteria is a text"
+msgstr "معیار جستجو متن است"
+
+#: ../gnopi/gnopi_files/Find/find.glade2.h:22
+msgid "Search criteria is an attribute"
+msgstr "معیار جستجو یک مشخصه است"
+
+#: ../gnopi/gnopi_files/Find/find.glade2.h:23
+msgid "Selected item"
+msgstr "مورد انتخاب شده"
+
+#: ../gnopi/gnopi_files/Find/find.glade2.h:24
+msgid "Stri_kethrough"
+msgstr "_خط‌خورده"
+
+#: ../gnopi/gnopi_files/Find/find.glade2.h:25
+msgid "Strikethrough"
+msgstr "خط‌خورده"
+
+#: ../gnopi/gnopi_files/Find/find.glade2.h:26
+msgid "Te_xt"
+msgstr "مت_ن"
+
+#: ../gnopi/gnopi_files/Find/find.glade2.h:27
+msgid "Text to search"
+msgstr "متن برای جستجو"
+
+#: ../gnopi/gnopi_files/Find/find.glade2.h:28
+msgid "Underline"
+msgstr "زیرخط‌دار"
+
+#: ../gnopi/gnopi_files/Find/find.glade2.h:29
+msgid "_Application"
+msgstr "_برنامه"
+
+#: ../gnopi/gnopi_files/Find/find.glade2.h:30
+msgid "_Bold"
+msgstr "_سیاه"
+
+#: ../gnopi/gnopi_files/Find/find.glade2.h:31
+msgid "_Desktop"
+msgstr "_رومیزی"
+
+#: ../gnopi/gnopi_files/Find/find.glade2.h:32
+msgid "_Graphics"
+msgstr "_گرافیک‌ها"
+
+#: ../gnopi/gnopi_files/Find/find.glade2.h:33
+msgid "_Italic"
+msgstr "_ایتالیک"
+
+#: ../gnopi/gnopi_files/Find/find.glade2.h:34
+msgid "_Underline"
+msgstr "_زیرخط‌دار"
+
+#: ../gnopi/gnopi_files/Find/find.glade2.h:35
+msgid "_Window"
+msgstr "_پنجره"
+
+#: ../gnopi/gnopi_files/General_Settings/general_settings.glade2.h:1
+msgid "    "
+msgstr "    "
+
+#: ../gnopi/gnopi_files/General_Settings/general_settings.glade2.h:2
+msgid "<b>Active Components</b>"
+msgstr "<b>مؤلفه‌های فعال</b>"
+
+#: ../gnopi/gnopi_files/General_Settings/general_settings.glade2.h:3
+msgid "<b>Startup</b>"
+msgstr "<b>راه‌انداز</b>"
+
+#: ../gnopi/gnopi_files/General_Settings/general_settings.glade2.h:5
+msgid "Braille monitor on/off"
+msgstr "نمایش‌گر بریل خاموش/روشن"
+
+#: ../gnopi/gnopi_files/General_Settings/general_settings.glade2.h:6
+msgid "Braille on/off"
+msgstr "بریل خاموش/روشن"
+
+#: ../gnopi/gnopi_files/General_Settings/general_settings.glade2.h:7
+msgid "Magnifier on/off"
+msgstr "ذره‌بین خاموش/روشن "
+
+#: ../gnopi/gnopi_files/General_Settings/general_settings.glade2.h:8
+msgid "Speech on/off"
+msgstr "گفتار خاموش/روشن"
+
+#: ../gnopi/gnopi_files/General_Settings/general_settings.glade2.h:9
+msgid "Start gnopernicus minimized"
+msgstr "آغاز gnopernicus به شکل حداقل شده"
+
+#: ../gnopi/gnopi_files/General_Settings/general_settings.glade2.h:10
+msgid "Start m_inimized"
+msgstr "آغاز به شکل حداقل"
+
+#: ../gnopi/gnopi_files/General_Settings/general_settings.glade2.h:11
+msgid "Startup Mode"
+msgstr "حالت راه‌اندازی"
+
+#: ../gnopi/gnopi_files/Keyboard_Mouse_Settings/keyboard_mouse_settings.glade2.h:1
+msgid "Mouse Preferences"
+msgstr "ترجیحات موشی"
+
+#: ../gnopi/gnopi_files/Keyboard_Mouse_Settings/keyboard_mouse_settings.glade2.h:2
+msgid "Simulate click on current object"
+msgstr ""
+
+#: ../gnopi/gnopi_files/Keyboard_Mouse_Settings/keyboard_mouse_settings.glade2.h:3
+msgid "Take mouse at current object"
+msgstr "بردن موشی به شی‌ء فعلی"
+
+#: ../gnopi/gnopi_files/Keyboard_Mouse_Settings/keyboard_mouse_settings.glade2.h:4
+msgid "_Simulate click on current object"
+msgstr "_شبیه‌سازی کلیک روی شیء فعلی"
+
+#: ../gnopi/gnopi_files/Keyboard_Mouse_Settings/keyboard_mouse_settings.glade2.h:5
+msgid "_Take mouse at current object"
+msgstr "_بردن موشی به شی‌ء فعلی"
+
+#: ../gnopi/gnopi_files/Load_Default/load_default.glade2.h:1
+msgid "Close \"Load Default Preferences\""
+msgstr "بستن «بار کردن ترجیحات پیش‌فرض»"
+
+#: ../gnopi/gnopi_files/Load_Default/load_default.glade2.h:2
+msgid "Load Default Preferences"
+msgstr "بار کردن ترجیحات پیش‌فرض"
+
+#: ../gnopi/gnopi_files/Load_Default/load_default.glade2.h:3
+msgid "Load Default Settings"
+msgstr "بار کردن تنظیمات پیش‌فرض"
+
+#: ../gnopi/gnopi_files/Load_Default/load_default.glade2.h:4
+msgid "Load all defaults"
+msgstr "بار کردن همه‌ی پیش‌فرض‌ها"
+
+#: ../gnopi/gnopi_files/Load_Default/load_default.glade2.h:5
+msgid "Load braille defaults"
+msgstr "بار کردن پیش‌فرض‌های بریل"
+
+#: ../gnopi/gnopi_files/Load_Default/load_default.glade2.h:6
+msgid "Load braille monitor defaults"
+msgstr "بار کردن پیش‌فرض‌های نمایش‌گر بریل"
+
+#: ../gnopi/gnopi_files/Load_Default/load_default.glade2.h:7
+msgid "Load command map defaults"
+msgstr ""
+
+#: ../gnopi/gnopi_files/Load_Default/load_default.glade2.h:8
+msgid "Load magnifier defaults"
+msgstr ""
+
+#: ../gnopi/gnopi_files/Load_Default/load_default.glade2.h:9
+msgid "Load mouse defaults"
+msgstr "بار کردن پیش‌فرض‌های موشی"
+
+#: ../gnopi/gnopi_files/Load_Default/load_default.glade2.h:10
+msgid "Load presentation defaults"
+msgstr ""
+
+#: ../gnopi/gnopi_files/Load_Default/load_default.glade2.h:11
+msgid "Load screen review defaults"
+msgstr "بار کردن پیش‌فرض‌های مرور صفحه"
+
+#: ../gnopi/gnopi_files/Load_Default/load_default.glade2.h:12
+msgid "Load speech defaults"
+msgstr "بار کردن پیش‌فرض‌های گفتار"
+
+#: ../gnopi/gnopi_files/Load_Default/load_default.glade2.h:13
+msgid "Load startup mode defaults"
+msgstr "بار کردن پیش‌فرض‌های حالت راه‌اندازی"
+
+#: ../gnopi/gnopi_files/Load_Default/load_default.glade2.h:14
+msgid "_0 All"
+msgstr "_۰ همه"
+
+#: ../gnopi/gnopi_files/Load_Default/load_default.glade2.h:15
+msgid "_1 Braille"
+msgstr "_۱ بریل"
+
+#: ../gnopi/gnopi_files/Load_Default/load_default.glade2.h:16
+msgid "_2 Speech"
+msgstr "_۲ گفتار"
+
+#: ../gnopi/gnopi_files/Load_Default/load_default.glade2.h:17
+#: ../gnopi/gnopi_files/gnopi.glade2.h:33
+msgid "_3 Magnifier"
+msgstr "_۳ ذره‌بین"
+
+#: ../gnopi/gnopi_files/Load_Default/load_default.glade2.h:18
+msgid "_4 Keyboard"
+msgstr "_۴ صفحه‌کلید"
+
+#: ../gnopi/gnopi_files/Load_Default/load_default.glade2.h:19
+#: ../gnopi/gnopi_files/gnopi.glade2.h:36
+msgid "_5 Braille Monitor"
+msgstr "_۵ نمایش‌گر بریل"
+
+#: ../gnopi/gnopi_files/Load_Default/load_default.glade2.h:20
+msgid "_6 Startup"
+msgstr "_۶ راه‌اندازی"
+
+#: ../gnopi/gnopi_files/Load_Default/load_default.glade2.h:21
+msgid "_7 Command Map"
+msgstr ""
+
+#: ../gnopi/gnopi_files/Load_Default/load_default.glade2.h:22
+msgid "_8 Presentation"
+msgstr ""
+
+#: ../gnopi/gnopi_files/Load_Default/load_default.glade2.h:23
+msgid "_9 Screen Review"
+msgstr "_۹ مرور صفحه"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:2
+msgid "<b>Border settings</b>"
+msgstr "<b>تنظیمات کناره</b>"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:3
+msgid "<b>Cross-hair</b>"
+msgstr ""
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:4
+msgid "<b>Cursor setting</b>"
+msgstr "<b>تنظیمات مکان‌نما</b>"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:5
+msgid "<b>Display screen</b>"
+msgstr "<b>صفحه‌ی نمایش</b>"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:6
+msgid "<b>Focus tracking mode</b>"
+msgstr ""
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:7
+msgid "<b>Mo_use tracking mode</b>"
+msgstr ""
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:8
+msgid "<b>S_moothing</b>"
+msgstr "<b>_هموارسازی</b>"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:9
+msgid "<b>Zoomer placement</b>"
+msgstr ""
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:10
+msgid "<b>Zoomfactor</b>"
+msgstr ""
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:11
+msgid "<b>_Zoomer list</b>"
+msgstr ""
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:12
+msgid "Bor_der size:"
+msgstr "_اندازه‌ی کناره:"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:13
+msgid "Border c_olor:"
+msgstr "_رنگ کناره:"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:14
+msgid "Border color"
+msgstr "رنگ کناره"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:15
+msgid "Border size"
+msgstr "اندازه‌ی کناره"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:16
+msgid "C_entered"
+msgstr ""
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:17
+msgid "C_ursor on/off"
+msgstr "خاموش/روشن _مکان‌نما"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:18
+msgid "Cross-ha_ir size:"
+msgstr ""
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:19
+msgid "Cross-hair c_lip on/off"
+msgstr ""
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:20
+msgid "Cross-hair colo_r:"
+msgstr ""
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:21
+msgid "Cross-hair color in_verted"
+msgstr ""
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:22
+msgid "Cross-hair o_n/off"
+msgstr ""
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:23
+msgid "Crosshair clip on/off"
+msgstr ""
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:24
+msgid "Crosshair color"
+msgstr ""
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:25
+msgid "Crosshair on/off"
+msgstr ""
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:26
+msgid "Crosshair size"
+msgstr ""
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:27
+msgid "Cursor _size:"
+msgstr "_اندازه‌ی مکان‌نما:"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:28
+msgid "Cursor c_olor:"
+msgstr "_رنگ مکان‌نما:"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:29
+msgid "Cursor color"
+msgstr "رنگ مکان‌نما"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:30
+msgid "Cursor magnification"
+msgstr "بزرگ‌نمایی مکان‌نما"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:31
+msgid "Cursor on/off"
+msgstr "خاموش/روشن مکان‌نما"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:32
+msgid "Cursor size"
+msgstr "اندازه‌ی مکان‌نما"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:33
+msgid "Display screen source"
+msgstr "منبع صفحه‌ی نمایش"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:34
+msgid "Display screen target"
+msgstr "هدف صفحه‌ی نمایش"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:35
+msgid "Invert crosshair color"
+msgstr ""
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:36
+msgid "Invert on/off"
+msgstr ""
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:37
+msgid "Lock zoom _factor"
+msgstr ""
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:38
+msgid "Lock zoom factor"
+msgstr ""
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:39
+msgid "Magnifier Preferences"
+msgstr "ترجیحات ذره‌بین"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:40
+msgid "Magnifier settings"
+msgstr "تنظیمات ذره‌بین"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:41
+msgid "Mouse tracking type"
+msgstr ""
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:42
+msgid "Panning on/off"
+msgstr ""
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:44
+msgid "Set cursor separate from _magnification"
+msgstr ""
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:45
+msgid "Smoothing type"
+msgstr "نوع هموارسازی"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:46
+msgid "Tar_get:"
+msgstr "_هدف:"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:47
+msgid "Zoom factor X"
+msgstr "ضریب X زوم"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:48
+msgid "Zoom factor Y"
+msgstr "ضریب Y زوم"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:49
+msgid "Zoom factor _X:"
+msgstr "ضریب X زوم:"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:50
+msgid "Zoom factor _Y:"
+msgstr "ضریب Y زوم:"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:51
+msgid "Zoomer Options"
+msgstr ""
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:52
+msgid "Zoomer placement bottom"
+msgstr ""
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:53
+msgid "Zoomer placement left"
+msgstr ""
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:54
+msgid "Zoomer placement right"
+msgstr ""
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:55
+msgid "Zoomer placement top"
+msgstr ""
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:56
+msgid "Zoomers list"
+msgstr ""
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:57
+msgid "_Add/Modify"
+msgstr "_اضافه کردن/تغییر"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:58
+msgid "_Auto"
+msgstr "_خودکار"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:59
+msgid "_Bottom:"
+msgstr "_ته:"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:60
+msgid "_Invert"
+msgstr ""
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:61
+msgid "_Left:"
+msgstr "_چپ:"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:62
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:87
+msgid "_None"
+msgstr "_هیچ‌کدام"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:63
+msgid "_Panning"
+msgstr ""
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:64
+msgid "_Remove"
+msgstr "_حذف"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:65
+msgid "_Right:"
+msgstr "_راست:"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:66
+msgid "_Source:"
+msgstr "_منبع:"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:67
+msgid "_Top:"
+msgstr "_بالا:"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:68
+#: ../gnopi/magui.c:49
+msgid "bilinear"
+msgstr "دوخطی"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:69
+#: ../gnopi/magui.c:61
+msgid "centered"
+msgstr ""
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:70
+#: ../gnopi/magui.c:48 ../gnopi/magui.c:63
+msgid "none"
+msgstr "هیچ‌کدام"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:71
+#: ../gnopi/magui.c:62
+msgid "proportional"
+msgstr ""
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:72
+#: ../gnopi/magui.c:60
+msgid "push"
+msgstr ""
+
+#: ../gnopi/gnopi_files/Presentation/presentation.glade2.h:2
+msgid "Expert"
+msgstr ""
+
+#: ../gnopi/gnopi_files/Presentation/presentation.glade2.h:3
+msgid "Mode selected:"
+msgstr "حالت انتخاب شده:"
+
+#: ../gnopi/gnopi_files/Presentation/presentation.glade2.h:4
+msgid "Presentation"
+msgstr ""
+
+#: ../gnopi/gnopi_files/Presentation/presentation.glade2.h:5
+#: ../srcore/default.xml.in.h:18 ../srcore/verbose.xml.in.h:18
+msgid "Verbose"
+msgstr "مفصل"
+
+#: ../gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:1
+msgid "<b>Horizontal flags</b>"
+msgstr "<b>پرچم‌های افقی</b>"
+
+#: ../gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:2
+msgid "<b>Vertical flags</b>"
+msgstr "<b>پرچم‌های عمودی</b>"
+
+#: ../gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:3
+msgid "Add all empty lines"
+msgstr "اضافه کردن همه‌ی خط‌های خالی"
+
+#: ../gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:4
+msgid "Add all spaces"
+msgstr "اضافه کردن همه‌ی فاصله‌ها"
+
+#: ../gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:5
+msgid "Add all spaces and empty lines"
+msgstr "اضافه کردن همه‌ی فاصله‌ها و خط‌های خالی"
+
+#: ../gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:6
+msgid "Add embedded empty lines"
+msgstr ""
+
+#: ../gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:7
+msgid "Add embedded spaces"
+msgstr ""
+
+#: ../gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:8
+msgid "Add leading empty lines"
+msgstr ""
+
+#: ../gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:9
+msgid "Add leading spaces"
+msgstr ""
+
+#: ../gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:10
+msgid "Add trailing empty lines"
+msgstr ""
+
+#: ../gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:11
+msgid "Add trailing spaces"
+msgstr ""
+
+#: ../gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:12
+msgid "All _horizontal"
+msgstr "همه _افقی"
+
+#: ../gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:13
+msgid "All _vertical"
+msgstr "همه _عمودی"
+
+#: ../gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:14
+msgid "Count em_pty lines"
+msgstr "شمردن خط‌های _خالی"
+
+#: ../gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:15
+msgid "Count empty lines"
+msgstr "شمردن خط‌های خالی"
+
+#: ../gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:16
+msgid "E_mbedded"
+msgstr ""
+
+#: ../gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:17
+msgid "Lea_ding"
+msgstr ""
+
+#: ../gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:18
+msgid "Screen Review Preferences"
+msgstr "ترجیحات مرور صفحه"
+
+#: ../gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:19
+msgid "T_railing"
+msgstr ""
+
+#: ../gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:20
+msgid "_All flags"
+msgstr "_همه‌ی پرچم‌ها"
+
+#: ../gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:21
+msgid "_Embedded"
+msgstr ""
+
+#: ../gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:22
+msgid "_Leading"
+msgstr ""
+
+#: ../gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:23
+msgid "_Trailing"
+msgstr ""
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:2
+#, no-c-format
+msgid "%"
+msgstr "٪"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:4
+msgid "<b><></b>"
+msgstr "<b><></b>"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:5
+msgid "<b>Absolute Value</b>"
+msgstr "<b>مقدار مطلق</b>"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:6
+msgid "<b>Driver</b>"
+msgstr "<b>گرداننده</b>"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:7
+msgid "<b>Properties</b>"
+msgstr "<b>ویژگی‌ها</b>"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:8
+msgid "<b>Punctuation</b>"
+msgstr "<b>نقطه‌گذاری</b>"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:9
+msgid "<b>Relative Values</b>"
+msgstr "<b>مقادیر نسبی</b>"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:10
+msgid "<b>Text Echo</b>"
+msgstr ""
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:11
+msgid "<b>Voice</b>"
+msgstr "<b>صدا</b>"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:12
+msgid "<b>_Dictionary</b>"
+msgstr "<b>_لغت‌نامه</b>"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:13
+msgid "<b>_Replacement:</b>"
+msgstr "<b>_جای‌گزینی:</b>"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:14
+msgid "<b>_Voice list</b>"
+msgstr "<b>فهرست _صدا</b>"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:15
+msgid "<b>_Word:</b>"
+msgstr "<b>_کلمه:</b>"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:16
+msgid "A_ll"
+msgstr "_همه"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:17
+msgid "Activate pitch"
+msgstr ""
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:18
+msgid "Activate rate"
+msgstr "فعال کردن سرعت"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:19
+msgid "Activate volume"
+msgstr "فعال کردن بلندی"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:20
+msgid "Add / Modify Dictionary Entry"
+msgstr "اضافه کردن / تغییر مدخل لغت‌نامه"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:21
+msgid "Add / Modify Voice"
+msgstr "اضافه کردن / تغییر صدا"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:22
+msgid "Add new item in voices list"
+msgstr "اضافه کردن مورد جدید به فهرست صداها"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:23
+msgid "Add new word in dictionary"
+msgstr "اضافه کردن کلمه‌ی جدید به لغت‌نامه"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:24
+msgid ""
+"Change for all voices the engine driver and the engine speaker with a "
+"selected driver and speaker"
+msgstr ""
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:25
+msgid "Charac_ter"
+msgstr "ن_ویسه"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:26
+msgid "Count sym_bols"
+msgstr "شمردن  _نمادها"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:27
+msgid "Count symbols"
+msgstr "شمردن نمادها"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:28
+msgid "Decrease pitch"
+msgstr ""
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:29
+msgid "Decrease rate"
+msgstr "کاهش سرعت"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:30
+msgid "Decrease volume"
+msgstr "کاهش بلندی"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:31
+msgid "Dictionary"
+msgstr "لغت‌نامه"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:32
+msgid "Dictionary list"
+msgstr "فهرست لغت‌نامه"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:33
+msgid "Do not speak text"
+msgstr ""
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:34
+msgid "Edit A_bsolute..."
+msgstr ""
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:35
+msgid "Edit Absolute Voice Values"
+msgstr ""
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:36
+msgid "Edit R_elative..."
+msgstr ""
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:37
+msgid "Edit Relative Voice Values"
+msgstr ""
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:38
+msgid "Edit dictionary"
+msgstr "ویرایش لغت‌نامه"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:39
+msgid "Edit parameter values absolutely"
+msgstr "ویرایش مطلق مقادیر پارامترها"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:40
+msgid "Edit parameter values relatively"
+msgstr "ویرایش نسبی مقادیر پارامترها"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:41
+msgid "Engine _driver:"
+msgstr "_گرداننده‌ی موتور:"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:42
+msgid "Engine _speaker:"
+msgstr ""
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:43
+msgid "Engine driver"
+msgstr "گرداننده‌ی موتور"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:44
+msgid "Engine speaker"
+msgstr ""
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:45
+msgid "Gnopernicus system voice"
+msgstr ""
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:46
+msgid "Hz"
+msgstr "هرتز"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:47
+msgid "Ignore all punctuation"
+msgstr "نادیده گرفتن همه‌ی نقطه‌گذاری‌ها"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:48
+msgid "Increase pitch"
+msgstr ""
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:49
+msgid "Increase rate"
+msgstr "افزایش سرعت"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:50
+msgid "Increase volume"
+msgstr "افزایش بلندی"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:51
+msgid "Made pitch sensitive for changing"
+msgstr ""
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:52
+msgid "Made rate sensitive for changing"
+msgstr ""
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:53
+msgid "Made volume sensitive for changing"
+msgstr ""
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:54
+msgid "Modify selected voice"
+msgstr "تغییر صدای انتخاب شده"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:55
+msgid "Modify word"
+msgstr "تغییر کلمه"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:56
+#: ../gnopi/spvoiceui.c:2076
+msgid "Pitch"
+msgstr ""
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:57
+#: ../gnopi/spvoiceui.c:2068
+msgid "Rate"
+msgstr "سرعت"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:58
+msgid "Remove selected voice from voices list"
+msgstr "حذف صدای انتخاب شده از فهرست صداها"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:59
+msgid "Remove word from dictionary"
+msgstr "حذف کلمه از لغت‌نامه"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:60
+msgid "Replecement"
+msgstr "جای‌گزینی"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:61
+msgid "Sa_y all navigation keys"
+msgstr "خ_واندن همه‌ی کلیدهای ناوش"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:62
+msgid "Say all modi_fiers"
+msgstr "خواندن همه‌ی _تغییردهنده‌ها"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:63
+msgid "Say all modifiers"
+msgstr "خواندن همه‌ی تغییردهنده‌ها"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:64
+msgid "Say all navigation keys"
+msgstr "خواندن همه‌ی کلیدهای ناوش"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:65
+msgid "Say all s_paces"
+msgstr "خواندن همه‌ی _فاصله‌ها"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:66
+msgid "Say all spaces"
+msgstr "خواندن همه‌ی فاصله‌ها"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:67
+msgid "Say text as character"
+msgstr "خواندن متن به شکل نویسه"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:68
+msgid "Say text as word"
+msgstr "خواندن متن به شکل کلمه"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:69
+msgid "Set voices and the voice parameters"
+msgstr "تنظیم صداها و پارامترهای صدا"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:70
+msgid "Show all punctuation"
+msgstr "نمایش همه‌ی علائم نقطه‌گذاری"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:71
+msgid "Show most punctuation"
+msgstr "نمایش اغلب علائم نقطه‌گذاری"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:72
+msgid "Show some punctuation"
+msgstr "نمایش بعضی از علائم نقطه‌گذاری"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:73
+msgid "Speech Preferences"
+msgstr "ترجیحات گفتار"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:74
+msgid "Test selected voice"
+msgstr "آزمایش صدای انتخاب شده"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:75
+msgid "Use dictionary"
+msgstr "استفاده از لغت‌نامه"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:76
+msgid "Voice _name:"
+msgstr "_نام صدا:"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:77
+msgid "Voice list"
+msgstr "فهرست صدا"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:78
+msgid "Voices"
+msgstr "صداها"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:79
+#: ../gnopi/spvoiceui.c:2060
+msgid "Volume"
+msgstr "بلندی"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:80
+msgid "Word to replace"
+msgstr "کلمه برای جای‌گزینی"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:81
+msgid "Word/Min"
+msgstr "کلمه/دقیقه"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:82
+msgid "_Dictionary..."
+msgstr "_لغت‌نامه..."
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:83
+msgid "_Force All Voices to Selected Driver and Speaker"
+msgstr ""
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:84
+msgid "_Ignore"
+msgstr "_نادیده گرفتن"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:86
+msgid "_Most"
+msgstr "ا_غلب"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:88
+msgid "_Pitch (Hz)"
+msgstr ""
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:89
+msgid "_Pitch:"
+msgstr ""
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:90
+msgid "_Rate (words/min)"
+msgstr "_سرعت (کلمه/دقیقه)"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:91
+msgid "_Rate:"
+msgstr "_سرعت:"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:92
+msgid "_Some"
+msgstr "_بعضی"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:93
+msgid "_Test voice"
+msgstr "آ_زمایش صدا"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:94
+msgid "_Use dictionary"
+msgstr "_استفاده از لغت‌نامه"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:95
+msgid "_Voices..."
+msgstr "_صداها..."
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:97
+#, no-c-format
+msgid "_Volume (%)"
+msgstr "_بلندی (٪)"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:98
+msgid "_Volume:"
+msgstr "_بلندی:"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:99
+msgid "_Word"
+msgstr "_کلمه"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:100
+msgid "words/min"
+msgstr "کلمه/دقیقه"
+
+#: ../gnopi/gnopi_files/User_Properties/user_properties.glade2.h:2
+msgid "<b>_Commands list</b>"
+msgstr "<b>فهرست _فرمان‌ها</b>"
+
+#: ../gnopi/gnopi_files/User_Properties/user_properties.glade2.h:3
+msgid "<b>_Layers list</b>"
+msgstr "<b>فهرست _لایه‌ها</b>"
+
+#: ../gnopi/gnopi_files/User_Properties/user_properties.glade2.h:4
+msgid "<b>_User defined list</b>"
+msgstr "<b>فهرست _تعریف کرده‌ی کاربر</b>"
+
+#: ../gnopi/gnopi_files/User_Properties/user_properties.glade2.h:5
+msgid "Add Layer Key"
+msgstr "اضافه کردن کلید لایه"
+
+#: ../gnopi/gnopi_files/User_Properties/user_properties.glade2.h:6
+msgid "Add User Defined Key"
+msgstr "اضافه کردن کلید تعریف کرده‌ی کاربر"
+
+#: ../gnopi/gnopi_files/User_Properties/user_properties.glade2.h:7
+msgid "Add new item"
+msgstr "اضافه کردن مورد جدید"
+
+#: ../gnopi/gnopi_files/User_Properties/user_properties.glade2.h:8
+msgid "Alt modifier"
+msgstr "تغییردهنده‌ی دگرساز"
+
+#: ../gnopi/gnopi_files/User_Properties/user_properties.glade2.h:9
+msgid "Command Mapping"
+msgstr ""
+
+#: ../gnopi/gnopi_files/User_Properties/user_properties.glade2.h:10
+msgid "Commands List"
+msgstr "فهرست فرمان‌ها"
+
+#: ../gnopi/gnopi_files/User_Properties/user_properties.glade2.h:11
+msgid "Control modifier"
+msgstr "تغییردهنده‌ی کنترل"
+
+#: ../gnopi/gnopi_files/User_Properties/user_properties.glade2.h:12
+msgid "Key number"
+msgstr "شماره‌ی کلید"
+
+#: ../gnopi/gnopi_files/User_Properties/user_properties.glade2.h:13
+msgid "Keys list"
+msgstr "فهرست کلیدها"
+
+#: ../gnopi/gnopi_files/User_Properties/user_properties.glade2.h:14
+msgid "Layer command list"
+msgstr "فهرست فرمان لایه"
+
+#: ../gnopi/gnopi_files/User_Properties/user_properties.glade2.h:15
+msgid "Layer number"
+msgstr "شماره‌ی لایه"
+
+#: ../gnopi/gnopi_files/User_Properties/user_properties.glade2.h:16
+msgid "Layers"
+msgstr "لایه‌ها"
+
+#: ../gnopi/gnopi_files/User_Properties/user_properties.glade2.h:17
+msgid "List of gnopernicus commands"
+msgstr "فهرست فرمان‌ها gnopernicus"
+
+#: ../gnopi/gnopi_files/User_Properties/user_properties.glade2.h:18
+msgid "Modify command for the selected item"
+msgstr "تغییر فرمان برای مورد انتخاب شده"
+
+#: ../gnopi/gnopi_files/User_Properties/user_properties.glade2.h:19
+msgid "Remove selected item"
+msgstr "حذف مورد انتخاب شده"
+
+#: ../gnopi/gnopi_files/User_Properties/user_properties.glade2.h:20
+msgid "Shift modifier"
+msgstr "تغییردهنده‌ی تبدیل"
+
+#: ../gnopi/gnopi_files/User_Properties/user_properties.glade2.h:21
+msgid "User Defined"
+msgstr "تعریف کرده‌ی کاربر"
+
+#: ../gnopi/gnopi_files/User_Properties/user_properties.glade2.h:22
+msgid "User defined commands list."
+msgstr "فهرست فرمان‌های تعریف کرده‌ی کاربر"
+
+#: ../gnopi/gnopi_files/User_Properties/user_properties.glade2.h:23
+msgid "_Alt"
+msgstr "_دگرساز"
+
+#: ../gnopi/gnopi_files/User_Properties/user_properties.glade2.h:24
+msgid "_Ctrl"
+msgstr "_مهار"
+
+#: ../gnopi/gnopi_files/User_Properties/user_properties.glade2.h:25
+msgid "_Key:"
+msgstr "_کلید:"
+
+#: ../gnopi/gnopi_files/User_Properties/user_properties.glade2.h:26
+msgid "_Layer:"
+msgstr "_لایه:"
+
+#: ../gnopi/gnopi_files/User_Properties/user_properties.glade2.h:27
+msgid "_Modifier keys:"
+msgstr "کلیدهای ت_غییردهنده:"
+
+#: ../gnopi/gnopi_files/User_Properties/user_properties.glade2.h:29
+msgid "_Shift"
+msgstr "_تبدیل"
+
+#: ../gnopi/gnopi_files/about.glade2.h:1
+msgid "Screen Reader and Magnifier for the GNOME Desktop"
+msgstr ""
+
+#: ../gnopi/gnopi_files/about.glade2.h:2
+msgid "translator-credits"
+msgstr ""
+"الناز سربر <elnaz@farsiweb.info>‏\n"
+"میلاد زکریا <meelad@farsiweb.info>"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:1
+msgid ""
+"<b>Gnopernicus has detected that the assistive technology \n"
+"support is not enabled.</b>\n"
+msgstr ""
+"<b>‏Gnopernicus تشخیص داده است که پشتیبانی فناوری یاری‌دهنده \n"
+"به کار انداخته نشده است.</b>\n"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:4
+msgid "About"
+msgstr "درباره"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:5 ../srcore/srpres.c:812
+msgid "Alert"
+msgstr "هشدار"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:6
+msgid "Braille device preferences"
+msgstr "ترجیحات دستگاه بریل"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:7
+msgid "Braille monitor preferences"
+msgstr "ترجیحات نمایش‌گر بریل"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:8
+msgid "Close preferences"
+msgstr "بستن ترجیحات"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:9
+msgid "Command mapping"
+msgstr ""
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:10
+msgid "Do you want to enable the assistive technology support?"
+msgstr "آیا مایلید پشتیبانی فناوری یاری‌دهنده را به کار بیاندازید؟"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:11
+msgid "Exit from gnopernicus"
+msgstr "خروج از gnopernicus"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:12
+msgid "Find on screen"
+msgstr "پیدا کردن روی صفحه"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:13
+msgid "Gnopernicus"
+msgstr "Gnopernicus"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:14
+msgid "Gnopernicus usage help"
+msgstr "راهنمای استفاده از Gnopernicus"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:15
+msgid "Iconify menu"
+msgstr "شمایل‌گذاری منو"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:16
+msgid "Load default preferences"
+msgstr "بار کردن ترجیحات پیش‌فرض"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:17
+msgid "Magnifier preferences"
+msgstr "ترجیحات ذره‌بین"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:18
+msgid "Mouse preferences"
+msgstr "ترجیحات موشی"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:19
+msgid "Preferences"
+msgstr "ترجیحات"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:20
+msgid "Preferences..."
+msgstr "ترجیحات..."
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:21 ../srcore/srspc.c:1042
+msgid "Question"
+msgstr "سئوال"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:22
+msgid "Role presentation"
+msgstr ""
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:23
+msgid "Screen review"
+msgstr "مرور صفحه"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:24
+msgid "Speech preferences"
+msgstr "ترجیحات گفتار"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:25
+msgid "Startup mode..."
+msgstr "حالت راه‌اندازی..."
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:26
+msgid ""
+"You will have to log out for the change to take effect.\n"
+"Do you want to log out now? "
+msgstr ""
+"برای این که تغییرات مؤثر واقع شوند مجبور خواهید شد از سیستم خارج شوید.\n"
+"آیا مایلید الان از سیستم خارج شوید؟"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:28
+msgid "_1 Speech"
+msgstr "_۱ گفتار"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:29
+msgid "_1 Startup Mode..."
+msgstr "_۱ حالت راه‌اندازی..."
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:30
+msgid "_2 Braille"
+msgstr "_۲ بریل"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:31
+msgid "_2 Preferences..."
+msgstr "_۲ ترجیحات..."
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:32
+msgid "_3 Default Preferences..."
+msgstr "_۳ ترجیحات پیش‌فرض..."
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:34
+msgid "_4 Minimize"
+msgstr "_۴ حداقل کردن"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:35
+msgid "_4 Mouse"
+msgstr "_۴ موشی"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:37
+msgid "_5 Help"
+msgstr "_۵ راهنما"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:38
+msgid "_6 About"
+msgstr "_۶ درباره"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:39
+msgid "_6 Command Mapping"
+msgstr ""
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:40
+msgid "_7 Presentation"
+msgstr ""
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:41
+msgid "_8 Screen Review"
+msgstr "_۸ مرور صفحه"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:42
+msgid "_9 Search"
+msgstr "_۹ جستجو"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:43
+msgid "_Don't Enable Support"
+msgstr "پشتیبانی به کار انداخته _نشود"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:44
+msgid "_Enable Support"
+msgstr "_پشتیبانی به کار انداخته شود"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:45
+msgid "_Quit"
+msgstr "_ترک"
+
+#: ../gnopi/gnopiconf.c:409 ../gnopi/gnopiconf.c:427
+#, c-format
+msgid "Failed to set value: %f."
+msgstr "تنظیم مقدار شکست خورد: %f"
+
+#: ../gnopi/gnopiconf.c:733
+msgid "Failed to set value."
+msgstr "تنظیم مقدار شکست خورد."
+
+#: ../gnopi/gnopiui.c:73 ../gnopi/gnopiui.c:87 ../gnopi/gnopiui.c:99
+#: ../gnopi/gnopiui.c:105
+msgid "We could not load the interface!"
+msgstr "نمی‌توان واسط را بار کرد!"
+
+#: ../gnopi/magui.c:74
+msgid "default"
+msgstr "پیش‌فرض"
+
+#: ../gnopi/magui.c:472
+msgid ""
+"Can NOT remove zoomer because multiple zoomers are not supported in this "
+"version."
+msgstr ""
+
+#: ../gnopi/magui.c:673
+msgid "Zoomers"
+msgstr ""
+
+#: ../gnopi/magui.c:1649
+#, c-format
+msgid "Zoomer Options (%s)"
+msgstr ""
+
+# ../gnopi/spconf.c:341: %s.
+#: ../gnopi/spconf.c:341
+msgid "Failed to set dictionary changes."
+msgstr "تنظیم تغییرات لغت‌نامه شکست خورد."
+
+#: ../gnopi/spconf.c:349
+msgid "Failed to set removed voice value."
+msgstr "تنظیم مقدار صدای حذف شده شکست خورد."
+
+#: ../gnopi/spconf.c:359
+#, c-format
+msgid "Failed to set count: %s."
+msgstr "تنظیم شمردن شکست خورد: %s"
+
+#: ../gnopi/spconf.c:368
+#, c-format
+msgid "Failed to set Punctuation: %s."
+msgstr "تنظیم نقطه‌گذاری شکست خورد: %s."
+
+#: ../gnopi/spconf.c:377
+#, c-format
+msgid "Failed to set text echo value: %s."
+msgstr ""
+
+#: ../gnopi/spconf.c:386
+#, c-format
+msgid "Failed to set modifiers value: %s."
+msgstr "تنظیم مقدار تغییردهنده‌ها شکست خورد: %s."
+
+#: ../gnopi/spconf.c:395
+#, c-format
+msgid "Failed to set cursors value: %s."
+msgstr "تنظیم مقدار مکان‌نماها شکست خورد: %s."
+
+#: ../gnopi/spconf.c:404
+#, c-format
+msgid "Failed to set spaces value: %s."
+msgstr "تنظیم مقدار فاصله‌ها شکست خورد: %s."
+
+#: ../gnopi/spconf.c:413
+#, c-format
+msgid "Failed to set dictionary value: %s."
+msgstr "تنظیم مقدار لغت‌نامه شکست خورد: %s."
+
+#: ../gnopi/spconf.c:422
+#, c-format
+msgid "Failed to set testable voice %s."
+msgstr "تنظیم صدای قابل آزمایش شکست خورد: %s."
+
+#: ../gnopi/spconf.c:614
+#, c-format
+msgid "%s no name"
+msgstr ""
+
+#: ../gnopi/spdictui.c:80
+msgid "Invalid word or replacer!"
+msgstr "کلمه یا جای‌گزین نامعتبر"
+
+#: ../gnopi/spdictui.c:91 ../gnopi/spdictui.c:110
+msgid "Word exists in dictionary!"
+msgstr "کلمه در لغت‌نامه وجود دارد!"
+
+#: ../gnopi/spdictui.c:292 ../gnopi/spdictui.c:345
+msgid "No selected word to modify!"
+msgstr "هیچ کلمه‌ی انتخاب شده‌ای برای تغییر وجود ندارد!"
+
+#: ../gnopi/spdictui.c:319
+msgid "No selected word to remove!"
+msgstr "هیچ کلمه‌ی انتخاب شده‌ای برای حذف وجود ندارد!"
+
+#: ../gnopi/spdictui.c:468
+msgid "Word"
+msgstr "کلمه"
+
+#: ../gnopi/spdictui.c:477
+msgid "Replacer"
+msgstr "جای‌گزین"
+
+#: ../gnopi/spvoiceui.c:32
+msgid "<all drivers>"
+msgstr "<همه‌ی گرداننده‌ها>"
+
+#: ../gnopi/spvoiceui.c:33
+msgid "<all voices>"
+msgstr "<همه‌ی صداها>"
+
+#: ../gnopi/spvoiceui.c:296
+msgid "Invalid voice!"
+msgstr "صدای نامعتبر!"
+
+#: ../gnopi/spvoiceui.c:1217
+msgid "Invalid driver or voice!"
+msgstr "صدا یا گرداننده‌ی نامعتبر!"
+
+#: ../gnopi/spvoiceui.c:1657
+msgid "No selected voice to modify!"
+msgstr "هیچ صدایی برای تغییر انتخاب نشده!"
+
+#: ../gnopi/spvoiceui.c:1716
+msgid "No selected voice to remove!"
+msgstr "هیچ صدایی برای حذف انتخاب نشده!"
+
+#: ../gnopi/spvoiceui.c:1793
+msgid "No selected voice to test!"
+msgstr "هیچ صدایی برای آزمایش انتخاب نشده!"
+
+#: ../gnopi/spvoiceui.c:2034
+msgid "Voice"
+msgstr "صدا"
+
+#: ../gnopi/spvoiceui.c:2043
+msgid "Driver"
+msgstr "گرداننده"
+
+#: ../gnopi/spvoiceui.c:2052
+msgid "Speaker"
+msgstr ""
+
+#. To translators: This is the military phonetic alphabet
+#. Be sure to remove "Phonetic|" from each string
+#: ../speech/libsrs/srs-speech.c:303
+msgid "Phonetic|Alpha"
+msgstr "آلفا"
+
+#: ../speech/libsrs/srs-speech.c:304
+msgid "Phonetic|Bravo"
+msgstr "براوو"
+
+#: ../speech/libsrs/srs-speech.c:305
+msgid "Phonetic|Charlie"
+msgstr "چارلی"
+
+#: ../speech/libsrs/srs-speech.c:306
+msgid "Phonetic|Delta"
+msgstr "دلتا"
+
+#: ../speech/libsrs/srs-speech.c:307
+msgid "Phonetic|Echo"
+msgstr "اکو"
+
+#: ../speech/libsrs/srs-speech.c:308
+msgid "Phonetic|Foxtrot"
+msgstr "فاکس‌تروت"
+
+#: ../speech/libsrs/srs-speech.c:309
+msgid "Phonetic|Golf"
+msgstr "گلف"
+
+#: ../speech/libsrs/srs-speech.c:310
+msgid "Phonetic|Hotel"
+msgstr "هتل"
+
+#: ../speech/libsrs/srs-speech.c:311
+msgid "Phonetic|India"
+msgstr "ایندیا"
+
+#: ../speech/libsrs/srs-speech.c:312
+msgid "Phonetic|Juliet"
+msgstr "ژولیت"
+
+#: ../speech/libsrs/srs-speech.c:313
+msgid "Phonetic|Kilo"
+msgstr "کیلو"
+
+#: ../speech/libsrs/srs-speech.c:314
+msgid "Phonetic|Lima"
+msgstr "لیما"
+
+#: ../speech/libsrs/srs-speech.c:315
+msgid "Phonetic|Mike"
+msgstr "مایک"
+
+#: ../speech/libsrs/srs-speech.c:316
+msgid "Phonetic|November"
+msgstr "نوامبر"
+
+#: ../speech/libsrs/srs-speech.c:317
+msgid "Phonetic|Oscar"
+msgstr "اُسکار"
+
+#: ../speech/libsrs/srs-speech.c:318
+msgid "Phonetic|Papa"
+msgstr "پاپا"
+
+#: ../speech/libsrs/srs-speech.c:319
+msgid "Phonetic|Quebec"
+msgstr "کِبِک"
+
+#: ../speech/libsrs/srs-speech.c:320
+msgid "Phonetic|Romeo"
+msgstr "روموئو"
+
+#: ../speech/libsrs/srs-speech.c:321
+msgid "Phonetic|Sierra"
+msgstr "سیئِرا"
+
+#: ../speech/libsrs/srs-speech.c:322
+msgid "Phonetic|Tango"
+msgstr "تانگو"
+
+#: ../speech/libsrs/srs-speech.c:323
+msgid "Phonetic|Uniform"
+msgstr "یونیفورم"
+
+#: ../speech/libsrs/srs-speech.c:324
+msgid "Phonetic|Victor"
+msgstr "ویکتور"
+
+#: ../speech/libsrs/srs-speech.c:325
+msgid "Phonetic|Whiskey"
+msgstr "ویسکی"
+
+#: ../speech/libsrs/srs-speech.c:326
+msgid "Phonetic|Xray"
+msgstr "ایکس‌رِی"
+
+#: ../speech/libsrs/srs-speech.c:327
+msgid "Phonetic|Yankee"
+msgstr "یانکی"
+
+#: ../speech/libsrs/srs-speech.c:328
+msgid "Phonetic|Zulu"
+msgstr "زولو"
+
+#: ../speech/libsrs/srs-speech.c:329 ../srcore/srspc.c:1822
+msgid "space"
+msgstr "فاصله"
+
+#: ../speech/libsrs/srs-speech.c:330
+msgid "tab"
+msgstr "جهش"
+
+#: ../speech/libsrs/srs-speech.c:331
+msgid "new line"
+msgstr "سطر جدید"
+
+#: ../speech/libsrs/srs-speech.c:332
+msgid "dash"
+msgstr ""
+
+#. To translators: this should be as short as possible
+#: ../speech/libsrs/srs-speech.c:384
+msgid "cap"
+msgstr "بزرگ"
+
+#: ../srconf/libsrconf/libsrconf.c:454
+#, c-format
+msgid "Failed to access configuration source(s): %s\n"
+msgstr "دسترسی به منبع‌(های) پیکربندی شکست خورد: %s\n"
+
+#: ../srconf/libsrconf/libsrconf.c:467
+#, c-format
+msgid "Failed to add notify: %s"
+msgstr ""
+
+#: ../srconf/libsrconf/libsrconf.c:521
+msgid "Failed to remove directory."
+msgstr "حذف شاخه شکست خورد."
+
+#: ../srconf/libsrconf/libsrconf.c:865
+msgid "Failed to set configdata."
+msgstr "تنظیم داده‌های پیکربندی شکست خورد."
+
+#: ../srconf/libsrconf/libsrconf.c:939
+msgid "Failed set data."
+msgstr "تنظیم داده‌ها شکست خورد."
+
+#. translators: the letter ' ' (space), in parentheses.
+#: ../srcore/default.xml.in.h:2 ../srcore/verbose.xml.in.h:2
+msgid "( )"
+msgstr "( )"
+
+#. translators: the letter 'C' for "checked", in parentheses.
+#: ../srcore/default.xml.in.h:4 ../srcore/verbose.xml.in.h:4
+msgid "(C)"
+msgstr ""
+
+#. translators: the letter 'E' for "expanded", in parentheses.
+#: ../srcore/default.xml.in.h:6 ../srcore/verbose.xml.in.h:6
+msgid "(E)"
+msgstr ""
+
+#. translators: the letter 'P' for "[button] pressed", in parentheses.
+#: ../srcore/default.xml.in.h:8 ../srcore/verbose.xml.in.h:8
+msgid "(P)"
+msgstr ""
+
+#. translators: the letter 'U', for "unavailable", in parentheses.
+#: ../srcore/default.xml.in.h:10 ../srcore/verbose.xml.in.h:10
+msgid "(U)"
+msgstr ""
+
+#. translators: the letter 'c' for "collapsed", in parentheses.
+#: ../srcore/default.xml.in.h:12 ../srcore/verbose.xml.in.h:12
+msgid "(c)"
+msgstr ""
+
+#. translators: the letter 'm' for "minimized", in parentheses.
+#: ../srcore/default.xml.in.h:14 ../srcore/verbose.xml.in.h:14
+msgid "(m)"
+msgstr ""
+
+#. translators: the letter 'n' for "not minimized", in parentheses.
+#: ../srcore/default.xml.in.h:16 ../srcore/verbose.xml.in.h:16
+msgid "(n)"
+msgstr ""
+
+#: ../srcore/default.xml.in.h:17 ../srcore/verbose.xml.in.h:17
+msgid "Give maximum speech and braille output."
+msgstr ""
+
+#. translators: 'keyboard accelerator'
+#: ../srcore/default.xml.in.h:20 ../srcore/verbose.xml.in.h:20
+msgid "accelerator"
+msgstr ""
+
+#: ../srcore/default.xml.in.h:21 ../srcore/verbose.xml.in.h:21
+msgid "available"
+msgstr "در دسترس"
+
+#. translators: "checked" as in "checkbox is checked"
+#: ../srcore/default.xml.in.h:23 ../srcore/verbose.xml.in.h:23
+msgid "checked"
+msgstr "نشانه زده شده"
+
+#: ../srcore/default.xml.in.h:24 ../srcore/verbose.xml.in.h:24
+msgid "closing tab"
+msgstr "در حال بستن زبانه"
+
+#: ../srcore/default.xml.in.h:25 ../srcore/verbose.xml.in.h:25
+msgid "closing window"
+msgstr "در حال بستن پنجره"
+
+#: ../srcore/default.xml.in.h:26 ../srcore/verbose.xml.in.h:26
+msgid "collapsed"
+msgstr ""
+
+#: ../srcore/default.xml.in.h:27 ../srcore/verbose.xml.in.h:27
+msgid "column header"
+msgstr "سرستون"
+
+#: ../srcore/default.xml.in.h:28 ../srcore/verbose.xml.in.h:28
+msgid "create tab"
+msgstr "ایجاد زبانه"
+
+#: ../srcore/default.xml.in.h:29 ../srcore/verbose.xml.in.h:29
+msgid "create window"
+msgstr "ایجاد پنجره"
+
+#: ../srcore/default.xml.in.h:30 ../srcore/verbose.xml.in.h:30
+msgid "current value"
+msgstr "مقدار فعلی"
+
+#: ../srcore/default.xml.in.h:31 ../srcore/srctrl.c:2669
+#: ../srcore/verbose.xml.in.h:31
+msgid "empty line"
+msgstr "سطر خالی"
+
+#: ../srcore/default.xml.in.h:32 ../srcore/verbose.xml.in.h:32
+msgid "expanded"
+msgstr "باز شده"
+
+#: ../srcore/default.xml.in.h:33 ../srcore/srctrl.c:2258
+#: ../srcore/srctrl.c:2409 ../srcore/verbose.xml.in.h:33
+msgid "item"
+msgid_plural "items"
+msgstr[0] "مورد"
+
+#: ../srcore/default.xml.in.h:34 ../srcore/verbose.xml.in.h:34
+msgid "items"
+msgstr "موارد"
+
+#: ../srcore/default.xml.in.h:35 ../srcore/verbose.xml.in.h:35
+msgid "level"
+msgstr "سطح"
+
+#: ../srcore/default.xml.in.h:36 ../srcore/verbose.xml.in.h:36
+msgid "maximize window"
+msgstr "حداکثر کردن پنجره"
+
+#: ../srcore/default.xml.in.h:37 ../srcore/verbose.xml.in.h:37
+msgid "minimize window"
+msgstr "حداقل کردن پنجره"
+
+#: ../srcore/default.xml.in.h:38 ../srcore/verbose.xml.in.h:38
+msgid "minimized"
+msgstr "حداقل شده"
+
+#: ../srcore/default.xml.in.h:39 ../srcore/verbose.xml.in.h:39
+msgid "no selection anymore"
+msgstr "انتخاب شده‌ی دیگری نیست"
+
+#: ../srcore/default.xml.in.h:40 ../srcore/verbose.xml.in.h:40
+msgid "normal"
+msgstr "معمولی"
+
+#: ../srcore/default.xml.in.h:41 ../srcore/verbose.xml.in.h:41
+msgid "pressed"
+msgstr "فشرده شده"
+
+#: ../srcore/default.xml.in.h:42 ../srcore/verbose.xml.in.h:42
+msgid "rename window"
+msgstr "تغییر نام پنجره"
+
+#: ../srcore/default.xml.in.h:43 ../srcore/verbose.xml.in.h:43
+msgid "restore window"
+msgstr "بازیابی پنجره"
+
+#: ../srcore/default.xml.in.h:44 ../srcore/verbose.xml.in.h:44
+msgid "row header"
+msgstr "سرسطر"
+
+#: ../srcore/default.xml.in.h:45 ../srcore/verbose.xml.in.h:45
+msgid "selected"
+msgstr "انتخاب شده"
+
+#. translators: 'keyboard shortcut'
+#: ../srcore/default.xml.in.h:47 ../srcore/verbose.xml.in.h:47
+msgid "shortcut"
+msgstr "میانبُر"
+
+#: ../srcore/default.xml.in.h:48 ../srcore/verbose.xml.in.h:48
+msgid "show tool tip"
+msgstr "نمایش راهنمای آنی"
+
+#: ../srcore/default.xml.in.h:49 ../srcore/verbose.xml.in.h:49
+msgid "switch tab"
+msgstr "تعویض زبانه"
+
+#: ../srcore/default.xml.in.h:50 ../srcore/verbose.xml.in.h:50
+msgid "switch to"
+msgstr "تعویض به"
+
+#: ../srcore/default.xml.in.h:51 ../srcore/verbose.xml.in.h:51
+msgid "switch to window"
+msgstr "تعویض به پنجره"
+
+#: ../srcore/default.xml.in.h:52 ../srcore/verbose.xml.in.h:52
+msgid "titleize window"
+msgstr "عنوان‌گذاری پنجره"
+
+#: ../srcore/default.xml.in.h:53 ../srcore/verbose.xml.in.h:53
+msgid "unavailable"
+msgstr ""
+
+#. translators: "checkbox is unchecked"
+#: ../srcore/default.xml.in.h:55 ../srcore/verbose.xml.in.h:55
+msgid "unchecked"
+msgstr "نشانه زده نشده"
+
+#: ../srcore/default.xml.in.h:56 ../srcore/verbose.xml.in.h:56
+msgid "unpressed"
+msgstr "فشرده نشده"
+
+#: ../srcore/default.xml.in.h:57 ../srcore/verbose.xml.in.h:57
+msgid "unselected"
+msgstr "انتخاب نشده"
+
+#: ../srcore/srctrl.c:1012
+msgid "no parent"
+msgstr "والد ندارد"
+
+#: ../srcore/srctrl.c:1036
+msgid "no children"
+msgstr "فرزند ندارد"
+
+#: ../srcore/srctrl.c:1069
+msgid "no next"
+msgstr "متن ندارد"
+
+#: ../srcore/srctrl.c:1185
+msgid "Cannot find next text!"
+msgstr "متن بعدی پیدا نشد!"
+
+#: ../srcore/srctrl.c:1196
+msgid "Cannot find next image!"
+msgstr "تصویر بعدی پیدا نشد!"
+
+#: ../srcore/srctrl.c:1207
+msgid "Cannot find next attributes!"
+msgstr "مشخصه‌ی بعدی پیدا نشد!"
+
+#: ../srcore/srctrl.c:1296
+msgid "no previous"
+msgstr "قبلی ندارد"
+
+#: ../srcore/srctrl.c:1340
+msgid "added watch for current object"
+msgstr ""
+
+#: ../srcore/srctrl.c:1341
+msgid "cannot add watch for current object"
+msgstr ""
+
+#: ../srcore/srctrl.c:1366
+msgid "no caret"
+msgstr ""
+
+#: ../srcore/srctrl.c:1387
+msgid "already on first"
+msgstr "از قبل روی اولین است"
+
+#: ../srcore/srctrl.c:1408
+msgid "already on last"
+msgstr "از قبل روی آخرین است"
+
+#: ../srcore/srctrl.c:1421
+msgid "now navigating in application"
+msgstr "اکنون در حال ناویدن در برنامه"
+
+#: ../srcore/srctrl.c:1425
+msgid "now navigating in desktop"
+msgstr "اکنون در حال ناویدن در رومیزی"
+
+#: ../srcore/srctrl.c:1429
+msgid "now navigating in window"
+msgstr "اکنون در حال ناویدن در پنجره"
+
+#: ../srcore/srctrl.c:1522
+msgid "no focus"
+msgstr "بدون تمرکز"
+
+#: ../srcore/srctrl.c:1562
+msgid "no title"
+msgstr "بدون عنوان"
+
+#: ../srcore/srctrl.c:1583
+msgid "no menu bar"
+msgstr "بدون نوار منو"
+
+#: ../srcore/srctrl.c:1606
+msgid "no tool bar"
+msgstr "بدون نوار ابزار"
+
+#: ../srcore/srctrl.c:1630
+msgid "no status bar"
+msgstr "بدون نوار وضعیت"
+
+#: ../srcore/srctrl.c:2214
+msgid "on"
+msgstr "روی"
+
+#: ../srcore/srctrl.c:2236 ../srcore/srctrl.c:2387
+msgid "from a"
+msgstr "از یک"
+
+#: ../srcore/srctrl.c:2238 ../srcore/srctrl.c:2394
+msgid "with"
+msgstr "با"
+
+#: ../srcore/srctrl.c:2269
+msgid "in a"
+msgstr "در یک"
+
+#: ../srcore/srctrl.c:2272
+msgid "named "
+msgstr "با نام"
+
+#: ../srcore/srctrl.c:2274
+msgid "with no name"
+msgstr "بدون هیچ نامی"
+
+#: ../srcore/srctrl.c:2288
+msgid "of application"
+msgstr "برای برنامه‌ی"
+
+#: ../srcore/srctrl.c:2375
+msgid "on a"
+msgstr "روی یک"
+
+#: ../srcore/srctrl.c:2629
+msgid "first line"
+msgstr "اولین سطر"
+
+#: ../srcore/srctrl.c:2636
+msgid "last line"
+msgstr "آخرین سطر"
+
+#: ../srcore/srctrl.c:2644 ../srcore/srctrl.c:2646
+msgid "[first line]"
+msgstr "[اولین سطر]"
+
+#: ../srcore/srctrl.c:2651 ../srcore/srctrl.c:2653
+msgid "[last line]"
+msgstr "[آخرین سطر]"
+
+#: ../srcore/srctrl.c:2676
+#, c-format
+msgid "%d empty line"
+msgid_plural "%d empty lines"
+msgstr[0] "%Id سطر خالی"
+
+#: ../srcore/srctrl.c:2697 ../srcore/srctrl.c:2699
+msgid "[empty line]"
+msgstr "[سطر خالی]"
+
+#: ../srcore/srctrl.c:2704
+#, c-format
+msgid "[%d empty line]"
+msgid_plural "[%d empty lines]"
+msgstr[0] "[%Id سطر خالی]"
+
+#: ../srcore/srctrl.c:2786 ../srcore/srctrl.c:2787 ../srcore/srctrl.c:2795
+#: ../srcore/srctrl.c:2950 ../srcore/srctrl.c:2951
+msgid "cannot make flat review for current window"
+msgstr ""
+
+#: ../srcore/srctrl.c:3022
+msgid "flat review mode"
+msgstr ""
+
+#: ../srcore/srctrl.c:3038
+msgid "focus tracking mode"
+msgstr ""
+
+#: ../srcore/srctrl.c:3577
+#, c-format
+msgid "\"%s\" entry has invalid value at position %d."
+msgstr "مدخل «%s» در موقعیت %Id مقدار نامعتبر دارد."
+
+#: ../srcore/srctrl.c:3598
+#, c-format
+msgid "key \"%s\" has an invalid value at position %d."
+msgstr "کلید «%s» در موقعیت %Id مقدار نامعتبر دارد."
+
+#: ../srcore/srctrl.c:3634
+msgid "Can not get key pad commands mapping from gconf."
+msgstr ""
+
+#: ../srcore/srctrl.c:3645
+msgid "Can not get braille display commands mapping from gconf."
+msgstr ""
+
+#: ../srcore/srctrl.c:3656
+msgid "Can not get user defined commands mapping from gconf."
+msgstr ""
+
+#: ../srcore/srctrl.c:3760
+msgid "no role available"
+msgstr "هیچ نقشی در دسترس نیست"
+
+#: ../srcore/srmain.c:77 ../srcore/srmain.c:80
+msgid "No focus"
+msgstr "بدون تمرکز"
+
+#: ../srcore/srmain.c:83
+msgid "No accessible object is focused"
+msgstr "هیچ شیء قابل دسترسی مورد تمرکز نیست"
+
+#: ../srcore/srmain.c:467
+msgid "unknown location"
+msgstr "مکان نامعلوم"
+
+#: ../srcore/srmain.c:504
+msgid "no details"
+msgstr "بدون جزییات"
+
+#: ../srcore/srmain.c:544
+msgid "layer"
+msgstr "لایه"
+
+#: ../srcore/srmain.c:565
+msgid "back to layer"
+msgstr "عقب به لایه"
+
+#: ../srcore/srmain.c:937
+msgid "cursor on"
+msgstr "مکان‌نما روشن"
+
+#: ../srcore/srmain.c:937
+msgid "cursor off"
+msgstr "مکان‌نما خاموش"
+
+#: ../srcore/srmain.c:955
+msgid "current cursor is"
+msgstr "مکان‌نمای فعلی عبارت است از"
+
+#: ../srcore/srmain.c:973
+msgid "cursor size"
+msgstr "اندازه‌ی مکان‌نما"
+
+#: ../srcore/srmain.c:990
+msgid "cursor magnification on"
+msgstr "بزرگ‌نمایی مکان‌نما روشن"
+
+#: ../srcore/srmain.c:991
+msgid "cursor magnification off"
+msgstr "بزرگ‌نمایی مکان‌نما خاموش"
+
+#: ../srcore/srmain.c:1009
+msgid "cursor color"
+msgstr "رنگ مکان‌نما"
+
+#: ../srcore/srmain.c:1026
+msgid "crosshair on"
+msgstr ""
+
+#: ../srcore/srmain.c:1026
+msgid "crosshair off"
+msgstr ""
+
+#: ../srcore/srmain.c:1043
+msgid "crosshair clip on"
+msgstr ""
+
+#: ../srcore/srmain.c:1044
+msgid "crosshair clip off"
+msgstr ""
+
+#: ../srcore/srmain.c:1062
+msgid "crosshair size"
+msgstr ""
+
+#: ../srcore/srmain.c:1080
+msgid "crosshair color"
+msgstr ""
+
+#: ../srcore/srmain.c:1098
+msgid "zoomer placement left"
+msgstr ""
+
+#: ../srcore/srmain.c:1116
+msgid "zoomer placement top"
+msgstr ""
+
+#: ../srcore/srmain.c:1134
+msgid "zoomer placement width"
+msgstr ""
+
+#: ../srcore/srmain.c:1152
+msgid "zoomer placement height"
+msgstr ""
+
+#: ../srcore/srmain.c:1182
+msgid "magnifier target"
+msgstr ""
+
+#: ../srcore/srmain.c:1200
+msgid "magnifier source"
+msgstr ""
+
+#: ../srcore/srmain.c:1218
+msgid "zoom factor x"
+msgstr "ضریب زوم x"
+
+#: ../srcore/srmain.c:1236
+msgid "zoom factor y"
+msgstr "ضریب زوم y"
+
+#: ../srcore/srmain.c:1253
+msgid "zoom factor locked"
+msgstr "ضریب زوم قفل شد"
+
+#: ../srcore/srmain.c:1254
+msgid "zoom factor unlocked"
+msgstr "ضریب زوم آزاد شد"
+
+#: ../srcore/srmain.c:1271
+msgid "invert on"
+msgstr ""
+
+#: ../srcore/srmain.c:1271
+msgid "invert off"
+msgstr ""
+
+#: ../srcore/srmain.c:1289
+msgid "magnifier smoothing type"
+msgstr "نوع هموارسازی ذره‌بین"
+
+#: ../srcore/srmain.c:1312
+msgid "mouse tracking mode"
+msgstr ""
+
+#: ../srcore/srmain.c:1334
+msgid "panning on"
+msgstr ""
+
+#: ../srcore/srmain.c:1334
+msgid "panning off"
+msgstr ""
+
+#: ../srcore/srmain.c:1706
+msgid "alt"
+msgstr "دگرساز"
+
+#: ../srcore/srmain.c:1711
+msgid "control"
+msgstr "مهار"
+
+#: ../srcore/srmain.c:1716
+msgid "shift"
+msgstr "تبدیل"
+
+#: ../srcore/srmain.c:1721 ../srcore/srpres.c:870
+msgid "Window"
+msgstr "پنجره"
+
+#: ../srcore/srmain.c:1726 ../srcore/srmain.c:1801 ../srcore/srpres.c:836
+msgid "Menu"
+msgstr "منو"
+
+#: ../srcore/srmain.c:1731
+msgid "caps lock"
+msgstr "قفل تبدیل"
+
+#: ../srcore/srmain.c:1735
+msgid "num lock"
+msgstr ""
+
+#: ../srcore/srmain.c:1743 ../srcore/srmain.c:1787
+msgid "right"
+msgstr "راست"
+
+#: ../srcore/srmain.c:1745 ../srcore/srmain.c:1789
+msgid "left"
+msgstr "چپ"
+
+#: ../srcore/srmain.c:1779
+msgid "home"
+msgstr "آغازه"
+
+#: ../srcore/srmain.c:1781
+msgid "end"
+msgstr "پایان"
+
+#: ../srcore/srmain.c:1783
+msgid "page up"
+msgstr ""
+
+#: ../srcore/srmain.c:1785
+msgid "page down"
+msgstr ""
+
+#: ../srcore/srmain.c:1791
+msgid "down"
+msgstr "پایین"
+
+#: ../srcore/srmain.c:1793
+msgid "up"
+msgstr "بالا"
+
+#: ../srcore/srmain.c:1795
+msgid "backspace"
+msgstr "پس‌بر"
+
+#: ../srcore/srmain.c:1797
+msgid "delete"
+msgstr "حذف"
+
+#: ../srcore/srmain.c:1799
+msgid "escape"
+msgstr "گریز"
+
+#: ../srcore/srmain.c:2363
+msgid "Welcome to Gnopernicus"
+msgstr "به Gnopernicus خوش آمدید"
+
+#: ../srcore/srmain.c:2472
+msgid "braille device can not be initialized"
+msgstr "راه‌اندازی دستگاه بریل ممکن نیست"
+
+#: ../srcore/srmain.c:2486
+msgid "Gnopernicus is now exiting. Have a nice day!"
+msgstr "در حال خروج از Gnopernicus. روز خوبی داشته باشد!"
+
+#: ../srcore/srmain.c:2765
+msgid "srcore"
+msgstr ""
+
+#: ../srcore/srpres.c:810
+msgid "UNK"
+msgstr ""
+
+#: ../srcore/srpres.c:810
+msgid "UNKNOWN"
+msgstr "نامعلوم"
+
+#: ../srcore/srpres.c:810
+msgid "Unknown"
+msgstr "نامعلوم"
+
+#: ../srcore/srpres.c:811
+msgid "???"
+msgstr "؟؟؟"
+
+#: ../srcore/srpres.c:811
+msgid "INVALID"
+msgstr "نامعتبر"
+
+#: ../srcore/srpres.c:811
+msgid "Invalid"
+msgstr "نامعتبر"
+
+#: ../srcore/srpres.c:812
+msgid "ALR"
+msgstr ""
+
+#: ../srcore/srpres.c:812
+msgid "ALERT"
+msgstr "هشدار"
+
+#: ../srcore/srpres.c:813
+msgid "CNV"
+msgstr ""
+
+#: ../srcore/srpres.c:813
+msgid "CANVAS"
+msgstr ""
+
+#: ../srcore/srpres.c:813
+msgid "Canvas"
+msgstr ""
+
+#: ../srcore/srpres.c:814
+msgid "CHK"
+msgstr ""
+
+#: ../srcore/srpres.c:814
+msgid "CHECK_BOX"
+msgstr "جعبه‌ی نشانه‌زنی"
+
+#: ../srcore/srpres.c:814
+msgid "Check box"
+msgstr "جعبه‌ی نشانه‌زنی"
+
+#: ../srcore/srpres.c:815 ../srcore/srpres.c:838 ../srcore/srpres.c:848
+msgid "MIT"
+msgstr ""
+
+#: ../srcore/srpres.c:815 ../srcore/srpres.c:838 ../srcore/srpres.c:848
+msgid "MENU ITEM"
+msgstr "مورد منو"
+
+#: ../srcore/srpres.c:815
+msgid "Check Menu item"
+msgstr "مورد منو"
+
+#: ../srcore/srpres.c:816
+msgid "CCH"
+msgstr ""
+
+#: ../srcore/srpres.c:816
+msgid "COLOR CHOOSER"
+msgstr "انتخاب‌کننده‌ی رنگ"
+
+#: ../srcore/srpres.c:816
+msgid "Color chooser"
+msgstr "انتخاب‌کننده‌ی رنگ"
+
+#: ../srcore/srpres.c:817
+msgid "CHD"
+msgstr ""
+
+#: ../srcore/srpres.c:817
+msgid "COLUMN HEADER"
+msgstr "سرستون"
+
+#: ../srcore/srpres.c:817
+msgid "Column header"
+msgstr "سرستون"
+
+#: ../srcore/srpres.c:818
+msgid "CBO"
+msgstr ""
+
+#: ../srcore/srpres.c:818
+msgid "COMBO BOX"
+msgstr ""
+
+#: ../srcore/srpres.c:818
+msgid "Combo box"
+msgstr ""
+
+#: ../srcore/srpres.c:819
+msgid "DIC"
+msgstr ""
+
+#: ../srcore/srpres.c:819
+msgid "DESKTOP ICON"
+msgstr "شمایل رومیزی"
+
+#: ../srcore/srpres.c:819
+msgid "Desktop icon"
+msgstr "شمایل رومیزی"
+
+#: ../srcore/srpres.c:820
+msgid "DFR"
+msgstr ""
+
+#: ../srcore/srpres.c:820
+msgid "DESKTOP FRAME"
+msgstr "چارچوب رومیزی"
+
+#: ../srcore/srpres.c:820
+msgid "Desktop frame"
+msgstr "چارچوب رومیزی"
+
+#: ../srcore/srpres.c:821
+msgid "DLG"
+msgstr ""
+
+#: ../srcore/srpres.c:821
+msgid "DIALOG"
+msgstr "محاوره"
+
+#: ../srcore/srpres.c:821
+msgid "Dialog"
+msgstr "محاوره"
+
+#: ../srcore/srpres.c:822
+msgid "DIP"
+msgstr ""
+
+#: ../srcore/srpres.c:822
+msgid "DIRECTORY PANE"
+msgstr "قاب شاخه"
+
+#: ../srcore/srpres.c:822
+msgid "Directory pane"
+msgstr "قاب شاخه"
+
+#: ../srcore/srpres.c:823
+msgid "FCH"
+msgstr ""
+
+#: ../srcore/srpres.c:823
+msgid "FILE CHOOSER"
+msgstr "انتخاب‌کننده‌ی پرونده"
+
+#: ../srcore/srpres.c:823
+msgid "File chooser"
+msgstr "انتخاب‌کننده‌ی پرونده"
+
+#: ../srcore/srpres.c:824
+msgid "FLR"
+msgstr ""
+
+#: ../srcore/srpres.c:824
+msgid "FILLER"
+msgstr "پرکننده"
+
+#: ../srcore/srpres.c:824
+msgid "Filler"
+msgstr "پرکننده"
+
+#: ../srcore/srpres.c:825
+msgid "FRM"
+msgstr ""
+
+#: ../srcore/srpres.c:825
+msgid "FRAME"
+msgstr "چارچوب"
+
+#: ../srcore/srpres.c:825
+msgid "Frame"
+msgstr "چارچوب"
+
+#: ../srcore/srpres.c:826
+msgid "GPN"
+msgstr ""
+
+#: ../srcore/srpres.c:826
+msgid "GLASS PANE"
+msgstr "قاب شیشه‌ای"
+
+#: ../srcore/srpres.c:826
+msgid "Glass pane"
+msgstr "قاب شیشه‌اای"
+
+#: ../srcore/srpres.c:827
+msgid "HTM"
+msgstr ""
+
+#: ../srcore/srpres.c:827
+msgid "HTML CONTAINER"
+msgstr ""
+
+#: ../srcore/srpres.c:827
+msgid "H T M L container"
+msgstr ""
+
+#: ../srcore/srpres.c:828 ../srcore/srpres.c:833
+msgid "LNK"
+msgstr ""
+
+#: ../srcore/srpres.c:828 ../srcore/srpres.c:833
+msgid "LINK"
+msgstr "پیوند"
+
+#: ../srcore/srpres.c:828 ../srcore/srpres.c:833
+msgid "link"
+msgstr "پیوند"
+
+#: ../srcore/srpres.c:829
+msgid "ICO"
+msgstr ""
+
+#: ../srcore/srpres.c:829
+msgid "ICON"
+msgstr "شمایل"
+
+#: ../srcore/srpres.c:829
+msgid "Icon"
+msgstr "شمایل"
+
+#: ../srcore/srpres.c:830
+msgid "IFR"
+msgstr ""
+
+#: ../srcore/srpres.c:830
+msgid "INTERNAL FRAME"
+msgstr "چارچوب داخلی"
+
+#: ../srcore/srpres.c:830
+msgid "Internal frame"
+msgstr "چارچوب داخلی"
+
+#: ../srcore/srpres.c:831
+msgid "LBL"
+msgstr ""
+
+#: ../srcore/srpres.c:831
+msgid "LABEL"
+msgstr "برچسب"
+
+#: ../srcore/srpres.c:831
+msgid "Label"
+msgstr "برچسب"
+
+#: ../srcore/srpres.c:832
+msgid "LPN"
+msgstr ""
+
+#: ../srcore/srpres.c:832
+msgid "LAYERED PANE"
+msgstr ""
+
+#: ../srcore/srpres.c:832
+msgid "Layered pane"
+msgstr ""
+
+#: ../srcore/srpres.c:834
+msgid "LST"
+msgstr ""
+
+#: ../srcore/srpres.c:834
+msgid "LIST"
+msgstr "فهرست"
+
+#: ../srcore/srpres.c:834
+msgid "List"
+msgstr "فهرست"
+
+#: ../srcore/srpres.c:835
+msgid "LIT"
+msgstr ""
+
+#: ../srcore/srpres.c:835
+msgid "LIST ITEM"
+msgstr "مورد فهرست"
+
+#: ../srcore/srpres.c:835
+msgid "List item"
+msgstr "مورد فهرست"
+
+#: ../srcore/srpres.c:836
+msgid "MNU"
+msgstr ""
+
+#: ../srcore/srpres.c:836
+msgid "MENU"
+msgstr "منو"
+
+#: ../srcore/srpres.c:837
+msgid "MBR"
+msgstr ""
+
+#: ../srcore/srpres.c:837
+msgid "MENU BAR"
+msgstr "نوار منو"
+
+#: ../srcore/srpres.c:837
+msgid "Menu bar"
+msgstr "نوار منو"
+
+#: ../srcore/srpres.c:838
+msgid "Menu item"
+msgstr "مورد منو"
+
+#: ../srcore/srpres.c:839
+msgid "OPN"
+msgstr ""
+
+#: ../srcore/srpres.c:839
+msgid "OPTION PANE"
+msgstr "قاب گزینه"
+
+#: ../srcore/srpres.c:839
+msgid "Option pane"
+msgstr "قاب گزینه"
+
+#: ../srcore/srpres.c:840
+msgid "PGT"
+msgstr ""
+
+#: ../srcore/srpres.c:840
+msgid "PAGE TAB"
+msgstr ""
+
+#: ../srcore/srpres.c:840
+msgid "Page tab"
+msgstr ""
+
+#: ../srcore/srpres.c:841
+msgid "PTL"
+msgstr ""
+
+#: ../srcore/srpres.c:841
+msgid "PAGE TAB LIST"
+msgstr ""
+
+#: ../srcore/srpres.c:841
+msgid "Page tab list"
+msgstr ""
+
+#: ../srcore/srpres.c:842
+msgid "PNL"
+msgstr ""
+
+#: ../srcore/srpres.c:842
+msgid "PANEL"
+msgstr "تابلو"
+
+#: ../srcore/srpres.c:842
+msgid "Panel"
+msgstr "تابلو"
+
+#: ../srcore/srpres.c:843
+msgid "PWD"
+msgstr ""
+
+#: ../srcore/srpres.c:843
+msgid "PASSWORD TEXT"
+msgstr "متن گذرواژه"
+
+#: ../srcore/srpres.c:843
+msgid "Password text"
+msgstr "متن گذرواژه"
+
+#: ../srcore/srpres.c:844
+msgid "PMN"
+msgstr ""
+
+#: ../srcore/srpres.c:844
+msgid "POPUP MENU"
+msgstr "منوی واشو"
+
+#: ../srcore/srpres.c:844
+msgid "Popup menu"
+msgstr "منوی واشو"
+
+#: ../srcore/srpres.c:845
+msgid "PRG"
+msgstr ""
+
+#: ../srcore/srpres.c:845
+msgid "PROGRESS BAR"
+msgstr "نوار پیشرفت"
+
+#: ../srcore/srpres.c:845
+msgid "Progress bar"
+msgstr "نوار پیشرفت"
+
+#: ../srcore/srpres.c:846
+msgid "PBT"
+msgstr ""
+
+#: ../srcore/srpres.c:846
+msgid "PUSH BUTTON"
+msgstr "دکمه‌ی فشاری"
+
+#: ../srcore/srpres.c:846
+msgid "Push button"
+msgstr "دکمه‌ی فشاری"
+
+#: ../srcore/srpres.c:847
+msgid "RAD"
+msgstr ""
+
+#: ../srcore/srpres.c:847
+msgid "RADIO BUTTON"
+msgstr "دکمه‌ی رادیویی"
+
+#: ../srcore/srpres.c:847
+msgid "Radio button"
+msgstr "دکمه‌ی رادیویی"
+
+#: ../srcore/srpres.c:848
+msgid "Radio Menu item"
+msgstr "مورد منوی رادیویی"
+
+#: ../srcore/srpres.c:849
+msgid "RPN"
+msgstr ""
+
+#: ../srcore/srpres.c:849
+msgid "ROOT PANE"
+msgstr "قاب شاخه"
+
+#: ../srcore/srpres.c:849
+msgid "Root pane"
+msgstr "قاب شاخه"
+
+#: ../srcore/srpres.c:850
+msgid "RHD"
+msgstr ""
+
+#: ../srcore/srpres.c:850
+msgid "ROW HEADER"
+msgstr "سرسطر"
+
+#: ../srcore/srpres.c:850
+msgid "Row header"
+msgstr "سرسطر"
+
+#: ../srcore/srpres.c:851
+msgid "SCR"
+msgstr ""
+
+#: ../srcore/srpres.c:851
+msgid "SCROLL BAR"
+msgstr ""
+
+#: ../srcore/srpres.c:851
+msgid "Scroll bar"
+msgstr ""
+
+#: ../srcore/srpres.c:852 ../srcore/srpres.c:880
+msgid "SPN"
+msgstr ""
+
+#: ../srcore/srpres.c:852
+msgid "SCROLL PANE"
+msgstr ""
+
+#: ../srcore/srpres.c:852
+msgid "Scroll pane"
+msgstr ""
+
+#: ../srcore/srpres.c:853
+msgid "SEP"
+msgstr ""
+
+#: ../srcore/srpres.c:853
+msgid "SEPARATOR"
+msgstr "جداکننده"
+
+#: ../srcore/srpres.c:853
+msgid "Separator"
+msgstr "جداکننده"
+
+#: ../srcore/srpres.c:854
+msgid "SLD"
+msgstr ""
+
+#: ../srcore/srpres.c:854
+msgid "SLIDER"
+msgstr "لغزنده"
+
+#: ../srcore/srpres.c:854
+msgid "Slider"
+msgstr "لغزنده"
+
+#: ../srcore/srpres.c:855
+msgid "SPP"
+msgstr ""
+
+#: ../srcore/srpres.c:855
+msgid "SPLIT PANE"
+msgstr ""
+
+#: ../srcore/srpres.c:855
+msgid "Split pane"
+msgstr ""
+
+#: ../srcore/srpres.c:856
+msgid "STA"
+msgstr ""
+
+#: ../srcore/srpres.c:856
+msgid "STATUS BAR"
+msgstr "نوار وضعیت"
+
+#: ../srcore/srpres.c:856
+msgid "Status bar"
+msgstr "نوار وضعیت"
+
+#: ../srcore/srpres.c:857
+msgid "TAB"
+msgstr ""
+
+#: ../srcore/srpres.c:857
+msgid "TABLE"
+msgstr "جدول"
+
+#: ../srcore/srpres.c:857
+msgid "Table"
+msgstr "جدول"
+
+#: ../srcore/srpres.c:858
+msgid "CEL"
+msgstr ""
+
+#: ../srcore/srpres.c:858
+msgid "TABLE CELL"
+msgstr "خانه‌ی جدول"
+
+#: ../srcore/srpres.c:858
+msgid "Table cell"
+msgstr "خانه‌ی جدول"
+
+#: ../srcore/srpres.c:859 ../srcore/srpres.c:884
+msgid "TCH"
+msgstr ""
+
+#: ../srcore/srpres.c:859
+msgid "TABLE COLUMN HEADER"
+msgstr "سرستون جدول"
+
+#: ../srcore/srpres.c:859
+msgid "Table column header"
+msgstr "سرستون جدول"
+
+#: ../srcore/srpres.c:860
+msgid "TRH"
+msgstr ""
+
+#: ../srcore/srpres.c:860
+msgid "TABLE ROW HEADER"
+msgstr "سرسطر جدول"
+
+#: ../srcore/srpres.c:860
+msgid "Table row header"
+msgstr "سرسطر جدول"
+
+#: ../srcore/srpres.c:861 ../srcore/srpres.c:862
+msgid "TXT"
+msgstr ""
+
+#: ../srcore/srpres.c:861
+msgid "MULTI LINE TEXT"
+msgstr "متن چندخطی"
+
+#: ../srcore/srpres.c:861
+msgid "Multi Line Text"
+msgstr "متن چندخطی"
+
+#: ../srcore/srpres.c:862
+msgid "SINGLE LINE TEXT"
+msgstr "متن یک‌خطی"
+
+#: ../srcore/srpres.c:862
+msgid "Single Line Text"
+msgstr "متن یک‌خطی"
+
+#: ../srcore/srpres.c:863
+msgid "TOG"
+msgstr ""
+
+#: ../srcore/srpres.c:863
+msgid "TOGGLE BUTTON"
+msgstr "دکمه‌ی ضامن"
+
+#: ../srcore/srpres.c:863
+msgid "Toggle button"
+msgstr "دکمه‌ی ضامن"
+
+#: ../srcore/srpres.c:864
+msgid "TOL"
+msgstr ""
+
+#: ../srcore/srpres.c:864
+msgid "TOOL BAR"
+msgstr "نوار ابزار"
+
+#: ../srcore/srpres.c:864
+msgid "Tool bar"
+msgstr "نوار ابزار"
+
+#: ../srcore/srpres.c:865
+msgid "TIP"
+msgstr ""
+
+#: ../srcore/srpres.c:865
+msgid "TOOL TIP"
+msgstr "راهنمای آنی"
+
+#: ../srcore/srpres.c:865
+msgid "Tool tip"
+msgstr "راهنمای آنی"
+
+#: ../srcore/srpres.c:866
+msgid "TRE"
+msgstr ""
+
+#: ../srcore/srpres.c:866
+msgid "TREE"
+msgstr "درخت"
+
+#: ../srcore/srpres.c:866
+msgid "Tree"
+msgstr "درخت"
+
+#: ../srcore/srpres.c:867
+msgid "TRI"
+msgstr ""
+
+#: ../srcore/srpres.c:867
+msgid "TREE ITEM"
+msgstr "مورد درخت"
+
+#: ../srcore/srpres.c:867
+msgid "Tree item"
+msgstr "مورد درخت"
+
+#: ../srcore/srpres.c:868
+msgid "TRT"
+msgstr ""
+
+#: ../srcore/srpres.c:868
+msgid "TREE TABLE"
+msgstr "جدول درختی"
+
+#: ../srcore/srpres.c:868
+msgid "Tree table"
+msgstr "جدول درختی"
+
+#: ../srcore/srpres.c:869
+msgid "VWP"
+msgstr ""
+
+#: ../srcore/srpres.c:869
+msgid "VIEWPORT"
+msgstr ""
+
+#: ../srcore/srpres.c:869
+msgid "Viewport"
+msgstr ""
+
+#: ../srcore/srpres.c:870
+msgid "WND"
+msgstr ""
+
+#: ../srcore/srpres.c:870
+msgid "WINDOW"
+msgstr "پنجره"
+
+#: ../srcore/srpres.c:871
+msgid "ACC"
+msgstr ""
+
+#: ../srcore/srpres.c:871
+msgid "ACCELERATOR LABEL"
+msgstr ""
+
+#: ../srcore/srpres.c:871
+msgid "Accelerator label"
+msgstr ""
+
+#: ../srcore/srpres.c:872
+msgid "ANI"
+msgstr ""
+
+#: ../srcore/srpres.c:872
+msgid "ANIMATION"
+msgstr "پویانمایی"
+
+#: ../srcore/srpres.c:872
+msgid "Animation"
+msgstr "پویانمایی"
+
+#: ../srcore/srpres.c:873
+msgid "ARR"
+msgstr ""
+
+#: ../srcore/srpres.c:873
+msgid "ARROW"
+msgstr "پیکان"
+
+#: ../srcore/srpres.c:873
+msgid "Arrow"
+msgstr "پیکان"
+
+#: ../srcore/srpres.c:874
+msgid "CAL"
+msgstr ""
+
+#: ../srcore/srpres.c:874
+msgid "CALENDAR"
+msgstr "تقویم"
+
+#: ../srcore/srpres.c:874
+msgid "Calendar"
+msgstr "تقویم"
+
+#: ../srcore/srpres.c:875
+msgid "DAT"
+msgstr ""
+
+#: ../srcore/srpres.c:875
+msgid "DATE EDITOR"
+msgstr "ویرایش‌گر تاریخ"
+
+#: ../srcore/srpres.c:875
+msgid "Date editor"
+msgstr "ویرایش‌گر تاریخ"
+
+#: ../srcore/srpres.c:876
+msgid "DIL"
+msgstr ""
+
+#: ../srcore/srpres.c:876
+msgid "DIAL"
+msgstr "شماره‌گیری"
+
+#: ../srcore/srpres.c:876
+msgid "Dial"
+msgstr "شماره‌گیری"
+
+#: ../srcore/srpres.c:877
+msgid "DRW"
+msgstr ""
+
+#: ../srcore/srpres.c:877
+msgid "DRAWING AREA"
+msgstr "ناحیه‌ی ترسیم"
+
+#: ../srcore/srpres.c:877
+msgid "Drawing area"
+msgstr "ناحیه‌ی ترسیم"
+
+#: ../srcore/srpres.c:878
+msgid "FNT"
+msgstr ""
+
+#: ../srcore/srpres.c:878
+msgid "FONT CHOOSER"
+msgstr "انتخاب‌کننده‌ی قلم"
+
+#: ../srcore/srpres.c:878
+msgid "Font chooser"
+msgstr "انتخاب‌کننده‌ی قلم"
+
+#: ../srcore/srpres.c:879
+msgid "IMG"
+msgstr ""
+
+#: ../srcore/srpres.c:879
+msgid "IMAGE"
+msgstr "تصویر"
+
+#: ../srcore/srpres.c:879
+msgid "Image"
+msgstr "تصویر"
+
+#: ../srcore/srpres.c:880
+msgid "SPIN BUTTON"
+msgstr ""
+
+#: ../srcore/srpres.c:880
+msgid "Spin button"
+msgstr ""
+
+#: ../srcore/srpres.c:881
+msgid "TRM"
+msgstr ""
+
+#: ../srcore/srpres.c:881
+msgid "TERMINAL"
+msgstr "پایانه"
+
+#: ../srcore/srpres.c:881
+msgid "Terminal"
+msgstr "پایانه"
+
+#: ../srcore/srpres.c:882
+msgid "EXT"
+msgstr ""
+
+#: ../srcore/srpres.c:882
+msgid "EXTENDED"
+msgstr ""
+
+#: ../srcore/srpres.c:882
+msgid "Extended"
+msgstr ""
+
+#: ../srcore/srpres.c:883
+msgid "TLI"
+msgstr ""
+
+#: ../srcore/srpres.c:883
+msgid "TABLE LINE"
+msgstr "سطر جدول"
+
+#: ../srcore/srpres.c:883
+msgid "Table line"
+msgstr "سطر جدول"
+
+#: ../srcore/srpres.c:884
+msgid "TABLE COLUMNS HEADER"
+msgstr "سرستون جدول"
+
+#: ../srcore/srpres.c:884
+msgid "Table columns header"
+msgstr "سرستون جدول"
+
+#: ../srcore/srpres.c:885
+msgid "TIT"
+msgstr ""
+
+#: ../srcore/srpres.c:885
+msgid "TITLE BAR"
+msgstr "نوار عنوان"
+
+#: ../srcore/srpres.c:885
+msgid "Title bar"
+msgstr "نوار عنوان"
+
+#: ../srcore/srpres.c:886
+msgid "EDB"
+msgstr ""
+
+#: ../srcore/srpres.c:886
+msgid "EDIT BAR"
+msgstr "نوار ویرایش"
+
+#: ../srcore/srpres.c:886
+msgid "Edit bar"
+msgstr "نوار ویرایش"
+
+#: ../srcore/srspc.c:445
+#, c-format
+msgid "Incorrect parameters for voice \"%s%s\""
+msgstr "پارامترهای نادرست برای صدای «%s%s»"
+
+#: ../srcore/srspc.c:490
+#, c-format
+msgid "failed to send to speech next string \"%s\""
+msgstr "ارسال رشته‌ی بعدی «%s» به گفتار شکست خورد"
+
+#: ../srcore/srspc.c:556
+#, c-format
+msgid "could not create/modify voice \"%s\""
+msgstr "ایجاد/تغییر صدای «%s» ممکن نیست"
+
+#: ../srcore/srspc.c:717
+#, c-format
+msgid "voice \"%s\" will sound this way"
+msgstr "صدای «%s» به این صورت شنیده خواهد شد"
+
+#: ../srcore/srspc.c:722
+#, c-format
+msgid "could not test voice \"%s\""
+msgstr "آزمایش صدای «%s» ممکن نیست"
+
+#: ../srcore/srspc.c:811
+#, c-format
+msgid "value not supported for speech count mode \"%s\""
+msgstr ""
+
+#: ../srcore/srspc.c:847
+#, c-format
+msgid "value not supported for speech modifiers type \"%s\""
+msgstr ""
+
+#: ../srcore/srspc.c:883
+#, c-format
+msgid "value not supported for speech cursors type \"%s\""
+msgstr ""
+
+#: ../srcore/srspc.c:919
+#, c-format
+msgid "value not supported for speech spaces type \"%s\""
+msgstr ""
+
+#: ../srcore/srspc.c:955
+#, c-format
+msgid "value not supported for speech dictionary type \"%s\""
+msgstr ""
+
+#: ../srcore/srspc.c:992
+#, c-format
+msgid "value not supported for speech text echo type \"%s\""
+msgstr ""
+
+#: ../srcore/srspc.c:1011
+msgid "Tilde"
+msgstr "تیلدا"
+
+#: ../srcore/srspc.c:1011
+msgid "Tildaes"
+msgstr "تیلداها"
+
+#: ../srcore/srspc.c:1012
+msgid "Exclamation"
+msgstr "علامت تعجب"
+
+#: ../srcore/srspc.c:1012
+msgid "Exclamations"
+msgstr "علامت تعجب‌ها"
+
+#: ../srcore/srspc.c:1013
+msgid "At"
+msgstr ""
+
+#: ../srcore/srspc.c:1013
+msgid "Ats"
+msgstr ""
+
+#: ../srcore/srspc.c:1014
+msgid "Hash"
+msgstr ""
+
+#: ../srcore/srspc.c:1014
+msgid "Hashes"
+msgstr ""
+
+#: ../srcore/srspc.c:1015
+msgid "Dollar"
+msgstr "دلار"
+
+#: ../srcore/srspc.c:1015
+msgid "Dollars"
+msgstr "دلارها"
+
+#: ../srcore/srspc.c:1016
+msgid "Percent"
+msgstr "درصد"
+
+#: ../srcore/srspc.c:1016
+msgid "Percents"
+msgstr "درصدها"
+
+#: ../srcore/srspc.c:1017
+msgid "Caret"
+msgstr ""
+
+#: ../srcore/srspc.c:1017
+msgid "Carets"
+msgstr ""
+
+#: ../srcore/srspc.c:1018
+msgid "And"
+msgstr ""
+
+#: ../srcore/srspc.c:1018
+msgid "Ands"
+msgstr ""
+
+#: ../srcore/srspc.c:1019
+msgid "Asterisk"
+msgstr "ستاره"
+
+#: ../srcore/srspc.c:1019
+msgid "Asterisks"
+msgstr "ستاره‌ها"
+
+#: ../srcore/srspc.c:1020
+msgid "Left Paranthesis"
+msgstr "پرانتزهای چپ"
+
+#: ../srcore/srspc.c:1021
+msgid "Right Paranthesis"
+msgstr "پرانترهای راست"
+
+#: ../srcore/srspc.c:1022
+msgid "Underscore"
+msgstr ""
+
+#: ../srcore/srspc.c:1022
+msgid "Underscores"
+msgstr ""
+
+#: ../srcore/srspc.c:1023
+msgid "Plus"
+msgstr "جمع"
+
+#: ../srcore/srspc.c:1023
+msgid "Pluses"
+msgstr "جمع‌ها"
+
+#: ../srcore/srspc.c:1024
+msgid "Equal"
+msgstr "مساوی"
+
+#: ../srcore/srspc.c:1024
+msgid "Equals"
+msgstr "مساوی‌ها"
+
+#: ../srcore/srspc.c:1025
+msgid "Minus"
+msgstr "تفریق"
+
+#: ../srcore/srspc.c:1025
+msgid "Minuses"
+msgstr "تفریق‌ها"
+
+#: ../srcore/srspc.c:1026
+msgid "Quote"
+msgstr "نقل‌قول"
+
+#: ../srcore/srspc.c:1026
+msgid "Quotes"
+msgstr "نقل‌قول‌ها"
+
+#: ../srcore/srspc.c:1027
+msgid "Left Bracket"
+msgstr ""
+
+#: ../srcore/srspc.c:1027
+msgid "Left Brackets"
+msgstr ""
+
+#: ../srcore/srspc.c:1028
+msgid "Right Bracket"
+msgstr ""
+
+#: ../srcore/srspc.c:1028
+msgid "Right Brackets"
+msgstr ""
+
+#: ../srcore/srspc.c:1029
+msgid "Left Brace"
+msgstr ""
+
+#: ../srcore/srspc.c:1029
+msgid "Left Braces"
+msgstr ""
+
+#: ../srcore/srspc.c:1030
+msgid "Right Brace"
+msgstr ""
+
+#: ../srcore/srspc.c:1030
+msgid "Right Braces"
+msgstr ""
+
+#: ../srcore/srspc.c:1031
+msgid "Semicolon"
+msgstr "ویرگول‌نقطه"
+
+#: ../srcore/srspc.c:1031
+msgid "Semicolons"
+msgstr "ویرگول‌نقطه‌ها"
+
+#: ../srcore/srspc.c:1032
+msgid "Colon"
+msgstr "دونقطه"
+
+#: ../srcore/srspc.c:1032
+msgid "Colons"
+msgstr "دونقطه‌ها"
+
+#: ../srcore/srspc.c:1033
+msgid "Double quote"
+msgstr ""
+
+#: ../srcore/srspc.c:1033
+msgid "Double quotes"
+msgstr ""
+
+#: ../srcore/srspc.c:1034
+msgid "Apostrophe"
+msgstr "آپاستروف"
+
+#: ../srcore/srspc.c:1034
+msgid "Apostrophes"
+msgstr "آپاستروف‌ها"
+
+#: ../srcore/srspc.c:1035
+msgid "Back Slash"
+msgstr ""
+
+#: ../srcore/srspc.c:1035
+msgid "Back Slashes"
+msgstr ""
+
+#: ../srcore/srspc.c:1036
+msgid "Bar"
+msgstr "نوار"
+
+#: ../srcore/srspc.c:1036
+msgid "Bars"
+msgstr "نوارها"
+
+#: ../srcore/srspc.c:1037
+msgid "Greater"
+msgstr "بزرگ‌تر"
+
+#: ../srcore/srspc.c:1037
+msgid "Greaters"
+msgstr "بزرگ‌ترها"
+
+#: ../srcore/srspc.c:1038
+msgid "Less"
+msgstr "کوچک‌تر"
+
+#: ../srcore/srspc.c:1038
+msgid "Lesses"
+msgstr "کوچک‌ترها"
+
+#: ../srcore/srspc.c:1039
+msgid "Comma"
+msgstr "ویرگول"
+
+#: ../srcore/srspc.c:1039
+msgid "Commas"
+msgstr "ویرگول‌ها"
+
+#: ../srcore/srspc.c:1040
+msgid "Dot"
+msgstr "نقطه"
+
+#: ../srcore/srspc.c:1040
+msgid "Dots"
+msgstr "نقطه‌ها"
+
+#: ../srcore/srspc.c:1041
+msgid "Slash"
+msgstr ""
+
+#: ../srcore/srspc.c:1041
+msgid "Slashes"
+msgstr ""
+
+#: ../srcore/srspc.c:1042
+msgid "Questions"
+msgstr "سئوال‌ها"
+
+#: ../srcore/srspc.c:1116
+#, c-format
+msgid "value not supported for speech punctuation type \"%s\""
+msgstr ""
+
+#: ../srcore/srspc.c:1382
+msgid "Unable to initialize hashtable"
+msgstr ""
+
+#: ../srcore/srspc.c:1388
+msgid "Unable to load dictionary from gconf"
+msgstr "بار کردن شاخه از gconf ممکن نشد"
+
+#: ../srcore/srspc.c:1619
+msgid "speech initialization succeded"
+msgstr "راه‌اندازی گفتار با موفقیت انجام شد"
+
+#: ../srcore/srspc.c:1621
+msgid "Speech restored"
+msgstr "گفتار بازیابی شد"
+
+#: ../srcore/srspc.c:1625
+msgid "speech initialization failed"
+msgstr "راه‌اندازی گفتار شکست خورد"
+
+#: ../srcore/srspc.c:1824
+msgid "enter"
+msgstr "ورود"
+
+#: ../srcore/srspc.c:1907
+#, c-format
+msgid "can not find \"%s\" voice. use default voice"
+msgstr "صدای «%s» پیدا نشد. استفاده از صدای پیش‌فرض"
+
+#: ../srcore/srspc.c:1924
+msgid "voices pitch will be set to default value"
+msgstr ""
+
+#: ../srcore/srspc.c:1926
+msgid "voices pitch will be decreased"
+msgstr ""
+
+#: ../srcore/srspc.c:1928
+msgid "voices pitch will be increased"
+msgstr ""
+
+#: ../srcore/srspc.c:1972
+msgid "voices rate will be set to default value"
+msgstr "سرعت صداها روی مقدار پیش‌فرض تنظیم خواهدشد"
+
+#: ../srcore/srspc.c:1974
+msgid "voices rate will be decreased"
+msgstr "سرعت صداها کاهش خواهد یافت"
+
+#: ../srcore/srspc.c:1976
+msgid "voices rate will be increased"
+msgstr "سرعت صداها افزایش خواهد یافت"
+
+#: ../srcore/srspc.c:2021
+msgid "voices volume will be set to default value"
+msgstr "بلندی صداها روی مقدار پیش‌فرض تنظیم خواهد شد"
+
+#: ../srcore/srspc.c:2023
+msgid "voices volume will be decreased"
+msgstr "بلندی صداها کاهش خواهد یافت"
+
+#: ../srcore/srspc.c:2025
+msgid "voices volume will be increased"
+msgstr "بلندی صداها افزایش خواهد یافت"
+
+#: ../srcore/srspc.c:2151
+#, c-format
+msgid "no support for speech key \"%s\""
+msgstr "کلید گفتار «%s» پشتیبانی نمی‌شود"

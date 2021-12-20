@@ -1,0 +1,5032 @@
+# translation of gnopernicus.HEAD.po to Nepali
+# This file is distributed under the same license as the PACKAGE package.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER.
+# Kapil Timilsina   <lipak21@gmail.com>, 2005.
+# Shiva Prasad Pokharel <pokharelshiva@hotmail.com>, 2005.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnopernicus.HEAD\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2005-04-22 05:38+0000\n"
+"PO-Revision-Date: 2005-05-26 12:46+0545\n"
+"Last-Translator: Shiva Prasad Pokharel <pokharelshiva@hotmail.com>\n"
+"Language-Team: Nepali <info@mpp.org.np>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals= 2;plural=(n!=1)\n"
+"X-Generator: KBabel 1.9.1\n"
+
+#: ../braille/test/remote.c:548
+msgid "Braille remote"
+msgstr "अन्धलिपि उपकरण"
+
+#: ../brlmon/brlmon.c:196
+msgid "Braille monitor"
+msgstr "अन्धलिपि मोनिटर"
+
+#: ../brlmon/brlmon.c:325 ../brlmon/brlmon.c:333
+#, c-format
+msgid "Invalid port number: %d."
+msgstr "खारिज पोर्ट नम्बर: %d."
+
+#: ../brlmon/brlmon.c:326 ../brlmon/brlmon.c:334
+msgid "port_no = [1025 - 30000]."
+msgstr "पोर्ट_नम्बर = [१०२५ - ३००००]."
+
+#: ../brlmon/brlmon.c:520
+msgid "Can not open socket!"
+msgstr "आधार खोल्न सकिँदैन!"
+
+#: ../brlmon/brlmon.c:543
+#, c-format
+msgid "Can not bind port number %d."
+msgstr "पोर्ट नम्बर बाँध्न सकिँदैन %d."
+
+#: ../brlmon/brlmon.c:547
+#, c-format
+msgid "Waiting for data on port UDP %u."
+msgstr "तथ्याङ्कमा पोर्ट कुर्नु युडिपि %u."
+
+#: ../brlmon/brlmonui.c:225 ../gnopi/gnopiconf.c:43
+msgid "Failed to init gconf client."
+msgstr "जिकन्फको ग्राहक इनिट गर्न असफल "
+
+#: ../brlmon/brlmonui.c:234 ../srconf/libsrconf/libsrconf.c:418
+msgid "Failed to add directory."
+msgstr "संचालक जोड्न असफल."
+
+#: ../brlmon/brlmonui.c:246 ../gnopi/kbconf.c:79 ../gnopi/spconf.c:95
+#: ../srconf/libsrconf/libsrconf.c:431
+msgid "Failed to add notify."
+msgstr "सूचना जोड्न असफल."
+
+#: ../brlmon/brlmonui.c:261 ../gnopi/gnopiconf.c:145
+#, c-format
+msgid "Expected key: %s"
+msgstr "अनुमानित कुञ्जी: %s"
+
+#: ../brlmon/brlmonui.c:301
+#, c-format
+msgid "Failed to set value: %d"
+msgstr "योग्यता तयार गर्न असफल: %d"
+
+#: ../brlmon/brlmonui.c:342 ../brlmon/brlmonui.c:444 ../gnopi/gnopiconf.c:355
+#: ../gnopi/gnopiconf.c:409 ../gnopi/gnopiconf.c:560 ../gnopi/gnopiconf.c:733
+#, c-format
+msgid "Invalid type of key: %s."
+msgstr "कुञ्जी प्रकारको खारिज: %s."
+
+#: ../brlmon/brlmonui.c:345 ../brlmon/brlmonui.c:364
+#, c-format
+msgid "Failed to set int value: %d."
+msgstr "पूर्णाङ्क योग्यता तयार गर्न असफल: %d."
+
+#: ../brlmon/brlmonui.c:358 ../brlmon/brlmonui.c:459
+#, c-format
+msgid "Failed to get value: %s."
+msgstr "योग्यता पाउन असफल: %s."
+
+#: ../brlmon/brlmonui.c:403 ../gnopi/gnopiconf.c:357 ../gnopi/gnopiconf.c:375
+#: ../gnopi/gnopiconf.c:562 ../gnopi/gnopiconf.c:578
+#, c-format
+msgid "Failed to set value: %d."
+msgstr "योग्यता तयार गर्न असफल: %d."
+
+#: ../brlmon/brlmonui.c:447 ../brlmon/brlmonui.c:462
+#, c-format
+msgid "Failed to set boolean value: %d."
+msgstr "बुलेनको योग्यता तयार गर्न असफल: %d."
+
+#: ../brlmon/brlmonui.c:501 ../gnopi/gnopiconf.c:496 ../gnopi/gnopiconf.c:509
+#, c-format
+msgid "Failed to set value: %s."
+msgstr "योग्यता तयार गर्न असफल: %s."
+
+#: ../brlmon/brlmonui.c:535
+#, c-format
+msgid "Failed to get string value: %s."
+msgstr "स्ट्रिङको मान पाउन असफल: %s"
+
+#: ../brlmon/brlmonui.c:539 ../brlmon/brlmonui.c:549
+#, c-format
+msgid "Failed to set string value: %s."
+msgstr "स्ट्रिङको मान तयार गर्न असफल:  %s"
+
+#: ../brlmon/brlmonui.c:583 ../gnopi/bmui.c:297
+#, c-format
+msgid "Invalid modetype: %s."
+msgstr "खारिज विधि नमूना: %s."
+
+#: ../brlmon/brlmonui.c:635
+#, c-format
+msgid "%s font not installed."
+msgstr "%s फन्ट जडित भएको छैन"
+
+#. *
+#. * bmui_load_colors
+#. *
+#. * Load text colors.
+#. *
+#. * returns:
+#. *
+#: ../brlmon/brlmonui.c:639 ../gnopi/bmui.c:251
+msgid "Can not parse color string."
+msgstr "रङ्को तार पदच्छेद गर्न सकिंदैन."
+
+#: ../brlmon/brlmonui.c:1112
+msgid "Status"
+msgstr "स्थिति"
+
+#: ../brlmon/brlmonui.c:1319
+#, c-format
+msgid "Too many cells on display. [Max %d]"
+msgstr "धेरै खण्ड प्रदर्शनमा. [Max %d]"
+
+#: ../brlmon/brlmonui.c:1320
+#, c-format
+msgid "Load default display size. Line: %d Column: %d."
+msgstr "पूर्वनिर्धारित दृश्य आकार लोड गर्नुहोस्. रेख :%d ठाडो रेखा: %d."
+
+#. unsupported attribute
+#: ../brlmon/brlmonxml.c:84
+#, c-format
+msgid "BRLOUT attribute %s is not supported."
+msgstr "ब्रिलोउट बिशेषताहरु%s. लाई सहारा दिएन"
+
+#. unsupported attribute
+#: ../brlmon/brlmonxml.c:218
+#, c-format
+msgid "TEXT attribute %s is not supported."
+msgstr "पाठको बिशेषता  %s लाई सहारा दिएन"
+
+#: ../gnopi/bmconf.c:318
+msgid "Failed to set display size."
+msgstr "प्रदर्शक आकार तयार गर्न असफल."
+
+#: ../gnopi/bmconf.c:336
+msgid "Failed to set display position."
+msgstr "प्रदर्शक स्थान तयार गर्न असफल."
+
+#: ../gnopi/bmconf.c:368
+msgid "Failed to set display mode."
+msgstr "प्रदर्शक तरिका तयार गर्न असफल."
+
+#: ../gnopi/bmconf.c:392
+msgid "Failed to set dot type colors."
+msgstr "थोप्लो नमूनाको रङ्ग तयार गर्न असफल."
+
+#: ../gnopi/bmconf.c:409
+msgid "Failed to set font size."
+msgstr "फन्टको आकार तयार गर्न असफल."
+
+#: ../gnopi/bmui.c:328
+#, c-format
+msgid "Invalid position: %s."
+msgstr "खारिज स्थान: %s."
+
+#: ../gnopi/brlconf.c:282 ../gnopi/cmdmapconf.c:237 ../gnopi/coreconf.c:140
+#: ../gnopi/kbconf.c:126 ../gnopi/magconf.c:226 ../gnopi/spconf.c:158
+#: ../gnopi/spconf.c:1247
+msgid "Unable to allocate memory."
+msgstr "मेमोरी भाग लाउन असफल."
+
+#: ../gnopi/brlconf.c:388
+#, c-format
+msgid "Failed to set braille style: %s."
+msgstr "अन्धलिपिको तरिका तयार गर्न असफल: %s."
+
+#: ../gnopi/brlconf.c:397
+#, c-format
+msgid "Failed to set braille cursor style: %s."
+msgstr "अन्धलिपिको चिन्ह तरीका तयार गर्न असफल: %s."
+
+#: ../gnopi/brlconf.c:406
+#, c-format
+msgid "Failed to set attribute settings: %d."
+msgstr "बिशेषता जडित गर्न असफल: %d."
+
+#: ../gnopi/brlconf.c:415
+#, c-format
+msgid "Failed to set braille device: %s."
+msgstr "अन्धलिपि साधन तयार गर्न असफल: %s."
+
+#: ../gnopi/brlconf.c:424
+#, c-format
+msgid "Failed to set fill character: %s."
+msgstr "प्रकार भर्न तयार नमूना असफल: %s."
+
+#: ../gnopi/brlconf.c:433
+#, c-format
+msgid "Failed to set serial port number: %d."
+msgstr "पोर्ट नम्बरको श्रेणी तयार गर्न असफल: %d."
+
+#: ../gnopi/brlconf.c:443
+#, c-format
+msgid "Failed to set translation table: %s."
+msgstr "अनुवाद टेबल तयार गर्न असफल: %s."
+
+#: ../gnopi/brlconf.c:452
+#, c-format
+msgid "Failed to set optical sensor: %d."
+msgstr "चक्षुकी चेतना तयार गर्न असफल: %d."
+
+#: ../gnopi/brlconf.c:461
+#, c-format
+msgid "Failed to set position sensor: %d."
+msgstr "स्थानको चेतना तयार गर्न असफल: %d."
+
+#: ../gnopi/brlconf.c:470
+#, c-format
+msgid "Failed to set status cell: %s."
+msgstr "खण्ड दर्जा तयार गर्न  असफल: %s."
+
+#: ../gnopi/brlconf.c:556 ../gnopi/brlui.c:446 ../gnopi/brlui.c:503
+#: ../gnopi/spvoiceui.c:613
+msgid "<none>"
+msgstr "<कुनै पनि>"
+
+#: ../gnopi/brlui.c:79
+msgid "American English"
+msgstr "अमेरिकन अङ्ग्रेजी"
+
+#: ../gnopi/brlui.c:80
+msgid "German"
+msgstr "जर्मन"
+
+#: ../gnopi/brlui.c:81
+msgid "Spanish"
+msgstr "स्पेनिस"
+
+#: ../gnopi/brlui.c:82
+msgid "Swedish"
+msgstr "स्विडिस"
+
+#. To translators: X = X Window System server
+#: ../gnopi/brlui.c:364
+msgid "X display's _terminal number:"
+msgstr "एक्सले प्रदर्शक _अन्तिम नम्बर:"
+
+#: ../gnopi/brlui.c:370
+#: ../gnopi/gnopi_files/Braille_Settings/braille_device.glade2.h:6
+msgid "_Port:"
+msgstr "_पोर्ट:"
+
+#: ../gnopi/brlui.c:678
+msgid "Language"
+msgstr "भाषा"
+
+#: ../gnopi/brlui.c:1273 ../gnopi/cmdmapui.c:475
+msgid "No selected command!"
+msgstr "आदेश छानिएको छैन!"
+
+#: ../gnopi/brlui.c:1297
+msgid "Invalid device key!"
+msgstr "खारिज उपकरण हल!"
+
+#: ../gnopi/brlui.c:1532 ../gnopi/brlui.c:1955 ../gnopi/cmdmapui.c:717
+#: ../gnopi/cmdmapui.c:1568 ../gnopi/cmdmapui.c:1588
+msgid "Commands"
+msgstr "आदेशहरु"
+
+#: ../gnopi/brlui.c:1687 ../gnopi/cmdmapui.c:1186
+msgid "No selected item to modify!"
+msgstr "परिवर्तन गर्न प्रकार छानिएको छैन!"
+
+#: ../gnopi/brlui.c:1699 ../gnopi/brlui.c:1779 ../gnopi/cmdmapui.c:1059
+#: ../gnopi/cmdmapui.c:1196
+msgid "Invalid selected item!"
+msgstr "छानिएको प्रकार खारिज!"
+
+#: ../gnopi/brlui.c:1767 ../gnopi/cmdmapui.c:1046
+msgid "No selected item to remove!"
+msgstr "हटाउनको लागि कुनै प्रकार छैन!"
+
+#: ../gnopi/brlui.c:1949
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:9
+msgid "Braille Keys"
+msgstr "अन्धलिपि हल"
+
+#: ../gnopi/cmdmapconf.c:462 ../gnopi/cmdmapconf.c:503
+msgid "Change commit error."
+msgstr "परिवर्तन गर्दा गल्ती."
+
+#: ../gnopi/cmdmapui.c:45
+msgid "decrease y scale"
+msgstr "श्रेणी वाइ घटाउनुस"
+
+#: ../gnopi/cmdmapui.c:46
+msgid "decrease x scale"
+msgstr "श्रेणी एक्स घटाउनुस"
+
+#: ../gnopi/cmdmapui.c:47
+msgid "increase y scale"
+msgstr "श्रेणी वाइ बढाउनुस"
+
+#: ../gnopi/cmdmapui.c:48
+msgid "increase x scale"
+msgstr "श्रेणी एक्स बढाउनुस"
+
+#: ../gnopi/cmdmapui.c:49
+msgid "lock xy scale"
+msgstr "श्रेणी एक्सवाइ बन्द गर्नुस"
+
+#: ../gnopi/cmdmapui.c:50
+msgid "smoothing toggle"
+msgstr "बिस्तारित टूगल"
+
+#: ../gnopi/cmdmapui.c:51
+msgid "cursor toggle"
+msgstr "कर्सर टूगल"
+
+#: ../gnopi/cmdmapui.c:52
+msgid "cursor on/off"
+msgstr "कर्सर खुला/बन्द"
+
+#: ../gnopi/cmdmapui.c:53
+msgid "cursor magnification on/off"
+msgstr "कर्सर म्याग्निफिकेसन खुला/बन्द्द"
+
+#: ../gnopi/cmdmapui.c:54
+msgid "decrease cursor size"
+msgstr "कर्सरको आकार घटाउनुस"
+
+#: ../gnopi/cmdmapui.c:55
+msgid "increase cursor size"
+msgstr "कर्सरको आकार बढाउनुस"
+
+#: ../gnopi/cmdmapui.c:56
+msgid "invert on/off"
+msgstr "खुला/बन्द राख्नुस्"
+
+#: ../gnopi/cmdmapui.c:57
+msgid "magnifier default"
+msgstr "अभिवर्धक पूर्वनिर्धारण"
+
+#: ../gnopi/cmdmapui.c:58
+msgid "crosshair on/off"
+msgstr "क्रसहेयर खुला/बन्द"
+
+#: ../gnopi/cmdmapui.c:59
+msgid "crosshair clip on/off"
+msgstr "क्रसहेयर क्लिप खुला/बन्द"
+
+#: ../gnopi/cmdmapui.c:60
+msgid "decrease crosshair size"
+msgstr "क्रसहेयरको आकार घटाउनुस"
+
+#: ../gnopi/cmdmapui.c:61
+msgid "increase crosshair size"
+msgstr "क्रसहेयरको आकार बढाउनुस"
+
+#: ../gnopi/cmdmapui.c:62
+msgid "automatic panning on/off"
+msgstr "स्वचालित प्यानिङ्ग खुला/बन्द"
+
+#: ../gnopi/cmdmapui.c:63
+msgid "mouse tracking toggle"
+msgstr "माउस ट्रयाकिङ्ग टूगल"
+
+#: ../gnopi/cmdmapui.c:64
+msgid "load magnifier defaults"
+msgstr "अभिवर्धक लोड पूर्वनिर्धारण"
+
+#: ../gnopi/cmdmapui.c:66
+msgid "decrease pitch"
+msgstr "पिच बढाउनुहोस"
+
+#: ../gnopi/cmdmapui.c:67
+msgid "increase pitch"
+msgstr "पिच घटाउनुहोस"
+
+#: ../gnopi/cmdmapui.c:68
+msgid "default pitch"
+msgstr "पिच पुर्व निर्धारण"
+
+#: ../gnopi/cmdmapui.c:69
+msgid "decrease rate"
+msgstr "रेट घटाउनुस"
+
+#: ../gnopi/cmdmapui.c:70
+msgid "increase rate"
+msgstr "रेट बढाउनुस"
+
+#: ../gnopi/cmdmapui.c:71
+msgid "default rate"
+msgstr "रेट पुर्व निर्धारण"
+
+#: ../gnopi/cmdmapui.c:72
+msgid "decrease volume"
+msgstr "आवाज घटाउनुस"
+
+#: ../gnopi/cmdmapui.c:73
+msgid "increase volume"
+msgstr "आवाज बढाउनुस"
+
+#: ../gnopi/cmdmapui.c:74
+msgid "default volume"
+msgstr "आवाज पूर्व निर्धारण"
+
+#: ../gnopi/cmdmapui.c:75
+msgid "speech default"
+msgstr "भाषण पुर्व निर्धारित"
+
+#: ../gnopi/cmdmapui.c:77
+msgid "goto parent"
+msgstr "प्रमूलमा जानुस"
+
+#: ../gnopi/cmdmapui.c:78
+msgid "goto child"
+msgstr "बच्चामा जानुस"
+
+#: ../gnopi/cmdmapui.c:79
+msgid "goto previous"
+msgstr "अघिल्लोमा जानुस"
+
+#: ../gnopi/cmdmapui.c:80
+msgid "goto next"
+msgstr "अर्कोमा जानुस्"
+
+#: ../gnopi/cmdmapui.c:81
+msgid "repeat last"
+msgstr "अन्तिमको दोहोर्याउनुस"
+
+#: ../gnopi/cmdmapui.c:82
+msgid "goto focus"
+msgstr "फोकसमा जानुस"
+
+#: ../gnopi/cmdmapui.c:83
+msgid "goto title"
+msgstr "शिर्षकमा जानुस"
+
+#: ../gnopi/cmdmapui.c:84
+msgid "goto menu"
+msgstr "मेनुमा जानुस"
+
+#: ../gnopi/cmdmapui.c:85
+msgid "goto toolbar"
+msgstr "उपकरणपट्टीमा जानुस"
+
+#: ../gnopi/cmdmapui.c:86
+msgid "goto statusbar"
+msgstr "स्थितिपट्टीमा जानुस"
+
+#: ../gnopi/cmdmapui.c:87
+msgid "widget surroundings"
+msgstr "वाइजेड सराउन्डिङ्ग"
+
+#: ../gnopi/cmdmapui.c:89
+msgid "goto caret"
+msgstr "लोपचिन्हमा जानुस"
+
+#: ../gnopi/cmdmapui.c:90
+msgid "goto first"
+msgstr "पहिलोमा जानुस्"
+
+#: ../gnopi/cmdmapui.c:91
+msgid "goto last"
+msgstr "अन्तिममा जानुस्"
+
+#: ../gnopi/cmdmapui.c:92
+msgid "change navigation mode"
+msgstr "नेभिगेसन मोड बदल्नुस"
+
+#: ../gnopi/cmdmapui.c:94
+msgid "toggle flat review/focus tracking mode"
+msgstr "टूगल फ्लयाट  समीक्षा गर्नुस/फोकस ट्र्याकिङ्ग मोड"
+
+#: ../gnopi/cmdmapui.c:95
+msgid "flat review"
+msgstr "फ्ल्याट समीक्षा गर्नुस"
+
+#: ../gnopi/cmdmapui.c:96
+msgid "window hierarchy"
+msgstr "विन्डो हाइरेर्की"
+
+#: ../gnopi/cmdmapui.c:97
+msgid "read whole window"
+msgstr "विन्डो पूर्ण पढ्नुस्"
+
+#: ../gnopi/cmdmapui.c:98
+msgid "detailed informations"
+msgstr "सूचना बिस्तारमा"
+
+#: ../gnopi/cmdmapui.c:99
+msgid "do default action"
+msgstr "पूर्व निर्धारित कार्य गर्नुहोस"
+
+#: ../gnopi/cmdmapui.c:100
+msgid "window overview"
+msgstr "विन्डो ओभरभ्यू"
+
+#: ../gnopi/cmdmapui.c:101
+msgid "find next"
+msgstr "पछिल्लो खोज्नुस्"
+
+#: ../gnopi/cmdmapui.c:102
+msgid "find set"
+msgstr "सेट खोज्नुस्"
+
+#: ../gnopi/cmdmapui.c:103
+msgid "attributes at caret"
+msgstr "क्यारेटमा विशेषता"
+
+#: ../gnopi/cmdmapui.c:104
+msgid "watch current object"
+msgstr "निश्चित बस्तुमा हेर्नुस"
+
+#: ../gnopi/cmdmapui.c:105 ../srcore/srctrl.c:1353
+msgid "unwatch all objects"
+msgstr "सबै बस्तुमा नहेर्नुस"
+
+#: ../gnopi/cmdmapui.c:107
+msgid "mouse left press"
+msgstr "माउस दायाँ थिच्नुस्"
+
+#: ../gnopi/cmdmapui.c:108
+msgid "mouse left click"
+msgstr "माउस बाँया थिच्नुस्"
+
+#: ../gnopi/cmdmapui.c:109
+msgid "mouse left release"
+msgstr "माउसको बाँया छोड्नुस"
+
+#: ../gnopi/cmdmapui.c:110
+msgid "mouse right press"
+msgstr "माउस बाँया थिच्नुस्"
+
+#: ../gnopi/cmdmapui.c:111
+msgid "mouse right click"
+msgstr "माउस दाँया क्लिक गर्नुस्"
+
+#: ../gnopi/cmdmapui.c:112
+msgid "mouse right release"
+msgstr "माउस दाँया छोड्नुस्"
+
+#: ../gnopi/cmdmapui.c:113
+msgid "mouse middle press"
+msgstr "माउस बीचको थिच्नुस्"
+
+#: ../gnopi/cmdmapui.c:114
+msgid "mouse middle release"
+msgstr "माउस बीचको छोड्नुस्"
+
+#: ../gnopi/cmdmapui.c:115
+msgid "mouse middle click"
+msgstr "माउस बीचको थिच्नुस्"
+
+#: ../gnopi/cmdmapui.c:116
+msgid "mouse goto current"
+msgstr "माउस निश्चितमा जानुहोस"
+
+#: ../gnopi/cmdmapui.c:118
+msgid "shutup"
+msgstr "बन्द गर्नुस्"
+
+#: ../gnopi/cmdmapui.c:119
+msgid "pause/resume"
+msgstr "स्थगित/सुचारु"
+
+#: ../gnopi/cmdmapui.c:121
+msgid "char left"
+msgstr "चार बाँया"
+
+#: ../gnopi/cmdmapui.c:122
+msgid "char right"
+msgstr "चार दाँया"
+
+#: ../gnopi/cmdmapui.c:123
+msgid "display left"
+msgstr "प्रदर्शन बाँया"
+
+#: ../gnopi/cmdmapui.c:124
+msgid "display right"
+msgstr "प्रदर्शन दाँया"
+
+#: ../gnopi/cmdmapui.c:126
+msgid "braille on/off"
+msgstr "अन्धलिपि खुला/बन्द"
+
+#: ../gnopi/cmdmapui.c:127
+msgid "speech on/off"
+msgstr "भाषण खुला/बन्द"
+
+#: ../gnopi/cmdmapui.c:128
+msgid "magnifier on/off"
+msgstr "अभिवर्धक खुला/बन्द"
+
+#: ../gnopi/cmdmapui.c:129
+msgid "braille monitor on/off"
+msgstr "अन्धलिपि मोनिटर खुला/बन्द"
+
+#: ../gnopi/cmdmapui.c:143
+msgid "A"
+msgstr "ए"
+
+#: ../gnopi/cmdmapui.c:144
+msgid "B"
+msgstr "बि"
+
+#: ../gnopi/cmdmapui.c:145
+msgid "C"
+msgstr "सि"
+
+#: ../gnopi/cmdmapui.c:146
+msgid "D"
+msgstr "डी"
+
+#: ../gnopi/cmdmapui.c:147
+msgid "E"
+msgstr "ई"
+
+#: ../gnopi/cmdmapui.c:148
+msgid "F"
+msgstr "एफ"
+
+#: ../gnopi/cmdmapui.c:149
+msgid "G"
+msgstr "जि"
+
+#: ../gnopi/cmdmapui.c:150
+msgid "H"
+msgstr "एच"
+
+#: ../gnopi/cmdmapui.c:151
+msgid "I"
+msgstr "आइ"
+
+#: ../gnopi/cmdmapui.c:152
+msgid "J"
+msgstr "जे"
+
+#: ../gnopi/cmdmapui.c:153
+msgid "K"
+msgstr "के"
+
+#: ../gnopi/cmdmapui.c:154
+msgid "L"
+msgstr "एल"
+
+#: ../gnopi/cmdmapui.c:155
+msgid "M"
+msgstr "एम"
+
+#: ../gnopi/cmdmapui.c:156
+msgid "N"
+msgstr "एन"
+
+#: ../gnopi/cmdmapui.c:157
+msgid "O"
+msgstr "ओ"
+
+#: ../gnopi/cmdmapui.c:158
+msgid "P"
+msgstr "पि"
+
+#: ../gnopi/cmdmapui.c:159
+msgid "Q"
+msgstr "क्वू"
+
+#: ../gnopi/cmdmapui.c:160
+msgid "R"
+msgstr "आर"
+
+#: ../gnopi/cmdmapui.c:161
+msgid "S"
+msgstr "एस"
+
+#: ../gnopi/cmdmapui.c:162
+msgid "T"
+msgstr "टि"
+
+#: ../gnopi/cmdmapui.c:163
+msgid "U"
+msgstr "यु"
+
+#: ../gnopi/cmdmapui.c:164
+msgid "V"
+msgstr "भि"
+
+#: ../gnopi/cmdmapui.c:165
+msgid "W"
+msgstr "डब्लु"
+
+#: ../gnopi/cmdmapui.c:166
+msgid "X"
+msgstr "एक्स"
+
+#: ../gnopi/cmdmapui.c:167
+msgid "Y"
+msgstr "वाइ"
+
+#: ../gnopi/cmdmapui.c:168
+msgid "Z"
+msgstr "जेट"
+
+#: ../gnopi/cmdmapui.c:169
+msgid "F1"
+msgstr "एफ१"
+
+#: ../gnopi/cmdmapui.c:170
+msgid "F2"
+msgstr "एफ२"
+
+#: ../gnopi/cmdmapui.c:171
+msgid "F3"
+msgstr "एफ३"
+
+#: ../gnopi/cmdmapui.c:172
+msgid "F4"
+msgstr "एफ४"
+
+#: ../gnopi/cmdmapui.c:173
+msgid "F5"
+msgstr "एफ५"
+
+#: ../gnopi/cmdmapui.c:174
+msgid "F6"
+msgstr "एफ६"
+
+#: ../gnopi/cmdmapui.c:175
+msgid "F7"
+msgstr "एफ७"
+
+#: ../gnopi/cmdmapui.c:176
+msgid "F8"
+msgstr "एफ८"
+
+#: ../gnopi/cmdmapui.c:177
+msgid "F9"
+msgstr "एफ९"
+
+#: ../gnopi/cmdmapui.c:178
+msgid "F10"
+msgstr "एफ१०"
+
+#: ../gnopi/cmdmapui.c:179
+msgid "F11"
+msgstr "एफ११"
+
+#: ../gnopi/cmdmapui.c:180
+msgid "F12"
+msgstr "एफ१२"
+
+#: ../gnopi/cmdmapui.c:181
+msgid "0"
+msgstr "०"
+
+#: ../gnopi/cmdmapui.c:182
+msgid "1"
+msgstr "१"
+
+#: ../gnopi/cmdmapui.c:183
+msgid "2"
+msgstr "२"
+
+#: ../gnopi/cmdmapui.c:184
+msgid "3"
+msgstr "३"
+
+#: ../gnopi/cmdmapui.c:185
+msgid "4"
+msgstr "४"
+
+#: ../gnopi/cmdmapui.c:186
+msgid "5"
+msgstr "५"
+
+#: ../gnopi/cmdmapui.c:187
+msgid "6"
+msgstr "६"
+
+#: ../gnopi/cmdmapui.c:188
+msgid "7"
+msgstr "७"
+
+#: ../gnopi/cmdmapui.c:189
+msgid "8"
+msgstr "८"
+
+#: ../gnopi/cmdmapui.c:190
+msgid "9"
+msgstr "९"
+
+#: ../gnopi/cmdmapui.c:191
+msgid "apostrophe"
+msgstr "एपोस्ट्रोफी"
+
+#: ../gnopi/cmdmapui.c:192
+msgid "backslash"
+msgstr "पक्षगामी स्ल्यास"
+
+#: ../gnopi/cmdmapui.c:193
+msgid "bracket left"
+msgstr "कोष्ठक बाँया"
+
+#: ../gnopi/cmdmapui.c:194
+msgid "bracket right"
+msgstr "कोष्ठक दाँया"
+
+#: ../gnopi/cmdmapui.c:195
+msgid "comma"
+msgstr "अल्पविराम"
+
+#: ../gnopi/cmdmapui.c:196
+msgid "equal"
+msgstr "बराबर"
+
+#: ../gnopi/cmdmapui.c:197
+msgid "grave"
+msgstr "ग्रेभ"
+
+#: ../gnopi/cmdmapui.c:198
+msgid "minus"
+msgstr "घटाउ"
+
+#: ../gnopi/cmdmapui.c:199
+msgid "period"
+msgstr "तालिका"
+
+#: ../gnopi/cmdmapui.c:200
+msgid "quote left"
+msgstr "उद्वरण चिन्ह बाँया"
+
+#: ../gnopi/cmdmapui.c:201
+msgid "semicolon"
+msgstr "अर्धविराम"
+
+#: ../gnopi/cmdmapui.c:202
+msgid "slash"
+msgstr "स्ल्यास"
+
+#: ../gnopi/cmdmapui.c:1133
+msgid "Invalid key or existent key."
+msgstr "खारिज कुञ्जी अथवा एक्जिस्टेन्ट कुञ्जी"
+
+#: ../gnopi/cmdmapui.c:1562
+msgid "Layer Keys"
+msgstr "तह कुञ्जीहरु"
+
+#: ../gnopi/cmdmapui.c:1582
+msgid "User Keys"
+msgstr "प्रयोगकर्ता कुञ्जीहरु"
+
+#: ../gnopi/coreconf.c:248
+#, c-format
+msgid "Failed to set exit val: %d."
+msgstr "निस्कने मान व्यवस्थापनमा असफलता: %d."
+
+#: ../gnopi/coreconf.c:290
+#, c-format
+msgid "Failed to set move mouse: %d."
+msgstr "माउस चलाउने ब्यवस्थापनमा असफलता: %d."
+
+#: ../gnopi/coreconf.c:299
+#, c-format
+msgid "Failed to set simulate click: %d."
+msgstr "सिमुलेट क्लिक ब्यवस्थापनमा असफलता: %d."
+
+#: ../gnopi/coreconf.c:308
+#, c-format
+msgid "Failed to set find text: %s."
+msgstr "पाठ खोज्ने व्यवस्थापन असफलता: %s."
+
+#: ../gnopi/coreconf.c:318
+#, c-format
+msgid "Failed to set magnifier status: %d."
+msgstr "अभिवर्धक स्थिति व्यवस्थापनमा असफलता: %d."
+
+#: ../gnopi/coreconf.c:327
+#, c-format
+msgid "Failed to set speech status: %d."
+msgstr "भाषण स्थिति ब्यवस्थापनमा असफलता: %d."
+
+#: ../gnopi/coreconf.c:336
+#, c-format
+msgid "Failed to set braille status: %d."
+msgstr "अन्धलिपि स्थिति ब्यवस्थापनमा असफलता: %d."
+
+#: ../gnopi/coreconf.c:345
+#, c-format
+msgid "Failed to set braille monitor status: %d."
+msgstr "अन्धलिपि मोनिटर स्थिति ब्यवस्थापनमा असफलता: %d."
+
+#: ../gnopi/coreconf.c:354
+#, c-format
+msgid "Failed to set minimize flag: %d."
+msgstr "झण्डा घटाउने ब्यवस्थापनमा असफलता: %d."
+
+#: ../gnopi/coreconf.c:363
+#, c-format
+msgid "Failed to set exit ack: %d."
+msgstr "निस्कने ऐक् ब्यवस्थापनमा असफलता: %d."
+
+#: ../gnopi/coreconf.c:372
+#, c-format
+msgid "Failed to set language: %s."
+msgstr "भाषा ब्यवस्थापनमा असफलता: %s."
+
+#: ../gnopi/coreconf.c:381
+#, c-format
+msgid "Failed to set screen review: %d."
+msgstr "स्क्रिन समीक्षा ब्यवस्थापनमा असफलता: %d."
+
+#: ../gnopi/defui.c:73
+#, c-format
+msgid "Are you sure you want to load default values for %s?"
+msgstr "के तपाई पूर्व निर्धारित योग्यता लोड गर्न चाहनुहुन्छ%s?"
+
+#: ../gnopi/defui.c:100
+msgid "braille"
+msgstr "अन्धलिपि"
+
+#: ../gnopi/defui.c:116
+msgid "Braille default setting loaded."
+msgstr "पूर्व निर्धारित अन्धलिपि सेटिङ लोडेड"
+
+#: ../gnopi/defui.c:125
+msgid "speech"
+msgstr "भाषण"
+
+#: ../gnopi/defui.c:133
+msgid "Speech default setting loaded."
+msgstr "पूर्व निर्धारित भाषण सेटिङ लोडेड"
+
+#: ../gnopi/defui.c:142
+msgid "magnifier"
+msgstr "अभिवर्धक"
+
+#: ../gnopi/defui.c:156
+msgid "Magnifier default setting loaded."
+msgstr "पूर्व निर्धारित अभिवर्धक सेटिङ लोडेड"
+
+#: ../gnopi/defui.c:165
+msgid "keyboard"
+msgstr "किबोर्ड"
+
+#: ../gnopi/defui.c:173
+msgid "Keyboard default setting loaded."
+msgstr "पूर्व निर्धारित किबोर्ड सेटिङ लोडेड"
+
+#: ../gnopi/defui.c:182
+msgid "braille monitor"
+msgstr "अन्धलिपि मोनिटर"
+
+#: ../gnopi/defui.c:189
+msgid "Braille monitor default setting loaded."
+msgstr "पूर्व निर्धारित अन्धलिपि मोनिटर सेटिङ लोडेड"
+
+#: ../gnopi/defui.c:198
+msgid "start up"
+msgstr "स्टार्ट अप"
+
+#: ../gnopi/defui.c:207
+msgid "Startup default setting loaded."
+msgstr "पूर्व निर्धारित स्टार्टअप सेटिङ लोडेड"
+
+#: ../gnopi/defui.c:217
+msgid "command map"
+msgstr "आदेश नक्सा"
+
+#: ../gnopi/defui.c:225
+msgid "Command map default setting loaded."
+msgstr "पूर्व निर्धारित आदेश नक्सा सेटिङ लोडेड"
+
+#: ../gnopi/defui.c:235
+msgid "presentation"
+msgstr "प्रिजेन्टेसन"
+
+#: ../gnopi/defui.c:241
+msgid "Presentation default setting loaded."
+msgstr "पूर्व निर्धारित प्रिजेन्टेसन सेटिङ लोडेड"
+
+#: ../gnopi/defui.c:250
+msgid "screen review"
+msgstr "स्क्रिन समीक्षा गर्नुहोस"
+
+#: ../gnopi/defui.c:256
+msgid "Screen review default setting loaded."
+msgstr "पूर्न निर्धारित स्क्रिन समीक्षा सेटिङ लोडेड"
+
+#: ../gnopi/defui.c:279
+msgid "all modules"
+msgstr "सबै मोड्युल्स"
+
+#: ../gnopi/defui.c:282
+msgid "All default settings loaded."
+msgstr "सबै पूर्व निर्धारित सेटिङ लोडेड"
+
+#: ../gnopi/genui.c:66
+#: ../gnopi/gnopi_files/General_Settings/general_settings.glade2.h:12
+msgid "_Braille"
+msgstr "_अन्धलिपि"
+
+#: ../gnopi/genui.c:69
+msgid "_Braille (unavailable)"
+msgstr "_अन्धलिपि (अनुपलब्ध)"
+
+#: ../gnopi/genui.c:74
+#: ../gnopi/gnopi_files/General_Settings/general_settings.glade2.h:13
+msgid "_Magnifier"
+msgstr "_अभिवर्धक"
+
+#: ../gnopi/genui.c:77
+msgid "_Magnifier (unavailable)"
+msgstr "_अभिवर्धक (अनुपलब्ध)"
+
+#: ../gnopi/genui.c:82
+#: ../gnopi/gnopi_files/General_Settings/general_settings.glade2.h:14
+msgid "_Speech"
+msgstr "_भाषण"
+
+#: ../gnopi/genui.c:85
+msgid "_Speech (unavailable)"
+msgstr "_भाषण (अनुपलब्ध)"
+
+#: ../gnopi/genui.c:90
+#: ../gnopi/gnopi_files/General_Settings/general_settings.glade2.h:4
+msgid "B_raille monitor"
+msgstr "बि_रेल मोनिटर"
+
+#: ../gnopi/genui.c:93
+msgid "B_raille monitor (unavailable)"
+msgstr "बि_रेल मोनिटर (अनुपलब्ध)"
+
+#: ../gnopi/gnopernicus.desktop.in.h:1
+msgid "Assistive Technologies for Blind and Visually Impaired"
+msgstr "एसिस्टिभ टेक्नोलोजिस् फर् ब्लाइन्ड एण्ड भिज्योली इम्पेयर्ड"
+
+#: ../gnopi/gnopernicus.desktop.in.h:2
+msgid "Screen Reader and Magnifier"
+msgstr "स्क्रिन रिडर र अभिवर्धक"
+
+#: ../gnopi/gnopi.c:302
+msgid "gnopernicus"
+msgstr "जिनोपेर्निकस्"
+
+#: ../gnopi/gnopi.c:309
+msgid "Gconf initialization failed."
+msgstr "जिकन्फ इनिसियलाइजेसन असफल"
+
+#: ../gnopi/gnopi.c:316
+msgid "Invalid parameters."
+msgstr "खारिज प्यारामिटर्स"
+
+#: ../gnopi/gnopi.c:322
+msgid "Multiple instances are NOT ALLOWED. This instance will end."
+msgstr "बहुविध प्रतिरुपहरु मनाही छ. यो प्रतिरुप समाप्त हुन्छ"
+
+#: ../gnopi/gnopi.c:328
+msgid "GTK initialization failed."
+msgstr "जि टि के इनिसियलाइजेसन असफल."
+
+#: ../gnopi/gnopi.c:334
+msgid "Can not create a new process."
+msgstr "नयाँ प्रकृया निर्माण गर्न सकिँदैन."
+
+#: ../gnopi/gnopi.c:344
+msgid "Exit gnopernicus."
+msgstr "जिनोपेर्निकस् छोड्नुस"
+
+#: ../gnopi/gnopi.c:352
+msgid "Gnopernicus initialization failed."
+msgstr "जिनोपेर्निकस् इनिसियलाइजेसन असफल"
+
+#: ../gnopi/gnopi.c:359
+msgid "Can not load .glade2 file"
+msgstr "ग्लेड२ फाइल लोड गर्न सकिँदैन"
+
+#. if (WIFSIGNALED (gn_srcore_status) != 0)
+#. sru_message ("signal no: %d", WTERMSIG (gn_srcore_status));
+#: ../gnopi/gnopi.c:663
+msgid "srcore exited."
+msgstr "स्क्रोर हट्यो"
+
+#: ../gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:1
+msgid "<b>Color</b>"
+msgstr "<b>रङ्ग</b>"
+
+#: ../gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:2
+msgid "<b>Font</b>"
+msgstr "<b>फन्ट</b>"
+
+#: ../gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:3
+msgid "<b>Mode Type</b>"
+msgstr "<b>मोड प्रकार</b>"
+
+#: ../gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:4
+msgid "<b>Position</b>"
+msgstr "<b>स्थान</b>"
+
+#: ../gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:5
+msgid "<b>Size</b>"
+msgstr "<b>आकार</b>"
+
+#: ../gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:6
+msgid "B_raille"
+msgstr "बि_रेल"
+
+#: ../gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:7
+msgid "Braille Monitor Preferences"
+msgstr "अन्धलिपि मोनिटर प्राथमिकता"
+
+#: ../gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:8
+msgid "Color selection for texts which use dot 7"
+msgstr "पाठको लागि रङ्ग छान्ने जसले थोप्लो ७ प्रयोग गर्छ"
+
+#: ../gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:9
+msgid "Color selection for texts which use dot 8"
+msgstr "पाठको लागि रङ्ग छान्ने जसले थोप्लो ८ प्रयोग गर्छ"
+
+#: ../gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:10
+msgid "Color selection for texts which use dots 7 and 8"
+msgstr "पाठको लागि रङ्ग छान्ने जसले थोप्लो ७ र ८ प्रयोग गर्छ"
+
+#: ../gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:11
+msgid "Colu_mns:"
+msgstr "कलु_म्न्स"
+
+#: ../gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:12
+msgid "Display at bottom of screen"
+msgstr "स्क्रिनको तल्लोमा प्रदर्शन"
+
+#: ../gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:13
+msgid "Display on top of screen"
+msgstr "स्क्रिको माथिलोमा प्रदर्शन"
+
+#: ../gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:14
+msgid "Display using braille font"
+msgstr "अन्धलिपि फन्ट प्रयोग गरी प्रदर्शन"
+
+#: ../gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:15
+msgid "Display using normal font"
+msgstr "साधारण फन्ट प्रयोग गरी प्रदर्शन"
+
+#: ../gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:16
+msgid "Display with both fonts"
+msgstr "दुबै फन्ट प्रयोग गरी प्रदर्शन"
+
+#: ../gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:17
+msgid "Dot 7:"
+msgstr "थोप्लो ७:"
+
+#: ../gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:18
+msgid "Dot 8:"
+msgstr "थोप्लो ८:"
+
+#: ../gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:19
+msgid "Dots 78:"
+msgstr "थोप्ला ७८:"
+
+#: ../gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:20
+msgid "Number of cell columns"
+msgstr "खण्ड स्तम्भको नम्बर"
+
+#: ../gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:21
+msgid "Number of cell lines"
+msgstr "खण्ड पङ्त्तिको नम्बर"
+
+#: ../gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:22
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:43
+msgid "Pick a color"
+msgstr "रङ्ग छान्नुस्"
+
+#: ../gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:23
+msgid "Size of font"
+msgstr "फन्टको आकार"
+
+#: ../gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:24
+msgid "Use system theme colors"
+msgstr "सिस्टम प्रणालीको विषयवस्तु रङ्ग चलाउनुस्"
+
+#: ../gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:25
+msgid "Use theme _system colors"
+msgstr "सिस्टम प्रणालीको विषयवस्तु रङ्ग चलाउनुस्"
+
+#: ../gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:26
+msgid "_Dual"
+msgstr "_दोहोरो"
+
+#: ../gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:27
+msgid "_Lines:"
+msgstr "_पङ्त्ति:"
+
+#: ../gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:28
+msgid "_Normal"
+msgstr "_साधारण"
+
+#: ../gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:29
+msgid "_Size:"
+msgstr "_आकार"
+
+#: ../gnopi/gnopi_files/Braille_Settings/attribute_settings.glade2.h:1
+msgid "Attributes"
+msgstr "उपाधि"
+
+#: ../gnopi/gnopi_files/Braille_Settings/attribute_settings.glade2.h:2
+msgid "_1. Dot 8"
+msgstr "_१. थोप्लो ८"
+
+#: ../gnopi/gnopi_files/Braille_Settings/attribute_settings.glade2.h:3
+msgid "_2. Dot 7"
+msgstr "_२. थोप्लो ७"
+
+#: ../gnopi/gnopi_files/Braille_Settings/attribute_settings.glade2.h:4
+msgid "_3. Dot 8 or 7"
+msgstr "_३. थोप्लो ८ अथवा ७"
+
+#: ../gnopi/gnopi_files/Braille_Settings/attribute_settings.glade2.h:5
+msgid "_4. Off"
+msgstr "_४. बन्द"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_device.glade2.h:1
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:1
+#: ../gnopi/gnopi_files/Find/find.glade2.h:2
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:1
+#: ../gnopi/gnopi_files/Presentation/presentation.glade2.h:1
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:3
+#: ../gnopi/gnopi_files/User_Properties/user_properties.glade2.h:1
+msgid "*"
+msgstr "*"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_device.glade2.h:2
+msgid "Braille Device"
+msgstr "अन्धलिपि यन्त्र"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_device.glade2.h:3
+msgid "Braille devices list"
+msgstr "अन्धलिपि यन्त्र सूँची"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_device.glade2.h:4
+msgid "Serial port number where the device is linked"
+msgstr "अनुक्रमा पोर्ट नम्बर जहाँ यन्त्र लिङ्क छ"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_device.glade2.h:5
+msgid "_Device:"
+msgstr "_यन्त्र:"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:2
+msgid "10 _Font size"
+msgstr "१० _फन्ट आकार"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:3
+msgid "11 _Activate script function \"OnPosSwitch\""
+msgstr "११ _सक्षम स्क्रिप्ट प्रकार्य\"अन पोस स्विच\""
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:4
+msgid "12 _Present attributes"
+msgstr "१२ _प्रस्तुती बिशेषताहरु"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:5
+msgid "<b>_Braille keys list</b>"
+msgstr "<b>_अन्धलिपि कुञ्जी सूची</b>"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:6
+msgid "Activate script function \"OnPosSwitch\""
+msgstr "सक्षम स्क्रिप्ट प्रकार्य\"अन पोस स्विच\""
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:7
+msgid "Add item in braille keys list"
+msgstr "चीज अन्धलिपि कुञ्जीको सूचीमा जोड्नुहोस"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:8
+msgid "Braille Display Key Mapping"
+msgstr "म्यापिङ्ग कुञ्जी अन्धलिपि प्रदर्शन"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:10
+msgid "Braille device keys list"
+msgstr "अन्धलिपि यन्त्र कुञ्जीहरुको सूची"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:11
+msgid "Braille keys list"
+msgstr "अन्धलिपि कुञ्जी सूची"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:12
+msgid "Command List"
+msgstr "आदेश सूची"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:13
+msgid "Command list"
+msgstr "आदेश सूची"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:14
+msgid "Font name"
+msgstr "फन्टको नाम"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:15
+msgid "Font size"
+msgstr "फन्टको आकार"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:16
+msgid "Font style"
+msgstr "फन्ट शैली"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:17
+msgid "Modify selected item"
+msgstr "छानिएको चीज परिमार्जन गर्नुहोस"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:18
+msgid "Move caret"
+msgstr "लोप चिन्ह चलाउनुहोस"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:19
+msgid "Move mouse and click left"
+msgstr "माउस चलाएर बाँया क्लिक गर्नुस्"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:20
+msgid "Move mouse and click left and right"
+msgstr "माउस चलाएर दाँया र बाँया क्लिक गर्नुस"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:21
+msgid "Move mouse and click right"
+msgstr "माउस चलाएर दाँया क्लिक गर्नुस्"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:22
+msgid "Only move mouse"
+msgstr "माउस मात्र चलाउनुस्"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:23
+msgid "Optical Sensors"
+msgstr "ओप्टिकल सेन्सर्स"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:24
+msgid "Optical sensors off"
+msgstr "अप्टिकल सेन्सर्स बन्द"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:25
+msgid "Position Sensors"
+msgstr "स्थान सेन्सर्स"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:26
+msgid "Position sensors off"
+msgstr "स्थान सेन्सर्स बन्द"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:27
+msgid "Present attributes"
+msgstr "बिशेषता प्रस्तुती"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:28
+msgid "Remove selected item from braille keys list"
+msgstr "छानिएको चीज अन्धलिपि सूची कुञ्जीबाट हटाउनुहोस"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:29
+msgid "Show X coordinate"
+msgstr "एक्स समन्वय देखाउनुहोस"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:30
+msgid "Show Y coordinate"
+msgstr "वाइ समन्वय देखाउनुहोस"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:31
+msgid "_0 Optical sensors off"
+msgstr "_० अप्टिकल सेन्सर्स बन्द"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:32
+msgid "_0 Position sensors off"
+msgstr "_० स्थान सेन्सर्स बन्द"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:33
+msgid "_1 Only move mouse"
+msgstr "_१ माउस मात्र चलाउनुस"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:34
+msgid "_2 Move mouse and click left"
+msgstr "_२ माउस चलाउनुस र बाँया क्लिक गर्नुस"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:35
+msgid "_3 Move mouse and click right"
+msgstr "_३ माउस चलाउनुस र दाँया क्लिक गर्नुस"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:36
+msgid "_4 Move mouse and click left or right"
+msgstr "_४ माउस चलाउनुस र दाँया अथवा बाँया क्लिक गर्नुस"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:37
+msgid "_5 Move caret"
+msgstr "_५ लोप चिन्ह चलाउनुहोस"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:38
+msgid "_6 Show X coordinate"
+msgstr "_६ एक्स समन्वय देखाउनुहोस"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:39
+msgid "_7 Show Y coordinate"
+msgstr "_७ वाइ समन्वय देखाउनुहोस"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:40
+msgid "_8 Font style"
+msgstr "_८ फन्ट शैली"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:41
+msgid "_9 Font name"
+msgstr "_९ फन्टको नाम"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:42
+msgid "_Commands:"
+msgstr "_आदेशहरु:"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:43
+msgid "_Device key:"
+msgstr "_यन्त्र कुञ्जी:"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:44
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:85
+#: ../gnopi/gnopi_files/User_Properties/user_properties.glade2.h:28
+msgid "_Modify"
+msgstr "_परिमार्जन गर्नुहोस"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_settings.glade2.h:1
+msgid "Braille Preferences"
+msgstr "अन्धलिपि प्राथमिकता"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_settings.glade2.h:2
+msgid "Close braille settings"
+msgstr "अन्धलिपि सेटिङ बन्द गर्नुहोस"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_settings.glade2.h:3
+msgid "Map function for display keys"
+msgstr "नक्सा प्रकार्य कुञ्जी प्रदर्शनको लागि"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_settings.glade2.h:4
+msgid "Select braille device"
+msgstr "अन्धलिपि यन्त्र सेटिङ"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_settings.glade2.h:5
+msgid "Select braille style 8/6 dots"
+msgstr "अन्धलिपि शैली ८/६ थोप्लो छान्नुस"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_settings.glade2.h:6
+msgid "Select cursor setting FullCell/UnderLined/NoCursor"
+msgstr "कर्सर सेटिङ छान्नुस पूराकक्ष/तलधर्को/कर्सर छैन"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_settings.glade2.h:7
+msgid "Select translation table for braille device"
+msgstr "अनुवाद तालिका अन्धलिपि यन्त्रको लागि छान्नुस"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_settings.glade2.h:8
+msgid "_1 Braille Device"
+msgstr "_१ अन्धलिपि यन्त्र"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_settings.glade2.h:9
+msgid "_2 Translation Table"
+msgstr "_२ अनुवाद तालिका"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_settings.glade2.h:10
+msgid "_3 Braille Style"
+msgstr "_३ अन्धलिपि शैली"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_settings.glade2.h:11
+msgid "_4 Cursor Preferences"
+msgstr "_४ कर्सर प्राथमिकता"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_settings.glade2.h:12
+msgid "_5 Braille Key Mapping"
+msgstr "_५ अन्धलिपि कुञ्जी म्यापिङ"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_style.glade2.h:1
+msgid "Braille Style"
+msgstr "अन्धलिपि शैली"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_style.glade2.h:2
+msgid "Use 6 dots"
+msgstr "थोप्लो ६ प्रयोग गर्नुस"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_style.glade2.h:3
+msgid "Use 8 dots"
+msgstr "थोप्लो ८ प्रयोग गर्नुस"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_style.glade2.h:4
+msgid "_6 Dot Braille"
+msgstr "_६ थोप्लो अन्धलिपि"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_style.glade2.h:5
+msgid "_8 Dot Braille"
+msgstr "_८ थोप्लो अन्धलिपि"
+
+#: ../gnopi/gnopi_files/Braille_Settings/cursor_settings.glade2.h:1
+msgid "Cursor Preferences"
+msgstr "कर्सर प्राथमिकता"
+
+#: ../gnopi/gnopi_files/Braille_Settings/cursor_settings.glade2.h:2
+msgid "Cursor on braille display is a full cell"
+msgstr "अन्धलिपि प्रदर्शनमा भएको कर्सर पूरा कक्ष हो"
+
+#: ../gnopi/gnopi_files/Braille_Settings/cursor_settings.glade2.h:3
+msgid "Cursor on braille display is an underline"
+msgstr "अन्धलिपि प्रदर्शनमा भएको कर्सर तलधर्को हो"
+
+#: ../gnopi/gnopi_files/Braille_Settings/cursor_settings.glade2.h:4
+msgid "No cursor on braille display"
+msgstr "अन्धलिपि प्रदर्शनमा कर्सर छैन"
+
+#: ../gnopi/gnopi_files/Braille_Settings/cursor_settings.glade2.h:5
+msgid "_Full cell cursor"
+msgstr "_पूरा कक्ष कर्सर"
+
+#: ../gnopi/gnopi_files/Braille_Settings/cursor_settings.glade2.h:6
+msgid "_No cursor"
+msgstr "_कर्सर छैन"
+
+#: ../gnopi/gnopi_files/Braille_Settings/cursor_settings.glade2.h:7
+msgid "_Underline cursor (dots 7 and 8)"
+msgstr "_तलधर्को कर्सर (थोप्लो ७ र ८)"
+
+#: ../gnopi/gnopi_files/Braille_Settings/translation_table.glade2.h:1
+msgid "Translation Table"
+msgstr "अनुवाद तालिका"
+
+#: ../gnopi/gnopi_files/Braille_Settings/translation_table.glade2.h:2
+msgid "Translation table list"
+msgstr "अनुवाद तालिका सूची"
+
+#: ../gnopi/gnopi_files/Braille_Settings/translation_table.glade2.h:3
+msgid "_Select language:"
+msgstr "_भाषा छान्नुस:"
+
+#: ../gnopi/gnopi_files/Find/find.glade2.h:1
+msgid "   "
+msgstr "..."
+
+#: ../gnopi/gnopi_files/Find/find.glade2.h:3
+msgid "<b>Fi_nd Text:</b>"
+msgstr "<b>पाठ खोज्नुस:</b>"
+
+#: ../gnopi/gnopi_files/Find/find.glade2.h:4
+msgid "<b>Find Attributes:</b>"
+msgstr "<b>विशेषता खोज्नुस:</b>"
+
+#: ../gnopi/gnopi_files/Find/find.glade2.h:5
+msgid "<b>Match</b>"
+msgstr "<b>जोडी</b>"
+
+#: ../gnopi/gnopi_files/Find/find.glade2.h:6
+msgid "<b>Scope</b>"
+msgstr "<b>स्कोप</b>"
+
+#: ../gnopi/gnopi_files/Find/find.glade2.h:7
+msgid "<b>Search For</b>"
+msgstr "<b>लागि खोज्नुस</b>"
+
+#: ../gnopi/gnopi_files/Find/find.glade2.h:8
+msgid "A_ll chosen attributes"
+msgstr "स_बै छानिएको विशेषताहरु"
+
+#: ../gnopi/gnopi_files/Find/find.glade2.h:9
+msgid "A_ny chosen attributes"
+msgstr "कु_नै छानिएको विशेषताहरु"
+
+#: ../gnopi/gnopi_files/Find/find.glade2.h:10
+msgid "A_ttribute"
+msgstr "वि_शेषता"
+
+#: ../gnopi/gnopi_files/Find/find.glade2.h:11
+msgid "Bold"
+msgstr "बाक्लो"
+
+#: ../gnopi/gnopi_files/Find/find.glade2.h:12
+msgid "Case _sensitive"
+msgstr "केस _संवेदनशिल"
+
+#: ../gnopi/gnopi_files/Find/find.glade2.h:13
+msgid "Case sensitive on/off"
+msgstr "केस संवेदनशिल खुला/बन्द"
+
+#: ../gnopi/gnopi_files/Find/find.glade2.h:14
+msgid "Italic"
+msgstr "छड्के"
+
+#: ../gnopi/gnopi_files/Find/find.glade2.h:15
+msgid "S_elected"
+msgstr "छा_निएको"
+
+#: ../gnopi/gnopi_files/Find/find.glade2.h:16
+msgid "Scope area is a desktop"
+msgstr "स्कोप एरिया डेक्सटप हो"
+
+#: ../gnopi/gnopi_files/Find/find.glade2.h:17
+msgid "Scope area is a window"
+msgstr "स्कोप एरिया विन्डो हो"
+
+#: ../gnopi/gnopi_files/Find/find.glade2.h:18
+msgid "Scope area is an application"
+msgstr "स्कोप एरिया अनुप्रयोग हो"
+
+#: ../gnopi/gnopi_files/Find/find.glade2.h:19
+msgid "Search Preferences"
+msgstr "प्राथमिकता खोज्नुस"
+
+#: ../gnopi/gnopi_files/Find/find.glade2.h:20
+msgid "Search criteria is a graphics"
+msgstr "मापदण्ड खोज्ने ग्राफिक्स हो"
+
+#: ../gnopi/gnopi_files/Find/find.glade2.h:21
+msgid "Search criteria is a text"
+msgstr "मापदण्ड खोज्ने पाठ हो"
+
+#: ../gnopi/gnopi_files/Find/find.glade2.h:22
+msgid "Search criteria is an attribute"
+msgstr "मापदण्ड खोज्ने विशेषता हो"
+
+#: ../gnopi/gnopi_files/Find/find.glade2.h:23
+msgid "Selected item"
+msgstr "छानिएको चीज"
+
+#: ../gnopi/gnopi_files/Find/find.glade2.h:24
+msgid "Stri_kethrough"
+msgstr "स्ट्राइ_कथ्रु"
+
+#: ../gnopi/gnopi_files/Find/find.glade2.h:25
+msgid "Strikethrough"
+msgstr "स्ट्राइकथ्रु"
+
+#: ../gnopi/gnopi_files/Find/find.glade2.h:26
+msgid "Te_xt"
+msgstr "पा_ठ"
+
+#: ../gnopi/gnopi_files/Find/find.glade2.h:27
+msgid "Text to search"
+msgstr "पाठ खोज्नका लागि"
+
+#: ../gnopi/gnopi_files/Find/find.glade2.h:28
+msgid "Underline"
+msgstr "तलधर्को"
+
+#: ../gnopi/gnopi_files/Find/find.glade2.h:29
+msgid "_Application"
+msgstr "_अनुप्रयोग"
+
+#: ../gnopi/gnopi_files/Find/find.glade2.h:30
+msgid "_Bold"
+msgstr "_बाक्लो"
+
+#: ../gnopi/gnopi_files/Find/find.glade2.h:31
+msgid "_Desktop"
+msgstr "_डेक्सटप"
+
+#: ../gnopi/gnopi_files/Find/find.glade2.h:32
+msgid "_Graphics"
+msgstr "_ग्राफिक्स"
+
+#: ../gnopi/gnopi_files/Find/find.glade2.h:33
+msgid "_Italic"
+msgstr "_छड्के"
+
+#: ../gnopi/gnopi_files/Find/find.glade2.h:34
+msgid "_Underline"
+msgstr "_तलधर्को"
+
+#: ../gnopi/gnopi_files/Find/find.glade2.h:35
+msgid "_Window"
+msgstr "_विन्डो"
+
+#: ../gnopi/gnopi_files/General_Settings/general_settings.glade2.h:1
+msgid "    "
+msgstr "...."
+
+#: ../gnopi/gnopi_files/General_Settings/general_settings.glade2.h:2
+msgid "<b>Active Components</b>"
+msgstr "<b>सक्रिय अवयवहरु</b>"
+
+#: ../gnopi/gnopi_files/General_Settings/general_settings.glade2.h:3
+msgid "<b>Startup</b>"
+msgstr "<b>स्टार्टअप</b>"
+
+#: ../gnopi/gnopi_files/General_Settings/general_settings.glade2.h:5
+msgid "Braille monitor on/off"
+msgstr "अन्धलिपि मोनिटर खुला/बन्द"
+
+#: ../gnopi/gnopi_files/General_Settings/general_settings.glade2.h:6
+msgid "Braille on/off"
+msgstr "अन्धलिपि खुला/बन्द"
+
+#: ../gnopi/gnopi_files/General_Settings/general_settings.glade2.h:7
+msgid "Magnifier on/off"
+msgstr "अभिवर्धक खुला/बन्द"
+
+#: ../gnopi/gnopi_files/General_Settings/general_settings.glade2.h:8
+msgid "Speech on/off"
+msgstr "भाषण खुला/बन्द"
+
+#: ../gnopi/gnopi_files/General_Settings/general_settings.glade2.h:9
+msgid "Start gnopernicus minimized"
+msgstr "जिनोपेर्निकस् शुरु घटाउनुस"
+
+#: ../gnopi/gnopi_files/General_Settings/general_settings.glade2.h:10
+msgid "Start m_inimized"
+msgstr "घटाउने शुरु"
+
+#: ../gnopi/gnopi_files/General_Settings/general_settings.glade2.h:11
+msgid "Startup Mode"
+msgstr "स्टार्टअप मोड"
+
+#: ../gnopi/gnopi_files/Keyboard_Mouse_Settings/keyboard_mouse_settings.glade2.h:1
+msgid "Mouse Preferences"
+msgstr "माउस प्राथमिकता"
+
+#: ../gnopi/gnopi_files/Keyboard_Mouse_Settings/keyboard_mouse_settings.glade2.h:2
+msgid "Simulate click on current object"
+msgstr "निश्चित वस्तुमा सिमुलेट क्लिक गर्नुस"
+
+#: ../gnopi/gnopi_files/Keyboard_Mouse_Settings/keyboard_mouse_settings.glade2.h:3
+msgid "Take mouse at current object"
+msgstr "निश्चित वस्तुमा माउस लग्नुस"
+
+#: ../gnopi/gnopi_files/Keyboard_Mouse_Settings/keyboard_mouse_settings.glade2.h:4
+msgid "_Simulate click on current object"
+msgstr "_निश्चित वस्तुमा सिमुलेट क्लिक गर्नुस"
+
+#: ../gnopi/gnopi_files/Keyboard_Mouse_Settings/keyboard_mouse_settings.glade2.h:5
+msgid "_Take mouse at current object"
+msgstr "_निश्चित वस्तुमा माउस लग्नुस"
+
+#: ../gnopi/gnopi_files/Load_Default/load_default.glade2.h:1
+msgid "Close \"Load Default Preferences\""
+msgstr "बन्द \"पूर्व निर्धारण लोड गर्नुस प्राथमिकता\""
+
+#: ../gnopi/gnopi_files/Load_Default/load_default.glade2.h:2
+msgid "Load Default Preferences"
+msgstr "पूर्व निर्धारण प्राथमिकता लोड गर।नुस"
+
+#: ../gnopi/gnopi_files/Load_Default/load_default.glade2.h:3
+msgid "Load Default Settings"
+msgstr "पूर्व निर्धारण सेटिङ लोड गर्नुस"
+
+#: ../gnopi/gnopi_files/Load_Default/load_default.glade2.h:4
+msgid "Load all defaults"
+msgstr "सबै पूर्व निर्धारण लोड गर्नुस"
+
+#: ../gnopi/gnopi_files/Load_Default/load_default.glade2.h:5
+msgid "Load braille defaults"
+msgstr "पूर्व निर्धारण अन्धलिपि लोड गर्नुस"
+
+#: ../gnopi/gnopi_files/Load_Default/load_default.glade2.h:6
+msgid "Load braille monitor defaults"
+msgstr "अन्धलिपि पूर्व निर्धारण मोनिटर लोड गर्नुस "
+
+#: ../gnopi/gnopi_files/Load_Default/load_default.glade2.h:7
+msgid "Load command map defaults"
+msgstr "पूर्व निर्धारण आदेश म्याप लोड गर्नुस"
+
+#: ../gnopi/gnopi_files/Load_Default/load_default.glade2.h:8
+msgid "Load magnifier defaults"
+msgstr "पूर्व निर्धारण अभिवर्धक लोड गर्नुस"
+
+#: ../gnopi/gnopi_files/Load_Default/load_default.glade2.h:9
+msgid "Load mouse defaults"
+msgstr "पूर्व निर्धारण माउस लोड गर्नुस"
+
+#: ../gnopi/gnopi_files/Load_Default/load_default.glade2.h:10
+msgid "Load presentation defaults"
+msgstr "पूर्व निर्धारण प्रिजेन्टेसन लोड गर्नुस"
+
+#: ../gnopi/gnopi_files/Load_Default/load_default.glade2.h:11
+msgid "Load screen review defaults"
+msgstr "स्क्रिन समीक्षा पूर्व निर्धारण लोड गर्नुस"
+
+#: ../gnopi/gnopi_files/Load_Default/load_default.glade2.h:12
+msgid "Load speech defaults"
+msgstr "पूर्व निर्धारण भाषण लोड गर्नुस"
+
+#: ../gnopi/gnopi_files/Load_Default/load_default.glade2.h:13
+msgid "Load startup mode defaults"
+msgstr "पूर्व निर्धारण मोड स्टार्टअप लोड गर्नुस"
+
+#: ../gnopi/gnopi_files/Load_Default/load_default.glade2.h:14
+msgid "_0 All"
+msgstr "_० सबै"
+
+#: ../gnopi/gnopi_files/Load_Default/load_default.glade2.h:15
+msgid "_1 Braille"
+msgstr "_१ अन्धलिपि"
+
+#: ../gnopi/gnopi_files/Load_Default/load_default.glade2.h:16
+msgid "_2 Speech"
+msgstr "_२ भाषण"
+
+#: ../gnopi/gnopi_files/Load_Default/load_default.glade2.h:17
+#: ../gnopi/gnopi_files/gnopi.glade2.h:33
+msgid "_3 Magnifier"
+msgstr "_३ अभिवर्धक"
+
+#: ../gnopi/gnopi_files/Load_Default/load_default.glade2.h:18
+msgid "_4 Keyboard"
+msgstr "_४ किबोर्ड"
+
+#: ../gnopi/gnopi_files/Load_Default/load_default.glade2.h:19
+#: ../gnopi/gnopi_files/gnopi.glade2.h:36
+msgid "_5 Braille Monitor"
+msgstr "_५ अन्धलिपि मोनिटर"
+
+#: ../gnopi/gnopi_files/Load_Default/load_default.glade2.h:20
+msgid "_6 Startup"
+msgstr "_६ स्टार्ट अप"
+
+#: ../gnopi/gnopi_files/Load_Default/load_default.glade2.h:21
+msgid "_7 Command Map"
+msgstr "_७ आदेश नक्सा"
+
+#: ../gnopi/gnopi_files/Load_Default/load_default.glade2.h:22
+msgid "_8 Presentation"
+msgstr "_८ प्रिजेन्टेसन"
+
+#: ../gnopi/gnopi_files/Load_Default/load_default.glade2.h:23
+msgid "_9 Screen Review"
+msgstr "_९ स्क्रिन समीक्षा गर्नुस"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:2
+msgid "<b>Border settings</b>"
+msgstr "<b>किनारा सेटिङ</b>"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:3
+msgid "<b>Cross-hair</b>"
+msgstr "<b>क्रस हेयर</b>"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:4
+msgid "<b>Cursor setting</b>"
+msgstr "<b>कर्सर सेटिङ</b>"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:5
+msgid "<b>Display screen</b>"
+msgstr "<b>स्क्रिन प्रदर्शन</b>"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:6
+msgid "<b>Focus tracking mode</b>"
+msgstr "<b>फोकस ट्र्याकिङ मोड</b>"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:7
+msgid "<b>Mo_use tracking mode</b>"
+msgstr "<b>मा_उस ट्र्याकिङ मोड</b>"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:8
+msgid "<b>S_moothing</b>"
+msgstr "b>स्मुथिङ</b>"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:9
+msgid "<b>Zoomer placement</b>"
+msgstr "b>जुमर स्थापन</b>"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:10
+msgid "<b>Zoomfactor</b>"
+msgstr "<b>जुमफ्याक्टर</b>"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:11
+msgid "<b>_Zoomer list</b>"
+msgstr "<b>_जुमर सूची</b>"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:12
+msgid "Bor_der size:"
+msgstr "कि_नारा आकार:"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:13
+msgid "Border c_olor:"
+msgstr "किनारा र_ङ्ग:"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:14
+msgid "Border color"
+msgstr "किनारा रङ्ग"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:15
+msgid "Border size"
+msgstr "किनारा आकार"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:16
+msgid "C_entered"
+msgstr "के_न्द्र"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:17
+msgid "C_ursor on/off"
+msgstr "क_र्सर खुला/बन्द"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:18
+msgid "Cross-ha_ir size:"
+msgstr "क्रस-हे_यर आकार:"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:19
+msgid "Cross-hair c_lip on/off"
+msgstr "क्रस हेयर क्लिप खुला/बन्द"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:20
+msgid "Cross-hair colo_r:"
+msgstr "क्रस-हेयर रङ्_ग:"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:21
+msgid "Cross-hair color in_verted"
+msgstr "क्रस-हेयर रङ्ग उ_ल्टो"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:22
+msgid "Cross-hair o_n/off"
+msgstr "क्रस-हेयर खु_ला/बन्द"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:23
+msgid "Crosshair clip on/off"
+msgstr "क्रसहेयर क्लिप खुला/बन्द"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:24
+msgid "Crosshair color"
+msgstr "क्रसहेयर रङ्ग"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:25
+msgid "Crosshair on/off"
+msgstr "क्रसहेयर खुला/बन्द"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:26
+msgid "Crosshair size"
+msgstr "क्रसहेयर आकार"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:27
+msgid "Cursor _size:"
+msgstr "कर्सर _आकार:"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:28
+msgid "Cursor c_olor:"
+msgstr "कर्सर र_ङ्ग:"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:29
+msgid "Cursor color"
+msgstr "कर्सर रङ्ग"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:30
+msgid "Cursor magnification"
+msgstr "कर्सर अभिवर्धकता"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:31
+msgid "Cursor on/off"
+msgstr "कर्सर खुला/बन्द"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:32
+msgid "Cursor size"
+msgstr "कर्सर आकार"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:33
+msgid "Display screen source"
+msgstr "स्क्रिन प्रदर्शन श्रोत"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:34
+msgid "Display screen target"
+msgstr "स्क्रिन प्रदर्शन निशाना"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:35
+msgid "Invert crosshair color"
+msgstr "क्रसहेयर रङ्ग उल्टो"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:36
+msgid "Invert on/off"
+msgstr "उल्टो खुला/बन्द"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:37
+msgid "Lock zoom _factor"
+msgstr "जुम _फ्याक्टरमा ताल्चा लगाउनुस"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:38
+msgid "Lock zoom factor"
+msgstr "जुम फ्याक्टरमा ताल्चा लगाउनुस"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:39
+msgid "Magnifier Preferences"
+msgstr "अभिवर्धक प्राथमिकताहरु"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:40
+msgid "Magnifier settings"
+msgstr "अभिवर्धक सेटिङ"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:41
+msgid "Mouse tracking type"
+msgstr "माउस ट्र्याकिङ प्रकार"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:42
+msgid "Panning on/off"
+msgstr "प्यानिङ्ग खुला/बन्द"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:44
+msgid "Set cursor separate from _magnification"
+msgstr "अभिवर्धकबाट कर्सर छुट्टै राख्ने ब्यवस्थापन गर्नुस"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:45
+msgid "Smoothing type"
+msgstr "स्मुथिङ प्रकार"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:46
+msgid "Tar_get:"
+msgstr "नि_शाना:"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:47
+msgid "Zoom factor X"
+msgstr "जुम फ्याक्टर एक्स"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:48
+msgid "Zoom factor Y"
+msgstr "जुम फ्याक्टर वाइ"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:49
+msgid "Zoom factor _X:"
+msgstr "जुम फ्याक्टर _एक्स:"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:50
+msgid "Zoom factor _Y:"
+msgstr "जुम फ्याक्टर _वाइ:"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:51
+msgid "Zoomer Options"
+msgstr "जुमर बिकल्पहरु"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:52
+msgid "Zoomer placement bottom"
+msgstr "जुमर स्थापन तल"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:53
+msgid "Zoomer placement left"
+msgstr "जुमर स्थापन बाँया"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:54
+msgid "Zoomer placement right"
+msgstr "जुमर स्थापन दाँया"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:55
+msgid "Zoomer placement top"
+msgstr "जुमर स्थापन माथी"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:56
+msgid "Zoomers list"
+msgstr "जुमर्स सूची"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:57
+msgid "_Add/Modify"
+msgstr "_परिमार्जन/जोड्नुस"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:58
+msgid "_Auto"
+msgstr "_स्वचालित"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:59
+msgid "_Bottom:"
+msgstr "_तल:"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:60
+msgid "_Invert"
+msgstr "_उल्टो"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:61
+msgid "_Left:"
+msgstr "_बाँया:"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:62
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:87
+msgid "_None"
+msgstr "_कुनै पनि"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:63
+msgid "_Panning"
+msgstr "_प्यानिङ"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:64
+msgid "_Remove"
+msgstr "_हटाउनुस"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:65
+msgid "_Right:"
+msgstr "_दाँया:"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:66
+msgid "_Source:"
+msgstr "_श्रोत:"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:67
+msgid "_Top:"
+msgstr "_माथी:"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:68
+#: ../gnopi/magui.c:49
+msgid "bilinear"
+msgstr "बिलिनियर"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:69
+#: ../gnopi/magui.c:61
+msgid "centered"
+msgstr "केन्द्र"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:70
+#: ../gnopi/magui.c:48 ../gnopi/magui.c:63
+msgid "none"
+msgstr "कुनै पनि"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:71
+#: ../gnopi/magui.c:62
+msgid "proportional"
+msgstr "समानुपातिक"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:72
+#: ../gnopi/magui.c:60
+msgid "push"
+msgstr "धकेल्नुस"
+
+#: ../gnopi/gnopi_files/Presentation/presentation.glade2.h:2
+msgid "Expert"
+msgstr "एक्सपर्ट"
+
+#: ../gnopi/gnopi_files/Presentation/presentation.glade2.h:3
+msgid "Mode selected:"
+msgstr "छानिएको मोड:"
+
+#: ../gnopi/gnopi_files/Presentation/presentation.glade2.h:4
+msgid "Presentation"
+msgstr "प्रिजेन्टेसन"
+
+#: ../gnopi/gnopi_files/Presentation/presentation.glade2.h:5
+#: ../srcore/default.xml.in.h:19 ../srcore/verbose.xml.in.h:19
+msgid "Verbose"
+msgstr "भर्बोस"
+
+#: ../gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:1
+msgid "<b>Horizontal flags</b>"
+msgstr "<b>होरिजन्टल झन्डाहरु</b>"
+
+#: ../gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:2
+msgid "<b>Vertical flags</b>"
+msgstr "<b>भर्टिकल झण्डाहरु</b>"
+
+#: ../gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:3
+msgid "Add all empty lines"
+msgstr "सबै खाली पङ्त्तिलाई जोड्नुस"
+
+#: ../gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:4
+msgid "Add all spaces"
+msgstr "सबै स्पेसहरु जोड्नुस"
+
+#: ../gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:5
+msgid "Add all spaces and empty lines"
+msgstr "सबै स्पेस र खाली पङ्त्तिहरु जोड्नुस"
+
+#: ../gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:6
+msgid "Add embedded empty lines"
+msgstr "एम्बेडेड खाली पङ्त्तिहरु जोड्नुस"
+
+#: ../gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:7
+msgid "Add embedded spaces"
+msgstr "एम्बेडेड स्पेसेस जोड्नुस"
+
+#: ../gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:8
+msgid "Add leading empty lines"
+msgstr "लिडिङ्ग खाली पङ्त्ति जोड्नुस"
+
+#: ../gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:9
+msgid "Add leading spaces"
+msgstr "लिडिङ्ग स्पेसेस जोड्नुस"
+
+#: ../gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:10
+msgid "Add trailing empty lines"
+msgstr "ट्रेलिङ खाली पङ्त्तिहरु जोड्नुस"
+
+#: ../gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:11
+msgid "Add trailing spaces"
+msgstr "ट्रेलिङ स्पेसेसजोड्नुस"
+
+#: ../gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:12
+msgid "All _horizontal"
+msgstr "सबै _होरिजेन्टल"
+
+#: ../gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:13
+msgid "All _vertical"
+msgstr "सबै _भर्टिकल"
+
+#: ../gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:14
+msgid "Count em_pty lines"
+msgstr "खा_ली पङ्त्तिहरु गणना गर्नुस"
+
+#: ../gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:15
+msgid "Count empty lines"
+msgstr "खाली पङ्त्तिहरु गणना गर्नुस"
+
+#: ../gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:16
+msgid "E_mbedded"
+msgstr "ए_म्बेडेड"
+
+#: ../gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:17
+msgid "Lea_ding"
+msgstr "लि_डिङ्ग"
+
+#: ../gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:18
+msgid "Screen Review Preferences"
+msgstr "स्क्रिन समीक्षा प्राथमिकताहरु"
+
+#: ../gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:19
+msgid "T_railing"
+msgstr "ट्रेलिङ्ग"
+
+#: ../gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:20
+msgid "_All flags"
+msgstr "_सबै झण्डाहरु"
+
+#: ../gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:21
+msgid "_Embedded"
+msgstr "_एम्बेडेड"
+
+#: ../gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:22
+msgid "_Leading"
+msgstr "_लिडिङ"
+
+#: ../gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:23
+msgid "_Trailing"
+msgstr "_ट्रेलिङ"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:2
+#, no-c-format
+msgid "%"
+msgstr "%"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:4
+msgid "<b><></b>"
+msgstr "<b><></b>"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:5
+msgid "<b>Absolute Value</b>"
+msgstr "<b>पूर्ण मान</b>"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:6
+msgid "<b>Driver</b>"
+msgstr "<b>चालक</b>"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:7
+msgid "<b>Properties</b>"
+msgstr "<b>गुणहरु</b>"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:8
+msgid "<b>Punctuation</b>"
+msgstr "<b>पङ्कचुएसन</b>"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:9
+msgid "<b>Relative Values</b>"
+msgstr "<b>सम्बन्धित मानहरु</b>"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:10
+msgid "<b>Text Echo</b>"
+msgstr "<b>पाठ प्रतिध्वनि</b>"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:11
+msgid "<b>Voice</b>"
+msgstr "<b>स्वर</b>"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:12
+msgid "<b>_Dictionary</b>"
+msgstr "<b>_शब्दकोष</b>"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:13
+msgid "<b>_Replacement:</b>"
+msgstr "<b>_बदल्नुस:</b>"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:14
+msgid "<b>_Voice list</b>"
+msgstr "<b>_स्वर सूची</b>"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:15
+msgid "<b>_Word:</b>"
+msgstr "<b>_शब्द:</b>"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:16
+msgid "A_ll"
+msgstr "सबै"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:17
+msgid "Activate pitch"
+msgstr "पिच सक्रिय पार्नुस"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:18
+msgid "Activate rate"
+msgstr "दर सक्रिय पार्नुहोस"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:19
+msgid "Activate volume"
+msgstr "आवाज सक्रिय पार्नुहोस"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:20
+msgid "Add / Modify Dictionary Entry"
+msgstr "जोड्नुस / शब्दकोष प्रविष्टि परिमार्जन गर्नुस"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:21
+msgid "Add / Modify Voice"
+msgstr "जोड्नुस / स्वर परिमार्जन गर्नुस"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:22
+msgid "Add new item in voices list"
+msgstr "नयाँ चीज स्वरको सूचीमा जोड्नुस"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:23
+msgid "Add new word in dictionary"
+msgstr "नयाँ शब्द शब्दकोषमा जोड्नुस"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:24
+msgid ""
+"Change for all voices the engine driver and the engine speaker with a "
+"selected driver and speaker"
+msgstr "छानिएको चालक र स्पिकर सँग इन्जिन चालक र इन्जिन स्पिकरको सबै स्वरहरु बदल्नुस"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:25
+msgid "Charac_ter"
+msgstr "प्रकार"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:26
+msgid "Count sym_bols"
+msgstr "प्रतीक गणना"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:27
+msgid "Count symbols"
+msgstr "प्रतीक गणना"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:28
+msgid "Decrease pitch"
+msgstr "पिच घटाउनुस"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:29
+msgid "Decrease rate"
+msgstr "दर घटाउनुस"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:30
+msgid "Decrease volume"
+msgstr "आवाज घटाउनुस"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:31
+msgid "Dictionary"
+msgstr "शब्दकोष"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:32
+msgid "Dictionary list"
+msgstr "शब्दकोष सूची"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:33
+msgid "Do not speak text"
+msgstr "पाठ नबोल्नुस"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:34
+msgid "Edit A_bsolute..."
+msgstr "पूर्ण मेटाउनुस..."
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:35
+msgid "Edit Absolute Voice Values"
+msgstr "पूर्ण स्वरका मानहरु मेटाउनुस"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:36
+msgid "Edit R_elative..."
+msgstr "सम्बन्धित मेटाउनुस..."
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:37
+msgid "Edit Relative Voice Values"
+msgstr "सम्बन्धित स्वर मानहरु हटाउनुस"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:38
+msgid "Edit dictionary"
+msgstr "शब्दकोष मेटाउनुस"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:39
+msgid "Edit parameter values absolutely"
+msgstr "पूर्ण परामिति मानहरु मेटाउनुस"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:40
+msgid "Edit parameter values relatively"
+msgstr "सम्बन्धित परामिति मानहरु मेटाउनुस"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:41
+msgid "Engine _driver:"
+msgstr "इन्जिन _चालक:"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:42
+msgid "Engine _speaker:"
+msgstr "इन्जिन _स्पिकर:"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:43
+msgid "Engine driver"
+msgstr "इन्जिन चालक"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:44
+msgid "Engine speaker"
+msgstr "इन्जिन स्पिकर"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:45
+msgid "Gnopernicus system voice"
+msgstr "जिनोपेर्निकस स्वर प्रणाली"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:46
+msgid "Hz"
+msgstr "हर्ज"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:47
+msgid "Ignore all punctuation"
+msgstr "सबै पङ्चुएसन हटाउनुस"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:48
+msgid "Increase pitch"
+msgstr "पिच बढाउनुस"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:49
+msgid "Increase rate"
+msgstr "दर बढाउनुस"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:50
+msgid "Increase volume"
+msgstr "आवाज बढाउनुस"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:51
+msgid "Made pitch sensitive for changing"
+msgstr "पिचलाई बदल्न संवेनसिल बनाउनुस"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:52
+msgid "Made rate sensitive for changing"
+msgstr "दरलाई बदल्न संवेदनसिल बनाउनुस"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:53
+msgid "Made volume sensitive for changing"
+msgstr "आवाजलाई बदल्न संवेदनसिल बनाउनुस"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:54
+msgid "Modify selected voice"
+msgstr "छानिएको स्वरलाई परिमार्जन गर्नुस"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:55
+msgid "Modify word"
+msgstr "शब्दलाई परिमार्जन गर्नुस"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:56
+#: ../gnopi/spvoiceui.c:2076
+msgid "Pitch"
+msgstr "पिच"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:57
+#: ../gnopi/spvoiceui.c:2068
+msgid "Rate"
+msgstr "दर"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:58
+msgid "Remove selected voice from voices list"
+msgstr "छानिएको स्वरलाई स्वरको सूचीबाट हटाउनुस"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:59
+msgid "Remove word from dictionary"
+msgstr "शब्दकोषबाट शब्द हटाउनुस"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:60
+msgid "Replecement"
+msgstr "रिप्लिस्मेन्ट"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:61
+msgid "Sa_y all navigation keys"
+msgstr "सबै नेभिगेसन कुञ्जीहरु भन्नुस"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:62
+msgid "Say all modi_fiers"
+msgstr "सबै परिमार्जन भन्नुस"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:63
+msgid "Say all modifiers"
+msgstr "सबै परिमार्जनहरु भन्नुस"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:64
+msgid "Say all navigation keys"
+msgstr "सबै नेभिगेसन कुञ्जी भन्नुस"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:65
+msgid "Say all s_paces"
+msgstr "सबै स्पेसेस भन्नुस"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:66
+msgid "Say all spaces"
+msgstr "सबै स्पेस भन्नुस"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:67
+msgid "Say text as character"
+msgstr "पाठलाई प्रकार भन्नुस"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:68
+msgid "Say text as word"
+msgstr "पाठलाई शब्द भन्नुस"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:69
+msgid "Set voices and the voice parameters"
+msgstr "स्वर र स्वरका परामितिहरुको ब्यवस्थापन गर्नुस"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:70
+msgid "Show all punctuation"
+msgstr "सबै पङ्कचुएसन देखाउनुस"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:71
+msgid "Show most punctuation"
+msgstr "प्राय पङ्कचुएसन देखाउनुस"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:72
+msgid "Show some punctuation"
+msgstr "केहि पङ्कचुएसन देखाउनुस"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:73
+msgid "Speech Preferences"
+msgstr "भाषण प्राथमिकता"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:74
+msgid "Test selected voice"
+msgstr "छानिएको स्वर जाँच्नुस"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:75
+msgid "Use dictionary"
+msgstr "शब्दकोष चलाउनुस"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:76
+msgid "Voice _name:"
+msgstr "स्वरको _नाम"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:77
+msgid "Voice list"
+msgstr "स्वर सूची"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:78
+msgid "Voices"
+msgstr "स्वरहरु"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:79
+#: ../gnopi/spvoiceui.c:2060
+msgid "Volume"
+msgstr "आवाज"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:80
+msgid "Word to replace"
+msgstr "शब्द बदल्न"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:81
+msgid "Word/Min"
+msgstr "शब्द/मिन"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:82
+msgid "_Dictionary..."
+msgstr "_शब्दकोष.."
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:83
+msgid "_Force All Voices to Selected Driver and Speaker"
+msgstr "स्वरहरुलाई चालक र स्पिकर छान्न जोड दिनुस"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:84
+msgid "_Ignore"
+msgstr "_छोड्नुस"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:86
+msgid "_Most"
+msgstr "_प्राय"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:88
+msgid "_Pitch (Hz)"
+msgstr "_पिच(हर्ज)"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:89
+msgid "_Pitch:"
+msgstr "_पिच:"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:90
+msgid "_Rate (words/min)"
+msgstr "_दर (शब्द/मिन्)"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:91
+msgid "_Rate:"
+msgstr "_दर:"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:92
+msgid "_Some"
+msgstr "_केहि"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:93
+msgid "_Test voice"
+msgstr "_स्वर जाँच्नुस"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:94
+msgid "_Use dictionary"
+msgstr "_शब्दकोष चलाउनुस"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:95
+msgid "_Voices..."
+msgstr "_स्वरहरु..."
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:97
+#, no-c-format
+msgid "_Volume (%)"
+msgstr "_आवाज (%)"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:98
+msgid "_Volume:"
+msgstr "_आवाज:"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:99
+msgid "_Word"
+msgstr "_शब्द"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:100
+msgid "words/min"
+msgstr "शब्द/मिन्"
+
+#: ../gnopi/gnopi_files/User_Properties/user_properties.glade2.h:2
+msgid "<b>_Commands list</b>"
+msgstr "<b>_आदेश सूची</b>"
+
+#: ../gnopi/gnopi_files/User_Properties/user_properties.glade2.h:3
+msgid "<b>_Layers list</b>"
+msgstr "<b>_तहहरुको सूची</b>"
+
+#: ../gnopi/gnopi_files/User_Properties/user_properties.glade2.h:4
+msgid "<b>_User defined list</b>"
+msgstr "<b>_परिभाषित प्रयोगकर्ता सूची</b>"
+
+#: ../gnopi/gnopi_files/User_Properties/user_properties.glade2.h:5
+msgid "Add Layer Key"
+msgstr "तह कुञ्जी जोड्नुस"
+
+#: ../gnopi/gnopi_files/User_Properties/user_properties.glade2.h:6
+msgid "Add User Defined Key"
+msgstr "प्रयोगकर्ता परिभाषित कुञ्जी जोड्नुस"
+
+#: ../gnopi/gnopi_files/User_Properties/user_properties.glade2.h:7
+msgid "Add new item"
+msgstr "नयाँ चीज जोड्नुस"
+
+#: ../gnopi/gnopi_files/User_Properties/user_properties.glade2.h:8
+msgid "Alt modifier"
+msgstr "Alt परिमार्जन कर्ता"
+
+#: ../gnopi/gnopi_files/User_Properties/user_properties.glade2.h:9
+msgid "Command Mapping"
+msgstr "आदेश म्यापिङ"
+
+#: ../gnopi/gnopi_files/User_Properties/user_properties.glade2.h:10
+msgid "Commands List"
+msgstr "आदेश सूची"
+
+#: ../gnopi/gnopi_files/User_Properties/user_properties.glade2.h:11
+msgid "Control modifier"
+msgstr "कन्ट्रोल परिमार्जन"
+
+#: ../gnopi/gnopi_files/User_Properties/user_properties.glade2.h:12
+msgid "Key number"
+msgstr "कुञ्जी नम्बर"
+
+#: ../gnopi/gnopi_files/User_Properties/user_properties.glade2.h:13
+msgid "Keys list"
+msgstr "कुञ्जीहरुको सूची"
+
+#: ../gnopi/gnopi_files/User_Properties/user_properties.glade2.h:14
+msgid "Layer command list"
+msgstr "तह आदेश सूची"
+
+#: ../gnopi/gnopi_files/User_Properties/user_properties.glade2.h:15
+msgid "Layer number"
+msgstr "तह नम्बर"
+
+#: ../gnopi/gnopi_files/User_Properties/user_properties.glade2.h:16
+msgid "Layers"
+msgstr "तहहरु"
+
+#: ../gnopi/gnopi_files/User_Properties/user_properties.glade2.h:17
+msgid "List of gnopernicus commands"
+msgstr "जिनोपेर्निकस आदेशहरुको सूची"
+
+#: ../gnopi/gnopi_files/User_Properties/user_properties.glade2.h:18
+msgid "Modify command for the selected item"
+msgstr "आदेशलाई छानिने चीजको लागि परिमार्जन गर्नुस"
+
+#: ../gnopi/gnopi_files/User_Properties/user_properties.glade2.h:19
+msgid "Remove selected item"
+msgstr "छानिएको चीज हटाउनुस"
+
+#: ../gnopi/gnopi_files/User_Properties/user_properties.glade2.h:20
+msgid "Shift modifier"
+msgstr "Shift परिमार्जन कर्ता"
+
+#: ../gnopi/gnopi_files/User_Properties/user_properties.glade2.h:21
+msgid "User Defined"
+msgstr "परिभाषित प्रयोगकर्ता"
+
+#: ../gnopi/gnopi_files/User_Properties/user_properties.glade2.h:22
+msgid "User defined commands list."
+msgstr "प्रयोगकर्ता परिभाषित आदेश सूची"
+
+#: ../gnopi/gnopi_files/User_Properties/user_properties.glade2.h:23
+msgid "_Alt"
+msgstr "_Alt"
+
+#: ../gnopi/gnopi_files/User_Properties/user_properties.glade2.h:24
+msgid "_Ctrl"
+msgstr "_Ctrl"
+
+#: ../gnopi/gnopi_files/User_Properties/user_properties.glade2.h:25
+msgid "_Key:"
+msgstr "_कुञ्जी:"
+
+#: ../gnopi/gnopi_files/User_Properties/user_properties.glade2.h:26
+msgid "_Layer:"
+msgstr "_तह:"
+
+#: ../gnopi/gnopi_files/User_Properties/user_properties.glade2.h:27
+msgid "_Modifier keys:"
+msgstr "_परिमार्जित कुञ्जीहरु:"
+
+#: ../gnopi/gnopi_files/User_Properties/user_properties.glade2.h:29
+msgid "_Shift"
+msgstr "_Shift"
+
+#: ../gnopi/gnopi_files/about.glade2.h:1
+msgid "Screen Reader and Magnifier for the GNOME Desktop"
+msgstr "जिनोम डेक्सटपको लागि स्क्रिन रिडर र परिमार्जन कर्ता"
+
+#: ../gnopi/gnopi_files/about.glade2.h:2
+msgid "translator_credits"
+msgstr "अनुवादक_क्रेडिट्स"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:1
+msgid ""
+"<b>Gnopernicus has detected that the assistive technology \n"
+"support is not enabled.</b>\n"
+msgstr ""
+"<b>जिनोपेर्निकसले एसिस्टिभ टेक्नोलोजीलाई खारेज गरको छ\n"
+"सहारा सक्षम पार्न सकिँदैन.</b>\n"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:4
+msgid "About"
+msgstr "बारेमा"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:5 ../srcore/srpres.c:810
+msgid "Alert"
+msgstr "सतर्कता"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:6
+msgid "Braille device preferences"
+msgstr "अन्धलिपि प्राथमिकता यन्त्र"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:7
+msgid "Braille monitor preferences"
+msgstr "अन्धलिपि प्राथमिकता मोनिटर"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:8
+msgid "Close preferences"
+msgstr "प्राथमिकताहरु बन्द गर्नुस"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:9
+msgid "Command mapping"
+msgstr "आदेश म्यापिङ"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:10
+msgid "Do you want to enable the assistive technology support?"
+msgstr "के तपाई एसिस्टिभ सहारा टेक्नोलोजीलाई सक्षम पार्न चाहनु हुन्छ?"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:11
+msgid "Exit from gnopernicus"
+msgstr "जिनोपेर्निकस्बाट निस्कनुस"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:12
+msgid "Find on screen"
+msgstr "स्क्रिनमा खोज्नुस"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:13
+msgid "Gnopernicus"
+msgstr "जिनोपेर्निकस्"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:14
+msgid "Gnopernicus usage help"
+msgstr "जिनोपेर्निकस प्रयोग सहारा"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:15
+msgid "Iconify menu"
+msgstr "प्रतिमा मेनु"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:16
+msgid "Load default preferences"
+msgstr "पूर्व निर्धारित प्राथमिकता लोड गर्नुस"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:17
+msgid "Magnifier preferences"
+msgstr "अभिवर्धक प्राथमिकताहरु"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:18
+msgid "Mouse preferences"
+msgstr "माउस प्राथमिकताहरु"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:19
+msgid "Preferences"
+msgstr "प्राथमिकताहरु"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:20
+msgid "Preferences..."
+msgstr "प्राथमिकताहरु..."
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:21 ../srcore/srspc.c:1035
+msgid "Question"
+msgstr "प्रश्न"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:22
+msgid "Role presentation"
+msgstr "भमिका प्रिजेन्टेसन"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:23
+msgid "Screen review"
+msgstr "स्क्रिन समीक्षा गर्नुस"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:24
+msgid "Speech preferences"
+msgstr "भाषण प्राथमिकताहरु"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:25
+msgid "Startup mode..."
+msgstr "स्टार्टअप मोड..."
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:26
+msgid ""
+"You will have to log out for the change to take effect.\n"
+"Do you want to log out now? "
+msgstr "बदलेर प्रभाव पार्न तपाईले यहाँबाट निस्कनुपर्छ के तपाई लग आउट गर्न चाहनु हुन्छ?"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:28
+msgid "_1 Speech"
+msgstr "_१ भाषण"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:29
+msgid "_1 Startup Mode..."
+msgstr "_१ स्टार्टअप मोड..."
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:30
+msgid "_2 Braille"
+msgstr "_२ ब्रेल"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:31
+msgid "_2 Preferences..."
+msgstr "_२ प्राथमिकताहरु..."
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:32
+msgid "_3 Default Preferences..."
+msgstr "_३ पूर्व निर्धारित प्राथमिकताहरु..."
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:34
+msgid "_4 Minimize"
+msgstr "_४ घटाउनुस"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:35
+msgid "_4 Mouse"
+msgstr "_४ माउस"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:37
+msgid "_5 Help"
+msgstr "_५ सहायता"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:38
+msgid "_6 About"
+msgstr "_६ बारेमा"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:39
+msgid "_6 Command Mapping"
+msgstr "_६ आदेश म्यापिङ"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:40
+msgid "_7 Presentation"
+msgstr "_७ प्रिजेन्टेसन"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:41
+msgid "_8 Screen Review"
+msgstr "_८ स्क्रिन समीक्षा गर्नुस"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:42
+msgid "_9 Search"
+msgstr "_९ खोज्नुस"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:43
+msgid "_Don't Enable Support"
+msgstr "_सहारा सक्षम पार्न असफल"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:44
+msgid "_Enable Support"
+msgstr "_सहारा सक्षम पार्नुस"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:45
+msgid "_Quit"
+msgstr "_रोक्नुस"
+
+#: ../gnopi/gnopiconf.c:411 ../gnopi/gnopiconf.c:429
+#, c-format
+msgid "Failed to set value: %f."
+msgstr "मान ब्यवस्थापन गर्न असफल: %f."
+
+#: ../gnopi/gnopiconf.c:735
+msgid "Failed to set value."
+msgstr "मान ब्यवस्थापनमा असफल"
+
+#: ../gnopi/gnopiui.c:73 ../gnopi/gnopiui.c:87 ../gnopi/gnopiui.c:99
+#: ../gnopi/gnopiui.c:105
+msgid "We could not load the interface!"
+msgstr "हामी इन्टरफेस लोड गर्न सक्दैनौं!"
+
+#: ../gnopi/magui.c:74
+msgid "default"
+msgstr "पूर्व निर्धारित"
+
+#: ../gnopi/magui.c:472
+msgid ""
+"Can NOT remove zoomer because multiple zoomers are not supported in this "
+"version."
+msgstr "जुमर हटाउन मिल्दैन किनभने बहुविध जुमर्सले यो संस्करणमा सहारा दिन सक्दैन."
+
+#: ../gnopi/magui.c:673
+msgid "Zoomers"
+msgstr "जुमर्स"
+
+#: ../gnopi/magui.c:1604
+#, c-format
+msgid "Zoomer Options (%s)"
+msgstr "जुमर बिकल्प (%s)"
+
+#: ../gnopi/spconf.c:341
+msgid "Failed to set dictionary changes."
+msgstr "शब्दकोष बदल्ने ब्यवस्थापनमा असफल"
+
+#: ../gnopi/spconf.c:349
+msgid "Failed to set removed voice value."
+msgstr "हटेको स्वरको मान ब्यवस्थापनमा असफल"
+
+#: ../gnopi/spconf.c:359
+#, c-format
+msgid "Failed to set count: %s."
+msgstr "गणना ब्यवस्थापनमा असफल: %s."
+
+#: ../gnopi/spconf.c:368
+#, c-format
+msgid "Failed to set Punctuation: %s."
+msgstr "पङ्कचुएसन ब्यवस्थापनमा असफल: %s."
+
+#: ../gnopi/spconf.c:377
+#, c-format
+msgid "Failed to set text echo value: %s."
+msgstr "पाठ प्रतिध्वनि मान ब्यवस्थापनमा असफल: %s."
+
+#: ../gnopi/spconf.c:386
+#, c-format
+msgid "Failed to set modifiers value: %s."
+msgstr "परिमार्जन कर्ताको मान ब्यवस्थापनमा असफल: %s."
+
+#: ../gnopi/spconf.c:395
+#, c-format
+msgid "Failed to set cursors value: %s."
+msgstr "कर्सरको मान ब्यवस्थापनमा असफल: %s."
+
+#: ../gnopi/spconf.c:404
+#, c-format
+msgid "Failed to set spaces value: %s."
+msgstr "स्पेसेसको मान ब्यवस्थापनमा असफल: %s."
+
+#: ../gnopi/spconf.c:413
+#, c-format
+msgid "Failed to set dictionary value: %s."
+msgstr "शब्दकोषको मान ब्यवस्थापनमा असफल: %s."
+
+#: ../gnopi/spconf.c:422
+#, c-format
+msgid "Failed to set testable voice %s."
+msgstr "जाँचेको स्वर ब्यवस्थापनमा असफल: %s."
+
+#: ../gnopi/spconf.c:614
+#, c-format
+msgid "%s no name"
+msgstr "%sनाम छैन"
+
+#: ../gnopi/spdictui.c:79
+msgid "Invalid word or replacer!"
+msgstr "खारिज शब्द अथवा बदल्नु!"
+
+#: ../gnopi/spdictui.c:85
+msgid "Word exists in dictionary!"
+msgstr "शब्द शब्दकोषमा हट्छ!"
+
+#: ../gnopi/spdictui.c:271 ../gnopi/spdictui.c:324
+msgid "No selected word to modify!"
+msgstr "कुनै छानिएको शब्द परिमार्जन गर्नलाई छैन!"
+
+#: ../gnopi/spdictui.c:298
+msgid "No selected word to remove!"
+msgstr "कुनै छानिएको शब्द हटाउनलाई छैन!"
+
+#: ../gnopi/spdictui.c:447
+msgid "Word"
+msgstr "शब्द"
+
+#: ../gnopi/spdictui.c:456
+msgid "Replacer"
+msgstr "बदल्नुस"
+
+#: ../gnopi/spvoiceui.c:32
+msgid "<all drivers>"
+msgstr "<सबै चालक>"
+
+#: ../gnopi/spvoiceui.c:33
+msgid "<all voices>"
+msgstr "<सबै स्वरहरु>"
+
+#: ../gnopi/spvoiceui.c:296
+msgid "Invalid voice!"
+msgstr "खारिज स्वर!"
+
+#: ../gnopi/spvoiceui.c:1217
+msgid "Invalid driver or voice!"
+msgstr "खारिज चालक अथवा स्वर!"
+
+#: ../gnopi/spvoiceui.c:1657
+msgid "No selected voice to modify!"
+msgstr "कुनै छानिएको स्वर परिमार्जन गर्नलाई छैन!"
+
+#: ../gnopi/spvoiceui.c:1716
+msgid "No selected voice to remove!"
+msgstr "कुनै छानिएको स्वर हटाउनलाई छैन!"
+
+#: ../gnopi/spvoiceui.c:1793
+msgid "No selected voice to test!"
+msgstr "कुनै छानिएको स्वर जाँच्नलाई छैन!"
+
+#: ../gnopi/spvoiceui.c:2034
+msgid "Voice"
+msgstr "स्वर"
+
+#: ../gnopi/spvoiceui.c:2043
+msgid "Driver"
+msgstr "चालक"
+
+#: ../gnopi/spvoiceui.c:2052
+msgid "Speaker"
+msgstr "स्पिकर"
+
+#: ../speech/libsrs/srs-speech.c:289
+msgid "Alpha"
+msgstr "अल्फा"
+
+#: ../speech/libsrs/srs-speech.c:290
+msgid "Bravo"
+msgstr "ब्राभो"
+
+#: ../speech/libsrs/srs-speech.c:291
+msgid "Charlie"
+msgstr "चार्ली"
+
+#: ../speech/libsrs/srs-speech.c:292
+msgid "Delta"
+msgstr "डेल्टा"
+
+#: ../speech/libsrs/srs-speech.c:293
+msgid "Echo"
+msgstr "प्रतिध्वनि"
+
+#: ../speech/libsrs/srs-speech.c:294
+msgid "Foxtrot"
+msgstr "फक्सट्रट्"
+
+#: ../speech/libsrs/srs-speech.c:295
+msgid "Golf"
+msgstr "गल्फ"
+
+#: ../speech/libsrs/srs-speech.c:296
+msgid "Hotel"
+msgstr "होटल"
+
+#: ../speech/libsrs/srs-speech.c:297
+msgid "India"
+msgstr "इन्डिया"
+
+#: ../speech/libsrs/srs-speech.c:298
+msgid "Juliet"
+msgstr "जुलियट"
+
+#: ../speech/libsrs/srs-speech.c:299
+msgid "Kilo"
+msgstr "किलो"
+
+#: ../speech/libsrs/srs-speech.c:300
+msgid "Lima"
+msgstr "लिमा"
+
+#: ../speech/libsrs/srs-speech.c:301
+msgid "Mike"
+msgstr "माइक"
+
+#: ../speech/libsrs/srs-speech.c:302
+msgid "November"
+msgstr "नोभेम्बर"
+
+#: ../speech/libsrs/srs-speech.c:303
+msgid "Oscar"
+msgstr "ओस्कर"
+
+#: ../speech/libsrs/srs-speech.c:304
+msgid "Papa"
+msgstr "पापा"
+
+#: ../speech/libsrs/srs-speech.c:305
+msgid "Quebec"
+msgstr "क्युबेक"
+
+#: ../speech/libsrs/srs-speech.c:306
+msgid "Romeo"
+msgstr "रोमियो"
+
+#: ../speech/libsrs/srs-speech.c:307
+msgid "Sierra"
+msgstr "सिइर्रा"
+
+#: ../speech/libsrs/srs-speech.c:308
+msgid "Tango"
+msgstr "टाङ्गो"
+
+#: ../speech/libsrs/srs-speech.c:309
+msgid "Uniform"
+msgstr "ड्रेस"
+
+#: ../speech/libsrs/srs-speech.c:310
+msgid "Victor"
+msgstr "भिक्टर"
+
+#: ../speech/libsrs/srs-speech.c:311
+msgid "Whiskey"
+msgstr "ह्विस्की"
+
+#: ../speech/libsrs/srs-speech.c:312
+msgid "Xray"
+msgstr "एक्स-रे"
+
+#: ../speech/libsrs/srs-speech.c:313
+msgid "Yankee"
+msgstr "यान्कि"
+
+#: ../speech/libsrs/srs-speech.c:314
+msgid "Zulu"
+msgstr "जुलु"
+
+#: ../speech/libsrs/srs-speech.c:315 ../srcore/srspc.c:1770
+msgid "space"
+msgstr "खाली"
+
+#: ../speech/libsrs/srs-speech.c:316
+msgid "tab"
+msgstr "tab"
+
+#: ../speech/libsrs/srs-speech.c:317
+msgid "new line"
+msgstr "नयाँ पङ्त्ति"
+
+#: ../speech/libsrs/srs-speech.c:318
+msgid "dash"
+msgstr "ड्यास"
+
+#: ../srconf/libsrconf/libsrconf.c:454
+#, c-format
+msgid "Failed to access configuration source(s): %s\n"
+msgstr "कन्फिगुरेसन श्रोत पहुँचमा असफल: %s\n"
+
+#: ../srconf/libsrconf/libsrconf.c:467
+#, c-format
+msgid "Failed to add notify: %s"
+msgstr "सूचित गर्ने जोड्न असफल: %s"
+
+#: ../srconf/libsrconf/libsrconf.c:521
+msgid "Failed to remove directory."
+msgstr "डाइरेक्टरी हटाउन असफल"
+
+#: ../srconf/libsrconf/libsrconf.c:865
+msgid "Failed to set configdata."
+msgstr "कन्फिगडाटा ब्यवस्थापनमा असफल"
+
+#: ../srconf/libsrconf/libsrconf.c:939
+msgid "Failed set data."
+msgstr "लगत ब्यवस्थापनमा असफल"
+
+#. translators: a single whitespace or suitable delimiter between 'words', if appropriate
+#. translators: the letter ' ' (space), in parentheses.
+#: ../srcore/default.xml.in.h:3 ../srcore/verbose.xml.in.h:3
+msgid "( )"
+msgstr "( )"
+
+#. translators: the letter 'C' for "checked", in parentheses.
+#: ../srcore/default.xml.in.h:5 ../srcore/verbose.xml.in.h:5
+msgid "(C)"
+msgstr "(C)"
+
+#. translators: the letter 'E' for "expanded", in parentheses.
+#: ../srcore/default.xml.in.h:7 ../srcore/verbose.xml.in.h:7
+msgid "(E)"
+msgstr "(E)"
+
+#. translators: the letter 'P' for "[button] pressed", in parentheses.
+#: ../srcore/default.xml.in.h:9 ../srcore/verbose.xml.in.h:9
+msgid "(P)"
+msgstr "(P)"
+
+#. translators: the letter 'U', for "unavailable", in parentheses.
+#: ../srcore/default.xml.in.h:11 ../srcore/verbose.xml.in.h:11
+msgid "(U)"
+msgstr "(U)"
+
+#. translators: the letter 'c' for "collapsed", in parentheses.
+#: ../srcore/default.xml.in.h:13 ../srcore/verbose.xml.in.h:13
+msgid "(c)"
+msgstr "(c)"
+
+#. translators: the letter 'm' for "minimized", in parentheses.
+#: ../srcore/default.xml.in.h:15 ../srcore/verbose.xml.in.h:15
+msgid "(m)"
+msgstr "(m)"
+
+#. translators: the letter 'n' for "not minimized", in parentheses.
+#: ../srcore/default.xml.in.h:17 ../srcore/verbose.xml.in.h:17
+msgid "(n)"
+msgstr "(n)"
+
+#: ../srcore/default.xml.in.h:18 ../srcore/verbose.xml.in.h:18
+msgid "Give maximum speech and braille output."
+msgstr "सबभन्दा बढि भाषण र प्रतिफल दिनुस"
+
+#. translators: 'keyboard accelerator'
+#: ../srcore/default.xml.in.h:21 ../srcore/verbose.xml.in.h:21
+msgid "accelerator"
+msgstr "द्रुतक"
+
+#: ../srcore/default.xml.in.h:22 ../srcore/verbose.xml.in.h:22
+msgid "available"
+msgstr "उपलब्ध"
+
+#. translators: "checked" as in "checkbox is checked"
+#: ../srcore/default.xml.in.h:24 ../srcore/verbose.xml.in.h:24
+msgid "checked"
+msgstr "जाँच"
+
+#: ../srcore/default.xml.in.h:25 ../srcore/verbose.xml.in.h:25
+msgid "closing tab"
+msgstr "ट्याब बन्द"
+
+#: ../srcore/default.xml.in.h:26 ../srcore/verbose.xml.in.h:26
+msgid "closing window"
+msgstr "विन्डो बन्द"
+
+#: ../srcore/default.xml.in.h:27 ../srcore/verbose.xml.in.h:27
+msgid "collapsed"
+msgstr "कोल्याप्स्ड"
+
+#: ../srcore/default.xml.in.h:28 ../srcore/verbose.xml.in.h:28
+msgid "column header"
+msgstr "स्तम्भ हेडर"
+
+#: ../srcore/default.xml.in.h:29 ../srcore/verbose.xml.in.h:29
+msgid "create tab"
+msgstr "ट्याब निर्माण गर्नुहोस"
+
+#: ../srcore/default.xml.in.h:30 ../srcore/verbose.xml.in.h:30
+msgid "create window"
+msgstr "विन्डो निर्माण गर्नुस"
+
+#: ../srcore/default.xml.in.h:31 ../srcore/verbose.xml.in.h:31
+msgid "current value"
+msgstr "हालको मान"
+
+#: ../srcore/default.xml.in.h:32 ../srcore/srctrl.c:2669
+#: ../srcore/verbose.xml.in.h:32
+msgid "empty line"
+msgstr "खाली पङ्त्ति"
+
+#: ../srcore/default.xml.in.h:33 ../srcore/verbose.xml.in.h:33
+msgid "expanded"
+msgstr "बढाइएको"
+
+#: ../srcore/default.xml.in.h:34 ../srcore/srctrl.c:2258
+#: ../srcore/srctrl.c:2409 ../srcore/verbose.xml.in.h:34
+msgid "item"
+msgid_plural "items"
+msgstr[0] "चीज"
+msgstr[1] "चीजहरु"
+
+#: ../srcore/default.xml.in.h:35 ../srcore/verbose.xml.in.h:35
+msgid "items"
+msgstr "चीजहरु"
+
+#: ../srcore/default.xml.in.h:36 ../srcore/verbose.xml.in.h:36
+msgid "level"
+msgstr "तह"
+
+#: ../srcore/default.xml.in.h:37 ../srcore/verbose.xml.in.h:37
+msgid "maximize window"
+msgstr "विन्डो बढाउनुस"
+
+#: ../srcore/default.xml.in.h:38 ../srcore/verbose.xml.in.h:38
+msgid "minimize window"
+msgstr "विन्डो घटाउनुस"
+
+#: ../srcore/default.xml.in.h:39 ../srcore/verbose.xml.in.h:39
+msgid "minimized"
+msgstr "घटाउनु"
+
+#: ../srcore/default.xml.in.h:40 ../srcore/verbose.xml.in.h:40
+msgid "no selection anymore"
+msgstr "बढि छानिएको छैन"
+
+#: ../srcore/default.xml.in.h:41 ../srcore/verbose.xml.in.h:41
+msgid "normal"
+msgstr "साधारण"
+
+#: ../srcore/default.xml.in.h:42 ../srcore/verbose.xml.in.h:42
+msgid "pressed"
+msgstr "थिच्नु"
+
+#: ../srcore/default.xml.in.h:43 ../srcore/verbose.xml.in.h:43
+msgid "rename window"
+msgstr "विन्डोको पुन नामाकरण गर्नुस"
+
+#: ../srcore/default.xml.in.h:44 ../srcore/verbose.xml.in.h:44
+msgid "restore window"
+msgstr "विन्डो पुन राख्नुस"
+
+#: ../srcore/default.xml.in.h:45 ../srcore/verbose.xml.in.h:45
+msgid "row header"
+msgstr "पङ्त्ति हेडर"
+
+#. translators: 'keyboard shortcut'
+#: ../srcore/default.xml.in.h:47 ../srcore/verbose.xml.in.h:47
+msgid "shortcut"
+msgstr "छोटो तरिका"
+
+#: ../srcore/default.xml.in.h:48 ../srcore/verbose.xml.in.h:48
+msgid "show tool tip"
+msgstr "टूल टिप देखाउनुस"
+
+#: ../srcore/default.xml.in.h:49 ../srcore/verbose.xml.in.h:49
+msgid "switch tab"
+msgstr "ट्याब स्विच गर्नुस"
+
+#: ../srcore/default.xml.in.h:50 ../srcore/verbose.xml.in.h:50
+msgid "switch to"
+msgstr "स्विच गर्नुस"
+
+#: ../srcore/default.xml.in.h:51 ../srcore/verbose.xml.in.h:51
+msgid "switch to window"
+msgstr "विन्डोमा स्विच गर्नुस"
+
+#: ../srcore/default.xml.in.h:52 ../srcore/verbose.xml.in.h:52
+msgid "titleize window"
+msgstr "टाइटलिज विन्डो"
+
+#: ../srcore/default.xml.in.h:53 ../srcore/verbose.xml.in.h:53
+msgid "unavailable"
+msgstr "उपलब्ध नभएको"
+
+#. translators: "checkbox is unchecked"
+#: ../srcore/default.xml.in.h:55 ../srcore/verbose.xml.in.h:55
+msgid "unchecked"
+msgstr "चेक नभएको"
+
+#: ../srcore/default.xml.in.h:56 ../srcore/verbose.xml.in.h:56
+msgid "unpressed"
+msgstr "नथिचिएको"
+
+#: ../srcore/srctrl.c:1012
+msgid "no parent"
+msgstr "अभिभावक छैन"
+
+#: ../srcore/srctrl.c:1036
+msgid "no children"
+msgstr "बच्चा छैन"
+
+#: ../srcore/srctrl.c:1069
+msgid "no next"
+msgstr "अर्को छैन"
+
+#: ../srcore/srctrl.c:1185
+msgid "Cannot find next text!"
+msgstr "अर्को पाठ पाउन सकिएन!"
+
+#: ../srcore/srctrl.c:1196
+msgid "Cannot find next image!"
+msgstr "पछिल्लो आकृति पत्ता लाउन सकिएन!"
+
+#: ../srcore/srctrl.c:1207
+msgid "Cannot find next attributes!"
+msgstr "अर्को बिशेषता पाउन सकिएन!"
+
+#: ../srcore/srctrl.c:1296
+msgid "no previous"
+msgstr "अघिल्लो छैन"
+
+#: ../srcore/srctrl.c:1340
+msgid "added watch for current object"
+msgstr "हालको बस्तुमा घडि जोडेको"
+
+#: ../srcore/srctrl.c:1341
+msgid "cannot add watch for current object"
+msgstr "हालको बस्तुमा घडि जोड्न सकिएन"
+
+#: ../srcore/srctrl.c:1366
+msgid "no caret"
+msgstr "क्यारेट छैन"
+
+#: ../srcore/srctrl.c:1387
+msgid "already on first"
+msgstr "पहिलोमानै छ"
+
+#: ../srcore/srctrl.c:1408
+msgid "already on last"
+msgstr "अन्तिममानै छ"
+
+#: ../srcore/srctrl.c:1421
+msgid "now navigating in application"
+msgstr "अनुप्रयोगमा नेभिगेटिङ गरिँदै छ"
+
+#: ../srcore/srctrl.c:1425
+msgid "now navigating in desktop"
+msgstr "डेक्सटपमा अब परिचालन हुन्छ"
+
+#: ../srcore/srctrl.c:1429
+msgid "now navigating in window"
+msgstr "विन्डोमा अब परिचालन हुन्छ"
+
+#: ../srcore/srctrl.c:1522
+msgid "no focus"
+msgstr "फोकस छैन"
+
+#: ../srcore/srctrl.c:1562
+msgid "no title"
+msgstr "शिर्षक छैन"
+
+#: ../srcore/srctrl.c:1583
+msgid "no menu bar"
+msgstr "मेनु बार छैन"
+
+#: ../srcore/srctrl.c:1606
+msgid "no tool bar"
+msgstr "टूल बार छैन"
+
+#: ../srcore/srctrl.c:1630
+msgid "no status bar"
+msgstr "स्ट्याटस बार छैन"
+
+#: ../srcore/srctrl.c:2214
+msgid "on"
+msgstr "खुला"
+
+#: ../srcore/srctrl.c:2236 ../srcore/srctrl.c:2387
+msgid "from a"
+msgstr "बाट"
+
+#: ../srcore/srctrl.c:2238 ../srcore/srctrl.c:2394
+msgid "with"
+msgstr "सँग"
+
+#: ../srcore/srctrl.c:2269
+msgid "in a"
+msgstr "भित्र"
+
+#: ../srcore/srctrl.c:2272
+msgid "named "
+msgstr "नाम."
+
+#: ../srcore/srctrl.c:2274
+msgid "with no name"
+msgstr "नाम बिना"
+
+#: ../srcore/srctrl.c:2288
+msgid "of application"
+msgstr "अनुप्रयोगको"
+
+#: ../srcore/srctrl.c:2375
+msgid "on a"
+msgstr "खुला ए"
+
+#: ../srcore/srctrl.c:2629
+msgid "first line"
+msgstr "पहिलो पङ्त्ति"
+
+#: ../srcore/srctrl.c:2636
+msgid "last line"
+msgstr "अन्तिम पङ्त्ति"
+
+#: ../srcore/srctrl.c:2644 ../srcore/srctrl.c:2646
+msgid "[first line]"
+msgstr "[पहिलो पङ्त्ति]"
+
+#: ../srcore/srctrl.c:2651 ../srcore/srctrl.c:2653
+msgid "[last line]"
+msgstr "[अन्तिम पङ्त्ति]"
+
+#: ../srcore/srctrl.c:2676
+#, c-format
+msgid "%d empty line"
+msgid_plural "%d empty lines"
+msgstr[0] "रित्तो पङ्त्तिपङ्त्तिपङ्त्ति"
+msgstr[1] "रित्नो लाइनहरु पङ्त्ति"
+
+#: ../srcore/srctrl.c:2697 ../srcore/srctrl.c:2699
+msgid "[empty line]"
+msgstr "[खाली पङ्त्ति]"
+
+#: ../srcore/srctrl.c:2704
+#, c-format
+msgid "[%d empty line]"
+msgid_plural "[%d empty lines]"
+msgstr[0] "[%d खाली पङ्त्ति]"
+msgstr[1] "[%d खाली पङ्त्तिहरु]"
+
+#: ../srcore/srctrl.c:2786 ../srcore/srctrl.c:2787 ../srcore/srctrl.c:2795
+#: ../srcore/srctrl.c:2950 ../srcore/srctrl.c:2951
+msgid "cannot make flat review for current window"
+msgstr "हालको विन्डोमा फ्ल्याटको समीक्षा गर्न सकिएन"
+
+#: ../srcore/srctrl.c:3022
+msgid "flat review mode"
+msgstr "फ्ल्याटको समीक्षा मोड"
+
+#: ../srcore/srctrl.c:3038
+msgid "focus tracking mode"
+msgstr "फोकस ट्र्याकिङ मोड"
+
+#: ../srcore/srctrl.c:3577
+#, c-format
+msgid "\"%s\" entry has invalid value at position %d."
+msgstr "\"%s\" इन्ट्रीको मान स्थानमा खारिज छ %d."
+
+#: ../srcore/srctrl.c:3598
+#, c-format
+msgid "key \"%s\" has an invalid value at position %d."
+msgstr "कुञ्जी \"%s\" को स्थानमा मान खारिज छ %d."
+
+#: ../srcore/srctrl.c:3634
+msgid "Can not get key pad commands mapping from gconf."
+msgstr "जिकन्फबाट कुञ्जी प्याडको आदेश पाउन सकिएन."
+
+#: ../srcore/srctrl.c:3645
+msgid "Can not get braille display commands mapping from gconf."
+msgstr "जिकन्फबाट अन्धलिपि प्रदर्शन आदेशहरु पाउन सकिएन."
+
+#: ../srcore/srctrl.c:3656
+msgid "Can not get user defined commands mapping from gconf."
+msgstr "जिकन्फबाट प्रयोगकर्ता आदेश म्यापिङहरु पाउन सकिएन."
+
+#: ../srcore/srctrl.c:3760
+msgid "no role available"
+msgstr "कुनै भूमिका उपलब्ध भएन"
+
+#: ../srcore/srmain.c:75 ../srcore/srmain.c:78
+msgid "No focus"
+msgstr "फोकस छैन"
+
+#: ../srcore/srmain.c:81
+msgid "No accessible object is focused"
+msgstr "उपलब्धता बस्तु फोकस भएन"
+
+#: ../srcore/srmain.c:458
+msgid "unknown location"
+msgstr "अज्ञात ठाँउ"
+
+#: ../srcore/srmain.c:495
+msgid "no details"
+msgstr "विवरण छैन"
+
+#: ../srcore/srmain.c:535
+msgid "layer"
+msgstr "तह"
+
+#: ../srcore/srmain.c:556
+msgid "back to layer"
+msgstr "तहमा फर्किनुस"
+
+#: ../srcore/srmain.c:922
+msgid "cursor on"
+msgstr "कर्सर खुला"
+
+#: ../srcore/srmain.c:922
+msgid "cursor off"
+msgstr "कर्सर बन्द"
+
+#: ../srcore/srmain.c:940
+msgid "current cursor is"
+msgstr "निश्चित कर्सर "
+
+#: ../srcore/srmain.c:958
+msgid "cursor size"
+msgstr "कर्सर आकार"
+
+#: ../srcore/srmain.c:975
+msgid "cursor magnification on"
+msgstr "कर्सर अभिवर्धकता खुला"
+
+#: ../srcore/srmain.c:976
+msgid "cursor magnification off"
+msgstr "कर्सर अभिवर्धकता बन्द"
+
+#: ../srcore/srmain.c:994
+msgid "cursor color"
+msgstr "कर्सर रङ्ग"
+
+#: ../srcore/srmain.c:1011
+msgid "crosshair on"
+msgstr "क्रसहेयर खुला"
+
+#: ../srcore/srmain.c:1011
+msgid "crosshair off"
+msgstr "क्रसहेयर बन्द"
+
+#: ../srcore/srmain.c:1028
+msgid "crosshair clip on"
+msgstr "क्रसहेयर क्लिप खुला"
+
+#: ../srcore/srmain.c:1029
+msgid "crosshair clip off"
+msgstr "क्रसहेयर क्लिप बन्द"
+
+#: ../srcore/srmain.c:1047
+msgid "crosshair size"
+msgstr "क्रसहेयर आकार"
+
+#: ../srcore/srmain.c:1065
+msgid "crosshair color"
+msgstr "क्रसहेयर रङ्ग"
+
+#: ../srcore/srmain.c:1083
+msgid "zoomer placement left"
+msgstr "जुमर स्थापन बाँया"
+
+#: ../srcore/srmain.c:1101
+msgid "zoomer placement top"
+msgstr "जुमर स्थापन माथी"
+
+#: ../srcore/srmain.c:1119
+msgid "zoomer placement width"
+msgstr "जुमर स्थापन चौडाइ"
+
+#: ../srcore/srmain.c:1137
+msgid "zoomer placement height"
+msgstr "जुमर स्थापन उचाइ"
+
+#: ../srcore/srmain.c:1167
+msgid "magnifier target"
+msgstr "अभिवर्धक निशाना"
+
+#: ../srcore/srmain.c:1185
+msgid "magnifier source"
+msgstr "अभिवर्धक श्रोत"
+
+#: ../srcore/srmain.c:1203
+msgid "zoom factor x"
+msgstr "जुम फ्याक्टर एक्स"
+
+#: ../srcore/srmain.c:1221
+msgid "zoom factor y"
+msgstr "जुम फ्याक्टर वाइ"
+
+#: ../srcore/srmain.c:1238
+msgid "zoom factor locked"
+msgstr "जुम फ्याक्टर ताल्चा लगाउनु"
+
+#: ../srcore/srmain.c:1239
+msgid "zoom factor unlocked"
+msgstr "जुम फ्याक्टर ताल्चा नलगाउनु"
+
+#: ../srcore/srmain.c:1256
+msgid "invert on"
+msgstr "उल्टो खुला"
+
+#: ../srcore/srmain.c:1256
+msgid "invert off"
+msgstr "उल्टो बन्द"
+
+#: ../srcore/srmain.c:1274
+msgid "magnifier smoothing type"
+msgstr "अभिवर्धक स्मुथिङ प्रकार"
+
+#: ../srcore/srmain.c:1297
+msgid "mouse tracking mode"
+msgstr "माउस ट्र्याकिङ मोड"
+
+#: ../srcore/srmain.c:1319
+msgid "panning on"
+msgstr "प्यानिङ खुला"
+
+#: ../srcore/srmain.c:1319
+msgid "panning off"
+msgstr "प्यानिङ बन्द"
+
+#: ../srcore/srmain.c:1691
+msgid "alt"
+msgstr "alt"
+
+#: ../srcore/srmain.c:1696
+msgid "control"
+msgstr "control"
+
+#: ../srcore/srmain.c:1701
+msgid "shift"
+msgstr "shift"
+
+#: ../srcore/srmain.c:1706 ../srcore/srpres.c:868
+msgid "Window"
+msgstr "विन्डो"
+
+#: ../srcore/srmain.c:1711 ../srcore/srmain.c:1786 ../srcore/srpres.c:834
+msgid "Menu"
+msgstr "मेनु"
+
+#: ../srcore/srmain.c:1716
+msgid "caps lock"
+msgstr "caps lock"
+
+#: ../srcore/srmain.c:1720
+msgid "num lock"
+msgstr "num lock"
+
+#: ../srcore/srmain.c:1728 ../srcore/srmain.c:1772
+msgid "right"
+msgstr "दाँया"
+
+#: ../srcore/srmain.c:1730 ../srcore/srmain.c:1774
+msgid "left"
+msgstr "बाँया"
+
+#: ../srcore/srmain.c:1764
+msgid "home"
+msgstr "घर"
+
+#: ../srcore/srmain.c:1766
+msgid "end"
+msgstr "समाप्त"
+
+#: ../srcore/srmain.c:1768
+msgid "page up"
+msgstr "पेज माथी"
+
+#: ../srcore/srmain.c:1770
+msgid "page down"
+msgstr "पेज तल"
+
+#: ../srcore/srmain.c:1776
+msgid "down"
+msgstr "तल"
+
+#: ../srcore/srmain.c:1778
+msgid "up"
+msgstr "माथि"
+
+#: ../srcore/srmain.c:1780
+msgid "backspace"
+msgstr "हटाउनुस"
+
+#: ../srcore/srmain.c:1782
+msgid "delete"
+msgstr "मेटाउनुस"
+
+#: ../srcore/srmain.c:1784
+msgid "escape"
+msgstr "निस्कनुस"
+
+#: ../srcore/srmain.c:2334
+msgid "Welcome to Gnopernicus"
+msgstr "जिनपेर्निकस्मा स्वागत छ"
+
+#: ../srcore/srmain.c:2439
+msgid "braille device can not be initialized"
+msgstr "अन्धलिपि यन्त्र थालनी गर्न सकिँदैन"
+
+#: ../srcore/srmain.c:2451
+msgid "Gnopernicus is now exiting. Have a nice day!"
+msgstr "जिनोपेर्निकस अब जाँदैछ. तपाईको दिन शुभ रहोस!"
+
+#: ../srcore/srmain.c:2728
+msgid "srcore"
+msgstr "स्क्रोर"
+
+#: ../srcore/srpres.c:808
+msgid "UNK"
+msgstr "यु एन के"
+
+#: ../srcore/srpres.c:808
+msgid "UNKNOWN"
+msgstr "अज्ञात"
+
+#: ../srcore/srpres.c:808
+msgid "Unknown"
+msgstr "अज्ञात"
+
+#: ../srcore/srpres.c:809
+msgid "???"
+msgstr "???"
+
+#: ../srcore/srpres.c:809
+msgid "INVALID"
+msgstr "खारिज"
+
+#: ../srcore/srpres.c:809
+msgid "Invalid"
+msgstr "खारिज"
+
+#: ../srcore/srpres.c:810
+msgid "ALR"
+msgstr "ए एल् आर"
+
+#: ../srcore/srpres.c:810
+msgid "ALERT"
+msgstr "सतर्कता"
+
+#: ../srcore/srpres.c:811
+msgid "CNV"
+msgstr "सि एन भि"
+
+#: ../srcore/srpres.c:811
+msgid "CANVAS"
+msgstr "क्यानभास"
+
+#: ../srcore/srpres.c:811
+msgid "Canvas"
+msgstr "क्यानभास"
+
+#: ../srcore/srpres.c:812
+msgid "CHK"
+msgstr "सि एच के"
+
+#: ../srcore/srpres.c:812
+msgid "CHECK_BOX"
+msgstr "चेक_बाकस"
+
+#: ../srcore/srpres.c:812
+msgid "Check box"
+msgstr "चेक बाकस"
+
+#: ../srcore/srpres.c:813 ../srcore/srpres.c:836 ../srcore/srpres.c:846
+msgid "MIT"
+msgstr "एम आइ टि"
+
+#: ../srcore/srpres.c:813 ../srcore/srpres.c:836 ../srcore/srpres.c:846
+msgid "MENU ITEM"
+msgstr "मेनु प्रकार"
+
+#: ../srcore/srpres.c:813
+msgid "Check Menu item"
+msgstr "मेनुको प्रकार चेक गर्नुस"
+
+#: ../srcore/srpres.c:814
+msgid "CCH"
+msgstr "सि सि एच"
+
+#: ../srcore/srpres.c:814
+msgid "COLOR CHOOSER"
+msgstr "रङ्ग छान्ने"
+
+#: ../srcore/srpres.c:814
+msgid "Color chooser"
+msgstr "रङ्ग छान्ने"
+
+#: ../srcore/srpres.c:815
+msgid "CHD"
+msgstr "सि एच डि"
+
+#: ../srcore/srpres.c:815
+msgid "COLUMN HEADER"
+msgstr "स्तम्भ शिर्षक"
+
+#: ../srcore/srpres.c:815
+msgid "Column header"
+msgstr "स्तम्भ शिर्षक"
+
+#: ../srcore/srpres.c:816
+msgid "CBO"
+msgstr "सि बि ओ"
+
+#: ../srcore/srpres.c:816
+msgid "COMBO BOX"
+msgstr "कम्बो बाकस"
+
+#: ../srcore/srpres.c:816
+msgid "Combo box"
+msgstr "कम्बो बाकस"
+
+#: ../srcore/srpres.c:817
+msgid "DIC"
+msgstr "डि आइ सि"
+
+#: ../srcore/srpres.c:817
+msgid "DESKTOP ICON"
+msgstr "डेक्सटप प्रतिमा"
+
+#: ../srcore/srpres.c:817
+msgid "Desktop icon"
+msgstr "डेक्सटप प्रतिमा"
+
+#: ../srcore/srpres.c:818
+msgid "DFR"
+msgstr "डि एफ आर"
+
+#: ../srcore/srpres.c:818
+msgid "DESKTOP FRAME"
+msgstr "डेस्कटप फ्रेम"
+
+#: ../srcore/srpres.c:818
+msgid "Desktop frame"
+msgstr "डेस्कटप फ्रेम"
+
+#: ../srcore/srpres.c:819
+msgid "DLG"
+msgstr "डि एल जि"
+
+#: ../srcore/srpres.c:819
+msgid "DIALOG"
+msgstr "संवाद"
+
+#: ../srcore/srpres.c:819
+msgid "Dialog"
+msgstr "संवाद"
+
+#: ../srcore/srpres.c:820
+msgid "DIP"
+msgstr "डि आइ पि"
+
+#: ../srcore/srpres.c:820
+msgid "DIRECTORY PANE"
+msgstr "डाइरेक्टरी फलक"
+
+#: ../srcore/srpres.c:820
+msgid "Directory pane"
+msgstr "डाइरेक्टरी फलक"
+
+#: ../srcore/srpres.c:821
+msgid "FCH"
+msgstr "एफ सि एच"
+
+#: ../srcore/srpres.c:821
+msgid "FILE CHOOSER"
+msgstr "फाइल रोज्ने कर्ता"
+
+#: ../srcore/srpres.c:821
+msgid "File chooser"
+msgstr "फाइल रोज्ने कर्ता"
+
+#: ../srcore/srpres.c:822
+msgid "FLR"
+msgstr "एफ एल आर"
+
+#: ../srcore/srpres.c:822
+msgid "FILLER"
+msgstr "भर्ने"
+
+#: ../srcore/srpres.c:822
+msgid "Filler"
+msgstr "भर्ने"
+
+#: ../srcore/srpres.c:823
+msgid "FRM"
+msgstr "एफ आर एम"
+
+#: ../srcore/srpres.c:823
+msgid "FRAME"
+msgstr "फ्रेम"
+
+#: ../srcore/srpres.c:823
+msgid "Frame"
+msgstr "फ्रेम"
+
+#: ../srcore/srpres.c:824
+msgid "GPN"
+msgstr "जि पि एन"
+
+#: ../srcore/srpres.c:824
+msgid "GLASS PANE"
+msgstr "गिलास फलक"
+
+#: ../srcore/srpres.c:824
+msgid "Glass pane"
+msgstr "गिलास फलक"
+
+#: ../srcore/srpres.c:825
+msgid "HTM"
+msgstr "एच टि एम"
+
+#: ../srcore/srpres.c:825
+msgid "HTML CONTAINER"
+msgstr "एच टि एम एल कन्टेनर"
+
+#: ../srcore/srpres.c:825
+msgid "H T M L container"
+msgstr "एच टि एम एल कन्टेनर"
+
+#: ../srcore/srpres.c:826 ../srcore/srpres.c:831
+msgid "LNK"
+msgstr "एल एन के"
+
+#: ../srcore/srpres.c:826 ../srcore/srpres.c:831
+msgid "LINK"
+msgstr "लिङ्क"
+
+#: ../srcore/srpres.c:826 ../srcore/srpres.c:831
+msgid "link"
+msgstr "लिङ्क"
+
+#: ../srcore/srpres.c:827
+msgid "ICO"
+msgstr "आइ सि ओ"
+
+#: ../srcore/srpres.c:827
+msgid "ICON"
+msgstr "प्रतिमा"
+
+#: ../srcore/srpres.c:827
+msgid "Icon"
+msgstr "प्रतिमा"
+
+#: ../srcore/srpres.c:828
+msgid "IFR"
+msgstr "आइ एफ आर"
+
+#: ../srcore/srpres.c:828
+msgid "INTERNAL FRAME"
+msgstr "आन्तरिक फ्रेम"
+
+#: ../srcore/srpres.c:828
+msgid "Internal frame"
+msgstr "आन्तरिक फ्रेम"
+
+#: ../srcore/srpres.c:829
+msgid "LBL"
+msgstr "एल बि एल"
+
+#: ../srcore/srpres.c:829
+msgid "LABEL"
+msgstr "तह"
+
+#: ../srcore/srpres.c:829
+msgid "Label"
+msgstr "तह"
+
+#: ../srcore/srpres.c:830
+msgid "LPN"
+msgstr "एल पि एन"
+
+#: ../srcore/srpres.c:830
+msgid "LAYERED PANE"
+msgstr "तह फलक"
+
+#: ../srcore/srpres.c:830
+msgid "Layered pane"
+msgstr "तह फलक"
+
+#: ../srcore/srpres.c:832
+msgid "LST"
+msgstr "एल एस टि"
+
+#: ../srcore/srpres.c:832
+msgid "LIST"
+msgstr "सूची"
+
+#: ../srcore/srpres.c:832
+msgid "List"
+msgstr "सूची"
+
+#: ../srcore/srpres.c:833
+msgid "LIT"
+msgstr "एल आइ टि"
+
+#: ../srcore/srpres.c:833
+msgid "LIST ITEM"
+msgstr "सूची बस्तु"
+
+#: ../srcore/srpres.c:833
+msgid "List item"
+msgstr "सूची बस्तु"
+
+#: ../srcore/srpres.c:834
+msgid "MNU"
+msgstr "एम एन यु"
+
+#: ../srcore/srpres.c:834
+msgid "MENU"
+msgstr "मेनु"
+
+#: ../srcore/srpres.c:835
+msgid "MBR"
+msgstr "एम बि आर"
+
+#: ../srcore/srpres.c:835
+msgid "MENU BAR"
+msgstr "मेनु बार"
+
+#: ../srcore/srpres.c:835
+msgid "Menu bar"
+msgstr "मेनु बार"
+
+#: ../srcore/srpres.c:836
+msgid "Menu item"
+msgstr "मेनु चीज"
+
+#: ../srcore/srpres.c:837
+msgid "OPN"
+msgstr "ओ पि एन"
+
+#: ../srcore/srpres.c:837
+msgid "OPTION PANE"
+msgstr "बिकल्प फलक"
+
+#: ../srcore/srpres.c:837
+msgid "Option pane"
+msgstr "बिकल्प फलक"
+
+#: ../srcore/srpres.c:838
+msgid "PGT"
+msgstr "पि जि टि"
+
+#: ../srcore/srpres.c:838
+msgid "PAGE TAB"
+msgstr "पेज ट्याब"
+
+#: ../srcore/srpres.c:838
+msgid "Page tab"
+msgstr "पेज ट्याब"
+
+#: ../srcore/srpres.c:839
+msgid "PTL"
+msgstr "पि टि एल"
+
+#: ../srcore/srpres.c:839
+msgid "PAGE TAB LIST"
+msgstr "पेज ट्याब सूची"
+
+#: ../srcore/srpres.c:839
+msgid "Page tab list"
+msgstr "पेज ट्याब सूची"
+
+#: ../srcore/srpres.c:840
+msgid "PNL"
+msgstr "पि एन एल"
+
+#: ../srcore/srpres.c:840
+msgid "PANEL"
+msgstr "प्यानल"
+
+#: ../srcore/srpres.c:840
+msgid "Panel"
+msgstr "प्यानल"
+
+#: ../srcore/srpres.c:841
+msgid "PWD"
+msgstr "पि डब्लु डि"
+
+#: ../srcore/srpres.c:841
+msgid "PASSWORD TEXT"
+msgstr "पासवर्ड पाठ"
+
+#: ../srcore/srpres.c:841
+msgid "Password text"
+msgstr "पासवर्ड पाठ"
+
+#: ../srcore/srpres.c:842
+msgid "PMN"
+msgstr "पि एम एन"
+
+#: ../srcore/srpres.c:842
+msgid "POPUP MENU"
+msgstr "पपअप मेनु"
+
+#: ../srcore/srpres.c:842
+msgid "Popup menu"
+msgstr "पपअप मेनु"
+
+#: ../srcore/srpres.c:843
+msgid "PRG"
+msgstr "पि आर जि"
+
+#: ../srcore/srpres.c:843
+msgid "PROGRESS BAR"
+msgstr "प्रोग्रेस बार"
+
+#: ../srcore/srpres.c:843
+msgid "Progress bar"
+msgstr "प्रोग्रेस बार"
+
+#: ../srcore/srpres.c:844
+msgid "PBT"
+msgstr "पि बि टि"
+
+#: ../srcore/srpres.c:844
+msgid "PUSH BUTTON"
+msgstr "बटन थिच्नुस"
+
+#: ../srcore/srpres.c:844
+msgid "Push button"
+msgstr "बटन थिच्नुस"
+
+#: ../srcore/srpres.c:845
+msgid "RAD"
+msgstr "आर ए डि"
+
+#: ../srcore/srpres.c:845
+msgid "RADIO BUTTON"
+msgstr "रेडियो बटन"
+
+#: ../srcore/srpres.c:845
+msgid "Radio button"
+msgstr "रेडियो बटन"
+
+#: ../srcore/srpres.c:846
+msgid "Radio Menu item"
+msgstr "रेडियो मेनु चीज"
+
+#: ../srcore/srpres.c:847
+msgid "RPN"
+msgstr "आर पि एन"
+
+#: ../srcore/srpres.c:847
+msgid "ROOT PANE"
+msgstr "रुट फलक"
+
+#: ../srcore/srpres.c:847
+msgid "Root pane"
+msgstr "रुट फलक"
+
+#: ../srcore/srpres.c:848
+msgid "RHD"
+msgstr "आर एच डि"
+
+#: ../srcore/srpres.c:848
+msgid "ROW HEADER"
+msgstr "पङ्त्ति शिर्षक"
+
+#: ../srcore/srpres.c:848
+msgid "Row header"
+msgstr "पङ्त्ति शिर्षक"
+
+#: ../srcore/srpres.c:849
+msgid "SCR"
+msgstr "एस सि आर"
+
+#: ../srcore/srpres.c:849
+msgid "SCROLL BAR"
+msgstr "स्क्रोल बार"
+
+#: ../srcore/srpres.c:849
+msgid "Scroll bar"
+msgstr "स्क्रोल बार"
+
+#: ../srcore/srpres.c:850 ../srcore/srpres.c:878
+msgid "SPN"
+msgstr "एस पि एन"
+
+#: ../srcore/srpres.c:850
+msgid "SCROLL PANE"
+msgstr "सक्रोल फलक"
+
+#: ../srcore/srpres.c:850
+msgid "Scroll pane"
+msgstr "सक्रोल फलक"
+
+#: ../srcore/srpres.c:851
+msgid "SEP"
+msgstr "एस इ पि"
+
+#: ../srcore/srpres.c:851
+msgid "SEPARATOR"
+msgstr "बिभाजक"
+
+#: ../srcore/srpres.c:851
+msgid "Separator"
+msgstr "बिभाजक"
+
+#: ../srcore/srpres.c:852
+msgid "SLD"
+msgstr "एस एल डि"
+
+#: ../srcore/srpres.c:852
+msgid "SLIDER"
+msgstr "स्लाइडर"
+
+#: ../srcore/srpres.c:852
+msgid "Slider"
+msgstr "स्लाइडर"
+
+#: ../srcore/srpres.c:853
+msgid "SPP"
+msgstr "एस पि पि"
+
+#: ../srcore/srpres.c:853
+msgid "SPLIT PANE"
+msgstr "बिभाजन फलक"
+
+#: ../srcore/srpres.c:853
+msgid "Split pane"
+msgstr "बिभाजन फलक"
+
+#: ../srcore/srpres.c:854
+msgid "STA"
+msgstr "एस टि ए"
+
+#: ../srcore/srpres.c:854
+msgid "STATUS BAR"
+msgstr "स्ट्याटस बार"
+
+#: ../srcore/srpres.c:854
+msgid "Status bar"
+msgstr "स्ट्याटस बार"
+
+#: ../srcore/srpres.c:855
+msgid "TAB"
+msgstr "टि ए बि"
+
+#: ../srcore/srpres.c:855
+msgid "TABLE"
+msgstr "तालिका"
+
+#: ../srcore/srpres.c:855
+msgid "Table"
+msgstr "तालिका"
+
+#: ../srcore/srpres.c:856
+msgid "CEL"
+msgstr "सि इ एल"
+
+#: ../srcore/srpres.c:856
+msgid "TABLE CELL"
+msgstr "तालिका कक्ष"
+
+#: ../srcore/srpres.c:856
+msgid "Table cell"
+msgstr "तालिका कक्ष"
+
+#: ../srcore/srpres.c:857 ../srcore/srpres.c:882
+msgid "TCH"
+msgstr "टि सि एच"
+
+#: ../srcore/srpres.c:857
+msgid "TABLE COLUMN HEADER"
+msgstr "तालिका स्तम्भ शिर्षक"
+
+#: ../srcore/srpres.c:857
+msgid "Table column header"
+msgstr "तालिका स्तम्भ शिर्षक"
+
+#: ../srcore/srpres.c:858
+msgid "TRH"
+msgstr "टि आर एच"
+
+#: ../srcore/srpres.c:858
+msgid "TABLE ROW HEADER"
+msgstr "तालिका पङ्त्ति शिर्षक"
+
+#: ../srcore/srpres.c:858
+msgid "Table row header"
+msgstr "तालिका पङ्त्ति शिर्षक"
+
+#: ../srcore/srpres.c:859 ../srcore/srpres.c:860
+msgid "TXT"
+msgstr "टि एक्स टि"
+
+#: ../srcore/srpres.c:859
+msgid "MULTI LINE TEXT"
+msgstr "बहु पङ्त्ति पाठ"
+
+#: ../srcore/srpres.c:859
+msgid "Multi Line Text"
+msgstr "बहु पङ्त्ति पाठ"
+
+#: ../srcore/srpres.c:860
+msgid "SINGLE LINE TEXT"
+msgstr "एकल पङ्त्ति पाठ"
+
+#: ../srcore/srpres.c:860
+msgid "Single Line Text"
+msgstr "एकल पङ्त्ति पाठ"
+
+#: ../srcore/srpres.c:861
+msgid "TOG"
+msgstr "टि ओ जि"
+
+#: ../srcore/srpres.c:861
+msgid "TOGGLE BUTTON"
+msgstr "टुगल बटन"
+
+#: ../srcore/srpres.c:861
+msgid "Toggle button"
+msgstr "टुगल बटन"
+
+#: ../srcore/srpres.c:862
+msgid "TOL"
+msgstr "टि ओ एल"
+
+#: ../srcore/srpres.c:862
+msgid "TOOL BAR"
+msgstr "उपकरण बार"
+
+#: ../srcore/srpres.c:862
+msgid "Tool bar"
+msgstr "उपकरण बार"
+
+#: ../srcore/srpres.c:863
+msgid "TIP"
+msgstr "टि आइ पि"
+
+#: ../srcore/srpres.c:863
+msgid "TOOL TIP"
+msgstr "उपकरण टिप"
+
+#: ../srcore/srpres.c:863
+msgid "Tool tip"
+msgstr "उपकरण टिप"
+
+#: ../srcore/srpres.c:864
+msgid "TRE"
+msgstr "टि आर इ"
+
+#: ../srcore/srpres.c:864
+msgid "TREE"
+msgstr "ट्रि"
+
+#: ../srcore/srpres.c:864
+msgid "Tree"
+msgstr "ट्रि"
+
+#: ../srcore/srpres.c:865
+msgid "TRI"
+msgstr "टि आर आइ"
+
+#: ../srcore/srpres.c:865
+msgid "TREE ITEM"
+msgstr "ट्रि चीज"
+
+#: ../srcore/srpres.c:865
+msgid "Tree item"
+msgstr "ट्रि चीज"
+
+#: ../srcore/srpres.c:866
+msgid "TRT"
+msgstr "टि आर टि"
+
+#: ../srcore/srpres.c:866
+msgid "TREE TABLE"
+msgstr "ट्रि तालिका"
+
+#: ../srcore/srpres.c:866
+msgid "Tree table"
+msgstr "ट्रि तालिका"
+
+#: ../srcore/srpres.c:867
+msgid "VWP"
+msgstr "भि डब्लु पि"
+
+#: ../srcore/srpres.c:867
+msgid "VIEWPORT"
+msgstr "भ्यूपोर्ट"
+
+#: ../srcore/srpres.c:867
+msgid "Viewport"
+msgstr "भ्यूपोर्ट"
+
+#: ../srcore/srpres.c:868
+msgid "WND"
+msgstr "डब्लु एन डि"
+
+#: ../srcore/srpres.c:868
+msgid "WINDOW"
+msgstr "विन्डो"
+
+#: ../srcore/srpres.c:869
+msgid "ACC"
+msgstr "ए सि सि"
+
+#: ../srcore/srpres.c:869
+msgid "ACCELERATOR LABEL"
+msgstr "द्रुतक तह"
+
+#: ../srcore/srpres.c:869
+msgid "Accelerator label"
+msgstr "द्रुतक तह"
+
+#: ../srcore/srpres.c:870
+msgid "ANI"
+msgstr "ए एन आइ"
+
+#: ../srcore/srpres.c:870
+msgid "ANIMATION"
+msgstr "एनिमेसन"
+
+#: ../srcore/srpres.c:870
+msgid "Animation"
+msgstr "एनिमेसन"
+
+#: ../srcore/srpres.c:871
+msgid "ARR"
+msgstr "ए आर आर"
+
+#: ../srcore/srpres.c:871
+msgid "ARROW"
+msgstr "बाण"
+
+#: ../srcore/srpres.c:871
+msgid "Arrow"
+msgstr "बाण"
+
+#: ../srcore/srpres.c:872
+msgid "CAL"
+msgstr "सि ए एल"
+
+#: ../srcore/srpres.c:872
+msgid "CALENDAR"
+msgstr "भित्तेपात्रो"
+
+#: ../srcore/srpres.c:872
+msgid "Calendar"
+msgstr "भित्तेपात्रो"
+
+#: ../srcore/srpres.c:873
+msgid "DAT"
+msgstr "डि ए टि"
+
+#: ../srcore/srpres.c:873
+msgid "DATE EDITOR"
+msgstr "मिति सम्पादक"
+
+#: ../srcore/srpres.c:873
+msgid "Date editor"
+msgstr "मिति सम्पादक"
+
+#: ../srcore/srpres.c:874
+msgid "DIL"
+msgstr "डि आइ एल"
+
+#: ../srcore/srpres.c:874
+msgid "DIAL"
+msgstr "डाइल"
+
+#: ../srcore/srpres.c:874
+msgid "Dial"
+msgstr "डाइल"
+
+#: ../srcore/srpres.c:875
+msgid "DRW"
+msgstr "डि आर डब्लु"
+
+#: ../srcore/srpres.c:875
+msgid "DRAWING AREA"
+msgstr "चित्रकला स्थान"
+
+#: ../srcore/srpres.c:875
+msgid "Drawing area"
+msgstr "चित्रकला स्थान"
+
+#: ../srcore/srpres.c:876
+msgid "FNT"
+msgstr "एफ एन टि"
+
+#: ../srcore/srpres.c:876
+msgid "FONT CHOOSER"
+msgstr "फन्ट रोज्ने कर्ता"
+
+#: ../srcore/srpres.c:876
+msgid "Font chooser"
+msgstr "फन्ट रोज्ने कर्ता"
+
+#: ../srcore/srpres.c:877
+msgid "IMG"
+msgstr "आइ एम जि"
+
+#: ../srcore/srpres.c:877
+msgid "IMAGE"
+msgstr "आक्रृति"
+
+#: ../srcore/srpres.c:877
+msgid "Image"
+msgstr "आक्रृति"
+
+#: ../srcore/srpres.c:878
+msgid "SPIN BUTTON"
+msgstr "स्पिन बटन"
+
+#: ../srcore/srpres.c:878
+msgid "Spin button"
+msgstr "स्पिन बटन"
+
+#: ../srcore/srpres.c:879
+msgid "TRM"
+msgstr "टि आर एम"
+
+#: ../srcore/srpres.c:879
+msgid "TERMINAL"
+msgstr "टर्मिनल"
+
+#: ../srcore/srpres.c:879
+msgid "Terminal"
+msgstr "टर्मिनल"
+
+#: ../srcore/srpres.c:880
+msgid "EXT"
+msgstr "इ एक्स टि"
+
+#: ../srcore/srpres.c:880
+msgid "EXTENDED"
+msgstr "बिस्तारित"
+
+#: ../srcore/srpres.c:880
+msgid "Extended"
+msgstr "बिस्तारित"
+
+#: ../srcore/srpres.c:881
+msgid "TLI"
+msgstr "टि एल आइ"
+
+#: ../srcore/srpres.c:881
+msgid "TABLE LINE"
+msgstr "तालिका पङ्त्ति"
+
+#: ../srcore/srpres.c:881
+msgid "Table line"
+msgstr "तालिका पङ्त्ति"
+
+#: ../srcore/srpres.c:882
+msgid "TABLE COLUMNS HEADER"
+msgstr "तालिका स्तम्भ शिर्षक"
+
+#: ../srcore/srpres.c:882
+msgid "Table columns header"
+msgstr "तालिका स्तम्भ शिर्षक"
+
+#: ../srcore/srpres.c:883
+msgid "TIT"
+msgstr "टि आइ टि"
+
+#: ../srcore/srpres.c:883
+msgid "TITLE BAR"
+msgstr "शिर्षक बार"
+
+#: ../srcore/srpres.c:883
+msgid "Title bar"
+msgstr "शिर्षक बार"
+
+#: ../srcore/srpres.c:884
+msgid "EDB"
+msgstr "इ डि बि"
+
+#: ../srcore/srpres.c:884
+msgid "EDIT BAR"
+msgstr "सम्पादन बार"
+
+#: ../srcore/srpres.c:884
+msgid "Edit bar"
+msgstr "सम्पादन बार"
+
+#: ../srcore/srspc.c:439
+#, c-format
+msgid "Incorrect parameters for voice \"%s%s\""
+msgstr "स्वरको लागि बेठिक प्यारामिटर्स \"%s%s\""
+
+#: ../srcore/srspc.c:484
+#, c-format
+msgid "failed to send to speech next string \"%s\""
+msgstr "पछिल्लो तारमा भाषण पठाउन असफल \"%s\""
+
+#: ../srcore/srspc.c:550
+#, c-format
+msgid "could not create/modify voice \"%s\""
+msgstr "स्वर बदल्न/बनाउन सकिँदैन \"%s\""
+
+#: ../srcore/srspc.c:710
+#, c-format
+msgid "voice \"%s\" will sound this way"
+msgstr "स्वर\"%s\" यस्तो सुनिन्छ"
+
+#: ../srcore/srspc.c:715
+#, c-format
+msgid "could not test voice \"%s\""
+msgstr "स्वर जाँच्न सकिएन \"%s\""
+
+#: ../srcore/srspc.c:804
+#, c-format
+msgid "value not supported for speech count mode \"%s\""
+msgstr "भाषण गणना मोडलाइ मानले सहारा दिँदैन \"%s\""
+
+#: ../srcore/srspc.c:840
+#, c-format
+msgid "value not supported for speech modifiers type \"%s\""
+msgstr "भाषण परिमार्जित प्रकार लाई मानले सहार दिँदैन \"%s\""
+
+#: ../srcore/srspc.c:876
+#, c-format
+msgid "value not supported for speech cursors type \"%s\""
+msgstr "भाषण कर्सर प्रकारलाई मानले सहार दिँदैन \"%s\""
+
+#: ../srcore/srspc.c:912
+#, c-format
+msgid "value not supported for speech spaces type \"%s\""
+msgstr "भाषण स्पिच प्रकारलाई मानले सहारा दिँदैन \"%s\""
+
+#: ../srcore/srspc.c:948
+#, c-format
+msgid "value not supported for speech dictionary type \"%s\""
+msgstr "भाषण शब्दकोष प्रकारलाई मानले सहारा दिँदैन \"%s\""
+
+#: ../srcore/srspc.c:985
+#, c-format
+msgid "value not supported for speech text echo type \"%s\""
+msgstr "भाषण पाठ प्रतिध्वनि प्रकारलाई मानले सहारा दिँदैन \"%s\""
+
+#: ../srcore/srspc.c:1004
+msgid "Tilde"
+msgstr "टिल्डे"
+
+#: ../srcore/srspc.c:1004
+msgid "Tildaes"
+msgstr "टिल्डेइज"
+
+#: ../srcore/srspc.c:1005
+msgid "Exclamation"
+msgstr "बिस्मय"
+
+#: ../srcore/srspc.c:1005
+msgid "Exclamations"
+msgstr "बिस्मयहरु"
+
+#: ../srcore/srspc.c:1006
+msgid "At"
+msgstr "मा"
+
+#: ../srcore/srspc.c:1006
+msgid "Ats"
+msgstr "मा"
+
+#: ../srcore/srspc.c:1007
+msgid "Hash"
+msgstr "ह्यास"
+
+#: ../srcore/srspc.c:1007
+msgid "Hashes"
+msgstr "ह्यासेस"
+
+#: ../srcore/srspc.c:1008
+msgid "Dollar"
+msgstr "डलर"
+
+#: ../srcore/srspc.c:1008
+msgid "Dollars"
+msgstr "डलर्स"
+
+#: ../srcore/srspc.c:1009
+msgid "Percent"
+msgstr "प्रतिशत"
+
+#: ../srcore/srspc.c:1009
+msgid "Percents"
+msgstr "प्रतिशतहरु"
+
+#: ../srcore/srspc.c:1010
+msgid "Caret"
+msgstr "क्यारेट"
+
+#: ../srcore/srspc.c:1010
+msgid "Carets"
+msgstr "क्यारेटहरु"
+
+#: ../srcore/srspc.c:1011
+msgid "And"
+msgstr "र"
+
+#: ../srcore/srspc.c:1011
+msgid "Ands"
+msgstr "र"
+
+#: ../srcore/srspc.c:1012
+msgid "Asterisk"
+msgstr "ताराचिन्ह"
+
+#: ../srcore/srspc.c:1012
+msgid "Asterisks"
+msgstr "ताराचिन्हहरु"
+
+#: ../srcore/srspc.c:1013
+msgid "Left Paranthesis"
+msgstr "बाँया प्याराथेसिस"
+
+#: ../srcore/srspc.c:1014
+msgid "Right Paranthesis"
+msgstr "बाँया प्यारान्थेसिस"
+
+#: ../srcore/srspc.c:1015
+msgid "Underscore"
+msgstr "अन्डरस्कोर"
+
+#: ../srcore/srspc.c:1015
+msgid "Underscores"
+msgstr "अन्डरस्कोर्स"
+
+#: ../srcore/srspc.c:1016
+msgid "Plus"
+msgstr "जोड"
+
+#: ../srcore/srspc.c:1016
+msgid "Pluses"
+msgstr "जोडहरु"
+
+#: ../srcore/srspc.c:1017
+msgid "Equal"
+msgstr "बराबर"
+
+#: ../srcore/srspc.c:1017
+msgid "Equals"
+msgstr "बराबरी"
+
+#: ../srcore/srspc.c:1018
+msgid "Minus"
+msgstr "घटाउ"
+
+#: ../srcore/srspc.c:1018
+msgid "Minuses"
+msgstr "घटाउहरु"
+
+#: ../srcore/srspc.c:1019
+msgid "Quote"
+msgstr "क्वोट"
+
+#: ../srcore/srspc.c:1019
+msgid "Quotes"
+msgstr "क्वोट्स"
+
+#: ../srcore/srspc.c:1020
+msgid "Left Bracket"
+msgstr "बाँया कोष्ठक"
+
+#: ../srcore/srspc.c:1020
+msgid "Left Brackets"
+msgstr "बाँया कोष्ठकहरु"
+
+#: ../srcore/srspc.c:1021
+msgid "Right Bracket"
+msgstr "दाँया कोष्ठक"
+
+#: ../srcore/srspc.c:1021
+msgid "Right Brackets"
+msgstr "दाँया कोष्ठकहरु"
+
+#: ../srcore/srspc.c:1022
+msgid "Left Brace"
+msgstr "बाँया माझौला कोष्ठक"
+
+#: ../srcore/srspc.c:1022
+msgid "Left Braces"
+msgstr "बाँया माझौला कोष्ठकहरु"
+
+#: ../srcore/srspc.c:1023
+msgid "Right Brace"
+msgstr "दाँया माझौला कोष्ठक"
+
+#: ../srcore/srspc.c:1023
+msgid "Right Braces"
+msgstr "दाँया माझौला कोष्ठकहरु"
+
+#: ../srcore/srspc.c:1024
+msgid "Semicolon"
+msgstr "अल्पविराम"
+
+#: ../srcore/srspc.c:1024
+msgid "Semicolons"
+msgstr "अल्पविरामहरु"
+
+#: ../srcore/srspc.c:1025
+msgid "Colon"
+msgstr "विराम"
+
+#: ../srcore/srspc.c:1025
+msgid "Colons"
+msgstr "विरामहरु"
+
+#: ../srcore/srspc.c:1026
+msgid "Double quote"
+msgstr "दोहोरो क्वोट"
+
+#: ../srcore/srspc.c:1026
+msgid "Double quotes"
+msgstr "दोहोरो क्वोटेस"
+
+#: ../srcore/srspc.c:1027
+msgid "Apostrophe"
+msgstr "एपोस्ट्रफी"
+
+#: ../srcore/srspc.c:1027
+msgid "Apostrophes"
+msgstr "एपोस्ट्रोफिस"
+
+#: ../srcore/srspc.c:1028
+msgid "Back Slash"
+msgstr "पछाडि स्ल्यास"
+
+#: ../srcore/srspc.c:1028
+msgid "Back Slashes"
+msgstr "पछाडि स्ल्यासेस"
+
+#: ../srcore/srspc.c:1029
+msgid "Bar"
+msgstr "बार"
+
+#: ../srcore/srspc.c:1029
+msgid "Bars"
+msgstr "बार्स"
+
+#: ../srcore/srspc.c:1030
+msgid "Greater"
+msgstr "ठूलो"
+
+#: ../srcore/srspc.c:1030
+msgid "Greaters"
+msgstr "ठुला"
+
+#: ../srcore/srspc.c:1031
+msgid "Less"
+msgstr "घटी"
+
+#: ../srcore/srspc.c:1031
+msgid "Lesses"
+msgstr "घटीहरु"
+
+#: ../srcore/srspc.c:1032
+msgid "Comma"
+msgstr "अल्पविराम"
+
+#: ../srcore/srspc.c:1032
+msgid "Commas"
+msgstr "अल्पविरामहरु"
+
+#: ../srcore/srspc.c:1033
+msgid "Dot"
+msgstr "थोप्लो"
+
+#: ../srcore/srspc.c:1033
+msgid "Dots"
+msgstr "थोप्ला"
+
+#: ../srcore/srspc.c:1034
+msgid "Slash"
+msgstr "स्ल्यास"
+
+#: ../srcore/srspc.c:1034
+msgid "Slashes"
+msgstr "स्ल्यासेस"
+
+#: ../srcore/srspc.c:1035
+msgid "Questions"
+msgstr "प्रश्नहरु"
+
+#: ../srcore/srspc.c:1109
+#, c-format
+msgid "value not supported for speech punctuation type \"%s\""
+msgstr "भाषण पङ्कचुएसन प्रकारलाई मानले सहारा दिँदैन \"%s\""
+
+#: ../srcore/srspc.c:1375
+msgid "Unable to initialize hashtable"
+msgstr "ह्यासतालिका थालनी गर्न असफल"
+
+#: ../srcore/srspc.c:1381
+msgid "Unable to load dictionary from gconf"
+msgstr "जिकोन्फबाट शब्दकोष लोड गर्न असफल लोड"
+
+#: ../srcore/srspc.c:1572
+msgid "speech initialization succeded"
+msgstr "प्रारम्भिक भाषणमा सफलता"
+
+#: ../srcore/srspc.c:1576
+msgid "speech initialization failed"
+msgstr "वाचन थालनी गर्न असफल"
+
+#: ../srcore/srspc.c:1772
+msgid "enter"
+msgstr "प्रविष्ट गराउनुहोस"
+
+#: ../srcore/srspc.c:1855
+#, c-format
+msgid "can not find \"%s\" voice. use default voice"
+msgstr "स्वर \"%s\"प्राप्त गर्न सकिएन. पूर्व निर्धारित स्वर प्रयोग गर्नुहोला"
+
+#: ../srcore/srspc.c:1872
+msgid "voices pitch will be set to default value"
+msgstr "स्वरहरुको पिच पूर्व निर्धारित ब्यवस्थापन हुन्छ"
+
+#: ../srcore/srspc.c:1874
+msgid "voices pitch will be decreased"
+msgstr "स्वरका पिच घट्छ"
+
+#: ../srcore/srspc.c:1876
+msgid "voices pitch will be increased"
+msgstr "स्वरका पिच बढ्छ"
+
+#: ../srcore/srspc.c:1920
+msgid "voices rate will be set to default value"
+msgstr "स्वरहरुको दर पूर्व निर्धारित ब्यवस्थापन हुन्छ"
+
+#: ../srcore/srspc.c:1922
+msgid "voices rate will be decreased"
+msgstr "स्वरका मूल्य घट्छ"
+
+#: ../srcore/srspc.c:1924
+msgid "voices rate will be increased"
+msgstr "स्वरका मूल्य बढ्छ"
+
+#: ../srcore/srspc.c:1969
+msgid "voices volume will be set to default value"
+msgstr "स्वरहरुको आवाज पूर्व निर्धारित ब्यवस्थापन हुन्छ"
+
+#: ../srcore/srspc.c:1971
+msgid "voices volume will be decreased"
+msgstr "स्वरका आवाज घट्छ"
+
+#: ../srcore/srspc.c:1973
+msgid "voices volume will be increased"
+msgstr "स्वरका आवाज बढ्छ"
+
+#: ../srcore/srspc.c:2099
+#, c-format
+msgid "no support for speech key \"%s\""
+msgstr "भाषण कुञ्जीलाई सहारा छैन\"%s\""
+

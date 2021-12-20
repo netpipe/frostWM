@@ -1,0 +1,266 @@
+# translation of gl.po to Galego
+# translation of gnome-mag.HEAD.po to Galego
+# This file is distributed under the same license as the PACKAGE package.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER.
+# Ignacio Casal Quinteiro <nacho.resa@gmail.com>, 2005.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gl\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2007-09-30 21:02+0200\n"
+"PO-Revision-Date: 2005-06-07 22:32+0200\n"
+"Last-Translator: Ignacio Casal Quinteiro <nacho.resa@gmail.com>\n"
+"Language-Team: Galego\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.9.1\n"
+
+#: ../colorblind/GNOME_Magnifier_ColorblindApplet.server.in.in.h:1
+msgid "Accessibility"
+msgstr "Accesibilidade"
+
+#: ../colorblind/GNOME_Magnifier_ColorblindApplet.server.in.in.h:2
+msgid "Colorblind applet"
+msgstr "Miniaplicación para persoas daltónicas"
+
+#: ../colorblind/GNOME_Magnifier_ColorblindApplet.server.in.in.h:3
+#, fuzzy
+msgid "Controls image filters for colorblind people"
+msgstr "Controlar o uso do filtro de imaxe para as persoas daltónicas"
+
+#: ../colorblind/data/Colorblind_Applet.xml.h:1
+#: ../colorblind/ui/WindowUI.py:40
+msgid "_About"
+msgstr "_Sobre"
+
+#: ../colorblind/data/Colorblind_Applet.xml.h:2
+#: ../colorblind/ui/WindowUI.py:39
+msgid "_Preferences"
+msgstr "_Preferencias"
+
+#: ../colorblind/data/colorblind-prefs.glade.h:1
+msgid "<b>Default Filter</b>"
+msgstr "<b>Filtro predeterminado</b>"
+
+#: ../colorblind/data/colorblind-prefs.glade.h:2
+msgid "<b>Filters</b>"
+msgstr "<b>Filtros</b>"
+
+#: ../colorblind/data/colorblind-prefs.glade.h:3
+msgid "<b>Shortcut</b>"
+msgstr "<b>Atallo</b>"
+
+#: ../colorblind/data/colorblind-prefs.glade.h:4
+msgid ""
+"<i>This is the filter that will be used when enabling/disabling the filters."
+"</i>"
+msgstr ""
+"<i>Este será o filtro que se usará cando se activen ou desactiven os filtros."
+"</i>"
+
+#: ../colorblind/data/colorblind-prefs.glade.h:5
+msgid "Colorblind Filters Preferences"
+msgstr "Preferencias de filtros para persoas daltónicas"
+
+#: ../colorblind/data/colorblind-prefs.glade.h:6
+#, fuzzy
+msgid ""
+"Configure the filter being used as default when the filters are disabled."
+msgstr ""
+"Configurar o filtro que se está usando como predeterminado, cando os filtros "
+"estean desactivados."
+
+#: ../colorblind/data/colorblind-prefs.glade.h:7
+msgid "Enable/Disable Filters:"
+msgstr "Activar ou desactivar filtros:"
+
+#: ../colorblind/data/colorblind-prefs.glade.h:8
+msgid "Filter:"
+msgstr "Filtro:"
+
+#: ../colorblind/data/colorblind-prefs.glade.h:9
+#: ../colorblind/ui/ColorblindPreferencesUI.py:219
+msgid "Negative Hue Shift"
+msgstr "Desprazamento negativo de ton"
+
+#: ../colorblind/data/colorblind-prefs.glade.h:10
+#: ../colorblind/ui/ColorblindPreferencesUI.py:218
+msgid "Positive Hue Shift"
+msgstr "Desprazamento positivo de ton"
+
+#: ../colorblind/data/colorblind-prefs.glade.h:11
+msgid "Select Next Filter:"
+msgstr "Seleccionar o seguinte filtro:"
+
+#: ../colorblind/data/colorblind-prefs.glade.h:12
+#: ../colorblind/ui/ColorblindPreferencesUI.py:217
+#, fuzzy
+msgid "Selective Blue Desaturation"
+msgstr "Desaturación azul selectiva"
+
+#: ../colorblind/data/colorblind-prefs.glade.h:13
+#: ../colorblind/ui/ColorblindPreferencesUI.py:214
+msgid "Selective Blue Saturation"
+msgstr "Saturación azul selectiva"
+
+#: ../colorblind/data/colorblind-prefs.glade.h:14
+#: ../colorblind/ui/ColorblindPreferencesUI.py:216
+#, fuzzy
+msgid "Selective Green Desaturation"
+msgstr "Desaturación verde selectiva"
+
+#: ../colorblind/data/colorblind-prefs.glade.h:15
+#: ../colorblind/ui/ColorblindPreferencesUI.py:213
+msgid "Selective Green Saturation"
+msgstr "Saturación verde selectiva"
+
+#: ../colorblind/data/colorblind-prefs.glade.h:16
+#: ../colorblind/ui/ColorblindPreferencesUI.py:215
+#, fuzzy
+msgid "Selective Red Desaturation"
+msgstr "Desaturación vermella selectiva"
+
+#: ../colorblind/data/colorblind-prefs.glade.h:17
+#: ../colorblind/ui/ColorblindPreferencesUI.py:212
+msgid "Selective Red Saturation"
+msgstr "Saturación vermella selectiva"
+
+#: ../colorblind/data/colorblind-prefs.glade.h:18
+#, fuzzy
+msgid ""
+"This filter completely desaturates the blue color when this is the "
+"predominant pixel color in the image."
+msgstr ""
+"Este filtro desatura completamente a cor azul cando esta é a cor de píxel "
+"predominante na imaxe."
+
+#: ../colorblind/data/colorblind-prefs.glade.h:19
+#, fuzzy
+msgid ""
+"This filter completely desaturates the green color when this is the "
+"predominant pixel color in the image."
+msgstr ""
+"Este filtro desatura completamente a cor verde cando esta é a cor de píxel "
+"predominante na imaxe."
+
+#: ../colorblind/data/colorblind-prefs.glade.h:20
+#, fuzzy
+msgid ""
+"This filter completely desaturates the red color when this is the "
+"predominant pixel color in the image."
+msgstr ""
+"Este filtro desatura completamente a cor vermella cando esta é a cor de "
+"píxel predominante na imaxe."
+
+#: ../colorblind/data/colorblind-prefs.glade.h:21
+#, fuzzy
+msgid ""
+"This filter completely saturates the blue color when this is the predominant "
+"pixel color in the image."
+msgstr ""
+"Este filtro satura completamente a cor azul cando esta é a cor de píxel "
+"predominante na imaxe."
+
+#: ../colorblind/data/colorblind-prefs.glade.h:22
+#, fuzzy
+msgid ""
+"This filter completely saturates the green color when this is the "
+"predominant pixel color in the image."
+msgstr ""
+"Este filtro satura completamente a cor verde cando esta é a cor de píxel "
+"predominante na imaxe."
+
+#: ../colorblind/data/colorblind-prefs.glade.h:23
+#, fuzzy
+msgid ""
+"This filter completely saturates the red color when this is the predominant "
+"pixel color in the image."
+msgstr ""
+"Este filtro satura completamente a cor vermella cando esta é a cor de píxel "
+"predominante na imaxe."
+
+#: ../colorblind/data/colorblind-prefs.glade.h:24
+#, fuzzy
+msgid ""
+"Transforms the colors Red to Blue, Green to Red and Blue to Green, carrying "
+"a potentially ambiguous set of colors to a different band of the spectrum."
+msgstr ""
+"Transforma as cores vermella a azul, verde a vermella e azul a verde; "
+"levando un conxunto potencialmente ambiguo a unha banda diferente do "
+"espectro."
+
+#: ../colorblind/data/colorblind-prefs.glade.h:25
+#, fuzzy
+msgid ""
+"Transforms the colors Red to Green, Green to Blue and Blue to Red, carrying "
+"a potentially ambiguous set of colors to a different band of the spectrum."
+msgstr ""
+"Transforma as cores vermella a verde, verde a azul e azul a vermella; "
+"levando un conxunto potencialmente ambiguo a unha banda diferente do "
+"espectro."
+
+#: ../colorblind/ui/WindowUI.py:36
+msgid "_File"
+msgstr "_Ficheiro"
+
+#: ../colorblind/ui/WindowUI.py:37
+msgid "_Quit"
+msgstr "_Saír"
+
+#: ../colorblind/ui/WindowUI.py:38
+msgid "_Edit"
+msgstr "_Editar"
+
+#: ../colorblind/ui/About.py:22
+msgid "Colorblind Applet"
+msgstr "Miniaplicación para persoas daltónicas"
+
+#: ../colorblind/ui/About.py:25
+msgid ""
+"Image filters for the colorblind. This is applet is part of gnome-mag, a "
+"magnification service for GNOME."
+msgstr ""
+"Filtros de imaxe para as persoas daltónicas. Esta miniaplicación é parte do "
+"gnome-mag, un servizo de ampliación de pantalla para o Gnome."
+
+#: ../colorblind/ui/About.py:28
+msgid "gnome-mag website"
+msgstr "sitio web do gnome-mag"
+
+#. about.set_documenters([])
+#. translators: These appear in the About dialog, usual format applies.
+#: ../colorblind/ui/About.py:36
+msgid "translator-credits"
+msgstr ""
+"Ignacio Casal Quinteiro <nacho.resa@gmail.com>\n"
+"Proxecto Trasno"
+
+#: ../colorblind/ui/ColorblindPreferencesUI.py:105
+msgid "New accelerator..."
+msgstr "Nova tecla rápida..."
+
+#: ../colorblind/ui/ColorblindPreferencesUI.py:157
+#, fuzzy, python-format
+msgid ""
+"The shortcut \"%s\" cannot be used because it will become impossible to type "
+"using this key.\n"
+"Please try with a key such as Control, Alt or Shift at the same time.\n"
+msgstr ""
+"Non se pode usar o atallo \"%s\" porque se faría imposible teclear usando "
+"esta tecla.\n"
+"Ténteo cunha tecla como Control, Alt ou Maiús ao mesmo tempo.\n"
+
+#: ../magnifier/GNOME_Magnifier.server.in.in.h:1
+msgid "Magnifier"
+msgstr "Lupa"
+
+#: ../magnifier/GNOME_Magnifier.server.in.in.h:2
+msgid "Simple Screen Magnification Service"
+msgstr "Servizo simple de ampliación de pantalla"
+
+#: ../magnifier/magnifier-main.c:408
+#, fuzzy, c-format
+msgid "Can't open display: DISPLAY is not set"
+msgstr "Non se pode abrir a pantalla, a PANTALLA non está definida"

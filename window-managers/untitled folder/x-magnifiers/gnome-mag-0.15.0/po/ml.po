@@ -1,0 +1,208 @@
+# translation of gnome-mag.HEAD.ml.po to Malayalam
+# translation of gnome-mag.HEAD.ml.po to
+# This file is distributed under the same license as the PACKAGE package.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+#
+# FSF-India <locale@gnu.org.in>, 2003.
+# Suresh Valiya Parambil <mvpsuresh@yahoo.com>, 2003.
+# Ani Peter <apeter@redhat.com>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-mag.HEAD.ml\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2007-08-28 04:35+0100\n"
+"PO-Revision-Date: 2007-09-03 18:10+0530\n"
+"Last-Translator: Ani Peter <apeter@redhat.com>\n"
+"Language-Team: Malayalam\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"X-Poedit-Country: INDIA\n"
+
+#: ../colorblind/GNOME_Magnifier_ColorblindApplet.server.in.in.h:1
+msgid "Accessibility"
+msgstr "സാമീപ്യത"
+
+#: ../colorblind/GNOME_Magnifier_ColorblindApplet.server.in.in.h:2
+msgid "Colorblind applet"
+msgstr "വര്‍ണാന്ധന്‍മാര്‍ക്കായുളള ലഘുപ്രയോഗം"
+
+#: ../colorblind/GNOME_Magnifier_ColorblindApplet.server.in.in.h:3
+msgid "Controls image filters for colorblind people"
+msgstr "വര്‍ണാന്ധന്‍മാര്‍ക്കായുളള ചിത്രത്തിന്റെ ഫില്‍‌റ്ററുകള്‍ നിയന്ത്രിക്കുന്നു"
+
+#: ../colorblind/data/Colorblind_Applet.xml.h:1
+#: ../colorblind/ui/WindowUI.py:40
+msgid "_About"
+msgstr "സംബന്ധിച്ച് (_A)"
+
+#: ../colorblind/data/Colorblind_Applet.xml.h:2
+#: ../colorblind/ui/WindowUI.py:39
+msgid "_Preferences"
+msgstr "മുന്‍ഗണന(_P)"
+
+#: ../colorblind/data/colorblind-prefs.glade.h:1
+msgid "<b>Default Filter</b>"
+msgstr "<b>സഹജമായ ഫില്‍ട്ടറ്‍</b>"
+
+#: ../colorblind/data/colorblind-prefs.glade.h:2
+msgid "<b>Filters</b>"
+msgstr "<b>ഫില്‍ട്ടറുകള്‍</b>"
+
+#: ../colorblind/data/colorblind-prefs.glade.h:3
+msgid "<b>Shortcut</b>"
+msgstr "<b>കുറുക്കുവഴി</b>"
+
+#: ../colorblind/data/colorblind-prefs.glade.h:4
+msgid "<i>This is the filter that will be used when enabling/disabling the filters.</i>"
+msgstr "<i>ഫില്‍ട്ടറുകള്‍ പ്രാപ്തമാക്കുകയോ/തടയുകയോ ചെയ്യുന്നതിന് ഈ ഫില്‍ട്ടറ്‍ ഉപയോഗിക്കുന്നു.</i>"
+
+#: ../colorblind/data/colorblind-prefs.glade.h:5
+msgid "Colorblind Filters Preferences"
+msgstr "വര്‍ണാന്ധന്‍മാര്‍ക്കായുളള ഫില്‍‌റ്ററുകളുടെ മുന്‍ഗണന"
+
+#: ../colorblind/data/colorblind-prefs.glade.h:6
+msgid "Configure the filter being used as default when the filters are disabled."
+msgstr "ഫില്‍‌റ്റുകള്‍ പ്രവറ്‍ത്തന രഹിതമാക്കുമ്പോള്‍ സഹജമായ ഫില്‍ട്ടറ്‍ ക്രമീകരിക്കുക."
+
+#: ../colorblind/data/colorblind-prefs.glade.h:7
+msgid "Enable/Disable Filters:"
+msgstr "ഫില്‍ട്ടറ്‍ പ്രാപ്തമാക്കുക/തടയുക:"
+
+#: ../colorblind/data/colorblind-prefs.glade.h:8
+msgid "Filter:"
+msgstr "ഫില്‍ട്ടറ്‍:"
+
+#: ../colorblind/data/colorblind-prefs.glade.h:9
+#: ../colorblind/ui/ColorblindPreferencesUI.py:219
+msgid "Negative Hue Shift"
+msgstr "നെഗറ്റിവ് ഹ്യൂ ഷിഫ്റ്റ്"
+
+#: ../colorblind/data/colorblind-prefs.glade.h:10
+#: ../colorblind/ui/ColorblindPreferencesUI.py:218
+msgid "Positive Hue Shift"
+msgstr "പോസിറ്റീവ് ഹ്യൂ ഷിഫ്റ്റ്"
+
+#: ../colorblind/data/colorblind-prefs.glade.h:11
+msgid "Select Next Filter:"
+msgstr "അടുത്ത ഫില്‍ട്ടറ്‍ തിരഞ്ഞെടുക്കുക:"
+
+#: ../colorblind/data/colorblind-prefs.glade.h:12
+#: ../colorblind/ui/ColorblindPreferencesUI.py:217
+msgid "Selective Blue Desaturation"
+msgstr "തിരഞ്ഞെടുക്കാവുന്ന നീല ഡീസാച്ചുറേഷന്‍"
+
+#: ../colorblind/data/colorblind-prefs.glade.h:13
+#: ../colorblind/ui/ColorblindPreferencesUI.py:214
+msgid "Selective Blue Saturation"
+msgstr "തിരഞ്ഞെടുക്കാവുന്ന നീല സാച്ചുറേഷന്‍"
+
+#: ../colorblind/data/colorblind-prefs.glade.h:14
+#: ../colorblind/ui/ColorblindPreferencesUI.py:216
+msgid "Selective Green Desaturation"
+msgstr "തിരഞ്ഞെടുക്കാവുന്ന പച്ച ഡീസാച്ചുറേഷന്‍"
+
+#: ../colorblind/data/colorblind-prefs.glade.h:15
+#: ../colorblind/ui/ColorblindPreferencesUI.py:213
+msgid "Selective Green Saturation"
+msgstr "തിരഞ്ഞെടുക്കാവുന്ന പച്ച സാച്ചുറേഷന്‍"
+
+#: ../colorblind/data/colorblind-prefs.glade.h:16
+#: ../colorblind/ui/ColorblindPreferencesUI.py:215
+msgid "Selective Red Desaturation"
+msgstr "തിരഞ്ഞെടുക്കാവുന്ന ചുമപ്പ് ഡീസാച്ചുറേഷന്‍"
+
+#: ../colorblind/data/colorblind-prefs.glade.h:17
+#: ../colorblind/ui/ColorblindPreferencesUI.py:212
+msgid "Selective Red Saturation"
+msgstr "തിരഞ്ഞെടുക്കാവുന്ന ചുമപ്പ് സാച്ചുറേഷന്‍"
+
+#: ../colorblind/data/colorblind-prefs.glade.h:18
+msgid "This filter completely desaturates the blue color when this is the predominant pixel color in the image."
+msgstr "ഇത് ചിത്രത്തിലെ ഏറ്റവും ശ്രദ്ധിക്കുന്ന പിക്സല്‍ നിറമാകുമ്പോള്‍ ഈ ഫില്‍ട്ടറ്‍ നീലനിറത്തെ മുഴുവനായും ഡീസാച്ചുറേറ്റുചെയ്യും. "
+
+#: ../colorblind/data/colorblind-prefs.glade.h:19
+msgid "This filter completely desaturates the green color when this is the predominant pixel color in the image."
+msgstr "ഇത് ചിത്രത്തിലെ ഏറ്റവും ശ്രദ്ധിക്കുന്ന പിക്സല്‍ നിറമാകുമ്പോള്‍ ഈ ഫില്‍ട്ടറ്‍ പച്ചനിറത്തെ മുഴുവനായും ഡീസാച്ചുറേറ്റുചെയ്യും. "
+
+#: ../colorblind/data/colorblind-prefs.glade.h:20
+msgid "This filter completely desaturates the red color when this is the predominant pixel color in the image."
+msgstr "ഇത് ചിത്രത്തിലെ ഏറ്റവും ശ്രദ്ധിക്കുന്ന പിക്സല്‍ നിറമാകുമ്പോള്‍ ഈ ഫില്‍ട്ടറ്‍ ചുമപ്പ്നിറത്തെ മുഴുവനായും ഡീസാച്ചുറേറ്റുചെയ്യും. "
+
+#: ../colorblind/data/colorblind-prefs.glade.h:21
+msgid "This filter completely saturates the blue color when this is the predominant pixel color in the image."
+msgstr "ഇത് ചിത്രത്തിലെ ഏറ്റവും ശ്രദ്ധിക്കുന്ന പിക്സല്‍ നിറമാകുമ്പോള്‍ ഈ ഫില്‍ട്ടറ്‍ നീലനിറത്തെ മുഴുവനായും സാച്ചുറേറ്റുചെയ്യും. "
+
+#: ../colorblind/data/colorblind-prefs.glade.h:22
+msgid "This filter completely saturates the green color when this is the predominant pixel color in the image."
+msgstr "ഇത് ചിത്രത്തിലെ ഏറ്റവും ശ്രദ്ധിക്കുന്ന പിക്സല്‍ നിറമാകുമ്പോള്‍ ഈ ഫില്‍ട്ടറ്‍ പച്ചനിറത്തെ മുഴുവനായും സാച്ചുറേറ്റുചെയ്യും. "
+
+#: ../colorblind/data/colorblind-prefs.glade.h:23
+msgid "This filter completely saturates the red color when this is the predominant pixel color in the image."
+msgstr "ഇത് ചിത്രത്തിലെ ഏറ്റവും ശ്രദ്ധിക്കുന്ന പിക്സല്‍ നിറമാകുമ്പോള്‍ ഈ ഫില്‍ട്ടറ്‍ ചുമപ്പ്നിറത്തെ മുഴുവനായും സാച്ചുറേറ്റുചെയ്യും. "
+
+#: ../colorblind/data/colorblind-prefs.glade.h:24
+msgid "Transforms the colors Red to Blue, Green to Red and Blue to Green, carrying a potentially ambiguous set of colors to a different band of the spectrum."
+msgstr "ചുമപ്പിനെ നീലയും, പച്ചയെ ചുമപ്പും, നീലയെ പച്ചയും ആക്കിമാറ്റുക."
+
+#: ../colorblind/data/colorblind-prefs.glade.h:25
+msgid "Transforms the colors Red to Green, Green to Blue and Blue to Red, carrying a potentially ambiguous set of colors to a different band of the spectrum."
+msgstr "ചുമപ്പിനെ പച്ചയും, പച്ചയെ നീലയും, നീലയെ ചുമപ്പും ആക്കിമാറ്റുക."
+
+#: ../colorblind/ui/WindowUI.py:36
+msgid "_File"
+msgstr "ഫയല്‍(_F)"
+
+#: ../colorblind/ui/WindowUI.py:37
+msgid "_Quit"
+msgstr "പുറത്തു കടക്കുക(_Q)"
+
+#: ../colorblind/ui/WindowUI.py:38
+msgid "_Edit"
+msgstr "ചിട്ടപ്പെടുത്തുക(_E)"
+
+#: ../colorblind/ui/About.py:22
+msgid "Colorblind Applet"
+msgstr "വര്‍ണാന്ധന്‍മാര്‍ക്കായുളള ലഘുപ്രയോഗം"
+
+#: ../colorblind/ui/About.py:25
+msgid "Image filters for the colorblind. This is applet is part of gnome-mag, a magnification service for GNOME."
+msgstr "ഇത് വര്‍ണാന്ധന്‍മാര്‍ക്കായുളള ചിത്രത്തിന്റെ ഫില്‍ട്ടറുകള്‍ ആണ്. ഈ ലഘുപ്രയോഗം ഗ്നോം-മാഗ് എന്ന ഗ്നോമിന്റെ ഭൂതകണ്ണാടിയുടെ ഭാഗമാണ്."
+
+#: ../colorblind/ui/About.py:28
+msgid "gnome-mag website"
+msgstr "ഗ്നോം-മാഗിന്റെ വെബ് സൈറ്റ്"
+
+#. about.set_documenters([])
+#. translators: These appear in the About dialog, usual format applies.
+#: ../colorblind/ui/About.py:36
+msgid "translator-credits"
+msgstr "Mobin M <mobstux@gmail.com>"
+
+#: ../colorblind/ui/ColorblindPreferencesUI.py:105
+msgid "New accelerator..."
+msgstr "പുതിയ വേഗവര്‍ദ്ധിനി.."
+
+#: ../colorblind/ui/ColorblindPreferencesUI.py:157
+#, python-format
+msgid ""
+"The shortcut \"%s\" cannot be used because it will become impossible to type using this key.\n"
+"Please try with a key such as Control, Alt or Shift at the same time.\n"
+msgstr ""
+"\"%s\" കുറുക്കുവഴി ഉപയോഗിക്കരുത്. എന്തെന്നാല്‍ ഈ കീ ഉപയോഗിച്ച് രചിക്കുവാന്‍ ബുദ്ധിമുട്ടാണ്.\n"
+"ഷിഫ്റ്റ്, ഓള്‍ട്ട്, കണ്ട്രോള്‍ കീ, ഇതിലൊന്ന് ഉപയോഗിച്ച് ശ്രമിച്ചുനോക്കൂ.\n"
+
+#: ../magnifier/GNOME_Magnifier.server.in.in.h:1
+msgid "Magnifier"
+msgstr "ഭൂതകണ്ണാടി"
+
+#: ../magnifier/GNOME_Magnifier.server.in.in.h:2
+msgid "Simple Screen Magnification Service"
+msgstr "ലളിതമായ സ്ക്രീന്‍ ഭൂതകണ്ണാടി"
+
+#: ../magnifier/magnifier-main.c:408
+#, c-format
+msgid "Can't open display: DISPLAY is not set"
+msgstr "പ്രദര്‍ശനം തുടങ്ങുവാന്‍ സാധിക്കുന്നില്ല: പ്രദര്‍ശനം സജ്ജമാക്കിയിട്ടില്ല"
+

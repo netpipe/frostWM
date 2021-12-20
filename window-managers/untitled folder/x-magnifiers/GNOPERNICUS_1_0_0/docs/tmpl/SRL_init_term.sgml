@@ -1,0 +1,54 @@
+<!-- ##### SECTION Title ##### -->
+SRL initialization
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+<!-- ##### FUNCTION srl_init ##### -->
+<para>
+
+</para>
+
+@Returns: 
+
+
+<!-- ##### FUNCTION srl_terminate ##### -->
+<para>
+
+</para>
+
+@Returns: 
+
+
+<!-- ##### FUNCTION srl_add_client ##### -->
+<para>
+
+</para>
+
+@client: 
+@Returns: 
+<!-- # Unused Parameters # -->
+@srl_client: 
+
+
+<!-- ##### FUNCTION srl_remove_client ##### -->
+<para>
+
+</para>
+
+@client_handle: 
+@Returns: 
+<!-- # Unused Parameters # -->
+@h_srl_client: 
+
+

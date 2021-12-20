@@ -1,0 +1,247 @@
+# translation of gnome-mag.HEAD.po to TAMIL
+# This file is distributed under the same license as the PACKAGE package.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER.
+#
+# Jayaradha N <jaya@pune.redhat.com>, 2004.
+# Dr.T.Vasudevan <agnihot3@gmail.com>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-mag.HEAD\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2007-08-28 04:35+0100\n"
+"PO-Revision-Date: 2007-08-28 16:09+0530\n"
+"Last-Translator: Dr.T.Vasudevan <agnihot3@gmail.com>\n"
+"Language-Team: TAMIL <ubuntu-l10n-tam@lists.ubuntu.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"\n"
+
+#: ../colorblind/GNOME_Magnifier_ColorblindApplet.server.in.in.h:1
+msgid "Accessibility"
+msgstr "அணுகல்"
+
+#: ../colorblind/GNOME_Magnifier_ColorblindApplet.server.in.in.h:2
+msgid "Colorblind applet"
+msgstr "வண்ண பார்வையின்மை குறுநிரல்"
+
+#: ../colorblind/GNOME_Magnifier_ColorblindApplet.server.in.in.h:3
+msgid "Controls image filters for colorblind people"
+msgstr "வண்ண பார்வையில்லாதோருக்கு பிம்ப வடிப்பி கட்டுப்பாடு"
+
+#: ../colorblind/data/Colorblind_Applet.xml.h:1
+#: ../colorblind/ui/WindowUI.py:40
+msgid "_About"
+msgstr "_பற்றி"
+
+#: ../colorblind/data/Colorblind_Applet.xml.h:2
+#: ../colorblind/ui/WindowUI.py:39
+msgid "_Preferences"
+msgstr "_ம முன்னுரிமைகள்"
+
+#: ../colorblind/data/colorblind-prefs.glade.h:1
+msgid "<b>Default Filter</b>"
+msgstr "<b>முன்னிருப்பு வடிப்பி</b>"
+
+#: ../colorblind/data/colorblind-prefs.glade.h:2
+msgid "<b>Filters</b>"
+msgstr "<b>வடிப்பிகள்</b>"
+
+#: ../colorblind/data/colorblind-prefs.glade.h:3
+msgid "<b>Shortcut</b>"
+msgstr "<b>குறுக்கு விசை</b>"
+
+#: ../colorblind/data/colorblind-prefs.glade.h:4
+msgid ""
+"<i>This is the filter that will be used when enabling/disabling the filters."
+"</i>"
+msgstr "<i>வடிப்பிகளை செயல் ஆக்கம்/நீக்கம் செய்யும் போது பயன் ஆகும் வடிப்பி இது</i>"
+
+#: ../colorblind/data/colorblind-prefs.glade.h:5
+msgid "Colorblind Filters Preferences"
+msgstr "வண்ண பார்வையின்மை வடிப்பி விருப்பங்கள்"
+
+#: ../colorblind/data/colorblind-prefs.glade.h:6
+msgid "Configure the filter being used as default when the filters are disabled."
+msgstr "வடிப்பிகள் செயல் நீக்கிய போது இப்போதிய வடிப்பியை முன்னிருப்பாக வடிவமைக்கவும்."
+
+#: ../colorblind/data/colorblind-prefs.glade.h:7
+msgid "Enable/Disable Filters:"
+msgstr "வடிப்பிகளை செயல் ஆக்கம்/நீக்கம் செய்க:"
+
+#: ../colorblind/data/colorblind-prefs.glade.h:8
+msgid "Filter:"
+msgstr "வடிப்பி:"
+
+#: ../colorblind/data/colorblind-prefs.glade.h:9
+#: ../colorblind/ui/ColorblindPreferencesUI.py:219
+msgid "Negative Hue Shift"
+msgstr "பூஜ்யத்துக்கு கீழான வண்ணச்சாயல் நகர்வு"
+
+#: ../colorblind/data/colorblind-prefs.glade.h:10
+#: ../colorblind/ui/ColorblindPreferencesUI.py:218
+msgid "Positive Hue Shift"
+msgstr "பூஜ்யத்துக்கு மேலான வண்ணச்சாயல் நகர்வு"
+
+#: ../colorblind/data/colorblind-prefs.glade.h:11
+msgid "Select Next Filter:"
+msgstr "அடுத்த வடிகட்டியை தேர்ந்தெடுக்கவும்:"
+
+#: ../colorblind/data/colorblind-prefs.glade.h:12
+#: ../colorblind/ui/ColorblindPreferencesUI.py:217
+msgid "Selective Blue Desaturation"
+msgstr "தேர்ந்தெடுத்த நீல தெவிட்ட நீக்கம்."
+
+#: ../colorblind/data/colorblind-prefs.glade.h:13
+#: ../colorblind/ui/ColorblindPreferencesUI.py:214
+msgid "Selective Blue Saturation"
+msgstr "தனி நீல தெவிட்ட ஆக்கம்."
+
+#: ../colorblind/data/colorblind-prefs.glade.h:14
+#: ../colorblind/ui/ColorblindPreferencesUI.py:216
+msgid "Selective Green Desaturation"
+msgstr "தனி பச்சை தெவிட்ட நீக்கம்."
+
+#: ../colorblind/data/colorblind-prefs.glade.h:15
+#: ../colorblind/ui/ColorblindPreferencesUI.py:213
+msgid "Selective Green Saturation"
+msgstr "தனி பச்சை தெவிட்ட ஆக்கம்."
+
+#: ../colorblind/data/colorblind-prefs.glade.h:16
+#: ../colorblind/ui/ColorblindPreferencesUI.py:215
+msgid "Selective Red Desaturation"
+msgstr "தனி சிவப்பு தெவிட்ட நீக்கம்."
+
+#: ../colorblind/data/colorblind-prefs.glade.h:17
+#: ../colorblind/ui/ColorblindPreferencesUI.py:212
+msgid "Selective Red Saturation"
+msgstr "தனி சிவப்பு தெவிட்ட ஆக்கம்."
+
+#: ../colorblind/data/colorblind-prefs.glade.h:18
+msgid ""
+"This filter completely desaturates the blue color when this is the "
+"predominant pixel color in the image."
+msgstr ""
+"இந்த வடிப்பி பிம்பத்தில் நீலமே முக்கிய படத்துணுக்கு வண்ணமாக உள்ளபோது அதை முழுமையாக தெவிட்ட நீக்கம் "
+"செய்யும்."
+
+#: ../colorblind/data/colorblind-prefs.glade.h:19
+msgid ""
+"This filter completely desaturates the green color when this is the "
+"predominant pixel color in the image."
+msgstr ""
+"இந்த வடிப்பி பிம்பத்தில் பச்சையே முக்கிய படத்துணுக்கு வண்ணமாக உள்ளபோது அதை முழுமையாக தெவிட்ட நீக்கம் "
+"செய்யும்."
+
+#: ../colorblind/data/colorblind-prefs.glade.h:20
+msgid ""
+"This filter completely desaturates the red color when this is the "
+"predominant pixel color in the image."
+msgstr ""
+"இந்த வடிப்பி பிம்பத்தில் சிவப்பே முக்கிய படத்துணுக்கு வண்ணமாக உள்ளபோது அதை முழுமையாக தெவிட்ட நீக்கம் "
+"செய்யும்."
+
+#: ../colorblind/data/colorblind-prefs.glade.h:21
+msgid ""
+"This filter completely saturates the blue color when this is the predominant "
+"pixel color in the image."
+msgstr ""
+"பிம்பத்தில் பிரதானமான படத்துணுக்கு நீல வண்ணமாக உள்ளபோது இந்த வடிப்பி நீல வண்ணத்தை "
+"முழுமையாக தெவிட்ட ஆக்கம் செய்கிறது."
+
+#: ../colorblind/data/colorblind-prefs.glade.h:22
+msgid ""
+"This filter completely saturates the green color when this is the "
+"predominant pixel color in the image."
+msgstr ""
+"பிம்பத்தில் பிரதானமான படத்துணுக்கு பச்சை வண்ணமாக உள்ளபோது இந்த வடிப்பி பச்சை வண்ணத்தை "
+"முழுமையாக தெவிட்ட ஆக்கம் செய்கிறது."
+
+#: ../colorblind/data/colorblind-prefs.glade.h:23
+msgid ""
+"This filter completely saturates the red color when this is the predominant "
+"pixel color in the image."
+msgstr ""
+"பிம்பத்தில் பிரதானமான படத்துணுக்கு சிவப்பு வண்ணமாக உள்ளபோது இந்த வடிப்பி சிவப்பு வண்ணத்தை "
+"முழுமையாக தெவிட்ட ஆக்கம் செய்கிறது."
+
+#: ../colorblind/data/colorblind-prefs.glade.h:24
+msgid ""
+"Transforms the colors Red to Blue, Green to Red and Blue to Green, carrying "
+"a potentially ambiguous set of colors to a different band of the spectrum."
+msgstr ""
+"சிவப்பை நீலமாகவும், பச்சையை சிவப்பாகவும், நீலத்தை பச்சையாகவும் மாற்றுகிறது. இது "
+"ஐயப்பாடான வண்ணங்களை வேறு அலைவரிசையுள்ள வண்ணங்களாக ஆக்குகிறது."
+
+#: ../colorblind/data/colorblind-prefs.glade.h:25
+msgid ""
+"Transforms the colors Red to Green, Green to Blue and Blue to Red, carrying "
+"a potentially ambiguous set of colors to a different band of the spectrum."
+msgstr ""
+"சிவப்பை பச்சையாகவும், பச்சையை நீலமாகவும், நீலத்தை சிவப்பாகவும் மாற்றுகிறது. இது "
+"ஐயப்பாடான வண்ணங்களை வேறு அலைவரிசையுள்ள வண்ணங்களாக ஆக்குகிறது."
+
+#: ../colorblind/ui/WindowUI.py:36
+msgid "_File"
+msgstr "_க கோப்பு"
+
+#: ../colorblind/ui/WindowUI.py:37
+msgid "_Quit"
+msgstr "_வ வெளியேறு"
+
+#: ../colorblind/ui/WindowUI.py:38
+msgid "_Edit"
+msgstr "_த திருத்து"
+
+#: ../colorblind/ui/About.py:22
+msgid "Colorblind Applet"
+msgstr "வண்ண பார்வையின்மை குறுநிரல்"
+
+#: ../colorblind/ui/About.py:25
+msgid ""
+"Image filters for the colorblind. This is applet is part of gnome-mag, a "
+"magnification service for GNOME."
+msgstr ""
+"வண்ணப் பார்வையில்லாதோருக்கு பிம்ப வடிப்பிகள். இந்த குறுநிரல் க்னோம் இன் உரு பெருக்கி "
+"சேவையான க்னோம் மாக் இன் பகுதி."
+
+#: ../colorblind/ui/About.py:28
+msgid "gnome-mag website"
+msgstr "க்னோம்-மாக் வலைத்தளம்."
+
+#. about.set_documenters([])
+#. translators: These appear in the About dialog, usual format applies.
+#: ../colorblind/ui/About.py:36
+msgid "translator-credits"
+msgstr "மொழிபெயர்ப்பாளர்-நன்றி அறிதல்."
+
+#: ../colorblind/ui/ColorblindPreferencesUI.py:105
+msgid "New accelerator..."
+msgstr "புதிய முடுக்கி..."
+
+#: ../colorblind/ui/ColorblindPreferencesUI.py:157
+#, python-format
+msgid ""
+"The shortcut \"%s\" cannot be used because it will become impossible to type "
+"using this key.\n"
+"Please try with a key such as Control, Alt or Shift at the same time.\n"
+msgstr ""
+"குறுக்கு விசை \"%s\"  ஐ பயன்படுத்த முடியாது. ஏனெனில் இந்த விசையை பயன்படுத்தி உள்ளிட "
+"இயலாது போகும்.\n"
+"கண்ட்ரோல், ஆல்ட் அல்லது ஷிப்ட் விசைகளுள் ஒன்றை அதே நேரத்தில் அழுத்தும்படி தேர்ந்தெடுக்கவும்.\n"
+
+#: ../magnifier/GNOME_Magnifier.server.in.in.h:1
+msgid "Magnifier"
+msgstr "அளவு பெருக்கி"
+
+#: ../magnifier/GNOME_Magnifier.server.in.in.h:2
+msgid "Simple Screen Magnification Service"
+msgstr "சுலபமான திரை அளவு பெருக்கி சேவை"
+
+#: ../magnifier/magnifier-main.c:408
+#, c-format
+msgid "Can't open display: DISPLAY is not set"
+msgstr "காட்ட இயலாது. DISPLAY அமைக்கப்படவில்லை."
+

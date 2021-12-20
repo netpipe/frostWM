@@ -1,0 +1,9 @@
+# List of source files containing translatable strings that are to be skipped.
+# Please keep this file sorted alphabetically,using the C collating order if possible:
+# shell: $ export LC_COLLATE=C
+# shell: $ sort POTFILES.skip -o POTFILES.skip
+gnopi/gnopi_files/Braille_Settings/status_cell.glade2
+gnopi/gnopi_files/Braille_Settings/braille_fill_char.glade2
+gnopi/gnopi_files/Language/language.glade2
+gnopi/langui.c
+gnopi/presconf.c

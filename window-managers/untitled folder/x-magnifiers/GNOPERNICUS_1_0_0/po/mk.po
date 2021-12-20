@@ -1,0 +1,5123 @@
+# translation of gnopernicus.HEAD.mk.po to Macedonian
+# translation of mk.po to Macedonian
+# English translation of PACKAGE.
+# Copyright (C) 2005 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# jove <jove.mk@gmail.com>, 2005.
+# jove <jove.mk@gmail.com>, 2005.
+# Арангел Ангов <ufo@linux.net.mk>, 2005.
+# Arangel Angov <ufo@linux.net.mk>, 2005.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: mk\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2005-09-02 14:38+0000\n"
+"PO-Revision-Date: 2005-09-02 20:03+0200\n"
+"Last-Translator: Арангел Ангов <ufo@linux.net.mk>\n"
+"Language-Team: Macedonian <ossm-members@hedona.on.net.mk>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural= n==1 || n%10==1 ? 0 : 1\n"
+"X-Generator: KBabel 1.10\n"
+
+#: ../braille/libbrl/ttybrl.c:193
+#, c-format
+msgid "BRLTTY command code not bound to Gnopernicus key code: 0X%04X\n"
+msgstr "BRLTTY кодот на командата не може да се поврзе со кодот на Gnopernicus: 0X%04X\n"
+
+#: ../braille/libbrl/ttybrl.c:256
+msgid "Error opening brlapi connection"
+msgstr "Грешка при отворање на brlapi врската"
+
+#: ../braille/libbrl/ttybrl.c:257
+#, c-format
+msgid ""
+"Please check that\n"
+" - %s exists and contains some data\n"
+" - you have read permission on %s\n"
+" - BRLTTY is running\n"
+msgstr ""
+"Ве молам проверете дали\n"
+" - %s постои и го содржи истите податоци\n"
+" - имате пермисии за читање на %s\n"
+" - BRLTTY работи\n"
+
+#: ../braille/libbrl/ttybrl.c:266
+msgid "Unable to get display size"
+msgstr "Не можам да ја добијам големината за приказ"
+
+#: ../braille/libbrl/ttybrl.c:270
+#, c-format
+msgid "BrlAPI detected a %dx%d display\n"
+msgstr "BrlAPI пронајде %dx%d приказ\n"
+
+#: ../braille/libbrl/ttybrl.c:320
+#, c-format
+msgid "no XFree86_VT property\n"
+msgstr "нема XFree86_VT својство\n"
+
+#: ../braille/libbrl/ttybrl.c:326
+#, c-format
+msgid "no item in XFree86_VT property\n"
+msgstr "нема предмет во XFree86_VT својството\n"
+
+#: ../braille/libbrl/ttybrl.c:340
+#, c-format
+msgid "Bad format for VT number\n"
+msgstr "Лош формат за VT бројот\n"
+
+#: ../braille/libbrl/ttybrl.c:344
+#, c-format
+msgid "Bad type for VT number\n"
+msgstr "Лош тип на VT број\n"
+
+#: ../braille/libbrl/ttybrl.c:350
+msgid "Unable to get Tty"
+msgstr "Не можам да добијам Tty"
+
+#: ../braille/test/remote.c:545
+msgid "Braille remote"
+msgstr "Брајов далечински управувач"
+
+#: ../brlmon/brlmon.c:196
+msgid "Braille monitor"
+msgstr "Брајов монитор"
+
+#: ../brlmon/brlmon.c:325 ../brlmon/brlmon.c:333
+#, c-format
+msgid "Invalid port number: %d."
+msgstr "Невалиден број на порта: %d."
+
+#: ../brlmon/brlmon.c:326 ../brlmon/brlmon.c:334
+msgid "port_no = [1025 - 30000]."
+msgstr "порта_бр =·[1025·-·30000]."
+
+#: ../brlmon/brlmon.c:520
+msgid "Can not open socket!"
+msgstr "Не можам да отворам приклучник!"
+
+#: ../brlmon/brlmon.c:543
+#, c-format
+msgid "Can not bind port number %d."
+msgstr "Не можам да поврзам порта број %d."
+
+#: ../brlmon/brlmon.c:547
+#, c-format
+msgid "Waiting for data on port UDP %u."
+msgstr "Чекам податоци на порта UDP·%u."
+
+#: ../brlmon/brlmonui.c:225 ../gnopi/gnopiconf.c:43
+msgid "Failed to init gconf client."
+msgstr "Не можам да го иницијализирам gconf клиентот."
+
+#: ../brlmon/brlmonui.c:234 ../srconf/libsrconf/libsrconf.c:418
+msgid "Failed to add directory."
+msgstr "Не можам да додадам директориум."
+
+#: ../brlmon/brlmonui.c:246 ../gnopi/kbconf.c:79 ../gnopi/spconf.c:95
+#: ../srconf/libsrconf/libsrconf.c:431
+msgid "Failed to add notify."
+msgstr "Не можам да додадам белешка."
+
+#: ../brlmon/brlmonui.c:261 ../gnopi/gnopiconf.c:145
+#, c-format
+msgid "Expected key: %s"
+msgstr "Очекувано копче: %s"
+
+#: ../brlmon/brlmonui.c:301
+#, c-format
+msgid "Failed to set value: %d"
+msgstr "Не можам да поставам вредност: %d"
+
+#: ../brlmon/brlmonui.c:342 ../brlmon/brlmonui.c:444 ../gnopi/gnopiconf.c:353
+#: ../gnopi/gnopiconf.c:407 ../gnopi/gnopiconf.c:558 ../gnopi/gnopiconf.c:731
+#, c-format
+msgid "Invalid type of key: %s."
+msgstr "Невалиден тип на копче: %s."
+
+#: ../brlmon/brlmonui.c:345 ../brlmon/brlmonui.c:364
+#, c-format
+msgid "Failed to set int value: %d."
+msgstr "Не можам да поставам инт вредност: %d."
+
+#: ../brlmon/brlmonui.c:358 ../brlmon/brlmonui.c:459
+#, c-format
+msgid "Failed to get value: %s."
+msgstr "Не можам да добијам вредност: %s."
+
+#: ../brlmon/brlmonui.c:403 ../gnopi/gnopiconf.c:355 ../gnopi/gnopiconf.c:373
+#: ../gnopi/gnopiconf.c:560 ../gnopi/gnopiconf.c:576
+#, c-format
+msgid "Failed to set value: %d."
+msgstr "Не можам да поставам вредност: %d."
+
+#: ../brlmon/brlmonui.c:447 ../brlmon/brlmonui.c:462
+#, c-format
+msgid "Failed to set boolean value: %d."
+msgstr "Не можам да поставам булеанова вредност: %d."
+
+#: ../brlmon/brlmonui.c:501 ../gnopi/gnopiconf.c:494 ../gnopi/gnopiconf.c:507
+#, c-format
+msgid "Failed to set value: %s."
+msgstr "Не можам да поставам вредност: %s."
+
+#: ../brlmon/brlmonui.c:535
+#, c-format
+msgid "Failed to get string value: %s."
+msgstr "Не можам да добијам вредност на стрингот: %s."
+
+#: ../brlmon/brlmonui.c:539 ../brlmon/brlmonui.c:549
+#, c-format
+msgid "Failed to set string value: %s."
+msgstr "Не можам да поставам вредност на стрингот: %s."
+
+#: ../brlmon/brlmonui.c:583 ../gnopi/bmui.c:297
+#, c-format
+msgid "Invalid modetype: %s."
+msgstr "Невалиден тип на режим: %s."
+
+#: ../brlmon/brlmonui.c:635
+#, c-format
+msgid "%s font not installed."
+msgstr "%s фонтот не е инсталиран."
+
+#. *
+#. * bmui_load_colors
+#. *
+#. * Load text colors.
+#. *
+#. * returns:
+#. *
+#: ../brlmon/brlmonui.c:639 ../gnopi/bmui.c:251
+msgid "Can not parse color string."
+msgstr "Не можам да го анализирам стрингот на бојата."
+
+#: ../brlmon/brlmonui.c:1112
+msgid "Status"
+msgstr "Статус"
+
+#: ../brlmon/brlmonui.c:1319
+#, c-format
+msgid "Too many cells on display. [Max %d]"
+msgstr "Премногу ќелии на приказот. [Max·%d]"
+
+#: ../brlmon/brlmonui.c:1320
+#, c-format
+msgid "Load default display size. Line: %d Column: %d."
+msgstr "Вчитај ја стандардната големина на приказот. Ред: %d Колона: %d."
+
+#. unsupported attribute
+#: ../brlmon/brlmonxml.c:84
+#, c-format
+msgid "BRLOUT attribute %s is not supported."
+msgstr "BRLOUT атрибутот %s не е поддржан."
+
+#. unsupported attribute
+#: ../brlmon/brlmonxml.c:218
+#, c-format
+msgid "TEXT attribute %s is not supported."
+msgstr "TEXT атрибутот %s не е поддржан."
+
+#: ../gnopi/bmconf.c:318
+msgid "Failed to set display size."
+msgstr "Не можам да поставам големина на приазот."
+
+#: ../gnopi/bmconf.c:336
+msgid "Failed to set display position."
+msgstr "Не можам да поставам позиција на приказот."
+
+#: ../gnopi/bmconf.c:368
+msgid "Failed to set display mode."
+msgstr "Не можам да поставам начин на прикажување."
+
+#: ../gnopi/bmconf.c:392
+msgid "Failed to set dot type colors."
+msgstr "Не можам да ги поставам точка-тип боите."
+
+#: ../gnopi/bmconf.c:409
+msgid "Failed to set font size."
+msgstr "Не можам да поставам големина на фонтот."
+
+#: ../gnopi/bmui.c:328
+#, c-format
+msgid "Invalid position: %s."
+msgstr "Невалидна позиција: %s."
+
+#: ../gnopi/brlconf.c:300 ../gnopi/cmdmapconf.c:237 ../gnopi/coreconf.c:140
+#: ../gnopi/kbconf.c:126 ../gnopi/magconf.c:226 ../gnopi/spconf.c:158
+#: ../gnopi/spconf.c:1247
+msgid "Unable to allocate memory."
+msgstr "Не можам да ја распоредам меморијата."
+
+#: ../gnopi/brlconf.c:407
+#, c-format
+msgid "Failed to set braille style: %s."
+msgstr "Не можам да поставам брајов стил: %s."
+
+#: ../gnopi/brlconf.c:416
+#, c-format
+msgid "Failed to set braille cursor style: %s."
+msgstr "Не можам да поставам стил на брајов покажувач: %s."
+
+#: ../gnopi/brlconf.c:425
+#, c-format
+msgid "Failed to set attribute settings: %d."
+msgstr "Не можам да ги поставам атрибутните поставки: %d."
+
+#: ../gnopi/brlconf.c:434
+#, c-format
+msgid "Failed to set braille device: %s."
+msgstr "Не можам да поставам брајов уред: %s."
+
+#: ../gnopi/brlconf.c:443
+#, c-format
+msgid "Failed to set fill character: %s."
+msgstr "Не можам да поставам пополнат знак: %s."
+
+#: ../gnopi/brlconf.c:452
+#, c-format
+msgid "Failed to set serial port number: %d."
+msgstr "Не можам да поставам број на сериска порта: %d."
+
+#: ../gnopi/brlconf.c:461
+#, c-format
+msgid "Failed to set serial port : %s."
+msgstr "Не можам да поставам сериската порта : %s."
+
+#: ../gnopi/brlconf.c:471
+#, c-format
+msgid "Failed to set translation table: %s."
+msgstr "Не можам да поставам табела на превод: %s."
+
+#: ../gnopi/brlconf.c:480
+#, c-format
+msgid "Failed to set optical sensor: %d."
+msgstr "Не можам да поставам оптички сензор: %d."
+
+#: ../gnopi/brlconf.c:489
+#, c-format
+msgid "Failed to set position sensor: %d."
+msgstr "Не можам да поставам позиционен сензор: %d."
+
+#: ../gnopi/brlconf.c:498
+#, c-format
+msgid "Failed to set status cell: %s."
+msgstr "Не можам да поставам статусна ќелија: %s."
+
+#: ../gnopi/brlconf.c:584 ../gnopi/brlui.c:498 ../gnopi/brlui.c:546
+#: ../gnopi/brlui.c:559 ../gnopi/spvoiceui.c:613
+msgid "<none>"
+msgstr "<none>"
+
+#: ../gnopi/brlui.c:79
+msgid "American English"
+msgstr "Англиски"
+
+#: ../gnopi/brlui.c:80
+msgid "German"
+msgstr "Германски"
+
+#: ../gnopi/brlui.c:81
+msgid "Spanish"
+msgstr "Шпански"
+
+#: ../gnopi/brlui.c:82
+msgid "Swedish"
+msgstr "Шведски"
+
+#. To translators: X = X Window System server
+#: ../gnopi/brlui.c:379
+msgid "X display's _terminal number:"
+msgstr "Број на _терминалот на X терминалот:"
+
+#: ../gnopi/brlui.c:385
+#: ../gnopi/gnopi_files/Braille_Settings/braille_device.glade2.h:6
+msgid "_Port:"
+msgstr "_Порта:"
+
+#: ../gnopi/brlui.c:741
+msgid "Language"
+msgstr "Јазик"
+
+#: ../gnopi/brlui.c:1336 ../gnopi/cmdmapui.c:475
+msgid "No selected command!"
+msgstr "Не е избрана команда!"
+
+#: ../gnopi/brlui.c:1360
+msgid "Invalid device key!"
+msgstr "Невалидно копче на уредот!"
+
+#: ../gnopi/brlui.c:1595 ../gnopi/brlui.c:2018 ../gnopi/cmdmapui.c:717
+#: ../gnopi/cmdmapui.c:1568 ../gnopi/cmdmapui.c:1588
+msgid "Commands"
+msgstr "Команди"
+
+#: ../gnopi/brlui.c:1750 ../gnopi/cmdmapui.c:1186
+msgid "No selected item to modify!"
+msgstr "Не е избран предмет за измена!"
+
+#: ../gnopi/brlui.c:1762 ../gnopi/brlui.c:1842 ../gnopi/cmdmapui.c:1059
+#: ../gnopi/cmdmapui.c:1196
+msgid "Invalid selected item!"
+msgstr "Невалиден избран објект!"
+
+#: ../gnopi/brlui.c:1830 ../gnopi/cmdmapui.c:1046
+msgid "No selected item to remove!"
+msgstr "Не е избран предмет за бришење!"
+
+#: ../gnopi/brlui.c:2012
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:9
+msgid "Braille Keys"
+msgstr "Брајови Копчиња"
+
+#: ../gnopi/cmdmapconf.c:462 ../gnopi/cmdmapconf.c:503
+msgid "Change commit error."
+msgstr "Грешка."
+
+#: ../gnopi/cmdmapui.c:45
+msgid "decrease y scale"
+msgstr "намали ја y скалата"
+
+#: ../gnopi/cmdmapui.c:46
+msgid "decrease x scale"
+msgstr "намали ја x скалата"
+
+#: ../gnopi/cmdmapui.c:47
+msgid "increase y scale"
+msgstr "зголеми ја y скалата"
+
+#: ../gnopi/cmdmapui.c:48
+msgid "increase x scale"
+msgstr "зголеми ја x скалата"
+
+#: ../gnopi/cmdmapui.c:49
+msgid "lock xy scale"
+msgstr "заклучи ја xy скалата"
+
+#: ../gnopi/cmdmapui.c:50
+msgid "smoothing toggle"
+msgstr "овозможи заоблување"
+
+#: ../gnopi/cmdmapui.c:51
+msgid "cursor toggle"
+msgstr "овозможи покажувач"
+
+#: ../gnopi/cmdmapui.c:52
+msgid "cursor on/off"
+msgstr "покажувач вклучено/исклучено"
+
+#: ../gnopi/cmdmapui.c:53
+msgid "cursor magnification on/off"
+msgstr "зголемување на покажувачот клучено/исклучено"
+
+#: ../gnopi/cmdmapui.c:54
+msgid "decrease cursor size"
+msgstr "намали ја големината на покажувачот"
+
+#: ../gnopi/cmdmapui.c:55
+msgid "increase cursor size"
+msgstr "зголеми ја големината на покажувачот"
+
+#: ../gnopi/cmdmapui.c:56
+msgid "invert on/off"
+msgstr "обратно вклучено/исклучено"
+
+#: ../gnopi/cmdmapui.c:57
+msgid "magnifier default"
+msgstr "стандарден зголемувач"
+
+#: ../gnopi/cmdmapui.c:58
+msgid "crosshair on/off"
+msgstr "мета клучено/исклучено"
+
+#: ../gnopi/cmdmapui.c:59
+msgid "crosshair clip on/off"
+msgstr "мета трепкач клучено/исклучено"
+
+#: ../gnopi/cmdmapui.c:60
+msgid "decrease crosshair size"
+msgstr "намали ја големината на метата"
+
+#: ../gnopi/cmdmapui.c:61
+msgid "increase crosshair size"
+msgstr "зголеми ја големината на метата"
+
+#: ../gnopi/cmdmapui.c:62
+msgid "automatic panning on/off"
+msgstr "автоматско замаглување вклучено/исклучено"
+
+#: ../gnopi/cmdmapui.c:63
+msgid "mouse tracking toggle"
+msgstr "овозможи следење на глувчето"
+
+#: ../gnopi/cmdmapui.c:64
+msgid "load magnifier defaults"
+msgstr "вчитај ги стандардните поставки на зголемувачот"
+
+#: ../gnopi/cmdmapui.c:66
+msgid "decrease pitch"
+msgstr "намали го тонот"
+
+#: ../gnopi/cmdmapui.c:67
+msgid "increase pitch"
+msgstr "зголеми го тонот"
+
+#: ../gnopi/cmdmapui.c:68
+msgid "default pitch"
+msgstr "стандарден тон"
+
+#: ../gnopi/cmdmapui.c:69
+msgid "decrease rate"
+msgstr "намали го интензитетот"
+
+#: ../gnopi/cmdmapui.c:70
+msgid "increase rate"
+msgstr "зголеми го интензитетот"
+
+#: ../gnopi/cmdmapui.c:71
+msgid "default rate"
+msgstr "стандарден интензитет"
+
+#: ../gnopi/cmdmapui.c:72
+msgid "decrease volume"
+msgstr "намали ја гласноста"
+
+#: ../gnopi/cmdmapui.c:73
+msgid "increase volume"
+msgstr "зголеми ја гласноста"
+
+#: ../gnopi/cmdmapui.c:74
+msgid "default volume"
+msgstr "стандардена гласност"
+
+#: ../gnopi/cmdmapui.c:75
+msgid "speech default"
+msgstr "стандарден говор"
+
+#: ../gnopi/cmdmapui.c:77
+msgid "goto parent"
+msgstr "goto parent"
+
+#: ../gnopi/cmdmapui.c:78
+msgid "goto child"
+msgstr "goto child"
+
+#: ../gnopi/cmdmapui.c:79
+msgid "goto previous"
+msgstr "оди до претходно"
+
+#: ../gnopi/cmdmapui.c:80
+msgid "goto next"
+msgstr "оди до следно"
+
+#: ../gnopi/cmdmapui.c:81
+msgid "repeat last"
+msgstr "повтори го последното"
+
+#: ../gnopi/cmdmapui.c:82
+msgid "goto focus"
+msgstr "оди до фокус"
+
+#: ../gnopi/cmdmapui.c:83
+msgid "goto title"
+msgstr "оди до наслов"
+
+#: ../gnopi/cmdmapui.c:84
+msgid "goto menu"
+msgstr "оди до мени"
+
+#: ../gnopi/cmdmapui.c:85
+msgid "goto toolbar"
+msgstr "оди до лентата со алатки"
+
+#: ../gnopi/cmdmapui.c:86
+msgid "goto statusbar"
+msgstr "оди до статусната лента"
+
+#: ../gnopi/cmdmapui.c:87
+msgid "widget surroundings"
+msgstr "опкружувања на графичка контрола"
+
+#: ../gnopi/cmdmapui.c:89
+msgid "goto caret"
+msgstr "goto caret"
+
+#: ../gnopi/cmdmapui.c:90
+msgid "goto first"
+msgstr "оди до прво"
+
+#: ../gnopi/cmdmapui.c:91
+msgid "goto last"
+msgstr "оди до последно"
+
+#: ../gnopi/cmdmapui.c:92
+msgid "change navigation mode"
+msgstr "смени го начинот на навигација"
+
+#: ../gnopi/cmdmapui.c:94
+msgid "toggle flat review/focus tracking mode"
+msgstr "овозможи рамен преглед/режим на следење на фокус"
+
+#: ../gnopi/cmdmapui.c:95
+msgid "flat review"
+msgstr "рамен преглед"
+
+#: ../gnopi/cmdmapui.c:96
+msgid "window hierarchy"
+msgstr "хиерархија на прозорци"
+
+#: ../gnopi/cmdmapui.c:97
+msgid "read whole window"
+msgstr "вчитај го целиот прозорец"
+
+#: ../gnopi/cmdmapui.c:98
+msgid "detailed informations"
+msgstr "детални информации"
+
+#: ../gnopi/cmdmapui.c:99
+msgid "do default action"
+msgstr "прави стандардно дејство"
+
+#: ../gnopi/cmdmapui.c:100
+msgid "window overview"
+msgstr "преглед на прозорецот"
+
+#: ../gnopi/cmdmapui.c:101
+msgid "find next"
+msgstr "пронајди следно"
+
+#: ../gnopi/cmdmapui.c:102
+msgid "find set"
+msgstr "пронајди сет"
+
+#: ../gnopi/cmdmapui.c:103
+msgid "attributes at caret"
+msgstr "атрибути на ^"
+
+#: ../gnopi/cmdmapui.c:104
+msgid "watch current object"
+msgstr "набљудувај го тековниот објект"
+
+#: ../gnopi/cmdmapui.c:105 ../srcore/srctrl.c:1353
+msgid "unwatch all objects"
+msgstr "не набљудувај ниеден објект"
+
+#: ../gnopi/cmdmapui.c:107
+msgid "mouse left press"
+msgstr "притисни на лево копче од глувчето"
+
+#: ../gnopi/cmdmapui.c:108
+msgid "mouse left click"
+msgstr "кликни на лево копче од глувчето"
+
+#: ../gnopi/cmdmapui.c:109
+msgid "mouse left release"
+msgstr "ослободи го левото копче од глувчето"
+
+#: ../gnopi/cmdmapui.c:110
+msgid "mouse right press"
+msgstr "притисни десно копче од глувчето"
+
+#: ../gnopi/cmdmapui.c:111
+msgid "mouse right click"
+msgstr "кликни со десно копче од глувчето"
+
+#: ../gnopi/cmdmapui.c:112
+msgid "mouse right release"
+msgstr "ослободи го десното копче од глувчето"
+
+#: ../gnopi/cmdmapui.c:113
+msgid "mouse middle press"
+msgstr "притисни со средното копче од глувчето"
+
+#: ../gnopi/cmdmapui.c:114
+msgid "mouse middle release"
+msgstr "ослободи го средното копче на глувчето"
+
+#: ../gnopi/cmdmapui.c:115
+msgid "mouse middle click"
+msgstr "клини со средното копче на глувчето"
+
+#: ../gnopi/cmdmapui.c:116
+msgid "mouse goto current"
+msgstr "оди до тековното со глувчето"
+
+#: ../gnopi/cmdmapui.c:118
+msgid "shutup"
+msgstr "замолчи"
+
+#: ../gnopi/cmdmapui.c:119
+msgid "pause/resume"
+msgstr "пауза/продолжи"
+
+#: ../gnopi/cmdmapui.c:121
+msgid "char left"
+msgstr "карактер лево"
+
+#: ../gnopi/cmdmapui.c:122
+msgid "char right"
+msgstr "карактер десно"
+
+#: ../gnopi/cmdmapui.c:123
+msgid "display left"
+msgstr "приказ лево"
+
+#: ../gnopi/cmdmapui.c:124
+msgid "display right"
+msgstr "приказ десно"
+
+#: ../gnopi/cmdmapui.c:126
+msgid "braille on/off"
+msgstr "брајов вклучено/исклучено"
+
+#: ../gnopi/cmdmapui.c:127
+msgid "speech on/off"
+msgstr "говор вклучено/исклучено"
+
+#: ../gnopi/cmdmapui.c:128
+msgid "magnifier on/off"
+msgstr "зголемувач вклучено/исклучено"
+
+#: ../gnopi/cmdmapui.c:129
+msgid "braille monitor on/off"
+msgstr "брајов монитор клучено/исклучено"
+
+#: ../gnopi/cmdmapui.c:143
+msgid "A"
+msgstr "А"
+
+#: ../gnopi/cmdmapui.c:144
+msgid "B"
+msgstr "Б"
+
+#: ../gnopi/cmdmapui.c:145
+msgid "C"
+msgstr "Ц"
+
+#: ../gnopi/cmdmapui.c:146
+msgid "D"
+msgstr "Д"
+
+#: ../gnopi/cmdmapui.c:147
+msgid "E"
+msgstr "Е"
+
+#: ../gnopi/cmdmapui.c:148
+msgid "F"
+msgstr "Ф"
+
+#: ../gnopi/cmdmapui.c:149
+msgid "G"
+msgstr "Г"
+
+#: ../gnopi/cmdmapui.c:150
+msgid "H"
+msgstr "Х"
+
+#: ../gnopi/cmdmapui.c:151
+msgid "I"
+msgstr "И"
+
+#: ../gnopi/cmdmapui.c:152
+msgid "J"
+msgstr "Ј"
+
+#: ../gnopi/cmdmapui.c:153
+msgid "K"
+msgstr "К"
+
+#: ../gnopi/cmdmapui.c:154
+msgid "L"
+msgstr "Л"
+
+#: ../gnopi/cmdmapui.c:155
+msgid "M"
+msgstr "М"
+
+#: ../gnopi/cmdmapui.c:156
+msgid "N"
+msgstr "Н"
+
+#: ../gnopi/cmdmapui.c:157
+msgid "O"
+msgstr "О"
+
+#: ../gnopi/cmdmapui.c:158
+msgid "P"
+msgstr "П"
+
+#: ../gnopi/cmdmapui.c:159
+msgid "Q"
+msgstr "Љ"
+
+#: ../gnopi/cmdmapui.c:160
+msgid "R"
+msgstr "Р"
+
+#: ../gnopi/cmdmapui.c:161
+msgid "S"
+msgstr "С"
+
+#: ../gnopi/cmdmapui.c:162
+msgid "T"
+msgstr "Т"
+
+#: ../gnopi/cmdmapui.c:163
+msgid "U"
+msgstr "У"
+
+#: ../gnopi/cmdmapui.c:164
+msgid "V"
+msgstr "В"
+
+#: ../gnopi/cmdmapui.c:165
+msgid "W"
+msgstr "Њ"
+
+#: ../gnopi/cmdmapui.c:166
+msgid "X"
+msgstr "Џ"
+
+#: ../gnopi/cmdmapui.c:167
+msgid "Y"
+msgstr "Ѕ"
+
+#: ../gnopi/cmdmapui.c:168
+msgid "Z"
+msgstr "З"
+
+#: ../gnopi/cmdmapui.c:169
+msgid "F1"
+msgstr "F1"
+
+#: ../gnopi/cmdmapui.c:170
+msgid "F2"
+msgstr "F2"
+
+#: ../gnopi/cmdmapui.c:171
+msgid "F3"
+msgstr "F3"
+
+#: ../gnopi/cmdmapui.c:172
+msgid "F4"
+msgstr "F4"
+
+#: ../gnopi/cmdmapui.c:173
+msgid "F5"
+msgstr "F5"
+
+#: ../gnopi/cmdmapui.c:174
+msgid "F6"
+msgstr "F6"
+
+#: ../gnopi/cmdmapui.c:175
+msgid "F7"
+msgstr "F7"
+
+#: ../gnopi/cmdmapui.c:176
+msgid "F8"
+msgstr "F8"
+
+#: ../gnopi/cmdmapui.c:177
+msgid "F9"
+msgstr "F9"
+
+#: ../gnopi/cmdmapui.c:178
+msgid "F10"
+msgstr "F10"
+
+#: ../gnopi/cmdmapui.c:179
+msgid "F11"
+msgstr "F11"
+
+#: ../gnopi/cmdmapui.c:180
+msgid "F12"
+msgstr "F12"
+
+#: ../gnopi/cmdmapui.c:181
+msgid "0"
+msgstr "0"
+
+#: ../gnopi/cmdmapui.c:182
+msgid "1"
+msgstr "1"
+
+#: ../gnopi/cmdmapui.c:183
+msgid "2"
+msgstr "2"
+
+#: ../gnopi/cmdmapui.c:184
+msgid "3"
+msgstr "3"
+
+#: ../gnopi/cmdmapui.c:185
+msgid "4"
+msgstr "4"
+
+#: ../gnopi/cmdmapui.c:186
+msgid "5"
+msgstr "5"
+
+#: ../gnopi/cmdmapui.c:187
+msgid "6"
+msgstr "6"
+
+#: ../gnopi/cmdmapui.c:188
+msgid "7"
+msgstr "7"
+
+#: ../gnopi/cmdmapui.c:189
+msgid "8"
+msgstr "8"
+
+#: ../gnopi/cmdmapui.c:190
+msgid "9"
+msgstr "9"
+
+#: ../gnopi/cmdmapui.c:191
+msgid "apostrophe"
+msgstr "апостроф"
+
+#: ../gnopi/cmdmapui.c:192
+msgid "backslash"
+msgstr "коса црта"
+
+#: ../gnopi/cmdmapui.c:193
+msgid "bracket left"
+msgstr "лева заграда"
+
+#: ../gnopi/cmdmapui.c:194
+msgid "bracket right"
+msgstr "десна заграда"
+
+#: ../gnopi/cmdmapui.c:195
+msgid "comma"
+msgstr "запирка"
+
+#: ../gnopi/cmdmapui.c:196
+msgid "equal"
+msgstr "еднакво"
+
+#: ../gnopi/cmdmapui.c:197
+msgid "grave"
+msgstr "grave"
+
+#: ../gnopi/cmdmapui.c:198
+msgid "minus"
+msgstr "минус"
+
+#: ../gnopi/cmdmapui.c:199
+msgid "period"
+msgstr "точка"
+
+#: ../gnopi/cmdmapui.c:200
+msgid "quote left"
+msgstr "наводници"
+
+#: ../gnopi/cmdmapui.c:201
+msgid "semicolon"
+msgstr "точка-запирка"
+
+#: ../gnopi/cmdmapui.c:202
+msgid "slash"
+msgstr "црта"
+
+#: ../gnopi/cmdmapui.c:1133
+msgid "Invalid key or existent key."
+msgstr "Невалидно или постоечко копче."
+
+#: ../gnopi/cmdmapui.c:1562
+msgid "Layer Keys"
+msgstr "Копчиња за слоеви"
+
+#: ../gnopi/cmdmapui.c:1582
+msgid "User Keys"
+msgstr "Копчиња на корисникот"
+
+#: ../gnopi/coreconf.c:248
+#, c-format
+msgid "Failed to set exit val: %d."
+msgstr "Не можам да поставам вредност на излез: %d."
+
+#: ../gnopi/coreconf.c:290
+#, c-format
+msgid "Failed to set move mouse: %d."
+msgstr "Неможам да поставам движење на глувчето: %d."
+
+#: ../gnopi/coreconf.c:299
+#, c-format
+msgid "Failed to set simulate click: %d."
+msgstr "Не можам да поставам симулација на клик: %d."
+
+#: ../gnopi/coreconf.c:308
+#, c-format
+msgid "Failed to set find text: %s."
+msgstr "Не можам да поставам пронаоѓање на текст: %s."
+
+#: ../gnopi/coreconf.c:318
+#, c-format
+msgid "Failed to set magnifier status: %d."
+msgstr "Не можам да поставам статус на зголемувачот: %d."
+
+#: ../gnopi/coreconf.c:327
+#, c-format
+msgid "Failed to set speech status: %d."
+msgstr "Не можам да поставам статус на говорот: %d."
+
+#: ../gnopi/coreconf.c:336
+#, c-format
+msgid "Failed to set braille status: %d."
+msgstr "Не можам да поставам брајов статус: %d."
+
+#: ../gnopi/coreconf.c:345
+#, c-format
+msgid "Failed to set braille monitor status: %d."
+msgstr "Не можам да поставам статус за брајов монитор: %d."
+
+#: ../gnopi/coreconf.c:354
+#, c-format
+msgid "Failed to set minimize flag: %d."
+msgstr "Failed to set minimize flag: %d."
+
+#: ../gnopi/coreconf.c:363
+#, c-format
+msgid "Failed to set exit ack: %d."
+msgstr "Не успеав да поставам потврда за излез: %d."
+
+#: ../gnopi/coreconf.c:372
+#, c-format
+msgid "Failed to set language: %s."
+msgstr "Не можам да поставам јазик: %s."
+
+#: ../gnopi/coreconf.c:381
+#, c-format
+msgid "Failed to set screen review: %d."
+msgstr "Не можам да поставам преглед на екранот: %d."
+
+#: ../gnopi/defui.c:73
+#, c-format
+msgid "Are you sure you want to load default values for %s?"
+msgstr "Дали сте сигурни дека сакате да ги вчитате стандардните вредности за %s?"
+
+#: ../gnopi/defui.c:100
+msgid "braille"
+msgstr "зголемувач"
+
+#: ../gnopi/defui.c:116
+msgid "Braille default setting loaded."
+msgstr "Стандардните поставки за слепи се вчитани."
+
+#: ../gnopi/defui.c:125
+msgid "speech"
+msgstr "говот"
+
+#: ../gnopi/defui.c:133
+msgid "Speech default setting loaded."
+msgstr "Стандардните поставки за говор се вчитани."
+
+#: ../gnopi/defui.c:142
+msgid "magnifier"
+msgstr "зголемувач"
+
+#: ../gnopi/defui.c:156
+msgid "Magnifier default setting loaded."
+msgstr "Стандардните поставки за зголемувачот се вчитани."
+
+#: ../gnopi/defui.c:165
+msgid "keyboard"
+msgstr "тастатура"
+
+#: ../gnopi/defui.c:173
+msgid "Keyboard default setting loaded."
+msgstr "Стандардните поставки за тастатура се вчитани."
+
+#: ../gnopi/defui.c:182
+msgid "braille monitor"
+msgstr "брајов монитор"
+
+#: ../gnopi/defui.c:189
+msgid "Braille monitor default setting loaded."
+msgstr "Стандардните поставки за брајов монитор се вчитани."
+
+#: ../gnopi/defui.c:198
+msgid "start up"
+msgstr "подигнување"
+
+#: ../gnopi/defui.c:207
+msgid "Startup default setting loaded."
+msgstr "Стандардните поставки на подигнување се вчитани."
+
+#: ../gnopi/defui.c:217
+msgid "command map"
+msgstr "мапа со команди"
+
+#: ../gnopi/defui.c:225
+msgid "Command map default setting loaded."
+msgstr "Стандардните поставувања на командната мапа се вчитани."
+
+#: ../gnopi/defui.c:235
+msgid "presentation"
+msgstr "презентација"
+
+#: ../gnopi/defui.c:241
+msgid "Presentation default setting loaded."
+msgstr "Стандардното поставување за презентацијата е вчитано"
+
+#: ../gnopi/defui.c:250
+msgid "screen review"
+msgstr "преглед на екранот"
+
+#: ../gnopi/defui.c:256
+msgid "Screen review default setting loaded."
+msgstr "Стандардните поставувања на преглед на екранот се вчитани"
+
+#: ../gnopi/defui.c:279
+msgid "all modules"
+msgstr "сите модули"
+
+#: ../gnopi/defui.c:282
+msgid "All default settings loaded."
+msgstr "Сите стандардни поставки се вчитани."
+
+#: ../gnopi/genui.c:66
+#: ../gnopi/gnopi_files/General_Settings/general_settings.glade2.h:12
+msgid "_Braille"
+msgstr "_Брајов"
+
+#: ../gnopi/genui.c:69
+msgid "_Braille (unavailable)"
+msgstr "_Брајов(недостапно)"
+
+#: ../gnopi/genui.c:74
+#: ../gnopi/gnopi_files/General_Settings/general_settings.glade2.h:13
+msgid "_Magnifier"
+msgstr "_Зголемувач"
+
+#: ../gnopi/genui.c:77
+msgid "_Magnifier (unavailable)"
+msgstr "_Зголемувач(недостапно)"
+
+#: ../gnopi/genui.c:82
+#: ../gnopi/gnopi_files/General_Settings/general_settings.glade2.h:14
+msgid "_Speech"
+msgstr "_Говор"
+
+#: ../gnopi/genui.c:85
+msgid "_Speech (unavailable)"
+msgstr "_Говор(недостапно)"
+
+#: ../gnopi/genui.c:90
+#: ../gnopi/gnopi_files/General_Settings/general_settings.glade2.h:4
+msgid "B_raille monitor"
+msgstr "Б_рајов монитор"
+
+#: ../gnopi/genui.c:93
+msgid "B_raille monitor (unavailable)"
+msgstr "Б_рајов монитор (недостапно)"
+
+#: ../gnopi/gnopernicus.desktop.in.h:1
+msgid "Assistive Technologies for Blind and Visually Impaired"
+msgstr "Помошни технологии за слепи и визуелно оневозможени"
+
+#: ../gnopi/gnopernicus.desktop.in.h:2
+msgid "Screen Reader and Magnifier"
+msgstr "Читач и зголемувач на екранот"
+
+#: ../gnopi/gnopi.c:302
+msgid "gnopernicus"
+msgstr "гноперник"
+
+#: ../gnopi/gnopi.c:309
+msgid "Gconf initialization failed."
+msgstr "Gconf не може да се иницијализира."
+
+#: ../gnopi/gnopi.c:316
+msgid "Invalid parameters."
+msgstr "Невалидни параметри"
+
+#: ../gnopi/gnopi.c:322
+msgid "Multiple instances are NOT ALLOWED. This instance will end."
+msgstr "Повеќе инстанци НЕ СЕ ДОЗВОЛЕНИ. Оваа инстанца ќе заврши."
+
+#: ../gnopi/gnopi.c:328
+msgid "GTK initialization failed."
+msgstr "Иницијализацијата на ГТК е неуспешна."
+
+#: ../gnopi/gnopi.c:334
+msgid "Can not create a new process."
+msgstr "Не можам да создадам нов процес."
+
+#: ../gnopi/gnopi.c:344
+msgid "Exit gnopernicus."
+msgstr "Излези од гноперник"
+
+#: ../gnopi/gnopi.c:352
+msgid "Gnopernicus initialization failed."
+msgstr "Иницијализацијата на гноперник не е усшешна."
+
+#: ../gnopi/gnopi.c:359
+msgid "Can not load .glade2 file"
+msgstr "Не можам да ја вчитам glade2 датотеката"
+
+#. if (WIFSIGNALED (gn_srcore_status) != 0)
+#. sru_message ("signal no: %d", WTERMSIG (gn_srcore_status));
+#: ../gnopi/gnopi.c:666
+msgid "srcore exited."
+msgstr "srcore исклучено."
+
+#: ../gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:1
+msgid "<b>Color</b>"
+msgstr "<b>Боја</b>"
+
+#: ../gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:2
+msgid "<b>Font</b>"
+msgstr "<b>Фонт</b>"
+
+#: ../gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:3
+msgid "<b>Mode Type</b>"
+msgstr "<b>Мод Тип</b>"
+
+#: ../gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:4
+msgid "<b>Position</b>"
+msgstr "<b>Позиција</b>"
+
+#: ../gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:5
+msgid "<b>Size</b>"
+msgstr "<b>Големина</b>"
+
+#: ../gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:6
+msgid "B_raille"
+msgstr "Б_рајов"
+
+#: ../gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:7
+msgid "Braille Monitor Preferences"
+msgstr "Параметри на брајов монитор"
+
+#: ../gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:8
+msgid "Color selection for texts which use dot 7"
+msgstr "Избор на бои за текстови кои користат точка 7"
+
+#: ../gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:9
+msgid "Color selection for texts which use dot 8"
+msgstr "Избор·на·бои·за·текстови·кои·користат·точка·7"
+
+#: ../gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:10
+msgid "Color selection for texts which use dots 7 and 8"
+msgstr "Избор·на·бои·за·текстови·кои·користат·точка·7 и 8"
+
+#: ../gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:11
+msgid "Colu_mns:"
+msgstr "Коло_ни:"
+
+#: ../gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:12
+msgid "Display at bottom of screen"
+msgstr "Прикажи на дното на екранот"
+
+#: ../gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:13
+msgid "Display on top of screen"
+msgstr "Прикажи на врвот на екранот"
+
+#: ../gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:14
+msgid "Display using braille font"
+msgstr "Прикажи користење на брајов фонт"
+
+#: ../gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:15
+msgid "Display using normal font"
+msgstr "Прикажи користење на нормален фонт"
+
+#: ../gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:16
+msgid "Display with both fonts"
+msgstr "Прикажи во двата фонтови"
+
+#: ../gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:17
+msgid "Dot 7:"
+msgstr "Точка 7:"
+
+#: ../gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:18
+msgid "Dot 8:"
+msgstr "Точка 8:"
+
+#: ../gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:19
+msgid "Dots 78:"
+msgstr "Точки 78:"
+
+#: ../gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:20
+msgid "Number of cell columns"
+msgstr "Број на клетки-колони"
+
+#: ../gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:21
+msgid "Number of cell lines"
+msgstr "Број на ќелии-редови"
+
+#: ../gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:22
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:43
+msgid "Pick a color"
+msgstr "Одберете боја"
+
+#: ../gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:23
+msgid "Size of font"
+msgstr "Големина на фонт"
+
+#: ../gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:24
+msgid "Use system theme colors"
+msgstr "Користи ги системските бои"
+
+#: ../gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:25
+msgid "Use theme _system colors"
+msgstr "Користи ги _системските бои"
+
+#: ../gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:26
+msgid "_Dual"
+msgstr "_Двојно"
+
+#: ../gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:27
+msgid "_Lines:"
+msgstr "_Редови:"
+
+#: ../gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:28
+msgid "_Normal"
+msgstr "_Нормално"
+
+#: ../gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:29
+msgid "_Size:"
+msgstr "_Големина:"
+
+#: ../gnopi/gnopi_files/Braille_Settings/attribute_settings.glade2.h:1
+msgid "Attributes"
+msgstr "Атрибути"
+
+#: ../gnopi/gnopi_files/Braille_Settings/attribute_settings.glade2.h:2
+msgid "_1. Dot 8"
+msgstr "_1. Точка 8"
+
+#: ../gnopi/gnopi_files/Braille_Settings/attribute_settings.glade2.h:3
+msgid "_2. Dot 7"
+msgstr "_2. Точка 7"
+
+#: ../gnopi/gnopi_files/Braille_Settings/attribute_settings.glade2.h:4
+msgid "_3. Dot 8 or 7"
+msgstr "_3. Точка 8 или 7"
+
+#: ../gnopi/gnopi_files/Braille_Settings/attribute_settings.glade2.h:5
+msgid "_4. Off"
+msgstr "_4. Исклучено"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_device.glade2.h:1
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:1
+#: ../gnopi/gnopi_files/Find/find.glade2.h:2
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:1
+#: ../gnopi/gnopi_files/Presentation/presentation.glade2.h:1
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:3
+#: ../gnopi/gnopi_files/User_Properties/user_properties.glade2.h:1
+msgid "*"
+msgstr "ж"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_device.glade2.h:2
+msgid "Braille Device"
+msgstr "Брајов уред"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_device.glade2.h:3
+msgid "Braille devices list"
+msgstr "Листа со брајови уреди"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_device.glade2.h:4
+msgid "Enter manually:"
+msgstr "Внесете рачно:"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_device.glade2.h:5
+msgid "_Device:"
+msgstr "_Уред:"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:2
+msgid "10 _Font size"
+msgstr "10 _Големина на фонт"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:3
+msgid "11 _Activate script function \"OnPosSwitch\""
+msgstr "11 _ активирај ја функцијата на скриптата \"OnPosSwitch\""
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:4
+msgid "12 _Present attributes"
+msgstr "12 _Сегашни атрибути"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:5
+msgid "<b>_Braille keys list</b>"
+msgstr "<b>_Листа со брајови копчиња</b>"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:6
+msgid "Activate script function \"OnPosSwitch\""
+msgstr "Активирај ја функцијата на скриптата \"OnPosSwitch\""
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:7
+msgid "Add item in braille keys list"
+msgstr "Додај предмет в листата брајови копчиња"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:8
+msgid "Braille Display Key Mapping"
+msgstr "Мапирање на копчиња на брајов екран"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:10
+msgid "Braille device keys list"
+msgstr "Листа со копчиња на брајови уреди."
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:11
+msgid "Braille keys list"
+msgstr "Листа со брајови копчиња"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:12
+msgid "Command List"
+msgstr "Листа на команди"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:13
+msgid "Command list"
+msgstr "Листа на команди"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:14
+msgid "Font name"
+msgstr "Име на фонт"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:15
+msgid "Font size"
+msgstr "Големина на фонт"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:16
+msgid "Font style"
+msgstr "Стил на фонт"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:17
+msgid "Modify selected item"
+msgstr "Модифицирај го избраниот предмет"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:18
+msgid "Move caret"
+msgstr "Помести ^"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:19
+msgid "Move mouse and click left"
+msgstr "Помести го глувчето и лев клик"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:20
+msgid "Move mouse and click left and right"
+msgstr "Помести го глувчето и лев и десен клик"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:21
+msgid "Move mouse and click right"
+msgstr "Помести го глувчето и десен клик"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:22
+msgid "Only move mouse"
+msgstr "Само движи го глувчето"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:23
+msgid "Optical Sensors"
+msgstr "Оптички сензори"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:24
+msgid "Optical sensors off"
+msgstr "Исклучи оптички сензори"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:25
+msgid "Position Sensors"
+msgstr "Позициони сензори"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:26
+msgid "Position sensors off"
+msgstr "Исклучи позициони сензори"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:27
+msgid "Present attributes"
+msgstr "Сегашни атрибути"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:28
+msgid "Remove selected item from braille keys list"
+msgstr "Отстрани го обележаниот предмет од листата со брајови копчиња"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:29
+msgid "Show X coordinate"
+msgstr "Прикажи ја X координатата"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:30
+msgid "Show Y coordinate"
+msgstr "Прикажи ја Y координатата"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:31
+msgid "_0 Optical sensors off"
+msgstr "_0 Исклучи оптички сензори"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:32
+msgid "_0 Position sensors off"
+msgstr "_0 Позициони сензори исклучено"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:33
+msgid "_1 Only move mouse"
+msgstr "_1 Само движи го глувчето"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:34
+msgid "_2 Move mouse and click left"
+msgstr "_2 Движи го глувчето и кликни на левото копче"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:35
+msgid "_3 Move mouse and click right"
+msgstr "_3·Движи·го·глувчето·и·кликни·на·десното·копче"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:36
+msgid "_4 Move mouse and click left or right"
+msgstr "_4·Движи·го·глувчето·и·кликни·на·левото или на десното копче"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:37
+msgid "_5 Move caret"
+msgstr "_5 Помести·^"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:38
+msgid "_6 Show X coordinate"
+msgstr "_6 Прикажи ја X координатата"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:39
+msgid "_7 Show Y coordinate"
+msgstr "_7 Прикажи ја Y координатата"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:40
+msgid "_8 Font style"
+msgstr "_8 Стил на фонт"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:41
+msgid "_9 Font name"
+msgstr "_9 Име на фонт"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:42
+msgid "_Commands:"
+msgstr "_Команди:"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:43
+msgid "_Device key:"
+msgstr "_Копче на уред:"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:44
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:85
+#: ../gnopi/gnopi_files/User_Properties/user_properties.glade2.h:28
+msgid "_Modify"
+msgstr "_Измени"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_settings.glade2.h:1
+msgid "Braille Preferences"
+msgstr "Параметри за брајови уреди"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_settings.glade2.h:2
+msgid "Close braille settings"
+msgstr "Затвори ги брајовите поставки"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_settings.glade2.h:3
+msgid "Map function for display keys"
+msgstr "Функција на мапата за копчињата за приказ"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_settings.glade2.h:4
+msgid "Select braille device"
+msgstr "Одбери брајов уред"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_settings.glade2.h:5
+msgid "Select braille style 8/6 dots"
+msgstr "Одбери брајов стил со 8/6 точки"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_settings.glade2.h:6
+msgid "Select cursor setting FullCell/UnderLined/NoCursor"
+msgstr "Одбери поставка за покажувачот ПолнаЌелија/Подвлечено/БезПокажувач"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_settings.glade2.h:7
+msgid "Select translation table for braille device"
+msgstr "Одберете табела на превод за брајов уред"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_settings.glade2.h:8
+msgid "_1 Braille Device"
+msgstr "_1 Брајов уред"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_settings.glade2.h:9
+msgid "_2 Translation Table"
+msgstr "_2 Табела на превод"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_settings.glade2.h:10
+msgid "_3 Braille Style"
+msgstr "_3 Брајов стил"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_settings.glade2.h:11
+msgid "_4 Cursor Preferences"
+msgstr "_4 Параметри на покажувачот"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_settings.glade2.h:12
+msgid "_5 Braille Key Mapping"
+msgstr "_5 Брајово мапирање на копчињата"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_style.glade2.h:1
+msgid "Braille Style"
+msgstr "Брајов стил"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_style.glade2.h:2
+msgid "Use 6 dots"
+msgstr "Користи 6 точки"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_style.glade2.h:3
+msgid "Use 8 dots"
+msgstr "Користи 8 точки"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_style.glade2.h:4
+msgid "_6 Dot Braille"
+msgstr "_Брајови знаци со 6 точки"
+
+#: ../gnopi/gnopi_files/Braille_Settings/braille_style.glade2.h:5
+msgid "_8 Dot Braille"
+msgstr "_Брајови·знаци·со·8·точки"
+
+#: ../gnopi/gnopi_files/Braille_Settings/cursor_settings.glade2.h:1
+msgid "Cursor Preferences"
+msgstr "Параметри на покажувачот"
+
+#: ../gnopi/gnopi_files/Braille_Settings/cursor_settings.glade2.h:2
+msgid "Cursor on braille display is a full cell"
+msgstr "Покажувачот·на·брајовиот·екран·е полна ќелија"
+
+#: ../gnopi/gnopi_files/Braille_Settings/cursor_settings.glade2.h:3
+msgid "Cursor on braille display is an underline"
+msgstr "Покажувачот на брајовиот екран е подвлечен"
+
+#: ../gnopi/gnopi_files/Braille_Settings/cursor_settings.glade2.h:4
+msgid "No cursor on braille display"
+msgstr "Без покажувач на брајовиот екран"
+
+#: ../gnopi/gnopi_files/Braille_Settings/cursor_settings.glade2.h:5
+msgid "_Full cell cursor"
+msgstr "_Покажувач со полна ќелија"
+
+#: ../gnopi/gnopi_files/Braille_Settings/cursor_settings.glade2.h:6
+msgid "_No cursor"
+msgstr "_Без покажувач"
+
+#: ../gnopi/gnopi_files/Braille_Settings/cursor_settings.glade2.h:7
+msgid "_Underline cursor (dots 7 and 8)"
+msgstr "_Подвлечи го покажувачот (точки 7 и 8)"
+
+#: ../gnopi/gnopi_files/Braille_Settings/translation_table.glade2.h:1
+msgid "Translation Table"
+msgstr "Табела на превод"
+
+#: ../gnopi/gnopi_files/Braille_Settings/translation_table.glade2.h:2
+msgid "Translation table list"
+msgstr "Листа на табели на превод"
+
+#: ../gnopi/gnopi_files/Braille_Settings/translation_table.glade2.h:3
+msgid "_Select language:"
+msgstr "_Одбери јазик:"
+
+#: ../gnopi/gnopi_files/Find/find.glade2.h:1
+msgid "   "
+msgstr "..."
+
+#: ../gnopi/gnopi_files/Find/find.glade2.h:3
+msgid "<b>Fi_nd Text:</b>"
+msgstr "<b>Пр_онајди Текст:</b>"
+
+#: ../gnopi/gnopi_files/Find/find.glade2.h:4
+msgid "<b>Find Attributes:</b>"
+msgstr "<b>Пронајди атрибути:</b>"
+
+#: ../gnopi/gnopi_files/Find/find.glade2.h:5
+msgid "<b>Match</b>"
+msgstr "<b>Match</b>"
+
+#: ../gnopi/gnopi_files/Find/find.glade2.h:6
+msgid "<b>Scope</b>"
+msgstr "<b>Опсег</b>"
+
+#: ../gnopi/gnopi_files/Find/find.glade2.h:7
+msgid "<b>Search For</b>"
+msgstr "<b>Барај</b>"
+
+#: ../gnopi/gnopi_files/Find/find.glade2.h:8
+msgid "A_ll chosen attributes"
+msgstr "С_ите избрани атрибути"
+
+#: ../gnopi/gnopi_files/Find/find.glade2.h:9
+msgid "A_ny chosen attributes"
+msgstr "Б_ило кои избрани атрибути"
+
+#: ../gnopi/gnopi_files/Find/find.glade2.h:10
+msgid "A_ttribute"
+msgstr "А_трибут"
+
+#: ../gnopi/gnopi_files/Find/find.glade2.h:11
+msgid "Bold"
+msgstr "Задебелено"
+
+#: ../gnopi/gnopi_files/Find/find.glade2.h:12
+msgid "Case _sensitive"
+msgstr "Со _мали или големи букви"
+
+#: ../gnopi/gnopi_files/Find/find.glade2.h:13
+msgid "Case sensitive on/off"
+msgstr "Со било какви букви"
+
+#: ../gnopi/gnopi_files/Find/find.glade2.h:14
+msgid "Italic"
+msgstr "Закосено"
+
+#: ../gnopi/gnopi_files/Find/find.glade2.h:15
+msgid "S_elected"
+msgstr "И_збрано"
+
+#: ../gnopi/gnopi_files/Find/find.glade2.h:16
+msgid "Scope area is a desktop"
+msgstr "Перспективната површина е работната"
+
+#: ../gnopi/gnopi_files/Find/find.glade2.h:17
+msgid "Scope area is a window"
+msgstr "Перспективната·површина·е прозорец"
+
+#: ../gnopi/gnopi_files/Find/find.glade2.h:18
+msgid "Scope area is an application"
+msgstr "Перспективната·површина·е апликација"
+
+#: ../gnopi/gnopi_files/Find/find.glade2.h:19
+msgid "Search Preferences"
+msgstr "Параметри за барање"
+
+#: ../gnopi/gnopi_files/Find/find.glade2.h:20
+msgid "Search criteria is a graphics"
+msgstr "Перспективната·површина·е слика"
+
+#: ../gnopi/gnopi_files/Find/find.glade2.h:21
+msgid "Search criteria is a text"
+msgstr "Критериумот за барање е текст"
+
+#: ../gnopi/gnopi_files/Find/find.glade2.h:22
+msgid "Search criteria is an attribute"
+msgstr "Критериумот на пребарување е атрибут"
+
+#: ../gnopi/gnopi_files/Find/find.glade2.h:23
+msgid "Selected item"
+msgstr "Избрано предмет"
+
+#: ../gnopi/gnopi_files/Find/find.glade2.h:24
+msgid "Stri_kethrough"
+msgstr "Прец_ртано"
+
+#: ../gnopi/gnopi_files/Find/find.glade2.h:25
+msgid "Strikethrough"
+msgstr "Прецртано"
+
+#: ../gnopi/gnopi_files/Find/find.glade2.h:26
+msgid "Te_xt"
+msgstr "Те_кст"
+
+#: ../gnopi/gnopi_files/Find/find.glade2.h:27
+msgid "Text to search"
+msgstr "Текст за барање"
+
+#: ../gnopi/gnopi_files/Find/find.glade2.h:28
+msgid "Underline"
+msgstr "Подвлечено"
+
+#: ../gnopi/gnopi_files/Find/find.glade2.h:29
+msgid "_Application"
+msgstr "_Апликација"
+
+#: ../gnopi/gnopi_files/Find/find.glade2.h:30
+msgid "_Bold"
+msgstr "_Задебелено"
+
+#: ../gnopi/gnopi_files/Find/find.glade2.h:31
+msgid "_Desktop"
+msgstr "_Работна површина"
+
+#: ../gnopi/gnopi_files/Find/find.glade2.h:32
+msgid "_Graphics"
+msgstr "_Графика"
+
+#: ../gnopi/gnopi_files/Find/find.glade2.h:33
+msgid "_Italic"
+msgstr "_Закосено"
+
+#: ../gnopi/gnopi_files/Find/find.glade2.h:34
+msgid "_Underline"
+msgstr "_Подвлечено"
+
+#: ../gnopi/gnopi_files/Find/find.glade2.h:35
+msgid "_Window"
+msgstr "_Прозорец"
+
+#: ../gnopi/gnopi_files/General_Settings/general_settings.glade2.h:1
+msgid "    "
+msgstr "...."
+
+#: ../gnopi/gnopi_files/General_Settings/general_settings.glade2.h:2
+msgid "<b>Active Components</b>"
+msgstr "<b>Активни компоненти</b>"
+
+#: ../gnopi/gnopi_files/General_Settings/general_settings.glade2.h:3
+msgid "<b>Startup</b>"
+msgstr "<b>Подигање</b>"
+
+#: ../gnopi/gnopi_files/General_Settings/general_settings.glade2.h:5
+msgid "Braille monitor on/off"
+msgstr "Брајов монитор вклучено/ислучено"
+
+#: ../gnopi/gnopi_files/General_Settings/general_settings.glade2.h:6
+msgid "Braille on/off"
+msgstr "Брајов вклучено/исклучено"
+
+#: ../gnopi/gnopi_files/General_Settings/general_settings.glade2.h:7
+msgid "Magnifier on/off"
+msgstr "Зголемувач вклучено/исклучено"
+
+#: ../gnopi/gnopi_files/General_Settings/general_settings.glade2.h:8
+msgid "Speech on/off"
+msgstr "Говор вклучено/исклучено"
+
+#: ../gnopi/gnopi_files/General_Settings/general_settings.glade2.h:9
+msgid "Start gnopernicus minimized"
+msgstr "Подигни го Гноперник намален"
+
+#: ../gnopi/gnopi_files/General_Settings/general_settings.glade2.h:10
+msgid "Start m_inimized"
+msgstr "Подигни се ми_нимизирано"
+
+#: ../gnopi/gnopi_files/General_Settings/general_settings.glade2.h:11
+msgid "Startup Mode"
+msgstr "Режим на подигање"
+
+#: ../gnopi/gnopi_files/Keyboard_Mouse_Settings/keyboard_mouse_settings.glade2.h:1
+msgid "Mouse Preferences"
+msgstr "Параметри на глувчето"
+
+#: ../gnopi/gnopi_files/Keyboard_Mouse_Settings/keyboard_mouse_settings.glade2.h:2
+msgid "Simulate click on current object"
+msgstr "Симулирај клик на тековниот објект"
+
+#: ../gnopi/gnopi_files/Keyboard_Mouse_Settings/keyboard_mouse_settings.glade2.h:3
+msgid "Take mouse at current object"
+msgstr "Одведи го глувчето на тековниот објект"
+
+#: ../gnopi/gnopi_files/Keyboard_Mouse_Settings/keyboard_mouse_settings.glade2.h:4
+msgid "_Simulate click on current object"
+msgstr "_Симулирај·клик·на·тековниот·објект"
+
+#: ../gnopi/gnopi_files/Keyboard_Mouse_Settings/keyboard_mouse_settings.glade2.h:5
+msgid "_Take mouse at current object"
+msgstr "_Однеси го глувчето на тековниот објект"
+
+#: ../gnopi/gnopi_files/Load_Default/load_default.glade2.h:1
+msgid "Close \"Load Default Preferences\""
+msgstr "Затвори „Вчитај стандардни параметри“"
+
+#: ../gnopi/gnopi_files/Load_Default/load_default.glade2.h:2
+msgid "Load Default Preferences"
+msgstr "Вчитај ги стандардните параметри"
+
+#: ../gnopi/gnopi_files/Load_Default/load_default.glade2.h:3
+msgid "Load Default Settings"
+msgstr "Вчитај ги стандардните поставувања"
+
+#: ../gnopi/gnopi_files/Load_Default/load_default.glade2.h:4
+msgid "Load all defaults"
+msgstr "Вчитај·ги·стандардните·поставувања"
+
+#: ../gnopi/gnopi_files/Load_Default/load_default.glade2.h:5
+msgid "Load braille defaults"
+msgstr "Вчитај·ги·стандардните·поставувања за брајови уреди"
+
+#: ../gnopi/gnopi_files/Load_Default/load_default.glade2.h:6
+msgid "Load braille monitor defaults"
+msgstr "Вчитај ги стандардните параметри на брајов монитор"
+
+#: ../gnopi/gnopi_files/Load_Default/load_default.glade2.h:7
+msgid "Load command map defaults"
+msgstr "Вчитај·ги·стандардните·параметри·на командната мапа"
+
+#: ../gnopi/gnopi_files/Load_Default/load_default.glade2.h:8
+msgid "Load magnifier defaults"
+msgstr "Вчитај·ги·стандардните·параметри·на зголемувачот"
+
+#: ../gnopi/gnopi_files/Load_Default/load_default.glade2.h:9
+msgid "Load mouse defaults"
+msgstr "Вчитај·ги·стандардните·поставувања на глувчето"
+
+#: ../gnopi/gnopi_files/Load_Default/load_default.glade2.h:10
+msgid "Load presentation defaults"
+msgstr "Вчитај·ги·стандардните·параметри·на презентација"
+
+#: ../gnopi/gnopi_files/Load_Default/load_default.glade2.h:11
+msgid "Load screen review defaults"
+msgstr "Вчитај·ги·стандардните·параметри·на преглед на екранот"
+
+#: ../gnopi/gnopi_files/Load_Default/load_default.glade2.h:12
+msgid "Load speech defaults"
+msgstr "Вчитај·ги·стандардните·параметри·на говорот"
+
+#: ../gnopi/gnopi_files/Load_Default/load_default.glade2.h:13
+msgid "Load startup mode defaults"
+msgstr "Вчитај·ги·стандардните·параметри·при подигање"
+
+#: ../gnopi/gnopi_files/Load_Default/load_default.glade2.h:14
+msgid "_0 All"
+msgstr "_0 Сите"
+
+#: ../gnopi/gnopi_files/Load_Default/load_default.glade2.h:15
+msgid "_1 Braille"
+msgstr "_1 Брајов"
+
+#: ../gnopi/gnopi_files/Load_Default/load_default.glade2.h:16
+msgid "_2 Speech"
+msgstr "_2 Говор"
+
+#: ../gnopi/gnopi_files/Load_Default/load_default.glade2.h:17
+#: ../gnopi/gnopi_files/gnopi.glade2.h:33
+msgid "_3 Magnifier"
+msgstr "_3 Зголемувач"
+
+#: ../gnopi/gnopi_files/Load_Default/load_default.glade2.h:18
+msgid "_4 Keyboard"
+msgstr "_4 Тастатура"
+
+#: ../gnopi/gnopi_files/Load_Default/load_default.glade2.h:19
+#: ../gnopi/gnopi_files/gnopi.glade2.h:36
+msgid "_5 Braille Monitor"
+msgstr "_5 Брајов монитор"
+
+#: ../gnopi/gnopi_files/Load_Default/load_default.glade2.h:20
+msgid "_6 Startup"
+msgstr "_6 Подигање"
+
+#: ../gnopi/gnopi_files/Load_Default/load_default.glade2.h:21
+msgid "_7 Command Map"
+msgstr "_7 Мапа на команди"
+
+#: ../gnopi/gnopi_files/Load_Default/load_default.glade2.h:22
+msgid "_8 Presentation"
+msgstr "_8 Презентација"
+
+#: ../gnopi/gnopi_files/Load_Default/load_default.glade2.h:23
+msgid "_9 Screen Review"
+msgstr "_9 Преглед на екранот"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:2
+msgid "<b>Border settings</b>"
+msgstr "<b>Поставувања на рамката</b>"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:3
+msgid "<b>Cross-hair</b>"
+msgstr "<b>Мета</b>"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:4
+msgid "<b>Cursor setting</b>"
+msgstr "<b>Поставувања на покажувачот</b>"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:5
+msgid "<b>Display screen</b>"
+msgstr "<b>Екран за прикажување</b>"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:6
+msgid "<b>Focus tracking mode</b>"
+msgstr "<b>Фокусирај режим на следење</b>"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:7
+msgid "<b>Mo_use tracking mode</b>"
+msgstr "<b>Режим на следење на глувчето</b>"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:8
+msgid "<b>S_moothing</b>"
+msgstr "<b>З_аоблување</b>"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:9
+msgid "<b>Zoomer placement</b>"
+msgstr "<b>Поставување на приблињувачот</b>"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:10
+msgid "<b>Zoomfactor</b>"
+msgstr "<b>Фактор на приближување</b>"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:11
+msgid "<b>_Zoomer list</b>"
+msgstr "<b>_Листа на приближувачи</b>"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:12
+msgid "Bor_der size:"
+msgstr "Гол_емина на рамка:"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:13
+msgid "Border c_olor:"
+msgstr "Боја на р_амка:"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:14
+msgid "Border color"
+msgstr "Боја на рамка"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:15
+msgid "Border size"
+msgstr "Дебелина на рамка"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:16
+msgid "C_entered"
+msgstr "Ц_ентрирано"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:17
+msgid "C_ursor on/off"
+msgstr "Покажувач вклучено/исклучено"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:18
+msgid "Cross-ha_ir size:"
+msgstr "Големин_а на мета:"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:19
+msgid "Cross-hair c_lip on/off"
+msgstr "Рамнење - в_клучено/исклучено"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:20
+msgid "Cross-hair colo_r:"
+msgstr "Боја на мета_та:"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:21
+msgid "Cross-hair color in_verted"
+msgstr "Обратна боја на _метата"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:22
+msgid "Cross-hair o_n/off"
+msgstr "Рамнење - в_клучено/исклучено"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:23
+msgid "Crosshair clip on/off"
+msgstr "Рамнење - вклучено/исклучено"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:24
+msgid "Crosshair color"
+msgstr "Боја на мета"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:25
+msgid "Crosshair on/off"
+msgstr "Мета вклучено/исклучено"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:26
+msgid "Crosshair size"
+msgstr "Големина на мета"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:27
+msgid "Cursor _size:"
+msgstr "Големина _на покажувач:"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:28
+msgid "Cursor c_olor:"
+msgstr "Боја на п_окажувач:"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:29
+msgid "Cursor color"
+msgstr "Боја на покажувач"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:30
+msgid "Cursor magnification"
+msgstr "Зголемување на покажувачот"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:31
+msgid "Cursor on/off"
+msgstr "Покажувач вклучено/исклучено"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:32
+msgid "Cursor size"
+msgstr "Боја на покажувач"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:33
+msgid "Display screen source"
+msgstr "Извор на приказот на екранот"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:34
+msgid "Display screen target"
+msgstr "Прикажи ја метата на екранот"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:35
+msgid "Invert crosshair color"
+msgstr "Обратна боја на метата"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:36
+msgid "Invert on/off"
+msgstr "Обратно вклучено/исклучено"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:37
+msgid "Lock zoom _factor"
+msgstr "Заклучи·го·_факторот·на·приближување"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:38
+msgid "Lock zoom factor"
+msgstr "Заклучи го факторот на приближување"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:39
+msgid "Magnifier Preferences"
+msgstr "Параметри на зголемувачот"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:40
+msgid "Magnifier settings"
+msgstr "Поставки на зголемувачот"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:41
+msgid "Mouse tracking type"
+msgstr "Тип на следење на глувчето"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:42
+msgid "Panning on/off"
+msgstr "Менување на екранот - вклучено/исклучено"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:44
+msgid "Set cursor separate from _magnification"
+msgstr "Постави го покажувачот одделно од _зголемувачот"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:45
+msgid "Smoothing type"
+msgstr "Вид на заоблување"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:46
+msgid "Tar_get:"
+msgstr "Ме_та:"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:47
+msgid "Zoom factor X"
+msgstr "Фактор на приближување X"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:48
+msgid "Zoom factor Y"
+msgstr "Фактор на приближување Y"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:49
+msgid "Zoom factor _X:"
+msgstr "Фактор на приближување _X:"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:50
+msgid "Zoom factor _Y:"
+msgstr "Фактор·на·приближување·_Y:"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:51
+msgid "Zoomer Options"
+msgstr "Опции на приближувач"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:52
+msgid "Zoomer placement bottom"
+msgstr "Позиција на приближувачот - на дно"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:53
+msgid "Zoomer placement left"
+msgstr "Позиција·на·приближувачот·-·лево"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:54
+msgid "Zoomer placement right"
+msgstr "Позиција·на·приближувачот·-·десно"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:55
+msgid "Zoomer placement top"
+msgstr "Позиција·на·приближувачот·-·на·врв"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:56
+msgid "Zoomers list"
+msgstr "Листа на приближувачи"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:57
+msgid "_Add/Modify"
+msgstr "_Додај/Измени"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:58
+msgid "_Auto"
+msgstr "_Автоматски"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:59
+msgid "_Bottom:"
+msgstr "_Дно:"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:60
+msgid "_Invert"
+msgstr "_Обратно"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:61
+msgid "_Left:"
+msgstr "_Лево:"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:62
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:87
+msgid "_None"
+msgstr "_Ништо"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:63
+msgid "_Panning"
+msgstr "_Менување на екранот"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:64
+msgid "_Remove"
+msgstr "_Отстрани"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:65
+msgid "_Right:"
+msgstr "_Десно:"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:66
+msgid "_Source:"
+msgstr "_Извор:"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:67
+msgid "_Top:"
+msgstr "_Врв:"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:68
+#: ../gnopi/magui.c:49
+msgid "bilinear"
+msgstr "дволинеарно"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:69
+#: ../gnopi/magui.c:61
+msgid "centered"
+msgstr "центрирано"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:70
+#: ../gnopi/magui.c:48 ../gnopi/magui.c:63
+msgid "none"
+msgstr "ништо"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:71
+#: ../gnopi/magui.c:62
+msgid "proportional"
+msgstr "пропорционално"
+
+#: ../gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:72
+#: ../gnopi/magui.c:60
+msgid "push"
+msgstr "притисни"
+
+#: ../gnopi/gnopi_files/Presentation/presentation.glade2.h:2
+msgid "Expert"
+msgstr "Експерт"
+
+#: ../gnopi/gnopi_files/Presentation/presentation.glade2.h:3
+msgid "Mode selected:"
+msgstr "Избран режим:"
+
+#: ../gnopi/gnopi_files/Presentation/presentation.glade2.h:4
+msgid "Presentation"
+msgstr "Презентација"
+
+#: ../gnopi/gnopi_files/Presentation/presentation.glade2.h:5
+#: ../srcore/default.xml.in.h:18 ../srcore/verbose.xml.in.h:18
+msgid "Verbose"
+msgstr "Вербално"
+
+#: ../gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:1
+msgid "<b>Horizontal flags</b>"
+msgstr "<b>Хоризонтални обележја</b>"
+
+#: ../gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:2
+msgid "<b>Vertical flags</b>"
+msgstr "<b>Вертикални обележја</b>"
+
+#: ../gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:3
+msgid "Add all empty lines"
+msgstr "Додај празни редови"
+
+#: ../gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:4
+msgid "Add all spaces"
+msgstr "Додај ги сите празни места"
+
+#: ../gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:5
+msgid "Add all spaces and empty lines"
+msgstr "Додај ги сите празни места и празни редови"
+
+#: ../gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:6
+msgid "Add embedded empty lines"
+msgstr "Додај вградени празни редови"
+
+#: ../gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:7
+msgid "Add embedded spaces"
+msgstr "Додај·вградени·празни места"
+
+#: ../gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:8
+msgid "Add leading empty lines"
+msgstr "Додај водечки празни линии"
+
+#: ../gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:9
+msgid "Add leading spaces"
+msgstr "Додај водечки празни простори"
+
+#: ../gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:10
+msgid "Add trailing empty lines"
+msgstr "Додај·следачки·празни·редови"
+
+#: ../gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:11
+msgid "Add trailing spaces"
+msgstr "Додај·следачки·празни·простори"
+
+#: ../gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:12
+msgid "All _horizontal"
+msgstr "Сите _хоризонтално"
+
+#: ../gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:13
+msgid "All _vertical"
+msgstr "Сите _вертикално"
+
+#: ../gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:14
+msgid "Count em_pty lines"
+msgstr "Брои ги пр_азните редови"
+
+#: ../gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:15
+msgid "Count empty lines"
+msgstr "Брои ги празните редови"
+
+#: ../gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:16
+msgid "E_mbedded"
+msgstr "В_градено"
+
+#: ../gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:17
+msgid "Lea_ding"
+msgstr "Вод_ечки"
+
+#: ../gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:18
+msgid "Screen Review Preferences"
+msgstr "Параметри на преглед на екранот"
+
+#: ../gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:19
+msgid "T_railing"
+msgstr "С_ледечки"
+
+#: ../gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:20
+msgid "_All flags"
+msgstr "_Сите ознаки"
+
+#: ../gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:21
+msgid "_Embedded"
+msgstr "_Вградено"
+
+#: ../gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:22
+msgid "_Leading"
+msgstr "_Водење"
+
+#: ../gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:23
+msgid "_Trailing"
+msgstr "_Следечки"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:2
+#, no-c-format
+msgid "%"
+msgstr "%"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:4
+msgid "<b><></b>"
+msgstr "<b><></b>"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:5
+msgid "<b>Absolute Value</b>"
+msgstr "<b>Апсолутна вредност</b>"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:6
+msgid "<b>Driver</b>"
+msgstr "<b>Управувач</b>"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:7
+msgid "<b>Properties</b>"
+msgstr "<b>Параметри</b>"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:8
+msgid "<b>Punctuation</b>"
+msgstr "<b>Интерпуктциски знаци</b>"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:9
+msgid "<b>Relative Values</b>"
+msgstr "<b>Релативни Вредности</b>"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:10
+msgid "<b>Text Echo</b>"
+msgstr "<b>Повторување на текстот</b>"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:11
+msgid "<b>Voice</b>"
+msgstr "<b>Глас</b>"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:12
+msgid "<b>_Dictionary</b>"
+msgstr "<b>_Речник</b>"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:13
+msgid "<b>_Replacement:</b>"
+msgstr "<b>_Замена:</b>"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:14
+msgid "<b>_Voice list</b>"
+msgstr "<b>_Листа со гласови</b>"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:15
+msgid "<b>_Word:</b>"
+msgstr "<b>_Збор:</b>"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:16
+msgid "A_ll"
+msgstr "С_ите"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:17
+msgid "Activate pitch"
+msgstr "Активирај тон"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:18
+msgid "Activate rate"
+msgstr "Активирај интензитет"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:19
+msgid "Activate volume"
+msgstr "Активирај звук"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:20
+msgid "Add / Modify Dictionary Entry"
+msgstr "Додај / Измени запис во речникот"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:21
+msgid "Add / Modify Voice"
+msgstr "Додај / Измени глас"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:22
+msgid "Add new item in voices list"
+msgstr "Додај нов предмет во листата со гласови"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:23
+msgid "Add new word in dictionary"
+msgstr "Додај нов збор во речникот"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:24
+msgid ""
+"Change for all voices the engine driver and the engine speaker with a "
+"selected driver and speaker"
+msgstr ""
+"Смени го за стие гласови управувачот на механизмот и управувачот на "
+"зборувачот со избраниот управувач и зборувач"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:25
+msgid "Charac_ter"
+msgstr "Зна_к"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:26
+msgid "Count sym_bols"
+msgstr "Брои сим_боли"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:27
+msgid "Count symbols"
+msgstr "Брои симболи"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:28
+msgid "Decrease pitch"
+msgstr "Намали го тонот"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:29
+msgid "Decrease rate"
+msgstr "Намали го интензитетот"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:30
+msgid "Decrease volume"
+msgstr "Намали ја гласноста"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:31
+msgid "Dictionary"
+msgstr "Речник"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:32
+msgid "Dictionary list"
+msgstr "Листа на речници"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:33
+msgid "Do not speak text"
+msgstr "Не го читај текстот"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:34
+msgid "Edit A_bsolute..."
+msgstr "Уреди А_псолутно..."
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:35
+msgid "Edit Absolute Voice Values"
+msgstr "Уреди ги вредностите на апсолутен глас"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:36
+msgid "Edit R_elative..."
+msgstr "Уреди Р_елативно..."
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:37
+msgid "Edit Relative Voice Values"
+msgstr "Уреди·ги·вредностите·на·релативен·глас"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:38
+msgid "Edit dictionary"
+msgstr "Уреди речник"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:39
+msgid "Edit parameter values absolutely"
+msgstr "Уреди ги вредностите на параметрите апсолутно"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:40
+msgid "Edit parameter values relatively"
+msgstr "Уреди ги вредностите на параметрите релативно"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:41
+msgid "Engine _driver:"
+msgstr "Управувач на механизмот:"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:42
+msgid "Engine _speaker:"
+msgstr "Управувач на _зборувачот:"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:43
+msgid "Engine driver"
+msgstr "Управувач на механизмот"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:44
+msgid "Engine speaker"
+msgstr "Зборувач на механизмот"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:45
+msgid "Gnopernicus system voice"
+msgstr "Гноперник системски глас"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:46
+msgid "Hz"
+msgstr "Hz"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:47
+msgid "Ignore all punctuation"
+msgstr "Игнорирај ги интерпунктциските знаци"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:48
+msgid "Increase pitch"
+msgstr "Зголеми го тонот"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:49
+msgid "Increase rate"
+msgstr "Зголеми го интензитетот"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:50
+msgid "Increase volume"
+msgstr "Зголеми ја гласноста"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:51
+msgid "Made pitch sensitive for changing"
+msgstr "Направи·го·тонот·осетлив·на·промени"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:52
+msgid "Made rate sensitive for changing"
+msgstr "Направи·го·интензитетот·осетлив·на·промени"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:53
+msgid "Made volume sensitive for changing"
+msgstr "Направи·го·звукот·осетлив·на·промени"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:54
+msgid "Modify selected voice"
+msgstr "Промени го избраниот глас"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:55
+msgid "Modify word"
+msgstr "Промени збор"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:56
+#: ../gnopi/spvoiceui.c:2076
+msgid "Pitch"
+msgstr "Тон"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:57
+#: ../gnopi/spvoiceui.c:2068
+msgid "Rate"
+msgstr "Интензитет"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:58
+msgid "Remove selected voice from voices list"
+msgstr "Отстрани го избраниот глас од листата на гласови"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:59
+msgid "Remove word from dictionary"
+msgstr "Отстрани го зборот од речникот"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:60
+msgid "Replecement"
+msgstr "Замена"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:61
+msgid "Sa_y all navigation keys"
+msgstr "Ка_жи ги сите копчиња за навигација"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:62
+msgid "Say all modi_fiers"
+msgstr "Кажи ги с_ите менувачи"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:63
+msgid "Say all modifiers"
+msgstr "Кажи ги сите менувачи"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:64
+msgid "Say all navigation keys"
+msgstr "Кажи ги сите копчиња за навигација"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:65
+msgid "Say all s_paces"
+msgstr "Кажи ги с_ите места"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:66
+msgid "Say all spaces"
+msgstr "Кажи ги сите места"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:67
+msgid "Say text as character"
+msgstr "Кажи го текстот како знак"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:68
+msgid "Say text as word"
+msgstr "Кажи го текстот како збор"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:69
+msgid "Set voices and the voice parameters"
+msgstr "Постави гласови и параметри за гласовите"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:70
+msgid "Show all punctuation"
+msgstr "Прикажи ги сите интерпунктциски знаци"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:71
+msgid "Show most punctuation"
+msgstr "Прикажи·ги·повеќето·интерпунктциски·знаци"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:72
+msgid "Show some punctuation"
+msgstr "Прикажи·ги·некои·интерпунктциски·знаци"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:73
+msgid "Speech Preferences"
+msgstr "Параметри на говор"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:74
+msgid "Test selected voice"
+msgstr "Тестирај го избраниот глас"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:75
+msgid "Use dictionary"
+msgstr "Користи речник"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:76
+msgid "Voice _name:"
+msgstr "Име на _гласот"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:77
+msgid "Voice list"
+msgstr "Листа со гласови"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:78
+msgid "Voices"
+msgstr "Гласови"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:79
+#: ../gnopi/spvoiceui.c:2060
+msgid "Volume"
+msgstr "Глас"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:80
+msgid "Word to replace"
+msgstr "Збор за заменување"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:81
+msgid "Word/Min"
+msgstr "Зброви/Минута"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:82
+msgid "_Dictionary..."
+msgstr "_Речник..."
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:83
+msgid "_Force All Voices to Selected Driver and Speaker"
+msgstr "_Присили ги сите гласови да го користат избраниот управувач и зборувач"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:84
+msgid "_Ignore"
+msgstr "_Игнорирај"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:86
+msgid "_Most"
+msgstr "_Повеќето"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:88
+msgid "_Pitch (Hz)"
+msgstr "_Тон (херци)"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:89
+msgid "_Pitch:"
+msgstr "_Тон:"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:90
+msgid "_Rate (words/min)"
+msgstr "_Интензитет(зборови/мин)"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:91
+msgid "_Rate:"
+msgstr "_Интензитет"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:92
+msgid "_Some"
+msgstr "_Некои"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:93
+msgid "_Test voice"
+msgstr "_Тестирај го гласот"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:94
+msgid "_Use dictionary"
+msgstr "_Користи речник"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:95
+msgid "_Voices..."
+msgstr "_Гласови..."
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:97
+#, no-c-format
+msgid "_Volume (%)"
+msgstr "_Звук (%)"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:98
+msgid "_Volume:"
+msgstr "_Звук:"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:99
+msgid "_Word"
+msgstr "_Збор"
+
+#: ../gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:100
+msgid "words/min"
+msgstr "зборови/минута"
+
+#: ../gnopi/gnopi_files/User_Properties/user_properties.glade2.h:2
+msgid "<b>_Commands list</b>"
+msgstr "<b>_Листа со команди</b>"
+
+#: ../gnopi/gnopi_files/User_Properties/user_properties.glade2.h:3
+msgid "<b>_Layers list</b>"
+msgstr "<b>_Листа со слоеви</b>"
+
+#: ../gnopi/gnopi_files/User_Properties/user_properties.glade2.h:4
+msgid "<b>_User defined list</b>"
+msgstr "<b>_Листа дефинирана од корисникот</b>"
+
+#: ../gnopi/gnopi_files/User_Properties/user_properties.glade2.h:5
+msgid "Add Layer Key"
+msgstr "Додај копче за изглед"
+
+#: ../gnopi/gnopi_files/User_Properties/user_properties.glade2.h:6
+msgid "Add User Defined Key"
+msgstr "Додај копче дефинирано од корисникот"
+
+#: ../gnopi/gnopi_files/User_Properties/user_properties.glade2.h:7
+msgid "Add new item"
+msgstr "Додај нов предмет"
+
+#: ../gnopi/gnopi_files/User_Properties/user_properties.glade2.h:8
+msgid "Alt modifier"
+msgstr "Менувач Alt"
+
+#: ../gnopi/gnopi_files/User_Properties/user_properties.glade2.h:9
+msgid "Command Mapping"
+msgstr "Обележување на команди"
+
+#: ../gnopi/gnopi_files/User_Properties/user_properties.glade2.h:10
+msgid "Commands List"
+msgstr "Листа со команди"
+
+#: ../gnopi/gnopi_files/User_Properties/user_properties.glade2.h:11
+msgid "Control modifier"
+msgstr "Ctrl"
+
+#: ../gnopi/gnopi_files/User_Properties/user_properties.glade2.h:12
+msgid "Key number"
+msgstr "Број на копче"
+
+#: ../gnopi/gnopi_files/User_Properties/user_properties.glade2.h:13
+msgid "Keys list"
+msgstr "Листа со копчиња"
+
+#: ../gnopi/gnopi_files/User_Properties/user_properties.glade2.h:14
+msgid "Layer command list"
+msgstr "Листа на команди на слојот"
+
+#: ../gnopi/gnopi_files/User_Properties/user_properties.glade2.h:15
+msgid "Layer number"
+msgstr "Броеви на слоевите"
+
+#: ../gnopi/gnopi_files/User_Properties/user_properties.glade2.h:16
+msgid "Layers"
+msgstr "Слоеви"
+
+#: ../gnopi/gnopi_files/User_Properties/user_properties.glade2.h:17
+msgid "List of gnopernicus commands"
+msgstr "Листа со команди на гноперник"
+
+#: ../gnopi/gnopi_files/User_Properties/user_properties.glade2.h:18
+msgid "Modify command for the selected item"
+msgstr "Измени команда за избраниот предмет"
+
+#: ../gnopi/gnopi_files/User_Properties/user_properties.glade2.h:19
+msgid "Remove selected item"
+msgstr "Отстрани го избраниот објект"
+
+#: ../gnopi/gnopi_files/User_Properties/user_properties.glade2.h:20
+msgid "Shift modifier"
+msgstr "Менувач за Shift"
+
+#: ../gnopi/gnopi_files/User_Properties/user_properties.glade2.h:21
+msgid "User Defined"
+msgstr "Дефинирано од корисникот"
+
+#: ../gnopi/gnopi_files/User_Properties/user_properties.glade2.h:22
+msgid "User defined commands list."
+msgstr "Листа со команди дефинирана од корисникот."
+
+#: ../gnopi/gnopi_files/User_Properties/user_properties.glade2.h:23
+msgid "_Alt"
+msgstr "_Alt"
+
+#: ../gnopi/gnopi_files/User_Properties/user_properties.glade2.h:24
+msgid "_Ctrl"
+msgstr "_Ctrl"
+
+#: ../gnopi/gnopi_files/User_Properties/user_properties.glade2.h:25
+msgid "_Key:"
+msgstr "_Копче:"
+
+#: ../gnopi/gnopi_files/User_Properties/user_properties.glade2.h:26
+msgid "_Layer:"
+msgstr "_Слој:"
+
+#: ../gnopi/gnopi_files/User_Properties/user_properties.glade2.h:27
+msgid "_Modifier keys:"
+msgstr "_Копчиња менувачи:"
+
+#: ../gnopi/gnopi_files/User_Properties/user_properties.glade2.h:29
+msgid "_Shift"
+msgstr "_Shift"
+
+#: ../gnopi/gnopi_files/about.glade2.h:1
+msgid "Screen Reader and Magnifier for the GNOME Desktop"
+msgstr "Читач на екранот и зголемувач за ГНОМ работната површина"
+
+#: ../gnopi/gnopi_files/about.glade2.h:2
+msgid "translator-credits"
+msgstr "за преведувачот"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:1
+msgid ""
+"<b>Gnopernicus has detected that the assistive technology \n"
+"support is not enabled.</b>\n"
+msgstr ""
+"<b>Гноперник откри дека ·поддршката за·помошна·технологија не е активирана.</"
+"b>\n"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:4
+msgid "About"
+msgstr "За гноперник"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:5 ../srcore/srpres.c:812
+msgid "Alert"
+msgstr "Тревога"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:6
+msgid "Braille device preferences"
+msgstr "Параметри на брајов уред"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:7
+msgid "Braille monitor preferences"
+msgstr "Параметри на брајов монитор"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:8
+msgid "Close preferences"
+msgstr "Затвори ги параметрите"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:9
+msgid "Command mapping"
+msgstr "Обележување на команди"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:10
+msgid "Do you want to enable the assistive technology support?"
+msgstr "Дали сакате да активирате поддршка за помошна технологија?"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:11
+msgid "Exit from gnopernicus"
+msgstr "Излези од гноперник"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:12
+msgid "Find on screen"
+msgstr "Пронајди на екранот"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:13
+msgid "Gnopernicus"
+msgstr "Гноперник"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:14
+msgid "Gnopernicus usage help"
+msgstr "Помош за употребата на гноперник"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:15
+msgid "Iconify menu"
+msgstr "Иконизирано мени"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:16
+msgid "Load default preferences"
+msgstr "Вчитај ги стандардните параметри"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:17
+msgid "Magnifier preferences"
+msgstr "Параметри на Зголемувачот"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:18
+msgid "Mouse preferences"
+msgstr "Параметри на глувчето"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:19
+msgid "Preferences"
+msgstr "Параметри"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:20
+msgid "Preferences..."
+msgstr "Параметри..."
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:21 ../srcore/srspc.c:1042
+msgid "Question"
+msgstr "Прашање"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:22
+msgid "Role presentation"
+msgstr "Презентација на улогата"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:23
+msgid "Screen review"
+msgstr "Преглед на екранот"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:24
+msgid "Speech preferences"
+msgstr "Параметри на говорот"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:25
+msgid "Startup mode..."
+msgstr "Режим на подигање..."
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:26
+msgid ""
+"You will have to log out for the change to take effect.\n"
+"Do you want to log out now? "
+msgstr ""
+"За промените да имаат ефект треба да се одјавите.\n"
+" Дали сакате да се одјавите сега? "
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:28
+msgid "_1 Speech"
+msgstr "_1 Говор"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:29
+msgid "_1 Startup Mode..."
+msgstr "_1 Режим на подигање"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:30
+msgid "_2 Braille"
+msgstr "_2 Брајов"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:31
+msgid "_2 Preferences..."
+msgstr "_2 Параметри"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:32
+msgid "_3 Default Preferences..."
+msgstr "_3 Стандардни параметри..."
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:34
+msgid "_4 Minimize"
+msgstr "_4 Намали"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:35
+msgid "_4 Mouse"
+msgstr "_4 Глувче"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:37
+msgid "_5 Help"
+msgstr "_5 Помош"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:38
+msgid "_6 About"
+msgstr "_6 За Гноперник"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:39
+msgid "_6 Command Mapping"
+msgstr "_6 Мапирање на команди"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:40
+msgid "_7 Presentation"
+msgstr "_7 Презентација"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:41
+msgid "_8 Screen Review"
+msgstr "_8 Преглед на екранот"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:42
+msgid "_9 Search"
+msgstr "_9 Барај"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:43
+msgid "_Don't Enable Support"
+msgstr "_Не овозможувај поддршка"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:44
+msgid "_Enable Support"
+msgstr "_Овозможи поддршка"
+
+#: ../gnopi/gnopi_files/gnopi.glade2.h:45
+msgid "_Quit"
+msgstr "_Излези"
+
+#: ../gnopi/gnopiconf.c:409 ../gnopi/gnopiconf.c:427
+#, c-format
+msgid "Failed to set value: %f."
+msgstr "Не·можам·да·поставам·вредност: %f."
+
+#: ../gnopi/gnopiconf.c:733
+msgid "Failed to set value."
+msgstr "Не можам да поставам вредност."
+
+#: ../gnopi/gnopiui.c:73 ../gnopi/gnopiui.c:87 ../gnopi/gnopiui.c:99
+#: ../gnopi/gnopiui.c:105
+msgid "We could not load the interface!"
+msgstr "Не можам да го вчитам интерфејсот"
+
+#: ../gnopi/magui.c:74
+msgid "default"
+msgstr "стандардно"
+
+#: ../gnopi/magui.c:472
+msgid ""
+"Can NOT remove zoomer because multiple zoomers are not supported in this "
+"version."
+msgstr ""
+"Не можам да го отстранам зумирачот затоа што повеќе зумирачи не се поддржани "
+"во оваа верзија."
+
+#: ../gnopi/magui.c:673
+msgid "Zoomers"
+msgstr "Зумери"
+
+#: ../gnopi/magui.c:1604
+#, c-format
+msgid "Zoomer Options (%s)"
+msgstr "Опции на приближувачот (%s)"
+
+#: ../gnopi/spconf.c:341
+msgid "Failed to set dictionary changes."
+msgstr "Не можам да ги поставам промените во речникот"
+
+#: ../gnopi/spconf.c:349
+msgid "Failed to set removed voice value."
+msgstr "Не можам да поставам вредност за отстранет глас."
+
+#: ../gnopi/spconf.c:359
+#, c-format
+msgid "Failed to set count: %s."
+msgstr "Не можам да поставам бројач: %s."
+
+#: ../gnopi/spconf.c:368
+#, c-format
+msgid "Failed to set Punctuation: %s."
+msgstr "Не можам да поставам Интерпунктција: %s."
+
+#: ../gnopi/spconf.c:377
+#, c-format
+msgid "Failed to set text echo value: %s."
+msgstr "Не·можам·да·поставам·вредност на ехо на текстот:·%s."
+
+#: ../gnopi/spconf.c:386
+#, c-format
+msgid "Failed to set modifiers value: %s."
+msgstr "Не успеав да ја поставам вредноста на менувачите: %s."
+
+#: ../gnopi/spconf.c:395
+#, c-format
+msgid "Failed to set cursors value: %s."
+msgstr "Не можам да поставам вредност на покажувачите: %s."
+
+#: ../gnopi/spconf.c:404
+#, c-format
+msgid "Failed to set spaces value: %s."
+msgstr "Не·можам·да·поставам·вредност на празниот простор:·%s."
+
+#: ../gnopi/spconf.c:413
+#, c-format
+msgid "Failed to set dictionary value: %s."
+msgstr "Не можам да поставам вредност на речникот: %s."
+
+#: ../gnopi/spconf.c:422
+#, c-format
+msgid "Failed to set testable voice %s."
+msgstr "Не можам да поставам тестирачки глас %s."
+
+#: ../gnopi/spconf.c:614
+#, c-format
+msgid "%s no name"
+msgstr "%s без име"
+
+#: ../gnopi/spdictui.c:79
+msgid "Invalid word or replacer!"
+msgstr "Невалиден збор или замена!"
+
+#: ../gnopi/spdictui.c:85
+msgid "Word exists in dictionary!"
+msgstr "Зборот постои во речникот!"
+
+#: ../gnopi/spdictui.c:271 ../gnopi/spdictui.c:324
+msgid "No selected word to modify!"
+msgstr "Не е избран збор за промена!"
+
+#: ../gnopi/spdictui.c:298
+msgid "No selected word to remove!"
+msgstr "Не е избран збор за бришење!"
+
+#: ../gnopi/spdictui.c:447
+msgid "Word"
+msgstr "Збор"
+
+#: ../gnopi/spdictui.c:456
+msgid "Replacer"
+msgstr "Заменувач"
+
+#: ../gnopi/spvoiceui.c:32
+msgid "<all drivers>"
+msgstr "<сите управувачи>"
+
+#: ../gnopi/spvoiceui.c:33
+msgid "<all voices>"
+msgstr "<сите гласови>"
+
+#: ../gnopi/spvoiceui.c:296
+msgid "Invalid voice!"
+msgstr "Невалиден глас!"
+
+#: ../gnopi/spvoiceui.c:1217
+msgid "Invalid driver or voice!"
+msgstr "Невалиден управувач или глас!"
+
+#: ../gnopi/spvoiceui.c:1657
+msgid "No selected voice to modify!"
+msgstr "Не е избран глас за промена!"
+
+#: ../gnopi/spvoiceui.c:1716
+msgid "No selected voice to remove!"
+msgstr "Не е избран глас за бришење!"
+
+#: ../gnopi/spvoiceui.c:1793
+msgid "No selected voice to test!"
+msgstr "Не е избран глас за тестирање!"
+
+#: ../gnopi/spvoiceui.c:2034
+msgid "Voice"
+msgstr "Глас"
+
+#: ../gnopi/spvoiceui.c:2043
+msgid "Driver"
+msgstr "Управувач"
+
+#: ../gnopi/spvoiceui.c:2052
+msgid "Speaker"
+msgstr "Зборувач"
+
+#. To translators: This is the military phonetic alphabet
+#. Be sure to remove "Phonetic|" from each string
+#: ../speech/libsrs/srs-speech.c:303
+msgid "Phonetic|Alpha"
+msgstr "Phonetic|Alpha"
+
+#: ../speech/libsrs/srs-speech.c:304
+msgid "Phonetic|Bravo"
+msgstr "Phonetic|Bravo"
+
+#: ../speech/libsrs/srs-speech.c:305
+msgid "Phonetic|Charlie"
+msgstr "Phonetic|Charlie"
+
+#: ../speech/libsrs/srs-speech.c:306
+msgid "Phonetic|Delta"
+msgstr "Phonetic|Delta"
+
+#: ../speech/libsrs/srs-speech.c:307
+msgid "Phonetic|Echo"
+msgstr "Phonetic|Echo"
+
+#: ../speech/libsrs/srs-speech.c:308
+msgid "Phonetic|Foxtrot"
+msgstr "Phonetic|Foxtrot"
+
+#: ../speech/libsrs/srs-speech.c:309
+msgid "Phonetic|Golf"
+msgstr "Phonetic|Golf"
+
+#: ../speech/libsrs/srs-speech.c:310
+msgid "Phonetic|Hotel"
+msgstr "Phonetic|Hotel"
+
+#: ../speech/libsrs/srs-speech.c:311
+msgid "Phonetic|India"
+msgstr "Phonetic|India"
+
+#: ../speech/libsrs/srs-speech.c:312
+msgid "Phonetic|Juliet"
+msgstr "Phonetic|Juliet"
+
+#: ../speech/libsrs/srs-speech.c:313
+msgid "Phonetic|Kilo"
+msgstr "Phonetic|Kilo"
+
+#: ../speech/libsrs/srs-speech.c:314
+msgid "Phonetic|Lima"
+msgstr "Phonetic|Lima"
+
+#: ../speech/libsrs/srs-speech.c:315
+msgid "Phonetic|Mike"
+msgstr "Phonetic|Mike"
+
+#: ../speech/libsrs/srs-speech.c:316
+msgid "Phonetic|November"
+msgstr "Phonetic|November"
+
+#: ../speech/libsrs/srs-speech.c:317
+msgid "Phonetic|Oscar"
+msgstr "Phonetic|Oscar"
+
+#: ../speech/libsrs/srs-speech.c:318
+msgid "Phonetic|Papa"
+msgstr "Phonetic|Papa"
+
+#: ../speech/libsrs/srs-speech.c:319
+msgid "Phonetic|Quebec"
+msgstr "Phonetic|Quebec"
+
+#: ../speech/libsrs/srs-speech.c:320
+msgid "Phonetic|Romeo"
+msgstr "Phonetic|Romeo"
+
+#: ../speech/libsrs/srs-speech.c:321
+msgid "Phonetic|Sierra"
+msgstr "Phonetic|Sierra"
+
+#: ../speech/libsrs/srs-speech.c:322
+msgid "Phonetic|Tango"
+msgstr "Phonetic|Tango"
+
+#: ../speech/libsrs/srs-speech.c:323
+msgid "Phonetic|Uniform"
+msgstr "Phonetic|Uniform"
+
+#: ../speech/libsrs/srs-speech.c:324
+msgid "Phonetic|Victor"
+msgstr "Phonetic|Victor"
+
+#: ../speech/libsrs/srs-speech.c:325
+msgid "Phonetic|Whiskey"
+msgstr "Phonetic|Whiskey"
+
+#: ../speech/libsrs/srs-speech.c:326
+msgid "Phonetic|Xray"
+msgstr "Phonetic|Xray"
+
+#: ../speech/libsrs/srs-speech.c:327
+msgid "Phonetic|Yankee"
+msgstr "Phonetic|Yankee"
+
+#: ../speech/libsrs/srs-speech.c:328
+msgid "Phonetic|Zulu"
+msgstr "Phonetic|Zulu"
+
+#: ../speech/libsrs/srs-speech.c:329 ../srcore/srspc.c:1822
+msgid "space"
+msgstr "простор"
+
+#: ../speech/libsrs/srs-speech.c:330
+msgid "tab"
+msgstr "tab"
+
+#: ../speech/libsrs/srs-speech.c:331
+msgid "new line"
+msgstr "нов ред"
+
+#: ../speech/libsrs/srs-speech.c:332
+msgid "dash"
+msgstr "коса црта"
+
+#. To translators: this should be as short as possible
+#: ../speech/libsrs/srs-speech.c:384
+msgid "cap"
+msgstr "cap"
+
+#: ../srconf/libsrconf/libsrconf.c:454
+#, c-format
+msgid "Failed to access configuration source(s): %s\n"
+msgstr "Не успеав да му пристапам на изворот за конфигурација: %s\n"
+
+#: ../srconf/libsrconf/libsrconf.c:467
+#, c-format
+msgid "Failed to add notify: %s"
+msgstr "Не можам да поставам белешка: %s"
+
+#: ../srconf/libsrconf/libsrconf.c:521
+msgid "Failed to remove directory."
+msgstr "Не можам да отстранам директориум"
+
+#: ../srconf/libsrconf/libsrconf.c:865
+msgid "Failed to set configdata."
+msgstr "Не успеав да ги поставам податоците за конфигурација."
+
+#: ../srconf/libsrconf/libsrconf.c:939
+msgid "Failed set data."
+msgstr "Не можам да поставам податоци."
+
+#. translators: the letter ' ' (space), in parentheses.
+#: ../srcore/default.xml.in.h:2 ../srcore/verbose.xml.in.h:2
+msgid "( )"
+msgstr "( )"
+
+#. translators: the letter 'C' for "checked", in parentheses.
+#: ../srcore/default.xml.in.h:4 ../srcore/verbose.xml.in.h:4
+msgid "(C)"
+msgstr "(C)"
+
+#. translators: the letter 'E' for "expanded", in parentheses.
+#: ../srcore/default.xml.in.h:6 ../srcore/verbose.xml.in.h:6
+msgid "(E)"
+msgstr "(E)"
+
+#. translators: the letter 'P' for "[button] pressed", in parentheses.
+#: ../srcore/default.xml.in.h:8 ../srcore/verbose.xml.in.h:8
+msgid "(P)"
+msgstr "(P)"
+
+#. translators: the letter 'U', for "unavailable", in parentheses.
+#: ../srcore/default.xml.in.h:10 ../srcore/verbose.xml.in.h:10
+msgid "(U)"
+msgstr "(U)"
+
+#. translators: the letter 'c' for "collapsed", in parentheses.
+#: ../srcore/default.xml.in.h:12 ../srcore/verbose.xml.in.h:12
+msgid "(c)"
+msgstr "(c)"
+
+#. translators: the letter 'm' for "minimized", in parentheses.
+#: ../srcore/default.xml.in.h:14 ../srcore/verbose.xml.in.h:14
+msgid "(m)"
+msgstr "(m)"
+
+#. translators: the letter 'n' for "not minimized", in parentheses.
+#: ../srcore/default.xml.in.h:16 ../srcore/verbose.xml.in.h:16
+msgid "(n)"
+msgstr "(n)"
+
+#: ../srcore/default.xml.in.h:17 ../srcore/verbose.xml.in.h:17
+msgid "Give maximum speech and braille output."
+msgstr "Дај максимален говор и брајов резултат."
+
+#. translators: 'keyboard accelerator'
+#: ../srcore/default.xml.in.h:20 ../srcore/verbose.xml.in.h:20
+msgid "accelerator"
+msgstr "забрзувач"
+
+#: ../srcore/default.xml.in.h:21 ../srcore/verbose.xml.in.h:21
+msgid "available"
+msgstr "достапно"
+
+#. translators: "checked" as in "checkbox is checked"
+#: ../srcore/default.xml.in.h:23 ../srcore/verbose.xml.in.h:23
+msgid "checked"
+msgstr "обележано"
+
+#: ../srcore/default.xml.in.h:24 ../srcore/verbose.xml.in.h:24
+msgid "closing tab"
+msgstr "затворам јазиче"
+
+#: ../srcore/default.xml.in.h:25 ../srcore/verbose.xml.in.h:25
+msgid "closing window"
+msgstr "затворачки прозорец"
+
+#: ../srcore/default.xml.in.h:26 ../srcore/verbose.xml.in.h:26
+msgid "collapsed"
+msgstr "спушти"
+
+#: ../srcore/default.xml.in.h:27 ../srcore/verbose.xml.in.h:27
+msgid "column header"
+msgstr "заглавје на колона"
+
+#: ../srcore/default.xml.in.h:28 ../srcore/verbose.xml.in.h:28
+msgid "create tab"
+msgstr "креирај јазиче"
+
+#: ../srcore/default.xml.in.h:29 ../srcore/verbose.xml.in.h:29
+msgid "create window"
+msgstr "креирај прозорец"
+
+#: ../srcore/default.xml.in.h:30 ../srcore/verbose.xml.in.h:30
+msgid "current value"
+msgstr "тековна вредност"
+
+#: ../srcore/default.xml.in.h:31 ../srcore/srctrl.c:2669
+#: ../srcore/verbose.xml.in.h:31
+msgid "empty line"
+msgstr "празен ред"
+
+#: ../srcore/default.xml.in.h:32 ../srcore/verbose.xml.in.h:32
+msgid "expanded"
+msgstr "Проширено"
+
+#: ../srcore/default.xml.in.h:33 ../srcore/srctrl.c:2258
+#: ../srcore/srctrl.c:2409 ../srcore/verbose.xml.in.h:33
+msgid "item"
+msgid_plural "items"
+msgstr[0] "предмет"
+msgstr[1] "предмети"
+msgstr[2] "предмети"
+
+#: ../srcore/default.xml.in.h:34 ../srcore/verbose.xml.in.h:34
+msgid "items"
+msgstr "предмети"
+
+#: ../srcore/default.xml.in.h:35 ../srcore/verbose.xml.in.h:35
+msgid "level"
+msgstr "ниво"
+
+#: ../srcore/default.xml.in.h:36 ../srcore/verbose.xml.in.h:36
+msgid "maximize window"
+msgstr "зголеми го прозорецот"
+
+#: ../srcore/default.xml.in.h:37 ../srcore/verbose.xml.in.h:37
+msgid "minimize window"
+msgstr "смали го прозорецот"
+
+#: ../srcore/default.xml.in.h:38 ../srcore/verbose.xml.in.h:38
+msgid "minimized"
+msgstr "намалено"
+
+#: ../srcore/default.xml.in.h:39 ../srcore/verbose.xml.in.h:39
+msgid "no selection anymore"
+msgstr "Нема повеќе избрани предмети"
+
+#: ../srcore/default.xml.in.h:40 ../srcore/verbose.xml.in.h:40
+msgid "normal"
+msgstr "нормално"
+
+#: ../srcore/default.xml.in.h:41 ../srcore/verbose.xml.in.h:41
+msgid "pressed"
+msgstr "притиснато"
+
+#: ../srcore/default.xml.in.h:42 ../srcore/verbose.xml.in.h:42
+msgid "rename window"
+msgstr "преименувај прозорец"
+
+#: ../srcore/default.xml.in.h:43 ../srcore/verbose.xml.in.h:43
+msgid "restore window"
+msgstr "обнови прозорец"
+
+#: ../srcore/default.xml.in.h:44 ../srcore/verbose.xml.in.h:44
+msgid "row header"
+msgstr "заглавие на редот"
+
+#: ../srcore/default.xml.in.h:45 ../srcore/verbose.xml.in.h:45
+msgid "selected"
+msgstr "избрано"
+
+#. translators: 'keyboard shortcut'
+#: ../srcore/default.xml.in.h:47 ../srcore/verbose.xml.in.h:47
+msgid "shortcut"
+msgstr "кратенка"
+
+#: ../srcore/default.xml.in.h:48 ../srcore/verbose.xml.in.h:48
+msgid "show tool tip"
+msgstr "Прикажи балонче со совет"
+
+#: ../srcore/default.xml.in.h:49 ../srcore/verbose.xml.in.h:49
+msgid "switch tab"
+msgstr "префрли јазиче"
+
+#: ../srcore/default.xml.in.h:50 ../srcore/verbose.xml.in.h:50
+msgid "switch to"
+msgstr "се префрла на"
+
+#: ../srcore/default.xml.in.h:51 ../srcore/verbose.xml.in.h:51
+msgid "switch to window"
+msgstr "префрли се на прозорец"
+
+#: ../srcore/default.xml.in.h:52 ../srcore/verbose.xml.in.h:52
+msgid "titleize window"
+msgstr "големина на наслов на прозорецот"
+
+#: ../srcore/default.xml.in.h:53 ../srcore/verbose.xml.in.h:53
+msgid "unavailable"
+msgstr "недостапно"
+
+#. translators: "checkbox is unchecked"
+#: ../srcore/default.xml.in.h:55 ../srcore/verbose.xml.in.h:55
+msgid "unchecked"
+msgstr "нечекирано"
+
+#: ../srcore/default.xml.in.h:56 ../srcore/verbose.xml.in.h:56
+msgid "unpressed"
+msgstr "непритиснато"
+
+#: ../srcore/default.xml.in.h:57 ../srcore/verbose.xml.in.h:57
+msgid "unselected"
+msgstr "необележано"
+
+#: ../srcore/srctrl.c:1012
+msgid "no parent"
+msgstr "без родител"
+
+#: ../srcore/srctrl.c:1036
+msgid "no children"
+msgstr "без деца"
+
+#: ../srcore/srctrl.c:1069
+msgid "no next"
+msgstr "без текст"
+
+#: ../srcore/srctrl.c:1185
+msgid "Cannot find next text!"
+msgstr "Не можам да пронајдам следен текст!"
+
+#: ../srcore/srctrl.c:1196
+msgid "Cannot find next image!"
+msgstr "Не можам да пронајдам следна слика!"
+
+#: ../srcore/srctrl.c:1207
+msgid "Cannot find next attributes!"
+msgstr "Не можам да пронајдам следни атрибути!"
+
+#: ../srcore/srctrl.c:1296
+msgid "no previous"
+msgstr "нема претходно"
+
+#: ../srcore/srctrl.c:1340
+msgid "added watch for current object"
+msgstr "додадов надгледување на тековниот објект"
+
+#: ../srcore/srctrl.c:1341
+msgid "cannot add watch for current object"
+msgstr "не можам да додадам надгледување за тековниот објект"
+
+#: ../srcore/srctrl.c:1366
+msgid "no caret"
+msgstr "без ^"
+
+#: ../srcore/srctrl.c:1387
+msgid "already on first"
+msgstr "веќе е прво"
+
+#: ../srcore/srctrl.c:1408
+msgid "already on last"
+msgstr "веќе е последно"
+
+#: ../srcore/srctrl.c:1421
+msgid "now navigating in application"
+msgstr "сега се движам во апликација"
+
+#: ../srcore/srctrl.c:1425
+msgid "now navigating in desktop"
+msgstr "сега се движам на работната површина"
+
+#: ../srcore/srctrl.c:1429
+msgid "now navigating in window"
+msgstr "сега се движам во прозорецот"
+
+#: ../srcore/srctrl.c:1522
+msgid "no focus"
+msgstr "без фокус"
+
+#: ../srcore/srctrl.c:1562
+msgid "no title"
+msgstr "без наслов"
+
+#: ../srcore/srctrl.c:1583
+msgid "no menu bar"
+msgstr "без мени лента"
+
+#: ../srcore/srctrl.c:1606
+msgid "no tool bar"
+msgstr "без лента со алатки"
+
+#: ../srcore/srctrl.c:1630
+msgid "no status bar"
+msgstr "без статусна лента"
+
+#: ../srcore/srctrl.c:2214
+msgid "on"
+msgstr "на"
+
+#: ../srcore/srctrl.c:2236 ../srcore/srctrl.c:2387
+msgid "from a"
+msgstr "од"
+
+#: ../srcore/srctrl.c:2238 ../srcore/srctrl.c:2394
+msgid "with"
+msgstr "со"
+
+#: ../srcore/srctrl.c:2269
+msgid "in a"
+msgstr "во"
+
+#: ../srcore/srctrl.c:2272
+msgid "named "
+msgstr "именувани"
+
+#: ../srcore/srctrl.c:2274
+msgid "with no name"
+msgstr "без име"
+
+#: ../srcore/srctrl.c:2288
+msgid "of application"
+msgstr "на апликација"
+
+#: ../srcore/srctrl.c:2375
+msgid "on a"
+msgstr "на"
+
+#: ../srcore/srctrl.c:2629
+msgid "first line"
+msgstr "прв ред"
+
+#: ../srcore/srctrl.c:2636
+msgid "last line"
+msgstr "последен ред"
+
+#: ../srcore/srctrl.c:2644 ../srcore/srctrl.c:2646
+msgid "[first line]"
+msgstr "[прв ред]"
+
+#: ../srcore/srctrl.c:2651 ../srcore/srctrl.c:2653
+msgid "[last line]"
+msgstr "[последен ред]"
+
+#: ../srcore/srctrl.c:2676
+#, c-format
+msgid "%d empty line"
+msgid_plural "%d empty lines"
+msgstr[0] "%d празен ред"
+msgstr[1] "%d празни редови"
+msgstr[2] "%d празни редови"
+
+#: ../srcore/srctrl.c:2697 ../srcore/srctrl.c:2699
+msgid "[empty line]"
+msgstr "[празен ред]"
+
+#: ../srcore/srctrl.c:2704
+#, c-format
+msgid "[%d empty line]"
+msgid_plural "[%d empty lines]"
+msgstr[0] "[%d празен ред]"
+msgstr[1] "[%d празни ред]"
+msgstr[2] "[%d празни ред]"
+
+#: ../srcore/srctrl.c:2786 ../srcore/srctrl.c:2787 ../srcore/srctrl.c:2795
+#: ../srcore/srctrl.c:2950 ../srcore/srctrl.c:2951
+msgid "cannot make flat review for current window"
+msgstr "не можам да направам рамен преглед на тековниот прозорец"
+
+#: ../srcore/srctrl.c:3022
+msgid "flat review mode"
+msgstr "режим на рамен преглед"
+
+#: ../srcore/srctrl.c:3038
+msgid "focus tracking mode"
+msgstr "режим на фокусирано пратење"
+
+#: ../srcore/srctrl.c:3577
+#, c-format
+msgid "\"%s\" entry has invalid value at position %d."
+msgstr "\"%s\" има невалидна вредност на позицијата %d."
+
+#: ../srcore/srctrl.c:3598
+#, c-format
+msgid "key \"%s\" has an invalid value at position %d."
+msgstr "копчето \"%s\" има невалидна вредност на позиција %d."
+
+#: ../srcore/srctrl.c:3634
+msgid "Can not get key pad commands mapping from gconf."
+msgstr "Не можам да ги добијам командите за обележување од gconf."
+
+#: ../srcore/srctrl.c:3645
+msgid "Can not get braille display commands mapping from gconf."
+msgstr "Не можам да го добијам брајовиот приказ за мапирање на командата од gconf."
+
+#: ../srcore/srctrl.c:3656
+msgid "Can not get user defined commands mapping from gconf."
+msgstr "Не можам да добијам команди за gconf дефинирани од корисникот."
+
+#: ../srcore/srctrl.c:3760
+msgid "no role available"
+msgstr "нема достапна улога"
+
+#: ../srcore/srmain.c:77 ../srcore/srmain.c:80
+msgid "No focus"
+msgstr "Без фокус"
+
+#: ../srcore/srmain.c:83
+msgid "No accessible object is focused"
+msgstr "Не е фокусиран достапен објект"
+
+#: ../srcore/srmain.c:466
+msgid "unknown location"
+msgstr "непозната локација"
+
+#: ../srcore/srmain.c:503
+msgid "no details"
+msgstr "без детали"
+
+#: ../srcore/srmain.c:543
+msgid "layer"
+msgstr "слој"
+
+#: ../srcore/srmain.c:564
+msgid "back to layer"
+msgstr "назад на слојот"
+
+#: ../srcore/srmain.c:936
+msgid "cursor on"
+msgstr "Вклучи покажувач"
+
+#: ../srcore/srmain.c:936
+msgid "cursor off"
+msgstr "Исклучи покажувач"
+
+#: ../srcore/srmain.c:954
+msgid "current cursor is"
+msgstr "тековниот покажувач е"
+
+#: ../srcore/srmain.c:972
+msgid "cursor size"
+msgstr "големина на покажувачот"
+
+#: ../srcore/srmain.c:989
+msgid "cursor magnification on"
+msgstr "зголемувањето на стрелката е вклучено"
+
+#: ../srcore/srmain.c:990
+msgid "cursor magnification off"
+msgstr "зголемувањето на стрелката е исклучено"
+
+#: ../srcore/srmain.c:1008
+msgid "cursor color"
+msgstr "боја на покажувачот"
+
+#: ../srcore/srmain.c:1025
+msgid "crosshair on"
+msgstr "Вклучи мета"
+
+#: ../srcore/srmain.c:1025
+msgid "crosshair off"
+msgstr "Исклучи мета"
+
+#: ../srcore/srmain.c:1042
+msgid "crosshair clip on"
+msgstr "клипот за рамнење е уклучен"
+
+#: ../srcore/srmain.c:1043
+msgid "crosshair clip off"
+msgstr "клипот за рамнење е исклучен"
+
+#: ../srcore/srmain.c:1061
+msgid "crosshair size"
+msgstr "големина на мета"
+
+#: ../srcore/srmain.c:1079
+msgid "crosshair color"
+msgstr "боја на мета"
+
+#: ../srcore/srmain.c:1097
+msgid "zoomer placement left"
+msgstr "поставување·на·приближувачот·лево"
+
+#: ../srcore/srmain.c:1115
+msgid "zoomer placement top"
+msgstr "поставување на приближувачот на врвот"
+
+#: ../srcore/srmain.c:1133
+msgid "zoomer placement width"
+msgstr "ширина на поставување·на·приближувачот"
+
+#: ../srcore/srmain.c:1151
+msgid "zoomer placement height"
+msgstr "висина·на·поставување на приближувачот"
+
+#: ../srcore/srmain.c:1181
+msgid "magnifier target"
+msgstr "мета на зголемувачот"
+
+#: ../srcore/srmain.c:1199
+msgid "magnifier source"
+msgstr "извор на зголемувачот"
+
+#: ../srcore/srmain.c:1217
+msgid "zoom factor x"
+msgstr "фактор на приближување x"
+
+#: ../srcore/srmain.c:1235
+msgid "zoom factor y"
+msgstr "фактор·на·приближување y"
+
+#: ../srcore/srmain.c:1252
+msgid "zoom factor locked"
+msgstr "факторот за зумирање е заклучен"
+
+#: ../srcore/srmain.c:1253
+msgid "zoom factor unlocked"
+msgstr "факторот за зумирање е отклучен"
+
+#: ../srcore/srmain.c:1270
+msgid "invert on"
+msgstr "вклучено е обратно"
+
+#: ../srcore/srmain.c:1270
+msgid "invert off"
+msgstr "исклучено е обратно"
+
+#: ../srcore/srmain.c:1288
+msgid "magnifier smoothing type"
+msgstr "тип на замаглување на зголемувачот"
+
+#: ../srcore/srmain.c:1311
+msgid "mouse tracking mode"
+msgstr "режим на следење на глувчето"
+
+#: ../srcore/srmain.c:1333
+msgid "panning on"
+msgstr "менувањето на екранот е вклучено"
+
+#: ../srcore/srmain.c:1333
+msgid "panning off"
+msgstr "менувањето на екранот е исклучено"
+
+#: ../srcore/srmain.c:1705
+msgid "alt"
+msgstr "alt"
+
+#: ../srcore/srmain.c:1710
+msgid "control"
+msgstr "control"
+
+#: ../srcore/srmain.c:1715
+msgid "shift"
+msgstr "shift"
+
+#: ../srcore/srmain.c:1720 ../srcore/srpres.c:870
+msgid "Window"
+msgstr "Прозорец"
+
+#: ../srcore/srmain.c:1725 ../srcore/srmain.c:1800 ../srcore/srpres.c:836
+msgid "Menu"
+msgstr "Мени"
+
+#: ../srcore/srmain.c:1730
+msgid "caps lock"
+msgstr "caps lock"
+
+#: ../srcore/srmain.c:1734
+msgid "num lock"
+msgstr "num lock"
+
+#: ../srcore/srmain.c:1742 ../srcore/srmain.c:1786
+msgid "right"
+msgstr "десно"
+
+#: ../srcore/srmain.c:1744 ../srcore/srmain.c:1788
+msgid "left"
+msgstr "лево"
+
+#: ../srcore/srmain.c:1778
+msgid "home"
+msgstr "home"
+
+#: ../srcore/srmain.c:1780
+msgid "end"
+msgstr "end"
+
+#: ../srcore/srmain.c:1782
+msgid "page up"
+msgstr "page up"
+
+#: ../srcore/srmain.c:1784
+msgid "page down"
+msgstr "page down"
+
+#: ../srcore/srmain.c:1790
+msgid "down"
+msgstr "долу"
+
+#: ../srcore/srmain.c:1792
+msgid "up"
+msgstr "горе"
+
+#: ../srcore/srmain.c:1794
+msgid "backspace"
+msgstr "backspace"
+
+#: ../srcore/srmain.c:1796
+msgid "delete"
+msgstr "delete"
+
+#: ../srcore/srmain.c:1798
+msgid "escape"
+msgstr "escape"
+
+#: ../srcore/srmain.c:2362
+msgid "Welcome to Gnopernicus"
+msgstr "Добредојдовте во Гноперник!"
+
+#: ../srcore/srmain.c:2471
+msgid "braille device can not be initialized"
+msgstr "брајовиот уред не може да се иницијализира"
+
+#: ../srcore/srmain.c:2485
+msgid "Gnopernicus is now exiting. Have a nice day!"
+msgstr "Гноперник сега се исклучува. Имајте пријатен ден!"
+
+#: ../srcore/srmain.c:2764
+msgid "srcore"
+msgstr "srcore"
+
+#: ../srcore/srpres.c:810
+msgid "UNK"
+msgstr "UNK"
+
+#: ../srcore/srpres.c:810
+msgid "UNKNOWN"
+msgstr "НЕПОЗНАТО"
+
+#: ../srcore/srpres.c:810
+msgid "Unknown"
+msgstr "Непознато"
+
+#: ../srcore/srpres.c:811
+msgid "???"
+msgstr "???"
+
+#: ../srcore/srpres.c:811
+msgid "INVALID"
+msgstr "НЕВАЛИДНО"
+
+#: ../srcore/srpres.c:811
+msgid "Invalid"
+msgstr "Невалидно"
+
+#: ../srcore/srpres.c:812
+msgid "ALR"
+msgstr "ALR"
+
+#: ../srcore/srpres.c:812
+msgid "ALERT"
+msgstr "ALERT"
+
+#: ../srcore/srpres.c:813
+msgid "CNV"
+msgstr "CNV"
+
+#: ../srcore/srpres.c:813
+msgid "CANVAS"
+msgstr "CANVAS"
+
+#: ../srcore/srpres.c:813
+msgid "Canvas"
+msgstr "стрелка"
+
+#: ../srcore/srpres.c:814
+msgid "CHK"
+msgstr "CHK"
+
+#: ../srcore/srpres.c:814
+msgid "CHECK_BOX"
+msgstr "CHECK_BOX"
+
+#: ../srcore/srpres.c:814
+msgid "Check box"
+msgstr "Изборно поле"
+
+#: ../srcore/srpres.c:815 ../srcore/srpres.c:838 ../srcore/srpres.c:848
+msgid "MIT"
+msgstr "MIT"
+
+#: ../srcore/srpres.c:815 ../srcore/srpres.c:838 ../srcore/srpres.c:848
+msgid "MENU ITEM"
+msgstr "MENU ITEM"
+
+#: ../srcore/srpres.c:815
+msgid "Check Menu item"
+msgstr "Провери го предметот од менито"
+
+#: ../srcore/srpres.c:816
+msgid "CCH"
+msgstr "CCH"
+
+#: ../srcore/srpres.c:816
+msgid "COLOR CHOOSER"
+msgstr "ИЗБИРАЧ НА БОИ"
+
+#: ../srcore/srpres.c:816
+msgid "Color chooser"
+msgstr "Избирач на бои"
+
+#: ../srcore/srpres.c:817
+msgid "CHD"
+msgstr "CHD"
+
+#: ../srcore/srpres.c:817
+msgid "COLUMN HEADER"
+msgstr "COLUMN HEADER"
+
+#: ../srcore/srpres.c:817
+msgid "Column header"
+msgstr "Заглавие на колона"
+
+#: ../srcore/srpres.c:818
+msgid "CBO"
+msgstr "CBO"
+
+#: ../srcore/srpres.c:818
+msgid "COMBO BOX"
+msgstr "COMBO BOX"
+
+#: ../srcore/srpres.c:818
+msgid "Combo box"
+msgstr "Комбинирано поле"
+
+#: ../srcore/srpres.c:819
+msgid "DIC"
+msgstr "DIC"
+
+#: ../srcore/srpres.c:819
+msgid "DESKTOP ICON"
+msgstr "DESKTOP ICON"
+
+#: ../srcore/srpres.c:819
+msgid "Desktop icon"
+msgstr "Икона на работната површина"
+
+#: ../srcore/srpres.c:820
+msgid "DFR"
+msgstr "DFR"
+
+#: ../srcore/srpres.c:820
+msgid "DESKTOP FRAME"
+msgstr "DESKTOP FRAME"
+
+#: ../srcore/srpres.c:820
+msgid "Desktop frame"
+msgstr "Рамка на работната површина"
+
+#: ../srcore/srpres.c:821
+msgid "DLG"
+msgstr "DLG"
+
+#: ../srcore/srpres.c:821
+msgid "DIALOG"
+msgstr "DIALOG"
+
+#: ../srcore/srpres.c:821
+msgid "Dialog"
+msgstr "Диалог прозорец"
+
+#: ../srcore/srpres.c:822
+msgid "DIP"
+msgstr "DIP"
+
+#: ../srcore/srpres.c:822
+msgid "DIRECTORY PANE"
+msgstr "DIRECTORY PANE"
+
+#: ../srcore/srpres.c:822
+msgid "Directory pane"
+msgstr "Површина на директориум"
+
+#: ../srcore/srpres.c:823
+msgid "FCH"
+msgstr "FCH"
+
+#: ../srcore/srpres.c:823
+msgid "FILE CHOOSER"
+msgstr "ИЗБИРАЧ НА ДАТОТЕКИ"
+
+#: ../srcore/srpres.c:823
+msgid "File chooser"
+msgstr "Избирач на датотеки"
+
+#: ../srcore/srpres.c:824
+msgid "FLR"
+msgstr "FLR"
+
+#: ../srcore/srpres.c:824
+msgid "FILLER"
+msgstr "FILLER"
+
+#: ../srcore/srpres.c:824
+msgid "Filler"
+msgstr "Пополнувач"
+
+#: ../srcore/srpres.c:825
+msgid "FRM"
+msgstr "FRM"
+
+#: ../srcore/srpres.c:825
+msgid "FRAME"
+msgstr "FRAME"
+
+#: ../srcore/srpres.c:825
+msgid "Frame"
+msgstr "Рамка"
+
+#: ../srcore/srpres.c:826
+msgid "GPN"
+msgstr "GPN"
+
+#: ../srcore/srpres.c:826
+msgid "GLASS PANE"
+msgstr "GLASS PANE"
+
+#: ../srcore/srpres.c:826
+msgid "Glass pane"
+msgstr "Стаклена површина"
+
+#: ../srcore/srpres.c:827
+msgid "HTM"
+msgstr "HTM"
+
+#: ../srcore/srpres.c:827
+msgid "HTML CONTAINER"
+msgstr "HTML CONTAINER"
+
+#: ../srcore/srpres.c:827
+msgid "H T M L container"
+msgstr "H T M L container"
+
+#: ../srcore/srpres.c:828 ../srcore/srpres.c:833
+msgid "LNK"
+msgstr "LNK"
+
+#: ../srcore/srpres.c:828 ../srcore/srpres.c:833
+msgid "LINK"
+msgstr "ВРСКА"
+
+#: ../srcore/srpres.c:828 ../srcore/srpres.c:833
+msgid "link"
+msgstr "Врска"
+
+#: ../srcore/srpres.c:829
+msgid "ICO"
+msgstr "ICO"
+
+#: ../srcore/srpres.c:829
+msgid "ICON"
+msgstr "ICON"
+
+#: ../srcore/srpres.c:829
+msgid "Icon"
+msgstr "Икона"
+
+#: ../srcore/srpres.c:830
+msgid "IFR"
+msgstr "IFR"
+
+#: ../srcore/srpres.c:830
+msgid "INTERNAL FRAME"
+msgstr "INTERNAL FRAME"
+
+#: ../srcore/srpres.c:830
+msgid "Internal frame"
+msgstr "Внатрешна рамка"
+
+#: ../srcore/srpres.c:831
+msgid "LBL"
+msgstr "LBL"
+
+#: ../srcore/srpres.c:831
+msgid "LABEL"
+msgstr "НАСЛОВ"
+
+#: ../srcore/srpres.c:831
+msgid "Label"
+msgstr "Наслов"
+
+#: ../srcore/srpres.c:832
+msgid "LPN"
+msgstr "LPN"
+
+#: ../srcore/srpres.c:832
+msgid "LAYERED PANE"
+msgstr "LAYERED PANE"
+
+#: ../srcore/srpres.c:832
+msgid "Layered pane"
+msgstr "Површина со повеќе слоеви"
+
+#: ../srcore/srpres.c:834
+msgid "LST"
+msgstr "LST"
+
+#: ../srcore/srpres.c:834
+msgid "LIST"
+msgstr "ЛИСТА"
+
+#: ../srcore/srpres.c:834
+msgid "List"
+msgstr "Листа"
+
+#: ../srcore/srpres.c:835
+msgid "LIT"
+msgstr "LIT"
+
+#: ../srcore/srpres.c:835
+msgid "LIST ITEM"
+msgstr "LIST ITEM"
+
+#: ../srcore/srpres.c:835
+msgid "List item"
+msgstr "Предмет од листата"
+
+#: ../srcore/srpres.c:836
+msgid "MNU"
+msgstr "MNU"
+
+#: ../srcore/srpres.c:836
+msgid "MENU"
+msgstr "МЕНИ"
+
+#: ../srcore/srpres.c:837
+msgid "MBR"
+msgstr "MBR"
+
+#: ../srcore/srpres.c:837
+msgid "MENU BAR"
+msgstr "MENU BAR"
+
+#: ../srcore/srpres.c:837
+msgid "Menu bar"
+msgstr "Мени лента"
+
+#: ../srcore/srpres.c:838
+msgid "Menu item"
+msgstr "Предмет од менито"
+
+#: ../srcore/srpres.c:839
+msgid "OPN"
+msgstr "OPN"
+
+#: ../srcore/srpres.c:839
+msgid "OPTION PANE"
+msgstr "OPTION PANE"
+
+#: ../srcore/srpres.c:839
+msgid "Option pane"
+msgstr "Опција на површина"
+
+#: ../srcore/srpres.c:840
+msgid "PGT"
+msgstr "PGT"
+
+#: ../srcore/srpres.c:840
+msgid "PAGE TAB"
+msgstr "PAGE TAB"
+
+#: ../srcore/srpres.c:840
+msgid "Page tab"
+msgstr "Јазиче на страната"
+
+#: ../srcore/srpres.c:841
+msgid "PTL"
+msgstr "PTL"
+
+#: ../srcore/srpres.c:841
+msgid "PAGE TAB LIST"
+msgstr "PAGE TAB LIST"
+
+#: ../srcore/srpres.c:841
+msgid "Page tab list"
+msgstr "Листа со јазичиња на страната"
+
+#: ../srcore/srpres.c:842
+msgid "PNL"
+msgstr "PNL"
+
+#: ../srcore/srpres.c:842
+msgid "PANEL"
+msgstr "PANEL"
+
+#: ../srcore/srpres.c:842
+msgid "Panel"
+msgstr "Панел"
+
+#: ../srcore/srpres.c:843
+msgid "PWD"
+msgstr "PWD"
+
+#: ../srcore/srpres.c:843
+msgid "PASSWORD TEXT"
+msgstr "PASSWORD TEXT"
+
+#: ../srcore/srpres.c:843
+msgid "Password text"
+msgstr "Текст од лозинка"
+
+#: ../srcore/srpres.c:844
+msgid "PMN"
+msgstr "PMN"
+
+#: ../srcore/srpres.c:844
+msgid "POPUP MENU"
+msgstr "POPUP MENU"
+
+#: ../srcore/srpres.c:844
+msgid "Popup menu"
+msgstr "Скокачко мени"
+
+#: ../srcore/srpres.c:845
+msgid "PRG"
+msgstr "PRG"
+
+#: ../srcore/srpres.c:845
+msgid "PROGRESS BAR"
+msgstr "PROGRESS BAR"
+
+#: ../srcore/srpres.c:845
+msgid "Progress bar"
+msgstr "Лента за напредување"
+
+#: ../srcore/srpres.c:846
+msgid "PBT"
+msgstr "PBT"
+
+#: ../srcore/srpres.c:846
+msgid "PUSH BUTTON"
+msgstr "PUSH BUTTON"
+
+#: ../srcore/srpres.c:846
+msgid "Push button"
+msgstr "Копче"
+
+#: ../srcore/srpres.c:847
+msgid "RAD"
+msgstr "RAD"
+
+#: ../srcore/srpres.c:847
+msgid "RADIO BUTTON"
+msgstr "RADIO BUTTON"
+
+#: ../srcore/srpres.c:847
+msgid "Radio button"
+msgstr "Радио копче"
+
+#: ../srcore/srpres.c:848
+msgid "Radio Menu item"
+msgstr "Радио предмет од менито"
+
+#: ../srcore/srpres.c:849
+msgid "RPN"
+msgstr "RPN"
+
+#: ../srcore/srpres.c:849
+msgid "ROOT PANE"
+msgstr "ROOT PANE"
+
+#: ../srcore/srpres.c:849
+msgid "Root pane"
+msgstr "Површина на root"
+
+#: ../srcore/srpres.c:850
+msgid "RHD"
+msgstr "RHD"
+
+#: ../srcore/srpres.c:850
+msgid "ROW HEADER"
+msgstr "ROW HEADER"
+
+#: ../srcore/srpres.c:850
+msgid "Row header"
+msgstr "Заглавие на ред"
+
+#: ../srcore/srpres.c:851
+msgid "SCR"
+msgstr "SCR"
+
+#: ../srcore/srpres.c:851
+msgid "SCROLL BAR"
+msgstr "SCROLL BAR"
+
+#: ../srcore/srpres.c:851
+msgid "Scroll bar"
+msgstr "Движечка лента"
+
+#: ../srcore/srpres.c:852 ../srcore/srpres.c:880
+msgid "SPN"
+msgstr "SPN"
+
+#: ../srcore/srpres.c:852
+msgid "SCROLL PANE"
+msgstr "SCROLL PANE"
+
+#: ../srcore/srpres.c:852
+msgid "Scroll pane"
+msgstr "Површина за лизгање"
+
+#: ../srcore/srpres.c:853
+msgid "SEP"
+msgstr "SEP"
+
+#: ../srcore/srpres.c:853
+msgid "SEPARATOR"
+msgstr "SEPARATOR"
+
+#: ../srcore/srpres.c:853
+msgid "Separator"
+msgstr "Одделувач"
+
+#: ../srcore/srpres.c:854
+msgid "SLD"
+msgstr "SLD"
+
+#: ../srcore/srpres.c:854
+msgid "SLIDER"
+msgstr "ЛИЗГАЧ"
+
+#: ../srcore/srpres.c:854
+msgid "Slider"
+msgstr "Лизгач"
+
+#: ../srcore/srpres.c:855
+msgid "SPP"
+msgstr "SPP"
+
+#: ../srcore/srpres.c:855
+msgid "SPLIT PANE"
+msgstr "SPLIT PANE"
+
+#: ../srcore/srpres.c:855
+msgid "Split pane"
+msgstr "Поделена површина"
+
+#: ../srcore/srpres.c:856
+msgid "STA"
+msgstr "STA"
+
+#: ../srcore/srpres.c:856
+msgid "STATUS BAR"
+msgstr "STATUS BAR"
+
+#: ../srcore/srpres.c:856
+msgid "Status bar"
+msgstr "Статусна лента"
+
+#: ../srcore/srpres.c:857
+msgid "TAB"
+msgstr "TAB"
+
+#: ../srcore/srpres.c:857
+msgid "TABLE"
+msgstr "ТАБЕЛА"
+
+#: ../srcore/srpres.c:857
+msgid "Table"
+msgstr "Табела"
+
+#: ../srcore/srpres.c:858
+msgid "CEL"
+msgstr "CEL"
+
+#: ../srcore/srpres.c:858
+msgid "TABLE CELL"
+msgstr "TABLE CELL"
+
+#: ../srcore/srpres.c:858
+msgid "Table cell"
+msgstr "Ќелија од табела"
+
+#: ../srcore/srpres.c:859 ../srcore/srpres.c:884
+msgid "TCH"
+msgstr "TCH"
+
+#: ../srcore/srpres.c:859
+msgid "TABLE COLUMN HEADER"
+msgstr "TABLE COLUMN HEADER"
+
+#: ../srcore/srpres.c:859
+msgid "Table column header"
+msgstr "Заглавие на колоната"
+
+#: ../srcore/srpres.c:860
+msgid "TRH"
+msgstr "TRH"
+
+#: ../srcore/srpres.c:860
+msgid "TABLE ROW HEADER"
+msgstr "TABLE ROW HEADER"
+
+#: ../srcore/srpres.c:860
+msgid "Table row header"
+msgstr "Хедер на редови во табела"
+
+#: ../srcore/srpres.c:861 ../srcore/srpres.c:862
+msgid "TXT"
+msgstr "TXT"
+
+#: ../srcore/srpres.c:861
+msgid "MULTI LINE TEXT"
+msgstr "MULTI LINE TEXT"
+
+#: ../srcore/srpres.c:861
+msgid "Multi Line Text"
+msgstr "Текст од повеќе редови"
+
+#: ../srcore/srpres.c:862
+msgid "SINGLE LINE TEXT"
+msgstr "SINGLE LINE TEXT"
+
+#: ../srcore/srpres.c:862
+msgid "Single Line Text"
+msgstr "Текст од еден ред"
+
+#: ../srcore/srpres.c:863
+msgid "TOG"
+msgstr "TOG"
+
+#: ../srcore/srpres.c:863
+msgid "TOGGLE BUTTON"
+msgstr "TOGGLE BUTTON"
+
+#: ../srcore/srpres.c:863
+msgid "Toggle button"
+msgstr "Менувај копче"
+
+#: ../srcore/srpres.c:864
+msgid "TOL"
+msgstr "TOL"
+
+#: ../srcore/srpres.c:864
+msgid "TOOL BAR"
+msgstr "TOOL BAR"
+
+#: ../srcore/srpres.c:864
+msgid "Tool bar"
+msgstr "лента со алатки"
+
+#: ../srcore/srpres.c:865
+msgid "TIP"
+msgstr "TIP"
+
+#: ../srcore/srpres.c:865
+msgid "TOOL TIP"
+msgstr "TOOL TIP"
+
+#: ../srcore/srpres.c:865
+msgid "Tool tip"
+msgstr "Tool tip"
+
+#: ../srcore/srpres.c:866
+msgid "TRE"
+msgstr "TRE"
+
+#: ../srcore/srpres.c:866
+msgid "TREE"
+msgstr "TREE"
+
+#: ../srcore/srpres.c:866
+msgid "Tree"
+msgstr "Дрво"
+
+#: ../srcore/srpres.c:867
+msgid "TRI"
+msgstr "TRI"
+
+#: ../srcore/srpres.c:867
+msgid "TREE ITEM"
+msgstr "TREE ITEM"
+
+#: ../srcore/srpres.c:867
+msgid "Tree item"
+msgstr "Предмет од дрвото"
+
+#: ../srcore/srpres.c:868
+msgid "TRT"
+msgstr "TRT"
+
+#: ../srcore/srpres.c:868
+msgid "TREE TABLE"
+msgstr "TREE TABLE"
+
+#: ../srcore/srpres.c:868
+msgid "Tree table"
+msgstr "Дрво на табела"
+
+#: ../srcore/srpres.c:869
+msgid "VWP"
+msgstr "VWP"
+
+#: ../srcore/srpres.c:869
+msgid "VIEWPORT"
+msgstr "VIEWPORT"
+
+#: ../srcore/srpres.c:869
+msgid "Viewport"
+msgstr "Viewport"
+
+#: ../srcore/srpres.c:870
+msgid "WND"
+msgstr "WND"
+
+#: ../srcore/srpres.c:870
+msgid "WINDOW"
+msgstr "WINDOW"
+
+#: ../srcore/srpres.c:871
+msgid "ACC"
+msgstr "ACC"
+
+#: ../srcore/srpres.c:871
+msgid "ACCELERATOR LABEL"
+msgstr "ACCELERATOR LABEL"
+
+#: ../srcore/srpres.c:871
+msgid "Accelerator label"
+msgstr "Ознака за забрзување"
+
+#: ../srcore/srpres.c:872
+msgid "ANI"
+msgstr "ANI"
+
+#: ../srcore/srpres.c:872
+msgid "ANIMATION"
+msgstr "ANIMATION"
+
+#: ../srcore/srpres.c:872
+msgid "Animation"
+msgstr "Анимација"
+
+#: ../srcore/srpres.c:873
+msgid "ARR"
+msgstr "ARR"
+
+#: ../srcore/srpres.c:873
+msgid "ARROW"
+msgstr "ARROW"
+
+#: ../srcore/srpres.c:873
+msgid "Arrow"
+msgstr "Стрелка"
+
+#: ../srcore/srpres.c:874
+msgid "CAL"
+msgstr "CAL"
+
+#: ../srcore/srpres.c:874
+msgid "CALENDAR"
+msgstr "КАЛЕНДАР"
+
+#: ../srcore/srpres.c:874
+msgid "Calendar"
+msgstr "Календар"
+
+#: ../srcore/srpres.c:875
+msgid "DAT"
+msgstr "DAT"
+
+#: ../srcore/srpres.c:875
+msgid "DATE EDITOR"
+msgstr "DATE EDITOR"
+
+#: ../srcore/srpres.c:875
+msgid "Date editor"
+msgstr "Уредувач на датумот"
+
+#: ../srcore/srpres.c:876
+msgid "DIL"
+msgstr "DIL"
+
+#: ../srcore/srpres.c:876
+msgid "DIAL"
+msgstr "БИРАЈ"
+
+#: ../srcore/srpres.c:876
+msgid "Dial"
+msgstr "Бирај"
+
+#: ../srcore/srpres.c:877
+msgid "DRW"
+msgstr "DRW"
+
+#: ../srcore/srpres.c:877
+msgid "DRAWING AREA"
+msgstr "ПРОСТОР ЗА ЦРТАЊЕ"
+
+#: ../srcore/srpres.c:877
+msgid "Drawing area"
+msgstr "Простор за цртање"
+
+#: ../srcore/srpres.c:878
+msgid "FNT"
+msgstr "FNT"
+
+#: ../srcore/srpres.c:878
+msgid "FONT CHOOSER"
+msgstr "ИЗБИРАЧ·НА·ФОНТ"
+
+#: ../srcore/srpres.c:878
+msgid "Font chooser"
+msgstr "Избирач на фонт"
+
+#: ../srcore/srpres.c:879
+msgid "IMG"
+msgstr "IMG"
+
+#: ../srcore/srpres.c:879
+msgid "IMAGE"
+msgstr "СЛИКА"
+
+#: ../srcore/srpres.c:879
+msgid "Image"
+msgstr "Слика"
+
+#: ../srcore/srpres.c:880
+msgid "SPIN BUTTON"
+msgstr "SPIN BUTTON"
+
+#: ../srcore/srpres.c:880
+msgid "Spin button"
+msgstr "Копче за вртење"
+
+#: ../srcore/srpres.c:881
+msgid "TRM"
+msgstr "TRM"
+
+#: ../srcore/srpres.c:881
+msgid "TERMINAL"
+msgstr "TERMINAL"
+
+#: ../srcore/srpres.c:881
+msgid "Terminal"
+msgstr "Терминал"
+
+#: ../srcore/srpres.c:882
+msgid "EXT"
+msgstr "EXT"
+
+#: ../srcore/srpres.c:882
+msgid "EXTENDED"
+msgstr "EXTENDED"
+
+#: ../srcore/srpres.c:882
+msgid "Extended"
+msgstr "Проширено"
+
+#: ../srcore/srpres.c:883
+msgid "TLI"
+msgstr "TLI"
+
+#: ../srcore/srpres.c:883
+msgid "TABLE LINE"
+msgstr "TABLE LINE"
+
+#: ../srcore/srpres.c:883
+msgid "Table line"
+msgstr "Ред од табела"
+
+#: ../srcore/srpres.c:884
+msgid "TABLE COLUMNS HEADER"
+msgstr "TABLE COLUMNS HEADER"
+
+#: ../srcore/srpres.c:884
+msgid "Table columns header"
+msgstr "Заглавие на колона од табела"
+
+#: ../srcore/srpres.c:885
+msgid "TIT"
+msgstr "TIT"
+
+#: ../srcore/srpres.c:885
+msgid "TITLE BAR"
+msgstr "TITLE BAR"
+
+#: ../srcore/srpres.c:885
+msgid "Title bar"
+msgstr "Лента со наслов"
+
+#: ../srcore/srpres.c:886
+msgid "EDB"
+msgstr "EDB"
+
+#: ../srcore/srpres.c:886
+msgid "EDIT BAR"
+msgstr "EDIT BAR"
+
+#: ../srcore/srpres.c:886
+msgid "Edit bar"
+msgstr "Лента за уредување"
+
+#: ../srcore/srspc.c:445
+#, c-format
+msgid "Incorrect parameters for voice \"%s%s\""
+msgstr "Неточни параметри за гласот \"%s%s\""
+
+#: ../srcore/srspc.c:490
+#, c-format
+msgid "failed to send to speech next string \"%s\""
+msgstr "Не можам да испратам стринг на говорот \"%s\""
+
+#: ../srcore/srspc.c:556
+#, c-format
+msgid "could not create/modify voice \"%s\""
+msgstr "не можам да креирам/променам глас \"%s\""
+
+#: ../srcore/srspc.c:717
+#, c-format
+msgid "voice \"%s\" will sound this way"
+msgstr "гласот \"%s\" би звучел вака"
+
+#: ../srcore/srspc.c:722
+#, c-format
+msgid "could not test voice \"%s\""
+msgstr "не можам да го тестирам гласот \"%s\""
+
+#: ../srcore/srspc.c:811
+#, c-format
+msgid "value not supported for speech count mode \"%s\""
+msgstr "вредноста на е поддржана за режимот за броење на говор \"%s\""
+
+#: ../srcore/srspc.c:847
+#, c-format
+msgid "value not supported for speech modifiers type \"%s\""
+msgstr "вредноста на е поддржана за режимот за менувачи на говор \"%s\""
+
+#: ../srcore/srspc.c:883
+#, c-format
+msgid "value not supported for speech cursors type \"%s\""
+msgstr "value not supported for speech cursors type \"%s\""
+
+#: ../srcore/srspc.c:919
+#, c-format
+msgid "value not supported for speech spaces type \"%s\""
+msgstr "вредноста на е поддржана за типот за простор помеѓу говорот \"%s\""
+
+#: ../srcore/srspc.c:955
+#, c-format
+msgid "value not supported for speech dictionary type \"%s\""
+msgstr "value not supported for speech dictionary type \"%s\""
+
+#: ../srcore/srspc.c:992
+#, c-format
+msgid "value not supported for speech text echo type \"%s\""
+msgstr "value not supported for speech text echo type \"%s\""
+
+#: ../srcore/srspc.c:1011
+msgid "Tilde"
+msgstr "~"
+
+#: ../srcore/srspc.c:1011
+msgid "Tildaes"
+msgstr "Повеќе знакови ~"
+
+#: ../srcore/srspc.c:1012
+msgid "Exclamation"
+msgstr "Извик"
+
+#: ../srcore/srspc.c:1012
+msgid "Exclamations"
+msgstr "Извици"
+
+#: ../srcore/srspc.c:1013
+msgid "At"
+msgstr "@"
+
+#: ../srcore/srspc.c:1013
+msgid "Ats"
+msgstr "Повеќе знакови @"
+
+#: ../srcore/srspc.c:1014
+msgid "Hash"
+msgstr "Хеш"
+
+#: ../srcore/srspc.c:1014
+msgid "Hashes"
+msgstr "Хешови"
+
+#: ../srcore/srspc.c:1015
+msgid "Dollar"
+msgstr "Знак долар"
+
+#: ../srcore/srspc.c:1015
+msgid "Dollars"
+msgstr "Повеќе знакови долар"
+
+#: ../srcore/srspc.c:1016
+msgid "Percent"
+msgstr "Процент"
+
+#: ../srcore/srspc.c:1016
+msgid "Percents"
+msgstr "Повеќе знакови процент"
+
+#: ../srcore/srspc.c:1017
+msgid "Caret"
+msgstr "^"
+
+#: ../srcore/srspc.c:1017
+msgid "Carets"
+msgstr "Повеќе ^"
+
+#: ../srcore/srspc.c:1018
+msgid "And"
+msgstr "&"
+
+#: ../srcore/srspc.c:1018
+msgid "Ands"
+msgstr "Повеќе &"
+
+#: ../srcore/srspc.c:1019
+msgid "Asterisk"
+msgstr "Ѕвездичка"
+
+#: ../srcore/srspc.c:1019
+msgid "Asterisks"
+msgstr "Ѕвездички "
+
+#: ../srcore/srspc.c:1020
+msgid "Left Paranthesis"
+msgstr "Лев додаток"
+
+#: ../srcore/srspc.c:1021
+msgid "Right Paranthesis"
+msgstr "Десен додаток"
+
+#: ../srcore/srspc.c:1022
+msgid "Underscore"
+msgstr "Долна црта"
+
+#: ../srcore/srspc.c:1022
+msgid "Underscores"
+msgstr "Повеќе знакови „долна црта“"
+
+#: ../srcore/srspc.c:1023
+msgid "Plus"
+msgstr "Плус"
+
+#: ../srcore/srspc.c:1023
+msgid "Pluses"
+msgstr "Плусеви"
+
+#: ../srcore/srspc.c:1024
+msgid "Equal"
+msgstr "Еднакво"
+
+#: ../srcore/srspc.c:1024
+msgid "Equals"
+msgstr "Повеќе знакови еднакво"
+
+#: ../srcore/srspc.c:1025
+msgid "Minus"
+msgstr "Минус"
+
+#: ../srcore/srspc.c:1025
+msgid "Minuses"
+msgstr "Минуси"
+
+#: ../srcore/srspc.c:1026
+msgid "Quote"
+msgstr "Наводници"
+
+#: ../srcore/srspc.c:1026
+msgid "Quotes"
+msgstr "Наводници"
+
+#: ../srcore/srspc.c:1027
+msgid "Left Bracket"
+msgstr "Лева заграда"
+
+#: ../srcore/srspc.c:1027
+msgid "Left Brackets"
+msgstr "Леви загради"
+
+#: ../srcore/srspc.c:1028
+msgid "Right Bracket"
+msgstr "Десна заграда"
+
+#: ../srcore/srspc.c:1028
+msgid "Right Brackets"
+msgstr "Десни загради"
+
+#: ../srcore/srspc.c:1029
+msgid "Left Brace"
+msgstr "Лева средна заграда"
+
+#: ../srcore/srspc.c:1029
+msgid "Left Braces"
+msgstr "Повеќе леви средни загради"
+
+#: ../srcore/srspc.c:1030
+msgid "Right Brace"
+msgstr "Десна средна·заграда"
+
+#: ../srcore/srspc.c:1030
+msgid "Right Braces"
+msgstr "Повеќе десни средни загради"
+
+#: ../srcore/srspc.c:1031
+msgid "Semicolon"
+msgstr "Точка запирка"
+
+#: ../srcore/srspc.c:1031
+msgid "Semicolons"
+msgstr "Повеќе·знакови·„точка запирка“"
+
+#: ../srcore/srspc.c:1032
+msgid "Colon"
+msgstr "Две точки"
+
+#: ../srcore/srspc.c:1032
+msgid "Colons"
+msgstr "Повеќе знакови „две точки“"
+
+#: ../srcore/srspc.c:1033
+msgid "Double quote"
+msgstr "Дупол цитат"
+
+#: ../srcore/srspc.c:1033
+msgid "Double quotes"
+msgstr "Дупли цитати"
+
+#: ../srcore/srspc.c:1034
+msgid "Apostrophe"
+msgstr "Апостроф"
+
+#: ../srcore/srspc.c:1034
+msgid "Apostrophes"
+msgstr "Апострофи"
+
+#: ../srcore/srspc.c:1035
+msgid "Back Slash"
+msgstr "Back Slash"
+
+#: ../srcore/srspc.c:1035
+msgid "Back Slashes"
+msgstr "Back Slashes"
+
+#: ../srcore/srspc.c:1036
+msgid "Bar"
+msgstr "Лента"
+
+#: ../srcore/srspc.c:1036
+msgid "Bars"
+msgstr "Ленти"
+
+#: ../srcore/srspc.c:1037
+msgid "Greater"
+msgstr "Поголемо"
+
+#: ../srcore/srspc.c:1037
+msgid "Greaters"
+msgstr "Повеќе знакови поголемо"
+
+#: ../srcore/srspc.c:1038
+msgid "Less"
+msgstr "Помало"
+
+#: ../srcore/srspc.c:1038
+msgid "Lesses"
+msgstr "Собирачи"
+
+#: ../srcore/srspc.c:1039
+msgid "Comma"
+msgstr "Запирка"
+
+#: ../srcore/srspc.c:1039
+msgid "Commas"
+msgstr "Запирки"
+
+#: ../srcore/srspc.c:1040
+msgid "Dot"
+msgstr "Точка"
+
+#: ../srcore/srspc.c:1040
+msgid "Dots"
+msgstr "Точки"
+
+#: ../srcore/srspc.c:1041
+msgid "Slash"
+msgstr "Коса црта"
+
+#: ../srcore/srspc.c:1041
+msgid "Slashes"
+msgstr "Коси црти"
+
+#: ../srcore/srspc.c:1042
+msgid "Questions"
+msgstr "Прашања"
+
+#: ../srcore/srspc.c:1116
+#, c-format
+msgid "value not supported for speech punctuation type \"%s\""
+msgstr "вредноста не е поддржана за типот на говор \"%s\""
+
+#: ../srcore/srspc.c:1382
+msgid "Unable to initialize hashtable"
+msgstr "Не можам да ја иницијализирам хеш табелата"
+
+#: ../srcore/srspc.c:1388
+msgid "Unable to load dictionary from gconf"
+msgstr "Не можам да вчитам речник од gconf"
+
+#: ../srcore/srspc.c:1619
+msgid "speech initialization succeded"
+msgstr "Иницијализирањето·на·говорот·успеа"
+
+#: ../srcore/srspc.c:1621
+msgid "Speech restored"
+msgstr "Говорот е повратен"
+
+#: ../srcore/srspc.c:1625
+msgid "speech initialization failed"
+msgstr "Иницијализирањето на говорот не успеа"
+
+#: ../srcore/srspc.c:1824
+msgid "enter"
+msgstr "enter"
+
+#: ../srcore/srspc.c:1907
+#, c-format
+msgid "can not find \"%s\" voice. use default voice"
+msgstr "не можам да го пронајдам гласот \"%s\".Го користам стандардниот глас"
+
+#: ../srcore/srspc.c:1924
+msgid "voices pitch will be set to default value"
+msgstr "Тонот на гласовите ќе биде поставен на стандардната вредност"
+
+#: ../srcore/srspc.c:1926
+msgid "voices pitch will be decreased"
+msgstr "Тонот·на·гласовите·ќе·биде намален"
+
+#: ../srcore/srspc.c:1928
+msgid "voices pitch will be increased"
+msgstr "Тонот·на·гласовите·ќе·биде зголемен"
+
+#: ../srcore/srspc.c:1972
+msgid "voices rate will be set to default value"
+msgstr "Интензитетот на гласовите ќе биде поставен на стандардната вредност"
+
+#: ../srcore/srspc.c:1974
+msgid "voices rate will be decreased"
+msgstr "Интензитетот·на·гласовите·ќе·биде намален"
+
+#: ../srcore/srspc.c:1976
+msgid "voices rate will be increased"
+msgstr "Интензитетот·на·гласовите·ќе·биде зголемен"
+
+#: ../srcore/srspc.c:2021
+msgid "voices volume will be set to default value"
+msgstr "Гласноста на гласовите ќе биде поставена на стандардната вредност"
+
+#: ../srcore/srspc.c:2023
+msgid "voices volume will be decreased"
+msgstr "Гласноста·на·гласовите·ќе·биде намалена"
+
+#: ../srcore/srspc.c:2025
+msgid "voices volume will be increased"
+msgstr "Гласноста·на·гласовите·ќе·биде зголемена"
+
+#: ../srcore/srspc.c:2151
+#, c-format
+msgid "no support for speech key \"%s\""
+msgstr "Нема поддршка за копче за говор \"%s\""
+

@@ -1,0 +1,51 @@
+### Makefile.common
+###
+### Copyright (C) 2002 by the KDE developers
+
+###
+### All the real work is done by the shellscript cvs.sh
+###
+
+SHELL=/bin/sh
+
+cvs:
+	@MAKE=$(MAKE) $(SHELL) admin/cvs.sh cvs
+
+dist:	
+	@MAKE=$(MAKE) $(SHELL) admin/cvs.sh dist
+
+cvs-clean:
+	@if test "x$(admindir)" = x; then \
+	  echo "cvs-clean called incorrectly"; \
+	  exit 1; \
+	fi
+	@MAKE=$(MAKE) $(SHELL) $(admindir)/cvs.sh cvs-clean
+
+
+# The Makefiles have to be sorted for slashes, since configure creates
+# only one directory per Makefile not the whole hierarchy
+configure.in: configure.files $(shell test -f configure.files && cat configure.files) subdirs
+	@MAKE=$(MAKE) $(SHELL) admin/cvs.sh configure.in
+
+configure.files: subdirs
+	@MAKE=$(MAKE) $(SHELL) admin/cvs.sh configure.files
+
+subdirs:
+	@MAKE=$(MAKE) $(SHELL) admin/cvs.sh subdirs
+
+
+package-merge:
+	@MAKE=$(MAKE) POFILES=$(POFILES) PACKAGE=$(PACKAGE) \
+	  $(SHELL) admin/cvs.sh package-merge
+
+package-messages:
+	@MAKE=$(MAKE) $(SHELL) admin/cvs.sh package-messages
+
+toptest:
+	echo $$top_srcdir
+	echo $$MAKE
+
+.SILENT:
+
+.PHONY: cvs test dist cvs-clean package-merge package-messages
+

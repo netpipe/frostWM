@@ -1,0 +1,23 @@
+# MALAGASY TRANSLATION OF GNOME-MAG.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# Thierry Randrianiriana <thierry@isvtec.com>, 2006.
+msgid ""
+msgstr ""
+"Project-Id-Version: GNOME-MAG VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-08-22 07:57+0200\n"
+"PO-Revision-Date: 2006-08-22 20:38+0300\n"
+"Last-Translator: Fano Rajaonarisoa <fano@isvtec.com>\n"
+"Language-Team: MALAGASY <i18n-malagasy-gnome@gna.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../magnifier/GNOME_Magnifier.server.in.in.h:1
+msgid "Magnifier"
+msgstr "Fitaratra fanalehibiazana"
+
+#: ../magnifier/GNOME_Magnifier.server.in.in.h:2
+msgid "Simple Screen Magnification Service"
+msgstr "Sampanasa fanalehibiazana efijery tsotra"
