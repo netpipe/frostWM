@@ -29,6 +29,7 @@
 			<Add library="dl" />
 			<Add library="ssl" />
 			<Add library="crypto" />
+			<Add library="FOX-1.6" />
 			<Add directory="/home/Dev/libs/game/Irrlicht-SVN/lib/Linux" />
 			<Add directory="/home/netpipe/gamedev/irrlicht-1.8.4/lib/Linux" />
 		</Linker>
