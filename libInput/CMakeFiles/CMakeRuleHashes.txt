@@ -1,0 +1,10 @@
+# Hashes of file build rules.
+e736210bda5d1811573a0438161ce73d CMakeFiles/xdotool
+da37d3b1c26d8192f85fe158cba782a5 CMakeFiles/xdotool-complete
+63456787c6b6e2c3f5ec4232e1364030 xdotool-prefix/src/xdotool-stamp/xdotool-build
+222cabbcaf821b7b85d843bab716c6f2 xdotool-prefix/src/xdotool-stamp/xdotool-configure
+e6976d89696c12e5b9234906bbfc4872 xdotool-prefix/src/xdotool-stamp/xdotool-download
+14f1dfb39da519a41f4dcc9b297d4569 xdotool-prefix/src/xdotool-stamp/xdotool-install
+78c98e8d7ab47a838f7bf6eb7ebccb09 xdotool-prefix/src/xdotool-stamp/xdotool-mkdir
+6251034d41add36a66799f7cd9533a3d xdotool-prefix/src/xdotool-stamp/xdotool-patch
+42d695af3a63741347fb07dfb9fc9051 xdotool-prefix/src/xdotool-stamp/xdotool-update

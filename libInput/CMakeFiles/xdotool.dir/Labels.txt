@@ -1,0 +1,13 @@
+# Target labels
+ xdotool
+# Source files and their labels
+/home/netpipe/Desktop/libInput/CMakeFiles/xdotool
+/home/netpipe/Desktop/libInput/CMakeFiles/xdotool.rule
+/home/netpipe/Desktop/libInput/CMakeFiles/xdotool-complete.rule
+/home/netpipe/Desktop/libInput/xdotool-prefix/src/xdotool-stamp/xdotool-install.rule
+/home/netpipe/Desktop/libInput/xdotool-prefix/src/xdotool-stamp/xdotool-mkdir.rule
+/home/netpipe/Desktop/libInput/xdotool-prefix/src/xdotool-stamp/xdotool-download.rule
+/home/netpipe/Desktop/libInput/xdotool-prefix/src/xdotool-stamp/xdotool-update.rule
+/home/netpipe/Desktop/libInput/xdotool-prefix/src/xdotool-stamp/xdotool-patch.rule
+/home/netpipe/Desktop/libInput/xdotool-prefix/src/xdotool-stamp/xdotool-configure.rule
+/home/netpipe/Desktop/libInput/xdotool-prefix/src/xdotool-stamp/xdotool-build.rule

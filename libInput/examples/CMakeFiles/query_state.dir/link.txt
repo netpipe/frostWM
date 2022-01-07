@@ -1,0 +1,1 @@
+/usr/bin/c++  -g  -rdynamic CMakeFiles/query_state.dir/query_state.cpp.o  -o query_state  ../src/libInput.a -lSM -lICE -lX11 -lXext -lXau -lXdmcp -lXi -lXext -lXau -lXdmcp -lXi -lXcomposite -lXfixes -lXtst -lXrender -lXinerama -ldl -lpthread 

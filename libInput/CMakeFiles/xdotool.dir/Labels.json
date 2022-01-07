@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/netpipe/Desktop/libInput/CMakeFiles/xdotool"
+		},
+		{
+			"file" : "/home/netpipe/Desktop/libInput/CMakeFiles/xdotool.rule"
+		},
+		{
+			"file" : "/home/netpipe/Desktop/libInput/CMakeFiles/xdotool-complete.rule"
+		},
+		{
+			"file" : "/home/netpipe/Desktop/libInput/xdotool-prefix/src/xdotool-stamp/xdotool-install.rule"
+		},
+		{
+			"file" : "/home/netpipe/Desktop/libInput/xdotool-prefix/src/xdotool-stamp/xdotool-mkdir.rule"
+		},
+		{
+			"file" : "/home/netpipe/Desktop/libInput/xdotool-prefix/src/xdotool-stamp/xdotool-download.rule"
+		},
+		{
+			"file" : "/home/netpipe/Desktop/libInput/xdotool-prefix/src/xdotool-stamp/xdotool-update.rule"
+		},
+		{
+			"file" : "/home/netpipe/Desktop/libInput/xdotool-prefix/src/xdotool-stamp/xdotool-patch.rule"
+		},
+		{
+			"file" : "/home/netpipe/Desktop/libInput/xdotool-prefix/src/xdotool-stamp/xdotool-configure.rule"
+		},
+		{
+			"file" : "/home/netpipe/Desktop/libInput/xdotool-prefix/src/xdotool-stamp/xdotool-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"xdotool"
+		],
+		"name" : "xdotool"
+	}
+}

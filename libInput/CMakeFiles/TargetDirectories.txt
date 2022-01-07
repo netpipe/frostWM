@@ -1,0 +1,10 @@
+/home/netpipe/Desktop/libInput/CMakeFiles/rebuild_cache.dir
+/home/netpipe/Desktop/libInput/CMakeFiles/edit_cache.dir
+/home/netpipe/Desktop/libInput/CMakeFiles/xdotool.dir
+/home/netpipe/Desktop/libInput/src/CMakeFiles/edit_cache.dir
+/home/netpipe/Desktop/libInput/src/CMakeFiles/rebuild_cache.dir
+/home/netpipe/Desktop/libInput/src/CMakeFiles/Input.dir
+/home/netpipe/Desktop/libInput/examples/CMakeFiles/rebuild_cache.dir
+/home/netpipe/Desktop/libInput/examples/CMakeFiles/edit_cache.dir
+/home/netpipe/Desktop/libInput/examples/CMakeFiles/multi-pointers.dir
+/home/netpipe/Desktop/libInput/examples/CMakeFiles/query_state.dir

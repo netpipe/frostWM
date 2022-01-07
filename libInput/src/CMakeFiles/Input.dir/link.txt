@@ -1,0 +1,2 @@
+/usr/bin/ar qc libInput.a  CMakeFiles/Input.dir/InputController.cpp.o CMakeFiles/Input.dir/x11/X11InputController.cpp.o CMakeFiles/Input.dir/x11/X11InputDevice.cpp.o CMakeFiles/Input.dir/x11/X11Keyboard.cpp.o CMakeFiles/Input.dir/x11/X11Mouse.cpp.o
+/usr/bin/ranlib libInput.a
