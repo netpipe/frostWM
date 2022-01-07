@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Irrlicht Pong" />
+		<Option pch_mode="0" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="default">
+				<Option output="./Pong" prefix_auto="0" extension_auto="0" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option projectResourceIncludeDirsRelation="1" />
+			</Target>
+		</Build>
+		<VirtualTargets>
+			<Add alias="All" targets="default;" />
+		</VirtualTargets>
+		<Compiler>
+			<Add directory="/home/Dev/libs/game/Irrlicht-SVN/include" />
+			<Add directory="/home/netpipe/gamedev/irrlicht-1.8.4/include" />
+		</Compiler>
+		<Linker>
+			<Add library="Irrlicht" />
+			<Add library="GL" />
+			<Add library="Xxf86vm" />
+			<Add library="X11" />
+			<Add library="pthread" />
+			<Add library="dl" />
+			<Add library="ssl" />
+			<Add library="crypto" />
+			<Add directory="/home/Dev/libs/game/Irrlicht-SVN/lib/Linux" />
+			<Add directory="/home/netpipe/gamedev/irrlicht-1.8.4/lib/Linux" />
+		</Linker>
+		<Unit filename="cclc.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="cclc.h" />
+		<Unit filename="cclc_private.h" />
+		<Unit filename="cclcfox.cpp" />
+		<Unit filename="cclcfox.h" />
+		<Unit filename="cmds.h" />
+		<Unit filename="gui.cpp" />
+		<Unit filename="gui.h" />
+		<Unit filename="img_ctrl.h" />
+		<Unit filename="locker.cpp" />
+		<Unit filename="locker.h" />
+		<Unit filename="lockpix.cpp" />
+		<Unit filename="lockpix.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="update.h" />
+		<Unit filename="util.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>
