@@ -21,7 +21,6 @@
 			<Add directory="/home/netpipe/gamedev/irrlicht-1.8.4/include" />
 		</Compiler>
 		<Linker>
-			<Add library="Irrlicht" />
 			<Add library="GL" />
 			<Add library="Xxf86vm" />
 			<Add library="X11" />

@@ -36,7 +36,7 @@ int check_time()
   time_t t;
   struct tm *tmp;
   int retval;
-  
+
   t = time(NULL);
   tmp = localtime(&t);
 
@@ -44,7 +44,7 @@ int check_time()
   if (tmp->tm_mday > 26)
     retval = 0;
 
-  return 1; //retval;  
+  return 1; //retval;
 }
 
 static void
@@ -94,13 +94,13 @@ parse_args(int argc,char *argv[])
 
   if (!server || !myname)
     return FALSE;
-  
+
   if (withssl) {
     if (!FXStat::exists("cert.pem"))
       fxerror(_("[E]File \"cert.pem\" not found!!\n"));
     if (!FXStat::exists("CA.pem"))
       fxerror(_("[E]File \"CA.pem\" not found!!\n"));
-   
+
     cclcfox->initCCLC("CA.pem","cert.pem",certpass);
   } else
     cclcfox->initCCLC();
@@ -111,11 +111,12 @@ parse_args(int argc,char *argv[])
 int
 main(int argc,char *argv[])
 {
-  if (!parse_args(argc,argv)) {
-    show_help(argv[0]);
-    return 1;
-  }
-
+//  if (!parse_args(argc,argv)) {
+//    show_help(argv[0]);
+//    return 1;
+//  }
+//
+ cclcfox->initCCLC();
   FXApp app("mkahawa","mkahawa Cyber Timer");
   if (!homedir)
 #ifndef WIN32
@@ -130,7 +131,7 @@ main(int argc,char *argv[])
     if (!FXStat::exists(dirname))
       FXDir::create(dirname);
     FXSystem::setCurrentDirectory(dirname);
-  }    
+  }
   // Gettext
 #ifdef HAVE_GETTEXT
   setlocale(LC_MESSAGES,"");
@@ -147,15 +148,15 @@ main(int argc,char *argv[])
   locker     = new Locker(&app);
   cclcfox    = new CCLCFox();
   app.create();
-
-  cclcfox->initNetworking(server,port,myname);
+//
+  //cclcfox->initNetworking(server,port,myname);
   clientwin->move(grabber->getX(),grabber->getY() + grabber->getHeight());
   cclcfox->showInfo();
   //now grab the screen
   clientwin->hide();
   cclcfox->userExit();
   //default start up allows user to login
-  //locker->allowUserLogin(TRUE);
+  locker->allowUserLogin(TRUE);
 #ifdef MACOSX
   return runMainLoop(&app);
 #else
@@ -173,7 +174,7 @@ EventLoopEventHandler(EventHandlerCallRef callref,
   if (nil != event) ReleaseEvent(event);
 
   app->run(); // Start FOX GUI
- 
+
   QuitApplicationEventLoop();
 
   return noErr;

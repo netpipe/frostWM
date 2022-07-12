@@ -8,7 +8,8 @@
 //
 // Compile it:
 // g++ -lX11 -lXext shape2.cpp -o shape2
-//
+// g++ shape2.cpp -lX11 -lXext -o shape2
+
 // Run it:
 // ./shape2
  

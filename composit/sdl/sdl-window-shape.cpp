@@ -43,6 +43,8 @@ int main ( int argc, char** argv )
         printf("Unable to load bitmap: %s\n", SDL_GetError());
         return 1;
     }
+    
+    SDL_SetWindowShape(window
 
     // centre the bitmap on screen
     SDL_Rect dstrect;
