@@ -73,11 +73,11 @@ setAdminPass(char *pass, int plen)
 #endif
     fclose(fp);
   }
-  
+
   return 1;
 }
 
-void 
+void
 print_hash(unsigned char *hash, int len)
 {
   int i;
@@ -114,7 +114,7 @@ checkPass(char *pass, int plen)
     printf("\n");
 #endif
   }
-  
+
   return FALSE;
 }
 
@@ -173,7 +173,7 @@ CCLCFox::initCCLC(const char * cafile,const char * certfile,
 		  const char * certpass)
 {
   int error;
-  
+
   initCCLC();
 
   if (!CCLC_SSL_init(cafile,certfile,certpass,&error)) {
@@ -188,7 +188,7 @@ CCLCFox::initCCLC(const char * cafile,const char * certfile,
       break;
     }
   }
-  
+
   return TRUE;
 }
 
@@ -224,7 +224,7 @@ CCLCFox::shutdownNetworking()
   clientwin->setOwed("--.--");
   clientwin->setProducts("--.--");
   networking = FALSE;
-  
+
   return TRUE;
 }
 
@@ -280,7 +280,7 @@ CCLCFox::stop()
   if (can_print_poll){
     can_print_poll = 0;
     if (cups_fd>0) close(cups_fd);
-    cups_fd = -1;  
+    cups_fd = -1;
   }
 }
 
@@ -312,7 +312,7 @@ void
 CCLCFox::lockScreen()
 {
   setMemberLoginState(0); //reset states
-  setLoginMode(0);        
+  setLoginMode(0);
   locker->lock();
   hideInfo();
 }
@@ -417,8 +417,8 @@ dispMessage(void * message)
 
 #ifdef WIN32
   return 0;
-#else	
-  return (void *)0;			
+#else
+  return (void *)0;
 #endif
 }
 
@@ -434,12 +434,12 @@ CCLCFox::setOwed(FXuint owed)
 {
   char buf[64];
   double lowed;
-  
+
 #ifdef DEBUG
   printf ("Owed = %d\n", owed);
 #endif
-  owed = (owed+50) / 100; 
-  lowed = (double)owed;  
+  owed = (owed+50) / 100;
+  lowed = (double)owed;
   snprintf(buf,64,"%.2f", lowed);
   clientwin->setOwed(buf);
 }
@@ -469,7 +469,7 @@ CCLCFox::unlockWithPass(int id,FXString password)
   FXuchar digest[CCLC_MD5_DIGEST_LENGTH];
   CCLC_MD5((FXuchar*)(password.text()),password.length(),digest);
   ((FXuint*)val)[0] = CCLC_htonl(id);
-  memcpy(((FXuint*)val)+1,digest,CCLC_MD5_DIGEST_LENGTH); 
+  memcpy(((FXuint*)val)+1,digest,CCLC_MD5_DIGEST_LENGTH);
   CCLC_send_cmd(CC_MEMBERLOGIN,val,sizeof(val) * sizeof(char));
 }
 
@@ -481,7 +481,7 @@ CCLCFox::unlockWithPass(FXString tktstr)
   FXuchar digest[CCLC_MD5_DIGEST_LENGTH];
   CCLC_MD5((FXuchar*)(password.text()),password.length(),digest);
   ((FXuint*)val)[0] = CCLC_htonl(id);*/
-  //  memcpy(((FXuint*)val)+1,digest,CCLC_MD5_DIGEST_LENGTH); 
+  //  memcpy(((FXuint*)val)+1,digest,CCLC_MD5_DIGEST_LENGTH);
 
   if (tktstr.length() > MAX_INP_SIZE)
     tktstr.trunc(MAX_INP_SIZE);
@@ -500,10 +500,10 @@ CCLCFox::unlockWithPass(FXString login,FXString password)
 
   CCLC_MD5((FXuchar*)(password.text()),password.length(),digest);
   memcpy(val,login_name,strlen(login_name) + 1);
-  memcpy(val + strlen(login_name) + 1,digest,CCLC_MD5_DIGEST_LENGTH);   
+  memcpy(val + strlen(login_name) + 1,digest,CCLC_MD5_DIGEST_LENGTH);
   CCLC_send_cmd(CC_MEMBERLOGINWITHNAME,val,sizeof(val) * sizeof(char));
   if (!strncmp(login_name, _("administrator"), 13)){
-    if (checkPass((char *)password.text(), password.length())) 
+    if (checkPass((char *)password.text(), password.length()))
       unlockScreen();      //unlock all the same
   }
 }
@@ -539,13 +539,13 @@ CCLCFox::exitProgram()
   exit(0);
 }
 
-void 
-CCLCFox::setLoginMode(unsigned int loginmode) 
-{ 
+void
+CCLCFox::setLoginMode(unsigned int loginmode)
+{
   login_mode = loginmode;
   if (login_mode == OPMODE_TICKET  || login_mode == OPMODE_MEMBER)
     clientwin->setOwedLbl(_("Balance:"));
-  else 
+  else
     clientwin->setOwedLbl(_("Owed:"));
 }
 
@@ -632,9 +632,9 @@ CCLCFox::execCommand(FXuint cmd,const void *data,FXuint datasize)
                    dispMessage,
                    (LPVOID)data,
                    0, &chatthr);
-#else   
+#else
       pthread_create(&chatthr, NULL, &dispMessage, (void *)data);
-#endif      
+#endif
       break;
     case CS_CALLASSIST:
       ack_assist = 1;
@@ -672,7 +672,7 @@ CCLCFox::execCommand(FXuint cmd,const void *data,FXuint datasize)
     case CS_UPDATEEND:
       long resp;
       char msgstr[120], *cp;
-      
+
       if (doUpdate()){ //success
 	resp = 1;
 	resp = CCLC_htonl(resp);
@@ -735,20 +735,20 @@ CCLCFox::onTimer(FXObject*,FXSelector,void*)
     clientwin->setTime(buf);
     if (updateState != ONUPDATESTATE)  //quiet during update
       CCLC_send_cmd(CC_GETOWED,NULL,0);
-    
+
     if (0 < client_timeout){
       //#define DEBUG_TIMEOUT
 #ifdef DEBUG_TIMEOUT
-      printf ("onTimer(): time_warned=%d usedtime=%d client_timeout=%d\n", 
+      printf ("onTimer(): time_warned=%d usedtime=%d client_timeout=%d\n",
 	      time_warned, usedtime, client_timeout);
-#endif      
+#endif
       if (usedtime > client_timeout) // time exceeded
 	userExit();
       else if ( (client_timeout - usedtime) < WARNING_TIME &&  !time_warned ){
 	//WARNING_TIME to go
 	int wtime  = WARNING_TIME;
 	char wstr[64];
-	
+
 	sprintf(wstr, _("You have less than %d mins to browse."), wtime/60);
 	time_warned = 1;
 	dispMessage(wstr);
@@ -765,8 +765,8 @@ CCLCFox::onTimer(FXObject*,FXSelector,void*)
 long
 CCLCFox::onPollPrinting(FXObject*,FXSelector,void*)
 {
-  //int poll_len = 1500; 
-  int poll_len = 3000; 
+  //int poll_len = 1500;
+  int poll_len = 3000;
 
   if (active) {
     pollPrinting();
@@ -780,7 +780,7 @@ CCLCFox::onPollPrinting(FXObject*,FXSelector,void*)
     printf("Polled Printing: [Inactive] Length=%d\n", poll_len);
   }
 #endif
-  
+
   return 1;
 }
 
@@ -801,7 +801,7 @@ CCLCFox::setPassword(FXuchar digest[2*CCLC_MD5_DIGEST_LENGTH])
 }
 
 #define BUFSIZE 512
-void 
+void
 CCLCFox::pollPrinting()
 {
   struct stat tstat;
@@ -844,7 +844,7 @@ CCLCFox::pollPrinting()
   }
 }
 
-void 
+void
 CCLCFox::initPrintPolling()
 {
   int n;
@@ -857,7 +857,7 @@ CCLCFox::initPrintPolling()
     can_print_poll = 1;
     /* get the initial size of cups */
     memset(&fst, 0, sizeof(fst));
-    n = fstat(cups_fd, &fst);  
+    n = fstat(cups_fd, &fst);
   }
   else{
 #ifdef DEBUG
@@ -867,7 +867,7 @@ CCLCFox::initPrintPolling()
 }
 
 /* Ask for assistance */
-void 
+void
 CCLCFox::askForHelp()
 {
   ack_assist = 0;
@@ -877,7 +877,7 @@ CCLCFox::askForHelp()
 #endif
 }
 
-void 
+void
 print_update_info(UpdateInfo *ui)
 {
   printf("update_name: [%s]\n", ui->update_name);
@@ -920,7 +920,7 @@ CCLCFox::authUpdate(void *hdr, unsigned long len)
   return 1;
 }
 
-long 
+long
 CCLCFox::storeUpdateChunk(char *dat, long datlen)
 {
   memcpy((updata+chunk->pos), chunk->buf, chunk->blen);
@@ -937,7 +937,7 @@ CCLCFox::process_update_data()
   return 1;
 }
 
-long 
+long
 CCLCFox::doUpdate()
 {
   FXString   pname;
@@ -969,7 +969,7 @@ CCLCFox::doUpdate()
   fclose(fp);
   fmode = (FXuint) cui.fmode;
 #ifdef DEBUG_UPD
-  printf("doUpdate(): Update Completed: %s [mode=%O]\n", fname.text(), 
+  printf("doUpdate(): Update Completed: %s [mode=%O]\n", fname.text(),
 	 fmode);
 #endif
   FXStat::mode(fname, fmode);
